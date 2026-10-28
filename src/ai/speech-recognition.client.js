@@ -92,7 +92,8 @@ export async function isSpeechModelDownloaded(language) {
 // Loads a language's recogniser ahead of time (downloading it only when
 // `download` is true), so the first spoken question is answered sooner.
 export function preloadSpeechModel(language, { download = false, onStatus } = {}) {
-  if (!canRecogniseOnDevice(language) || preloaded.has(language)) return Promise.resolve(false);
+  if (!canRecogniseOnDevice(language)) return Promise.resolve(false);
+  if (preloaded.has(language) && !download) return Promise.resolve(false);
   preloaded.add(language);
 
   return send({ type: "preload", language, download }, onStatus).then(loaded => {

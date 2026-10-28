@@ -1,4 +1,5 @@
 import { prepareOfflineAi, updateOfflineAiStatus } from "../../ai/offline-ai.client.js";
+import { askCloudAi, isCloudAiAvailable } from "../../ai/cloud-ai.js";
 import { translationDirection } from "../../ai/translation-text.js";
 import { preloadTranslator, translateText } from "../../ai/translator.client.js";
 import { state } from "../../core/state.js";
@@ -183,9 +184,27 @@ const ANSWER_TIMEOUT_MS = 2 * 60 * 1000;
 export function askOfflineAi(request) {
   const { question, originalQuestion, language, action } = request;
 
-  // The model could not start on this device; answer from the lessons at
-  // once rather than after the wait.
+  // The model could not start on this device; try cloud AI first (if online),
+  // then fall back to the offline knowledge base.
   if (state.aiState === "error" && !state.offlineAiEngine) {
+    if (isCloudAiAvailable()) {
+      const context = withLanguage("English", () => getLessonContext(question));
+      showThinkingMessage(withLanguage(language, thinkingText));
+      askCloudAi(question, context)
+        .then(answer => {
+          if (request.conversation !== state.assistantConversation) return;
+          if (language === "English") {
+            addChatMessage(`☁️ ${answer}`, "bot");
+          } else {
+            deliverOfflineAiAnswer(answer, { ...request, translation: null });
+          }
+        })
+        .catch(() => {
+          if (request.conversation !== state.assistantConversation) return;
+          addChatMessage(withLanguage(language, () => getSmartOfflineAnswer(originalQuestion || question)), "bot");
+        });
+      return;
+    }
     addChatMessage(withLanguage(language, () => getSmartOfflineAnswer(originalQuestion || question)), "bot");
     return;
   }

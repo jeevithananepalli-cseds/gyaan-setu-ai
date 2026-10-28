@@ -1,11 +1,18 @@
 import { describe, expect, it } from "vitest";
-import { getLanguageTtsCode } from "../../src/ai/offline-downloader.js";
+import { offlinePackageSize, offlinePackageSteps } from "../../src/ai/offline-downloader.js";
 
-describe("offline-downloader", () => {
-  it("resolves the correct TTS voice code for each language", () => {
-    expect(getLanguageTtsCode("en")).toBe("mms-tts-eng");
-    expect(getLanguageTtsCode("te")).toBe("mms-tts-tel");
-    expect(getLanguageTtsCode("hi")).toBe("mms-tts-hin");
-    expect(getLanguageTtsCode("unknown")).toBe("mms-tts-eng");
+describe("offline package", () => {
+  it("includes the translators for Telugu and Hindi", () => {
+    expect(offlinePackageSteps("Telugu")).toEqual(["tutor", "en-indic", "indic-en", "voice"]);
+    expect(offlinePackageSteps("Hindi")).toEqual(["tutor", "en-indic", "indic-en", "voice"]);
+  });
+
+  it("includes on-device voice input for English", () => {
+    expect(offlinePackageSteps("English")).toEqual(["tutor", "voice", "speech"]);
+  });
+
+  it("reports the download size", () => {
+    expect(offlinePackageSize("English")).toBe(482);
+    expect(offlinePackageSize("Telugu")).toBe(976);
   });
 });

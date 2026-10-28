@@ -202,7 +202,11 @@ self.addEventListener("fetch", event => {
   // The tutor model's parts are downloaded by the model worker, which shows
   // the progress, and stored by it in the AI cache.
   if (model !== null && (/^(tts|indictrans2|whisper)\//.test(model) || /\.part-[a-z]+$/.test(model.split("?")[0]))) {
-    event.respondWith(fetch(event.request).then(withIsolationHeaders));
+    // Cross-origin model hosts (Hugging Face, etc.) need CORS mode so the
+    // redirect to their CDN returns a usable (non-opaque) response.
+    const isExternal = new URL(event.request.url).origin !== self.location.origin;
+    const fetchInit = isExternal ? { mode: "cors", credentials: "omit" } : undefined;
+    event.respondWith(fetch(event.request, fetchInit).then(withIsolationHeaders));
     return;
   }
 

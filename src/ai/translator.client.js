@@ -86,12 +86,17 @@ export async function isTranslatorDownloaded(direction) {
 }
 
 // Loads a direction into memory ahead of time so the first translation does
-// not wait for it. Downloads it only when `download` is true.
-export function preloadTranslator(direction, { download = false, onStatus } = {}) {
-  if (!canTranslate() || preloaded.has(direction)) return Promise.resolve(false);
+// not wait for it. Downloads it only when `download` is true; with
+// `load: false` it is only downloaded (for offline use), not loaded.
+export function preloadTranslator(direction, { download = false, load = true, onStatus } = {}) {
+  if (!canTranslate()) return Promise.resolve(false);
+  if (!load) return send({ type: "preload", direction, download, load }, onStatus);
+  // An explicit download still goes ahead while a direction is loading; the
+  // worker handles the two one after the other.
+  if (preloaded.has(direction) && !download) return Promise.resolve(false);
   preloaded.add(direction);
 
-  return send({ type: "preload", direction, download }, onStatus).then(loaded => {
+  return send({ type: "preload", direction, download, load }, onStatus).then(loaded => {
     if (!loaded) preloaded.delete(direction);
     return loaded;
   }, error => {

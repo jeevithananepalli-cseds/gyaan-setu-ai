@@ -1,275 +1,186 @@
-// Gyaan Setu One-Tap Offline AI Model Package Downloader
-// Downloads and caches the AI tutor, voice, translation, and speech models
-// needed for the learner's chosen language, enabling 100% offline functionality.
-
+// "Download for offline use": gets every model a learner's language needs
+// onto the device in one go, so the whole app works without the internet,
+// not only the features that happened to be used while online.
+//
+// Each model is downloaded by the code that uses it (the translation worker,
+// the voice worker, speech recognition, and the tutor's own files below), so
+// it is stored exactly where that code looks for it, and nothing is
+// downloaded twice.
 import {
   AI_CACHE_NAME,
   AI_READY_MARKER,
   MATCH_OPTIONS,
   OFFLINE_AI_MODEL,
-  SPEECH_CACHE_NAME,
-  TRANSLATOR_CACHE_NAME,
   VOICE_CACHE_NAME,
   modelsBaseUrl
 } from "../config/constants.js";
+import { requestAiAssetCache } from "./offline-ai.client.js";
+import { isSpeechModelDownloaded, preloadSpeechModel } from "./speech-recognition.client.js";
+import { isTranslatorDownloaded, preloadTranslator } from "./translator.client.js";
+import { startVoiceSession, synthesizeSpeech } from "./tts.client.js";
 
-const SMOL_LM_FILES = [
-  "config.json",
-  "merges.txt",
-  "special_tokens_map.json",
-  "tokenizer.json",
-  "tokenizer_config.json",
-  "vocab.json",
-  "onnx/model_q4f16.onnx.part-aa",
-  "onnx/model_q4f16.onnx.part-ab",
-  "onnx/model_q4f16.onnx.part-ac"
-];
+const TUTOR_PARTS = ["aa", "ab", "ac"];
 
-const TTS_FILES = [
-  "added_tokens.json",
-  "config.json",
-  "special_tokens_map.json",
-  "tokenizer.json",
-  "tokenizer_config.json",
-  "vocab.json",
-  "onnx/model.onnx.part-aa",
-  "onnx/model.onnx.part-ab"
-];
+const VOICE_FOLDERS = {
+  English: "mms-tts-eng",
+  Telugu: "mms-tts-tel",
+  Hindi: "mms-tts-hin"
+};
 
-const INDICTRANS_EN_INDIC = [
-  "decoder_model.onnx",
-  "decoder_shared.onnx.data.part-aa",
-  "decoder_shared.onnx.data.part-ab",
-  "decoder_shared.onnx.data.part-ac",
-  "decoder_with_past_model.onnx",
-  "encoder_model.onnx",
-  "encoder_model.onnx.data",
-  "generation_config.json",
-  "manifest.json",
-  "tokenizer_meta.json",
-  "tokenizer_src.json",
-  "tokenizer_tgt.json"
-];
+// Download sizes in MB, used to weight the progress bar and shown to the
+// learner before they start.
+const SIZES = { tutor: 295, voice: 110, speech: 77, "en-indic": 309, "indic-en": 262 };
 
-const INDICTRANS_INDIC_EN = [
-  "decoder_model.onnx",
-  "decoder_shared.onnx.data.part-aa",
-  "decoder_shared.onnx.data.part-ab",
-  "decoder_with_past_model.onnx",
-  "encoder_model.onnx",
-  "encoder_model.onnx.data.part-aa",
-  "encoder_model.onnx.data.part-ab",
-  "generation_config.json",
-  "manifest.json",
-  "tokenizer_meta.json",
-  "tokenizer_src.json",
-  "tokenizer_tgt.json"
-];
-
-const WHISPER_FILES = [
-  "added_tokens.json",
-  "config.json",
-  "generation_config.json",
-  "merges.txt",
-  "normalizer.json",
-  "preprocessor_config.json",
-  "special_tokens_map.json",
-  "tokenizer.json",
-  "tokenizer_config.json",
-  "vocab.json",
-  "onnx/decoder_model_merged_quantized.onnx",
-  "onnx/encoder_model_quantized.onnx"
-];
-
-const RUNTIME_VENDOR_FILES = [
-  "vendor/onnx/transformers.min.js",
-  "vendor/onnx/ort-wasm-simd-threaded.jsep.wasm",
-  "vendor/onnx/ort-wasm-simd-threaded.jsep.mjs",
-  "vendor/onnx/ort.webgpu.min.mjs"
-];
-
-function getAppBase() {
+function appBaseUrl() {
   return new URL("./", document.baseURI).href;
 }
 
-export function getLanguageTtsCode(language) {
-  if (language === "te") return "mms-tts-tel";
-  if (language === "hi") return "mms-tts-hin";
-  return "mms-tts-eng";
+function tutorPartUrls() {
+  const folder = `${modelsBaseUrl(appBaseUrl())}${OFFLINE_AI_MODEL}/onnx/`;
+  return TUTOR_PARTS.map(suffix => `${folder}model_q4f16.onnx.part-${suffix}`);
 }
 
-export async function isOfflinePackageDownloaded(language = "en") {
-  if (!("caches" in window)) return false;
+function voiceModelUrl(language) {
+  return `${modelsBaseUrl(appBaseUrl())}tts/${VOICE_FOLDERS[language]}/onnx/model.onnx`;
+}
+
+// What a language needs. English voice input runs on the device; Telugu and
+// Hindi voice input still use the browser's own (online) recognition.
+export function offlinePackageSteps(language) {
+  const steps = ["tutor"];
+  if (language === "Telugu" || language === "Hindi") steps.push("en-indic", "indic-en");
+  if (VOICE_FOLDERS[language]) steps.push("voice");
+  if (language === "English") steps.push("speech");
+  return steps;
+}
+
+export function offlinePackageSize(language) {
+  return offlinePackageSteps(language).reduce((sum, step) => sum + SIZES[step], 0);
+}
+
+async function isStepReady(step, language) {
+  if (step === "tutor") {
+    const cache = await caches.open(AI_CACHE_NAME);
+    const marker = await cache.match(AI_READY_MARKER, MATCH_OPTIONS);
+    const parts = await Promise.all(tutorPartUrls().map(url => cache.match(url, MATCH_OPTIONS)));
+    return Boolean(marker) && parts.every(Boolean);
+  }
+  if (step === "en-indic" || step === "indic-en") return isTranslatorDownloaded(step);
+  if (step === "voice") {
+    const cache = await caches.open(VOICE_CACHE_NAME);
+    return Boolean(await cache.match(voiceModelUrl(language), MATCH_OPTIONS));
+  }
+  if (step === "speech") return isSpeechModelDownloaded("English");
+  return false;
+}
+
+// True when everything the language needs is already on this device.
+export async function isOfflinePackageDownloaded(language) {
+  if (typeof caches === "undefined") return false;
   try {
-    const aiCache = await caches.open(AI_CACHE_NAME);
-    const hasAi = await aiCache.match(AI_READY_MARKER, MATCH_OPTIONS);
-    if (!hasAi) return false;
-
-    const voiceCode = getLanguageTtsCode(language);
-    const voiceCache = await caches.open(VOICE_CACHE_NAME);
-    const voiceMarker = await voiceCache.match(`./models/tts/${voiceCode}/ready-v1`, MATCH_OPTIONS);
-    if (!voiceMarker) return false;
-
-    if (language === "te" || language === "hi") {
-      const transCache = await caches.open(TRANSLATOR_CACHE_NAME);
-      const m1 = await transCache.match("./models/indictrans2/en-indic/ready-v1", MATCH_OPTIONS);
-      const m2 = await transCache.match("./models/indictrans2/indic-en/ready-v1", MATCH_OPTIONS);
-      if (!m1 || !m2) return false;
-    } else {
-      const speechCache = await caches.open(SPEECH_CACHE_NAME);
-      const sm = await speechCache.match("./models/whisper/whisper-base.en/ready-v1", MATCH_OPTIONS);
-      if (!sm) return false;
+    for (const step of offlinePackageSteps(language)) {
+      if (!(await isStepReady(step, language))) return false;
     }
-
     return true;
-  } catch {
+  }
+  catch {
     return false;
   }
 }
 
-export async function downloadOfflinePackage(language = "en", onProgress = () => {}) {
-  if (!("caches" in window)) {
-    throw new Error("CacheStorage is not supported on this browser.");
-  }
-  if (!navigator.onLine) {
-    throw new Error("Internet connection is required to download offline models.");
-  }
+// The tutor's runtime and small files are stored by the service worker; its
+// three model parts (270 MB) are stored here, under the same addresses the
+// tutor worker uses (see downloadModelParts in offline-ai.worker.js).
+async function downloadTutor(onPercent) {
+  if (!(await requestAiAssetCache())) throw new Error("the AI runtime could not be saved");
 
-  const appBase = getAppBase();
-  const modelsBase = modelsBaseUrl(appBase);
-  const voiceCode = getLanguageTtsCode(language);
-
-  // Compile tasks: list of { cacheName, url, cacheKey, readyMarker }
-  const tasks = [];
-
-  // 1. AI Tutor runtime
-  for (const file of RUNTIME_VENDOR_FILES) {
-    tasks.push({
-      cacheName: AI_CACHE_NAME,
-      url: `${appBase}${file}`,
-      cacheKey: `./${file}`
-    });
+  const cache = await caches.open(AI_CACHE_NAME);
+  const missing = [];
+  for (const url of tutorPartUrls()) {
+    if (!(await cache.match(url, MATCH_OPTIONS))) missing.push(url);
   }
 
-  // 2. AI Tutor model (SmolLM2)
-  for (const file of SMOL_LM_FILES) {
-    tasks.push({
-      cacheName: AI_CACHE_NAME,
-      url: `${modelsBase}${OFFLINE_AI_MODEL}/${file}`,
-      cacheKey: `${modelsBase}${OFFLINE_AI_MODEL}/${file}`
-    });
-  }
+  const received = missing.map(() => 0);
+  const sizes = missing.map(() => 0);
+  await Promise.all(missing.map(async (url, index) => {
+    const isExternal = !url.startsWith(location.origin);
+    const response = await fetch(url, isExternal
+      ? { mode: "cors", credentials: "omit", cache: "no-store" }
+      : { cache: "no-store" });
+    if (!response.ok) throw new Error(`model file missing (${response.status})`);
+    sizes[index] = Number(response.headers.get("Content-Length")) || 1;
 
-  // 3. Voice TTS for chosen language
-  for (const file of TTS_FILES) {
-    tasks.push({
-      cacheName: VOICE_CACHE_NAME,
-      url: `${modelsBase}tts/${voiceCode}/${file}`,
-      cacheKey: `${modelsBase}tts/${voiceCode}/${file}`
-    });
-  }
-
-  // 4. Translator or Speech Recognition
-  if (language === "te" || language === "hi") {
-    for (const file of INDICTRANS_EN_INDIC) {
-      tasks.push({
-        cacheName: TRANSLATOR_CACHE_NAME,
-        url: `${modelsBase}indictrans2/en-indic/${file}`,
-        cacheKey: `${modelsBase}indictrans2/en-indic/${file}`
-      });
-    }
-    for (const file of INDICTRANS_INDIC_EN) {
-      tasks.push({
-        cacheName: TRANSLATOR_CACHE_NAME,
-        url: `${modelsBase}indictrans2/indic-en/${file}`,
-        cacheKey: `${modelsBase}indictrans2/indic-en/${file}`
-      });
-    }
-  } else {
-    for (const file of WHISPER_FILES) {
-      tasks.push({
-        cacheName: SPEECH_CACHE_NAME,
-        url: `${modelsBase}whisper/whisper-base.en/${file}`,
-        cacheKey: `${modelsBase}whisper/whisper-base.en/${file}`
-      });
-    }
-  }
-
-  const total = tasks.length;
-  let completed = 0;
-
-  // Cache handles
-  const cachesMap = new Map();
-  async function getCache(name) {
-    if (!cachesMap.has(name)) {
-      cachesMap.set(name, await caches.open(name));
-    }
-    return cachesMap.get(name);
-  }
-
-  onProgress({
-    current: 0,
-    total,
-    percent: 0,
-    statusText: "Starting download..."
-  });
-
-  // Download with concurrency limit of 3 to avoid saturating network
-  const CONCURRENCY = 3;
-  let index = 0;
-
-  async function worker() {
-    while (index < tasks.length) {
-      const taskIndex = index++;
-      const task = tasks[taskIndex];
-      const cache = await getCache(task.cacheName);
-
-      // Check if already in cache
-      const existing = await cache.match(task.cacheKey, MATCH_OPTIONS);
-      if (!existing) {
-        const response = await fetch(task.url, { cache: "no-store" });
-        if (!response.ok) {
-          throw new Error(`Failed to download ${task.url} (Status ${response.status})`);
-        }
-        await cache.put(task.cacheKey, response);
+    const reader = response.body.getReader();
+    const chunks = [];
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      received[index] += value.byteLength;
+      if (sizes.every(Boolean)) {
+        const total = sizes.reduce((sum, size) => sum + size, 0);
+        onPercent(received.reduce((sum, bytes) => sum + bytes, 0) / total * 100);
       }
-
-      completed++;
-      const percent = Math.round((completed / total) * 100);
-      onProgress({
-        current: completed,
-        total,
-        percent,
-        statusText: `Downloading: ${percent}% (${completed}/${total})`
-      });
     }
+    await cache.put(url, new Response(new Blob(chunks), {
+      headers: { "Content-Type": "application/octet-stream" }
+    }));
+  }));
+}
+
+async function runStep(step, language, onPercent) {
+  const fromStatus = status => {
+    if (typeof status?.percent === "number") onPercent(status.percent);
+  };
+
+  if (step === "tutor") return downloadTutor(onPercent);
+
+  if (step === "en-indic" || step === "indic-en") {
+    const loaded = await preloadTranslator(step, { download: true, load: false, onStatus: fromStatus });
+    if (!loaded) throw new Error("the translator could not be downloaded");
+    return;
   }
 
-  const workers = Array.from({ length: Math.min(CONCURRENCY, tasks.length) }, () => worker());
-  await Promise.all(workers);
+  // Saying one word downloads the voice, loads it and proves it works.
+  if (step === "voice") return synthesizeSpeech(language, "Gyaan", startVoiceSession(), fromStatus);
 
-  // Write all ready markers
-  const aiCache = await getCache(AI_CACHE_NAME);
-  await aiCache.put(AI_READY_MARKER, new Response("ready"));
+  if (step === "speech") {
+    const loaded = await preloadSpeechModel("English", { download: true, onStatus: fromStatus });
+    if (!loaded) throw new Error("voice input could not be downloaded");
+  }
+}
 
-  const voiceCache = await getCache(VOICE_CACHE_NAME);
-  await voiceCache.put(`./models/tts/${voiceCode}/ready-v1`, new Response("ready"));
+// Downloads everything `language` needs. onProgress receives a whole number
+// from 0 to 100 for the package as a whole.
+export async function downloadOfflinePackage(language, onProgress = () => {}) {
+  if (typeof caches === "undefined") throw new Error("this browser cannot store files for offline use");
+  if (!navigator.onLine) throw new Error("connect to the internet to download");
 
-  if (language === "te" || language === "hi") {
-    const transCache = await getCache(TRANSLATOR_CACHE_NAME);
-    await transCache.put("./models/indictrans2/en-indic/ready-v1", new Response("ready"));
-    await transCache.put("./models/indictrans2/indic-en/ready-v1", new Response("ready"));
-  } else {
-    const speechCache = await getCache(SPEECH_CACHE_NAME);
-    await speechCache.put("./models/whisper/whisper-base.en/ready-v1", new Response("ready"));
+  const steps = offlinePackageSteps(language);
+  const total = steps.reduce((sum, step) => sum + SIZES[step], 0);
+  let current = steps[0];
+  // MB of finished steps.
+  let done = 0;
+  let last = -1;
+  const report = stepPercent => {
+    const megabytes = done + (Math.min(100, stepPercent) / 100) * SIZES[current];
+    const percent = Math.min(99, Math.floor((megabytes / total) * 100));
+    if (percent !== last) {
+      last = percent;
+      onProgress(percent);
+    }
+  };
+
+  report(0);
+  for (const step of steps) {
+    current = step;
+    if (!(await isStepReady(step, language))) await runStep(step, language, report);
+    done += SIZES[step];
+    report(0);
   }
 
-  onProgress({
-    current: total,
-    total,
-    percent: 100,
-    statusText: "All models downloaded! 100% offline ready."
-  });
-
-  return true;
+  if (!(await isOfflinePackageDownloaded(language))) {
+    throw new Error("some files could not be saved on this device");
+  }
+  onProgress(100);
 }

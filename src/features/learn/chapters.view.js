@@ -16,13 +16,13 @@ export function openChapter(
   chapterIndex
 ) {
 
-  const chapter =
-    learningData[
-      `class${state.selectedClass}`
-    ]
-    .chapters[
-      chapterIndex
-    ];
+  const classData = learningData[`class${state.selectedClass}`];
+  if (!classData) {
+    showLanguageScreen();
+    return;
+  }
+
+  const chapter = classData.chapters[chapterIndex];
 
 
   if (

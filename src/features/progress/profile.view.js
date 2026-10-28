@@ -1,4 +1,5 @@
 import { setActiveNav } from "../../core/router.js";
+import { isOfflinePackageDownloaded, downloadOfflinePackage, offlinePackageSize } from "../../ai/offline-downloader.js";
 import { registerActions } from "../../core/actions.js";
 import { app, escapeHtml } from "../../core/dom.js";
 import { state } from "../../core/state.js";
@@ -95,92 +96,101 @@ export function getOfflineAiDisplayState() {
 }
 
 
-import { downloadOfflinePackage, isOfflinePackageDownloaded } from "../../ai/offline-downloader.js";
-
 let isDownloadingModels = false;
+
+function offlinePackageLanguage() {
+  return state.selectedLanguage || "English";
+}
+
+function sizeText(language) {
+  const megabytes = offlinePackageSize(language);
+  return megabytes >= 1000 ? `${(megabytes / 1000).toFixed(1)} GB` : `${megabytes} MB`;
+}
+
+// Swaps the download button for the "saved" badge once everything is on the
+// device. Checked after the profile is drawn, because it reads storage.
+async function refreshOfflinePackageStatus() {
+  const panel = document.getElementById("offlinePackage");
+  if (!panel || isDownloadingModels) return;
+  const ready = await isOfflinePackageDownloaded(offlinePackageLanguage());
+  panel.classList.toggle("ready", ready);
+}
 
 export async function downloadOfflineModels() {
   if (isDownloadingModels) return;
-  const btn = document.getElementById("downloadOfflineBtn");
-  const progressContainer = document.getElementById("downloadOfflineProgress");
-  const progressFill = document.getElementById("downloadProgressBar");
-  const progressText = document.getElementById("downloadProgressText");
+  const panel = document.getElementById("offlinePackage");
+  const bar = document.getElementById("downloadProgressBar");
+  const text = document.getElementById("downloadProgressText");
+  const language = offlinePackageLanguage();
 
   if (!navigator.onLine) {
-    alert(textByLanguage(
-      "Please connect to the internet (Wi-Fi) to download offline models.",
-      "ఆఫ్‌లైన్ మోడళ్లను డౌన్‌లోడ్ చేయడానికి దయచేసి ఇంటర్నెట్‌కు (Wi-Fi) కనెక్ట్ అవ్వండి.",
-      "ऑफलाइन मॉडल डाउनलोड करने के लिए कृपया इंटरनेट (वाई-फ़ाई) से जुड़ें।"
-    ));
+    if (text) text.textContent = textByLanguage(
+      "Connect to the internet (Wi-Fi) to download.",
+      "డౌన్‌లోడ్ చేయడానికి ఇంటర్నెట్‌కు (Wi-Fi) కనెక్ట్ అవ్వండి.",
+      "डाउनलोड करने के लिए इंटरनेट (वाई-फ़ाई) से जुड़ें।"
+    );
     return;
   }
 
   isDownloadingModels = true;
-  if (btn) {
-    btn.disabled = true;
-    btn.style.opacity = "0.7";
-  }
-  if (progressContainer) progressContainer.style.display = "block";
+  panel?.classList.add("downloading");
 
   try {
-    const lang = state.selectedLanguage || "en";
-    await downloadOfflinePackage(lang, ({ percent, statusText }) => {
-      if (progressFill) progressFill.style.width = `${percent}%`;
-      if (progressText) progressText.textContent = `${statusText}`;
-    });
-
-    state.offlineAiState = "ready";
-    // Refresh the profile screen to display ready state
-    showProfileScreen();
-  } catch (error) {
-    console.error("Offline download failed:", error);
-    if (progressText) {
-      progressText.textContent = textByLanguage(
-        `Download failed: ${error.message || "Network error"}`,
-        `డౌన్‌లోడ్ విఫలమైంది: ${error.message || "నెట్‌వర్క్ లోపం"}`,
-        `डाउनलोड विफल: ${error.message || "नेटवर्क त्रुटि"}`
+    await downloadOfflinePackage(language, percent => {
+      if (bar) bar.style.width = `${percent}%`;
+      if (text) text.textContent = textByLanguage(
+        `Downloading… ${percent}%`,
+        `డౌన్‌లోడ్ అవుతోంది… ${percent}%`,
+        `डाउनलोड हो रहा है… ${percent}%`
       );
-    }
-    if (btn) {
-      btn.disabled = false;
-      btn.style.opacity = "1";
-    }
-  } finally {
+    });
+    panel?.classList.add("ready");
+  }
+  catch (error) {
+    console.error("Offline download failed:", error);
+    if (text) text.textContent = textByLanguage(
+      "The download stopped. Tap again to continue from where it stopped.",
+      "డౌన్‌లోడ్ ఆగిపోయింది. ఆగిన చోటు నుండి కొనసాగించడానికి మళ్ళీ నొక్కండి.",
+      "डाउनलोड रुक गया। जहाँ रुका था वहीं से जारी रखने के लिए फिर से दबाएँ।"
+    );
+  }
+  finally {
     isDownloadingModels = false;
+    panel?.classList.remove("downloading");
   }
 }
 
 export function renderOfflineAiSettings() {
-  const isReady = state.offlineAiState === "ready";
+  const language = offlinePackageLanguage();
+  setTimeout(refreshOfflinePackageStatus);
 
   return `
     <div class="offline-ai-settings">
       <span class="offline-ai-settings-icon">🧠</span>
-      <div style="flex: 1;">
+      <div id="offlinePackage" class="offline-package">
         <strong>${textByLanguage("Offline AI & Voices", "ఆఫ్‌లైన్ AI & వాయిస్", "ऑफलाइन AI और आवाज")}</strong>
-        <p>${getOfflineAiDisplayState()}</p>
-        
-        <div style="margin-top: 10px;">
-          ${isReady ? `
-            <span class="offline-stamp" style="background: rgba(34, 197, 94, 0.2); color: #22c55e; border: 1px solid #22c55e; padding: 4px 10px; border-radius: 20px; font-weight: bold; font-size: 0.85rem;">
-              ✓ ${textByLanguage("Saved for offline use", "ఆఫ్‌లైన్ కోసం భద్రపరచబడింది", "ऑफलाइन उपयोग के लिए सुरक्षित")}
-            </span>
-          ` : `
-            <button id="downloadOfflineBtn" class="action-btn" style="padding: 8px 16px; font-size: 0.9rem; border-radius: 8px;" data-action="downloadOfflineModels()">
-              📥 ${textByLanguage("Download for offline use", "ఆఫ్‌లైన్ కోసం డౌన్‌లోడ్ చేయండి", "ऑफलाइन उपयोग के लिए डाउनलोड करें")}
-            </button>
-            <div id="downloadOfflineProgress" style="display: none; margin-top: 8px;">
-              <div style="background: rgba(255,255,255,0.2); height: 8px; border-radius: 4px; overflow: hidden;">
-                <div id="downloadProgressBar" style="width: 0%; height: 100%; background: #3b82f6; transition: width 0.2s;"></div>
-              </div>
-              <small id="downloadProgressText" style="display: block; margin-top: 4px; opacity: 0.85; font-size: 0.8rem;">0%</small>
-            </div>
-          `}
+        <p class="offline-package-saved">
+          ✓ ${textByLanguage(
+            "Saved on this device. Gyaan's AI, translation and voices work without the internet.",
+            "ఈ పరికరంలో భద్రపరచబడింది. జ్ఞాన్ AI, అనువాదం మరియు వాయిస్‌లు ఇంటర్నెట్ లేకుండా పనిచేస్తాయి.",
+            "इस डिवाइस पर सुरक्षित। ज्ञान का AI, अनुवाद और आवाज़ें बिना इंटरनेट के काम करती हैं।"
+          )}
+        </p>
+        <div class="offline-package-download">
+          <p>${textByLanguage(
+            `Save everything for ${getLanguageDisplayName()} on this device (${sizeText(language)}, use Wi-Fi). Then Gyaan works fully offline.`,
+            `${getLanguageDisplayName()} కోసం అన్నింటినీ ఈ పరికరంలో భద్రపరచండి (${sizeText(language)}, Wi-Fi ఉపయోగించండి). తర్వాత జ్ఞాన్ పూర్తిగా ఆఫ్‌లైన్‌లో పనిచేస్తుంది.`,
+            `${getLanguageDisplayName()} के लिए सब कुछ इस डिवाइस पर सहेजें (${sizeText(language)}, वाई-फ़ाई इस्तेमाल करें)। फिर ज्ञान पूरी तरह ऑफलाइन काम करता है।`
+          )}</p>
+          <button id="downloadOfflineBtn" class="action-btn offline-package-button" data-action="downloadOfflineModels()">
+            📥 ${textByLanguage("Download for offline use", "ఆఫ్‌లైన్ కోసం డౌన్‌లోడ్ చేయండి", "ऑफलाइन उपयोग के लिए डाउनलोड करें")}
+          </button>
+          <div class="offline-package-progress" aria-hidden="true">
+            <div id="downloadProgressBar"></div>
+          </div>
+          <small id="downloadProgressText" class="offline-package-text" aria-live="polite"></small>
         </div>
       </div>
-      <button class="text-link" data-action="showHome(); openChat()">
-        ${textByLanguage("View", "చూడండి", "देखें")}
-      </button>
     </div>
   `;
 }

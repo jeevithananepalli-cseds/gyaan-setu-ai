@@ -7,8 +7,9 @@
 //
 // Messages in:
 //   { type: "translate", id, text, from, to, baseUrl, threads }
-//   { type: "preload", id, direction, baseUrl, threads, download }
-//                       load a direction; download it only if `download`
+//   { type: "preload", id, direction, baseUrl, threads, download, load }
+//                       load a direction; download it only if `download`;
+//                       with `load: false` only download it
 // Messages out:
 //   { type: "status", id, direction, phase: "downloading", percent }
 //   { type: "status", id, direction, phase: "loading" }
@@ -346,6 +347,12 @@ async function preload(message) {
   const report = (phase, percent) => self.postMessage({
     type: "status", id: message.id, direction: message.direction, phase, percent
   });
+  if (message.load === false) {
+    // Only store it on the device. Stored completely only when every file
+    // fitted in storage; otherwise it is downloaded again when needed.
+    await ensureFiles(message.direction, report);
+    return isDownloaded(message.direction);
+  }
   await loadModel(message.direction, report);
   return true;
 }

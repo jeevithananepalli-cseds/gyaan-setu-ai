@@ -82,7 +82,8 @@ async function downloadModelParts(baseUrl) {
   };
 
   await Promise.all(missing.map(async (url, index) => {
-    const response = await fetch(url, { cache: "no-store" });
+    const isExternal = !url.startsWith(self.location.origin || "");
+    const response = await fetch(url, isExternal ? { mode: "cors", credentials: "omit", cache: "no-store" } : { cache: "no-store" });
     if (!response.ok) throw new Error(`model file missing (${response.status})`);
     sizes[index] = Number(response.headers.get("Content-Length")) || 1;
 
