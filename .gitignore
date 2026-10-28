@@ -15,6 +15,7 @@ Thumbs.db
 # Local environment
 .env
 .env.*
+.vercel/
 
 # AI models (about 1.2 GB) are hosted outside the repository; see
 # docs/PRODUCTION_DEPLOYMENT.md. Keep them locally for development.

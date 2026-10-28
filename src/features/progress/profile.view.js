@@ -95,13 +95,88 @@ export function getOfflineAiDisplayState() {
 }
 
 
+import { downloadOfflinePackage, isOfflinePackageDownloaded } from "../../ai/offline-downloader.js";
+
+let isDownloadingModels = false;
+
+export async function downloadOfflineModels() {
+  if (isDownloadingModels) return;
+  const btn = document.getElementById("downloadOfflineBtn");
+  const progressContainer = document.getElementById("downloadOfflineProgress");
+  const progressFill = document.getElementById("downloadProgressBar");
+  const progressText = document.getElementById("downloadProgressText");
+
+  if (!navigator.onLine) {
+    alert(textByLanguage(
+      "Please connect to the internet (Wi-Fi) to download offline models.",
+      "ఆఫ్‌లైన్ మోడళ్లను డౌన్‌లోడ్ చేయడానికి దయచేసి ఇంటర్నెట్‌కు (Wi-Fi) కనెక్ట్ అవ్వండి.",
+      "ऑफलाइन मॉडल डाउनलोड करने के लिए कृपया इंटरनेट (वाई-फ़ाई) से जुड़ें।"
+    ));
+    return;
+  }
+
+  isDownloadingModels = true;
+  if (btn) {
+    btn.disabled = true;
+    btn.style.opacity = "0.7";
+  }
+  if (progressContainer) progressContainer.style.display = "block";
+
+  try {
+    const lang = state.selectedLanguage || "en";
+    await downloadOfflinePackage(lang, ({ percent, statusText }) => {
+      if (progressFill) progressFill.style.width = `${percent}%`;
+      if (progressText) progressText.textContent = `${statusText}`;
+    });
+
+    state.offlineAiState = "ready";
+    // Refresh the profile screen to display ready state
+    showProfileScreen();
+  } catch (error) {
+    console.error("Offline download failed:", error);
+    if (progressText) {
+      progressText.textContent = textByLanguage(
+        `Download failed: ${error.message || "Network error"}`,
+        `డౌన్‌లోడ్ విఫలమైంది: ${error.message || "నెట్‌వర్క్ లోపం"}`,
+        `डाउनलोड विफल: ${error.message || "नेटवर्क त्रुटि"}`
+      );
+    }
+    if (btn) {
+      btn.disabled = false;
+      btn.style.opacity = "1";
+    }
+  } finally {
+    isDownloadingModels = false;
+  }
+}
+
 export function renderOfflineAiSettings() {
+  const isReady = state.offlineAiState === "ready";
+
   return `
     <div class="offline-ai-settings">
       <span class="offline-ai-settings-icon">🧠</span>
-      <div>
-        <strong>${textByLanguage("Offline AI", "ఆఫ్‌లైన్ AI", "ऑफलाइन AI")}</strong>
+      <div style="flex: 1;">
+        <strong>${textByLanguage("Offline AI & Voices", "ఆఫ్‌లైన్ AI & వాయిస్", "ऑफलाइन AI और आवाज")}</strong>
         <p>${getOfflineAiDisplayState()}</p>
+        
+        <div style="margin-top: 10px;">
+          ${isReady ? `
+            <span class="offline-stamp" style="background: rgba(34, 197, 94, 0.2); color: #22c55e; border: 1px solid #22c55e; padding: 4px 10px; border-radius: 20px; font-weight: bold; font-size: 0.85rem;">
+              ✓ ${textByLanguage("Saved for offline use", "ఆఫ్‌లైన్ కోసం భద్రపరచబడింది", "ऑफलाइन उपयोग के लिए सुरक्षित")}
+            </span>
+          ` : `
+            <button id="downloadOfflineBtn" class="action-btn" style="padding: 8px 16px; font-size: 0.9rem; border-radius: 8px;" data-action="downloadOfflineModels()">
+              📥 ${textByLanguage("Download for offline use", "ఆఫ్‌లైన్ కోసం డౌన్‌లోడ్ చేయండి", "ऑफलाइन उपयोग के लिए डाउनलोड करें")}
+            </button>
+            <div id="downloadOfflineProgress" style="display: none; margin-top: 8px;">
+              <div style="background: rgba(255,255,255,0.2); height: 8px; border-radius: 4px; overflow: hidden;">
+                <div id="downloadProgressBar" style="width: 0%; height: 100%; background: #3b82f6; transition: width 0.2s;"></div>
+              </div>
+              <small id="downloadProgressText" style="display: block; margin-top: 4px; opacity: 0.85; font-size: 0.8rem;">0%</small>
+            </div>
+          `}
+        </div>
       </div>
       <button class="text-link" data-action="showHome(); openChat()">
         ${textByLanguage("View", "చూడండి", "देखें")}
@@ -154,4 +229,4 @@ export function renderProgress(progress) {
 }
 
 
-registerActions({ showProfileScreen });
+registerActions({ showProfileScreen, downloadOfflineModels });
