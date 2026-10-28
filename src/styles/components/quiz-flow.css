@@ -1,0 +1,380 @@
+/* =====================================================
+    QUIZ LEVELS, ANSWER-THEN-SUBMIT, PRACTICE
+===================================================== */
+
+/* ---------- Level tabs ---------- */
+
+.quiz-levels {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.quiz-level-tab {
+  display: grid;
+  gap: 2px;
+  min-width: 120px;
+  padding: 12px 18px;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.quiz-level-tab strong {
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.quiz-level-tab small {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.quiz-level-tab.active {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.quiz-level-tab.passed small {
+  color: var(--success);
+}
+
+.quiz-level-tab.locked {
+  cursor: not-allowed;
+  opacity: 0.55;
+  box-shadow: none;
+}
+
+
+/* ---------- Options ---------- */
+
+/* Letters are in the markup now; the older counter would show them twice. */
+.quiz-option::before {
+  content: none;
+  display: none;
+}
+
+.quiz-options,
+.practice-options {
+  display: grid;
+  gap: 10px;
+}
+
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  background: var(--card);
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.quiz-option-letter {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  border-radius: 10px;
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.quiz-option:hover:not(:disabled) {
+  border-color: var(--primary);
+}
+
+.quiz-option.selected {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.quiz-option.selected .quiz-option-letter {
+  background: var(--primary);
+  color: #fff;
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+.quiz-option.correct {
+  border-color: var(--success);
+  background: color-mix(in srgb, var(--success) 14%, var(--card));
+}
+
+.quiz-option.correct .quiz-option-letter {
+  background: var(--success);
+  color: #fff;
+}
+
+.quiz-option.wrong {
+  border-color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 12%, var(--card));
+}
+
+.quiz-option.wrong .quiz-option-letter {
+  background: var(--danger);
+  color: #fff;
+}
+
+.quiz-card.answered-correct {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--success) 45%, transparent), var(--shadow);
+}
+
+.quiz-card.answered-wrong {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--danger) 40%, transparent), var(--shadow);
+}
+
+
+/* ---------- Explanation ---------- */
+
+.quiz-explanation {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--primary-soft);
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.answered-correct .quiz-explanation,
+.practice-complete .quiz-explanation {
+  background: color-mix(in srgb, var(--success) 12%, var(--card));
+}
+
+.answered-wrong .quiz-explanation {
+  background: color-mix(in srgb, var(--danger) 9%, var(--card));
+}
+
+.quiz-verdict {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 800;
+}
+
+.answered-correct .quiz-verdict,
+.practice-complete .quiz-verdict {
+  color: var(--success);
+}
+
+.answered-wrong .quiz-verdict,
+.practice-card.checked:not(.practice-complete) .quiz-verdict {
+  color: var(--danger);
+}
+
+.quiz-explanation p:empty {
+  display: none;
+}
+
+
+/* ---------- Submit bar ---------- */
+
+.quiz-submit-bar {
+  position: sticky;
+  bottom: 16px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+  padding: 12px 14px 12px 20px;
+  border-radius: 18px;
+  background: var(--card);
+  box-shadow: var(--large-shadow);
+}
+
+.quiz-submit-bar span {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.quiz-submit-bar .action-btn:disabled {
+  opacity: 0.6;
+}
+
+
+/* ---------- Result ---------- */
+
+.quiz-result {
+  margin-bottom: 18px;
+  padding: 24px;
+  text-align: center;
+}
+
+.quiz-result h2 {
+  color: var(--text);
+  font-weight: 800;
+}
+
+.quiz-result.passed {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--success) 40%, transparent), var(--large-shadow);
+}
+
+.quiz-result.failed {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--sunrise) 45%, transparent), var(--large-shadow);
+}
+
+.quiz-result-emoji {
+  font-size: 2.6rem;
+}
+
+.quiz-score {
+  margin: 6px 0;
+  font-size: 1.1rem;
+}
+
+.quiz-result-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.quiz-result-actions .back-btn {
+  margin: 0;
+}
+
+
+/* ---------- Practice ---------- */
+
+.practice-section {
+  margin-top: 24px;
+}
+
+.practice-section-title {
+  margin-bottom: 12px;
+  color: var(--text);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.weak-level-list {
+  display: grid;
+  gap: 12px;
+}
+
+.weak-level-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 18px;
+  border-radius: 18px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.weak-level-card.failed {
+  border-left: 5px solid var(--danger);
+}
+
+.weak-level-card.passed {
+  border-left: 5px solid var(--sun);
+}
+
+.weak-level-copy {
+  display: grid;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.weak-level-copy small {
+  color: var(--primary);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.weak-level-copy strong {
+  color: var(--text);
+  font-weight: 800;
+}
+
+.weak-level-meta {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.weak-level-copy .progress-track {
+  max-width: 260px;
+  height: 6px;
+  margin-top: 4px;
+}
+
+.practice-list {
+  display: grid;
+  gap: 14px;
+}
+
+.practice-card h3 {
+  margin: 8px 0 12px;
+}
+
+.practice-check {
+  margin-top: 12px;
+}
+
+.practice-empty {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  padding: 36px 24px;
+  text-align: center;
+}
+
+.practice-empty h3 {
+  color: var(--text);
+}
+
+.practice-empty p {
+  max-width: 420px;
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .weak-level-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .quiz-submit-bar {
+    bottom: calc(96px + env(safe-area-inset-bottom));
+  }
+}
+
+/* Elements hidden with the hidden attribute stay hidden even when a rule
+   above gives them a display value. */
+.quiz-submit-bar[hidden],
+.quiz-result[hidden],
+.quiz-explanation[hidden],
+.practice-check[hidden] {
+  display: none;
+}
+
+/* Keep the Submit button clear of the floating Ask Gyaan button. */
+@media (min-width: 901px) {
+  .quiz-submit-bar {
+    padding-right: 190px;
+  }
+}

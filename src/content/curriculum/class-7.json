@@ -1,0 +1,3784 @@
+{
+  "subject": {
+    "English": "General Science",
+    "Telugu": "జనరల్ సైన్స్",
+    "Hindi": "जनरल साइंस"
+  },
+  "chapters": [
+    {
+      "id": "nutrition-in-plants",
+      "icon": "🌱",
+      "title": {
+        "English": "Nutrition in Plants",
+        "Telugu": "మొక్కల పోషణ",
+        "Hindi": "पौधों में पोषण"
+      },
+      "description": {
+        "English": "How plants make food and absorb the nutrients they need.",
+        "Telugu": "మొక్కలు ఆహారం ఎలా తయారు చేసుకుంటాయో మరియు అవసరమైన పోషకాలను ఎలా గ్రహిస్తాయో తెలుసుకోండి.",
+        "Hindi": "जानें कि पौधे अपना भोजन कैसे बनाते हैं और आवश्यक पोषक तत्व कैसे लेते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "plant-food",
+          "visual": "🌞",
+          "title": {
+            "English": "How Plants Make Food",
+            "Telugu": "మొక్కలు ఆహారం ఎలా తయారు చేస్తాయి",
+            "Hindi": "पौधे भोजन कैसे बनाते हैं"
+          },
+          "image": "./images/lessons/nutrition-and-respiration.svg",
+          "explanation": {
+            "English": "Plants prepare their own food using sunlight, water and carbon dioxide. This process is called photosynthesis and it occurs in green leaves.",
+            "Telugu": "మొక్కలు సూర్యకాంతి, నీరు మరియు కార్బన్‌ డయాక్సైడ్‌ను ఉపయోగించి తమ ఆహారాన్ని తయారు చేస్తాయి. దీనినే ఫోటోసింథసిస్ అంటారు, ఇది ఆకులలో జరుగుతుంది.",
+            "Hindi": "पौधे धूप, पानी और कार्बन डाइऑक्साइड का उपयोग करके अपना भोजन बनाते हैं। इस प्रक्रिया को प्रकाश संश्लेषण कहते हैं और यह पत्तियों में होता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Plants make food in the leaves.",
+              "Chlorophyll captures sunlight.",
+              "Water and carbon dioxide are needed.",
+              "Photosynthesis releases oxygen."
+            ],
+            "Telugu": [
+              "మొక్కలు ఆకులలో ఆహారాన్ని తయారు చేస్తాయి.",
+              "క్లోరోఫిల్ సూర్యకాంతిని చీల్చి పట్టుకుంటుంది.",
+              "నీరు మరియు కార్బన్ డయాక్సైడ్ అవసరం.",
+              "ఫోటోసింథసిస్ సమయంలో ఆక్సిజన్ విడుదలవుతుంది."
+            ],
+            "Hindi": [
+              "पौधे पत्तियों में भोजन बनाते हैं।",
+              "क्लोरोफिल धूप को पकड़ता है।",
+              "पानी और कार्बन डाइऑक्साइड आवश्यक हैं।",
+              "प्रकाश संश्लेषण में ऑक्सीजन निकलती है।"
+            ]
+          },
+          "activity": {
+            "English": "Observe a leaf under sunlight and record how it looks healthy.",
+            "Telugu": "సూర్యకాంతిలో ఒక ఆకును గమనించి ఆరోగ్యంగా కనిపించేదాన్ని రాయండి.",
+            "Hindi": "धूप में एक पत्ती देखें और लिखें कि वह कैसे स्वस्थ दिखाई देती है।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The green pigment in leaves that traps sunlight is...",
+                "Telugu": "సూర్యకాంతిని గ్రహించే ఆకుల్లోని ఆకుపచ్చ వర్ణద్రవ్యం...",
+                "Hindi": "सूर्य का प्रकाश पकड़ने वाला पत्तियों का हरा वर्णक क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Chlorophyll",
+                  "Haemoglobin",
+                  "Melanin",
+                  "Starch"
+                ],
+                "Telugu": [
+                  "పత్రహరితం (క్లోరోఫిల్)",
+                  "హిమోగ్లోబిన్",
+                  "మెలనిన్",
+                  "పిండి పదార్థం"
+                ],
+                "Hindi": [
+                  "पर्णहरित (क्लोरोफ़िल)",
+                  "हीमोग्लोबिन",
+                  "मेलानिन",
+                  "स्टार्च"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Chlorophyll in chloroplasts absorbs light energy for photosynthesis.",
+                "Telugu": "హరితరేణువుల్లోని పత్రహరితం కిరణజన్య సంయోగక్రియకు కాంతి శక్తిని గ్రహిస్తుంది.",
+                "Hindi": "हरितलवक में मौजूद पर्णहरित प्रकाश संश्लेषण के लिए प्रकाश ऊर्जा सोखता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which gas is released during photosynthesis?",
+                "Telugu": "కిరణజన్య సంయోగక్రియలో విడుదలయ్యే వాయువు ఏది?",
+                "Hindi": "प्रकाश संश्लेषण में कौन सी गैस निकलती है?"
+              },
+              "options": {
+                "English": [
+                  "Carbon dioxide",
+                  "Oxygen",
+                  "Nitrogen",
+                  "Methane"
+                ],
+                "Telugu": [
+                  "కార్బన్ డయాక్సైడ్",
+                  "ఆక్సిజన్",
+                  "నైట్రోజన్",
+                  "మీథేన్"
+                ],
+                "Hindi": [
+                  "कार्बन डाइऑक्साइड",
+                  "ऑक्सीजन",
+                  "नाइट्रोजन",
+                  "मीथेन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Carbon dioxide + water, in sunlight with chlorophyll, gives glucose (starch) + oxygen.",
+                "Telugu": "కార్బన్ డయాక్సైడ్ + నీరు, సూర్యకాంతి, పత్రహరితం సమక్షంలో గ్లూకోజ్ (పిండి) + ఆక్సిజన్ అవుతాయి.",
+                "Hindi": "कार्बन डाइऑक्साइड + पानी, धूप और पर्णहरित की उपस्थिति में ग्लूकोज़ (स्टार्च) + ऑक्सीजन बनते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Tiny pores on leaves through which gases enter and leave are called...",
+                "Telugu": "వాయువులు లోపలికి, బయటకు వెళ్లే ఆకులపై సూక్ష్మ రంధ్రాలను ఏమంటారు?",
+                "Hindi": "पत्तियों के जिन छोटे छिद्रों से गैसें आती-जाती हैं, वे क्या कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Veins",
+                  "Roots",
+                  "Stomata",
+                  "Petioles"
+                ],
+                "Telugu": [
+                  "ఈనెలు",
+                  "వేర్లు",
+                  "పత్రరంధ్రాలు (స్టొమేటా)",
+                  "పత్రవృంతాలు"
+                ],
+                "Hindi": [
+                  "शिराएँ",
+                  "जड़ें",
+                  "रंध्र (स्टोमेटा)",
+                  "पर्णवृंत"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Stomata, guarded by guard cells, let carbon dioxide in and oxygen and vapour out.",
+                "Telugu": "రక్షక కణాలు గల పత్రరంధ్రాలు కార్బన్ డయాక్సైడ్‌ను లోపలికి, ఆక్సిజన్, ఆవిరిని బయటకు పంపుతాయి.",
+                "Hindi": "रक्षक कोशिकाओं वाले रंध्र कार्बन डाइऑक्साइड अंदर और ऑक्सीजन व वाष्प बाहर जाने देते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Plants that make their own food are called...",
+                "Telugu": "తమ ఆహారాన్ని తామే తయారు చేసుకునే మొక్కలను ఏమంటారు?",
+                "Hindi": "अपना भोजन खुद बनाने वाले पौधे क्या कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Heterotrophs",
+                  "Parasites",
+                  "Saprotrophs",
+                  "Autotrophs"
+                ],
+                "Telugu": [
+                  "పరపోషకాలు",
+                  "పరాన్నజీవులు",
+                  "పూతికాహారులు",
+                  "స్వయంపోషకాలు"
+                ],
+                "Hindi": [
+                  "विषमपोषी",
+                  "परजीवी",
+                  "मृतजीवी",
+                  "स्वपोषी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Auto means self and troph means nourishment; green plants are autotrophs.",
+                "Telugu": "ఆటో అంటే స్వయం, ట్రోఫ్ అంటే పోషణ; ఆకుపచ్చ మొక్కలు స్వయంపోషకాలు.",
+                "Hindi": "ऑटो का अर्थ स्वयं और ट्रॉफ़ का अर्थ पोषण; हरे पौधे स्वपोषी हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Cuscuta (amarbel) is a parasite that takes food from host plants.",
+                "Telugu": "నిజమా అబద్ధమా: కస్కుటా (బంగారు తీగ) ఆతిథేయ మొక్కల నుంచి ఆహారం తీసుకునే పరాన్నజీవి.",
+                "Hindi": "सही या गलत: अमरबेल (कस्कुटा) परजीवी है जो पोषक पौधे से भोजन लेती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Cuscuta has no chlorophyll; it wraps around a host and absorbs its food.",
+                "Telugu": "కస్కుటాకు పత్రహరితం లేదు; ఆతిథేయిని చుట్టుకొని దాని ఆహారాన్ని పీల్చుకుంటుంది.",
+                "Hindi": "अमरबेल में पर्णहरित नहीं होता; वह पोषक पौधे से लिपटकर उसका भोजन सोखती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Pitcher plant traps insects because the soil it grows in lacks...",
+                "Telugu": "కూజా మొక్క కీటకాలను ఎందుకు పట్టుకుంటుంది? అది పెరిగే నేలలో ఏది తక్కువ?",
+                "Hindi": "घटपर्णी (पिचर प्लांट) कीड़े क्यों पकड़ता है? उसकी मिट्टी में किसकी कमी होती है?"
+              },
+              "options": {
+                "English": [
+                  "Nitrogen",
+                  "Water",
+                  "Sand",
+                  "Sunlight"
+                ],
+                "Telugu": [
+                  "నైట్రోజన్",
+                  "నీరు",
+                  "ఇసుక",
+                  "సూర్యకాంతి"
+                ],
+                "Hindi": [
+                  "नाइट्रोजन",
+                  "पानी",
+                  "रेत",
+                  "धूप"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Insectivorous plants digest insects to get nitrogen missing in the soil.",
+                "Telugu": "కీటకాహార మొక్కలు నేలలో లోపించిన నైట్రోజన్ కోసం కీటకాలను జీర్ణం చేసుకుంటాయి.",
+                "Hindi": "कीटभक्षी पौधे मिट्टी में कम नाइट्रोजन पाने के लिए कीड़ों को पचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Lichens are an example of...",
+                "Telugu": "లైకెన్లు దేనికి ఉదాహరణ?",
+                "Hindi": "लाइकेन किसका उदाहरण हैं?"
+              },
+              "options": {
+                "English": [
+                  "Parasitism",
+                  "Symbiosis between an alga and a fungus",
+                  "Insect-eating",
+                  "Saprophytic bacteria only"
+                ],
+                "Telugu": [
+                  "పరాన్నజీవనం",
+                  "శైవలం, శిలీంధ్రం మధ్య సహజీవనం",
+                  "కీటకాహారం",
+                  "పూతికాహార బ్యాక్టీరియా మాత్రమే"
+                ],
+                "Hindi": [
+                  "परजीविता",
+                  "शैवाल और कवक का सहजीवन",
+                  "कीड़े खाना",
+                  "सिर्फ़ मृतजीवी बैक्टीरिया"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The alga makes food; the fungus gives shelter, water and minerals. Both benefit.",
+                "Telugu": "శైవలం ఆహారం తయారు చేస్తుంది; శిలీంధ్రం ఆశ్రయం, నీరు, ఖనిజాలు ఇస్తుంది. రెండూ లాభపడతాయి.",
+                "Hindi": "शैवाल भोजन बनाता है; कवक आश्रय, पानी और खनिज देता है। दोनों को लाभ होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Mushrooms get food from dead and decaying matter. They are...",
+                "Telugu": "పుట్టగొడుగులు చనిపోయిన, కుళ్లుతున్న పదార్థం నుంచి ఆహారం పొందుతాయి. అవి...",
+                "Hindi": "मशरूम मृत और सड़ते पदार्थ से भोजन लेते हैं। ये क्या हैं?"
+              },
+              "options": {
+                "English": [
+                  "Autotrophs",
+                  "Parasites",
+                  "Saprotrophs",
+                  "Insectivores"
+                ],
+                "Telugu": [
+                  "స్వయంపోషకాలు",
+                  "పరాన్నజీవులు",
+                  "పూతికాహారులు",
+                  "కీటకాహారులు"
+                ],
+                "Hindi": [
+                  "स्वपोषी",
+                  "परजीवी",
+                  "मृतजीवी",
+                  "कीटभक्षी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Saprotrophs release juices on dead matter and absorb the dissolved nutrients.",
+                "Telugu": "పూతికాహారులు చనిపోయిన పదార్థంపై రసాలను విడుదల చేసి కరిగిన పోషకాలను పీల్చుకుంటాయి.",
+                "Hindi": "मृतजीवी मृत पदार्थ पर रस छोड़कर घुले पोषक तत्व सोखते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Iodine test on a leaf kept in darkness for two days shows starch.",
+                "Telugu": "నిజమా అబద్ధమా: రెండు రోజులు చీకటిలో ఉంచిన ఆకుపై అయోడిన్ పరీక్ష పిండి పదార్థాన్ని చూపిస్తుంది.",
+                "Hindi": "सही या गलत: दो दिन अँधेरे में रखे पत्ते पर आयोडीन परीक्षण स्टार्च दिखाता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Without light no photosynthesis happens, and stored starch is used up, so the test is negative.",
+                "Telugu": "కాంతి లేకుంటే కిరణజన్య సంయోగక్రియ జరగదు, నిల్వ పిండి వాడుకోబడుతుంది, కాబట్టి పరీక్ష ఫలితం ప్రతికూలం.",
+                "Hindi": "रोशनी के बिना प्रकाश संश्लेषण नहीं होता और जमा स्टार्च खर्च हो जाता है, इसलिए परीक्षण नकारात्मक आता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Bacteria in the root nodules of pulse plants help by...",
+                "Telugu": "పప్పుధాన్య మొక్కల వేరు బుడిపెల్లోని బ్యాక్టీరియా ఎలా సహాయపడుతుంది?",
+                "Hindi": "दलहनी पौधों की जड़ ग्रंथिकाओं के बैक्टीरिया कैसे मदद करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Making the plant shorter",
+                  "Eating the roots",
+                  "Giving out oxygen",
+                  "Fixing nitrogen from the air into the soil"
+                ],
+                "Telugu": [
+                  "మొక్కను పొట్టిగా చేసి",
+                  "వేర్లను తిని",
+                  "ఆక్సిజన్ ఇచ్చి",
+                  "గాలిలోని నైట్రోజన్‌ను నేలలో స్థాపించి"
+                ],
+                "Hindi": [
+                  "पौधे को छोटा करके",
+                  "जड़ें खाकर",
+                  "ऑक्सीजन देकर",
+                  "हवा की नाइट्रोजन को मिट्टी में स्थिर करके"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Rhizobium converts atmospheric nitrogen into a form plants can use.",
+                "Telugu": "రైజోబియం వాతావరణ నైట్రోజన్‌ను మొక్కలు వాడగల రూపంలోకి మారుస్తుంది.",
+                "Hindi": "राइज़ोबियम वायुमंडलीय नाइट्रोजन को पौधों के उपयोग योग्य रूप में बदलता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nutrition-in-animals",
+      "icon": "🐄",
+      "title": {
+        "English": "Nutrition in Animals",
+        "Telugu": "జంతువుల పోషణ",
+        "Hindi": "जानवरों में पोषण"
+      },
+      "description": {
+        "English": "Understand how animals get their food and digest it.",
+        "Telugu": "జంతువులు తమ ఆహారాన్ని ఎలా పొందుతాయో మరియు జీర్ణం చేసుకొంటాయో తెలుసుకోండి.",
+        "Hindi": "जानें कि जानवर अपना भोजन कैसे प्राप्त करते हैं और पचाते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "animal-digestion",
+          "visual": "🍽️",
+          "title": {
+            "English": "Food and Digestion",
+            "Telugu": "ఆహారం మరియు జీర్ణం",
+            "Hindi": "भोजन और पाचन"
+          },
+          "image": "./images/lessons/food-and-digestion.svg",
+          "explanation": {
+            "English": "Animals depend on plants or other animals for food. In digestion, food is broken down into simpler substances so the body can absorb nutrients and release energy.",
+            "Telugu": "జంతువులు ఆహారం కోసం మొక్కలు లేదా ఇతర జంతువులపై ఆధారపడతాయి. జీర్ణంలో ఆహారం చిన్న పదార్ధాలుగా విడదీసి, శరీరం పోషకాలను గ్రహించుకుంటుంది మరియు శక్తిని విడుదల చేస్తుంది.",
+            "Hindi": "जानवर भोजन के लिए पौधों या अन्य जानवरों पर निर्भर करते हैं। पाचन में भोजन को सरल पदार्थों में तोड़ दिया जाता है ताकि शरीर पोषक तत्वों को अवशोषित कर सके और ऊर्जा दे सके।"
+          },
+          "keyPoints": {
+            "English": [
+              "Animals need food for energy.",
+              "Digestion breaks food into simpler parts.",
+              "Different animals eat different foods.",
+              "Nutrients are absorbed into the body."
+            ],
+            "Telugu": [
+              "జంతువులకు శక్తి కోసం ఆహారం అవసరం.",
+              "జీర్ణం ఆహారాన్ని చిన్న భాగాలుగా విడదీస్తుంది.",
+              "వివిధ జంతువులు వేర్వేరు ఆహారాన్ని తింటాయి.",
+              "పోషకాలు శరీరంలో గ్రహించబడతాయి."
+            ],
+            "Hindi": [
+              "जानवरों को ऊर्जा के लिए भोजन चाहिए।",
+              "पाचन भोजन को छोटे-छोटे घटकों में तोड़ता है।",
+              "अलग जानवर अलग भोजन खाते हैं।",
+              "पोषक तत्व शरीर में अवशोषित होते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Compare the food habits of a cow, a bird and a human.",
+            "Telugu": "గొర్రె, పక్షి మరియు మానవుడి ఆహార అలవాట్లను పోల్చండి.",
+            "Hindi": "गाय, पक्षी और मनुष्य की भोजन आदतों की तुलना करें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Digestion of starch begins in the...",
+                "Telugu": "పిండి పదార్థాల జీర్ణక్రియ ఎక్కడ మొదలవుతుంది?",
+                "Hindi": "स्टार्च का पाचन कहाँ शुरू होता है?"
+              },
+              "options": {
+                "English": [
+                  "Mouth",
+                  "Stomach",
+                  "Large intestine",
+                  "Liver"
+                ],
+                "Telugu": [
+                  "నోరు",
+                  "జీర్ణాశయం",
+                  "పెద్దప్రేగు",
+                  "కాలేయం"
+                ],
+                "Hindi": [
+                  "मुँह",
+                  "आमाशय",
+                  "बड़ी आँत",
+                  "यकृत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Saliva contains an enzyme that breaks starch into sugar.",
+                "Telugu": "లాలాజలంలోని ఎంజైమ్ పిండి పదార్థాన్ని చక్కెరగా విడగొడుతుంది.",
+                "Hindi": "लार में एक एंजाइम होता है जो स्टार्च को शक्कर में तोड़ता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Most digestion and absorption of food takes place in the...",
+                "Telugu": "ఆహారంలో ఎక్కువ జీర్ణక్రియ, శోషణ ఎక్కడ జరుగుతుంది?",
+                "Hindi": "भोजन का ज़्यादातर पाचन और अवशोषण कहाँ होता है?"
+              },
+              "options": {
+                "English": [
+                  "Oesophagus",
+                  "Small intestine",
+                  "Mouth",
+                  "Rectum"
+                ],
+                "Telugu": [
+                  "అన్నవాహిక",
+                  "చిన్నప్రేగు",
+                  "నోరు",
+                  "పురీషనాళం"
+                ],
+                "Hindi": [
+                  "ग्रासनली",
+                  "छोटी आँत",
+                  "मुँह",
+                  "मलाशय"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Finger-like villi in the small intestine increase the surface for absorption.",
+                "Telugu": "చిన్నప్రేగులోని వేలి లాంటి సూక్ష్మచూషకాలు శోషణ ఉపరితలాన్ని పెంచుతాయి.",
+                "Hindi": "छोटी आँत के उँगली जैसे दीर्घरोम अवशोषण की सतह बढ़ाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which organ produces bile that helps digest fats?",
+                "Telugu": "కొవ్వుల జీర్ణక్రియకు సహాయపడే పిత్తరసాన్ని తయారు చేసే అవయవం ఏది?",
+                "Hindi": "वसा पचाने वाला पित्त रस कौन सा अंग बनाता है?"
+              },
+              "options": {
+                "English": [
+                  "Stomach",
+                  "Pancreas",
+                  "Liver",
+                  "Kidney"
+                ],
+                "Telugu": [
+                  "జీర్ణాశయం",
+                  "క్లోమం",
+                  "కాలేయం",
+                  "మూత్రపిండం"
+                ],
+                "Hindi": [
+                  "आमाशय",
+                  "अग्न्याशय",
+                  "यकृत",
+                  "गुर्दा"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "The liver is the largest gland; bile is stored in the gall bladder.",
+                "Telugu": "కాలేయం అతిపెద్ద గ్రంథి; పిత్తరసం పిత్తాశయంలో నిల్వ ఉంటుంది.",
+                "Hindi": "यकृत सबसे बड़ी ग्रंथि है; पित्त पित्ताशय में जमा होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The stomach produces hydrochloric acid that...",
+                "Telugu": "జీర్ణాశయం ఉత్పత్తి చేసే హైడ్రోక్లోరిక్ ఆమ్లం...",
+                "Hindi": "आमाशय में बनने वाला हाइड्रोक्लोरिक अम्ल..."
+              },
+              "options": {
+                "English": [
+                  "Makes food sweet",
+                  "Absorbs water",
+                  "Produces bile",
+                  "Kills bacteria and helps digest proteins"
+                ],
+                "Telugu": [
+                  "ఆహారాన్ని తియ్యగా చేస్తుంది",
+                  "నీటిని పీల్చుకుంటుంది",
+                  "పిత్తరసం తయారుచేస్తుంది",
+                  "బ్యాక్టీరియాను చంపి ప్రోటీన్ల జీర్ణక్రియకు సహాయపడుతుంది"
+                ],
+                "Hindi": [
+                  "भोजन मीठा करता है",
+                  "पानी सोखता है",
+                  "पित्त बनाता है",
+                  "बैक्टीरिया मारता और प्रोटीन पचाने में मदद करता है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The acid kills germs and creates conditions for protein-digesting juices to work.",
+                "Telugu": "ఆమ్లం క్రిములను చంపి ప్రోటీన్ జీర్ణ రసాలు పనిచేసే పరిస్థితులు కల్పిస్తుంది.",
+                "Hindi": "अम्ल कीटाणु मारता है और प्रोटीन पचाने वाले रसों के काम के लिए माहौल बनाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The large intestine absorbs water from undigested food.",
+                "Telugu": "నిజమా అబద్ధమా: పెద్దప్రేగు జీర్ణం కాని ఆహారం నుంచి నీటిని పీల్చుకుంటుంది.",
+                "Hindi": "सही या गलत: बड़ी आँत अपचे भोजन से पानी सोखती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The remaining waste becomes semi-solid and is removed through the anus.",
+                "Telugu": "మిగిలిన వ్యర్థం పాక్షిక ఘనంగా మారి పాయువు ద్వారా బయటకు వెళ్తుంది.",
+                "Hindi": "बचा अपशिष्ट अर्ध-ठोस होकर गुदा से बाहर निकलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Cows and buffaloes chew the cud. They are called...",
+                "Telugu": "ఆవులు, గేదెలు నెమరు వేస్తాయి. వాటిని ఏమంటారు?",
+                "Hindi": "गाय और भैंस जुगाली करती हैं। इन्हें क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Ruminants",
+                  "Carnivores",
+                  "Insectivores",
+                  "Parasites"
+                ],
+                "Telugu": [
+                  "నెమరువేసే జంతువులు",
+                  "మాంసాహారులు",
+                  "కీటకాహారులు",
+                  "పరాన్నజీవులు"
+                ],
+                "Hindi": [
+                  "जुगाली करने वाले (रोमंथी)",
+                  "मांसाहारी",
+                  "कीटभक्षी",
+                  "परजीवी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Ruminants swallow grass into the rumen, bring it back to chew, and digest cellulose.",
+                "Telugu": "నెమరువేసే జంతువులు గడ్డిని రూమెన్‌లోకి మింగి, మళ్లీ నోటికి తెచ్చి నమిలి సెల్యులోజ్‌ను జీర్ణం చేస్తాయి.",
+                "Hindi": "रोमंथी घास को रूमेन में निगलते, वापस लाकर चबाते और सेल्यूलोज़ पचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Amoeba captures food using...",
+                "Telugu": "అమీబా ఆహారాన్ని దేనితో పట్టుకుంటుంది?",
+                "Hindi": "अमीबा भोजन किससे पकड़ता है?"
+              },
+              "options": {
+                "English": [
+                  "Teeth",
+                  "Pseudopodia (false feet)",
+                  "A beak",
+                  "Tentacles of steel"
+                ],
+                "Telugu": [
+                  "దంతాలు",
+                  "మిథ్యాపాదాలు",
+                  "ముక్కు",
+                  "ఉక్కు స్పర్శకాలు"
+                ],
+                "Hindi": [
+                  "दाँत",
+                  "कूटपाद (पादाभ)",
+                  "चोंच",
+                  "स्टील के स्पर्शक"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Amoeba surrounds food with pseudopodia and digests it in a food vacuole.",
+                "Telugu": "అమీబా మిథ్యాపాదాలతో ఆహారాన్ని చుట్టుముట్టి ఆహార రిక్తికలో జీర్ణం చేస్తుంది.",
+                "Hindi": "अमीबा कूटपादों से भोजन घेरकर खाद्य रिक्तिका में पचाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Glucose absorbed into the blood is used by cells to...",
+                "Telugu": "రక్తంలోకి శోషించబడిన గ్లూకోజ్‌ను కణాలు దేనికి వాడతాయి?",
+                "Hindi": "रक्त में अवशोषित ग्लूकोज़ का उपयोग कोशिकाएँ किसलिए करती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Make bones only",
+                  "Form hair",
+                  "Release energy",
+                  "Make urine"
+                ],
+                "Telugu": [
+                  "ఎముకలు మాత్రమే చేయడానికి",
+                  "జుట్టు ఏర్పరచడానికి",
+                  "శక్తిని విడుదల చేయడానికి",
+                  "మూత్రం తయారీకి"
+                ],
+                "Hindi": [
+                  "सिर्फ़ हड्डियाँ बनाने",
+                  "बाल बनाने",
+                  "ऊर्जा निकालने",
+                  "मूत्र बनाने"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Glucose is broken down with oxygen in cells to release energy (respiration).",
+                "Telugu": "కణాల్లో గ్లూకోజ్ ఆక్సిజన్‌తో విడిపోయి శక్తి విడుదలవుతుంది (శ్వాసక్రియ).",
+                "Hindi": "कोशिकाओं में ग्लूकोज़ ऑक्सीजन से टूटकर ऊर्जा देता है (श्वसन)।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Diarrhoea can be treated at first with ORS (salt and sugar in water).",
+                "Telugu": "నిజమా అబద్ధమా: అతిసారానికి మొదట ఓఆర్ఎస్ (నీటిలో ఉప్పు, చక్కెర) ఇవ్వవచ్చు.",
+                "Hindi": "सही या गलत: दस्त में पहले ओआरएस (पानी में नमक और चीनी) दिया जा सकता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "ORS replaces lost water and salts; a doctor should be consulted if it continues.",
+                "Telugu": "ఓఆర్ఎస్ కోల్పోయిన నీరు, లవణాలను తిరిగి అందిస్తుంది; కొనసాగితే వైద్యుడిని సంప్రదించాలి.",
+                "Hindi": "ओआरएस खोया पानी और लवण लौटाता है; जारी रहे तो डॉक्टर से मिलें।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is the correct path of food in the human body?",
+                "Telugu": "మానవ శరీరంలో ఆహారం యొక్క సరైన మార్గం ఏది?",
+                "Hindi": "मानव शरीर में भोजन का सही मार्ग कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Stomach, mouth, oesophagus, intestine",
+                  "Mouth, intestine, stomach, oesophagus",
+                  "Oesophagus, mouth, stomach, intestine",
+                  "Mouth, oesophagus, stomach, small intestine, large intestine"
+                ],
+                "Telugu": [
+                  "జీర్ణాశయం, నోరు, అన్నవాహిక, ప్రేగు",
+                  "నోరు, ప్రేగు, జీర్ణాశయం, అన్నవాహిక",
+                  "అన్నవాహిక, నోరు, జీర్ణాశయం, ప్రేగు",
+                  "నోరు, అన్నవాహిక, జీర్ణాశయం, చిన్నప్రేగు, పెద్దప్రేగు"
+                ],
+                "Hindi": [
+                  "आमाशय, मुँह, ग्रासनली, आँत",
+                  "मुँह, आँत, आमाशय, ग्रासनली",
+                  "ग्रासनली, मुँह, आमाशय, आँत",
+                  "मुँह, ग्रासनली, आमाशय, छोटी आँत, बड़ी आँत"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Food passes from mouth to food pipe, stomach, small intestine and large intestine.",
+                "Telugu": "ఆహారం నోటి నుంచి అన్నవాహిక, జీర్ణాశయం, చిన్నప్రేగు, పెద్దప్రేగుకు వెళ్తుంది.",
+                "Hindi": "भोजन मुँह से ग्रासनली, आमाशय, छोटी आँत और बड़ी आँत तक जाता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heat",
+      "icon": "🔥",
+      "title": {
+        "English": "Heat",
+        "Telugu": "వేడి",
+        "Hindi": "ताप"
+      },
+      "description": {
+        "English": "Learn how heat affects materials and our daily life.",
+        "Telugu": "వేడి పదార్థాలపై మరియు రోజువారీ జీవితంపై ఎలా ప్రభావం చూపుతుందో తెలుసుకోండి.",
+        "Hindi": "जानें कि ताप कितना अलग-अलग पदार्थों और हमारे दैनिक जीवन पर प्रभाव डालता है।"
+      },
+      "lessons": [
+        {
+          "id": "heat-transfer",
+          "visual": "🌡️",
+          "title": {
+            "English": "Temperature and Heat",
+            "Telugu": "ఉష్ణోగ్రత మరియు వేడి",
+            "Hindi": "तापमान और ताप"
+          },
+          "image": "./images/lessons/temperature-and-heat.svg",
+          "explanation": {
+            "English": "Heat is a form of energy. It flows from a hotter object to a cooler one. We use heat for cooking, warming water and drying clothes.",
+            "Telugu": "వేడి శక్తి రూపం. ఇది వెచ్చని వస్తువు నుండి చల్లని వస్తువుకు ప్రవహిస్తుంది. వంట, నీటి వేడిచేయడం మరియు బట్టలు ఆరబెట్టడంలో ఉపయోగిస్తాము.",
+            "Hindi": "ताप ऊर्जा का रूप है। यह गरम वस्तु से ठंडी वस्तु की ओर बहता है। हम इसे खाना पकाने, पानी गर्म करने और कपड़े सुखाने में उपयोग करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Heat is a kind of energy.",
+              "Hot objects transfer heat to cooler ones.",
+              "Temperature tells us how hot something is.",
+              "Heat changes the state of substances."
+            ],
+            "Telugu": [
+              "వేడి శక్తి రూపం.",
+              "వెచ్చని వస్తువులు చల్లని వస్తువులకు వేడిని బదిలిస్తాయి.",
+              "ఉష్ణోగ్రత ఎంత వేడిగా ఉందో తెలియజేస్తుంది.",
+              "వేడి పదార్ధాల స్థితిని మారుస్తుంది."
+            ],
+            "Hindi": [
+              "ताप ऊर्जा का एक रूप है।",
+              "गरम वस्तुएँ ठंडी वस्तुओं में ताप स्थानांतरित करती हैं।",
+              "तापमान बताता है कोई चीज कितनी गरम है।",
+              "ताप पदार्थों की अवस्था बदल सकता है।"
+            ]
+          },
+          "activity": {
+            "English": "Touch a metal spoon and a wooden spoon after they are kept in warm water and compare their temperatures.",
+            "Telugu": "వేడి నీటిలో ఉంచిన తర్వాత లోహపు స్పూన్ మరియు చెక్క స్పూన్‌ను తాకి వాటి వేడిని పోల్చండి.",
+            "Hindi": "गर्म पानी में रखने के बाद धातु की चम्मच और लकड़ी की चम्मच को छूकर तापमान की तुलना करें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which instrument measures temperature?",
+                "Telugu": "ఉష్ణోగ్రతను కొలిచే సాధనం ఏది?",
+                "Hindi": "तापमान मापने का यंत्र कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Thermometer",
+                  "Barometer",
+                  "Speedometer",
+                  "Odometer"
+                ],
+                "Telugu": [
+                  "థర్మామీటర్",
+                  "బారోమీటర్",
+                  "స్పీడోమీటర్",
+                  "ఓడోమీటర్"
+                ],
+                "Hindi": [
+                  "थर्मामीटर",
+                  "बैरोमीटर",
+                  "स्पीडोमीटर",
+                  "ओडोमीटर"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A clinical thermometer measures body temperature; a laboratory thermometer measures other things.",
+                "Telugu": "క్లినికల్ థర్మామీటర్ శరీర ఉష్ణోగ్రతను, ప్రయోగశాల థర్మామీటర్ ఇతర వాటిని కొలుస్తుంది.",
+                "Hindi": "डॉक्टरी थर्मामीटर शरीर का और प्रयोगशाला थर्मामीटर अन्य चीज़ों का तापमान मापता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Normal human body temperature is about...",
+                "Telugu": "మానవ శరీర సాధారణ ఉష్ణోగ్రత సుమారు...",
+                "Hindi": "मानव शरीर का सामान्य तापमान लगभग कितना है?"
+              },
+              "options": {
+                "English": [
+                  "27°C",
+                  "37°C",
+                  "47°C",
+                  "100°C"
+                ],
+                "Telugu": [
+                  "27°C",
+                  "37°C",
+                  "47°C",
+                  "100°C"
+                ],
+                "Hindi": [
+                  "27°C",
+                  "37°C",
+                  "47°C",
+                  "100°C"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Normal body temperature is about 37°C (98.6°F).",
+                "Telugu": "సాధారణ శరీర ఉష్ణోగ్రత సుమారు 37°C (98.6°F).",
+                "Hindi": "सामान्य शरीर का तापमान लगभग 37°C (98.6°F) है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Heat travels along a metal spoon in hot tea by...",
+                "Telugu": "వేడి టీలో ఉన్న లోహపు చెంచా ద్వారా వేడి ఎలా ప్రయాణిస్తుంది?",
+                "Hindi": "गर्म चाय में रखे धातु के चम्मच में गर्मी कैसे चलती है?"
+              },
+              "options": {
+                "English": [
+                  "Radiation",
+                  "Convection",
+                  "Conduction",
+                  "Reflection"
+                ],
+                "Telugu": [
+                  "వికిరణం",
+                  "సంవహనం",
+                  "వహనం",
+                  "పరావర్తనం"
+                ],
+                "Hindi": [
+                  "विकिरण",
+                  "संवहन",
+                  "चालन",
+                  "परावर्तन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "In solids, heat passes from particle to particle; this is conduction.",
+                "Telugu": "ఘనపదార్థాల్లో వేడి కణం నుంచి కణానికి ప్రయాణిస్తుంది; ఇదే వహనం.",
+                "Hindi": "ठोसों में गर्मी कण से कण तक जाती है; यह चालन है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Heat from the Sun reaches the Earth by...",
+                "Telugu": "సూర్యుని వేడి భూమిని ఎలా చేరుతుంది?",
+                "Hindi": "सूरज की गर्मी पृथ्वी तक कैसे पहुँचती है?"
+              },
+              "options": {
+                "English": [
+                  "Conduction",
+                  "Convection",
+                  "Boiling",
+                  "Radiation"
+                ],
+                "Telugu": [
+                  "వహనం",
+                  "సంవహనం",
+                  "మరగడం",
+                  "వికిరణం"
+                ],
+                "Hindi": [
+                  "चालन",
+                  "संवहन",
+                  "उबलना",
+                  "विकिरण"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Radiation needs no medium, so it can cross empty space.",
+                "Telugu": "వికిరణానికి యానకం అవసరం లేదు, కాబట్టి ఖాళీ అంతరిక్షాన్ని దాటగలదు.",
+                "Hindi": "विकिरण को माध्यम नहीं चाहिए, इसलिए वह खाली अंतरिक्ष पार कर सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: In water and air, heat moves mainly by convection.",
+                "Telugu": "నిజమా అబద్ధమా: నీరు, గాలిలో వేడి ప్రధానంగా సంవహనం ద్వారా కదులుతుంది.",
+                "Hindi": "सही या गलत: पानी और हवा में गर्मी मुख्यतः संवहन से चलती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Hot liquid or gas rises and cooler parts sink, forming convection currents.",
+                "Telugu": "వేడైన ద్రవం లేదా వాయువు పైకి లేస్తుంది, చల్లని భాగాలు కిందికి దిగుతాయి, సంవహన ప్రవాహాలు ఏర్పడతాయి.",
+                "Hindi": "गर्म तरल या गैस ऊपर उठती है और ठंडा भाग नीचे जाता है, जिससे संवहन धाराएँ बनती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "During the day, a cool breeze blows from the sea to the land. It is called...",
+                "Telugu": "పగటిపూట సముద్రం నుంచి భూమి వైపు చల్లని గాలి వీస్తుంది. దానిని ఏమంటారు?",
+                "Hindi": "दिन में समुद्र से ज़मीन की ओर ठंडी हवा चलती है। इसे क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Sea breeze",
+                  "Land breeze",
+                  "Cyclone",
+                  "Monsoon only"
+                ],
+                "Telugu": [
+                  "సముద్ర పవనం",
+                  "భూ పవనం",
+                  "తుపాను",
+                  "వర్షాకాల పవనం మాత్రమే"
+                ],
+                "Hindi": [
+                  "समुद्री समीर",
+                  "स्थलीय समीर",
+                  "चक्रवात",
+                  "सिर्फ़ मानसून"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Land heats faster; warm air over land rises and cooler sea air moves in.",
+                "Telugu": "భూమి త్వరగా వేడెక్కుతుంది; భూమిపై వేడి గాలి పైకి లేస్తే చల్లని సముద్రపు గాలి లోపలికి వస్తుంది.",
+                "Hindi": "ज़मीन जल्दी गर्म होती है; उसके ऊपर की गर्म हवा उठती है और समुद्र की ठंडी हवा आती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why are cooking pans made of metal with plastic or wooden handles?",
+                "Telugu": "వంట పాత్రలు లోహంతో, హ్యాండిల్స్ ప్లాస్టిక్ లేదా చెక్కతో ఎందుకు ఉంటాయి?",
+                "Hindi": "खाना पकाने के बर्तन धातु के और हैंडल प्लास्टिक या लकड़ी के क्यों होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Plastic is a good conductor",
+                  "Metal conducts heat; plastic and wood are insulators",
+                  "Wood melts in heat",
+                  "Metal is cheaper than wood"
+                ],
+                "Telugu": [
+                  "ప్లాస్టిక్ మంచి వాహకం",
+                  "లోహం వేడిని ప్రసరిస్తుంది; ప్లాస్టిక్, చెక్క అవాహకాలు",
+                  "చెక్క వేడికి కరుగుతుంది",
+                  "లోహం చెక్క కంటే చౌక"
+                ],
+                "Hindi": [
+                  "प्लास्टिक अच्छा सुचालक है",
+                  "धातु गर्मी का चालन करती है; प्लास्टिक और लकड़ी कुचालक हैं",
+                  "लकड़ी गर्मी में पिघलती है",
+                  "धातु लकड़ी से सस्ती है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The metal body heats food quickly, while the handle stays cool to hold.",
+                "Telugu": "లోహపు భాగం ఆహారాన్ని త్వరగా వేడి చేస్తుంది, హ్యాండిల్ పట్టుకోవడానికి చల్లగా ఉంటుంది.",
+                "Hindi": "धातु का भाग भोजन जल्दी गर्म करता है और हैंडल पकड़ने लायक ठंडा रहता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "In summer, light-coloured clothes are preferred because they...",
+                "Telugu": "వేసవిలో లేత రంగు బట్టలను ఎందుకు ఇష్టపడతారు?",
+                "Hindi": "गर्मी में हल्के रंग के कपड़े क्यों पसंद किए जाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Absorb more heat",
+                  "Are heavier",
+                  "Reflect most of the heat",
+                  "Make sweat"
+                ],
+                "Telugu": [
+                  "ఎక్కువ వేడిని గ్రహిస్తాయి",
+                  "బరువుగా ఉంటాయి",
+                  "ఎక్కువ వేడిని పరావర్తనం చేస్తాయి",
+                  "చెమట తెప్పిస్తాయి"
+                ],
+                "Hindi": [
+                  "ज़्यादा गर्मी सोखते हैं",
+                  "भारी होते हैं",
+                  "ज़्यादातर गर्मी लौटा देते हैं",
+                  "पसीना लाते हैं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Dark surfaces absorb more heat; light surfaces reflect it.",
+                "Telugu": "ముదురు ఉపరితలాలు ఎక్కువ వేడిని గ్రహిస్తాయి; లేత ఉపరితలాలు పరావర్తనం చేస్తాయి.",
+                "Hindi": "गहरी सतहें ज़्यादा गर्मी सोखती हैं; हल्की सतहें उसे लौटाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Woollen clothes keep us warm because air trapped in wool is a poor conductor of heat.",
+                "Telugu": "నిజమా అబద్ధమా: ఉన్నిలో చిక్కుకున్న గాలి వేడికి అవాహకం కాబట్టి ఉన్ని బట్టలు వెచ్చగా ఉంచుతాయి.",
+                "Hindi": "सही या गलत: ऊन में फँसी हवा गर्मी की कुचालक है, इसलिए ऊनी कपड़े गर्म रखते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The trapped air stops body heat from escaping to the cold surroundings.",
+                "Telugu": "చిక్కుకున్న గాలి శరీర వేడి చల్లని పరిసరాలకు పోకుండా ఆపుతుంది.",
+                "Hindi": "फँसी हवा शरीर की गर्मी को ठंडे वातावरण में जाने से रोकती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why is a clinical thermometer not used to measure boiling water?",
+                "Telugu": "మరిగే నీటి ఉష్ణోగ్రతను కొలవడానికి క్లినికల్ థర్మామీటర్ ఎందుకు వాడరు?",
+                "Hindi": "उबलते पानी को मापने में डॉक्टरी थर्मामीटर क्यों नहीं लेते?"
+              },
+              "options": {
+                "English": [
+                  "It is too long",
+                  "It has no mercury",
+                  "It is coloured",
+                  "Its range is only 35°C to 42°C and it may break"
+                ],
+                "Telugu": [
+                  "అది చాలా పొడవు",
+                  "దానిలో పాదరసం ఉండదు",
+                  "దానికి రంగు ఉంది",
+                  "దాని పరిధి 35°C నుంచి 42°C మాత్రమే, పగిలిపోవచ్చు"
+                ],
+                "Hindi": [
+                  "बहुत लंबा है",
+                  "इसमें पारा नहीं",
+                  "रंगीन है",
+                  "इसकी सीमा सिर्फ़ 35°C से 42°C है और यह टूट सकता है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Boiling water is 100°C, far above a clinical thermometer's range.",
+                "Telugu": "మరిగే నీరు 100°C, క్లినికల్ థర్మామీటర్ పరిధి కంటే చాలా ఎక్కువ.",
+                "Hindi": "उबलता पानी 100°C होता है, जो डॉक्टरी थर्मामीटर की सीमा से बहुत ऊपर है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acids-bases-salts",
+      "icon": "🧪",
+      "title": {
+        "English": "Acids, Bases and Salts",
+        "Telugu": "ఆమ్లాలు, స్థావరాలు మరియు ఉప్పు",
+        "Hindi": "अम्ल, क्षार और लवण"
+      },
+      "description": {
+        "English": "Learn the common properties of acids, bases and salts.",
+        "Telugu": "ఆమ్లాలు, స్థావరాలు మరియు ఉప్పు యొక్క సాధారణ లక్షణాలను తెలుసుకోండి.",
+        "Hindi": "अम्ल, क्षार और लवण के सामान्य गुणों को सीखें।"
+      },
+      "lessons": [
+        {
+          "id": "acid-base-salt",
+          "visual": "🧫",
+          "title": {
+            "English": "Everyday Chemicals",
+            "Telugu": "రోజువారీ రసాయనాలు",
+            "Hindi": "दैनिक रसायन"
+          },
+          "image": "./images/lessons/acids-bases-and-salts.svg",
+          "explanation": {
+            "English": "Acids taste sour, bases feel soapy and salts are formed when acids and bases react. These substances are useful in cleaning, cooking and industry.",
+            "Telugu": "ఆమ్లాలు తీపి కాకుండా పులుపుగా ఉంటాయి, స్థావరాలు సబ్బు వంటి అనుభూతిని ఇస్తాయి, ఆమ్లాలు మరియు స్థావరాలు చొప్పుడవ్వడంతో ఉప్పు ఏర్పడుతుంది. ఇవి శుభ్రపరచడం, వంట మరియు పరిశ్రమలలో ఉపయోగపడతాయి.",
+            "Hindi": "अम्लों का स्वाद खट्टा होता है, क्षार साबुन जैसा महसूस होते हैं, और अम्ल-क्षार की प्रतिक्रिया से लवण बनते हैं। ये पदार्थ सफाई, खाना पकाने और उद्योग में उपयोगी हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Acids taste sour.",
+              "Bases feel soapy and turn red litmus blue.",
+              "Salts are formed from acid-base reactions.",
+              "Different substances have different pH values."
+            ],
+            "Telugu": [
+              "ఆమ్లాలు పులుపుగా ఉంటాయి.",
+              "స్థావరాలు సబ్బు వంటివి మరియు లిట్మస్‌ను నీలంగా మారుస్తాయి.",
+              "ఆమ్ల-స్థావరాల చర్యల వల్ల ఉప్పు ఏర్పడుతుంది.",
+              "వివిధ పదార్థాలు విభిన్న pH విలువలను కలిగి ఉంటాయి."
+            ],
+            "Hindi": [
+              "अम्ल खट्टे स्वाद वाले होते हैं।",
+              "क्षार साबुन जैसा महसूस होते हैं और लाल लिटमस को नीला करते हैं।",
+              "अम्ल-क्षार की प्रतिक्रिया से लवण बनते हैं।",
+              "अलग-अलग पदार्थों में अलग pH मान होते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Observe how lemon juice and soap behave with litmus paper.",
+            "Telugu": "నిమ్మరసం మరియు సబ్బు లిట్మస్ కాగితంపై ఎలా ప్రవర్తిస్తాయో పరిశీలించండి.",
+            "Hindi": "नींबू के रस और साबुन का लिटमस पेपर पर असर देखें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which of these tastes sour because it contains an acid?",
+                "Telugu": "ఆమ్లం ఉండటం వల్ల పుల్లగా ఉండేది ఏది?",
+                "Hindi": "इनमें से किसका स्वाद अम्ल के कारण खट्टा होता है?"
+              },
+              "options": {
+                "English": [
+                  "Lemon juice",
+                  "Soap solution",
+                  "Sugar",
+                  "Baking soda"
+                ],
+                "Telugu": [
+                  "నిమ్మరసం",
+                  "సబ్బు ద్రావణం",
+                  "చక్కెర",
+                  "వంట సోడా"
+                ],
+                "Hindi": [
+                  "नींबू का रस",
+                  "साबुन का घोल",
+                  "चीनी",
+                  "खाने का सोडा"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Lemon contains citric acid; vinegar has acetic acid; curd has lactic acid.",
+                "Telugu": "నిమ్మలో సిట్రిక్ ఆమ్లం, వెనిగర్‌లో ఎసిటిక్ ఆమ్లం, పెరుగులో లాక్టిక్ ఆమ్లం ఉంటాయి.",
+                "Hindi": "नींबू में साइट्रिक अम्ल, सिरके में एसिटिक अम्ल और दही में लैक्टिक अम्ल होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Bases usually feel...",
+                "Telugu": "క్షారాలు సాధారణంగా తాకితే ఎలా ఉంటాయి?",
+                "Hindi": "क्षार छूने पर आमतौर पर कैसे लगते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Rough",
+                  "Soapy (slippery)",
+                  "Sticky",
+                  "Hot"
+                ],
+                "Telugu": [
+                  "గరుకుగా",
+                  "సబ్బులా జారుడుగా",
+                  "జిగటగా",
+                  "వేడిగా"
+                ],
+                "Hindi": [
+                  "खुरदरे",
+                  "साबुन जैसे फिसलन वाले",
+                  "चिपचिपे",
+                  "गर्म"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Bases like soap and baking soda solution feel slippery and taste bitter.",
+                "Telugu": "సబ్బు, వంట సోడా ద్రావణం వంటి క్షారాలు జారుడుగా ఉండి చేదుగా ఉంటాయి.",
+                "Hindi": "साबुन और खाने के सोडा के घोल जैसे क्षार फिसलन वाले और कड़वे होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Blue litmus paper turns red in...",
+                "Telugu": "నీలి లిట్మస్ కాగితం దేనిలో ఎరుపుగా మారుతుంది?",
+                "Hindi": "नीला लिटमस पत्र किसमें लाल हो जाता है?"
+              },
+              "options": {
+                "English": [
+                  "A base",
+                  "Pure water",
+                  "An acid",
+                  "Salt solution"
+                ],
+                "Telugu": [
+                  "క్షారం",
+                  "స్వచ్ఛమైన నీరు",
+                  "ఆమ్లం",
+                  "ఉప్పు ద్రావణం"
+                ],
+                "Hindi": [
+                  "क्षार",
+                  "शुद्ध पानी",
+                  "अम्ल",
+                  "नमक का घोल"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Acids turn blue litmus red; bases turn red litmus blue.",
+                "Telugu": "ఆమ్లాలు నీలి లిట్మస్‌ను ఎరుపుగా, క్షారాలు ఎరుపు లిట్మస్‌ను నీలంగా మారుస్తాయి.",
+                "Hindi": "अम्ल नीले लिटमस को लाल और क्षार लाल लिटमस को नीला करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Turmeric paper turns red in...",
+                "Telugu": "పసుపు కాగితం దేనిలో ఎరుపుగా మారుతుంది?",
+                "Hindi": "हल्दी पत्र किसमें लाल हो जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Lemon juice",
+                  "Vinegar",
+                  "Pure water",
+                  "Soap solution (a base)"
+                ],
+                "Telugu": [
+                  "నిమ్మరసం",
+                  "వెనిగర్",
+                  "స్వచ్ఛమైన నీరు",
+                  "సబ్బు ద్రావణం (క్షారం)"
+                ],
+                "Hindi": [
+                  "नींबू का रस",
+                  "सिरका",
+                  "शुद्ध पानी",
+                  "साबुन का घोल (क्षार)"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Turmeric is a natural indicator that turns red with bases.",
+                "Telugu": "పసుపు సహజ సూచిక, క్షారాలతో ఎరుపుగా మారుతుంది.",
+                "Hindi": "हल्दी प्राकृतिक सूचक है जो क्षार के साथ लाल हो जाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: An acid and a base react to form salt and water.",
+                "Telugu": "నిజమా అబద్ధమా: ఆమ్లం, క్షారం చర్య జరిపి లవణం, నీరు ఏర్పడతాయి.",
+                "Hindi": "सही या गलत: अम्ल और क्षार अभिक्रिया करके लवण और पानी बनाते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "This reaction is called neutralisation, and heat is given out.",
+                "Telugu": "ఈ చర్యను తటస్థీకరణం అంటారు, ఇందులో వేడి విడుదలవుతుంది.",
+                "Hindi": "इस अभिक्रिया को उदासीनीकरण कहते हैं और इसमें गर्मी निकलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "For an ant bite, which is applied to reduce the sting?",
+                "Telugu": "చీమ కుట్టినప్పుడు మంట తగ్గించడానికి ఏమి రాస్తారు?",
+                "Hindi": "चींटी काटने पर जलन कम करने के लिए क्या लगाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Baking soda paste",
+                  "Vinegar",
+                  "Lemon juice",
+                  "Sugar"
+                ],
+                "Telugu": [
+                  "వంట సోడా పేస్ట్",
+                  "వెనిగర్",
+                  "నిమ్మరసం",
+                  "చక్కెర"
+                ],
+                "Hindi": [
+                  "खाने के सोडे का लेप",
+                  "सिरका",
+                  "नींबू का रस",
+                  "चीनी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The ant injects formic acid; a mild base like baking soda neutralises it.",
+                "Telugu": "చీమ ఫార్మిక్ ఆమ్లాన్ని ఎక్కిస్తుంది; వంట సోడా వంటి బలహీన క్షారం దానిని తటస్థీకరిస్తుంది.",
+                "Hindi": "चींटी फ़ॉर्मिक अम्ल डालती है; खाने का सोडा जैसा हल्का क्षार उसे उदासीन करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Acidity in the stomach is relieved by taking...",
+                "Telugu": "జీర్ణాశయంలో ఆమ్లత్వం తగ్గడానికి ఏమి తీసుకుంటారు?",
+                "Hindi": "पेट की अम्लता किससे दूर होती है?"
+              },
+              "options": {
+                "English": [
+                  "More acid",
+                  "An antacid like milk of magnesia",
+                  "Vinegar",
+                  "Lemon water"
+                ],
+                "Telugu": [
+                  "మరింత ఆమ్లం",
+                  "మిల్క్ ఆఫ్ మెగ్నీషియా వంటి యాంటాసిడ్",
+                  "వెనిగర్",
+                  "నిమ్మ నీరు"
+                ],
+                "Hindi": [
+                  "और अम्ल",
+                  "मिल्क ऑफ़ मैग्नीशिया जैसा एंटासिड",
+                  "सिरका",
+                  "नींबू पानी"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Antacids are mild bases that neutralise excess stomach acid.",
+                "Telugu": "యాంటాసిడ్లు అధిక జీర్ణాశయ ఆమ్లాన్ని తటస్థీకరించే బలహీన క్షారాలు.",
+                "Hindi": "एंटासिड हल्के क्षार हैं जो पेट के ज़्यादा अम्ल को उदासीन करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "If soil is too acidic, farmers add...",
+                "Telugu": "నేల అధిక ఆమ్లంగా ఉంటే రైతులు ఏమి కలుపుతారు?",
+                "Hindi": "मिट्टी बहुत अम्लीय हो तो किसान क्या मिलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Vinegar",
+                  "Lemon",
+                  "Quicklime or slaked lime (a base)",
+                  "Sugar"
+                ],
+                "Telugu": [
+                  "వెనిగర్",
+                  "నిమ్మ",
+                  "సున్నం (క్షారం)",
+                  "చక్కెర"
+                ],
+                "Hindi": [
+                  "सिरका",
+                  "नींबू",
+                  "बिना बुझा या बुझा चूना (क्षार)",
+                  "चीनी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Lime neutralises acidic soil; organic matter is added to basic soil.",
+                "Telugu": "సున్నం ఆమ్ల నేలను తటస్థీకరిస్తుంది; క్షార నేలకు సేంద్రియ పదార్థం కలుపుతారు.",
+                "Hindi": "चूना अम्लीय मिट्टी को उदासीन करता है; क्षारीय मिट्टी में जैविक पदार्थ मिलाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should taste chemicals in the lab to check if they are acids.",
+                "Telugu": "నిజమా అబద్ధమా: ఆమ్లాలా కాదా తెలుసుకోవడానికి ప్రయోగశాలలో రసాయనాలను రుచి చూడాలి.",
+                "Hindi": "सही या गलत: प्रयोगशाला में रसायन अम्ल हैं या नहीं, यह जानने के लिए उन्हें चखना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Never taste lab chemicals; use indicators like litmus, turmeric or china rose.",
+                "Telugu": "ప్రయోగశాల రసాయనాలను ఎప్పుడూ రుచి చూడకండి; లిట్మస్, పసుపు, మందార వంటి సూచికలు వాడండి.",
+                "Hindi": "प्रयोगशाला के रसायन कभी न चखें; लिटमस, हल्दी या गुड़हल जैसे सूचक इस्तेमाल करें।"
+              }
+            },
+            {
+              "question": {
+                "English": "A solution that is neither acidic nor basic is called...",
+                "Telugu": "ఆమ్లం కాని, క్షారం కాని ద్రావణాన్ని ఏమంటారు?",
+                "Hindi": "जो घोल न अम्लीय हो न क्षारीय, उसे क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Strong",
+                  "Sour",
+                  "Bitter",
+                  "Neutral"
+                ],
+                "Telugu": [
+                  "బలమైనది",
+                  "పుల్లనిది",
+                  "చేదైనది",
+                  "తటస్థం"
+                ],
+                "Hindi": [
+                  "प्रबल",
+                  "खट्टा",
+                  "कड़वा",
+                  "उदासीन"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Pure water and sugar solution are neutral and do not change litmus colour.",
+                "Telugu": "స్వచ్ఛమైన నీరు, చక్కెర ద్రావణం తటస్థాలు, లిట్మస్ రంగును మార్చవు.",
+                "Hindi": "शुद्ध पानी और चीनी का घोल उदासीन हैं और लिटमस का रंग नहीं बदलते।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weather-climate-adaptations",
+      "icon": "⛈️",
+      "title": {
+        "English": "Weather, Climate and Adaptations",
+        "Telugu": "వాతావరణం, కాలావధి మరియు అనుకూలతలు",
+        "Hindi": "मौसम, जलवायु और अनुकूलन"
+      },
+      "description": {
+        "English": "Understand daily weather, climate patterns and plant and animal adaptations.",
+        "Telugu": "రోజువారీ వాతావరణం, కాలావధి మరియు మొక్కలు-జంతువుల అనుకూలతలను తెలుసుకోండి.",
+        "Hindi": "दैनिक मौसम, जलवायु पैटर्न और पौधों-जंतुओं के अनुकूलन को समझें।"
+      },
+      "lessons": [
+        {
+          "id": "weather-patterns",
+          "visual": "☁️",
+          "title": {
+            "English": "How Weather Shapes Life",
+            "Telugu": "వాతావరణం జీవితం మీద ఎలా ప్రభావం చూపుతుంది",
+            "Hindi": "मौसम जीवन को कैसे प्रभावित करता है"
+          },
+          "image": "./images/lessons/weather.png",
+          "explanation": {
+            "English": "Weather changes from day to day and includes temperature, wind, rain and clouds. Climate is the average weather over a long period. Organisms adapt to these conditions.",
+            "Telugu": "వాతావరణం రోజురోజుకు మారుతుంది మరియు ఉష్ణోగ్రత, గాలి, వర్షం మరియు మేఘాలు ఉంటాయి. కాలావధి అనేది ఎక్కువ కాలం వరకు నెలకొన్న సరాసరి వాతావరణం. జీవులు ఈ పరిస్థితులకు అనుగుణంగా ఉంటాయి.",
+            "Hindi": "मौसम रोज़ बदलता है और इसमें तापमान, हवा, वर्षा और बादल शामिल होते हैं। जलवायु लंबी अवधि का औसत मौसम होता है। जीव इन स्थितियों के अनुसार ढलते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Weather changes daily.",
+              "Climate is long-term weather pattern.",
+              "Animals and plants adapt to climate.",
+              "Rainfall affects growth and life."
+            ],
+            "Telugu": [
+              "వాతావరణం రోజువారీ మారుతుంది.",
+              "కాలావధి దీర్ఘకాలిక వాతావరణ నమూనా.",
+              "జంతువులు మరియు మొక్కలు కాలావస్థలకు అనుగుణంగా ఉంటాయి.",
+              "వర్షం పెరుగుదల మరియు జీవనంపై ప్రభావం చూపుతుంది."
+            ],
+            "Hindi": [
+              "मौसम रोज बदलता है।",
+              "जलवायु लंबी अवधि का मौसम पैटर्न है।",
+              "पौधे और जानवर जलवायु के अनुसार ढलते हैं।",
+              "वर्षा विकास और जीवन को प्रभावित करती है।"
+            ]
+          },
+          "activity": {
+            "English": "Record the weather for a week and note how it changes.",
+            "Telugu": "ఒక వారం వాతావరణాన్ని నమోదు చేసి మార్పులను గమనించండి.",
+            "Hindi": "एक सप्ताह का मौसम रिकॉर्ड करें और परिवर्तन देखें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The day-to-day condition of the atmosphere at a place is called...",
+                "Telugu": "ఒక ప్రదేశంలో వాతావరణం యొక్క రోజువారీ స్థితిని ఏమంటారు?",
+                "Hindi": "किसी स्थान पर वायुमंडल की रोज़ की स्थिति क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Weather",
+                  "Climate",
+                  "Season",
+                  "Habitat"
+                ],
+                "Telugu": [
+                  "వాతావరణం (వెదర్)",
+                  "శీతోష్ణస్థితి",
+                  "ఋతువు",
+                  "ఆవాసం"
+                ],
+                "Hindi": [
+                  "मौसम",
+                  "जलवायु",
+                  "ऋतु",
+                  "आवास"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Weather includes temperature, humidity, rainfall and wind speed on a day.",
+                "Telugu": "వాతావరణంలో ఆ రోజు ఉష్ణోగ్రత, తేమ, వర్షపాతం, గాలి వేగం ఉంటాయి.",
+                "Hindi": "मौसम में किसी दिन का तापमान, आर्द्रता, वर्षा और हवा की गति शामिल हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The average weather pattern of a place over about 25 years is its...",
+                "Telugu": "ఒక ప్రదేశంలో సుమారు 25 సంవత్సరాల సగటు వాతావరణ నమూనాను ఏమంటారు?",
+                "Hindi": "किसी स्थान का लगभग 25 साल का औसत मौसम क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Weather",
+                  "Climate",
+                  "Forecast",
+                  "Humidity"
+                ],
+                "Telugu": [
+                  "వాతావరణం",
+                  "శీతోష్ణస్థితి",
+                  "సూచన",
+                  "తేమ"
+                ],
+                "Hindi": [
+                  "मौसम",
+                  "जलवायु",
+                  "पूर्वानुमान",
+                  "आर्द्रता"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Climate is the long-term average; Kerala has a wet climate and Rajasthan a dry one.",
+                "Telugu": "శీతోష్ణస్థితి దీర్ఘకాల సగటు; కేరళకు తేమ, రాజస్థాన్‌కు పొడి శీతోష్ణస్థితి.",
+                "Hindi": "जलवायु लंबे समय का औसत है; केरल की जलवायु नम और राजस्थान की शुष्क है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The amount of water vapour in the air is called...",
+                "Telugu": "గాలిలోని నీటి ఆవిరి పరిమాణాన్ని ఏమంటారు?",
+                "Hindi": "हवा में जलवाष्प की मात्रा क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Temperature",
+                  "Pressure",
+                  "Humidity",
+                  "Rainfall"
+                ],
+                "Telugu": [
+                  "ఉష్ణోగ్రత",
+                  "పీడనం",
+                  "తేమ (ఆర్ద్రత)",
+                  "వర్షపాతం"
+                ],
+                "Hindi": [
+                  "तापमान",
+                  "दाब",
+                  "आर्द्रता",
+                  "वर्षा"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "High humidity makes us feel sticky because sweat evaporates slowly.",
+                "Telugu": "ఎక్కువ తేమలో చెమట నెమ్మదిగా ఆవిరవుతుంది, అందుకే జిగటగా అనిపిస్తుంది.",
+                "Hindi": "ज़्यादा आर्द्रता में पसीना धीरे सूखता है, इसलिए चिपचिपापन लगता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Rainfall is measured using a...",
+                "Telugu": "వర్షపాతాన్ని దేనితో కొలుస్తారు?",
+                "Hindi": "वर्षा किससे मापी जाती है?"
+              },
+              "options": {
+                "English": [
+                  "Thermometer",
+                  "Barometer",
+                  "Wind vane",
+                  "Rain gauge"
+                ],
+                "Telugu": [
+                  "థర్మామీటర్",
+                  "బారోమీటర్",
+                  "గాలి దిశ సూచిక",
+                  "వర్షమాపకం"
+                ],
+                "Hindi": [
+                  "थर्मामीटर",
+                  "बैरोमीटर",
+                  "पवन दिशासूचक",
+                  "वर्षामापी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A rain gauge collects rain in a measuring cylinder to show rainfall in mm.",
+                "Telugu": "వర్షమాపకం వర్షాన్ని కొలపాత్రలో సేకరించి మి.మీ.లలో చూపిస్తుంది.",
+                "Hindi": "वर्षामापी बारिश को मापक सिलेंडर में इकट्ठा कर मिमी में दिखाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The maximum temperature of a day usually occurs in the afternoon.",
+                "Telugu": "నిజమా అబద్ధమా: రోజులో గరిష్ఠ ఉష్ణోగ్రత సాధారణంగా మధ్యాహ్నం ఉంటుంది.",
+                "Hindi": "सही या गलत: दिन का अधिकतम तापमान आमतौर पर दोपहर में होता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The minimum temperature usually occurs early in the morning.",
+                "Telugu": "కనిష్ఠ ఉష్ణోగ్రత సాధారణంగా తెల్లవారుజామున ఉంటుంది.",
+                "Hindi": "न्यूनतम तापमान आमतौर पर सुबह जल्दी होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Animals in tropical rainforests often have...",
+                "Telugu": "ఉష్ణమండల వర్షారణ్యాల్లోని జంతువులకు సాధారణంగా ఏమి ఉంటాయి?",
+                "Hindi": "उष्णकटिबंधीय वर्षावनों के जानवरों में अक्सर क्या होता है?"
+              },
+              "options": {
+                "English": [
+                  "Thick white fur",
+                  "Long fat layers under skin",
+                  "Webbed feet only",
+                  "Bright colours, sharp senses and climbing skills"
+                ],
+                "Telugu": [
+                  "దట్టమైన తెల్లని బొచ్చు",
+                  "చర్మం కింద మందపాటి కొవ్వు",
+                  "జాలపాదాలు మాత్రమే",
+                  "ప్రకాశవంతమైన రంగులు, తీక్షణ ఇంద్రియాలు, ఎక్కే నైపుణ్యం"
+                ],
+                "Hindi": [
+                  "घने सफ़ेद बाल",
+                  "त्वचा के नीचे मोटी चर्बी",
+                  "सिर्फ़ झिल्लीदार पैर",
+                  "चमकीले रंग, तेज़ इंद्रियाँ और चढ़ने का कौशल"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Rainforests are crowded; animals like monkeys climb trees to find food and escape enemies.",
+                "Telugu": "వర్షారణ్యాలు రద్దీగా ఉంటాయి; కోతుల వంటి జంతువులు ఆహారం కోసం, శత్రువుల నుంచి తప్పించుకోవడానికి చెట్లు ఎక్కుతాయి.",
+                "Hindi": "वर्षावन भीड़ भरे होते हैं; बंदर जैसे जानवर भोजन और बचाव के लिए पेड़ों पर चढ़ते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Penguins huddle together in polar regions to...",
+                "Telugu": "ధ్రువ ప్రాంతాల్లో పెంగ్విన్లు గుంపుగా ఎందుకు ఉంటాయి?",
+                "Hindi": "ध्रुवीय क्षेत्रों में पेंगुइन झुंड में सटकर क्यों रहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Keep warm",
+                  "Find food",
+                  "Look bigger",
+                  "Sing together"
+                ],
+                "Telugu": [
+                  "వెచ్చగా ఉండటానికి",
+                  "ఆహారం వెదకడానికి",
+                  "పెద్దగా కనిపించడానికి",
+                  "కలిసి పాడడానికి"
+                ],
+                "Hindi": [
+                  "गर्म रहने के लिए",
+                  "भोजन खोजने के लिए",
+                  "बड़े दिखने के लिए",
+                  "साथ गाने के लिए"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Huddling reduces the body surface exposed to icy wind.",
+                "Telugu": "గుంపుగా ఉండటం చల్లని గాలికి గురయ్యే శరీర ఉపరితలాన్ని తగ్గిస్తుంది.",
+                "Hindi": "झुंड में सटने से बर्फ़ीली हवा के संपर्क वाली शरीर की सतह घटती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Who prepares weather reports in India?",
+                "Telugu": "భారతదేశంలో వాతావరణ నివేదికలు ఎవరు తయారు చేస్తారు?",
+                "Hindi": "भारत में मौसम रिपोर्ट कौन तैयार करता है?"
+              },
+              "options": {
+                "English": [
+                  "The Post Office",
+                  "The India Meteorological Department",
+                  "Banks",
+                  "Railway stations"
+                ],
+                "Telugu": [
+                  "తపాలా కార్యాలయం",
+                  "భారత వాతావరణ శాఖ",
+                  "బ్యాంకులు",
+                  "రైల్వే స్టేషన్లు"
+                ],
+                "Hindi": [
+                  "डाकघर",
+                  "भारत मौसम विज्ञान विभाग",
+                  "बैंक",
+                  "रेलवे स्टेशन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The India Meteorological Department collects data and forecasts the weather.",
+                "Telugu": "భారత వాతావరణ శాఖ సమాచారం సేకరించి వాతావరణాన్ని అంచనా వేస్తుంది.",
+                "Hindi": "भारत मौसम विज्ञान विभाग आँकड़े जुटाकर मौसम का पूर्वानुमान देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Migration of birds in winter is an adaptation to cold climate.",
+                "Telugu": "నిజమా అబద్ధమా: చలికాలంలో పక్షుల వలస చల్లని వాతావరణానికి అనుకూలనం.",
+                "Hindi": "सही या गलत: सर्दी में पक्षियों का प्रवास ठंडी जलवायु के प्रति अनुकूलन है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Siberian cranes fly thousands of kilometres to warmer places like India.",
+                "Telugu": "సైబీరియన్ కొంగలు వేలాది కిలోమీటర్లు ఎగిరి భారతదేశం వంటి వెచ్చని ప్రాంతాలకు వస్తాయి.",
+                "Hindi": "साइबेरियाई सारस हज़ारों किलोमीटर उड़कर भारत जैसे गर्म स्थानों पर आते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which factor is NOT a part of weather?",
+                "Telugu": "వాతావరణంలో భాగం కాని అంశం ఏది?",
+                "Hindi": "कौन सा कारक मौसम का हिस्सा नहीं है?"
+              },
+              "options": {
+                "English": [
+                  "Wind speed",
+                  "Temperature",
+                  "Humidity",
+                  "Type of rock in the ground"
+                ],
+                "Telugu": [
+                  "గాలి వేగం",
+                  "ఉష్ణోగ్రత",
+                  "తేమ",
+                  "నేలలోని శిల రకం"
+                ],
+                "Hindi": [
+                  "हवा की गति",
+                  "तापमान",
+                  "आर्द्रता",
+                  "ज़मीन में चट्टान का प्रकार"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Weather describes the air: temperature, humidity, rain, wind and cloud. Rocks are not part of it.",
+                "Telugu": "వాతావరణం గాలిని వర్ణిస్తుంది: ఉష్ణోగ్రత, తేమ, వర్షం, గాలి, మేఘాలు. శిలలు దానిలో భాగం కాదు.",
+                "Hindi": "मौसम हवा का वर्णन है: तापमान, आर्द्रता, बारिश, हवा और बादल। चट्टानें इसका हिस्सा नहीं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physical-chemical-changes",
+      "icon": "🧪",
+      "title": {
+        "English": "Physical and Chemical Changes",
+        "Telugu": "భౌతిక, రసాయన మార్పులు",
+        "Hindi": "भौतिक और रासायनिक परिवर्तन"
+      },
+      "description": {
+        "English": "Changes that make new substances and changes that do not.",
+        "Telugu": "కొత్త పదార్థాలు ఏర్పరిచే, ఏర్పరచని మార్పులు.",
+        "Hindi": "नए पदार्थ बनाने वाले और न बनाने वाले परिवर्तन।"
+      },
+      "lessons": [
+        {
+          "id": "physical-chemical-changes-lesson",
+          "visual": "🔥",
+          "title": {
+            "English": "Is a New Substance Formed?",
+            "Telugu": "కొత్త పదార్థం ఏర్పడిందా?",
+            "Hindi": "क्या नया पदार्थ बना?"
+          },
+          "image": "./images/lessons/changes-around-us.svg",
+          "explanation": {
+            "English": "In a physical change, properties like shape, size, colour or state change, but no new substance is formed, as in melting ice or cutting paper. In a chemical change, new substances with new properties are formed, as in burning, rusting and cooking. Chemical changes may give out heat, light, sound, a gas or a colour change. Rusting of iron needs oxygen and water and can be prevented by painting or galvanising. Crystallisation gives pure crystals from a solution.",
+            "Telugu": "భౌతిక మార్పులో ఆకారం, పరిమాణం, రంగు, స్థితి మారతాయి కానీ కొత్త పదార్థం ఏర్పడదు, మంచు కరగడం, కాగితం కత్తిరించడంలోలా. రసాయన మార్పులో కొత్త గుణాలున్న కొత్త పదార్థాలు ఏర్పడతాయి, దహనం, తుప్పు, వంటలోలా. రసాయన మార్పుల్లో వేడి, కాంతి, శబ్దం, వాయువు లేదా రంగు మార్పు రావచ్చు. ఇనుము తుప్పు పట్టడానికి ఆక్సిజన్, నీరు కావాలి; రంగు వేయడం లేదా గాల్వనైజేషన్ ద్వారా నివారించవచ్చు. స్ఫటికీకరణ ద్రావణం నుంచి స్వచ్ఛమైన స్ఫటికాలను ఇస్తుంది.",
+            "Hindi": "भौतिक परिवर्तन में आकार, माप, रंग या अवस्था बदलती है, पर नया पदार्थ नहीं बनता, जैसे बर्फ़ पिघलना या कागज़ काटना। रासायनिक परिवर्तन में नए गुणों वाले नए पदार्थ बनते हैं, जैसे जलना, जंग लगना और खाना पकाना। रासायनिक परिवर्तन में गर्मी, प्रकाश, आवाज़, गैस या रंग बदल सकता है। लोहे में जंग के लिए ऑक्सीजन और पानी चाहिए; पेंट या जस्तीकरण से इसे रोक सकते हैं। क्रिस्टलीकरण से घोल से शुद्ध क्रिस्टल मिलते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Physical change: no new substance, often reversible.",
+              "Chemical change: new substance formed.",
+              "Signs: heat, light, gas, colour change.",
+              "Rusting needs oxygen and moisture.",
+              "Galvanising coats iron with zinc."
+            ],
+            "Telugu": [
+              "భౌతిక మార్పు: కొత్త పదార్థం ఏర్పడదు, తరచుగా ఉత్క్రమణీయం.",
+              "రసాయన మార్పు: కొత్త పదార్థం ఏర్పడుతుంది.",
+              "గుర్తులు: వేడి, కాంతి, వాయువు, రంగు మార్పు.",
+              "తుప్పుకు ఆక్సిజన్, తేమ కావాలి.",
+              "గాల్వనైజేషన్‌లో ఇనుముపై జింక్ పూత వేస్తారు."
+            ],
+            "Hindi": [
+              "भौतिक परिवर्तन: नया पदार्थ नहीं, अक्सर उत्क्रमणीय।",
+              "रासायनिक परिवर्तन: नया पदार्थ बनता है।",
+              "लक्षण: गर्मी, प्रकाश, गैस, रंग बदलना।",
+              "जंग के लिए ऑक्सीजन और नमी चाहिए।",
+              "जस्तीकरण में लोहे पर जस्ते की परत चढ़ाते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Add a little baking soda to vinegar in a glass. Observe the bubbles and note what kind of change it is.",
+            "Telugu": "గ్లాసులోని వెనిగర్‌లో కొంచెం వంట సోడా వేయండి. బుడగలు గమనించి అది ఏ మార్పో రాయండి.",
+            "Hindi": "गिलास में सिरके में थोड़ा खाने का सोडा डालिए। बुलबुले देखकर लिखिए कि यह कैसा परिवर्तन है।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which of these is a physical change?",
+                "Telugu": "వీటిలో భౌతిక మార్పు ఏది?",
+                "Hindi": "इनमें से भौतिक परिवर्तन कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Melting of wax",
+                  "Burning of wood",
+                  "Rusting of iron",
+                  "Cooking of rice"
+                ],
+                "Telugu": [
+                  "మైనం కరగడం",
+                  "కట్టెలు మండటం",
+                  "ఇనుము తుప్పు పట్టడం",
+                  "అన్నం వండటం"
+                ],
+                "Hindi": [
+                  "मोम पिघलना",
+                  "लकड़ी जलना",
+                  "लोहे में जंग",
+                  "चावल पकाना"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Melted wax is still wax; it can be cooled back into a solid.",
+                "Telugu": "కరిగిన మైనం ఇంకా మైనమే; చల్లబరిస్తే తిరిగి ఘనమవుతుంది.",
+                "Hindi": "पिघला मोम अब भी मोम है; ठंडा करके फिर ठोस बन जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "In a chemical change...",
+                "Telugu": "రసాయన మార్పులో...",
+                "Hindi": "रासायनिक परिवर्तन में..."
+              },
+              "options": {
+                "English": [
+                  "Only the shape changes",
+                  "A new substance is formed",
+                  "Nothing happens",
+                  "Only the size changes"
+                ],
+                "Telugu": [
+                  "ఆకారం మాత్రమే మారుతుంది",
+                  "కొత్త పదార్థం ఏర్పడుతుంది",
+                  "ఏమీ జరగదు",
+                  "పరిమాణం మాత్రమే మారుతుంది"
+                ],
+                "Hindi": [
+                  "सिर्फ़ आकार बदलता है",
+                  "नया पदार्थ बनता है",
+                  "कुछ नहीं होता",
+                  "सिर्फ़ माप बदलता है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Chemical changes produce substances with new properties.",
+                "Telugu": "రసాయన మార్పులు కొత్త గుణాలున్న పదార్థాలను ఏర్పరుస్తాయి.",
+                "Hindi": "रासायनिक परिवर्तन नए गुणों वाले पदार्थ बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Rusting of iron requires...",
+                "Telugu": "ఇనుము తుప్పు పట్టడానికి ఏమి కావాలి?",
+                "Hindi": "लोहे में जंग लगने के लिए क्या चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Only heat",
+                  "Only sunlight",
+                  "Oxygen and moisture",
+                  "Only salt"
+                ],
+                "Telugu": [
+                  "వేడి మాత్రమే",
+                  "సూర్యకాంతి మాత్రమే",
+                  "ఆక్సిజన్, తేమ",
+                  "ఉప్పు మాత్రమే"
+                ],
+                "Hindi": [
+                  "सिर्फ़ गर्मी",
+                  "सिर्फ़ धूप",
+                  "ऑक्सीजन और नमी",
+                  "सिर्फ़ नमक"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Iron + oxygen + water forms iron oxide (rust). Rusting is faster near the sea.",
+                "Telugu": "ఇనుము + ఆక్సిజన్ + నీరు కలిసి ఐరన్ ఆక్సైడ్ (తుప్పు) ఏర్పడుతుంది. సముద్ర తీరంలో తుప్పు వేగంగా పడుతుంది.",
+                "Hindi": "लोहा + ऑक्सीजन + पानी से आयरन ऑक्साइड (जंग) बनता है। समुद्र किनारे जंग जल्दी लगती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Depositing a layer of zinc on iron to prevent rusting is called...",
+                "Telugu": "తుప్పు నివారణకు ఇనుముపై జింక్ పొర వేయడాన్ని ఏమంటారు?",
+                "Hindi": "जंग से बचाने के लिए लोहे पर जस्ते की परत चढ़ाना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Crystallisation",
+                  "Evaporation",
+                  "Melting",
+                  "Galvanisation"
+                ],
+                "Telugu": [
+                  "స్ఫటికీకరణ",
+                  "బాష్పీభవనం",
+                  "కరగడం",
+                  "గాల్వనైజేషన్"
+                ],
+                "Hindi": [
+                  "क्रिस्टलीकरण",
+                  "वाष्पीकरण",
+                  "पिघलना",
+                  "जस्तीकरण"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Zinc protects the iron from air and water, as in galvanised pipes.",
+                "Telugu": "జింక్ ఇనుమును గాలి, నీటి నుంచి కాపాడుతుంది, గాల్వనైజ్డ్ పైపుల్లోలా.",
+                "Hindi": "जस्ता लोहे को हवा और पानी से बचाता है, जैसे जस्तीकृत पाइपों में।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Burning of a magnesium ribbon is a chemical change.",
+                "Telugu": "నిజమా అబద్ధమా: మెగ్నీషియం రిబ్బన్ మండటం రసాయన మార్పు.",
+                "Hindi": "सही या गलत: मैग्नीशियम रिबन का जलना रासायनिक परिवर्तन है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "It burns with a bright light and forms a white ash, magnesium oxide.",
+                "Telugu": "అది ప్రకాశవంతమైన కాంతితో మండి మెగ్నీషియం ఆక్సైడ్ అనే తెల్లని బూడిదను ఏర్పరుస్తుంది.",
+                "Hindi": "यह तेज़ रोशनी से जलकर मैग्नीशियम ऑक्साइड नाम की सफ़ेद राख बनाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Vinegar and baking soda produce bubbles of which gas?",
+                "Telugu": "వెనిగర్, వంట సోడా కలిస్తే ఏ వాయువు బుడగలు వస్తాయి?",
+                "Hindi": "सिरका और खाने का सोडा मिलाने पर किस गैस के बुलबुले बनते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Carbon dioxide",
+                  "Oxygen",
+                  "Hydrogen",
+                  "Nitrogen"
+                ],
+                "Telugu": [
+                  "కార్బన్ డయాక్సైడ్",
+                  "ఆక్సిజన్",
+                  "హైడ్రోజన్",
+                  "నైట్రోజన్"
+                ],
+                "Hindi": [
+                  "कार्बन डाइऑक्साइड",
+                  "ऑक्सीजन",
+                  "हाइड्रोजन",
+                  "नाइट्रोजन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Carbon dioxide turns lime water milky, confirming the gas.",
+                "Telugu": "కార్బన్ డయాక్సైడ్ సున్నపు నీటిని పాలలా మారుస్తుంది, ఇది ఆ వాయువును నిర్ధారిస్తుంది.",
+                "Hindi": "कार्बन डाइऑक्साइड चूने के पानी को दूधिया बनाती है, जिससे गैस की पुष्टि होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Getting large, pure crystals of a substance from its solution is called...",
+                "Telugu": "ద్రావణం నుంచి పెద్ద, స్వచ్ఛమైన స్ఫటికాలు పొందడాన్ని ఏమంటారు?",
+                "Hindi": "घोल से पदार्थ के बड़े, शुद्ध क्रिस्टल पाना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Rusting",
+                  "Crystallisation",
+                  "Galvanisation",
+                  "Combustion"
+                ],
+                "Telugu": [
+                  "తుప్పు",
+                  "స్ఫటికీకరణ",
+                  "గాల్వనైజేషన్",
+                  "దహనం"
+                ],
+                "Hindi": [
+                  "जंग",
+                  "क्रिस्टलीकरण",
+                  "जस्तीकरण",
+                  "दहन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Crystallisation is a physical change used to purify substances like copper sulphate.",
+                "Telugu": "స్ఫటికీకరణ కాపర్ సల్ఫేట్ వంటి పదార్థాలను శుద్ధి చేసే భౌతిక మార్పు.",
+                "Hindi": "क्रिस्टलीकरण कॉपर सल्फ़ेट जैसे पदार्थ शुद्ध करने का भौतिक परिवर्तन है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A cut apple turns brown in air. This is a...",
+                "Telugu": "కోసిన ఆపిల్ గాలిలో గోధుమ రంగుకు మారుతుంది. ఇది...",
+                "Hindi": "कटा सेब हवा में भूरा हो जाता है। यह क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Physical change",
+                  "Change of state",
+                  "Chemical change",
+                  "No change"
+                ],
+                "Telugu": [
+                  "భౌతిక మార్పు",
+                  "స్థితి మార్పు",
+                  "రసాయన మార్పు",
+                  "మార్పు లేదు"
+                ],
+                "Hindi": [
+                  "भौतिक परिवर्तन",
+                  "अवस्था परिवर्तन",
+                  "रासायनिक परिवर्तन",
+                  "कोई परिवर्तन नहीं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Substances in the apple react with oxygen to form new brown substances.",
+                "Telugu": "ఆపిల్‌లోని పదార్థాలు ఆక్సిజన్‌తో చర్య జరిపి కొత్త గోధుమ పదార్థాలను ఏర్పరుస్తాయి.",
+                "Hindi": "सेब के पदार्थ ऑक्सीजन से क्रिया करके नए भूरे पदार्थ बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Dissolving sugar in water is a chemical change.",
+                "Telugu": "నిజమా అబద్ధమా: చక్కెరను నీటిలో కరిగించడం రసాయన మార్పు.",
+                "Hindi": "सही या गलत: पानी में चीनी घोलना रासायनिक परिवर्तन है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Sugar can be recovered by evaporation, so it is a physical change.",
+                "Telugu": "బాష్పీభవనంతో చక్కెరను తిరిగి పొందవచ్చు, కాబట్టి ఇది భౌతిక మార్పు.",
+                "Hindi": "वाष्पीकरण से चीनी वापस मिल जाती है, इसलिए यह भौतिक परिवर्तन है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is NOT a sign of a chemical change?",
+                "Telugu": "రసాయన మార్పుకు గుర్తు కానిది ఏది?",
+                "Hindi": "कौन सा रासायनिक परिवर्तन का लक्षण नहीं है?"
+              },
+              "options": {
+                "English": [
+                  "Gas is given off",
+                  "Colour changes",
+                  "Heat or light is produced",
+                  "Paper is folded into a boat"
+                ],
+                "Telugu": [
+                  "వాయువు విడుదలవడం",
+                  "రంగు మారడం",
+                  "వేడి లేదా కాంతి రావడం",
+                  "కాగితాన్ని పడవగా మడవడం"
+                ],
+                "Hindi": [
+                  "गैस निकलना",
+                  "रंग बदलना",
+                  "गर्मी या प्रकाश बनना",
+                  "कागज़ से नाव मोड़ना"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Folding changes only the shape; the paper stays paper.",
+                "Telugu": "మడవడం ఆకారాన్ని మాత్రమే మారుస్తుంది; కాగితం కాగితంగానే ఉంటుంది.",
+                "Hindi": "मोड़ने से सिर्फ़ आकार बदलता है; कागज़ कागज़ ही रहता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "respiration-in-organisms",
+      "icon": "🫁",
+      "title": {
+        "English": "Respiration in Organisms",
+        "Telugu": "జీవులలో శ్వాసక్రియ",
+        "Hindi": "जीवों में श्वसन"
+      },
+      "description": {
+        "English": "How living things release energy from food.",
+        "Telugu": "జీవులు ఆహారం నుంచి శక్తిని ఎలా విడుదల చేస్తాయి.",
+        "Hindi": "जीव भोजन से ऊर्जा कैसे निकालते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "respiration-in-organisms-lesson",
+          "visual": "🌬️",
+          "title": {
+            "English": "Breathing and Cellular Respiration",
+            "Telugu": "శ్వాస, కణ శ్వాసక్రియ",
+            "Hindi": "साँस लेना और कोशिकीय श्वसन"
+          },
+          "image": "./images/lessons/nutrition-and-respiration.svg",
+          "explanation": {
+            "English": "Respiration is the breakdown of food in cells to release energy. Aerobic respiration uses oxygen and gives carbon dioxide, water and energy. Without oxygen, anaerobic respiration happens: yeast makes alcohol and our muscles make lactic acid, causing cramps. Breathing means taking in air rich in oxygen (inhalation) and giving out air rich in carbon dioxide (exhalation). Humans breathe with lungs, fish with gills, earthworms through their skin and insects through spiracles.",
+            "Telugu": "కణాల్లో ఆహారాన్ని విడగొట్టి శక్తిని విడుదల చేయడమే శ్వాసక్రియ. వాయుసహిత శ్వాసక్రియ ఆక్సిజన్ వాడి కార్బన్ డయాక్సైడ్, నీరు, శక్తిని ఇస్తుంది. ఆక్సిజన్ లేకుంటే అవాయు శ్వాసక్రియ జరుగుతుంది: ఈస్ట్ ఆల్కహాల్‌ను, మన కండరాలు లాక్టిక్ ఆమ్లాన్ని తయారు చేస్తాయి, దాంతో కండరాలు పట్టేస్తాయి. శ్వాస అంటే ఆక్సిజన్ ఎక్కువ ఉన్న గాలి పీల్చడం (ఉచ్ఛ్వాసం), కార్బన్ డయాక్సైడ్ ఎక్కువ ఉన్న గాలి వదలడం (నిశ్వాసం). మనుషులు ఊపిరితిత్తులతో, చేపలు మొప్పలతో, వానపాములు చర్మంతో, కీటకాలు శ్వాసరంధ్రాలతో శ్వాసిస్తాయి.",
+            "Hindi": "कोशिकाओं में भोजन तोड़कर ऊर्जा निकालना श्वसन है। वायवीय श्वसन ऑक्सीजन से कार्बन डाइऑक्साइड, पानी और ऊर्जा देता है। ऑक्सीजन न हो तो अवायवीय श्वसन होता है: यीस्ट अल्कोहल और हमारी मांसपेशियाँ लैक्टिक अम्ल बनाती हैं, जिससे ऐंठन होती है। साँस लेने में ऑक्सीजन युक्त हवा अंदर (अंतःश्वसन) और कार्बन डाइऑक्साइड युक्त हवा बाहर (उच्छ्वसन) जाती है। मनुष्य फेफड़ों से, मछली गलफड़ों से, केंचुआ त्वचा से और कीड़े श्वासरंध्रों से साँस लेते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Respiration releases energy from food in cells.",
+              "Aerobic: uses oxygen; anaerobic: without oxygen.",
+              "Muscle cramps are due to lactic acid.",
+              "Inhale oxygen-rich air, exhale carbon dioxide-rich air.",
+              "Gills, skin and spiracles are other breathing organs."
+            ],
+            "Telugu": [
+              "శ్వాసక్రియ కణాల్లో ఆహారం నుంచి శక్తిని విడుదల చేస్తుంది.",
+              "వాయుసహితం: ఆక్సిజన్ వాడుతుంది; అవాయు: ఆక్సిజన్ లేకుండా.",
+              "కండరాలు పట్టేయడానికి లాక్టిక్ ఆమ్లం కారణం.",
+              "ఆక్సిజన్ ఉన్న గాలి పీల్చి, కార్బన్ డయాక్సైడ్ ఉన్న గాలి వదులుతాం.",
+              "మొప్పలు, చర్మం, శ్వాసరంధ్రాలు ఇతర శ్వాస అవయవాలు."
+            ],
+            "Hindi": [
+              "श्वसन कोशिकाओं में भोजन से ऊर्जा निकालता है।",
+              "वायवीय: ऑक्सीजन के साथ; अवायवीय: ऑक्सीजन के बिना।",
+              "मांसपेशियों की ऐंठन लैक्टिक अम्ल से होती है।",
+              "ऑक्सीजन युक्त हवा अंदर, कार्बन डाइऑक्साइड युक्त हवा बाहर।",
+              "गलफड़े, त्वचा और श्वासरंध्र अन्य श्वसन अंग हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Count your breaths in one minute at rest, then after running for a minute. Compare the two numbers.",
+            "Telugu": "విశ్రాంతిలో ఒక నిమిషంలో శ్వాసలు లెక్కించండి, తర్వాత ఒక నిమిషం పరుగెత్తి మళ్లీ లెక్కించండి. రెండింటినీ పోల్చండి.",
+            "Hindi": "आराम में एक मिनट में साँसें गिनिए, फिर एक मिनट दौड़ने के बाद गिनिए। दोनों संख्याओं की तुलना कीजिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Respiration in cells releases...",
+                "Telugu": "కణాల్లో శ్వాసక్రియ ఏమి విడుదల చేస్తుంది?",
+                "Hindi": "कोशिकाओं में श्वसन से क्या निकलता है?"
+              },
+              "options": {
+                "English": [
+                  "Energy",
+                  "Starch",
+                  "Chlorophyll",
+                  "Bile"
+                ],
+                "Telugu": [
+                  "శక్తి",
+                  "పిండి పదార్థం",
+                  "పత్రహరితం",
+                  "పిత్తరసం"
+                ],
+                "Hindi": [
+                  "ऊर्जा",
+                  "स्टार्च",
+                  "पर्णहरित",
+                  "पित्त"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Glucose is broken down to release energy for all activities.",
+                "Telugu": "అన్ని పనులకు శక్తి కోసం గ్లూకోజ్ విడగొట్టబడుతుంది.",
+                "Hindi": "सभी कामों की ऊर्जा के लिए ग्लूकोज़ तोड़ा जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Breakdown of glucose without oxygen is called...",
+                "Telugu": "ఆక్సిజన్ లేకుండా గ్లూకోజ్ విచ్ఛిన్నాన్ని ఏమంటారు?",
+                "Hindi": "बिना ऑक्सीजन के ग्लूकोज़ टूटना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Aerobic respiration",
+                  "Anaerobic respiration",
+                  "Photosynthesis",
+                  "Transpiration"
+                ],
+                "Telugu": [
+                  "వాయుసహిత శ్వాసక్రియ",
+                  "అవాయు శ్వాసక్రియ",
+                  "కిరణజన్య సంయోగక్రియ",
+                  "బాష్పోత్సేకం"
+                ],
+                "Hindi": [
+                  "वायवीय श्वसन",
+                  "अवायवीय श्वसन",
+                  "प्रकाश संश्लेषण",
+                  "वाष्पोत्सर्जन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Yeast respires anaerobically and produces alcohol and carbon dioxide.",
+                "Telugu": "ఈస్ట్ అవాయు శ్వాసక్రియ జరిపి ఆల్కహాల్, కార్బన్ డయాక్సైడ్ ఉత్పత్తి చేస్తుంది.",
+                "Hindi": "यीस्ट अवायवीय श्वसन से अल्कोहल और कार्बन डाइऑक्साइड बनाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Muscle cramps after heavy exercise are caused by...",
+                "Telugu": "భారీ వ్యాయామం తర్వాత కండరాలు పట్టేయడానికి కారణం...",
+                "Hindi": "भारी व्यायाम के बाद मांसपेशियों की ऐंठन का कारण क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Too much oxygen",
+                  "Sugar in blood",
+                  "Lactic acid build-up",
+                  "Too much water"
+                ],
+                "Telugu": [
+                  "అధిక ఆక్సిజన్",
+                  "రక్తంలో చక్కెర",
+                  "లాక్టిక్ ఆమ్లం పేరుకోవడం",
+                  "అధిక నీరు"
+                ],
+                "Hindi": [
+                  "बहुत ज़्यादा ऑक्सीजन",
+                  "खून में शक्कर",
+                  "लैक्टिक अम्ल का जमा होना",
+                  "बहुत ज़्यादा पानी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "When oxygen is short, muscles respire anaerobically and lactic acid collects.",
+                "Telugu": "ఆక్సిజన్ తక్కువైనప్పుడు కండరాలు అవాయు శ్వాసక్రియ జరుపుతాయి, లాక్టిక్ ఆమ్లం పేరుకుంటుంది.",
+                "Hindi": "ऑक्सीजन कम होने पर मांसपेशियाँ अवायवीय श्वसन करती हैं और लैक्टिक अम्ल जमा होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Fish breathe using...",
+                "Telugu": "చేపలు దేనితో శ్వాసిస్తాయి?",
+                "Hindi": "मछलियाँ किससे साँस लेती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Lungs",
+                  "Skin only",
+                  "Spiracles",
+                  "Gills"
+                ],
+                "Telugu": [
+                  "ఊపిరితిత్తులు",
+                  "చర్మం మాత్రమే",
+                  "శ్వాసరంధ్రాలు",
+                  "మొప్పలు"
+                ],
+                "Hindi": [
+                  "फेफड़े",
+                  "सिर्फ़ त्वचा",
+                  "श्वासरंध्र",
+                  "गलफड़े"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Gills have many blood vessels that take dissolved oxygen from water.",
+                "Telugu": "మొప్పల్లో ఎన్నో రక్తనాళాలు ఉండి నీటిలో కరిగిన ఆక్సిజన్‌ను తీసుకుంటాయి.",
+                "Hindi": "गलफड़ों में कई रक्त वाहिकाएँ होती हैं जो पानी में घुली ऑक्सीजन लेती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Earthworms breathe through their moist skin.",
+                "Telugu": "నిజమా అబద్ధమా: వానపాములు తేమ చర్మం ద్వారా శ్వాసిస్తాయి.",
+                "Hindi": "सही या गलत: केंचुए अपनी नम त्वचा से साँस लेते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Gases pass easily through their thin, moist, slimy skin.",
+                "Telugu": "వాటి సన్నని, తేమ, జిగట చర్మం ద్వారా వాయువులు సులభంగా వెళ్తాయి.",
+                "Hindi": "उनकी पतली, नम, चिकनी त्वचा से गैसें आसानी से आती-जाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Insects breathe through small openings called...",
+                "Telugu": "కీటకాలు ఏ చిన్న రంధ్రాల ద్వారా శ్వాసిస్తాయి?",
+                "Hindi": "कीड़े किन छोटे छिद्रों से साँस लेते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Spiracles",
+                  "Stomata",
+                  "Nostrils",
+                  "Gills"
+                ],
+                "Telugu": [
+                  "శ్వాసరంధ్రాలు (స్పిరకిల్స్)",
+                  "పత్రరంధ్రాలు",
+                  "నాసికారంధ్రాలు",
+                  "మొప్పలు"
+                ],
+                "Hindi": [
+                  "श्वासरंध्र (स्पाइरेकल)",
+                  "रंध्र (स्टोमेटा)",
+                  "नथुने",
+                  "गलफड़े"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Spiracles lead into air tubes (tracheae) that carry air to every part of the body.",
+                "Telugu": "శ్వాసరంధ్రాలు గాలి నాళాలకు (శ్వాసనాళికలు) దారితీసి శరీరమంతా గాలిని చేరుస్తాయి.",
+                "Hindi": "श्वासरंध्र वायु नलिकाओं (ट्रेकिया) से जुड़कर पूरे शरीर तक हवा पहुँचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which gas turns lime water milky, showing it is in exhaled air?",
+                "Telugu": "నిశ్వాస గాలిలో ఉండి సున్నపు నీటిని పాలలా మార్చే వాయువు ఏది?",
+                "Hindi": "छोड़ी गई साँस में कौन सी गैस चूने के पानी को दूधिया करती है?"
+              },
+              "options": {
+                "English": [
+                  "Oxygen",
+                  "Carbon dioxide",
+                  "Nitrogen",
+                  "Hydrogen"
+                ],
+                "Telugu": [
+                  "ఆక్సిజన్",
+                  "కార్బన్ డయాక్సైడ్",
+                  "నైట్రోజన్",
+                  "హైడ్రోజన్"
+                ],
+                "Hindi": [
+                  "ऑक्सीजन",
+                  "कार्बन डाइऑक्साइड",
+                  "नाइट्रोजन",
+                  "हाइड्रोजन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Exhaled air has more carbon dioxide than inhaled air.",
+                "Telugu": "పీల్చిన గాలి కంటే వదిలిన గాలిలో కార్బన్ డయాక్సైడ్ ఎక్కువ.",
+                "Hindi": "अंदर ली गई हवा से छोड़ी गई हवा में कार्बन डाइऑक्साइड ज़्यादा होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "During inhalation the chest cavity...",
+                "Telugu": "ఉచ్ఛ్వాసంలో ఛాతీ కుహరం...",
+                "Hindi": "अंतःश्वसन में छाती की गुहा..."
+              },
+              "options": {
+                "English": [
+                  "Becomes smaller",
+                  "Stays the same",
+                  "Becomes larger as ribs move up and the diaphragm moves down",
+                  "Fills with water"
+                ],
+                "Telugu": [
+                  "చిన్నదవుతుంది",
+                  "అలాగే ఉంటుంది",
+                  "పక్కటెముకలు పైకి, వితానం కిందికి కదిలి పెద్దదవుతుంది",
+                  "నీటితో నిండుతుంది"
+                ],
+                "Hindi": [
+                  "छोटी होती है",
+                  "वैसी ही रहती है",
+                  "पसलियाँ ऊपर और डायाफ़्राम नीचे जाने से बड़ी होती है",
+                  "पानी से भरती है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A larger chest space lets air rush into the lungs.",
+                "Telugu": "పెద్దదైన ఛాతీ కుహరంలోకి గాలి ఊపిరితిత్తుల్లోకి దూసుకెళ్తుంది.",
+                "Hindi": "छाती की बड़ी गुहा में हवा तेज़ी से फेफड़ों में भरती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Plant roots take oxygen from air spaces in the soil.",
+                "Telugu": "నిజమా అబద్ధమా: మొక్కల వేర్లు నేలలోని గాలి ఖాళీల నుంచి ఆక్సిజన్ తీసుకుంటాయి.",
+                "Hindi": "सही या गलत: पौधों की जड़ें मिट्टी के हवा वाले छिद्रों से ऑक्सीजन लेती हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "That is why overwatering, which fills these spaces, can harm plants.",
+                "Telugu": "అందుకే ఈ ఖాళీలను నింపే అతిగా నీరు పోయడం మొక్కలకు హాని చేస్తుంది.",
+                "Hindi": "इसीलिए ज़्यादा पानी देना, जो ये छिद्र भर देता है, पौधों को नुकसान पहुँचाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why do we breathe faster after running?",
+                "Telugu": "పరుగెత్తిన తర్వాత మనం ఎందుకు వేగంగా శ్వాసిస్తాం?",
+                "Hindi": "दौड़ने के बाद हम तेज़ साँस क्यों लेते हैं?"
+              },
+              "options": {
+                "English": [
+                  "To cool the lungs",
+                  "Because the air is thin",
+                  "To sleep",
+                  "Muscles need more oxygen for extra energy"
+                ],
+                "Telugu": [
+                  "ఊపిరితిత్తులను చల్లబరచడానికి",
+                  "గాలి పలుచగా ఉంటుంది కాబట్టి",
+                  "నిద్రపోవడానికి",
+                  "అదనపు శక్తికి కండరాలకు ఎక్కువ ఆక్సిజన్ కావాలి"
+                ],
+                "Hindi": [
+                  "फेफड़े ठंडे करने के लिए",
+                  "हवा पतली है इसलिए",
+                  "सोने के लिए",
+                  "अतिरिक्त ऊर्जा के लिए मांसपेशियों को ज़्यादा ऑक्सीजन चाहिए"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Faster breathing supplies more oxygen and removes extra carbon dioxide.",
+                "Telugu": "వేగమైన శ్వాస ఎక్కువ ఆక్సిజన్ అందించి అదనపు కార్బన్ డయాక్సైడ్‌ను తొలగిస్తుంది.",
+                "Hindi": "तेज़ साँस ज़्यादा ऑक्सीजन देती और अतिरिक्त कार्बन डाइऑक्साइड निकालती है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motion-and-time",
+      "icon": "⏱️",
+      "title": {
+        "English": "Motion and Time",
+        "Telugu": "చలనం, కాలం",
+        "Hindi": "गति और समय"
+      },
+      "description": {
+        "English": "Speed, measuring time and distance-time graphs.",
+        "Telugu": "వడి, కాలాన్ని కొలవడం, దూర-కాల గ్రాఫులు.",
+        "Hindi": "चाल, समय मापना और दूरी-समय ग्राफ़।"
+      },
+      "lessons": [
+        {
+          "id": "motion-and-time-lesson",
+          "visual": "🚗",
+          "title": {
+            "English": "How Fast Is It Moving?",
+            "Telugu": "ఎంత వేగంగా కదులుతోంది?",
+            "Hindi": "यह कितनी तेज़ चल रहा है?"
+          },
+          "image": "./images/lessons/motion-and-measurement.svg",
+          "explanation": {
+            "English": "Speed is the distance covered in unit time: speed = distance / time. Its basic unit is metre per second (m/s); for vehicles we use km/h. If an object covers equal distances in equal times, its motion is uniform; otherwise it is non-uniform. The time period of a pendulum is the time for one complete swing and is used in clocks. A speedometer shows speed and an odometer shows distance travelled. A distance-time graph that is a straight line shows uniform motion.",
+            "Telugu": "వడి అంటే ప్రమాణ కాలంలో ప్రయాణించిన దూరం: వడి = దూరం / కాలం. దాని ప్రాథమిక ప్రమాణం మీటరు/సెకను (m/s); వాహనాలకు కి.మీ/గం వాడతాం. సమాన కాలాల్లో సమాన దూరాలు ప్రయాణిస్తే అది సమ చలనం; లేకపోతే అసమ చలనం. లోలకం ఒక పూర్తి డోలనానికి పట్టే సమయాన్ని ఆవర్తన కాలం అంటారు, దానిని గడియారాల్లో వాడతారు. స్పీడోమీటర్ వడిని, ఓడోమీటర్ ప్రయాణించిన దూరాన్ని చూపిస్తాయి. సరళ రేఖగా ఉండే దూర-కాల గ్రాఫు సమ చలనాన్ని చూపిస్తుంది.",
+            "Hindi": "चाल इकाई समय में तय की गई दूरी है: चाल = दूरी / समय। इसकी मूल इकाई मीटर प्रति सेकंड (m/s) है; वाहनों के लिए किमी/घंटा लेते हैं। बराबर समय में बराबर दूरी तय हो तो गति एकसमान है; नहीं तो असमान। लोलक के एक पूरे दोलन का समय उसका आवर्तकाल है, जो घड़ियों में काम आता है। स्पीडोमीटर चाल और ओडोमीटर तय दूरी दिखाता है। सीधी रेखा वाला दूरी-समय ग्राफ़ एकसमान गति दिखाता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Speed = distance / time.",
+              "SI unit of speed is m/s.",
+              "Uniform motion: equal distances in equal times.",
+              "Time period: one full swing of a pendulum.",
+              "A straight-line distance-time graph shows uniform motion."
+            ],
+            "Telugu": [
+              "వడి = దూరం / కాలం.",
+              "వడి SI ప్రమాణం m/s.",
+              "సమ చలనం: సమాన కాలాల్లో సమాన దూరాలు.",
+              "ఆవర్తన కాలం: లోలకం ఒక పూర్తి డోలనం.",
+              "సరళ రేఖ దూర-కాల గ్రాఫు సమ చలనాన్ని చూపిస్తుంది."
+            ],
+            "Hindi": [
+              "चाल = दूरी / समय।",
+              "चाल की SI इकाई m/s है।",
+              "एकसमान गति: बराबर समय में बराबर दूरी।",
+              "आवर्तकाल: लोलक का एक पूरा दोलन।",
+              "सीधी रेखा वाला दूरी-समय ग्राफ़ एकसमान गति दिखाता है।"
+            ]
+          },
+          "activity": {
+            "English": "Tie a stone to a string to make a pendulum. Time 20 swings and divide by 20 to find its time period.",
+            "Telugu": "దారానికి రాయి కట్టి లోలకం చేయండి. 20 డోలనాల సమయం కొలిచి 20తో భాగించి ఆవర్తన కాలం కనుగొనండి.",
+            "Hindi": "धागे से पत्थर बाँधकर लोलक बनाइए। 20 दोलनों का समय मापकर 20 से भाग देकर आवर्तकाल निकालिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Speed is calculated as...",
+                "Telugu": "వడిని ఎలా లెక్కిస్తారు?",
+                "Hindi": "चाल कैसे निकालते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Distance / time",
+                  "Time / distance",
+                  "Distance × time",
+                  "Distance + time"
+                ],
+                "Telugu": [
+                  "దూరం / కాలం",
+                  "కాలం / దూరం",
+                  "దూరం × కాలం",
+                  "దూరం + కాలం"
+                ],
+                "Hindi": [
+                  "दूरी / समय",
+                  "समय / दूरी",
+                  "दूरी × समय",
+                  "दूरी + समय"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Speed tells how much distance is covered in one unit of time.",
+                "Telugu": "ఒక ప్రమాణ కాలంలో ఎంత దూరం ప్రయాణించిందో వడి చెబుతుంది.",
+                "Hindi": "चाल बताती है कि एक इकाई समय में कितनी दूरी तय हुई।"
+              }
+            },
+            {
+              "question": {
+                "English": "A car travels 120 km in 2 hours. Its speed is...",
+                "Telugu": "ఒక కారు 2 గంటల్లో 120 కి.మీ. ప్రయాణిస్తుంది. దాని వడి...",
+                "Hindi": "एक कार 2 घंटे में 120 किमी चलती है। उसकी चाल कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "240 km/h",
+                  "60 km/h",
+                  "122 km/h",
+                  "30 km/h"
+                ],
+                "Telugu": [
+                  "240 కి.మీ/గం",
+                  "60 కి.మీ/గం",
+                  "122 కి.మీ/గం",
+                  "30 కి.మీ/గం"
+                ],
+                "Hindi": [
+                  "240 किमी/घंटा",
+                  "60 किमी/घंटा",
+                  "122 किमी/घंटा",
+                  "30 किमी/घंटा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Speed = 120 km / 2 h = 60 km/h.",
+                "Telugu": "వడి = 120 కి.మీ / 2 గం = 60 కి.మీ/గం.",
+                "Hindi": "चाल = 120 किमी / 2 घंटे = 60 किमी/घंटा।"
+              }
+            },
+            {
+              "question": {
+                "English": "The SI unit of speed is...",
+                "Telugu": "వడి యొక్క SI ప్రమాణం...",
+                "Hindi": "चाल की SI इकाई क्या है?"
+              },
+              "options": {
+                "English": [
+                  "km/h",
+                  "cm/min",
+                  "m/s",
+                  "m × s"
+                ],
+                "Telugu": [
+                  "కి.మీ/గం",
+                  "సెం.మీ/ని",
+                  "m/s (మీటరు/సెకను)",
+                  "m × s"
+                ],
+                "Hindi": [
+                  "किमी/घंटा",
+                  "सेमी/मिनट",
+                  "m/s (मीटर/सेकंड)",
+                  "m × s"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Metre per second is the SI unit; km/h is commonly used for vehicles.",
+                "Telugu": "మీటరు/సెకను SI ప్రమాణం; వాహనాలకు సాధారణంగా కి.మీ/గం వాడతారు.",
+                "Hindi": "मीटर प्रति सेकंड SI इकाई है; वाहनों के लिए आमतौर पर किमी/घंटा लेते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The time taken by a pendulum to complete one oscillation is its...",
+                "Telugu": "లోలకం ఒక డోలనం పూర్తి చేయడానికి పట్టే సమయం...",
+                "Hindi": "लोलक को एक दोलन पूरा करने में लगा समय क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Speed",
+                  "Distance",
+                  "Length",
+                  "Time period"
+                ],
+                "Telugu": [
+                  "వడి",
+                  "దూరం",
+                  "పొడవు",
+                  "ఆవర్తన కాలం"
+                ],
+                "Hindi": [
+                  "चाल",
+                  "दूरी",
+                  "लंबाई",
+                  "आवर्तकाल"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A pendulum of fixed length has a fixed time period, which makes it useful for clocks.",
+                "Telugu": "నిర్ణీత పొడవు గల లోలకానికి నిర్ణీత ఆవర్తన కాలం ఉంటుంది, అందుకే గడియారాలకు ఉపయోగం.",
+                "Hindi": "निश्चित लंबाई वाले लोलक का आवर्तकाल निश्चित होता है, इसलिए वह घड़ियों में उपयोगी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A car slowing down at a traffic signal has non-uniform motion.",
+                "Telugu": "నిజమా అబద్ధమా: ట్రాఫిక్ సిగ్నల్ వద్ద వేగం తగ్గించే కారు అసమ చలనంలో ఉంటుంది.",
+                "Hindi": "सही या गलत: ट्रैफ़िक सिग्नल पर धीमी होती कार की गति असमान है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Its speed keeps changing, so it covers unequal distances in equal times.",
+                "Telugu": "దాని వడి మారుతూ ఉంటుంది, కాబట్టి సమాన కాలాల్లో అసమాన దూరాలు ప్రయాణిస్తుంది.",
+                "Hindi": "उसकी चाल बदलती रहती है, इसलिए बराबर समय में असमान दूरी तय होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which meter in a vehicle shows the distance travelled?",
+                "Telugu": "వాహనంలో ప్రయాణించిన దూరాన్ని చూపే మీటర్ ఏది?",
+                "Hindi": "वाहन में तय की गई दूरी कौन सा मीटर दिखाता है?"
+              },
+              "options": {
+                "English": [
+                  "Odometer",
+                  "Speedometer",
+                  "Thermometer",
+                  "Barometer"
+                ],
+                "Telugu": [
+                  "ఓడోమీటర్",
+                  "స్పీడోమీటర్",
+                  "థర్మామీటర్",
+                  "బారోమీటర్"
+                ],
+                "Hindi": [
+                  "ओडोमीटर",
+                  "स्पीडोमीटर",
+                  "थर्मामीटर",
+                  "बैरोमीटर"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The speedometer shows speed; the odometer counts kilometres travelled.",
+                "Telugu": "స్పీడోమీటర్ వడిని చూపిస్తుంది; ఓడోమీటర్ ప్రయాణించిన కిలోమీటర్లను లెక్కిస్తుంది.",
+                "Hindi": "स्पीडोमीटर चाल दिखाता है; ओडोमीटर तय किलोमीटर गिनता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A distance-time graph that is a straight sloping line shows...",
+                "Telugu": "వాలుగా ఉన్న సరళ రేఖ దూర-కాల గ్రాఫు ఏమి చూపిస్తుంది?",
+                "Hindi": "सीधी तिरछी रेखा वाला दूरी-समय ग्राफ़ क्या दिखाता है?"
+              },
+              "options": {
+                "English": [
+                  "The object is at rest",
+                  "Uniform motion",
+                  "The object is speeding up",
+                  "Circular motion"
+                ],
+                "Telugu": [
+                  "వస్తువు నిశ్చల స్థితిలో",
+                  "సమ చలనం",
+                  "వస్తువు వేగం పెరుగుతోంది",
+                  "వృత్తాకార చలనం"
+                ],
+                "Hindi": [
+                  "वस्तु रुकी है",
+                  "एकसमान गति",
+                  "वस्तु तेज़ हो रही है",
+                  "वृत्तीय गति"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Equal distance is added in each equal time, so the line is straight.",
+                "Telugu": "ప్రతి సమాన కాలంలో సమాన దూరం జతవుతుంది, అందుకే రేఖ సరళంగా ఉంటుంది.",
+                "Hindi": "हर बराबर समय में बराबर दूरी जुड़ती है, इसलिए रेखा सीधी होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A flat (horizontal) line on a distance-time graph means the object is...",
+                "Telugu": "దూర-కాల గ్రాఫుపై సమాంతర రేఖ అంటే వస్తువు...",
+                "Hindi": "दूरी-समय ग्राफ़ पर क्षैतिज रेखा का मतलब है वस्तु..."
+              },
+              "options": {
+                "English": [
+                  "Moving very fast",
+                  "Moving backwards",
+                  "Not moving (at rest)",
+                  "Falling"
+                ],
+                "Telugu": [
+                  "చాలా వేగంగా కదులుతోంది",
+                  "వెనక్కి కదులుతోంది",
+                  "కదలడం లేదు (నిశ్చలం)",
+                  "పడిపోతోంది"
+                ],
+                "Hindi": [
+                  "बहुत तेज़ चल रही है",
+                  "पीछे जा रही है",
+                  "रुकी हुई है",
+                  "गिर रही है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Time passes but distance does not change, so the object is at rest.",
+                "Telugu": "కాలం గడుస్తుంది కానీ దూరం మారదు, కాబట్టి వస్తువు నిశ్చలంగా ఉంది.",
+                "Hindi": "समय बीतता है पर दूरी नहीं बदलती, इसलिए वस्तु रुकी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Sundials, sand clocks and water clocks were used to measure time long ago.",
+                "Telugu": "నిజమా అబద్ధమా: పూర్వకాలంలో కాలాన్ని కొలవడానికి సూర్య గడియారాలు, ఇసుక గడియారాలు, నీటి గడియారాలు వాడారు.",
+                "Hindi": "सही या गलत: पुराने समय में धूपघड़ी, रेत घड़ी और जल घड़ी से समय मापा जाता था।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "These used shadows or flowing sand and water; the Jantar Mantar in Delhi has a sundial.",
+                "Telugu": "ఇవి నీడలు లేదా ప్రవహించే ఇసుక, నీటిని వాడాయి; ఢిల్లీలోని జంతర్ మంతర్‌లో సూర్య గడియారం ఉంది.",
+                "Hindi": "इनमें छाया या बहती रेत और पानी का उपयोग होता था; दिल्ली के जंतर-मंतर में धूपघड़ी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A runner covers 100 m in 20 s. What is the speed?",
+                "Telugu": "ఒక పరుగుదారు 20 సెకన్లలో 100 మీ. ప్రయాణిస్తాడు. వడి ఎంత?",
+                "Hindi": "एक धावक 20 सेकंड में 100 मी दौड़ता है। चाल कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "2000 m/s",
+                  "120 m/s",
+                  "0.2 m/s",
+                  "5 m/s"
+                ],
+                "Telugu": [
+                  "2000 m/s",
+                  "120 m/s",
+                  "0.2 m/s",
+                  "5 m/s"
+                ],
+                "Hindi": [
+                  "2000 m/s",
+                  "120 m/s",
+                  "0.2 m/s",
+                  "5 m/s"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Speed = 100 m / 20 s = 5 m/s.",
+                "Telugu": "వడి = 100 మీ / 20 సె = 5 m/s.",
+                "Hindi": "चाल = 100 मी / 20 से = 5 m/s।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electric-current-effects",
+      "icon": "🔌",
+      "title": {
+        "English": "Electric Current and Its Effects",
+        "Telugu": "విద్యుత్ ప్రవాహం, దాని ఫలితాలు",
+        "Hindi": "विद्युत धारा और उसके प्रभाव"
+      },
+      "description": {
+        "English": "Heating and magnetic effects of current, fuses and circuit symbols.",
+        "Telugu": "విద్యుత్ ఉష్ణ, అయస్కాంత ఫలితాలు, ఫ్యూజులు, సర్క్యూట్ గుర్తులు.",
+        "Hindi": "धारा के ऊष्मीय और चुंबकीय प्रभाव, फ़्यूज़ और परिपथ चिह्न।"
+      },
+      "lessons": [
+        {
+          "id": "electric-current-effects-lesson",
+          "visual": "💡",
+          "title": {
+            "English": "Heat and Magnetism from Current",
+            "Telugu": "విద్యుత్తు నుంచి వేడి, అయస్కాంతత్వం",
+            "Hindi": "धारा से गर्मी और चुंबकत्व"
+          },
+          "image": "./images/lessons/electricity-and-circuits.svg",
+          "explanation": {
+            "English": "Electric components are drawn with symbols in circuit diagrams. Two or more cells joined together form a battery. When current flows through a wire, the wire gets hot: this heating effect is used in heaters, irons and bulbs. A fuse is a wire that melts and breaks the circuit when too much current flows, preventing fires; MCBs do the same job. Current in a wire also makes it behave like a magnet. A coil wound on iron becomes an electromagnet, used in electric bells, cranes and motors.",
+            "Telugu": "సర్క్యూట్ పటాల్లో విద్యుత్ భాగాలను గుర్తులతో చూపిస్తారు. రెండు లేదా ఎక్కువ సెల్‌లు కలిపితే బ్యాటరీ అవుతుంది. తీగ గుండా విద్యుత్ ప్రవహిస్తే అది వేడెక్కుతుంది: ఈ ఉష్ణ ఫలితాన్ని హీటర్లు, ఇస్త్రీ పెట్టెలు, బల్బుల్లో వాడతారు. అధిక విద్యుత్ ప్రవహించినప్పుడు కరిగి సర్క్యూట్‌ను తెంచి మంటలను నివారించే తీగ ఫ్యూజు; MCBలు కూడా అదే పని చేస్తాయి. తీగలో విద్యుత్ ప్రవాహం దానిని అయస్కాంతంలా ప్రవర్తించేలా చేస్తుంది. ఇనుముపై చుట్టిన తీగ చుట్ట విద్యుదయస్కాంతం అవుతుంది, దీనిని విద్యుత్ గంటలు, క్రేన్లు, మోటార్లలో వాడతారు.",
+            "Hindi": "परिपथ आरेखों में विद्युत अवयव चिह्नों से दिखाए जाते हैं। दो या ज़्यादा सेल जोड़ने से बैटरी बनती है। तार में धारा बहने से तार गर्म होता है: इस ऊष्मीय प्रभाव का उपयोग हीटर, इस्त्री और बल्ब में होता है। फ़्यूज़ ऐसा तार है जो ज़्यादा धारा बहने पर पिघलकर परिपथ तोड़ देता है और आग से बचाता है; एमसीबी भी यही काम करते हैं। तार में धारा उसे चुंबक की तरह व्यवहार कराती है। लोहे पर लिपटी तार की कुंडली विद्युत चुंबक बन जाती है, जो बिजली की घंटी, क्रेन और मोटर में काम आती है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Circuit diagrams use standard symbols.",
+              "Two or more cells make a battery.",
+              "Current heats a wire (heating effect).",
+              "A fuse melts to stop excess current.",
+              "A current-carrying coil around iron is an electromagnet."
+            ],
+            "Telugu": [
+              "సర్క్యూట్ పటాలు ప్రామాణిక గుర్తులు వాడతాయి.",
+              "రెండు లేదా ఎక్కువ సెల్‌లు బ్యాటరీ.",
+              "విద్యుత్తు తీగను వేడి చేస్తుంది (ఉష్ణ ఫలితం).",
+              "అధిక విద్యుత్తును ఆపడానికి ఫ్యూజు కరుగుతుంది.",
+              "ఇనుము చుట్టూ విద్యుత్ ప్రవహించే చుట్ట విద్యుదయస్కాంతం."
+            ],
+            "Hindi": [
+              "परिपथ आरेख मानक चिह्नों का उपयोग करते हैं।",
+              "दो या ज़्यादा सेल से बैटरी बनती है।",
+              "धारा तार को गर्म करती है (ऊष्मीय प्रभाव)।",
+              "ज़्यादा धारा रोकने के लिए फ़्यूज़ पिघलता है।",
+              "लोहे पर धारा वाली कुंडली विद्युत चुंबक है।"
+            ]
+          },
+          "activity": {
+            "English": "Wind insulated wire around an iron nail, connect it to a cell and see how many pins it picks up.",
+            "Telugu": "ఇనుప మేకు చుట్టూ అవాహక తీగ చుట్టి సెల్‌కు కలపండి, అది ఎన్ని పిన్నులను ఎత్తుతుందో చూడండి.",
+            "Hindi": "लोहे की कील पर विद्युतरोधी तार लपेटकर सेल से जोड़िए और देखिए वह कितनी पिनें उठाती है।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Two or more cells connected together form a...",
+                "Telugu": "రెండు లేదా ఎక్కువ సెల్‌లను కలిపితే ఏర్పడేది...",
+                "Hindi": "दो या ज़्यादा सेल जोड़ने से क्या बनता है?"
+              },
+              "options": {
+                "English": [
+                  "Battery",
+                  "Fuse",
+                  "Switch",
+                  "Bulb"
+                ],
+                "Telugu": [
+                  "బ్యాటరీ",
+                  "ఫ్యూజు",
+                  "స్విచ్",
+                  "బల్బు"
+                ],
+                "Hindi": [
+                  "बैटरी",
+                  "फ़्यूज़",
+                  "स्विच",
+                  "बल्ब"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The positive terminal of one cell is joined to the negative terminal of the next.",
+                "Telugu": "ఒక సెల్ ధన ధ్రువాన్ని తర్వాతి సెల్ ఋణ ధ్రువానికి కలుపుతారు.",
+                "Hindi": "एक सेल का धन सिरा अगले सेल के ऋण सिरे से जोड़ा जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "An electric iron works on which effect of current?",
+                "Telugu": "ఇస్త్రీ పెట్టె విద్యుత్ ప్రవాహం యొక్క ఏ ఫలితంపై పనిచేస్తుంది?",
+                "Hindi": "बिजली की इस्त्री धारा के किस प्रभाव पर काम करती है?"
+              },
+              "options": {
+                "English": [
+                  "Magnetic effect",
+                  "Heating effect",
+                  "Chemical effect",
+                  "Lighting effect only"
+                ],
+                "Telugu": [
+                  "అయస్కాంత ఫలితం",
+                  "ఉష్ణ ఫలితం",
+                  "రసాయన ఫలితం",
+                  "కాంతి ఫలితం మాత్రమే"
+                ],
+                "Hindi": [
+                  "चुंबकीय प्रभाव",
+                  "ऊष्मीय प्रभाव",
+                  "रासायनिक प्रभाव",
+                  "सिर्फ़ प्रकाश प्रभाव"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Current through the heating element (coil) makes it hot.",
+                "Telugu": "హీటింగ్ ఎలిమెంట్ (చుట్ట) గుండా విద్యుత్ ప్రవాహం దానిని వేడి చేస్తుంది.",
+                "Hindi": "तापन अवयव (कुंडली) से गुज़रती धारा उसे गर्म करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What does a fuse do?",
+                "Telugu": "ఫ్యూజు ఏమి చేస్తుంది?",
+                "Hindi": "फ़्यूज़ क्या करता है?"
+              },
+              "options": {
+                "English": [
+                  "Increases current",
+                  "Stores electricity",
+                  "Melts and breaks the circuit when current is too high",
+                  "Makes bulbs brighter"
+                ],
+                "Telugu": [
+                  "విద్యుత్తును పెంచుతుంది",
+                  "విద్యుత్తును నిల్వ చేస్తుంది",
+                  "అధిక విద్యుత్తు ఉన్నప్పుడు కరిగి సర్క్యూట్‌ను తెంచుతుంది",
+                  "బల్బులను ప్రకాశవంతం చేస్తుంది"
+                ],
+                "Hindi": [
+                  "धारा बढ़ाता है",
+                  "बिजली जमा करता है",
+                  "ज़्यादा धारा पर पिघलकर परिपथ तोड़ता है",
+                  "बल्ब तेज़ करता है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "This protects appliances and prevents fires due to short circuits or overloading.",
+                "Telugu": "ఇది పరికరాలను కాపాడి షార్ట్ సర్క్యూట్, ఓవర్‌లోడ్ వల్ల మంటలను నివారిస్తుంది.",
+                "Hindi": "यह उपकरणों की रक्षा करता है और शॉर्ट सर्किट या ओवरलोड से आग रोकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which device works on the magnetic effect of current?",
+                "Telugu": "విద్యుత్ అయస్కాంత ఫలితంపై పనిచేసే పరికరం ఏది?",
+                "Hindi": "धारा के चुंबकीय प्रभाव पर कौन सा उपकरण काम करता है?"
+              },
+              "options": {
+                "English": [
+                  "Room heater",
+                  "Toaster",
+                  "Geyser",
+                  "Electric bell"
+                ],
+                "Telugu": [
+                  "గది హీటర్",
+                  "టోస్టర్",
+                  "గీజర్",
+                  "విద్యుత్ గంట"
+                ],
+                "Hindi": [
+                  "रूम हीटर",
+                  "टोस्टर",
+                  "गीज़र",
+                  "बिजली की घंटी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "An electromagnet in the bell pulls the hammer to strike the gong again and again.",
+                "Telugu": "గంటలోని విద్యుదయస్కాంతం సుత్తిని లాగి మళ్లీ మళ్లీ గంటను కొడుతుంది.",
+                "Hindi": "घंटी का विद्युत चुंबक हथौड़े को खींचकर बार-बार घंटी बजाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A compass needle deflects near a wire carrying current.",
+                "Telugu": "నిజమా అబద్ధమా: విద్యుత్ ప్రవహించే తీగ దగ్గర దిక్సూచి ముల్లు పక్కకు తిరుగుతుంది.",
+                "Hindi": "सही या गलत: धारा वाले तार के पास कंपास की सुई विक्षेपित होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Hans Christian Oersted discovered that current produces a magnetic effect.",
+                "Telugu": "విద్యుత్తు అయస్కాంత ఫలితాన్ని కలిగిస్తుందని హాన్స్ క్రిస్టియన్ ఆర్స్టెడ్ కనుగొన్నారు.",
+                "Hindi": "हांस क्रिश्चियन ओर्स्टेड ने खोजा कि धारा चुंबकीय प्रभाव पैदा करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The longer line in the symbol of a cell represents...",
+                "Telugu": "సెల్ గుర్తులో పొడవైన గీత దేనిని సూచిస్తుంది?",
+                "Hindi": "सेल के चिह्न में लंबी रेखा क्या दर्शाती है?"
+              },
+              "options": {
+                "English": [
+                  "The positive terminal",
+                  "The negative terminal",
+                  "The switch",
+                  "The bulb"
+                ],
+                "Telugu": [
+                  "ధన ధ్రువం",
+                  "ఋణ ధ్రువం",
+                  "స్విచ్",
+                  "బల్బు"
+                ],
+                "Hindi": [
+                  "धन सिरा",
+                  "ऋण सिरा",
+                  "स्विच",
+                  "बल्ब"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "In a cell symbol, the long thin line is positive and the short thick line is negative.",
+                "Telugu": "సెల్ గుర్తులో పొడవైన సన్నని గీత ధనం, పొట్టి మందపాటి గీత ఋణం.",
+                "Hindi": "सेल के चिह्न में लंबी पतली रेखा धन और छोटी मोटी रेखा ऋण है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why are CFLs and LEDs better than ordinary bulbs?",
+                "Telugu": "సాధారణ బల్బుల కంటే CFLలు, LEDలు ఎందుకు మంచివి?",
+                "Hindi": "सीएफ़एल और एलईडी साधारण बल्ब से बेहतर क्यों हैं?"
+              },
+              "options": {
+                "English": [
+                  "They make more heat",
+                  "They use less electricity and waste less as heat",
+                  "They are made of paper",
+                  "They do not give light"
+                ],
+                "Telugu": [
+                  "అవి ఎక్కువ వేడి చేస్తాయి",
+                  "అవి తక్కువ విద్యుత్తు వాడి తక్కువ వేడి వృథా చేస్తాయి",
+                  "కాగితంతో చేసినవి",
+                  "వెలుగు ఇవ్వవు"
+                ],
+                "Hindi": [
+                  "ज़्यादा गर्मी बनाते हैं",
+                  "कम बिजली लेते हैं और कम गर्मी बर्बाद करते हैं",
+                  "कागज़ के बने हैं",
+                  "रोशनी नहीं देते"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Ordinary bulbs turn much electricity into heat; LEDs save energy.",
+                "Telugu": "సాధారణ బల్బులు ఎక్కువ విద్యుత్తును వేడిగా మారుస్తాయి; LEDలు శక్తిని ఆదా చేస్తాయి.",
+                "Hindi": "साधारण बल्ब ज़्यादा बिजली को गर्मी में बदलते हैं; एलईडी ऊर्जा बचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Electromagnets are used in cranes to...",
+                "Telugu": "క్రేన్లలో విద్యుదయస్కాంతాలను దేనికి వాడతారు?",
+                "Hindi": "क्रेनों में विद्युत चुंबक किसलिए उपयोग होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Heat water",
+                  "Make light",
+                  "Lift heavy iron scrap",
+                  "Store food"
+                ],
+                "Telugu": [
+                  "నీరు వేడి చేయడానికి",
+                  "వెలుగు ఇవ్వడానికి",
+                  "బరువైన ఇనుప తుక్కు ఎత్తడానికి",
+                  "ఆహారం నిల్వకు"
+                ],
+                "Hindi": [
+                  "पानी गर्म करने",
+                  "रोशनी देने",
+                  "भारी लोहे का कबाड़ उठाने",
+                  "भोजन रखने"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Switching the current on picks up iron; switching it off drops it.",
+                "Telugu": "విద్యుత్తు ఆన్ చేస్తే ఇనుము ఎత్తబడుతుంది; ఆఫ్ చేస్తే కింద పడుతుంది.",
+                "Hindi": "धारा चालू करने पर लोहा उठता है; बंद करने पर गिर जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: An electromagnet stays magnetic even after the current is switched off.",
+                "Telugu": "నిజమా అబద్ధమా: విద్యుత్తు ఆపిన తర్వాత కూడా విద్యుదయస్కాంతం అయస్కాంతంగానే ఉంటుంది.",
+                "Hindi": "सही या गलत: धारा बंद करने के बाद भी विद्युत चुंबक चुंबकीय रहता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "An electromagnet works only while current flows; that is why it is so useful.",
+                "Telugu": "విద్యుత్ ప్రవహించినంత సేపే విద్యుదయస్కాంతం పనిచేస్తుంది; అందుకే అది చాలా ఉపయోగకరం.",
+                "Hindi": "विद्युत चुंबक तभी काम करता है जब धारा बहती है; इसीलिए यह इतना उपयोगी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "ISI mark on electrical goods tells us that they...",
+                "Telugu": "విద్యుత్ వస్తువులపై ISI గుర్తు ఏమి తెలుపుతుంది?",
+                "Hindi": "बिजली के सामान पर आईएसआई चिह्न क्या बताता है?"
+              },
+              "options": {
+                "English": [
+                  "Are cheap",
+                  "Are imported",
+                  "Are very old",
+                  "Meet safety standards"
+                ],
+                "Telugu": [
+                  "చౌకైనవి",
+                  "దిగుమతి చేసినవి",
+                  "చాలా పాతవి",
+                  "భద్రతా ప్రమాణాలను పాటిస్తాయి"
+                ],
+                "Hindi": [
+                  "सस्ते हैं",
+                  "विदेशी हैं",
+                  "बहुत पुराने हैं",
+                  "सुरक्षा मानकों पर खरे हैं"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "ISI-marked goods are tested by the Bureau of Indian Standards for safety.",
+                "Telugu": "ISI గుర్తున్న వస్తువులను భారతీయ ప్రమాణాల సంస్థ భద్రత కోసం పరీక్షిస్తుంది.",
+                "Hindi": "आईएसआई चिह्न वाले सामान की सुरक्षा भारतीय मानक ब्यूरो जाँचता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "light",
+      "icon": "🔦",
+      "title": {
+        "English": "Light",
+        "Telugu": "కాంతి",
+        "Hindi": "प्रकाश"
+      },
+      "description": {
+        "English": "Mirrors, lenses, images and the colours in white light.",
+        "Telugu": "దర్పణాలు, కటకాలు, ప్రతిబింబాలు, తెల్లని కాంతిలోని రంగులు.",
+        "Hindi": "दर्पण, लेंस, प्रतिबिंब और श्वेत प्रकाश के रंग।"
+      },
+      "lessons": [
+        {
+          "id": "light-lesson",
+          "visual": "🌈",
+          "title": {
+            "English": "Mirrors, Lenses and Colours",
+            "Telugu": "దర్పణాలు, కటకాలు, రంగులు",
+            "Hindi": "दर्पण, लेंस और रंग"
+          },
+          "image": "./images/lessons/light-and-shadows.svg",
+          "explanation": {
+            "English": "Light travels in a straight line. A plane mirror forms an erect image of the same size, as far behind the mirror as the object is in front, with left and right swapped. Spherical mirrors are concave (curved inwards) or convex (curved outwards). Convex mirrors give a wide view and are used as rear-view mirrors. Lenses are convex (thicker in the middle) or concave (thinner in the middle); a convex lens is used as a magnifying glass. White light is made of seven colours, which a prism splits into a spectrum, as in a rainbow.",
+            "Telugu": "కాంతి సరళ రేఖలో ప్రయాణిస్తుంది. సమతల దర్పణం వస్తువు ముందు ఉన్నంత దూరంలో దర్పణం వెనుక, అదే పరిమాణంలో, నిటారుగా, ఎడమ-కుడి తారుమారైన ప్రతిబింబాన్ని ఏర్పరుస్తుంది. గోళాకార దర్పణాలు పుటాకారం (లోపలికి వంగినవి) లేదా కుంభాకారం (బయటకు వంగినవి). కుంభాకార దర్పణాలు విశాల దృశ్యాన్ని ఇస్తాయి, వెనుక చూపు దర్పణాలుగా వాడతారు. కటకాలు కుంభాకారం (మధ్యలో మందం) లేదా పుటాకారం (మధ్యలో పలుచన); కుంభాకార కటకాన్ని భూతద్దంగా వాడతారు. తెల్లని కాంతిలో ఏడు రంగులు ఉంటాయి, పట్టకం వాటిని వర్ణపటంగా విడగొడుతుంది, ఇంద్రధనుస్సులోలా.",
+            "Hindi": "प्रकाश सीधी रेखा में चलता है। समतल दर्पण वस्तु जितनी आगे है उतना ही पीछे, उसी आकार का, सीधा और दाएँ-बाएँ उलटा प्रतिबिंब बनाता है। गोलीय दर्पण अवतल (अंदर मुड़े) या उत्तल (बाहर उभरे) होते हैं। उत्तल दर्पण चौड़ा दृश्य देते हैं और पीछे देखने वाले दर्पण बनते हैं। लेंस उत्तल (बीच में मोटे) या अवतल (बीच में पतले) होते हैं; उत्तल लेंस आवर्धक काँच बनता है। श्वेत प्रकाश सात रंगों से बना है, जिसे प्रिज़्म स्पेक्ट्रम में बाँटता है, जैसे इंद्रधनुष में।"
+          },
+          "keyPoints": {
+            "English": [
+              "Light travels in straight lines.",
+              "A plane mirror image is erect, same size and laterally inverted.",
+              "Convex mirrors are used as rear-view mirrors.",
+              "A convex lens magnifies.",
+              "White light has seven colours (VIBGYOR)."
+            ],
+            "Telugu": [
+              "కాంతి సరళ రేఖల్లో ప్రయాణిస్తుంది.",
+              "సమతల దర్పణ ప్రతిబింబం నిటారుగా, అదే పరిమాణంలో, పార్శ్వ విపర్యయంతో ఉంటుంది.",
+              "కుంభాకార దర్పణాలను వెనుక చూపు దర్పణాలుగా వాడతారు.",
+              "కుంభాకార కటకం పెద్దగా చూపిస్తుంది.",
+              "తెల్లని కాంతిలో ఏడు రంగులు (VIBGYOR)."
+            ],
+            "Hindi": [
+              "प्रकाश सीधी रेखा में चलता है।",
+              "समतल दर्पण का प्रतिबिंब सीधा, समान आकार और पार्श्व उत्क्रमित होता है।",
+              "उत्तल दर्पण पीछे देखने वाले दर्पण बनते हैं।",
+              "उत्तल लेंस बड़ा दिखाता है।",
+              "श्वेत प्रकाश में सात रंग हैं (बैंगनी से लाल तक)।"
+            ]
+          },
+          "activity": {
+            "English": "Make a Newton's colour disc with seven colours on cardboard and spin it fast. Note what colour you see.",
+            "Telugu": "అట్టపై ఏడు రంగులతో న్యూటన్ వర్ణ చక్రం చేసి వేగంగా తిప్పండి. ఏ రంగు కనిపిస్తుందో రాయండి.",
+            "Hindi": "गत्ते पर सात रंगों वाली न्यूटन की रंग-चक्री बनाकर तेज़ घुमाइए। कौन सा रंग दिखता है, लिखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The image formed by a plane mirror is...",
+                "Telugu": "సమతల దర్పణం ఏర్పరిచే ప్రతిబింబం...",
+                "Hindi": "समतल दर्पण से बना प्रतिबिंब कैसा होता है?"
+              },
+              "options": {
+                "English": [
+                  "Erect and of the same size",
+                  "Inverted and smaller",
+                  "Inverted and bigger",
+                  "Always on the screen"
+                ],
+                "Telugu": [
+                  "నిటారుగా, అదే పరిమాణంలో",
+                  "తలకిందులుగా, చిన్నగా",
+                  "తలకిందులుగా, పెద్దగా",
+                  "ఎప్పుడూ తెరపై"
+                ],
+                "Hindi": [
+                  "सीधा और समान आकार का",
+                  "उल्टा और छोटा",
+                  "उल्टा और बड़ा",
+                  "हमेशा परदे पर"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "It is also virtual: it cannot be caught on a screen.",
+                "Telugu": "అది మిథ్యా ప్రతిబింబం కూడా: తెరపై పట్టలేం.",
+                "Hindi": "यह आभासी भी है: इसे परदे पर नहीं लिया जा सकता।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which mirror is used as a rear-view mirror in vehicles?",
+                "Telugu": "వాహనాల్లో వెనుక చూపు దర్పణంగా వాడేది ఏది?",
+                "Hindi": "वाहनों में पीछे देखने के लिए कौन सा दर्पण लगता है?"
+              },
+              "options": {
+                "English": [
+                  "Plane mirror",
+                  "Convex mirror",
+                  "Concave mirror",
+                  "No mirror"
+                ],
+                "Telugu": [
+                  "సమతల దర్పణం",
+                  "కుంభాకార దర్పణం",
+                  "పుటాకార దర్పణం",
+                  "దర్పణం లేదు"
+                ],
+                "Hindi": [
+                  "समतल दर्पण",
+                  "उत्तल दर्पण",
+                  "अवतल दर्पण",
+                  "कोई दर्पण नहीं"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A convex mirror shows a much wider area of traffic behind.",
+                "Telugu": "కుంభాకార దర్పణం వెనుక ట్రాఫిక్ విశాల ప్రాంతాన్ని చూపిస్తుంది.",
+                "Hindi": "उत्तल दर्पण पीछे के यातायात का बहुत चौड़ा क्षेत्र दिखाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Dentists use which mirror to see enlarged images of teeth?",
+                "Telugu": "దంతాల పెద్ద ప్రతిబింబాలు చూడటానికి దంత వైద్యులు వాడే దర్పణం ఏది?",
+                "Hindi": "दाँतों का बड़ा प्रतिबिंब देखने के लिए दंत चिकित्सक कौन सा दर्पण लेते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Convex mirror",
+                  "Plane mirror",
+                  "Concave mirror",
+                  "Glass slab"
+                ],
+                "Telugu": [
+                  "కుంభాకార దర్పణం",
+                  "సమతల దర్పణం",
+                  "పుటాకార దర్పణం",
+                  "గాజు పలక"
+                ],
+                "Hindi": [
+                  "उत्तल दर्पण",
+                  "समतल दर्पण",
+                  "अवतल दर्पण",
+                  "काँच की पट्टी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Held close, a concave mirror gives an enlarged, erect image.",
+                "Telugu": "దగ్గరగా పట్టుకుంటే పుటాకార దర్పణం పెద్దదైన, నిటారు ప్రతిబింబం ఇస్తుంది.",
+                "Hindi": "पास रखने पर अवतल दर्पण बड़ा, सीधा प्रतिबिंब देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A lens that is thicker in the middle than at the edges is...",
+                "Telugu": "అంచుల కంటే మధ్యలో మందంగా ఉండే కటకం...",
+                "Hindi": "किनारों से बीच में मोटा लेंस कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Concave lens",
+                  "Plane lens",
+                  "Prism",
+                  "Convex lens"
+                ],
+                "Telugu": [
+                  "పుటాకార కటకం",
+                  "సమతల కటకం",
+                  "పట్టకం",
+                  "కుంభాకార కటకం"
+                ],
+                "Hindi": [
+                  "अवतल लेंस",
+                  "समतल लेंस",
+                  "प्रिज़्म",
+                  "उत्तल लेंस"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A convex lens brings light rays together and is used as a magnifying glass.",
+                "Telugu": "కుంభాకార కటకం కాంతి కిరణాలను ఒకచోటికి చేర్చుతుంది, భూతద్దంగా వాడతారు.",
+                "Hindi": "उत्तल लेंस प्रकाश किरणों को एक जगह लाता है और आवर्धक काँच बनता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A prism splits white light into seven colours.",
+                "Telugu": "నిజమా అబద్ధమా: పట్టకం తెల్లని కాంతిని ఏడు రంగులుగా విడగొడుతుంది.",
+                "Hindi": "सही या गलत: प्रिज़्म श्वेत प्रकाश को सात रंगों में बाँटता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The band of colours, from violet to red, is called a spectrum.",
+                "Telugu": "ఊదా నుంచి ఎరుపు వరకు రంగుల పట్టీని వర్ణపటం అంటారు.",
+                "Hindi": "बैंगनी से लाल तक रंगों की पट्टी स्पेक्ट्रम कहलाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The word AMBULANCE is written in reverse on ambulances because...",
+                "Telugu": "అంబులెన్సులపై AMBULANCE పదాన్ని తిరగబడి ఎందుకు రాస్తారు?",
+                "Hindi": "एंबुलेंस पर AMBULANCE शब्द उलटा क्यों लिखा जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Drivers ahead read it correctly in their mirrors",
+                  "It looks nice",
+                  "It is a spelling mistake",
+                  "It saves paint"
+                ],
+                "Telugu": [
+                  "ముందున్న డ్రైవర్లు తమ దర్పణాల్లో సరిగ్గా చదవడానికి",
+                  "అందంగా కనిపిస్తుంది",
+                  "అక్షర దోషం",
+                  "రంగు ఆదా"
+                ],
+                "Hindi": [
+                  "ताकि आगे के चालक दर्पण में सही पढ़ सकें",
+                  "सुंदर दिखता है",
+                  "वर्तनी की गलती है",
+                  "पेंट बचता है"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Mirrors reverse left and right, so the reversed word appears correct.",
+                "Telugu": "దర్పణాలు ఎడమ-కుడిని తారుమారు చేస్తాయి, కాబట్టి తిరగబడిన పదం సరిగ్గా కనిపిస్తుంది.",
+                "Hindi": "दर्पण दाएँ-बाएँ उलटते हैं, इसलिए उलटा शब्द सही दिखता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The image that can be obtained on a screen is called...",
+                "Telugu": "తెరపై పొందగలిగే ప్రతిబింబాన్ని ఏమంటారు?",
+                "Hindi": "जो प्रतिबिंब परदे पर लिया जा सके, वह क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Virtual image",
+                  "Real image",
+                  "Shadow",
+                  "Rainbow"
+                ],
+                "Telugu": [
+                  "మిథ్యా ప్రతిబింబం",
+                  "నిజ ప్రతిబింబం",
+                  "నీడ",
+                  "ఇంద్రధనుస్సు"
+                ],
+                "Hindi": [
+                  "आभासी प्रतिबिंब",
+                  "वास्तविक प्रतिबिंब",
+                  "छाया",
+                  "इंद्रधनुष"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A concave mirror or convex lens can form real images, like the Sun's image on paper.",
+                "Telugu": "పుటాకార దర్పణం లేదా కుంభాకార కటకం కాగితంపై సూర్యుని ప్రతిబింబం వంటి నిజ ప్రతిబింబాలను ఏర్పరచగలవు.",
+                "Hindi": "अवतल दर्पण या उत्तल लेंस वास्तविक प्रतिबिंब बना सकते हैं, जैसे कागज़ पर सूरज का प्रतिबिंब।"
+              }
+            },
+            {
+              "question": {
+                "English": "A spinning Newton's disc with seven colours appears...",
+                "Telugu": "ఏడు రంగుల న్యూటన్ చక్రం తిప్పితే అది ఎలా కనిపిస్తుంది?",
+                "Hindi": "सात रंगों वाली घूमती न्यूटन चक्री कैसी दिखती है?"
+              },
+              "options": {
+                "English": [
+                  "Black",
+                  "Red",
+                  "Nearly white",
+                  "Green"
+                ],
+                "Telugu": [
+                  "నలుపు",
+                  "ఎరుపు",
+                  "దాదాపు తెలుపు",
+                  "ఆకుపచ్చ"
+                ],
+                "Hindi": [
+                  "काली",
+                  "लाल",
+                  "लगभग सफ़ेद",
+                  "हरी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "The colours mix in our eyes, showing that white light is made of seven colours.",
+                "Telugu": "రంగులు మన కళ్లలో కలిసిపోతాయి, తెల్లని కాంతి ఏడు రంగుల మిశ్రమమని చూపిస్తుంది.",
+                "Hindi": "रंग हमारी आँखों में मिल जाते हैं, जिससे पता चलता है कि श्वेत प्रकाश सात रंगों का है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A rainbow is formed when sunlight is split by raindrops.",
+                "Telugu": "నిజమా అబద్ధమా: వాన చినుకులు సూర్యకాంతిని విడగొట్టినప్పుడు ఇంద్రధనుస్సు ఏర్పడుతుంది.",
+                "Hindi": "सही या गलत: बारिश की बूँदें धूप को बाँटें तो इंद्रधनुष बनता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Each raindrop acts like a tiny prism; a rainbow appears opposite the Sun.",
+                "Telugu": "ప్రతి చినుకు చిన్న పట్టకంలా పనిచేస్తుంది; ఇంద్రధనుస్సు సూర్యునికి ఎదురుగా కనిపిస్తుంది.",
+                "Hindi": "हर बूँद छोटे प्रिज़्म जैसी काम करती है; इंद्रधनुष सूरज के सामने की ओर दिखता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which should NEVER be done with a magnifying glass?",
+                "Telugu": "భూతద్దంతో ఎప్పుడూ చేయకూడనిది ఏది?",
+                "Hindi": "आवर्धक काँच से कभी क्या नहीं करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Read small print",
+                  "Look at an insect",
+                  "Study a leaf",
+                  "Look at the Sun through it"
+                ],
+                "Telugu": [
+                  "చిన్న అక్షరాలు చదవడం",
+                  "కీటకాన్ని చూడటం",
+                  "ఆకును పరిశీలించడం",
+                  "దాని ద్వారా సూర్యుని చూడటం"
+                ],
+                "Hindi": [
+                  "छोटे अक्षर पढ़ना",
+                  "कीड़ा देखना",
+                  "पत्ती देखना",
+                  "इससे सूरज देखना"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A convex lens focuses sunlight and can seriously damage the eyes or start fires.",
+                "Telugu": "కుంభాకార కటకం సూర్యకాంతిని కేంద్రీకరిస్తుంది, కళ్లకు తీవ్ర హాని లేదా మంటలు కలిగించవచ్చు.",
+                "Hindi": "उत्तल लेंस धूप को केंद्रित करता है और आँखों को गंभीर नुकसान या आग का कारण बन सकता है।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

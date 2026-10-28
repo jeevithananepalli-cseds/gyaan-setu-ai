@@ -1,0 +1,3799 @@
+{
+  "subject": {
+    "English": "Environmental Studies",
+    "Telugu": "పర్యావరణ అధ్యయనం",
+    "Hindi": "पर्यावरण अध्ययन"
+  },
+  "chapters": [
+    {
+      "id": "natural-resources",
+      "icon": "🌍",
+      "title": {
+        "English": "Natural Resources",
+        "Telugu": "సహజ వనరులు",
+        "Hindi": "प्राकृतिक संसाधन"
+      },
+      "description": {
+        "English": "Learn about resources provided by nature.",
+        "Telugu": "ప్రకృతి అందించే వనరుల గురించి తెలుసుకుందాం.",
+        "Hindi": "प्रकृति से मिलने वाले संसाधनों के बारे में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "resources",
+          "visual": "🌳",
+          "title": {
+            "English": "Resources From Nature",
+            "Telugu": "ప్రకృతి నుండి వనరులు",
+            "Hindi": "प्रकृति से मिलने वाले संसाधन"
+          },
+          "image": "./images/lessons/natural-resources.png",
+          "explanation": {
+            "English": "Natural resources are useful things that come from nature. Air, water, soil, sunlight, forests and minerals are examples.",
+            "Telugu": "ప్రకృతి నుండి లభించే ఉపయోగకరమైన వాటిని సహజ వనరులు అంటారు. గాలి, నీరు, నేల, సూర్యకాంతి, అడవులు మరియు ఖనిజాలు ఉదాహరణలు.",
+            "Hindi": "प्रकृति से मिलने वाली उपयोगी चीजों को प्राकृतिक संसाधन कहते हैं। हवा, पानी, मिट्टी, धूप, जंगल और खनिज उदाहरण हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Natural resources come from nature.",
+              "Air is a resource.",
+              "Water is a resource.",
+              "Soil helps plants grow.",
+              "Resources should be used responsibly."
+            ],
+            "Telugu": [
+              "సహజ వనరులు ప్రకృతి నుండి వస్తాయి.",
+              "గాలి ఒక వనరు.",
+              "నీరు ఒక వనరు.",
+              "నేల మొక్కలు పెరగడానికి సహాయపడుతుంది.",
+              "వనరులను బాధ్యతగా ఉపయోగించాలి."
+            ],
+            "Hindi": [
+              "प्राकृतिक संसाधन प्रकृति से आते हैं।",
+              "हवा एक संसाधन है।",
+              "पानी एक संसाधन है।",
+              "मिट्टी पौधों को बढ़ने में मदद करती है।",
+              "संसाधनों का जिम्मेदारी से उपयोग करें।"
+            ]
+          },
+          "activity": {
+            "English": "Write five things that come from natural resources.",
+            "Telugu": "సహజ వనరుల నుండి వచ్చే ఐదు వస్తువులను రాయండి.",
+            "Hindi": "प्राकृतिक संसाधनों से आने वाली पाँच चीजें लिखें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "What is a natural resource?",
+                "Telugu": "సహజ వనరు అంటే ఏమిటి?",
+                "Hindi": "प्राकृतिक संसाधन क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Something useful that comes from nature",
+                  "A toy made in a factory",
+                  "A building",
+                  "A computer game"
+                ],
+                "Telugu": [
+                  "ప్రకృతి నుంచి వచ్చే ఉపయోగకరమైనది",
+                  "కర్మాగారంలో తయారైన బొమ్మ",
+                  "భవనం",
+                  "కంప్యూటర్ ఆట"
+                ],
+                "Hindi": [
+                  "प्रकृति से मिलने वाली उपयोगी चीज़",
+                  "कारखाने में बना खिलौना",
+                  "इमारत",
+                  "कंप्यूटर गेम"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Air, water, soil, sunlight, forests and minerals are natural resources.",
+                "Telugu": "గాలి, నీరు, నేల, సూర్యకాంతి, అడవులు, ఖనిజాలు సహజ వనరులు.",
+                "Hindi": "हवा, पानी, मिट्टी, धूप, जंगल और खनिज प्राकृतिक संसाधन हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is NOT a natural resource?",
+                "Telugu": "వీటిలో సహజ వనరు కానిది ఏది?",
+                "Hindi": "इनमें से कौन प्राकृतिक संसाधन नहीं है?"
+              },
+              "options": {
+                "English": [
+                  "Sunlight",
+                  "Soil",
+                  "A plastic chair",
+                  "Water"
+                ],
+                "Telugu": [
+                  "సూర్యకాంతి",
+                  "నేల",
+                  "ప్లాస్టిక్ కుర్చీ",
+                  "నీరు"
+                ],
+                "Hindi": [
+                  "धूप",
+                  "मिट्टी",
+                  "प्लास्टिक की कुर्सी",
+                  "पानी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A plastic chair is made by people, so it is man-made, not natural.",
+                "Telugu": "ప్లాస్టిక్ కుర్చీని మనుషులు తయారు చేస్తారు, కాబట్టి అది మానవ నిర్మితం.",
+                "Hindi": "प्लास्टिक की कुर्सी इंसान बनाते हैं, इसलिए वह मानव निर्मित है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Resources like sunlight and wind that do not run out are called...",
+                "Telugu": "అయిపోని సూర్యకాంతి, గాలి వంటి వనరులను ఏమంటారు?",
+                "Hindi": "धूप और हवा जैसे कभी खत्म न होने वाले संसाधन क्या कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Non-renewable",
+                  "Renewable",
+                  "Broken",
+                  "Man-made"
+                ],
+                "Telugu": [
+                  "పునరుత్పాదకం కానివి",
+                  "పునరుత్పాదక వనరులు",
+                  "విరిగినవి",
+                  "మానవ నిర్మితం"
+                ],
+                "Hindi": [
+                  "अनवीकरणीय",
+                  "नवीकरणीय",
+                  "टूटे हुए",
+                  "मानव निर्मित"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Renewable resources are replaced by nature and will not run out.",
+                "Telugu": "పునరుత్పాదక వనరులను ప్రకృతి తిరిగి నింపుతుంది, అవి అయిపోవు.",
+                "Hindi": "नवीकरणीय संसाधन प्रकृति फिर से भर देती है, वे खत्म नहीं होते।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Coal and petrol will run out one day if we keep using them.",
+                "Telugu": "నిజమా అబద్ధమా: బొగ్గు, పెట్రోలు ఇలాగే వాడితే ఏదో ఒకరోజు అయిపోతాయి.",
+                "Hindi": "सही या गलत: कोयला और पेट्रोल लगातार इस्तेमाल करने पर एक दिन खत्म हो जाएँगे।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Coal and petroleum took millions of years to form; they are non-renewable.",
+                "Telugu": "బొగ్గు, పెట్రోలియం ఏర్పడడానికి లక్షల సంవత్సరాలు పట్టింది; అవి పునరుత్పాదకం కానివి.",
+                "Hindi": "कोयला और पेट्रोलियम बनने में लाखों साल लगे; वे अनवीकरणीय हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which resource helps plants grow by holding water and nutrients?",
+                "Telugu": "నీటిని, పోషకాలను పట్టి ఉంచి మొక్కలు పెరగడానికి సహాయపడే వనరు ఏది?",
+                "Hindi": "पानी और पोषक तत्व रोककर पौधों को बढ़ने में कौन सा संसाधन मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Plastic",
+                  "Glass",
+                  "Smoke",
+                  "Soil"
+                ],
+                "Telugu": [
+                  "ప్లాస్టిక్",
+                  "గాజు",
+                  "పొగ",
+                  "నేల"
+                ],
+                "Hindi": [
+                  "प्लास्टिक",
+                  "काँच",
+                  "धुआँ",
+                  "मिट्टी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Fertile soil holds water and nutrients that plant roots absorb.",
+                "Telugu": "సారవంతమైన నేల మొక్కల వేర్లు పీల్చుకునే నీటిని, పోషకాలను పట్టి ఉంచుతుంది.",
+                "Hindi": "उपजाऊ मिट्टी पानी और पोषक तत्व रोकती है जिन्हें जड़ें सोखती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Iron and gold are dug out of the earth. They are called...",
+                "Telugu": "ఇనుము, బంగారం భూమి నుంచి తవ్వి తీస్తారు. వాటిని ఏమంటారు?",
+                "Hindi": "लोहा और सोना ज़मीन से खोदकर निकाले जाते हैं। इन्हें क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Minerals",
+                  "Vegetables",
+                  "Clouds",
+                  "Fibres"
+                ],
+                "Telugu": [
+                  "ఖనిజాలు",
+                  "కూరగాయలు",
+                  "మేఘాలు",
+                  "పోగులు"
+                ],
+                "Hindi": [
+                  "खनिज",
+                  "सब्ज़ियाँ",
+                  "बादल",
+                  "रेशे"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Minerals are found in rocks and are taken out by mining.",
+                "Telugu": "ఖనిజాలు రాళ్లలో ఉంటాయి, గనుల తవ్వకం ద్వారా బయటకు తీస్తారు.",
+                "Hindi": "खनिज चट्टानों में मिलते हैं और खनन से निकाले जाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a good way to save electricity?",
+                "Telugu": "విద్యుత్తు ఆదా చేసే మంచి మార్గం ఏది?",
+                "Hindi": "बिजली बचाने का अच्छा तरीका कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Keep lights on in empty rooms",
+                  "Switch off fans and lights when leaving",
+                  "Keep the fridge door open",
+                  "Leave the TV on all night"
+                ],
+                "Telugu": [
+                  "ఖాళీ గదుల్లో దీపాలు వెలిగించి ఉంచడం",
+                  "బయటకు వెళ్లేటప్పుడు పంకాలు, దీపాలు ఆపడం",
+                  "ఫ్రిజ్ తలుపు తెరిచి ఉంచడం",
+                  "రాత్రంతా టీవీ ఆన్‌లో ఉంచడం"
+                ],
+                "Hindi": [
+                  "खाली कमरों में बत्ती जलती रखें",
+                  "जाते समय पंखे और बत्ती बंद करें",
+                  "फ्रिज का दरवाज़ा खुला रखें",
+                  "रात भर टीवी चलाएँ"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Much of our electricity comes from coal, so saving it also saves a resource.",
+                "Telugu": "మన విద్యుత్తులో ఎక్కువ భాగం బొగ్గు నుంచి వస్తుంది, కాబట్టి దానిని ఆదా చేస్తే వనరును కాపాడినట్లే.",
+                "Hindi": "हमारी ज़्यादातर बिजली कोयले से बनती है, इसलिए बिजली बचाना संसाधन बचाना है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Forests give us wood, fruits, medicines and clean air.",
+                "Telugu": "నిజమా అబద్ధమా: అడవులు మనకు కలప, పండ్లు, ఔషధాలు, శుభ్రమైన గాలి ఇస్తాయి.",
+                "Hindi": "सही या गलत: जंगल हमें लकड़ी, फल, दवाइयाँ और साफ़ हवा देते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Forests are a rich natural resource for people and animals.",
+                "Telugu": "అడవులు మనుషులకు, జంతువులకు సమృద్ధమైన సహజ వనరు.",
+                "Hindi": "जंगल लोगों और जानवरों के लिए समृद्ध प्राकृतिक संसाधन हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which energy source is clean and comes from the Sun?",
+                "Telugu": "సూర్యుని నుంచి వచ్చే శుభ్రమైన శక్తి వనరు ఏది?",
+                "Hindi": "सूरज से मिलने वाला साफ़ ऊर्जा स्रोत कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Diesel",
+                  "Coal",
+                  "Solar energy",
+                  "Kerosene"
+                ],
+                "Telugu": [
+                  "డీజిల్",
+                  "బొగ్గు",
+                  "సౌర శక్తి",
+                  "కిరోసిన్"
+                ],
+                "Hindi": [
+                  "डीज़ल",
+                  "कोयला",
+                  "सौर ऊर्जा",
+                  "मिट्टी का तेल"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Solar panels turn sunlight into electricity without smoke.",
+                "Telugu": "సౌర ఫలకాలు పొగ లేకుండా సూర్యకాంతిని విద్యుత్తుగా మారుస్తాయి.",
+                "Hindi": "सौर पैनल बिना धुएँ के धूप को बिजली में बदलते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why should we use resources carefully?",
+                "Telugu": "వనరులను ఎందుకు జాగ్రత్తగా వాడాలి?",
+                "Hindi": "संसाधनों का सावधानी से उपयोग क्यों करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "So that they cost more",
+                  "Because they are ugly",
+                  "Because they are useless",
+                  "So that they last for future generations"
+                ],
+                "Telugu": [
+                  "అవి ఎక్కువ ఖరీదు కావడానికి",
+                  "అవి అందంగా లేవు కాబట్టి",
+                  "అవి నిరుపయోగం కాబట్టి",
+                  "భవిష్యత్ తరాలకు మిగలడానికి"
+                ],
+                "Hindi": [
+                  "ताकि वे महँगे हों",
+                  "क्योंकि वे बदसूरत हैं",
+                  "क्योंकि वे बेकार हैं",
+                  "ताकि वे आने वाली पीढ़ियों के लिए बचें"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Using resources wisely means our children will also have air, water and fuel.",
+                "Telugu": "వనరులను తెలివిగా వాడితే మన పిల్లలకు కూడా గాలి, నీరు, ఇంధనం లభిస్తాయి.",
+                "Hindi": "संसाधनों का समझदारी से उपयोग करने से हमारे बच्चों को भी हवा, पानी और ईंधन मिलेगा।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-conservation",
+      "icon": "💧",
+      "title": {
+        "English": "Water Conservation",
+        "Telugu": "నీటి సంరక్షణ",
+        "Hindi": "जल संरक्षण"
+      },
+      "description": {
+        "English": "Learn why every drop of water matters.",
+        "Telugu": "ప్రతి నీటి చుక్క ఎందుకు ముఖ్యమో తెలుసుకుందాం.",
+        "Hindi": "जानें कि पानी की हर बूंद क्यों महत्वपूर्ण है।"
+      },
+      "lessons": [
+        {
+          "id": "save-water",
+          "visual": "🚰",
+          "title": {
+            "English": "Every Drop Matters",
+            "Telugu": "ప్రతి నీటి చుక్క విలువైనది",
+            "Hindi": "हर बूंद कीमती है"
+          },
+          "image": "./images/lessons/water-conservation.png",
+          "explanation": {
+            "English": "Fresh water is important for drinking, farming, cooking and cleaning. Closing taps, repairing leaks and collecting rainwater can help conserve water.",
+            "Telugu": "తాగడం, వ్యవసాయం, వంట మరియు శుభ్రపరచడానికి స్వచ్ఛమైన నీరు అవసరం. కుళాయిలను మూయడం మరియు లీకేజీలను సరిచేయడం నీటి సంరక్షణకు సహాయపడుతుంది.",
+            "Hindi": "पीने, खेती, खाना बनाने और सफाई के लिए स्वच्छ पानी जरूरी है। नल बंद करना और रिसाव ठीक करना पानी बचाने में मदद करता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Fresh water is valuable.",
+              "Do not waste water.",
+              "Repair leaking taps.",
+              "Rainwater can be collected.",
+              "Small habits save water."
+            ],
+            "Telugu": [
+              "స్వచ్ఛమైన నీరు విలువైనది.",
+              "నీటిని వృథా చేయకూడదు.",
+              "లీక్ కుళాయిలను సరిచేయాలి.",
+              "వర్షపు నీటిని సేకరించవచ్చు.",
+              "చిన్న అలవాట్లు నీటిని ఆదా చేస్తాయి."
+            ],
+            "Hindi": [
+              "स्वच्छ पानी कीमती है।",
+              "पानी बर्बाद न करें।",
+              "टपकते नल ठीक करें।",
+              "वर्षा जल संग्रह किया जा सकता है।",
+              "छोटी आदतें पानी बचाती हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Make a list of three water-saving habits.",
+            "Telugu": "మూడు నీటి ఆదా అలవాట్ల జాబితా తయారు చేయండి.",
+            "Hindi": "पानी बचाने की तीन आदतों की सूची बनाएँ।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which of these wastes water?",
+                "Telugu": "వీటిలో నీటిని వృథా చేసేది ఏది?",
+                "Hindi": "इनमें से कौन पानी बर्बाद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Closing taps tightly",
+                  "Leaving the tap running while soaping hands",
+                  "Using a bucket to bathe",
+                  "Fixing leaks"
+                ],
+                "Telugu": [
+                  "కుళాయిలు గట్టిగా మూయడం",
+                  "సబ్బు రాసుకునేటప్పుడు కుళాయి తెరిచి ఉంచడం",
+                  "బకెట్‌తో స్నానం చేయడం",
+                  "లీకులు బాగుచేయడం"
+                ],
+                "Hindi": [
+                  "नल कसकर बंद करना",
+                  "साबुन लगाते समय नल खुला छोड़ना",
+                  "बाल्टी से नहाना",
+                  "रिसाव ठीक करना"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Water keeps flowing away while we soap our hands. Close the tap until rinsing.",
+                "Telugu": "సబ్బు రాసుకునేటప్పుడు నీరు వృథాగా పోతుంది. కడుక్కునే వరకు కుళాయి మూయండి.",
+                "Hindi": "साबुन लगाते समय पानी बहता रहता है। धोने तक नल बंद रखें।"
+              }
+            },
+            {
+              "question": {
+                "English": "Collecting rainwater from rooftops for later use is called...",
+                "Telugu": "వర్షపు నీటిని పైకప్పుల నుంచి సేకరించి నిల్వ చేయడాన్ని ఏమంటారు?",
+                "Hindi": "छतों से बारिश का पानी जमा करना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Rainwater harvesting",
+                  "Deforestation",
+                  "Pollution",
+                  "Evaporation"
+                ],
+                "Telugu": [
+                  "వర్షపు నీటి సంరక్షణ",
+                  "అటవీ నిర్మూలన",
+                  "కాలుష్యం",
+                  "బాష్పీభవనం"
+                ],
+                "Hindi": [
+                  "वर्षा जल संचयन",
+                  "वनों की कटाई",
+                  "प्रदूषण",
+                  "वाष्पीकरण"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Rainwater harvesting stores rain in tanks or lets it soak into the ground.",
+                "Telugu": "వర్షపు నీటి సంరక్షణలో వానను ట్యాంకుల్లో నిల్వ చేస్తాం లేదా భూమిలోకి ఇంకిస్తాం.",
+                "Hindi": "वर्षा जल संचयन में बारिश का पानी टंकी में जमा करते या ज़मीन में उतारते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A dripping tap can waste many litres of water in a day.",
+                "Telugu": "నిజమా అబద్ధమా: చుక్కలు కారే కుళాయి రోజుకు చాలా లీటర్ల నీటిని వృథా చేస్తుంది.",
+                "Hindi": "सही या गलत: टपकता नल एक दिन में कई लीटर पानी बर्बाद कर सकता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Small drops add up; a dripping tap can waste over 20 litres a day.",
+                "Telugu": "చిన్న చుక్కలు కలిసి పెద్దవుతాయి; కారే కుళాయి రోజుకు 20 లీటర్లకు పైగా వృథా చేస్తుంది.",
+                "Hindi": "छोटी बूँदें जुड़ती जाती हैं; टपकता नल रोज़ 20 लीटर से ज़्यादा पानी बर्बाद कर सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which watering method saves water in farms?",
+                "Telugu": "పొలాల్లో నీరు ఆదా చేసే నీటిపారుదల విధానం ఏది?",
+                "Hindi": "खेतों में पानी बचाने वाली सिंचाई विधि कौन सी है?"
+              },
+              "options": {
+                "English": [
+                  "Flooding the whole field always",
+                  "Watering at noon",
+                  "Drip irrigation",
+                  "Letting pipes leak"
+                ],
+                "Telugu": [
+                  "ఎప్పుడూ పొలమంతా నీటితో నింపడం",
+                  "మధ్యాహ్నం నీరు పెట్టడం",
+                  "బిందు సేద్యం",
+                  "పైపులు లీకవనివ్వడం"
+                ],
+                "Hindi": [
+                  "हमेशा पूरा खेत भर देना",
+                  "दोपहर में पानी देना",
+                  "टपक सिंचाई",
+                  "पाइप रिसने देना"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Drip irrigation gives water drop by drop right at the roots.",
+                "Telugu": "బిందు సేద్యం నీటిని చుక్కచుక్కగా నేరుగా వేర్ల దగ్గరకు అందిస్తుంది.",
+                "Hindi": "टपक सिंचाई बूँद-बूँद पानी सीधे जड़ों तक पहुँचाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why do wells and lakes dry up in some places?",
+                "Telugu": "కొన్ని చోట్ల బావులు, చెరువులు ఎందుకు ఎండిపోతాయి?",
+                "Hindi": "कुछ जगहों पर कुएँ और झीलें क्यों सूख जाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Too much rain",
+                  "Too many fish",
+                  "Clouds drink the water",
+                  "Too little rain and too much use of groundwater"
+                ],
+                "Telugu": [
+                  "అతి వర్షం",
+                  "ఎక్కువ చేపలు",
+                  "మేఘాలు నీరు తాగడం",
+                  "తక్కువ వర్షం, భూగర్భ జలాల అతి వాడకం"
+                ],
+                "Hindi": [
+                  "बहुत ज़्यादा बारिश",
+                  "बहुत सारी मछलियाँ",
+                  "बादल पानी पी जाते हैं",
+                  "कम बारिश और भूजल का ज़्यादा उपयोग"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "When we pump out more groundwater than rain puts back, the water level falls.",
+                "Telugu": "వర్షం తిరిగి నింపే దానికంటే ఎక్కువ భూగర్భ జలాన్ని తోడితే నీటి మట్టం పడిపోతుంది.",
+                "Hindi": "जब बारिश से भरने से ज़्यादा भूजल निकालते हैं, तो जल स्तर गिरता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which uses less water for bathing?",
+                "Telugu": "స్నానానికి తక్కువ నీరు వాడేది ఏది?",
+                "Hindi": "नहाने में कम पानी किसमें लगता है?"
+              },
+              "options": {
+                "English": [
+                  "A bucket and mug",
+                  "A long shower",
+                  "A bathtub",
+                  "A running hose pipe"
+                ],
+                "Telugu": [
+                  "బకెట్, మగ్గు",
+                  "ఎక్కువసేపు షవర్",
+                  "బాత్‌టబ్",
+                  "తెరిచి ఉన్న హోస్ పైపు"
+                ],
+                "Hindi": [
+                  "बाल्टी और मग",
+                  "लंबा शावर",
+                  "बाथटब",
+                  "चलता हुआ पाइप"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A bucket bath uses a fixed amount of water, much less than a long shower or tub.",
+                "Telugu": "బకెట్ స్నానానికి నిర్ణీత నీరే పడుతుంది, షవర్ లేదా టబ్ కంటే చాలా తక్కువ.",
+                "Hindi": "बाल्टी से नहाने में तय पानी लगता है, जो शावर या टब से बहुत कम है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Planting trees helps rainwater soak into the ground.",
+                "Telugu": "నిజమా అబద్ధమా: చెట్లు నాటడం వర్షపు నీరు భూమిలోకి ఇంకడానికి సహాయపడుతుంది.",
+                "Hindi": "सही या गलत: पेड़ लगाने से बारिश का पानी ज़मीन में उतरने में मदद मिलती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Tree roots and fallen leaves slow down water so it seeps into the soil.",
+                "Telugu": "చెట్ల వేర్లు, రాలిన ఆకులు నీటి వేగాన్ని తగ్గించి నేలలోకి ఇంకేలా చేస్తాయి.",
+                "Hindi": "पेड़ों की जड़ें और गिरी पत्तियाँ पानी को धीमा कर मिट्टी में रिसने देती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What can we do with water left over in our bottle at the end of the day?",
+                "Telugu": "రోజు చివర సీసాలో మిగిలిన నీటిని ఏమి చేయవచ్చు?",
+                "Hindi": "दिन के अंत में बोतल में बचे पानी का क्या करें?"
+              },
+              "options": {
+                "English": [
+                  "Throw it on the road",
+                  "Pour it in the drain",
+                  "Water a plant",
+                  "Leave it to go bad"
+                ],
+                "Telugu": [
+                  "రోడ్డు మీద పోయడం",
+                  "కాలువలో పోయడం",
+                  "మొక్కకు పోయడం",
+                  "చెడిపోయేలా వదిలేయడం"
+                ],
+                "Hindi": [
+                  "सड़क पर फेंकें",
+                  "नाली में डालें",
+                  "पौधे में डालें",
+                  "खराब होने दें"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Leftover clean water can be given to plants instead of being thrown away.",
+                "Telugu": "మిగిలిన శుభ్రమైన నీటిని పారబోయకుండా మొక్కలకు పోయవచ్చు.",
+                "Hindi": "बचा हुआ साफ़ पानी फेंकने के बजाय पौधों को दे सकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Washing a car with a bucket instead of a pipe...",
+                "Telugu": "పైపుకు బదులు బకెట్‌తో కారు కడగడం...",
+                "Hindi": "पाइप के बजाय बाल्टी से कार धोना..."
+              },
+              "options": {
+                "English": [
+                  "Wastes more water",
+                  "Saves water",
+                  "Makes the car dirtier",
+                  "Is not allowed"
+                ],
+                "Telugu": [
+                  "ఎక్కువ నీరు వృథా చేస్తుంది",
+                  "నీటిని ఆదా చేస్తుంది",
+                  "కారును మరింత మురికి చేస్తుంది",
+                  "అనుమతి లేదు"
+                ],
+                "Hindi": [
+                  "ज़्यादा पानी बर्बाद करता है",
+                  "पानी बचाता है",
+                  "कार को और गंदा करता है",
+                  "इजाज़त नहीं है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A running pipe sends a lot of water away; a bucket uses only what is needed.",
+                "Telugu": "తెరిచిన పైపు చాలా నీటిని పారబోస్తుంది; బకెట్ కావలసినంతే వాడుతుంది.",
+                "Hindi": "चलता पाइप बहुत पानी बहाता है; बाल्टी में उतना ही लगता है जितना चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "Who should save water?",
+                "Telugu": "నీటిని ఎవరు ఆదా చేయాలి?",
+                "Hindi": "पानी किसे बचाना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Only farmers",
+                  "Only grown-ups",
+                  "Only the government",
+                  "Everyone"
+                ],
+                "Telugu": [
+                  "రైతులు మాత్రమే",
+                  "పెద్దలు మాత్రమే",
+                  "ప్రభుత్వం మాత్రమే",
+                  "అందరూ"
+                ],
+                "Hindi": [
+                  "सिर्फ़ किसान",
+                  "सिर्फ़ बड़े",
+                  "सिर्फ़ सरकार",
+                  "सभी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Water is shared by everyone, so every person, including children, should save it.",
+                "Telugu": "నీరు అందరిదీ, కాబట్టి పిల్లలతో సహా ప్రతి ఒక్కరూ దానిని ఆదా చేయాలి.",
+                "Hindi": "पानी सबका है, इसलिए बच्चों सहित हर व्यक्ति को उसे बचाना चाहिए।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forests-wildlife",
+      "icon": "🌳",
+      "title": {
+        "English": "Forests and Wildlife",
+        "Telugu": "అడవులు మరియు వన్యప్రాణులు",
+        "Hindi": "जंगल और वन्यजीव"
+      },
+      "description": {
+        "English": "Learn why forests and wildlife are important.",
+        "Telugu": "అడవులు మరియు వన్యప్రాణులు ఎందుకు ముఖ్యమో తెలుసుకుందాం.",
+        "Hindi": "जानें कि जंगल और वन्यजीव क्यों महत्वपूर्ण हैं।"
+      },
+      "lessons": [
+        {
+          "id": "forest-life",
+          "visual": "🦌",
+          "title": {
+            "English": "Life in Forests",
+            "Telugu": "అడవుల్లో జీవితం",
+            "Hindi": "जंगलों में जीवन"
+          },
+          "image": "./images/lessons/forest.png",
+          "explanation": {
+            "English": "Forests contain many plants and animals. Forests provide habitats, help protect soil and are an important part of nature.",
+            "Telugu": "అడవుల్లో అనేక మొక్కలు మరియు జంతువులు జీవిస్తాయి. అడవులు నివాసాలను అందిస్తాయి మరియు నేలను రక్షిస్తాయి.",
+            "Hindi": "जंगलों में अनेक पौधे और जानवर रहते हैं। जंगल आवास देते हैं और मिट्टी की रक्षा करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Forests support living organisms.",
+              "Wildlife needs habitats.",
+              "Trees protect soil.",
+              "Forests are important ecosystems.",
+              "Protect forests and wildlife."
+            ],
+            "Telugu": [
+              "అడవులు జీవులకు ఆధారం.",
+              "వన్యప్రాణులకు నివాసాలు అవసరం.",
+              "చెట్లు నేలను రక్షిస్తాయి.",
+              "అడవులు ముఖ్యమైన పర్యావరణ వ్యవస్థలు.",
+              "అడవులు మరియు వన్యప్రాణులను రక్షించాలి."
+            ],
+            "Hindi": [
+              "जंगल जीवों का सहारा हैं।",
+              "वन्यजीवों को आवास चाहिए।",
+              "पेड़ मिट्टी की रक्षा करते हैं।",
+              "जंगल महत्वपूर्ण पारिस्थितिकी तंत्र हैं।",
+              "जंगलों और वन्यजीवों की रक्षा करें।"
+            ]
+          },
+          "activity": {
+            "English": "Choose one forest animal and write three things it needs.",
+            "Telugu": "ఒక అడవి జంతువును ఎంచుకుని దానికి అవసరమైన మూడు విషయాలను రాయండి.",
+            "Hindi": "एक वन्य जानवर चुनें और उसकी तीन जरूरतें लिखें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which of these lives in a forest?",
+                "Telugu": "వీటిలో అడవిలో నివసించేది ఏది?",
+                "Hindi": "इनमें से जंगल में कौन रहता है?"
+              },
+              "options": {
+                "English": [
+                  "Tiger",
+                  "Whale",
+                  "Camel",
+                  "Penguin"
+                ],
+                "Telugu": [
+                  "పులి",
+                  "తిమింగలం",
+                  "ఒంటె",
+                  "పెంగ్విన్"
+                ],
+                "Hindi": [
+                  "बाघ",
+                  "व्हेल",
+                  "ऊँट",
+                  "पेंगुइन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Tigers live in forests where they find prey, water and thick cover.",
+                "Telugu": "పులులు ఎర, నీరు, దట్టమైన పొదలు దొరికే అడవుల్లో నివసిస్తాయి.",
+                "Hindi": "बाघ जंगलों में रहते हैं जहाँ उन्हें शिकार, पानी और घनी आड़ मिलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "How do forests protect soil?",
+                "Telugu": "అడవులు నేలను ఎలా కాపాడతాయి?",
+                "Hindi": "जंगल मिट्टी की रक्षा कैसे करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "By making it dry",
+                  "Tree roots hold the soil in place",
+                  "By removing all water",
+                  "By burning it"
+                ],
+                "Telugu": [
+                  "దానిని ఎండబెట్టి",
+                  "చెట్ల వేర్లు నేలను పట్టి ఉంచుతాయి",
+                  "నీరంతా తీసేసి",
+                  "కాల్చి"
+                ],
+                "Hindi": [
+                  "उसे सुखाकर",
+                  "पेड़ों की जड़ें मिट्टी को बाँधे रखती हैं",
+                  "सारा पानी हटाकर",
+                  "जलाकर"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Roots bind the soil, so rain and wind cannot wash or blow it away (soil erosion).",
+                "Telugu": "వేర్లు నేలను బంధిస్తాయి, దాంతో వర్షం, గాలి దానిని కొట్టుకుపోనివ్వవు (నేల క్రమక్షయం).",
+                "Hindi": "जड़ें मिट्टी को बाँधती हैं, इसलिए बारिश और हवा उसे बहा या उड़ा नहीं पातीं (मृदा अपरदन)।"
+              }
+            },
+            {
+              "question": {
+                "English": "Cutting down forests on a large scale is called...",
+                "Telugu": "పెద్ద ఎత్తున అడవులను నరికివేయడాన్ని ఏమంటారు?",
+                "Hindi": "बड़े पैमाने पर जंगल काटना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Afforestation",
+                  "Irrigation",
+                  "Deforestation",
+                  "Harvesting"
+                ],
+                "Telugu": [
+                  "అటవీకరణ",
+                  "నీటిపారుదల",
+                  "అటవీ నిర్మూలన",
+                  "కోత"
+                ],
+                "Hindi": [
+                  "वनीकरण",
+                  "सिंचाई",
+                  "वनों की कटाई",
+                  "फसल कटाई"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Deforestation destroys habitats and leads to soil erosion and less rain.",
+                "Telugu": "అటవీ నిర్మూలన ఆవాసాలను నాశనం చేసి నేల క్రమక్షయానికి, తక్కువ వర్షానికి దారితీస్తుంది.",
+                "Hindi": "वनों की कटाई आवास नष्ट करती है और मिट्टी के कटाव व कम बारिश का कारण बनती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Some tribal people live in forests and depend on them.",
+                "Telugu": "నిజమా అబద్ధమా: కొందరు గిరిజనులు అడవుల్లో నివసిస్తూ వాటిపై ఆధారపడతారు.",
+                "Hindi": "सही या गलत: कुछ आदिवासी लोग जंगलों में रहते हैं और उन पर निर्भर हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Many tribal communities get food, medicine and materials from forests and help protect them.",
+                "Telugu": "ఎన్నో గిరిజన సమాజాలు అడవుల నుంచి ఆహారం, ఔషధాలు, సామగ్రి పొంది వాటిని కాపాడుతున్నాయి.",
+                "Hindi": "कई आदिवासी समुदाय जंगलों से भोजन, दवा और सामग्री पाते हैं और उनकी रक्षा करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "A place where wild animals are protected by law is called a...",
+                "Telugu": "చట్టం ద్వారా అడవి జంతువులను రక్షించే ప్రదేశాన్ని ఏమంటారు?",
+                "Hindi": "जहाँ कानून से जंगली जानवरों की रक्षा होती है, उसे क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Market",
+                  "Factory",
+                  "Bus stand",
+                  "Wildlife sanctuary"
+                ],
+                "Telugu": [
+                  "మార్కెట్",
+                  "కర్మాగారం",
+                  "బస్టాండు",
+                  "వన్యప్రాణి అభయారణ్యం"
+                ],
+                "Hindi": [
+                  "बाज़ार",
+                  "कारखाना",
+                  "बस अड्डा",
+                  "वन्यजीव अभयारण्य"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "In sanctuaries and national parks, hunting and cutting trees are not allowed.",
+                "Telugu": "అభయారణ్యాలు, జాతీయ ఉద్యానవనాల్లో వేట, చెట్లు నరకడం నిషేధం.",
+                "Hindi": "अभयारण्यों और राष्ट्रीय उद्यानों में शिकार और पेड़ काटना मना है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which animal is India's national animal and lives in forests?",
+                "Telugu": "భారతదేశ జాతీయ జంతువు, అడవుల్లో నివసించేది ఏది?",
+                "Hindi": "भारत का राष्ट्रीय पशु कौन है जो जंगलों में रहता है?"
+              },
+              "options": {
+                "English": [
+                  "Lion",
+                  "Elephant",
+                  "Tiger",
+                  "Peacock"
+                ],
+                "Telugu": [
+                  "సింహం",
+                  "ఏనుగు",
+                  "పులి",
+                  "నెమలి"
+                ],
+                "Hindi": [
+                  "शेर",
+                  "हाथी",
+                  "बाघ",
+                  "मोर"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "The Bengal tiger is India's national animal. Project Tiger works to protect it.",
+                "Telugu": "బెంగాల్ పులి భారత జాతీయ జంతువు. ప్రాజెక్ట్ టైగర్ దానిని రక్షిస్తోంది.",
+                "Hindi": "बंगाल टाइगर भारत का राष्ट्रीय पशु है। प्रोजेक्ट टाइगर उसकी रक्षा करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these do we get from forests?",
+                "Telugu": "వీటిలో అడవుల నుంచి మనకు లభించేది ఏది?",
+                "Hindi": "इनमें से हमें जंगलों से क्या मिलता है?"
+              },
+              "options": {
+                "English": [
+                  "Honey, gum and medicinal plants",
+                  "Plastic bags",
+                  "Steel",
+                  "Petrol"
+                ],
+                "Telugu": [
+                  "తేనె, బంక, ఔషధ మొక్కలు",
+                  "ప్లాస్టిక్ సంచులు",
+                  "ఉక్కు",
+                  "పెట్రోలు"
+                ],
+                "Hindi": [
+                  "शहद, गोंद और औषधीय पौधे",
+                  "प्लास्टिक की थैलियाँ",
+                  "स्टील",
+                  "पेट्रोल"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Forests give honey, gum, lac, bamboo, wood and many medicinal plants.",
+                "Telugu": "అడవులు తేనె, బంక, లక్క, వెదురు, కలప, ఎన్నో ఔషధ మొక్కలు ఇస్తాయి.",
+                "Hindi": "जंगल शहद, गोंद, लाख, बाँस, लकड़ी और कई औषधीय पौधे देते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Poaching means killing wild animals illegally.",
+                "Telugu": "నిజమా అబద్ధమా: వేటాడటం (పోచింగ్) అంటే అడవి జంతువులను చట్టవిరుద్ధంగా చంపడం.",
+                "Hindi": "सही या गलत: अवैध शिकार का मतलब जंगली जानवरों को गैरकानूनी रूप से मारना है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Poachers kill animals for skin, tusks or horns. It is a crime.",
+                "Telugu": "వేటగాళ్లు చర్మం, దంతాలు, కొమ్ముల కోసం జంతువులను చంపుతారు. ఇది నేరం.",
+                "Hindi": "शिकारी खाल, दाँत या सींग के लिए जानवर मारते हैं। यह अपराध है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Planting new trees where forests were cut is called...",
+                "Telugu": "అడవులు నరికిన చోట కొత్త చెట్లు నాటడాన్ని ఏమంటారు?",
+                "Hindi": "कटे जंगलों की जगह नए पेड़ लगाना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Deforestation",
+                  "Reforestation",
+                  "Poaching",
+                  "Mining"
+                ],
+                "Telugu": [
+                  "అటవీ నిర్మూలన",
+                  "పునరటవీకరణ",
+                  "వేట",
+                  "గనుల తవ్వకం"
+                ],
+                "Hindi": [
+                  "वनों की कटाई",
+                  "पुनर्वनीकरण",
+                  "अवैध शिकार",
+                  "खनन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Reforestation brings back trees, habitats and soil protection.",
+                "Telugu": "పునరటవీకరణ చెట్లను, ఆవాసాలను, నేల రక్షణను తిరిగి తెస్తుంది.",
+                "Hindi": "पुनर्वनीकरण पेड़, आवास और मिट्टी की सुरक्षा वापस लाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What happens to rain when there are fewer forests?",
+                "Telugu": "అడవులు తగ్గితే వర్షానికి ఏమవుతుంది?",
+                "Hindi": "जंगल कम होने पर बारिश पर क्या असर होता है?"
+              },
+              "options": {
+                "English": [
+                  "It always increases",
+                  "It turns into snow",
+                  "Nothing changes",
+                  "Rainfall can reduce"
+                ],
+                "Telugu": [
+                  "ఎప్పుడూ పెరుగుతుంది",
+                  "మంచుగా మారుతుంది",
+                  "ఏమీ మారదు",
+                  "వర్షపాతం తగ్గవచ్చు"
+                ],
+                "Hindi": [
+                  "हमेशा बढ़ती है",
+                  "बर्फ़ बन जाती है",
+                  "कुछ नहीं बदलता",
+                  "बारिश कम हो सकती है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Trees release water vapour that helps form clouds; fewer trees can mean less rain.",
+                "Telugu": "చెట్లు విడుదల చేసే నీటి ఆవిరి మేఘాలు ఏర్పడడానికి సహాయపడుతుంది; చెట్లు తగ్గితే వర్షం తగ్గవచ్చు.",
+                "Hindi": "पेड़ जलवाष्प छोड़ते हैं जो बादल बनाने में मदद करती है; कम पेड़ों से बारिश घट सकती है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agriculture-food",
+      "icon": "🌾",
+      "title": {
+        "English": "Agriculture and Food",
+        "Telugu": "వ్యవసాయం మరియు ఆహారం",
+        "Hindi": "कृषि और भोजन"
+      },
+      "description": {
+        "English": "Learn how crops reach our homes.",
+        "Telugu": "పంటలు మన ఇళ్లకు ఎలా చేరుతాయో తెలుసుకుందాం.",
+        "Hindi": "जानें कि फसलें हमारे घर तक कैसे पहुँचती हैं।"
+      },
+      "lessons": [
+        {
+          "id": "crop-journey",
+          "visual": "🚜",
+          "title": {
+            "English": "Journey of a Crop",
+            "Telugu": "పంట ప్రయాణం",
+            "Hindi": "फसल की यात्रा"
+          },
+          "image": "./images/lessons/agriculture.png",
+          "explanation": {
+            "English": "Farmers grow crops using soil, seeds, water and careful work. Crops are harvested and then transported or stored before reaching people.",
+            "Telugu": "రైతులు నేల, విత్తనాలు, నీరు మరియు శ్రమతో పంటలను పండిస్తారు. పంటలను కోసి తరువాత రవాణా లేదా నిల్వ చేస్తారు.",
+            "Hindi": "किसान मिट्टी, बीज, पानी और मेहनत से फसल उगाते हैं। फसल काटने के बाद उसे पहुँचाया या संग्रहित किया जाता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Farmers grow crops.",
+              "Seeds are important.",
+              "Crops need water.",
+              "Harvesting happens when crops are ready.",
+              "Food passes through several steps."
+            ],
+            "Telugu": [
+              "రైతులు పంటలను పండిస్తారు.",
+              "విత్తనాలు ముఖ్యమైనవి.",
+              "పంటలకు నీరు అవసరం.",
+              "పంట సిద్ధమైనప్పుడు కోత కోస్తారు.",
+              "ఆహారం అనేక దశల ద్వారా మనకు చేరుతుంది."
+            ],
+            "Hindi": [
+              "किसान फसलें उगाते हैं।",
+              "बीज महत्वपूर्ण हैं।",
+              "फसलों को पानी चाहिए।",
+              "फसल तैयार होने पर कटाई होती है।",
+              "भोजन कई चरणों से गुजरता है।"
+            ]
+          },
+          "activity": {
+            "English": "Draw how rice or wheat travels from farm to home.",
+            "Telugu": "బియ్యం లేదా గోధుమలు పొలం నుండి ఇంటికి ఎలా చేరుతాయో గీయండి.",
+            "Hindi": "चावल या गेहूँ खेत से घर तक कैसे पहुँचता है, बनाएँ।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which is the correct order of farming steps?",
+                "Telugu": "వ్యవసాయ దశల సరైన క్రమం ఏది?",
+                "Hindi": "खेती के चरणों का सही क्रम कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Harvest, sow, plough",
+                  "Plough, sow, water, harvest",
+                  "Water, harvest, plough",
+                  "Sow, harvest, plough"
+                ],
+                "Telugu": [
+                  "కోత, విత్తడం, దున్నడం",
+                  "దున్నడం, విత్తడం, నీరు, కోత",
+                  "నీరు, కోత, దున్నడం",
+                  "విత్తడం, కోత, దున్నడం"
+                ],
+                "Hindi": [
+                  "कटाई, बुवाई, जुताई",
+                  "जुताई, बुवाई, सिंचाई, कटाई",
+                  "सिंचाई, कटाई, जुताई",
+                  "बुवाई, कटाई, जुताई"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Soil is ploughed first, then seeds are sown, crops are watered, and finally harvested.",
+                "Telugu": "మొదట నేల దున్ని, విత్తనాలు విత్తి, నీరు పెట్టి, చివరకు కోత కోస్తారు.",
+                "Hindi": "पहले जुताई, फिर बुवाई, फिर सिंचाई और अंत में कटाई होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Separating grain from the stalks after harvest is called...",
+                "Telugu": "కోత తర్వాత కంకుల నుంచి గింజలను వేరు చేయడాన్ని ఏమంటారు?",
+                "Hindi": "कटाई के बाद डंठल से दाने अलग करना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Sowing",
+                  "Weeding",
+                  "Threshing",
+                  "Ploughing"
+                ],
+                "Telugu": [
+                  "విత్తడం",
+                  "కలుపు తీయడం",
+                  "నూర్పిడి",
+                  "దున్నడం"
+                ],
+                "Hindi": [
+                  "बुवाई",
+                  "निराई",
+                  "गहाई",
+                  "जुताई"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Threshing separates grains from the stalks, by hand, animals or machines.",
+                "Telugu": "నూర్పిడి గింజలను కంకుల నుంచి చేతులతో, జంతువులతో లేదా యంత్రాలతో వేరు చేస్తుంది.",
+                "Hindi": "गहाई में दानों को डंठल से हाथ, पशु या मशीन द्वारा अलग किया जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Good quality seeds give a better crop.",
+                "Telugu": "నిజమా అబద్ధమా: మంచి నాణ్యమైన విత్తనాలు మంచి పంటను ఇస్తాయి.",
+                "Hindi": "सही या गलत: अच्छे बीजों से बेहतर फसल होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Healthy seeds sprout well and grow into strong plants.",
+                "Telugu": "ఆరోగ్యకరమైన విత్తనాలు బాగా మొలకెత్తి బలమైన మొక్కలుగా పెరుగుతాయి.",
+                "Hindi": "स्वस्थ बीज अच्छे से अंकुरित होकर मज़बूत पौधे बनते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which crop is grown in the rainy season?",
+                "Telugu": "వర్షాకాలంలో పండే పంట ఏది?",
+                "Hindi": "बरसात में कौन सी फसल उगाई जाती है?"
+              },
+              "options": {
+                "English": [
+                  "Rice",
+                  "Wheat",
+                  "Mustard",
+                  "Gram"
+                ],
+                "Telugu": [
+                  "వరి",
+                  "గోధుమ",
+                  "ఆవాలు",
+                  "శనగ"
+                ],
+                "Hindi": [
+                  "धान",
+                  "गेहूँ",
+                  "सरसों",
+                  "चना"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Rice is a kharif crop that needs lots of water, sown at the start of the monsoon.",
+                "Telugu": "వరి ఖరీఫ్ పంట, దానికి ఎక్కువ నీరు కావాలి, వర్షాకాలం మొదట్లో విత్తుతారు.",
+                "Hindi": "धान खरीफ़ फसल है जिसे बहुत पानी चाहिए और मानसून की शुरुआत में बोया जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which crop is grown in winter?",
+                "Telugu": "చలికాలంలో పండే పంట ఏది?",
+                "Hindi": "सर्दी में कौन सी फसल उगाई जाती है?"
+              },
+              "options": {
+                "English": [
+                  "Rice",
+                  "Cotton",
+                  "Maize",
+                  "Wheat"
+                ],
+                "Telugu": [
+                  "వరి",
+                  "ప్రత్తి",
+                  "మొక్కజొన్న",
+                  "గోధుమ"
+                ],
+                "Hindi": [
+                  "धान",
+                  "कपास",
+                  "मक्का",
+                  "गेहूँ"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Wheat is a rabi crop, sown in winter and harvested in spring.",
+                "Telugu": "గోధుమ రబీ పంట, చలికాలంలో విత్తి వసంతంలో కోస్తారు.",
+                "Hindi": "गेहूँ रबी फसल है, सर्दी में बोई और वसंत में काटी जाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why do farmers store grain in dry places?",
+                "Telugu": "రైతులు ధాన్యాన్ని పొడి ప్రదేశాల్లో ఎందుకు నిల్వ చేస్తారు?",
+                "Hindi": "किसान अनाज सूखी जगह पर क्यों रखते हैं?"
+              },
+              "options": {
+                "English": [
+                  "To make it grow again",
+                  "To keep away moisture, pests and fungus",
+                  "To make it heavier",
+                  "To change its colour"
+                ],
+                "Telugu": [
+                  "మళ్లీ మొలకెత్తడానికి",
+                  "తేమ, పురుగులు, బూజు దూరంగా ఉంచడానికి",
+                  "బరువు పెంచడానికి",
+                  "రంగు మార్చడానికి"
+                ],
+                "Hindi": [
+                  "फिर से उगाने के लिए",
+                  "नमी, कीड़े और फफूँद दूर रखने के लिए",
+                  "भारी बनाने के लिए",
+                  "रंग बदलने के लिए"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Damp grain rots and attracts insects and fungus, so it is dried and kept dry.",
+                "Telugu": "తడి ధాన్యం కుళ్లి పురుగులను, బూజును ఆకర్షిస్తుంది, అందుకే ఆరబెట్టి పొడిగా ఉంచుతారు.",
+                "Hindi": "नम अनाज सड़ता है और कीड़े व फफूँद लगते हैं, इसलिए उसे सुखाकर रखते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "How does food reach a city market from a village farm?",
+                "Telugu": "గ్రామ పొలం నుంచి ఆహారం నగర మార్కెట్‌కు ఎలా చేరుతుంది?",
+                "Hindi": "गाँव के खेत से खाना शहर के बाज़ार तक कैसे पहुँचता है?"
+              },
+              "options": {
+                "English": [
+                  "It flies by itself",
+                  "It grows in the market",
+                  "It is transported in trucks and trains",
+                  "Through the river only"
+                ],
+                "Telugu": [
+                  "తనంతట తాను ఎగురుతుంది",
+                  "మార్కెట్‌లోనే పెరుగుతుంది",
+                  "ట్రక్కులు, రైళ్లలో రవాణా చేస్తారు",
+                  "నది ద్వారా మాత్రమే"
+                ],
+                "Hindi": [
+                  "अपने आप उड़कर",
+                  "बाज़ार में ही उगता है",
+                  "ट्रक और रेल से ले जाया जाता है",
+                  "सिर्फ़ नदी से"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Grains and vegetables travel by trucks, trains and carts to markets and shops.",
+                "Telugu": "ధాన్యాలు, కూరగాయలు ట్రక్కులు, రైళ్లు, బండ్ల ద్వారా మార్కెట్లు, దుకాణాలకు చేరతాయి.",
+                "Hindi": "अनाज और सब्ज़ियाँ ट्रक, रेल और गाड़ियों से बाज़ार और दुकानों तक पहुँचती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Too many chemical fertilisers can harm the soil.",
+                "Telugu": "నిజమా అబద్ధమా: అతిగా రసాయన ఎరువులు వాడితే నేలకు హాని కలుగుతుంది.",
+                "Hindi": "सही या गलत: बहुत ज़्यादा रासायनिक खाद मिट्टी को नुकसान पहुँचा सकती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Overuse of chemical fertilisers makes soil less fertile and pollutes water. Manure is gentler.",
+                "Telugu": "రసాయన ఎరువుల అతి వాడకం నేల సారాన్ని తగ్గించి నీటిని కలుషితం చేస్తుంది. సేంద్రియ ఎరువు మంచిది.",
+                "Hindi": "रासायनिक खाद का ज़्यादा उपयोग मिट्टी की उर्वरता घटाता और पानी दूषित करता है। गोबर खाद बेहतर है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which machine is used to plough fields today?",
+                "Telugu": "నేడు పొలాలు దున్నడానికి ఏ యంత్రాన్ని వాడతారు?",
+                "Hindi": "आज खेत जोतने के लिए कौन सी मशीन इस्तेमाल होती है?"
+              },
+              "options": {
+                "English": [
+                  "Sewing machine",
+                  "Washing machine",
+                  "Computer",
+                  "Tractor"
+                ],
+                "Telugu": [
+                  "కుట్టు యంత్రం",
+                  "బట్టలు ఉతికే యంత్రం",
+                  "కంప్యూటర్",
+                  "ట్రాక్టర్"
+                ],
+                "Hindi": [
+                  "सिलाई मशीन",
+                  "कपड़े धोने की मशीन",
+                  "कंप्यूटर",
+                  "ट्रैक्टर"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Tractors pull ploughs and other tools, doing the work quickly.",
+                "Telugu": "ట్రాక్టర్లు నాగళ్లను, ఇతర పనిముట్లను లాగి పనిని త్వరగా చేస్తాయి.",
+                "Hindi": "ट्रैक्टर हल और दूसरे औज़ार खींचकर काम जल्दी करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why should we not waste food?",
+                "Telugu": "ఆహారాన్ని ఎందుకు వృథా చేయకూడదు?",
+                "Hindi": "खाना क्यों बर्बाद नहीं करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "A lot of work, water and land go into growing it",
+                  "Food grows by itself",
+                  "Food is free",
+                  "It is fun to throw"
+                ],
+                "Telugu": [
+                  "దానిని పండించడానికి ఎంతో శ్రమ, నీరు, భూమి పడుతుంది",
+                  "ఆహారం తనంతట తాను పెరుగుతుంది",
+                  "ఆహారం ఉచితం",
+                  "పారేయడం సరదా"
+                ],
+                "Hindi": [
+                  "इसे उगाने में बहुत मेहनत, पानी और ज़मीन लगती है",
+                  "खाना अपने आप उगता है",
+                  "खाना मुफ़्त है",
+                  "फेंकना मज़ेदार है"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Farmers work for months to grow food. Wasting it also wastes water and land.",
+                "Telugu": "రైతులు నెలల తరబడి కష్టపడి ఆహారం పండిస్తారు. వృథా చేస్తే నీరు, భూమి కూడా వృథా.",
+                "Hindi": "किसान महीनों मेहनत करके खाना उगाते हैं। उसे बर्बाद करना पानी और ज़मीन भी बर्बाद करना है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-cleanliness",
+      "icon": "🧼",
+      "title": {
+        "English": "Health and Cleanliness",
+        "Telugu": "ఆరోగ్యం మరియు పరిశుభ్రత",
+        "Hindi": "स्वास्थ्य और स्वच्छता"
+      },
+      "description": {
+        "English": "Learn healthy everyday habits.",
+        "Telugu": "రోజువారీ ఆరోగ్యకరమైన అలవాట్ల గురించి తెలుసుకుందాం.",
+        "Hindi": "स्वस्थ दैनिक आदतों के बारे में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "healthy-habits",
+          "visual": "🧽",
+          "title": {
+            "English": "Healthy Everyday Habits",
+            "Telugu": "రోజువారీ ఆరోగ్యకరమైన అలవాట్లు",
+            "Hindi": "स्वस्थ दैनिक आदतें"
+          },
+          "image": "./images/lessons/health.png",
+          "explanation": {
+            "English": "Healthy habits include washing hands, drinking safe water, eating nutritious foods, keeping surroundings clean and getting enough rest.",
+            "Telugu": "చేతులు కడుక్కోవడం, సురక్షితమైన నీరు తాగడం, పోషక ఆహారం తినడం మరియు విశ్రాంతి తీసుకోవడం ఆరోగ్యకరమైన అలవాట్లు.",
+            "Hindi": "हाथ धोना, सुरक्षित पानी पीना, पौष्टिक भोजन खाना और पर्याप्त आराम करना स्वस्थ आदतें हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Wash hands before eating.",
+              "Drink safe water.",
+              "Eat nutritious foods.",
+              "Keep surroundings clean.",
+              "Get enough rest."
+            ],
+            "Telugu": [
+              "తినే ముందు చేతులు కడుక్కోవాలి.",
+              "సురక్షిత నీరు తాగాలి.",
+              "పోషక ఆహారం తినాలి.",
+              "పరిసరాలను శుభ్రంగా ఉంచాలి.",
+              "సరైన విశ్రాంతి తీసుకోవాలి."
+            ],
+            "Hindi": [
+              "खाने से पहले हाथ धोएँ।",
+              "सुरक्षित पानी पिएँ।",
+              "पौष्टिक भोजन खाएँ।",
+              "आसपास सफाई रखें।",
+              "पर्याप्त आराम करें।"
+            ]
+          },
+          "activity": {
+            "English": "Create a healthy habits checklist.",
+            "Telugu": "ఆరోగ్యకరమైన అలవాట్ల జాబితా తయారు చేయండి.",
+            "Hindi": "स्वस्थ आदतों की सूची बनाएँ।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "When should we wash our hands?",
+                "Telugu": "మనం చేతులు ఎప్పుడు కడుక్కోవాలి?",
+                "Hindi": "हमें हाथ कब धोने चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Only once a week",
+                  "Before eating and after using the toilet",
+                  "Only when they look dirty",
+                  "Never"
+                ],
+                "Telugu": [
+                  "వారానికి ఒకసారి మాత్రమే",
+                  "తినే ముందు, మరుగుదొడ్డి వాడిన తర్వాత",
+                  "మురికిగా కనిపించినప్పుడే",
+                  "ఎప్పుడూ వద్దు"
+                ],
+                "Hindi": [
+                  "सिर्फ़ हफ़्ते में एक बार",
+                  "खाने से पहले और शौचालय के बाद",
+                  "सिर्फ़ गंदे दिखने पर",
+                  "कभी नहीं"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Germs cannot be seen. Washing with soap before eating and after the toilet stops illness.",
+                "Telugu": "క్రిములు కనిపించవు. తినే ముందు, మరుగుదొడ్డి తర్వాత సబ్బుతో కడిగితే రోగాలు రావు.",
+                "Hindi": "कीटाणु दिखते नहीं। खाने से पहले और शौचालय के बाद साबुन से हाथ धोने से बीमारी रुकती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "How long should we scrub our hands with soap?",
+                "Telugu": "సబ్బుతో చేతులు ఎంతసేపు రుద్దుకోవాలి?",
+                "Hindi": "साबुन से हाथ कितनी देर रगड़ने चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "1 second",
+                  "At least 20 seconds",
+                  "5 minutes",
+                  "Not at all"
+                ],
+                "Telugu": [
+                  "1 సెకను",
+                  "కనీసం 20 సెకన్లు",
+                  "5 నిమిషాలు",
+                  "అసలు వద్దు"
+                ],
+                "Hindi": [
+                  "1 सेकंड",
+                  "कम से कम 20 सेकंड",
+                  "5 मिनट",
+                  "बिल्कुल नहीं"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Scrubbing for about 20 seconds removes most germs.",
+                "Telugu": "సుమారు 20 సెకన్లు రుద్దితే చాలా క్రిములు తొలగిపోతాయి.",
+                "Hindi": "लगभग 20 सेकंड रगड़ने से ज़्यादातर कीटाणु हट जाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which water is safe to drink?",
+                "Telugu": "ఏ నీరు తాగడానికి సురక్షితం?",
+                "Hindi": "कौन सा पानी पीने के लिए सुरक्षित है?"
+              },
+              "options": {
+                "English": [
+                  "Water from a dirty pond",
+                  "Boiled or filtered water",
+                  "Water from a drain",
+                  "Water left open for days"
+                ],
+                "Telugu": [
+                  "మురికి చెరువు నీరు",
+                  "మరిగించిన లేదా వడపోసిన నీరు",
+                  "కాలువ నీరు",
+                  "రోజుల తరబడి తెరిచి ఉంచిన నీరు"
+                ],
+                "Hindi": [
+                  "गंदे तालाब का पानी",
+                  "उबला या छना पानी",
+                  "नाली का पानी",
+                  "कई दिनों से खुला पानी"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Boiling and filtering remove germs and dirt from water.",
+                "Telugu": "మరిగించడం, వడపోయడం నీటి నుంచి క్రిములను, మురికిని తొలగిస్తాయి.",
+                "Hindi": "उबालने और छानने से पानी के कीटाणु और गंदगी दूर होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Children need about 9 to 11 hours of sleep every night.",
+                "Telugu": "నిజమా అబద్ధమా: పిల్లలకు ప్రతి రాత్రి సుమారు 9 నుంచి 11 గంటల నిద్ర అవసరం.",
+                "Hindi": "सही या गलत: बच्चों को हर रात लगभग 9 से 11 घंटे की नींद चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Enough sleep helps the body grow, rest and fight illness, and helps us learn.",
+                "Telugu": "తగినంత నిద్ర శరీరం పెరగడానికి, విశ్రాంతికి, రోగాలతో పోరాడడానికి, నేర్చుకోవడానికి సహాయపడుతుంది.",
+                "Hindi": "पूरी नींद शरीर को बढ़ने, आराम करने, बीमारी से लड़ने और सीखने में मदद करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which meal is the healthiest?",
+                "Telugu": "వీటిలో అత్యంత ఆరోగ్యకరమైన భోజనం ఏది?",
+                "Hindi": "इनमें से सबसे स्वस्थ भोजन कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Chips and soft drink",
+                  "Only sweets",
+                  "Rice, dal, vegetables and curd",
+                  "Only fried snacks"
+                ],
+                "Telugu": [
+                  "చిప్స్, సాఫ్ట్ డ్రింక్",
+                  "మిఠాయిలు మాత్రమే",
+                  "అన్నం, పప్పు, కూరగాయలు, పెరుగు",
+                  "వేయించిన తిండి మాత్రమే"
+                ],
+                "Hindi": [
+                  "चिप्स और कोल्ड ड्रिंक",
+                  "सिर्फ़ मिठाई",
+                  "चावल, दाल, सब्ज़ी और दही",
+                  "सिर्फ़ तली चीज़ें"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A balanced meal has grains, pulses, vegetables and milk products.",
+                "Telugu": "సమతుల ఆహారంలో ధాన్యాలు, పప్పులు, కూరగాయలు, పాల పదార్థాలు ఉంటాయి.",
+                "Hindi": "संतुलित भोजन में अनाज, दालें, सब्ज़ियाँ और दूध से बनी चीज़ें होती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why should we cut our nails regularly?",
+                "Telugu": "గోళ్లను క్రమం తప్పకుండా ఎందుకు కత్తిరించుకోవాలి?",
+                "Hindi": "नाखून नियमित रूप से क्यों काटने चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "To look taller",
+                  "To make hands heavy",
+                  "Germs and dirt collect under long nails",
+                  "Nails stop growing then"
+                ],
+                "Telugu": [
+                  "పొడవుగా కనిపించడానికి",
+                  "చేతులు బరువెక్కడానికి",
+                  "పొడవాటి గోళ్ల కింద క్రిములు, మురికి చేరతాయి",
+                  "అప్పుడు గోళ్లు పెరగడం ఆగిపోతుంది"
+                ],
+                "Hindi": [
+                  "लंबा दिखने के लिए",
+                  "हाथ भारी करने के लिए",
+                  "लंबे नाखूनों के नीचे कीटाणु और गंदगी जमा होती है",
+                  "फिर नाखून बढ़ना बंद हो जाते हैं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Dirt under nails can carry germs into our mouth when we eat.",
+                "Telugu": "గోళ్ల కింద మురికి తినేటప్పుడు క్రిములను నోటిలోకి చేరుస్తుంది.",
+                "Hindi": "नाखूनों के नीचे की गंदगी खाते समय कीटाणु मुँह तक पहुँचाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which activity keeps our body fit?",
+                "Telugu": "మన శరీరాన్ని దృఢంగా ఉంచే చర్య ఏది?",
+                "Hindi": "कौन सी गतिविधि शरीर को फिट रखती है?"
+              },
+              "options": {
+                "English": [
+                  "Playing outdoors and exercising",
+                  "Watching TV all day",
+                  "Sleeping all day",
+                  "Eating junk food"
+                ],
+                "Telugu": [
+                  "ఆరుబయట ఆడటం, వ్యాయామం",
+                  "రోజంతా టీవీ చూడటం",
+                  "రోజంతా నిద్రపోవడం",
+                  "జంక్ ఫుడ్ తినడం"
+                ],
+                "Hindi": [
+                  "बाहर खेलना और व्यायाम",
+                  "पूरे दिन टीवी देखना",
+                  "पूरे दिन सोना",
+                  "जंक फ़ूड खाना"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Exercise makes muscles, bones, heart and lungs strong.",
+                "Telugu": "వ్యాయామం కండరాలు, ఎముకలు, గుండె, ఊపిరితిత్తులను బలంగా చేస్తుంది.",
+                "Hindi": "व्यायाम से मांसपेशियाँ, हड्डियाँ, दिल और फेफड़े मज़बूत होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should cover our mouth when we cough or sneeze.",
+                "Telugu": "నిజమా అబద్ధమా: దగ్గినప్పుడు, తుమ్మినప్పుడు నోటిని కప్పుకోవాలి.",
+                "Hindi": "सही या गलत: खाँसते या छींकते समय मुँह ढकना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Covering the mouth with a tissue or elbow stops germs from spreading to others.",
+                "Telugu": "టిష్యూ లేదా మోచేతితో నోటిని కప్పితే క్రిములు ఇతరులకు వ్యాపించవు.",
+                "Hindi": "टिश्यू या कोहनी से मुँह ढकने से कीटाणु दूसरों तक नहीं फैलते।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why should we cover food?",
+                "Telugu": "ఆహారాన్ని ఎందుకు కప్పి ఉంచాలి?",
+                "Hindi": "खाना ढककर क्यों रखना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "To make it cold",
+                  "To keep flies and dust away",
+                  "To make it grow",
+                  "To change its taste"
+                ],
+                "Telugu": [
+                  "చల్లగా చేయడానికి",
+                  "ఈగలు, దుమ్ము దూరంగా ఉంచడానికి",
+                  "పెరగడానికి",
+                  "రుచి మార్చడానికి"
+                ],
+                "Hindi": [
+                  "ठंडा करने के लिए",
+                  "मक्खियाँ और धूल दूर रखने के लिए",
+                  "बढ़ाने के लिए",
+                  "स्वाद बदलने के लिए"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Flies carry germs from garbage to uncovered food and cause illness.",
+                "Telugu": "ఈగలు చెత్త నుంచి క్రిములను కప్పని ఆహారంపైకి తెచ్చి రోగాలు కలిగిస్తాయి.",
+                "Hindi": "मक्खियाँ कचरे से कीटाणु खुले खाने पर लाकर बीमारी फैलाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "How do vaccines help us?",
+                "Telugu": "టీకాలు మనకు ఎలా సహాయపడతాయి?",
+                "Hindi": "टीके हमारी कैसे मदद करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "They make us taller",
+                  "They are sweets",
+                  "They change our hair",
+                  "They protect us from some diseases"
+                ],
+                "Telugu": [
+                  "మనల్ని పొడవు చేస్తాయి",
+                  "అవి మిఠాయిలు",
+                  "జుట్టును మారుస్తాయి",
+                  "కొన్ని వ్యాధుల నుంచి కాపాడతాయి"
+                ],
+                "Hindi": [
+                  "हमें लंबा करते हैं",
+                  "वे मिठाई हैं",
+                  "बाल बदलते हैं",
+                  "कुछ बीमारियों से बचाते हैं"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Vaccines train the body to fight diseases like polio and measles.",
+                "Telugu": "టీకాలు పోలియో, తట్టు వంటి వ్యాధులతో పోరాడేలా శరీరానికి శిక్షణ ఇస్తాయి.",
+                "Hindi": "टीके शरीर को पोलियो और खसरा जैसी बीमारियों से लड़ना सिखाते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "waste-environment",
+      "icon": "♻️",
+      "title": {
+        "English": "Waste and Our Environment",
+        "Telugu": "వ్యర్థాలు మరియు మన పర్యావరణం",
+        "Hindi": "कचरा और हमारा पर्यावरण"
+      },
+      "description": {
+        "English": "Learn about reduce, reuse and recycle.",
+        "Telugu": "తగ్గించడం, మళ్లీ ఉపయోగించడం మరియు రీసైకిల్ గురించి తెలుసుకుందాం.",
+        "Hindi": "कम करना, पुनः उपयोग और पुनर्चक्रण जानें।"
+      },
+      "lessons": [
+        {
+          "id": "three-rs",
+          "visual": "♻️",
+          "title": {
+            "English": "Reduce, Reuse and Recycle",
+            "Telugu": "తగ్గించు, మళ్లీ ఉపయోగించు, రీసైకిల్ చేయు",
+            "Hindi": "कम करें, पुनः उपयोग करें और पुनर्चक्रण करें"
+          },
+          "image": "./images/lessons/recycling.png",
+          "explanation": {
+            "English": "We can reduce waste by following three useful ideas: reduce, reuse and recycle. These habits help protect our surroundings.",
+            "Telugu": "వ్యర్థాలను తగ్గించడానికి తగ్గించడం, మళ్లీ ఉపయోగించడం మరియు రీసైకిల్ చేయడం అనే మూడు మార్గాలను పాటించవచ్చు.",
+            "Hindi": "कचरा कम करने के लिए कम करना, पुनः उपयोग और पुनर्चक्रण जैसे तरीकों का पालन कर सकते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Reduce unnecessary waste.",
+              "Reuse suitable items.",
+              "Recycle materials.",
+              "Do not litter.",
+              "Keep the environment clean."
+            ],
+            "Telugu": [
+              "అనవసర వ్యర్థాలను తగ్గించాలి.",
+              "వస్తువులను మళ్లీ ఉపయోగించాలి.",
+              "పదార్థాలను రీసైకిల్ చేయాలి.",
+              "చెత్తను వేయకూడదు.",
+              "పర్యావరణాన్ని శుభ్రంగా ఉంచాలి."
+            ],
+            "Hindi": [
+              "अनावश्यक कचरा कम करें।",
+              "वस्तुओं का पुनः उपयोग करें।",
+              "सामग्री का पुनर्चक्रण करें।",
+              "कचरा न फैलाएँ।",
+              "पर्यावरण साफ रखें।"
+            ]
+          },
+          "activity": {
+            "English": "Choose three objects and decide if they can be reused or recycled.",
+            "Telugu": "మూడు వస్తువులను ఎంచుకుని అవి మళ్లీ ఉపయోగించవచ్చా లేదా రీసైకిల్ చేయవచ్చా చూడండి.",
+            "Hindi": "तीन वस्तुएँ चुनें और तय करें कि उन्हें पुनः उपयोग या पुनर्चक्रण किया जा सकता है।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "What are the three Rs?",
+                "Telugu": "మూడు R లు ఏవి?",
+                "Hindi": "तीन R कौन से हैं?"
+              },
+              "options": {
+                "English": [
+                  "Read, Run, Rest",
+                  "Reduce, Reuse, Recycle",
+                  "Rain, River, Rock",
+                  "Red, Round, Rough"
+                ],
+                "Telugu": [
+                  "చదవడం, పరుగు, విశ్రాంతి",
+                  "తగ్గించు, మళ్లీ వాడు, రీసైకిల్",
+                  "వర్షం, నది, రాయి",
+                  "ఎరుపు, గుండ్రం, గరుకు"
+                ],
+                "Hindi": [
+                  "पढ़ना, दौड़ना, आराम",
+                  "कम करें, दोबारा उपयोग करें, पुनर्चक्रण",
+                  "बारिश, नदी, चट्टान",
+                  "लाल, गोल, खुरदरा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Reduce, Reuse and Recycle are three ways to make less waste.",
+                "Telugu": "తగ్గించు, మళ్లీ వాడు, రీసైకిల్ చేయి అనేవి వ్యర్థాలు తగ్గించే మూడు మార్గాలు.",
+                "Hindi": "कम करें, दोबारा उपयोग करें और पुनर्चक्रण कचरा घटाने के तीन तरीके हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Carrying a steel water bottle instead of buying plastic bottles is...",
+                "Telugu": "ప్లాస్టిక్ సీసాలు కొనకుండా ఉక్కు సీసా వెంట తీసుకెళ్లడం...",
+                "Hindi": "प्लास्टिक बोतलें खरीदने की बजाय स्टील की बोतल रखना..."
+              },
+              "options": {
+                "English": [
+                  "Reducing",
+                  "Burning",
+                  "Littering",
+                  "Wasting"
+                ],
+                "Telugu": [
+                  "తగ్గించడం",
+                  "కాల్చడం",
+                  "చెత్త వేయడం",
+                  "వృథా చేయడం"
+                ],
+                "Hindi": [
+                  "कम करना",
+                  "जलाना",
+                  "कूड़ा फैलाना",
+                  "बर्बाद करना"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Using one bottle again and again reduces plastic waste.",
+                "Telugu": "ఒకే సీసాను మళ్లీ మళ్లీ వాడితే ప్లాస్టిక్ వ్యర్థాలు తగ్గుతాయి.",
+                "Hindi": "एक ही बोतल बार-बार इस्तेमाल करने से प्लास्टिक कचरा घटता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Turning old plastic bottles into new objects in a factory is...",
+                "Telugu": "కర్మాగారంలో పాత ప్లాస్టిక్ సీసాలను కొత్త వస్తువులుగా మార్చడం...",
+                "Hindi": "कारखाने में पुरानी प्लास्टिक बोतलों से नई चीज़ें बनाना..."
+              },
+              "options": {
+                "English": [
+                  "Reducing",
+                  "Reusing",
+                  "Recycling",
+                  "Dumping"
+                ],
+                "Telugu": [
+                  "తగ్గించడం",
+                  "మళ్లీ వాడటం",
+                  "రీసైక్లింగ్",
+                  "పారబోయడం"
+                ],
+                "Hindi": [
+                  "कम करना",
+                  "दोबारा उपयोग",
+                  "पुनर्चक्रण",
+                  "फेंकना"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Recycling breaks down used material and makes new things from it.",
+                "Telugu": "రీసైక్లింగ్ వాడిన పదార్థాన్ని విడగొట్టి దానితో కొత్త వస్తువులు తయారు చేస్తుంది.",
+                "Hindi": "पुनर्चक्रण में पुरानी सामग्री को तोड़कर उससे नई चीज़ें बनाई जाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Writing on both sides of paper helps save trees.",
+                "Telugu": "నిజమా అబద్ధమా: కాగితానికి రెండు వైపులా రాయడం చెట్లను కాపాడుతుంది.",
+                "Hindi": "सही या गलत: कागज़ के दोनों ओर लिखने से पेड़ बचते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Using both sides halves the paper we need, so fewer trees are cut.",
+                "Telugu": "రెండు వైపులా వాడితే కాగితం సగం సరిపోతుంది, దాంతో తక్కువ చెట్లు నరుకుతారు.",
+                "Hindi": "दोनों ओर लिखने से आधा कागज़ लगता है, इसलिए कम पेड़ कटते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Kitchen waste like peels can be turned into...",
+                "Telugu": "తొక్కల వంటి వంటింటి వ్యర్థాలను దేనిగా మార్చవచ్చు?",
+                "Hindi": "छिलकों जैसा रसोई का कचरा किसमें बदला जा सकता है?"
+              },
+              "options": {
+                "English": [
+                  "Plastic",
+                  "Glass",
+                  "Metal",
+                  "Compost"
+                ],
+                "Telugu": [
+                  "ప్లాస్టిక్",
+                  "గాజు",
+                  "లోహం",
+                  "కంపోస్టు"
+                ],
+                "Hindi": [
+                  "प्लास्टिक",
+                  "काँच",
+                  "धातु",
+                  "खाद"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Wet waste rots in a pit and becomes compost, a natural fertiliser.",
+                "Telugu": "తడి చెత్త గుంతలో కుళ్లి సహజ ఎరువైన కంపోస్టుగా మారుతుంది.",
+                "Hindi": "गीला कचरा गड्ढे में सड़कर प्राकृतिक खाद बन जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is an example of reusing?",
+                "Telugu": "వీటిలో మళ్లీ వాడటానికి ఉదాహరణ ఏది?",
+                "Hindi": "इनमें से दोबारा उपयोग का उदाहरण कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Throwing away a jam jar",
+                  "Using a jam jar to store spices",
+                  "Burning a jar",
+                  "Breaking a jar"
+                ],
+                "Telugu": [
+                  "జామ్ సీసా పారేయడం",
+                  "జామ్ సీసాలో మసాలాలు నిల్వ చేయడం",
+                  "సీసా కాల్చడం",
+                  "సీసా పగలగొట్టడం"
+                ],
+                "Hindi": [
+                  "जैम की शीशी फेंकना",
+                  "जैम की शीशी में मसाले रखना",
+                  "शीशी जलाना",
+                  "शीशी तोड़ना"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Reusing means giving an old item a new use without changing it in a factory.",
+                "Telugu": "మళ్లీ వాడటం అంటే పాత వస్తువును కర్మాగారంలో మార్చకుండానే కొత్త పనికి వాడటం.",
+                "Hindi": "दोबारा उपयोग का मतलब पुरानी चीज़ को बिना कारखाने में बदले नए काम में लेना।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which colour bin is often used for wet waste in India?",
+                "Telugu": "భారతదేశంలో తడి చెత్తకు సాధారణంగా ఏ రంగు బుట్ట వాడతారు?",
+                "Hindi": "भारत में गीले कचरे के लिए अक्सर किस रंग का डिब्बा होता है?"
+              },
+              "options": {
+                "English": [
+                  "Green",
+                  "Black",
+                  "Purple",
+                  "Pink"
+                ],
+                "Telugu": [
+                  "ఆకుపచ్చ",
+                  "నలుపు",
+                  "ఊదా",
+                  "గులాబీ"
+                ],
+                "Hindi": [
+                  "हरा",
+                  "काला",
+                  "बैंगनी",
+                  "गुलाबी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Green bins are for wet waste and blue bins for dry waste in many cities.",
+                "Telugu": "చాలా నగరాల్లో ఆకుపచ్చ బుట్టలు తడి చెత్తకు, నీలం బుట్టలు పొడి చెత్తకు.",
+                "Hindi": "कई शहरों में हरे डिब्बे गीले और नीले डिब्बे सूखे कचरे के लिए होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Plastic thrown on land can reach the sea and harm sea animals.",
+                "Telugu": "నిజమా అబద్ధమా: నేలపై పడేసిన ప్లాస్టిక్ సముద్రానికి చేరి సముద్ర జీవులకు హాని చేస్తుంది.",
+                "Hindi": "सही या गलत: ज़मीन पर फेंका प्लास्टिक समुद्र तक पहुँचकर समुद्री जीवों को नुकसान पहुँचा सकता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Rain and rivers carry plastic to the sea, where turtles and fish may swallow it.",
+                "Telugu": "వర్షం, నదులు ప్లాస్టిక్‌ను సముద్రానికి తీసుకెళ్తాయి, అక్కడ తాబేళ్లు, చేపలు దానిని మింగవచ్చు.",
+                "Hindi": "बारिश और नदियाँ प्लास्टिक समुद्र तक ले जाती हैं, जहाँ कछुए और मछलियाँ उसे निगल सकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of the three Rs is the best to do first?",
+                "Telugu": "మూడు R లలో మొదట చేయాల్సిన ఉత్తమమైనది ఏది?",
+                "Hindi": "तीनों R में सबसे पहले क्या करना सबसे अच्छा है?"
+              },
+              "options": {
+                "English": [
+                  "Recycle",
+                  "Throw",
+                  "Reduce",
+                  "Burn"
+                ],
+                "Telugu": [
+                  "రీసైకిల్",
+                  "పారేయడం",
+                  "తగ్గించడం",
+                  "కాల్చడం"
+                ],
+                "Hindi": [
+                  "पुनर्चक्रण",
+                  "फेंकना",
+                  "कम करना",
+                  "जलाना"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Reducing comes first: waste that is never made does not need to be reused or recycled.",
+                "Telugu": "తగ్గించడం మొదట: తయారే కాని వ్యర్థాన్ని మళ్లీ వాడాల్సిన, రీసైకిల్ చేయాల్సిన అవసరం లేదు.",
+                "Hindi": "कम करना सबसे पहले: जो कचरा बना ही नहीं, उसे दोबारा उपयोग या पुनर्चक्रण की ज़रूरत नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Old clothes can be reused as...",
+                "Telugu": "పాత బట్టలను దేనిగా మళ్లీ వాడవచ్చు?",
+                "Hindi": "पुराने कपड़ों को किस रूप में दोबारा इस्तेमाल कर सकते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Fuel for cars",
+                  "Food",
+                  "Drinking water",
+                  "Cleaning cloths or bags"
+                ],
+                "Telugu": [
+                  "కార్లకు ఇంధనంగా",
+                  "ఆహారంగా",
+                  "తాగునీరుగా",
+                  "తుడిచే గుడ్డలు లేదా సంచులుగా"
+                ],
+                "Hindi": [
+                  "गाड़ियों का ईंधन",
+                  "खाना",
+                  "पीने का पानी",
+                  "सफ़ाई के कपड़े या थैले"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Old clothes can become dusters, bags or quilts instead of waste.",
+                "Telugu": "పాత బట్టలు చెత్తగా కాకుండా తుడిచే గుడ్డలు, సంచులు, బొంతలుగా మారవచ్చు.",
+                "Hindi": "पुराने कपड़े कचरा बनने के बजाय झाड़न, थैले या रज़ाई बन सकते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bones-muscles",
+      "icon": "🦴",
+      "title": {
+        "English": "Bones and Muscles",
+        "Telugu": "ఎముకలు, కండరాలు",
+        "Hindi": "हड्डियाँ और मांसपेशियाँ"
+      },
+      "description": {
+        "English": "How our skeleton, joints and muscles help us move.",
+        "Telugu": "అస్థిపంజరం, కీళ్లు, కండరాలు మనం కదలడానికి ఎలా సహాయపడతాయి.",
+        "Hindi": "कंकाल, जोड़ और मांसपेशियाँ हमें चलने में कैसे मदद करते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "bones-muscles-lesson",
+          "visual": "💪",
+          "title": {
+            "English": "Our Skeleton and Movement",
+            "Telugu": "మన అస్థిపంజరం, కదలిక",
+            "Hindi": "हमारा कंकाल और गति"
+          },
+          "image": "./images/lessons/joints-and-movement.svg",
+          "explanation": {
+            "English": "All the bones in our body together form the skeleton. An adult has 206 bones. The skeleton gives the body shape and protects soft parts: the skull protects the brain and the ribs protect the heart and lungs. Places where bones meet are joints, such as the knee and elbow. Muscles pull on bones to move them. Milk, exercise and sunlight keep bones strong.",
+            "Telugu": "మన శరీరంలోని ఎముకలన్నీ కలిసి అస్థిపంజరం ఏర్పడుతుంది. పెద్దవారిలో 206 ఎముకలు ఉంటాయి. అస్థిపంజరం శరీరానికి ఆకారం ఇచ్చి మెత్తని భాగాలను కాపాడుతుంది: పుర్రె మెదడును, పక్కటెముకలు గుండె, ఊపిరితిత్తులను కాపాడతాయి. ఎముకలు కలిసే చోట్లు కీళ్లు, మోకాలు, మోచేయి వంటివి. కండరాలు ఎముకలను లాగి కదిలిస్తాయి. పాలు, వ్యాయామం, సూర్యరశ్మి ఎముకలను బలంగా ఉంచుతాయి.",
+            "Hindi": "शरीर की सारी हड्डियाँ मिलकर कंकाल बनाती हैं। एक वयस्क में 206 हड्डियाँ होती हैं। कंकाल शरीर को आकार देता है और नरम अंगों की रक्षा करता है: खोपड़ी दिमाग की और पसलियाँ दिल व फेफड़ों की रक्षा करती हैं। जहाँ हड्डियाँ मिलती हैं, वे जोड़ हैं, जैसे घुटना और कोहनी। मांसपेशियाँ हड्डियों को खींचकर हिलाती हैं। दूध, व्यायाम और धूप हड्डियों को मज़बूत रखते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "The skeleton gives shape, support and protection.",
+              "An adult human has 206 bones.",
+              "The skull protects the brain; ribs protect heart and lungs.",
+              "Joints let bones move; muscles pull them.",
+              "Calcium, exercise and sunlight keep bones strong."
+            ],
+            "Telugu": [
+              "అస్థిపంజరం ఆకారం, ఆధారం, రక్షణ ఇస్తుంది.",
+              "పెద్ద మనిషిలో 206 ఎముకలు ఉంటాయి.",
+              "పుర్రె మెదడును, పక్కటెముకలు గుండె, ఊపిరితిత్తులను కాపాడతాయి.",
+              "కీళ్లు ఎముకలు కదలడానికి వీలిస్తాయి; కండరాలు వాటిని లాగుతాయి.",
+              "కాల్షియం, వ్యాయామం, సూర్యరశ్మి ఎముకలను బలంగా ఉంచుతాయి."
+            ],
+            "Hindi": [
+              "कंकाल आकार, सहारा और सुरक्षा देता है।",
+              "वयस्क मनुष्य में 206 हड्डियाँ होती हैं।",
+              "खोपड़ी दिमाग की, पसलियाँ दिल और फेफड़ों की रक्षा करती हैं।",
+              "जोड़ हड्डियों को हिलने देते हैं; मांसपेशियाँ उन्हें खींचती हैं।",
+              "कैल्शियम, व्यायाम और धूप हड्डियाँ मज़बूत रखते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Bend and straighten your arm while holding your upper arm. Feel the muscle get short and fat, then long and thin.",
+            "Telugu": "పై చేతిని పట్టుకొని మోచేయి వంచి, నిటారుగా చేయండి. కండరం పొట్టిగా లావుగా, తర్వాత పొడవుగా సన్నగా మారడం గమనించండి.",
+            "Hindi": "ऊपरी बाँह पकड़कर हाथ मोड़िए और सीधा कीजिए। मांसपेशी को छोटा-मोटा और फिर लंबा-पतला होते महसूस कीजिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "All the bones of the body together are called the...",
+                "Telugu": "శరీరంలోని ఎముకలన్నీ కలిపి ఏమంటారు?",
+                "Hindi": "शरीर की सभी हड्डियाँ मिलकर क्या कहलाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Muscle",
+                  "Skeleton",
+                  "Skin",
+                  "Stomach"
+                ],
+                "Telugu": [
+                  "కండరం",
+                  "అస్థిపంజరం",
+                  "చర్మం",
+                  "జీర్ణాశయం"
+                ],
+                "Hindi": [
+                  "मांसपेशी",
+                  "कंकाल",
+                  "त्वचा",
+                  "आमाशय"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The skeleton is the framework of bones that supports the body.",
+                "Telugu": "అస్థిపంజరం శరీరానికి ఆధారమిచ్చే ఎముకల చట్రం.",
+                "Hindi": "कंकाल हड्डियों का ढाँचा है जो शरीर को सहारा देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "How many bones does an adult human have?",
+                "Telugu": "పెద్ద మనిషిలో ఎన్ని ఎముకలు ఉంటాయి?",
+                "Hindi": "वयस्क मनुष्य में कितनी हड्डियाँ होती हैं?"
+              },
+              "options": {
+                "English": [
+                  "26",
+                  "106",
+                  "206",
+                  "1000"
+                ],
+                "Telugu": [
+                  "26",
+                  "106",
+                  "206",
+                  "1000"
+                ],
+                "Hindi": [
+                  "26",
+                  "106",
+                  "206",
+                  "1000"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "An adult has 206 bones. Babies have more, and some join together as they grow.",
+                "Telugu": "పెద్దవారిలో 206 ఎముకలు ఉంటాయి. పసిపిల్లల్లో ఎక్కువ ఉండి పెరిగేకొద్దీ కొన్ని కలిసిపోతాయి.",
+                "Hindi": "वयस्क में 206 हड्डियाँ होती हैं। शिशुओं में ज़्यादा होती हैं जो बढ़ते हुए जुड़ जाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which bones protect the brain?",
+                "Telugu": "మెదడును కాపాడే ఎముకలు ఏవి?",
+                "Hindi": "कौन सी हड्डियाँ दिमाग की रक्षा करती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Skull",
+                  "Ribs",
+                  "Leg bones",
+                  "Finger bones"
+                ],
+                "Telugu": [
+                  "పుర్రె",
+                  "పక్కటెముకలు",
+                  "కాలి ఎముకలు",
+                  "వేలి ఎముకలు"
+                ],
+                "Hindi": [
+                  "खोपड़ी",
+                  "पसलियाँ",
+                  "पैर की हड्डियाँ",
+                  "उँगलियों की हड्डियाँ"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The skull is a hard bony box around the brain.",
+                "Telugu": "పుర్రె మెదడు చుట్టూ ఉండే గట్టి ఎముకల పెట్టె.",
+                "Hindi": "खोपड़ी दिमाग के चारों ओर हड्डियों का कठोर डिब्बा है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The ribs protect the...",
+                "Telugu": "పక్కటెముకలు దేనిని కాపాడతాయి?",
+                "Hindi": "पसलियाँ किसकी रक्षा करती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Eyes",
+                  "Feet",
+                  "Teeth",
+                  "Heart and lungs"
+                ],
+                "Telugu": [
+                  "కళ్లు",
+                  "పాదాలు",
+                  "దంతాలు",
+                  "గుండె, ఊపిరితిత్తులు"
+                ],
+                "Hindi": [
+                  "आँखें",
+                  "पैर",
+                  "दाँत",
+                  "दिल और फेफड़े"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The ribs form a cage in the chest around the heart and lungs.",
+                "Telugu": "పక్కటెముకలు ఛాతీలో గుండె, ఊపిరితిత్తుల చుట్టూ పంజరంలా ఉంటాయి.",
+                "Hindi": "पसलियाँ छाती में दिल और फेफड़ों के चारों ओर पिंजरा बनाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The place where two bones meet is called a joint.",
+                "Telugu": "నిజమా అబద్ధమా: రెండు ఎముకలు కలిసే చోటును కీలు అంటారు.",
+                "Hindi": "सही या गलत: जहाँ दो हड्डियाँ मिलती हैं, उसे जोड़ कहते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Joints such as the knee, elbow and shoulder let our body bend and turn.",
+                "Telugu": "మోకాలు, మోచేయి, భుజం వంటి కీళ్లు శరీరం వంగడానికి, తిరగడానికి వీలిస్తాయి.",
+                "Hindi": "घुटना, कोहनी और कंधे जैसे जोड़ शरीर को मुड़ने और घूमने देते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What moves our bones?",
+                "Telugu": "మన ఎముకలను ఏది కదిలిస్తుంది?",
+                "Hindi": "हमारी हड्डियों को कौन हिलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Hair",
+                  "Muscles",
+                  "Nails",
+                  "Blood"
+                ],
+                "Telugu": [
+                  "జుట్టు",
+                  "కండరాలు",
+                  "గోళ్లు",
+                  "రక్తం"
+                ],
+                "Hindi": [
+                  "बाल",
+                  "मांसपेशियाँ",
+                  "नाखून",
+                  "खून"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Muscles are attached to bones and pull them when they contract.",
+                "Telugu": "కండరాలు ఎముకలకు అతుక్కొని, సంకోచించినప్పుడు వాటిని లాగుతాయి.",
+                "Hindi": "मांसपेशियाँ हड्डियों से जुड़ी होती हैं और सिकुड़ने पर उन्हें खींचती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which food helps make bones strong?",
+                "Telugu": "ఎముకలను బలంగా చేయడానికి సహాయపడే ఆహారం ఏది?",
+                "Hindi": "हड्डियाँ मज़बूत करने में कौन सा भोजन मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Soft drinks",
+                  "Chips",
+                  "Milk and curd",
+                  "Candy"
+                ],
+                "Telugu": [
+                  "సాఫ్ట్ డ్రింక్స్",
+                  "చిప్స్",
+                  "పాలు, పెరుగు",
+                  "మిఠాయి"
+                ],
+                "Hindi": [
+                  "कोल्ड ड्रिंक",
+                  "चिप्स",
+                  "दूध और दही",
+                  "टॉफ़ी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Milk and curd have calcium, which bones need to stay strong.",
+                "Telugu": "పాలు, పెరుగులో ఎముకలకు అవసరమైన కాల్షియం ఉంటుంది.",
+                "Hindi": "दूध और दही में कैल्शियम होता है जो हड्डियों के लिए ज़रूरी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The knee joint moves like a...",
+                "Telugu": "మోకాలి కీలు ఎలా కదులుతుంది?",
+                "Hindi": "घुटने का जोड़ किसकी तरह चलता है?"
+              },
+              "options": {
+                "English": [
+                  "Door hinge, back and forth",
+                  "Ball turning all around",
+                  "Fixed stone",
+                  "Spinning top"
+                ],
+                "Telugu": [
+                  "తలుపు బందులా ముందుకు వెనక్కు",
+                  "అన్ని వైపులా తిరిగే బంతిలా",
+                  "కదలని రాయిలా",
+                  "తిరిగే బొంగరంలా"
+                ],
+                "Hindi": [
+                  "दरवाज़े के कब्ज़े की तरह आगे-पीछे",
+                  "चारों ओर घूमती गेंद की तरह",
+                  "स्थिर पत्थर की तरह",
+                  "घूमते लट्टू की तरह"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The knee is a hinge joint: it bends in one direction only.",
+                "Telugu": "మోకాలు బందు కీలు: ఒకే దిశలో వంగుతుంది.",
+                "Hindi": "घुटना कब्ज़ा जोड़ है: यह सिर्फ़ एक दिशा में मुड़ता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Sitting with a bent back for long hours is good for our spine.",
+                "Telugu": "నిజమా అబద్ధమా: గంటల తరబడి వంగిన వీపుతో కూర్చోవడం వెన్నెముకకు మంచిది.",
+                "Hindi": "सही या गलत: घंटों झुकी पीठ से बैठना रीढ़ के लिए अच्छा है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Bad posture strains the spine. Sit and stand straight, and take breaks.",
+                "Telugu": "తప్పు భంగిమ వెన్నెముకపై ఒత్తిడి పెంచుతుంది. నిటారుగా కూర్చోండి, నిలబడండి, విరామం తీసుకోండి.",
+                "Hindi": "गलत मुद्रा रीढ़ पर दबाव डालती है। सीधे बैठें-खड़े हों और बीच में आराम लें।"
+              }
+            },
+            {
+              "question": {
+                "English": "The backbone is also called the...",
+                "Telugu": "వెన్నెముకను ఇంకా ఏమని పిలుస్తారు?",
+                "Hindi": "रीढ़ की हड्डी को और क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Skull",
+                  "Rib cage",
+                  "Collar bone",
+                  "Spine"
+                ],
+                "Telugu": [
+                  "పుర్రె",
+                  "పక్కటెముకల పంజరం",
+                  "కాలర్ ఎముక",
+                  "వెన్నుపూస దండం (స్పైన్)"
+                ],
+                "Hindi": [
+                  "खोपड़ी",
+                  "पसली पिंजर",
+                  "हँसली",
+                  "मेरुदंड"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The spine is made of many small bones (vertebrae) and lets us bend and twist.",
+                "Telugu": "వెన్నెముక ఎన్నో చిన్న వెన్నుపూసలతో ఏర్పడి మనం వంగడానికి, తిరగడానికి వీలిస్తుంది.",
+                "Hindi": "मेरुदंड कई छोटी कशेरुकाओं से बना है और हमें झुकने-मुड़ने देता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-preservation",
+      "icon": "🥫",
+      "title": {
+        "English": "Keeping Food Fresh",
+        "Telugu": "ఆహారాన్ని తాజాగా ఉంచడం",
+        "Hindi": "भोजन को ताज़ा रखना"
+      },
+      "description": {
+        "English": "Why food spoils and how we can preserve it.",
+        "Telugu": "ఆహారం ఎందుకు చెడిపోతుంది, దానిని ఎలా నిల్వ చేయవచ్చు.",
+        "Hindi": "भोजन क्यों खराब होता है और उसे कैसे सुरक्षित रखें।"
+      },
+      "lessons": [
+        {
+          "id": "food-preservation-lesson",
+          "visual": "🧂",
+          "title": {
+            "English": "Food Spoilage and Preservation",
+            "Telugu": "ఆహారం చెడిపోవడం, నిల్వ చేయడం",
+            "Hindi": "भोजन का खराब होना और संरक्षण"
+          },
+          "image": "./images/lessons/microorganisms.svg",
+          "explanation": {
+            "English": "Tiny living things called microbes grow on food, especially when it is warm and moist. They make food smell bad, change colour or grow fungus. Spoilt food can make us ill. We preserve food by keeping it cold in a refrigerator, drying it in the sun, adding salt, sugar or oil (as in pickles and jams), boiling it, or sealing it in tins.",
+            "Telugu": "సూక్ష్మజీవులు అనే చిన్న జీవులు ఆహారంపై, ముఖ్యంగా వెచ్చగా, తేమగా ఉన్నప్పుడు పెరుగుతాయి. అవి ఆహారానికి చెడు వాసన, రంగు మార్పు, బూజు కలిగిస్తాయి. చెడిన ఆహారం మనకు జబ్బు చేస్తుంది. ఆహారాన్ని ఫ్రిజ్‌లో చల్లగా ఉంచడం, ఎండలో ఆరబెట్టడం, ఉప్పు, చక్కెర, నూనె కలపడం (ఊరగాయలు, జామ్‌లలా), మరిగించడం, డబ్బాల్లో మూసి ఉంచడం ద్వారా నిల్వ చేస్తాం.",
+            "Hindi": "सूक्ष्मजीव नाम के छोटे जीव भोजन पर, खासकर गर्म और नम होने पर, पनपते हैं। वे भोजन से बदबू, रंग बदलना या फफूँद लगना करते हैं। खराब भोजन हमें बीमार कर सकता है। हम भोजन को फ्रिज में ठंडा रखकर, धूप में सुखाकर, नमक, चीनी या तेल डालकर (अचार और जैम की तरह), उबालकर या डिब्बों में बंद करके सुरक्षित रखते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Microbes spoil food faster in warm, moist places.",
+              "Signs of spoilage: bad smell, sour taste, fungus.",
+              "Cold slows down microbes.",
+              "Drying, salting and sugaring preserve food.",
+              "Never eat food that looks or smells spoilt."
+            ],
+            "Telugu": [
+              "వెచ్చని, తేమ ఉన్న చోట్ల సూక్ష్మజీవులు ఆహారాన్ని త్వరగా పాడుచేస్తాయి.",
+              "చెడిపోయిన గుర్తులు: చెడు వాసన, పుల్లని రుచి, బూజు.",
+              "చల్లదనం సూక్ష్మజీవుల పెరుగుదలను తగ్గిస్తుంది.",
+              "ఆరబెట్టడం, ఉప్పు, చక్కెర కలపడం ఆహారాన్ని నిల్వ చేస్తాయి.",
+              "చెడిపోయినట్లు కనిపించే, వాసన వచ్చే ఆహారం ఎప్పుడూ తినకండి."
+            ],
+            "Hindi": [
+              "गर्म, नम जगहों पर सूक्ष्मजीव भोजन जल्दी खराब करते हैं।",
+              "खराब होने के लक्षण: बदबू, खट्टा स्वाद, फफूँद।",
+              "ठंड सूक्ष्मजीवों को धीमा करती है।",
+              "सुखाना, नमक और चीनी डालना भोजन सुरक्षित रखते हैं।",
+              "खराब दिखने या महकने वाला भोजन कभी न खाएँ।"
+            ]
+          },
+          "activity": {
+            "English": "Keep one slice of bread in a dry box and one in a damp cloth. Look at both after three days.",
+            "Telugu": "ఒక బ్రెడ్ ముక్కను పొడి డబ్బాలో, మరొకటి తడి గుడ్డలో ఉంచండి. మూడు రోజుల తర్వాత రెండింటినీ చూడండి.",
+            "Hindi": "ब्रेड का एक टुकड़ा सूखे डिब्बे में और एक गीले कपड़े में रखिए। तीन दिन बाद दोनों को देखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "What makes food spoil?",
+                "Telugu": "ఆహారం చెడిపోవడానికి కారణం ఏమిటి?",
+                "Hindi": "भोजन खराब होने का कारण क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Sunlight only",
+                  "Microbes growing on it",
+                  "Plates",
+                  "Spoons"
+                ],
+                "Telugu": [
+                  "సూర్యకాంతి మాత్రమే",
+                  "దానిపై పెరిగే సూక్ష్మజీవులు",
+                  "పళ్లేలు",
+                  "చెంచాలు"
+                ],
+                "Hindi": [
+                  "सिर्फ़ धूप",
+                  "उस पर पनपने वाले सूक्ष्मजीव",
+                  "थालियाँ",
+                  "चम्मच"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Bacteria and fungi grow on food and break it down, spoiling it.",
+                "Telugu": "బ్యాక్టీరియా, శిలీంధ్రాలు ఆహారంపై పెరిగి దానిని విడగొట్టి పాడుచేస్తాయి.",
+                "Hindi": "बैक्टीरिया और फफूँद भोजन पर पनपकर उसे तोड़ते और खराब करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a sign that food has gone bad?",
+                "Telugu": "ఆహారం చెడిపోయిందని తెలిపే గుర్తు ఏది?",
+                "Hindi": "भोजन खराब होने का लक्षण कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "It smells fresh",
+                  "It looks bright",
+                  "It has a bad smell or fungus",
+                  "It is warm from the stove"
+                ],
+                "Telugu": [
+                  "తాజా వాసన వస్తుంది",
+                  "మెరుస్తూ కనిపిస్తుంది",
+                  "చెడు వాసన లేదా బూజు ఉంటుంది",
+                  "పొయ్యి మీది నుంచి వెచ్చగా ఉంటుంది"
+                ],
+                "Hindi": [
+                  "ताज़ा महक आती है",
+                  "चमकदार दिखता है",
+                  "बदबू या फफूँद होती है",
+                  "चूल्हे से गर्म है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A bad smell, sour taste, slime or fuzzy fungus show the food is spoilt.",
+                "Telugu": "చెడు వాసన, పుల్లని రుచి, జిగురు, బూజు ఆహారం చెడిందని చూపిస్తాయి.",
+                "Hindi": "बदबू, खट्टा स्वाद, चिपचिपाहट या फफूँद बताते हैं कि भोजन खराब है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why does food stay fresh longer in a refrigerator?",
+                "Telugu": "ఫ్రిజ్‌లో ఆహారం ఎక్కువకాలం ఎందుకు తాజాగా ఉంటుంది?",
+                "Hindi": "फ्रिज में भोजन ज़्यादा समय ताज़ा क्यों रहता है?"
+              },
+              "options": {
+                "English": [
+                  "Cold slows the growth of microbes",
+                  "It is dark inside",
+                  "The fridge adds salt",
+                  "Microbes like cold"
+                ],
+                "Telugu": [
+                  "చల్లదనం సూక్ష్మజీవుల పెరుగుదలను తగ్గిస్తుంది",
+                  "లోపల చీకటిగా ఉంటుంది",
+                  "ఫ్రిజ్ ఉప్పు కలుపుతుంది",
+                  "సూక్ష్మజీవులకు చలి ఇష్టం"
+                ],
+                "Hindi": [
+                  "ठंड सूक्ष्मजीवों की बढ़त धीमी करती है",
+                  "अंदर अँधेरा है",
+                  "फ्रिज नमक डालता है",
+                  "सूक्ष्मजीवों को ठंड पसंद है"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Microbes grow slowly in the cold, so chilled food lasts longer.",
+                "Telugu": "చలిలో సూక్ష్మజీవులు నెమ్మదిగా పెరుగుతాయి, కాబట్టి చల్లని ఆహారం ఎక్కువకాలం ఉంటుంది.",
+                "Hindi": "ठंड में सूक्ष्मजीव धीरे बढ़ते हैं, इसलिए ठंडा भोजन ज़्यादा चलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Pickles last long because of salt and oil.",
+                "Telugu": "నిజమా అబద్ధమా: ఉప్పు, నూనె వల్ల ఊరగాయలు ఎక్కువకాలం నిల్వ ఉంటాయి.",
+                "Hindi": "सही या गलत: नमक और तेल की वजह से अचार लंबे समय तक चलता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Salt and oil stop most microbes from growing in pickles.",
+                "Telugu": "ఉప్పు, నూనె ఊరగాయలో చాలా సూక్ష్మజీవులు పెరగకుండా ఆపుతాయి.",
+                "Hindi": "नमक और तेल अचार में ज़्यादातर सूक्ष्मजीवों को बढ़ने नहीं देते।"
+              }
+            },
+            {
+              "question": {
+                "English": "Jams and murabbas are preserved using...",
+                "Telugu": "జామ్‌లు, మురబ్బాలు దేనితో నిల్వ చేస్తారు?",
+                "Hindi": "जैम और मुरब्बे किससे सुरक्षित रखे जाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Water",
+                  "Sand",
+                  "Sugar",
+                  "Soap"
+                ],
+                "Telugu": [
+                  "నీరు",
+                  "ఇసుక",
+                  "చక్కెర",
+                  "సబ్బు"
+                ],
+                "Hindi": [
+                  "पानी",
+                  "रेत",
+                  "चीनी",
+                  "साबुन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A lot of sugar takes away the water microbes need to grow.",
+                "Telugu": "ఎక్కువ చక్కెర సూక్ష్మజీవులకు కావలసిన నీటిని తీసేస్తుంది.",
+                "Hindi": "ज़्यादा चीनी सूक्ष्मजीवों के लिए ज़रूरी पानी खींच लेती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Drying mangoes to make aam papad or drying fish in the sun works because...",
+                "Telugu": "మామిడి తాండ్ర చేయడానికి లేదా చేపలను ఎండలో ఆరబెట్టడం ఎందుకు పనిచేస్తుంది?",
+                "Hindi": "आम पापड़ या मछली को धूप में सुखाना क्यों काम करता है?"
+              },
+              "options": {
+                "English": [
+                  "It adds more water",
+                  "Microbes cannot grow without water",
+                  "It makes food heavier",
+                  "It makes food sweeter only"
+                ],
+                "Telugu": [
+                  "మరింత నీరు చేరుస్తుంది",
+                  "నీరు లేకుండా సూక్ష్మజీవులు పెరగలేవు",
+                  "ఆహారాన్ని బరువు చేస్తుంది",
+                  "తీపి మాత్రమే పెంచుతుంది"
+                ],
+                "Hindi": [
+                  "इससे पानी बढ़ता है",
+                  "पानी के बिना सूक्ष्मजीव नहीं बढ़ते",
+                  "भोजन भारी होता है",
+                  "सिर्फ़ मीठा होता है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Drying removes water, and microbes need moisture to grow.",
+                "Telugu": "ఆరబెట్టడం నీటిని తొలగిస్తుంది, సూక్ష్మజీవులు పెరగడానికి తేమ కావాలి.",
+                "Hindi": "सुखाने से पानी निकल जाता है, और सूक्ष्मजीवों को बढ़ने के लिए नमी चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why is milk boiled before storing?",
+                "Telugu": "నిల్వ చేసే ముందు పాలను ఎందుకు మరిగిస్తారు?",
+                "Hindi": "दूध रखने से पहले उसे क्यों उबालते हैं?"
+              },
+              "options": {
+                "English": [
+                  "To change its colour",
+                  "To make it cold",
+                  "To make it thicker only",
+                  "To kill germs in it"
+                ],
+                "Telugu": [
+                  "రంగు మార్చడానికి",
+                  "చల్లగా చేయడానికి",
+                  "చిక్కగా చేయడానికి మాత్రమే",
+                  "దానిలోని క్రిములను చంపడానికి"
+                ],
+                "Hindi": [
+                  "रंग बदलने के लिए",
+                  "ठंडा करने के लिए",
+                  "सिर्फ़ गाढ़ा करने के लिए",
+                  "उसके कीटाणु मारने के लिए"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Boiling kills most germs, so boiled milk stays good for longer.",
+                "Telugu": "మరిగించడం చాలా క్రిములను చంపుతుంది, అందుకే మరిగించిన పాలు ఎక్కువసేపు బాగుంటాయి.",
+                "Hindi": "उबालने से ज़्यादातर कीटाणु मरते हैं, इसलिए उबला दूध ज़्यादा देर ठीक रहता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should check the expiry date on packed food.",
+                "Telugu": "నిజమా అబద్ధమా: ప్యాక్ చేసిన ఆహారంపై గడువు తేదీని చూడాలి.",
+                "Hindi": "सही या गलत: पैक भोजन पर समाप्ति तिथि देखनी चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "After the expiry date, packed food may not be safe to eat.",
+                "Telugu": "గడువు తేదీ దాటిన ప్యాక్ ఆహారం తినడానికి సురక్షితం కాకపోవచ్చు.",
+                "Hindi": "समाप्ति तिथि के बाद पैक भोजन खाने के लिए सुरक्षित नहीं रह सकता।"
+              }
+            },
+            {
+              "question": {
+                "English": "The green-black fuzz on old bread is a kind of...",
+                "Telugu": "పాత బ్రెడ్‌పై కనిపించే ఆకుపచ్చ-నలుపు మెత్తని పొర ఏమిటి?",
+                "Hindi": "पुरानी ब्रेड पर हरा-काला रोएँदार हिस्सा क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Fungus (mould)",
+                  "Sugar",
+                  "Paint",
+                  "Salt"
+                ],
+                "Telugu": [
+                  "శిలీంధ్రం (బూజు)",
+                  "చక్కెర",
+                  "రంగు",
+                  "ఉప్పు"
+                ],
+                "Hindi": [
+                  "फफूँद",
+                  "चीनी",
+                  "रंग",
+                  "नमक"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Bread mould is a fungus that grows in warm, damp conditions.",
+                "Telugu": "బ్రెడ్ బూజు వెచ్చని, తేమ పరిస్థితుల్లో పెరిగే శిలీంధ్రం.",
+                "Hindi": "ब्रेड की फफूँद गर्म, नम माहौल में उगने वाला कवक है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which food spoils fastest if left out on a hot day?",
+                "Telugu": "వేడి రోజున బయట ఉంచితే త్వరగా చెడిపోయేది ఏది?",
+                "Hindi": "गर्म दिन में बाहर छोड़ने पर सबसे जल्दी क्या खराब होता है?"
+              },
+              "options": {
+                "English": [
+                  "Dry rice grains",
+                  "Salt",
+                  "Sugar",
+                  "Cooked dal and milk"
+                ],
+                "Telugu": [
+                  "పొడి బియ్యం",
+                  "ఉప్పు",
+                  "చక్కెర",
+                  "వండిన పప్పు, పాలు"
+                ],
+                "Hindi": [
+                  "सूखे चावल",
+                  "नमक",
+                  "चीनी",
+                  "पकी दाल और दूध"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Cooked, moist foods like dal and milk spoil fast in heat; dry grains last long.",
+                "Telugu": "వండిన, తేమ ఉన్న పప్పు, పాలు వేడిలో త్వరగా చెడతాయి; పొడి ధాన్యాలు ఎక్కువకాలం ఉంటాయి.",
+                "Hindi": "पकी, नम चीज़ें जैसे दाल और दूध गर्मी में जल्दी खराब होती हैं; सूखा अनाज लंबा चलता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources-of-energy",
+      "icon": "⚡",
+      "title": {
+        "English": "Sources of Energy",
+        "Telugu": "శక్తి వనరులు",
+        "Hindi": "ऊर्जा के स्रोत"
+      },
+      "description": {
+        "English": "Where energy comes from and how to save it.",
+        "Telugu": "శక్తి ఎక్కడి నుంచి వస్తుంది, దానిని ఎలా ఆదా చేయాలి.",
+        "Hindi": "ऊर्जा कहाँ से आती है और उसे कैसे बचाएँ।"
+      },
+      "lessons": [
+        {
+          "id": "sources-of-energy-lesson",
+          "visual": "☀️",
+          "title": {
+            "English": "Energy All Around Us",
+            "Telugu": "మన చుట్టూ శక్తి",
+            "Hindi": "हमारे चारों ओर ऊर्जा"
+          },
+          "image": "./images/lessons/temperature-and-heat.svg",
+          "explanation": {
+            "English": "Energy is the ability to do work. Food gives us energy. Fuels like wood, coal, petrol and LPG give heat when burnt. Electricity runs fans and lights. The Sun is the biggest source of energy. Sun, wind and flowing water will not run out; they are renewable. Coal and petrol will run out and cause smoke, so we should save fuel and use more solar and wind energy.",
+            "Telugu": "శక్తి అంటే పని చేయగల సామర్థ్యం. ఆహారం మనకు శక్తినిస్తుంది. కట్టెలు, బొగ్గు, పెట్రోలు, ఎల్‌పీజీ వంటి ఇంధనాలు మండినప్పుడు వేడి ఇస్తాయి. విద్యుత్తు పంకాలు, దీపాలను నడుపుతుంది. సూర్యుడు అతి పెద్ద శక్తి వనరు. సూర్యుడు, గాలి, ప్రవహించే నీరు అయిపోవు; అవి పునరుత్పాదక వనరులు. బొగ్గు, పెట్రోలు అయిపోతాయి, పొగ కలిగిస్తాయి, కాబట్టి ఇంధనాన్ని ఆదా చేసి సౌర, పవన శక్తిని ఎక్కువగా వాడాలి.",
+            "Hindi": "ऊर्जा काम करने की क्षमता है। भोजन हमें ऊर्जा देता है। लकड़ी, कोयला, पेट्रोल और एलपीजी जैसे ईंधन जलने पर गर्मी देते हैं। बिजली पंखे और बत्तियाँ चलाती है। सूरज ऊर्जा का सबसे बड़ा स्रोत है। सूरज, हवा और बहता पानी खत्म नहीं होंगे; ये नवीकरणीय हैं। कोयला और पेट्रोल खत्म हो जाएँगे और धुआँ करते हैं, इसलिए ईंधन बचाएँ और सौर व पवन ऊर्जा ज़्यादा इस्तेमाल करें।"
+          },
+          "keyPoints": {
+            "English": [
+              "Energy is the ability to do work.",
+              "The Sun is our main source of energy.",
+              "Sun, wind and water are renewable sources.",
+              "Coal and petrol are non-renewable and cause pollution.",
+              "Switch off devices and share vehicles to save energy."
+            ],
+            "Telugu": [
+              "శక్తి అంటే పని చేయగల సామర్థ్యం.",
+              "సూర్యుడు మన ప్రధాన శక్తి వనరు.",
+              "సూర్యుడు, గాలి, నీరు పునరుత్పాదక వనరులు.",
+              "బొగ్గు, పెట్రోలు పునరుత్పాదకం కానివి, కాలుష్యం కలిగిస్తాయి.",
+              "శక్తి ఆదా కోసం పరికరాలు ఆపండి, వాహనాలను పంచుకోండి."
+            ],
+            "Hindi": [
+              "ऊर्जा काम करने की क्षमता है।",
+              "सूरज हमारी ऊर्जा का मुख्य स्रोत है।",
+              "सूरज, हवा और पानी नवीकरणीय स्रोत हैं।",
+              "कोयला और पेट्रोल अनवीकरणीय हैं और प्रदूषण करते हैं।",
+              "ऊर्जा बचाने के लिए उपकरण बंद करें और वाहन साझा करें।"
+            ]
+          },
+          "activity": {
+            "English": "Make a list of all the machines at home that use electricity. Mark the ones you can switch off more often.",
+            "Telugu": "ఇంట్లో విద్యుత్తు వాడే యంత్రాల జాబితా తయారు చేయండి. ఎక్కువసార్లు ఆపగలిగే వాటిని గుర్తించండి.",
+            "Hindi": "घर की बिजली से चलने वाली सभी मशीनों की सूची बनाइए। जिन्हें ज़्यादा बार बंद कर सकते हैं, उन पर निशान लगाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "What is our biggest source of energy?",
+                "Telugu": "మన అతి పెద్ద శక్తి వనరు ఏది?",
+                "Hindi": "हमारी ऊर्जा का सबसे बड़ा स्रोत क्या है?"
+              },
+              "options": {
+                "English": [
+                  "The Moon",
+                  "The Sun",
+                  "A battery",
+                  "A candle"
+                ],
+                "Telugu": [
+                  "చంద్రుడు",
+                  "సూర్యుడు",
+                  "బ్యాటరీ",
+                  "కొవ్వొత్తి"
+                ],
+                "Hindi": [
+                  "चाँद",
+                  "सूरज",
+                  "बैटरी",
+                  "मोमबत्ती"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The Sun gives light and heat; plants use it to make food and it drives wind and rain.",
+                "Telugu": "సూర్యుడు వెలుగు, వేడి ఇస్తాడు; మొక్కలు దానితో ఆహారం తయారు చేస్తాయి, గాలి, వర్షానికి కారణం అదే.",
+                "Hindi": "सूरज रोशनी और गर्मी देता है; पौधे उससे भोजन बनाते हैं और हवा-बारिश उसी से होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is a renewable source of energy?",
+                "Telugu": "వీటిలో పునరుత్పాదక శక్తి వనరు ఏది?",
+                "Hindi": "इनमें से नवीकरणीय ऊर्जा स्रोत कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Coal",
+                  "Petrol",
+                  "Wind",
+                  "Diesel"
+                ],
+                "Telugu": [
+                  "బొగ్గు",
+                  "పెట్రోలు",
+                  "గాలి",
+                  "డీజిల్"
+                ],
+                "Hindi": [
+                  "कोयला",
+                  "पेट्रोल",
+                  "हवा",
+                  "डीज़ल"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Wind will not run out. Windmills turn it into electricity.",
+                "Telugu": "గాలి అయిపోదు. గాలిమరలు దానిని విద్యుత్తుగా మారుస్తాయి.",
+                "Hindi": "हवा खत्म नहीं होगी। पवन चक्कियाँ उसे बिजली में बदलती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where do we get energy to run and play?",
+                "Telugu": "పరుగెత్తడానికి, ఆడటానికి మనకు శక్తి ఎక్కడి నుంచి వస్తుంది?",
+                "Hindi": "दौड़ने और खेलने की ऊर्जा हमें कहाँ से मिलती है?"
+              },
+              "options": {
+                "English": [
+                  "From food",
+                  "From the TV",
+                  "From our shoes",
+                  "From clouds"
+                ],
+                "Telugu": [
+                  "ఆహారం నుంచి",
+                  "టీవీ నుంచి",
+                  "మన బూట్ల నుంచి",
+                  "మేఘాల నుంచి"
+                ],
+                "Hindi": [
+                  "भोजन से",
+                  "टीवी से",
+                  "जूतों से",
+                  "बादलों से"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Our body breaks down food to release energy for every activity.",
+                "Telugu": "ప్రతి పనికి శక్తి కోసం మన శరీరం ఆహారాన్ని విడగొడుతుంది.",
+                "Hindi": "हमारा शरीर हर काम की ऊर्जा के लिए भोजन को तोड़ता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Burning coal and petrol pollutes the air.",
+                "Telugu": "నిజమా అబద్ధమా: బొగ్గు, పెట్రోలు మండించడం గాలిని కలుషితం చేస్తుంది.",
+                "Hindi": "सही या गलत: कोयला और पेट्रोल जलाने से हवा दूषित होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Burning these fuels releases smoke and harmful gases.",
+                "Telugu": "ఈ ఇంధనాలు మండినప్పుడు పొగ, హానికర వాయువులు విడుదలవుతాయి.",
+                "Hindi": "इन ईंधनों के जलने से धुआँ और हानिकारक गैसें निकलती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "A solar cooker uses energy from...",
+                "Telugu": "సోలార్ కుక్కర్ దేని నుంచి శక్తిని వాడుతుంది?",
+                "Hindi": "सोलर कुकर किससे ऊर्जा लेता है?"
+              },
+              "options": {
+                "English": [
+                  "Gas",
+                  "Coal",
+                  "Batteries",
+                  "Sunlight"
+                ],
+                "Telugu": [
+                  "గ్యాస్",
+                  "బొగ్గు",
+                  "బ్యాటరీలు",
+                  "సూర్యకాంతి"
+                ],
+                "Hindi": [
+                  "गैस",
+                  "कोयला",
+                  "बैटरी",
+                  "धूप"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A solar cooker traps sunlight and turns it into heat for cooking.",
+                "Telugu": "సోలార్ కుక్కర్ సూర్యకాంతిని పట్టి వంట కోసం వేడిగా మారుస్తుంది.",
+                "Hindi": "सोलर कुकर धूप को पकड़कर खाना पकाने की गर्मी में बदलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which fuel is used in most kitchens for cooking today?",
+                "Telugu": "నేడు చాలా వంటిళ్లలో వంటకు వాడే ఇంధనం ఏది?",
+                "Hindi": "आज ज़्यादातर रसोई में खाना पकाने के लिए कौन सा ईंधन इस्तेमाल होता है?"
+              },
+              "options": {
+                "English": [
+                  "Petrol",
+                  "LPG",
+                  "Diesel",
+                  "Kerosene for cars"
+                ],
+                "Telugu": [
+                  "పెట్రోలు",
+                  "ఎల్‌పీజీ",
+                  "డీజిల్",
+                  "కార్ల కిరోసిన్"
+                ],
+                "Hindi": [
+                  "पेट्रोल",
+                  "एलपीजी",
+                  "डीज़ल",
+                  "गाड़ियों का मिट्टी का तेल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "LPG (cooking gas) burns cleanly with a blue flame and little smoke.",
+                "Telugu": "ఎల్‌పీజీ (వంట గ్యాస్) తక్కువ పొగతో నీలి మంటగా మండుతుంది.",
+                "Hindi": "एलपीजी (रसोई गैस) नीली लौ और कम धुएँ के साथ साफ़ जलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Electricity made from fast-flowing water in dams is called...",
+                "Telugu": "ఆనకట్టల్లో వేగంగా ప్రవహించే నీటితో తయారయ్యే విద్యుత్తును ఏమంటారు?",
+                "Hindi": "बाँधों में तेज़ बहते पानी से बनी बिजली क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Solar power",
+                  "Wind power",
+                  "Hydroelectricity",
+                  "Coal power"
+                ],
+                "Telugu": [
+                  "సౌర విద్యుత్",
+                  "పవన విద్యుత్",
+                  "జల విద్యుత్",
+                  "బొగ్గు విద్యుత్"
+                ],
+                "Hindi": [
+                  "सौर बिजली",
+                  "पवन बिजली",
+                  "जल विद्युत",
+                  "कोयला बिजली"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Falling water turns turbines in a dam to make hydroelectricity.",
+                "Telugu": "పడే నీరు ఆనకట్టలో టర్బైన్లను తిప్పి జల విద్యుత్తును తయారు చేస్తుంది.",
+                "Hindi": "गिरता पानी बाँध में टर्बाइन घुमाकर जल विद्युत बनाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should keep the TV on even when no one is watching.",
+                "Telugu": "నిజమా అబద్ధమా: ఎవరూ చూడకపోయినా టీవీని ఆన్‌లో ఉంచాలి.",
+                "Hindi": "सही या गलत: कोई न देख रहा हो तब भी टीवी चालू रखना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Switching off devices that are not in use saves electricity.",
+                "Telugu": "వాడని పరికరాలను ఆపితే విద్యుత్తు ఆదా అవుతుంది.",
+                "Hindi": "इस्तेमाल न हो रहे उपकरण बंद करने से बिजली बचती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a good way to save petrol?",
+                "Telugu": "పెట్రోలు ఆదా చేసే మంచి మార్గం ఏది?",
+                "Hindi": "पेट्रोल बचाने का अच्छा तरीका कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Walk or cycle for short distances",
+                  "Drive alone everywhere",
+                  "Keep the engine running at signals",
+                  "Use two cars for one trip"
+                ],
+                "Telugu": [
+                  "తక్కువ దూరాలకు నడవడం లేదా సైకిల్",
+                  "ప్రతిచోటికి ఒంటరిగా కారు నడపడం",
+                  "సిగ్నల్ వద్ద ఇంజిన్ నడుపుతూ ఉంచడం",
+                  "ఒకే ప్రయాణానికి రెండు కార్లు"
+                ],
+                "Hindi": [
+                  "छोटी दूरी पैदल या साइकिल से जाएँ",
+                  "हर जगह अकेले गाड़ी चलाएँ",
+                  "सिग्नल पर इंजन चालू रखें",
+                  "एक सफ़र में दो गाड़ियाँ"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Walking, cycling, buses and car-sharing use less fuel and keep air cleaner.",
+                "Telugu": "నడక, సైకిల్, బస్సులు, కారు పంచుకోవడం తక్కువ ఇంధనం వాడి గాలిని శుభ్రంగా ఉంచుతాయి.",
+                "Hindi": "पैदल, साइकिल, बस और गाड़ी साझा करने से कम ईंधन लगता है और हवा साफ़ रहती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why are solar panels good for the environment?",
+                "Telugu": "సౌర ఫలకాలు పర్యావరణానికి ఎందుకు మంచివి?",
+                "Hindi": "सौर पैनल पर्यावरण के लिए क्यों अच्छे हैं?"
+              },
+              "options": {
+                "English": [
+                  "They make smoke",
+                  "They use coal",
+                  "They need petrol",
+                  "They make electricity without smoke"
+                ],
+                "Telugu": [
+                  "పొగ చేస్తాయి",
+                  "బొగ్గు వాడతాయి",
+                  "పెట్రోలు కావాలి",
+                  "పొగ లేకుండా విద్యుత్తు తయారు చేస్తాయి"
+                ],
+                "Hindi": [
+                  "धुआँ करते हैं",
+                  "कोयला इस्तेमाल करते हैं",
+                  "पेट्रोल चाहिए",
+                  "बिना धुएँ के बिजली बनाते हैं"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Solar panels turn sunlight directly into electricity with no smoke.",
+                "Telugu": "సౌర ఫలకాలు పొగ లేకుండా సూర్యకాంతిని నేరుగా విద్యుత్తుగా మారుస్తాయి.",
+                "Hindi": "सौर पैनल धूप को बिना धुएँ के सीधे बिजली में बदलते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety-first-aid",
+      "icon": "🩹",
+      "title": {
+        "English": "Safety and First Aid",
+        "Telugu": "భద్రత, ప్రథమ చికిత్స",
+        "Hindi": "सुरक्षा और प्राथमिक उपचार"
+      },
+      "description": {
+        "English": "Staying safe on roads and at home, and helping in small injuries.",
+        "Telugu": "రోడ్లపై, ఇంట్లో సురక్షితంగా ఉండటం, చిన్న గాయాలకు సహాయం.",
+        "Hindi": "सड़क और घर पर सुरक्षित रहना और छोटी चोटों में मदद करना।"
+      },
+      "lessons": [
+        {
+          "id": "safety-first-aid-lesson",
+          "visual": "🚦",
+          "title": {
+            "English": "Be Safe, Help Others",
+            "Telugu": "సురక్షితంగా ఉండండి, ఇతరులకు సహాయపడండి",
+            "Hindi": "सुरक्षित रहें, दूसरों की मदद करें"
+          },
+          "image": "./images/lessons/safe-travel-road-safety.jpg",
+          "explanation": {
+            "English": "Accidents can happen on roads, at home and at play. Cross the road at a zebra crossing when the signal is green for walkers. Wear a helmet on a two-wheeler and a seat belt in a car. At home, keep away from fire, electric sockets and sharp objects. First aid is the help given before a doctor comes: wash a small cut with clean water and cover it, and put a burn under cool running water. In an emergency, call 112 or 108.",
+            "Telugu": "రోడ్లపై, ఇంట్లో, ఆటల్లో ప్రమాదాలు జరగవచ్చు. పాదచారులకు ఆకుపచ్చ సిగ్నల్ ఉన్నప్పుడు జీబ్రా క్రాసింగ్ వద్ద రోడ్డు దాటండి. ద్విచక్ర వాహనంపై హెల్మెట్, కారులో సీట్ బెల్ట్ పెట్టుకోండి. ఇంట్లో నిప్పు, విద్యుత్ సాకెట్లు, పదునైన వస్తువులకు దూరంగా ఉండండి. వైద్యుడు వచ్చే ముందు ఇచ్చే సహాయమే ప్రథమ చికిత్స: చిన్న గాయాన్ని శుభ్రమైన నీటితో కడిగి కట్టండి, కాలిన చోట చల్లని పారే నీరు పోయండి. అత్యవసర పరిస్థితిలో 112 లేదా 108 కి కాల్ చేయండి.",
+            "Hindi": "दुर्घटनाएँ सड़क पर, घर में और खेलते समय हो सकती हैं। पैदल यात्रियों का सिग्नल हरा हो तब ज़ेब्रा क्रॉसिंग से सड़क पार करें। दोपहिया पर हेलमेट और कार में सीट बेल्ट लगाएँ। घर में आग, बिजली के सॉकेट और नुकीली चीज़ों से दूर रहें। डॉक्टर के आने से पहले दी गई मदद प्राथमिक उपचार है: छोटे घाव को साफ़ पानी से धोकर ढकें, और जले हुए हिस्से पर ठंडा बहता पानी डालें। आपात स्थिति में 112 या 108 पर फ़ोन करें।"
+          },
+          "keyPoints": {
+            "English": [
+              "Cross at a zebra crossing; look right, left, right.",
+              "Wear a helmet and seat belt.",
+              "Keep away from fire, sockets and sharp tools.",
+              "Wash a cut and cover it; cool a burn with water.",
+              "Call 112 or 108 in an emergency."
+            ],
+            "Telugu": [
+              "జీబ్రా క్రాసింగ్ వద్ద దాటండి; కుడి, ఎడమ, కుడి చూడండి.",
+              "హెల్మెట్, సీట్ బెల్ట్ పెట్టుకోండి.",
+              "నిప్పు, సాకెట్లు, పదునైన పనిముట్లకు దూరంగా ఉండండి.",
+              "గాయాన్ని కడిగి కట్టండి; కాలిన చోట నీటితో చల్లబరచండి.",
+              "అత్యవసరంలో 112 లేదా 108 కి కాల్ చేయండి."
+            ],
+            "Hindi": [
+              "ज़ेब्रा क्रॉसिंग से पार करें; दाएँ, बाएँ, फिर दाएँ देखें।",
+              "हेलमेट और सीट बेल्ट लगाएँ।",
+              "आग, सॉकेट और नुकीले औज़ारों से दूर रहें।",
+              "घाव धोकर ढकें; जले हिस्से को पानी से ठंडा करें।",
+              "आपात स्थिति में 112 या 108 पर फ़ोन करें।"
+            ]
+          },
+          "activity": {
+            "English": "Make a small first-aid box with cotton, bandage, clean cloth and antiseptic, with an adult's help.",
+            "Telugu": "పెద్దల సహాయంతో దూది, కట్టు, శుభ్రమైన గుడ్డ, యాంటీసెప్టిక్‌తో చిన్న ప్రథమ చికిత్స పెట్టె తయారు చేయండి.",
+            "Hindi": "बड़ों की मदद से रुई, पट्टी, साफ़ कपड़ा और एंटीसेप्टिक के साथ छोटा प्राथमिक उपचार डिब्बा बनाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Where should we cross a busy road?",
+                "Telugu": "రద్దీ రోడ్డును ఎక్కడ దాటాలి?",
+                "Hindi": "व्यस्त सड़क कहाँ से पार करनी चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Anywhere we like",
+                  "At the zebra crossing",
+                  "Between parked buses",
+                  "At a sharp turn"
+                ],
+                "Telugu": [
+                  "మనకు నచ్చిన చోట",
+                  "జీబ్రా క్రాసింగ్ వద్ద",
+                  "నిలిపిన బస్సుల మధ్య",
+                  "పదునైన మలుపు వద్ద"
+                ],
+                "Hindi": [
+                  "कहीं से भी",
+                  "ज़ेब्रा क्रॉसिंग से",
+                  "खड़ी बसों के बीच से",
+                  "तीखे मोड़ पर"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Zebra crossings are marked for walkers, and drivers expect people there.",
+                "Telugu": "జీబ్రా క్రాసింగ్‌లు పాదచారుల కోసం గుర్తించినవి, అక్కడ మనుషులు ఉంటారని డ్రైవర్లు ఆశిస్తారు.",
+                "Hindi": "ज़ेब्रा क्रॉसिंग पैदल यात्रियों के लिए बनी है और वहाँ ड्राइवर लोगों की उम्मीद करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What does a red traffic light mean?",
+                "Telugu": "ఎరుపు ట్రాఫిక్ లైట్ అంటే ఏమిటి?",
+                "Hindi": "लाल ट्रैफ़िक बत्ती का मतलब क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Go fast",
+                  "Get ready",
+                  "Stop",
+                  "Turn around"
+                ],
+                "Telugu": [
+                  "వేగంగా వెళ్లు",
+                  "సిద్ధంగా ఉండు",
+                  "ఆగు",
+                  "వెనక్కి తిరుగు"
+                ],
+                "Hindi": [
+                  "तेज़ चलो",
+                  "तैयार रहो",
+                  "रुको",
+                  "पीछे मुड़ो"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Red means stop, yellow means get ready, green means go.",
+                "Telugu": "ఎరుపు అంటే ఆగు, పసుపు అంటే సిద్ధం, ఆకుపచ్చ అంటే వెళ్లు.",
+                "Hindi": "लाल का मतलब रुको, पीला तैयार रहो, हरा चलो।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should wear a helmet when riding a two-wheeler.",
+                "Telugu": "నిజమా అబద్ధమా: ద్విచక్ర వాహనం నడిపేటప్పుడు హెల్మెట్ పెట్టుకోవాలి.",
+                "Hindi": "सही या गलत: दोपहिया चलाते समय हेलमेट पहनना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A helmet protects the head in a fall or accident.",
+                "Telugu": "పడిపోయినప్పుడు, ప్రమాదంలో హెల్మెట్ తలను కాపాడుతుంది.",
+                "Hindi": "गिरने या दुर्घटना में हेलमेट सिर की रक्षा करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What is first aid?",
+                "Telugu": "ప్రథమ చికిత్స అంటే ఏమిటి?",
+                "Hindi": "प्राथमिक उपचार क्या है?"
+              },
+              "options": {
+                "English": [
+                  "A big operation",
+                  "Help given before a doctor arrives",
+                  "A kind of medicine for colds",
+                  "A game"
+                ],
+                "Telugu": [
+                  "పెద్ద శస్త్రచికిత్స",
+                  "వైద్యుడు వచ్చే ముందు ఇచ్చే సహాయం",
+                  "జలుబుకు ఒక మందు",
+                  "ఒక ఆట"
+                ],
+                "Hindi": [
+                  "बड़ा ऑपरेशन",
+                  "डॉक्टर के आने से पहले दी गई मदद",
+                  "ज़ुकाम की दवा",
+                  "एक खेल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "First aid is the quick, simple help given to an injured person until medical help comes.",
+                "Telugu": "ప్రథమ చికిత్స అంటే వైద్య సహాయం వచ్చే వరకు గాయపడిన వారికి ఇచ్చే త్వరిత, సాధారణ సహాయం.",
+                "Hindi": "प्राथमिक उपचार घायल को डॉक्टरी मदद आने तक दी गई जल्दी, सरल मदद है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What should you do first for a small cut on the knee?",
+                "Telugu": "మోకాలిపై చిన్న గాయానికి మొదట ఏమి చేయాలి?",
+                "Hindi": "घुटने पर छोटे घाव के लिए पहले क्या करें?"
+              },
+              "options": {
+                "English": [
+                  "Put mud on it",
+                  "Ignore it",
+                  "Rub it with a dirty cloth",
+                  "Wash it with clean water and cover it"
+                ],
+                "Telugu": [
+                  "దానిపై మట్టి పెట్టడం",
+                  "పట్టించుకోకపోవడం",
+                  "మురికి గుడ్డతో రుద్దడం",
+                  "శుభ్రమైన నీటితో కడిగి కప్పడం"
+                ],
+                "Hindi": [
+                  "उस पर मिट्टी लगाएँ",
+                  "अनदेखा करें",
+                  "गंदे कपड़े से रगड़ें",
+                  "साफ़ पानी से धोकर ढकें"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Cleaning removes dirt and germs; a clean bandage keeps it protected.",
+                "Telugu": "కడగడం మురికి, క్రిములను తొలగిస్తుంది; శుభ్రమైన కట్టు గాయాన్ని కాపాడుతుంది.",
+                "Hindi": "धोने से गंदगी और कीटाणु हटते हैं; साफ़ पट्टी घाव को सुरक्षित रखती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "For a small burn, we should...",
+                "Telugu": "చిన్న కాలిన గాయానికి ఏమి చేయాలి?",
+                "Hindi": "छोटे जले हिस्से के लिए क्या करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Put it under cool running water",
+                  "Put butter or toothpaste on it",
+                  "Burst the blisters",
+                  "Cover it with cotton wool directly"
+                ],
+                "Telugu": [
+                  "చల్లని పారే నీటి కింద ఉంచడం",
+                  "వెన్న లేదా టూత్‌పేస్ట్ రాయడం",
+                  "బొబ్బలు చిదపడం",
+                  "నేరుగా దూదితో కప్పడం"
+                ],
+                "Hindi": [
+                  "ठंडे बहते पानी के नीचे रखें",
+                  "मक्खन या टूथपेस्ट लगाएँ",
+                  "छाले फोड़ें",
+                  "सीधे रुई से ढकें"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Cool water for several minutes reduces pain and damage. Butter and toothpaste can cause infection.",
+                "Telugu": "కొన్ని నిమిషాలు చల్లని నీరు నొప్పిని, నష్టాన్ని తగ్గిస్తుంది. వెన్న, టూత్‌పేస్ట్ ఇన్ఫెక్షన్ కలిగించవచ్చు.",
+                "Hindi": "कुछ मिनट ठंडा पानी दर्द और नुकसान घटाता है। मक्खन और टूथपेस्ट से संक्रमण हो सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which number can you call for help in an emergency in India?",
+                "Telugu": "భారతదేశంలో అత్యవసర సహాయానికి ఏ నంబరుకు కాల్ చేయవచ్చు?",
+                "Hindi": "भारत में आपात स्थिति में मदद के लिए कौन सा नंबर मिलाएँ?"
+              },
+              "options": {
+                "English": [
+                  "123",
+                  "555",
+                  "112",
+                  "999999"
+                ],
+                "Telugu": [
+                  "123",
+                  "555",
+                  "112",
+                  "999999"
+                ],
+                "Hindi": [
+                  "123",
+                  "555",
+                  "112",
+                  "999999"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "112 is India's emergency number; 108 is for an ambulance in many states.",
+                "Telugu": "112 భారత అత్యవసర నంబరు; చాలా రాష్ట్రాల్లో అంబులెన్స్ కోసం 108.",
+                "Hindi": "112 भारत का आपातकालीन नंबर है; कई राज्यों में एंबुलेंस के लिए 108 है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: It is safe to touch switches with wet hands.",
+                "Telugu": "నిజమా అబద్ధమా: తడి చేతులతో స్విచ్‌లు తాకడం సురక్షితం.",
+                "Hindi": "सही या गलत: गीले हाथों से स्विच छूना सुरक्षित है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Water lets electricity pass, so wet hands can give a dangerous shock.",
+                "Telugu": "నీరు విద్యుత్తును ప్రసరింపజేస్తుంది, కాబట్టి తడి చేతులకు ప్రమాదకరమైన షాక్ తగలవచ్చు.",
+                "Hindi": "पानी से बिजली गुज़रती है, इसलिए गीले हाथों से खतरनाक झटका लग सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "If someone's clothes catch fire, they should...",
+                "Telugu": "ఎవరి బట్టలకైనా నిప్పు అంటుకుంటే వారు ఏమి చేయాలి?",
+                "Hindi": "किसी के कपड़ों में आग लग जाए तो उन्हें क्या करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Run fast",
+                  "Fan the flames",
+                  "Stand still and laugh",
+                  "Stop, drop to the ground and roll"
+                ],
+                "Telugu": [
+                  "వేగంగా పరుగెత్తడం",
+                  "మంటకు గాలి విసరడం",
+                  "నిలబడి నవ్వడం",
+                  "ఆగి, నేలపై పడి దొర్లడం"
+                ],
+                "Hindi": [
+                  "तेज़ दौड़ें",
+                  "आग को हवा दें",
+                  "खड़े होकर हँसें",
+                  "रुकें, ज़मीन पर लेटें और लुढ़कें"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Running feeds the fire with air. Rolling on the ground smothers the flames.",
+                "Telugu": "పరుగెత్తితే మంటకు గాలి అందుతుంది. నేలపై దొర్లితే మంట ఆరిపోతుంది.",
+                "Hindi": "दौड़ने से आग को हवा मिलती है। ज़मीन पर लुढ़कने से लपटें बुझती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Medicines at home should be kept...",
+                "Telugu": "ఇంట్లో మందులను ఎక్కడ ఉంచాలి?",
+                "Hindi": "घर में दवाइयाँ कहाँ रखनी चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Out of reach of small children",
+                  "On the floor",
+                  "Mixed with sweets",
+                  "In the kitchen sink"
+                ],
+                "Telugu": [
+                  "చిన్నపిల్లలకు అందని చోట",
+                  "నేలపై",
+                  "మిఠాయిలతో కలిపి",
+                  "వంటింటి సింక్‌లో"
+                ],
+                "Hindi": [
+                  "छोटे बच्चों की पहुँच से दूर",
+                  "फ़र्श पर",
+                  "मिठाइयों के साथ",
+                  "रसोई के सिंक में"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Small children may swallow medicines thinking they are sweets, which can be dangerous.",
+                "Telugu": "చిన్నపిల్లలు మందులను మిఠాయిలనుకొని మింగవచ్చు, అది ప్రమాదకరం.",
+                "Hindi": "छोटे बच्चे दवाइयों को टॉफ़ी समझकर निगल सकते हैं, जो खतरनाक है।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

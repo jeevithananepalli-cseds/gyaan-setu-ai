@@ -1,0 +1,138 @@
+.picture-activity {
+
+  margin-top: 22px;
+
+  padding: 22px;
+
+  border: 1px solid rgba(0,169,157,.16);
+
+  border-radius: 22px;
+
+  background: #f0fbf8;
+
+}
+
+
+.picture-activity-heading {
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 12px;
+
+}
+
+
+.picture-activity-icon {
+
+  font-size: 1.65rem;
+
+}
+
+
+.picture-activity-heading h3 {
+
+  font-size: 1.05rem;
+
+}
+
+
+.picture-activity-heading p {
+
+  margin-top: 4px;
+
+  color: var(--muted);
+
+  line-height: 1.5;
+
+  font-size: .88rem;
+
+}
+
+
+.picture-activity-image,
+.picture-activity-visual {
+
+  display: block;
+
+  width: 100%;
+
+  max-width: 420px;
+
+  height: 180px;
+
+  margin: 17px auto 0;
+
+  object-fit: contain;
+
+  border-radius: 16px;
+
+  background: white;
+
+}
+
+
+.picture-activity-visual {
+
+  display: grid;
+
+  place-items: center;
+
+  font-size: 4.5rem;
+
+}
+
+
+.picture-options {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  gap: 9px;
+
+  margin-top: 15px;
+
+}
+
+
+.picture-option {
+
+  min-height: 45px;
+
+  padding: 9px 11px;
+
+  border: 1px solid #dce5f1;
+
+  border-radius: 12px;
+
+  color: var(--text);
+
+  background: white;
+
+  font-size: .86rem;
+
+}
+
+
+.picture-option:disabled {
+
+  cursor: default;
+
+}
+
+
+.picture-feedback {
+
+  min-height: 22px;
+
+  margin-top: 12px;
+
+  color: var(--primary-dark);
+
+  font-weight: 700;
+
+  text-align: center;
+
+}

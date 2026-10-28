@@ -1,0 +1,27 @@
+/* Import order matches the original stylesheet; keep it, the cascade depends on it. */
+@import "./base/variables.css";
+@import "./base/reset.css";
+@import "./layout/header.css";
+@import "./layout/app-shell.css";
+@import "./pages/hero.css";
+@import "./components/buttons.css";
+@import "./layout/sections.css";
+@import "./components/cards.css";
+@import "./components/progress.css";
+@import "./pages/lesson.css";
+@import "./pages/quiz.css";
+@import "./components/empty-state.css";
+@import "./pages/dashboard.css";
+@import "./components/chat.css";
+@import "./layout/bottom-nav.css";
+@import "./base/animations.css";
+@import "./layout/responsive.css";
+@import "./pages/auth.css";
+@import "./pages/profile.css";
+@import "./pages/practice.css";
+@import "./components/picture-activity.css";
+@import "./pages/home.css";
+@import "./base/theme.css";
+@import "./base/vivid.css";
+@import "./components/quiz-flow.css";
+@import "./base/dark.css";

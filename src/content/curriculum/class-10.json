@@ -1,0 +1,3793 @@
+{
+  "subject": {
+    "English": "Physical Science + Biological Science",
+    "Telugu": "భౌతిక శాస్త్రం + జీవశాస్త్రం",
+    "Hindi": "भौतिक विज्ञान + जैव विज्ञान"
+  },
+  "chapters": [
+    {
+      "id": "chemical-reactions",
+      "icon": "⚗️",
+      "title": {
+        "English": "Chemical Reactions and Equations",
+        "Telugu": "రసాయన ప్రతిచర్యలు మరియు సమీకరణాలు",
+        "Hindi": "रासायनिक अभिक्रियाएँ और समीकरण"
+      },
+      "description": {
+        "English": "Study how substances change to form new products.",
+        "Telugu": "పదార్థాలు ఎలా మారి కొత్త పదార్థాలను ఏర్పరుస్తాయో అధ్యయనం చేయండి.",
+        "Hindi": "जानें कि पदार्थ कैसे बदलकर नए उत्पाद बनाते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "chemical-change",
+          "visual": "🧪",
+          "title": {
+            "English": "New Substances from Reactions",
+            "Telugu": "ప్రతిచర్యల నుండి కొత్త పదార్థాలు",
+            "Hindi": "अभिक्रिया से नए पदार्थ"
+          },
+          "image": "./images/lessons/new-substances-from-reactions.svg",
+          "explanation": {
+            "English": "In a chemical reaction, substances react to form new substances with different properties. A balanced chemical equation shows the same number of atoms on both sides of the reaction.",
+            "Telugu": "రసాయన ప్రతిచర్యలో పదార్థాలు చర్య జరిపి నూతన పదార్థాలను ఏర్పరుస్తాయి. సమతుల్య రసాయన సమీకరణం ప్రతిచర్య రెండు పక్కలు అటాముల సంఖ్య సమానంగా ఉందని చూపిస్తుంది.",
+            "Hindi": "रासायनिक अभिक्रिया में पदार्थ मिलकर नए पदार्थ बनाते हैं जिनकी विशेषताएँ अलग होती हैं। संतुलित रासायनिक समीकरण दिखाता है कि दोनों ओर परमाणुओं की संख्या समान है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Chemical reactions form new substances.",
+              "Reactants change into products.",
+              "Atoms are conserved in reactions.",
+              "Balanced equations show conservation of mass."
+            ],
+            "Telugu": [
+              "రసాయన ప్రతిచర్యలు కొత్త పదార్థాలను సృష్టిస్తాయి.",
+              "రియాక్టెంట్లు ఉత్పత్తులుగా మారతాయి.",
+              "ప్రతిచర్యలలో అణువులు పరిరక్షించబడతాయి.",
+              "సమతుల్య సమీకరణాలు ద్రవ్యరాశి పరిరక్షణను చూపుతాయి."
+            ],
+            "Hindi": [
+              "रासायनिक अभिक्रियाएँ नए पदार्थ बनाती हैं।",
+              "रिएक्टेंट उत्पाद बनते हैं।",
+              "परमाणु अभिक्रिया में संरक्षित रहते हैं।",
+              "संतुलित समीकरण द्रव्यमान संरक्षण दिखाते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Observe the reaction between baking soda and vinegar and note the gas formed.",
+            "Telugu": "బేకింగ్ సోడా మరియు వెనిగర్ మధ్య ప్రతిచర్యను గమనించి ఏర్పడిన వాయువును రాయండి.",
+            "Hindi": "बेकिंग सोडा और सिरका की अभिक्रिया देखें और बनने वाली गैस लिखें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which is a sign that a chemical reaction has taken place?",
+                "Telugu": "రసాయన చర్య జరిగిందని తెలిపే గుర్తు ఏది?",
+                "Hindi": "रासायनिक अभिक्रिया होने का लक्षण कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Evolution of a gas or change in colour",
+                  "Change in shape only",
+                  "Change in size only",
+                  "Folding"
+                ],
+                "Telugu": [
+                  "వాయువు విడుదల లేదా రంగు మార్పు",
+                  "ఆకార మార్పు మాత్రమే",
+                  "పరిమాణ మార్పు మాత్రమే",
+                  "మడవడం"
+                ],
+                "Hindi": [
+                  "गैस निकलना या रंग बदलना",
+                  "सिर्फ़ आकार बदलना",
+                  "सिर्फ़ माप बदलना",
+                  "मोड़ना"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Gas, colour change, precipitate, change in temperature or state show a chemical reaction.",
+                "Telugu": "వాయువు, రంగు మార్పు, అవక్షేపం, ఉష్ణోగ్రత లేదా స్థితి మార్పు రసాయన చర్యను చూపిస్తాయి.",
+                "Hindi": "गैस, रंग बदलना, अवक्षेप, तापमान या अवस्था का बदलना रासायनिक अभिक्रिया दिखाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why must a chemical equation be balanced?",
+                "Telugu": "రసాయన సమీకరణాన్ని ఎందుకు తుల్యం చేయాలి?",
+                "Hindi": "रासायनिक समीकरण को संतुलित क्यों करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "To make it shorter",
+                  "To obey the law of conservation of mass",
+                  "To change the products",
+                  "To add colour"
+                ],
+                "Telugu": [
+                  "చిన్నదిగా చేయడానికి",
+                  "ద్రవ్యరాశి నిత్యత్వ నియమాన్ని పాటించడానికి",
+                  "ఉత్పన్నాలను మార్చడానికి",
+                  "రంగు చేర్చడానికి"
+                ],
+                "Hindi": [
+                  "छोटा करने के लिए",
+                  "द्रव्यमान संरक्षण नियम मानने के लिए",
+                  "उत्पाद बदलने के लिए",
+                  "रंग जोड़ने के लिए"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Atoms are neither created nor destroyed, so each element must have equal atoms on both sides.",
+                "Telugu": "పరమాణువులు సృష్టించబడవు, నాశనం కావు, కాబట్టి ప్రతి మూలకానికి రెండు వైపులా సమాన పరమాణువులు ఉండాలి.",
+                "Hindi": "परमाणु न बनते हैं न नष्ट होते हैं, इसलिए हर तत्व के दोनों ओर बराबर परमाणु होने चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "CaO + H₂O → Ca(OH)₂ is an example of a...",
+                "Telugu": "CaO + H₂O → Ca(OH)₂ దేనికి ఉదాహరణ?",
+                "Hindi": "CaO + H₂O → Ca(OH)₂ किसका उदाहरण है?"
+              },
+              "options": {
+                "English": [
+                  "Decomposition reaction",
+                  "Displacement reaction",
+                  "Combination reaction",
+                  "Double displacement"
+                ],
+                "Telugu": [
+                  "వియోగ చర్య",
+                  "స్థానభ్రంశ చర్య",
+                  "సంయోగ చర్య",
+                  "ద్వంద్వ స్థానభ్రంశం"
+                ],
+                "Hindi": [
+                  "अपघटन अभिक्रिया",
+                  "विस्थापन अभिक्रिया",
+                  "संयोजन अभिक्रिया",
+                  "द्विविस्थापन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Two substances combine to form one product; this reaction also gives out heat.",
+                "Telugu": "రెండు పదార్థాలు కలిసి ఒకే ఉత్పన్నం ఏర్పడుతుంది; ఈ చర్యలో వేడి కూడా విడుదలవుతుంది.",
+                "Hindi": "दो पदार्थ मिलकर एक उत्पाद बनाते हैं; इस अभिक्रिया में गर्मी भी निकलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A reaction in which heat is given out is called...",
+                "Telugu": "వేడి విడుదలయ్యే చర్యను ఏమంటారు?",
+                "Hindi": "जिस अभिक्रिया में गर्मी निकलती है, उसे क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Endothermic",
+                  "Decomposition only",
+                  "Neutral",
+                  "Exothermic"
+                ],
+                "Telugu": [
+                  "ఉష్ణగ్రాహక",
+                  "వియోగం మాత్రమే",
+                  "తటస్థం",
+                  "ఉష్ణమోచక"
+                ],
+                "Hindi": [
+                  "ऊष्माशोषी",
+                  "सिर्फ़ अपघटन",
+                  "उदासीन",
+                  "ऊष्माक्षेपी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Burning of natural gas and respiration are exothermic reactions.",
+                "Telugu": "సహజ వాయువు మండటం, శ్వాసక్రియ ఉష్ణమోచక చర్యలు.",
+                "Hindi": "प्राकृतिक गैस का जलना और श्वसन ऊष्माक्षेपी अभिक्रियाएँ हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Heating calcium carbonate to form calcium oxide and carbon dioxide is a decomposition reaction.",
+                "Telugu": "నిజమా అబద్ధమా: కాల్షియం కార్బొనేట్‌ను వేడి చేసి కాల్షియం ఆక్సైడ్, కార్బన్ డయాక్సైడ్ ఏర్పరచడం వియోగ చర్య.",
+                "Hindi": "सही या गलत: कैल्शियम कार्बोनेट को गर्म कर कैल्शियम ऑक्साइड और कार्बन डाइऑक्साइड बनाना अपघटन अभिक्रिया है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "One substance breaks into two or more simpler substances on heating (thermal decomposition).",
+                "Telugu": "ఒక పదార్థం వేడికి రెండు లేదా ఎక్కువ సరళ పదార్థాలుగా విడిపోతుంది (ఉష్ణ వియోగం).",
+                "Hindi": "एक पदार्थ गर्म होकर दो या अधिक सरल पदार्थों में टूटता है (ऊष्मीय अपघटन)।"
+              }
+            },
+            {
+              "question": {
+                "English": "Fe + CuSO₄ → FeSO₄ + Cu is a...",
+                "Telugu": "Fe + CuSO₄ → FeSO₄ + Cu ఏ చర్య?",
+                "Hindi": "Fe + CuSO₄ → FeSO₄ + Cu कौन सी अभिक्रिया है?"
+              },
+              "options": {
+                "English": [
+                  "Displacement reaction",
+                  "Combination reaction",
+                  "Decomposition reaction",
+                  "Neutralisation"
+                ],
+                "Telugu": [
+                  "స్థానభ్రంశ చర్య",
+                  "సంయోగ చర్య",
+                  "వియోగ చర్య",
+                  "తటస్థీకరణం"
+                ],
+                "Hindi": [
+                  "विस्थापन अभिक्रिया",
+                  "संयोजन अभिक्रिया",
+                  "अपघटन अभिक्रिया",
+                  "उदासीनीकरण"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "More reactive iron displaces copper from copper sulphate solution.",
+                "Telugu": "ఎక్కువ చర్యాశీల ఇనుము కాపర్ సల్ఫేట్ ద్రావణం నుంచి రాగిని స్థానభ్రంశం చేస్తుంది.",
+                "Hindi": "ज़्यादा क्रियाशील लोहा कॉपर सल्फ़ेट घोल से ताँबे को विस्थापित करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Mixing sodium sulphate and barium chloride solutions forms a white precipitate. This is a...",
+                "Telugu": "సోడియం సల్ఫేట్, బేరియం క్లోరైడ్ ద్రావణాలు కలిపితే తెల్లని అవక్షేపం వస్తుంది. ఇది...",
+                "Hindi": "सोडियम सल्फ़ेट और बेरियम क्लोराइड घोल मिलाने पर सफ़ेद अवक्षेप बनता है। यह क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Combination reaction",
+                  "Double displacement reaction",
+                  "Decomposition reaction",
+                  "Combustion"
+                ],
+                "Telugu": [
+                  "సంయోగ చర్య",
+                  "ద్వంద్వ స్థానభ్రంశ చర్య",
+                  "వియోగ చర్య",
+                  "దహనం"
+                ],
+                "Hindi": [
+                  "संयोजन अभिक्रिया",
+                  "द्विविस्थापन अभिक्रिया",
+                  "अपघटन अभिक्रिया",
+                  "दहन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Ions are exchanged and insoluble barium sulphate precipitates.",
+                "Telugu": "అయాన్లు మార్పిడి అయి కరగని బేరియం సల్ఫేట్ అవక్షేపిస్తుంది.",
+                "Hindi": "आयनों का आदान-प्रदान होता है और अघुलनशील बेरियम सल्फ़ेट अवक्षेपित होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Gain of oxygen or loss of hydrogen by a substance is called...",
+                "Telugu": "పదార్థం ఆక్సిజన్ పొందడం లేదా హైడ్రోజన్ కోల్పోవడాన్ని ఏమంటారు?",
+                "Hindi": "पदार्थ द्वारा ऑक्सीजन लेना या हाइड्रोजन खोना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Reduction",
+                  "Precipitation",
+                  "Oxidation",
+                  "Neutralisation"
+                ],
+                "Telugu": [
+                  "క్షయకరణం",
+                  "అవక్షేపణం",
+                  "ఆక్సీకరణం",
+                  "తటస్థీకరణం"
+                ],
+                "Hindi": [
+                  "अपचयन",
+                  "अवक्षेपण",
+                  "उपचयन (ऑक्सीकरण)",
+                  "उदासीनीकरण"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Reduction is the opposite: loss of oxygen or gain of hydrogen. Together they are redox reactions.",
+                "Telugu": "క్షయకరణం దానికి వ్యతిరేకం: ఆక్సిజన్ కోల్పోవడం లేదా హైడ్రోజన్ పొందడం. రెండూ కలిపి రెడాక్స్ చర్యలు.",
+                "Hindi": "अपचयन इसका उलटा है: ऑक्सीजन खोना या हाइड्रोजन लेना। दोनों मिलकर रेडॉक्स अभिक्रियाएँ हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Rancidity of oily food is caused by oxidation.",
+                "Telugu": "నిజమా అబద్ధమా: నూనె పదార్థాలు చెడిపోవడం (రాన్సిడిటీ) ఆక్సీకరణం వల్ల జరుగుతుంది.",
+                "Hindi": "सही या गलत: तेल वाले भोजन की बासीपन (विकृतगंधिता) ऑक्सीकरण से होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Chip packets are filled with nitrogen and antioxidants are added to slow it down.",
+                "Telugu": "దీనిని తగ్గించడానికి చిప్స్ ప్యాకెట్లను నైట్రోజన్‌తో నింపుతారు, ప్రతిఆక్సీకారకాలు కలుపుతారు.",
+                "Hindi": "इसे धीमा करने के लिए चिप्स के पैकेट में नाइट्रोजन भरते और प्रतिऑक्सीकारक मिलाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Corrosion of iron is commonly known as...",
+                "Telugu": "ఇనుము క్షయాన్ని సాధారణంగా ఏమంటారు?",
+                "Hindi": "लोहे के संक्षारण को आमतौर पर क्या कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Tarnishing",
+                  "Melting",
+                  "Sublimation",
+                  "Rusting"
+                ],
+                "Telugu": [
+                  "మసకబారడం",
+                  "కరగడం",
+                  "ఉత్పతనం",
+                  "తుప్పు పట్టడం"
+                ],
+                "Hindi": [
+                  "धूमिल होना",
+                  "पिघलना",
+                  "ऊर्ध्वपातन",
+                  "जंग लगना"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Silver turns black and copper turns green by corrosion too; painting and galvanising prevent it.",
+                "Telugu": "వెండి నల్లగా, రాగి ఆకుపచ్చగా మారడం కూడా క్షయమే; రంగు వేయడం, గాల్వనైజేషన్ నివారిస్తాయి.",
+                "Hindi": "चाँदी काली और ताँबा हरा होना भी संक्षारण है; पेंट और जस्तीकरण इसे रोकते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "life-processes",
+      "icon": "🧬",
+      "title": {
+        "English": "Life Processes",
+        "Telugu": "జీవ ప్రక్రియలు",
+        "Hindi": "जीवन प्रक्रियाएँ"
+      },
+      "description": {
+        "English": "Learn how living organisms carry out nutrition, respiration and transport.",
+        "Telugu": "జీవులు పోషణ, శ్వాస మరియు రవాణా వంటి ప్రక్రియలను ఎలా నిర్వహిస్తాయో తెలుసుకోండి.",
+        "Hindi": "जानें कि जीव पोषण, श्वसन और परिवहन जैसी प्रक्रियाएँ कैसे करते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "life-functions",
+          "visual": "❤️",
+          "title": {
+            "English": "Nutrition and Respiration",
+            "Telugu": "పోషణ మరియు శ్వాస",
+            "Hindi": "पोषण और श्वसन"
+          },
+          "image": "./images/lessons/nutrition-and-respiration.svg",
+          "explanation": {
+            "English": "Life processes include nutrition, respiration, transport and excretion. They help living organisms stay alive and function properly.",
+            "Telugu": "జీవ ప్రక్రియలలో పోషణ, శ్వాస, రవాణా మరియు విసర్జన ఉంటాయి. ఇవి జీవులను బతికించడానికి మరియు పనులలో సహాయపడతాయి.",
+            "Hindi": "जीवन प्रक्रियाओं में पोषण, श्वसन, परिवहन और उत्सर्जन शामिल हैं। ये जीवों को जीवित और स्वस्थ रखने में मदद करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Nutrition supplies energy and materials.",
+              "Respiration releases energy from food.",
+              "Transport carries nutrients and oxygen.",
+              "Excretion removes waste."
+            ],
+            "Telugu": [
+              "పోషణ శక్తి మరియు పదార్థాలను అందిస్తుంది.",
+              "శ్వాస ఆహారం నుంచి శక్తిని విడుదల చేస్తుంది.",
+              "రవాణా పోషకాలు మరియు ఆక్సిజన్‌ను తీసుకువస్తుంది.",
+              "విసర్జన వ్యర్థాలను తొలగిస్తుంది."
+            ],
+            "Hindi": [
+              "पोषण ऊर्जा और सामग्री देता है।",
+              "श्वसन भोजन से ऊर्जा释放 करता है।",
+              "परिवहन पोषक तत्व और ऑक्सीजन ले जाता है।",
+              "उत्सर्जन अपशिष्ट हटाता है।"
+            ]
+          },
+          "activity": {
+            "English": "Describe the path of oxygen and food in a human body.",
+            "Telugu": "మానవ శరీరంలో ఆక్సిజన్ మరియు ఆహారం ప్రవాహాన్ని వివరించండి.",
+            "Hindi": "मानव शरीर में ऑक्सीजन और भोजन का मार्ग बताइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which life process breaks down food to release energy?",
+                "Telugu": "ఆహారాన్ని విడగొట్టి శక్తిని విడుదల చేసే జీవక్రియ ఏది?",
+                "Hindi": "कौन सी जैव प्रक्रिया भोजन तोड़कर ऊर्जा देती है?"
+              },
+              "options": {
+                "English": [
+                  "Respiration",
+                  "Excretion",
+                  "Transportation",
+                  "Reproduction"
+                ],
+                "Telugu": [
+                  "శ్వాసక్రియ",
+                  "విసర్జన",
+                  "రవాణా",
+                  "ప్రత్యుత్పత్తి"
+                ],
+                "Hindi": [
+                  "श्वसन",
+                  "उत्सर्जन",
+                  "परिवहन",
+                  "जनन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Respiration oxidises glucose in cells, storing energy as ATP.",
+                "Telugu": "శ్వాసక్రియ కణాల్లో గ్లూకోజ్‌ను ఆక్సీకరించి శక్తిని ATPగా నిల్వ చేస్తుంది.",
+                "Hindi": "श्वसन कोशिकाओं में ग्लूकोज़ का ऑक्सीकरण कर ऊर्जा ATP के रूप में संग्रहित करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "In humans, oxygen is carried in blood by...",
+                "Telugu": "మానవుల్లో రక్తంలో ఆక్సిజన్‌ను తీసుకెళ్లేది...",
+                "Hindi": "मनुष्य में रक्त में ऑक्सीजन कौन ले जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Platelets",
+                  "Haemoglobin in red blood cells",
+                  "White blood cells",
+                  "Plasma only"
+                ],
+                "Telugu": [
+                  "ఫలకికలు",
+                  "ఎర్ర రక్త కణాల్లోని హిమోగ్లోబిన్",
+                  "తెల్ల రక్త కణాలు",
+                  "ప్లాస్మా మాత్రమే"
+                ],
+                "Hindi": [
+                  "प्लेटलेट",
+                  "लाल रक्त कोशिकाओं का हीमोग्लोबिन",
+                  "श्वेत रक्त कोशिकाएँ",
+                  "सिर्फ़ प्लाज़्मा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Haemoglobin has a high affinity for oxygen and carries it from lungs to tissues.",
+                "Telugu": "హిమోగ్లోబిన్‌కు ఆక్సిజన్‌పై ఎక్కువ ఆకర్షణ ఉండి ఊపిరితిత్తుల నుంచి కణజాలాలకు తీసుకెళ్తుంది.",
+                "Hindi": "हीमोग्लोबिन ऑक्सीजन से जल्दी जुड़ता है और उसे फेफड़ों से ऊतकों तक ले जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "How many chambers does the human heart have?",
+                "Telugu": "మానవ గుండెకు ఎన్ని గదులు ఉంటాయి?",
+                "Hindi": "मानव हृदय में कितने कक्ष होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Two",
+                  "Three",
+                  "Four",
+                  "Six"
+                ],
+                "Telugu": [
+                  "రెండు",
+                  "మూడు",
+                  "నాలుగు",
+                  "ఆరు"
+                ],
+                "Hindi": [
+                  "दो",
+                  "तीन",
+                  "चार",
+                  "छह"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Two atria and two ventricles keep oxygenated and deoxygenated blood separate.",
+                "Telugu": "రెండు కర్ణికలు, రెండు జఠరికలు ఆక్సిజన్ ఉన్న, లేని రక్తాన్ని వేరుగా ఉంచుతాయి.",
+                "Hindi": "दो आलिंद और दो निलय ऑक्सीजनयुक्त और विऑक्सीजनित रक्त को अलग रखते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The basic filtration unit of the kidney is the...",
+                "Telugu": "మూత్రపిండం యొక్క ప్రాథమిక వడపోత ప్రమాణం...",
+                "Hindi": "गुर्दे की मूल निस्यंदन इकाई क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Neuron",
+                  "Alveolus",
+                  "Villus",
+                  "Nephron"
+                ],
+                "Telugu": [
+                  "న్యూరాన్",
+                  "వాయుకోశం",
+                  "సూక్ష్మచూషకం",
+                  "నెఫ్రాన్"
+                ],
+                "Hindi": [
+                  "न्यूरॉन",
+                  "कूपिका",
+                  "दीर्घरोम",
+                  "वृक्काणु (नेफ़्रॉन)"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Each kidney has about a million nephrons that filter blood and form urine.",
+                "Telugu": "ప్రతి మూత్రపిండంలో సుమారు పది లక్షల నెఫ్రాన్లు ఉండి రక్తాన్ని వడపోసి మూత్రాన్ని ఏర్పరుస్తాయి.",
+                "Hindi": "हर गुर्दे में लगभग दस लाख नेफ़्रॉन होते हैं जो रक्त छानकर मूत्र बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Gas exchange in human lungs happens in tiny air sacs called alveoli.",
+                "Telugu": "నిజమా అబద్ధమా: మానవ ఊపిరితిత్తుల్లో వాయు మార్పిడి వాయుకోశాలు అనే చిన్న గాలి సంచుల్లో జరుగుతుంది.",
+                "Hindi": "सही या गलत: मानव फेफड़ों में गैस विनिमय कूपिकाओं नाम की छोटी वायु थैलियों में होता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Alveoli have thin walls and a rich blood supply, giving a huge surface for exchange.",
+                "Telugu": "వాయుకోశాలకు పలుచని గోడలు, సమృద్ధ రక్త సరఫరా ఉండి మార్పిడికి పెద్ద ఉపరితలం ఇస్తాయి.",
+                "Hindi": "कूपिकाओं की पतली भित्ति और भरपूर रक्त आपूर्ति विनिमय के लिए बड़ी सतह देती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Enzyme in saliva that digests starch is...",
+                "Telugu": "పిండి పదార్థాన్ని జీర్ణం చేసే లాలాజల ఎంజైమ్...",
+                "Hindi": "लार का कौन सा एंजाइम स्टार्च पचाता है?"
+              },
+              "options": {
+                "English": [
+                  "Salivary amylase",
+                  "Pepsin",
+                  "Lipase",
+                  "Trypsin"
+                ],
+                "Telugu": [
+                  "లాలాజల అమైలేజ్",
+                  "పెప్సిన్",
+                  "లైపేజ్",
+                  "ట్రిప్సిన్"
+                ],
+                "Hindi": [
+                  "लार एमाइलेज",
+                  "पेप्सिन",
+                  "लाइपेज",
+                  "ट्रिप्सिन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Pepsin in the stomach digests proteins; lipase digests fats.",
+                "Telugu": "జీర్ణాశయంలో పెప్సిన్ ప్రోటీన్లను, లైపేజ్ కొవ్వులను జీర్ణం చేస్తాయి.",
+                "Hindi": "आमाशय का पेप्सिन प्रोटीन और लाइपेज वसा पचाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "In plants, water is transported by...",
+                "Telugu": "మొక్కల్లో నీటి రవాణా దేని ద్వారా జరుగుతుంది?",
+                "Hindi": "पौधों में पानी का परिवहन किससे होता है?"
+              },
+              "options": {
+                "English": [
+                  "Phloem",
+                  "Xylem",
+                  "Stomata only",
+                  "Root hair only"
+                ],
+                "Telugu": [
+                  "పోషక కణజాలం",
+                  "దారువు",
+                  "పత్రరంధ్రాలు మాత్రమే",
+                  "మూలకేశాలు మాత్రమే"
+                ],
+                "Hindi": [
+                  "फ़्लोएम",
+                  "जाइलम",
+                  "सिर्फ़ रंध्र",
+                  "सिर्फ़ मूलरोम"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Transpiration pull from leaves helps draw water up the xylem.",
+                "Telugu": "ఆకుల నుంచి బాష్పోత్సేక ఆకర్షణ దారువు ద్వారా నీటిని పైకి లాగడానికి సహాయపడుతుంది.",
+                "Hindi": "पत्तियों का वाष्पोत्सर्जन खिंचाव जाइलम में पानी ऊपर खींचने में मदद करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Transport of food in plants through phloem is called...",
+                "Telugu": "పోషక కణజాలం ద్వారా మొక్కల్లో ఆహార రవాణాను ఏమంటారు?",
+                "Hindi": "फ़्लोएम द्वारा पौधों में भोजन का परिवहन क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Transpiration",
+                  "Respiration",
+                  "Translocation",
+                  "Excretion"
+                ],
+                "Telugu": [
+                  "బాష్పోత్సేకం",
+                  "శ్వాసక్రియ",
+                  "స్థానాంతరణ",
+                  "విసర్జన"
+                ],
+                "Hindi": [
+                  "वाष्पोत्सर्जन",
+                  "श्वसन",
+                  "स्थानांतरण",
+                  "उत्सर्जन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Translocation uses energy from ATP to move sugars to where they are needed.",
+                "Telugu": "స్థానాంతరణ ATP శక్తిని వాడి చక్కెరలను అవసరమైన చోటికి తరలిస్తుంది.",
+                "Hindi": "स्थानांतरण ATP की ऊर्जा से शर्करा को ज़रूरत की जगह ले जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Arteries carry blood away from the heart.",
+                "Telugu": "నిజమా అబద్ధమా: ధమనులు గుండె నుంచి రక్తాన్ని దూరంగా తీసుకెళ్తాయి.",
+                "Hindi": "सही या गलत: धमनियाँ रक्त को हृदय से दूर ले जाती हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Arteries have thick elastic walls for high pressure; veins bring blood back and have valves.",
+                "Telugu": "అధిక పీడనం కోసం ధమనులకు మందపాటి సాగే గోడలు ఉంటాయి; సిరలు రక్తాన్ని తిరిగి తెస్తాయి, వాటిలో కవాటాలు ఉంటాయి.",
+                "Hindi": "ऊँचे दाब के लिए धमनियों की मोटी लचीली भित्ति होती है; शिराएँ रक्त वापस लाती हैं और उनमें वाल्व होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which process removes harmful nitrogenous wastes from the body?",
+                "Telugu": "శరీరం నుంచి హానికర నైట్రోజన్ వ్యర్థాలను తొలగించే ప్రక్రియ ఏది?",
+                "Hindi": "कौन सी प्रक्रिया शरीर से हानिकारक नाइट्रोजनी अपशिष्ट निकालती है?"
+              },
+              "options": {
+                "English": [
+                  "Nutrition",
+                  "Respiration",
+                  "Transportation",
+                  "Excretion"
+                ],
+                "Telugu": [
+                  "పోషణ",
+                  "శ్వాసక్రియ",
+                  "రవాణా",
+                  "విసర్జన"
+                ],
+                "Hindi": [
+                  "पोषण",
+                  "श्वसन",
+                  "परिवहन",
+                  "उत्सर्जन"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The kidneys remove urea in urine; dialysis does this artificially if kidneys fail.",
+                "Telugu": "మూత్రపిండాలు యూరియాను మూత్రం ద్వారా తొలగిస్తాయి; అవి విఫలమైతే డయాలిసిస్ కృత్రిమంగా ఈ పని చేస్తుంది.",
+                "Hindi": "गुर्दे यूरिया को मूत्र से निकालते हैं; गुर्दे खराब हों तो डायलिसिस यह काम कृत्रिम रूप से करता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acids-bases-and-salts",
+      "icon": "🧫",
+      "title": {
+        "English": "Acids, Bases and Salts",
+        "Telugu": "ఆమ్లాలు, క్షారాలు, లవణాలు",
+        "Hindi": "अम्ल, क्षारक एवं लवण"
+      },
+      "description": {
+        "English": "Indicators, reactions, the pH scale and important salts.",
+        "Telugu": "సూచికలు, చర్యలు, pH స్కేలు, ముఖ్యమైన లవణాలు.",
+        "Hindi": "सूचक, अभिक्रियाएँ, pH पैमाना और महत्वपूर्ण लवण।"
+      },
+      "lessons": [
+        {
+          "id": "acids-bases-and-salts-lesson",
+          "visual": "🧪",
+          "title": {
+            "English": "The pH Scale and Everyday Chemistry",
+            "Telugu": "pH స్కేలు, రోజువారీ రసాయనశాస్త్రం",
+            "Hindi": "pH पैमाना और रोज़मर्रा का रसायन"
+          },
+          "image": "./images/lessons/acids-bases-and-salts.svg",
+          "explanation": {
+            "English": "Acids give H⁺ ions in water and bases give OH⁻ ions. Acids react with metals to give hydrogen gas and with carbonates to give carbon dioxide. An acid and a base neutralise each other to form salt and water. The pH scale from 0 to 14 measures acidity: below 7 is acidic, 7 is neutral and above 7 is basic. Our stomach works at about pH 2, and tooth decay starts when mouth pH falls below 5.5. Important salts include common salt (NaCl), baking soda (NaHCO₃), washing soda (Na₂CO₃·10H₂O), bleaching powder (CaOCl₂) and plaster of Paris (CaSO₄·½H₂O).",
+            "Telugu": "ఆమ్లాలు నీటిలో H⁺ అయాన్లను, క్షారాలు OH⁻ అయాన్లను ఇస్తాయి. ఆమ్లాలు లోహాలతో చర్య జరిపి హైడ్రోజన్ వాయువును, కార్బొనేట్లతో కార్బన్ డయాక్సైడ్‌ను ఇస్తాయి. ఆమ్లం, క్షారం ఒకదాన్నొకటి తటస్థీకరించి లవణం, నీరు ఏర్పడతాయి. 0 నుంచి 14 వరకు ఉండే pH స్కేలు ఆమ్లత్వాన్ని కొలుస్తుంది: 7 కంటే తక్కువ ఆమ్లం, 7 తటస్థం, 7 కంటే ఎక్కువ క్షారం. మన జీర్ణాశయం సుమారు pH 2 వద్ద పనిచేస్తుంది, నోటి pH 5.5 కంటే తగ్గినప్పుడు దంతక్షయం మొదలవుతుంది. ముఖ్యమైన లవణాలు: సాధారణ ఉప్పు (NaCl), వంట సోడా (NaHCO₃), బట్టల సోడా (Na₂CO₃·10H₂O), బ్లీచింగ్ పౌడర్ (CaOCl₂), ప్లాస్టర్ ఆఫ్ పారిస్ (CaSO₄·½H₂O).",
+            "Hindi": "अम्ल पानी में H⁺ आयन और क्षारक OH⁻ आयन देते हैं। अम्ल धातुओं से क्रिया कर हाइड्रोजन गैस और कार्बोनेट से कार्बन डाइऑक्साइड देते हैं। अम्ल और क्षारक एक-दूसरे को उदासीन कर लवण और पानी बनाते हैं। 0 से 14 का pH पैमाना अम्लता मापता है: 7 से कम अम्लीय, 7 उदासीन और 7 से ज़्यादा क्षारीय। हमारा आमाशय लगभग pH 2 पर काम करता है, और मुँह का pH 5.5 से नीचे जाने पर दाँत सड़ने लगते हैं। महत्वपूर्ण लवण हैं: साधारण नमक (NaCl), खाने का सोडा (NaHCO₃), धोने का सोडा (Na₂CO₃·10H₂O), विरंजक चूर्ण (CaOCl₂) और प्लास्टर ऑफ़ पेरिस (CaSO₄·½H₂O)।"
+          },
+          "keyPoints": {
+            "English": [
+              "Acids give H⁺; bases give OH⁻ in water.",
+              "Acid + metal gives hydrogen gas.",
+              "Acid + base gives salt + water.",
+              "pH below 7 acidic, 7 neutral, above 7 basic.",
+              "Baking soda, washing soda and bleaching powder are useful salts."
+            ],
+            "Telugu": [
+              "నీటిలో ఆమ్లాలు H⁺, క్షారాలు OH⁻ ఇస్తాయి.",
+              "ఆమ్లం + లోహం హైడ్రోజన్ వాయువును ఇస్తుంది.",
+              "ఆమ్లం + క్షారం లవణం + నీరు ఇస్తాయి.",
+              "pH 7 కంటే తక్కువ ఆమ్లం, 7 తటస్థం, 7 కంటే ఎక్కువ క్షారం.",
+              "వంట సోడా, బట్టల సోడా, బ్లీచింగ్ పౌడర్ ఉపయోగకర లవణాలు."
+            ],
+            "Hindi": [
+              "पानी में अम्ल H⁺ और क्षारक OH⁻ देते हैं।",
+              "अम्ल + धातु से हाइड्रोजन गैस बनती है।",
+              "अम्ल + क्षारक से लवण + पानी बनते हैं।",
+              "pH 7 से कम अम्लीय, 7 उदासीन, 7 से अधिक क्षारीय।",
+              "खाने का सोडा, धोने का सोडा और विरंजक चूर्ण उपयोगी लवण हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Make an indicator by boiling red cabbage leaves. Test lemon juice, soap water and plain water with it.",
+            "Telugu": "ఎర్ర క్యాబేజీ ఆకులను మరిగించి సూచిక తయారు చేయండి. దానితో నిమ్మరసం, సబ్బు నీరు, సాధారణ నీటిని పరీక్షించండి.",
+            "Hindi": "लाल पत्तागोभी की पत्तियाँ उबालकर सूचक बनाइए। उससे नींबू रस, साबुन का पानी और सादा पानी जाँचिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "A solution with pH 2 is...",
+                "Telugu": "pH 2 గల ద్రావణం...",
+                "Hindi": "pH 2 वाला घोल कैसा है?"
+              },
+              "options": {
+                "English": [
+                  "Strongly acidic",
+                  "Neutral",
+                  "Weakly basic",
+                  "Strongly basic"
+                ],
+                "Telugu": [
+                  "బలమైన ఆమ్లం",
+                  "తటస్థం",
+                  "బలహీన క్షారం",
+                  "బలమైన క్షారం"
+                ],
+                "Hindi": [
+                  "प्रबल अम्लीय",
+                  "उदासीन",
+                  "दुर्बल क्षारीय",
+                  "प्रबल क्षारीय"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The lower the pH below 7, the stronger the acid.",
+                "Telugu": "7 కంటే pH ఎంత తక్కువైతే ఆమ్లం అంత బలమైనది.",
+                "Hindi": "7 से नीचे pH जितना कम, अम्ल उतना प्रबल।"
+              }
+            },
+            {
+              "question": {
+                "English": "When zinc reacts with dilute sulphuric acid, which gas is formed?",
+                "Telugu": "జింక్ పలుచని సల్ఫ్యూరిక్ ఆమ్లంతో చర్య జరిపితే ఏ వాయువు ఏర్పడుతుంది?",
+                "Hindi": "जस्ता तनु सल्फ़्यूरिक अम्ल से क्रिया करे तो कौन सी गैस बनती है?"
+              },
+              "options": {
+                "English": [
+                  "Oxygen",
+                  "Hydrogen",
+                  "Carbon dioxide",
+                  "Chlorine"
+                ],
+                "Telugu": [
+                  "ఆక్సిజన్",
+                  "హైడ్రోజన్",
+                  "కార్బన్ డయాక్సైడ్",
+                  "క్లోరిన్"
+                ],
+                "Hindi": [
+                  "ऑक्सीजन",
+                  "हाइड्रोजन",
+                  "कार्बन डाइऑक्साइड",
+                  "क्लोरीन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Hydrogen burns with a pop sound when a burning splinter is brought near.",
+                "Telugu": "మండే పుల్ల దగ్గరకు తెస్తే హైడ్రోజన్ 'పాప్' శబ్దంతో మండుతుంది.",
+                "Hindi": "जलती तीली पास लाने पर हाइड्रोजन 'पॉप' की आवाज़ के साथ जलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The chemical formula of baking soda is...",
+                "Telugu": "వంట సోడా రసాయన ఫార్ములా...",
+                "Hindi": "खाने के सोडे का रासायनिक सूत्र क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Na₂CO₃",
+                  "NaCl",
+                  "NaHCO₃",
+                  "CaOCl₂"
+                ],
+                "Telugu": [
+                  "Na₂CO₃",
+                  "NaCl",
+                  "NaHCO₃",
+                  "CaOCl₂"
+                ],
+                "Hindi": [
+                  "Na₂CO₃",
+                  "NaCl",
+                  "NaHCO₃",
+                  "CaOCl₂"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Sodium hydrogencarbonate releases CO₂ on heating, making cakes soft and spongy.",
+                "Telugu": "సోడియం హైడ్రోజన్ కార్బొనేట్ వేడికి CO₂ విడుదల చేసి కేకులను మెత్తగా చేస్తుంది.",
+                "Hindi": "सोडियम हाइड्रोजनकार्बोनेट गर्म होने पर CO₂ छोड़कर केक को नरम और स्पंजी बनाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Plaster of Paris is used for...",
+                "Telugu": "ప్లాస్టర్ ఆఫ్ పారిస్‌ను దేనికి వాడతారు?",
+                "Hindi": "प्लास्टर ऑफ़ पेरिस किसके लिए उपयोग होता है?"
+              },
+              "options": {
+                "English": [
+                  "Bleaching clothes",
+                  "Making cakes",
+                  "Softening water",
+                  "Supporting fractured bones and making toys"
+                ],
+                "Telugu": [
+                  "బట్టలు తెల్లబరచడానికి",
+                  "కేకులు చేయడానికి",
+                  "నీటిని మృదువుగా చేయడానికి",
+                  "విరిగిన ఎముకలకు కట్టు, బొమ్మల తయారీకి"
+                ],
+                "Hindi": [
+                  "कपड़े विरंजित करने",
+                  "केक बनाने",
+                  "पानी मृदु करने",
+                  "टूटी हड्डियों को सहारा देने और खिलौने बनाने"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Mixed with water, it sets into hard gypsum.",
+                "Telugu": "నీటితో కలిపితే అది గట్టి జిప్సంగా గట్టిపడుతుంది.",
+                "Hindi": "पानी मिलाने पर यह कठोर जिप्सम बनकर जम जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Acids turn blue litmus red.",
+                "Telugu": "నిజమా అబద్ధమా: ఆమ్లాలు నీలి లిట్మస్‌ను ఎరుపుగా మారుస్తాయి.",
+                "Hindi": "सही या गलत: अम्ल नीले लिटमस को लाल करते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Phenolphthalein stays colourless in acid and turns pink in base.",
+                "Telugu": "ఫినాఫ్తలీన్ ఆమ్లంలో రంగులేకుండా, క్షారంలో గులాబీ రంగుగా మారుతుంది.",
+                "Hindi": "फ़ीनॉल्फ़्थेलिन अम्ल में रंगहीन और क्षारक में गुलाबी होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Tooth decay starts when the pH in the mouth falls below...",
+                "Telugu": "నోటిలో pH దేని కంటే తగ్గినప్పుడు దంతక్షయం మొదలవుతుంది?",
+                "Hindi": "मुँह का pH किससे नीचे जाने पर दाँत सड़ने लगते हैं?"
+              },
+              "options": {
+                "English": [
+                  "5.5",
+                  "7",
+                  "9",
+                  "12"
+                ],
+                "Telugu": [
+                  "5.5",
+                  "7",
+                  "9",
+                  "12"
+                ],
+                "Hindi": [
+                  "5.5",
+                  "7",
+                  "9",
+                  "12"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Bacteria make acids from sugar; basic toothpaste neutralises them.",
+                "Telugu": "బ్యాక్టీరియా చక్కెర నుంచి ఆమ్లాలు చేస్తుంది; క్షార టూత్‌పేస్ట్ వాటిని తటస్థీకరిస్తుంది.",
+                "Hindi": "जीवाणु शक्कर से अम्ल बनाते हैं; क्षारीय टूथपेस्ट उन्हें उदासीन करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Bleaching powder is made by passing chlorine over...",
+                "Telugu": "క్లోరిన్‌ను దేనిపై పంపి బ్లీచింగ్ పౌడర్ తయారు చేస్తారు?",
+                "Hindi": "क्लोरीन को किस पर प्रवाहित करके विरंजक चूर्ण बनाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Common salt",
+                  "Dry slaked lime",
+                  "Baking soda",
+                  "Gypsum"
+                ],
+                "Telugu": [
+                  "సాధారణ ఉప్పు",
+                  "పొడి తడిసిన సున్నం",
+                  "వంట సోడా",
+                  "జిప్సం"
+                ],
+                "Hindi": [
+                  "साधारण नमक",
+                  "सूखा बुझा चूना",
+                  "खाने का सोडा",
+                  "जिप्सम"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O; it disinfects drinking water.",
+                "Telugu": "Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O; అది తాగునీటిని క్రిమిరహితం చేస్తుంది.",
+                "Hindi": "Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O; यह पीने के पानी को कीटाणुरहित करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Bases that dissolve in water are called...",
+                "Telugu": "నీటిలో కరిగే క్షారాలను ఏమంటారు?",
+                "Hindi": "पानी में घुलने वाले क्षारक क्या कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Salts",
+                  "Indicators",
+                  "Alkalis",
+                  "Oxides only"
+                ],
+                "Telugu": [
+                  "లవణాలు",
+                  "సూచికలు",
+                  "ఆల్కలీలు (జల క్షారాలు)",
+                  "ఆక్సైడ్లు మాత్రమే"
+                ],
+                "Hindi": [
+                  "लवण",
+                  "सूचक",
+                  "क्षार (एल्कली)",
+                  "सिर्फ़ ऑक्साइड"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "NaOH and KOH are alkalis; all alkalis are bases but not all bases are alkalis.",
+                "Telugu": "NaOH, KOH ఆల్కలీలు; అన్ని ఆల్కలీలు క్షారాలే, కానీ అన్ని క్షారాలు ఆల్కలీలు కావు.",
+                "Hindi": "NaOH और KOH क्षार हैं; सभी क्षार क्षारक हैं पर सभी क्षारक क्षार नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: While diluting an acid, water should be added to the acid.",
+                "Telugu": "నిజమా అబద్ధమా: ఆమ్లాన్ని పలుచన చేసేటప్పుడు ఆమ్లంలో నీరు పోయాలి.",
+                "Hindi": "सही या गलत: अम्ल तनु करते समय अम्ल में पानी डालना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Always add acid slowly to water; adding water to acid can splash and cause burns.",
+                "Telugu": "ఎప్పుడూ ఆమ్లాన్ని నీటిలో నెమ్మదిగా పోయాలి; ఆమ్లంలో నీరు పోస్తే చిమ్మి కాలిన గాయాలు కావచ్చు.",
+                "Hindi": "हमेशा अम्ल को धीरे-धीरे पानी में डालें; अम्ल में पानी डालने से छींटे उड़कर जलन हो सकती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Washing soda is used to...",
+                "Telugu": "బట్టల సోడాను దేనికి వాడతారు?",
+                "Hindi": "धोने के सोडे का उपयोग किसलिए होता है?"
+              },
+              "options": {
+                "English": [
+                  "Make plaster casts",
+                  "Disinfect water",
+                  "Make cakes rise",
+                  "Remove permanent hardness of water"
+                ],
+                "Telugu": [
+                  "ప్లాస్టర్ కట్లు చేయడానికి",
+                  "నీటిని క్రిమిరహితం చేయడానికి",
+                  "కేకులు ఉబ్బించడానికి",
+                  "నీటి శాశ్వత కాఠిన్యాన్ని తొలగించడానికి"
+                ],
+                "Hindi": [
+                  "प्लास्टर बनाने",
+                  "पानी कीटाणुरहित करने",
+                  "केक फुलाने",
+                  "पानी की स्थायी कठोरता हटाने"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Sodium carbonate is also used in glass, soap and paper industries.",
+                "Telugu": "సోడియం కార్బొనేట్‌ను గాజు, సబ్బు, కాగితం పరిశ్రమల్లో కూడా వాడతారు.",
+                "Hindi": "सोडियम कार्बोनेट काँच, साबुन और कागज़ उद्योगों में भी उपयोग होता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metals-and-non-metals",
+      "icon": "🪙",
+      "title": {
+        "English": "Metals and Non-metals",
+        "Telugu": "లోహాలు, అలోహాలు",
+        "Hindi": "धातु एवं अधातु"
+      },
+      "description": {
+        "English": "Reactivity series, ionic compounds, extraction of metals and corrosion.",
+        "Telugu": "చర్యాశీలత శ్రేణి, అయానిక సమ్మేళనాలు, లోహ నిష్కర్షణ, క్షయం.",
+        "Hindi": "सक्रियता श्रेणी, आयनिक यौगिक, धातुओं का निष्कर्षण और संक्षारण।"
+      },
+      "lessons": [
+        {
+          "id": "metals-and-non-metals-lesson",
+          "visual": "⛏️",
+          "title": {
+            "English": "Reactivity and Extraction",
+            "Telugu": "చర్యాశీలత, నిష్కర్షణ",
+            "Hindi": "सक्रियता और निष्कर्षण"
+          },
+          "image": "./images/lessons/sorting-materials.svg",
+          "explanation": {
+            "English": "Metals can be arranged by reactivity: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au. Metals above hydrogen displace hydrogen from dilute acids. Metals lose electrons to form positive ions and non-metals gain electrons to form negative ions; they join to form ionic compounds like NaCl, which have high melting points and conduct electricity when molten or dissolved. Metals are found in ores. Highly reactive metals are extracted by electrolysis, moderately reactive ones by roasting or calcination followed by reduction with carbon, and less reactive ones by heating alone. An alloy is a mixture of metals, like steel, brass and bronze, and resists corrosion better.",
+            "Telugu": "లోహాలను చర్యాశీలత ప్రకారం అమర్చవచ్చు: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au. హైడ్రోజన్ కంటే పైనున్న లోహాలు పలుచని ఆమ్లాల నుంచి హైడ్రోజన్‌ను స్థానభ్రంశం చేస్తాయి. లోహాలు ఎలక్ట్రాన్లు కోల్పోయి ధన అయాన్లు, అలోహాలు ఎలక్ట్రాన్లు పొంది ఋణ అయాన్లు ఏర్పరుస్తాయి; అవి కలిసి NaCl వంటి అయానిక సమ్మేళనాలు ఏర్పడతాయి, వీటికి అధిక ద్రవీభవన స్థానాలు ఉండి కరిగిన లేదా ద్రావణ స్థితిలో విద్యుత్తును ప్రసరిస్తాయి. లోహాలు ఖనిజాల్లో (ఓర్లు) దొరుకుతాయి. అధిక చర్యాశీల లోహాలను విద్యుద్విశ్లేషణ ద్వారా, మధ్యస్థ చర్యాశీల లోహాలను భర్జనం లేదా భస్మీకరణం తర్వాత కార్బన్‌తో క్షయకరణం ద్వారా, తక్కువ చర్యాశీల లోహాలను వేడి చేయడం ద్వారా మాత్రమే నిష్కర్షిస్తారు. మిశ్రలోహం లోహాల మిశ్రమం, ఉక్కు, ఇత్తడి, కంచు వంటివి, క్షయాన్ని బాగా నిరోధిస్తుంది.",
+            "Hindi": "धातुओं को सक्रियता के अनुसार रखा जाता है: K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au। हाइड्रोजन से ऊपर की धातुएँ तनु अम्लों से हाइड्रोजन विस्थापित करती हैं। धातुएँ इलेक्ट्रॉन खोकर धन आयन और अधातुएँ इलेक्ट्रॉन लेकर ऋण आयन बनाती हैं; ये मिलकर NaCl जैसे आयनिक यौगिक बनाते हैं, जिनके गलनांक ऊँचे होते हैं और जो पिघली या घुली अवस्था में बिजली चलाते हैं। धातुएँ अयस्कों में मिलती हैं। बहुत सक्रिय धातुएँ विद्युत अपघटन से, मध्यम सक्रिय धातुएँ भर्जन या निस्तापन के बाद कार्बन से अपचयन द्वारा, और कम सक्रिय धातुएँ सिर्फ़ गर्म करके निकाली जाती हैं। मिश्रधातु धातुओं का मिश्रण है, जैसे स्टील, पीतल और काँसा, और यह संक्षारण का बेहतर प्रतिरोध करती है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Reactivity series: K at the top, Au at the bottom.",
+              "Metals above H displace hydrogen from acids.",
+              "Ionic compounds form by transfer of electrons.",
+              "Reactive metals are extracted by electrolysis.",
+              "Alloys like steel and brass resist corrosion."
+            ],
+            "Telugu": [
+              "చర్యాశీలత శ్రేణి: పైన K, కింద Au.",
+              "H కంటే పైనున్న లోహాలు ఆమ్లాల నుంచి హైడ్రోజన్‌ను స్థానభ్రంశం చేస్తాయి.",
+              "ఎలక్ట్రాన్ల బదిలీతో అయానిక సమ్మేళనాలు ఏర్పడతాయి.",
+              "చర్యాశీల లోహాలను విద్యుద్విశ్లేషణతో నిష్కర్షిస్తారు.",
+              "ఉక్కు, ఇత్తడి వంటి మిశ్రలోహాలు క్షయాన్ని నిరోధిస్తాయి."
+            ],
+            "Hindi": [
+              "सक्रियता श्रेणी: सबसे ऊपर K, सबसे नीचे Au।",
+              "H से ऊपर की धातुएँ अम्लों से हाइड्रोजन विस्थापित करती हैं।",
+              "इलेक्ट्रॉन स्थानांतरण से आयनिक यौगिक बनते हैं।",
+              "सक्रिय धातुएँ विद्युत अपघटन से निकाली जाती हैं।",
+              "स्टील और पीतल जैसी मिश्रधातुएँ संक्षारण रोकती हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Make a chart of the reactivity series and mark where each common household metal fits.",
+            "Telugu": "చర్యాశీలత శ్రేణి చార్టు తయారు చేసి ఇంట్లో వాడే ప్రతి లోహం ఎక్కడ వస్తుందో గుర్తించండి.",
+            "Hindi": "सक्रियता श्रेणी का चार्ट बनाइए और घर की हर आम धातु उसमें कहाँ आती है, चिह्नित कीजिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which is the most reactive metal among these?",
+                "Telugu": "వీటిలో అత్యంత చర్యాశీల లోహం ఏది?",
+                "Hindi": "इनमें सबसे सक्रिय धातु कौन सी है?"
+              },
+              "options": {
+                "English": [
+                  "Potassium",
+                  "Iron",
+                  "Copper",
+                  "Gold"
+                ],
+                "Telugu": [
+                  "పొటాషియం",
+                  "ఇనుము",
+                  "రాగి",
+                  "బంగారం"
+                ],
+                "Hindi": [
+                  "पोटैशियम",
+                  "लोहा",
+                  "ताँबा",
+                  "सोना"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Potassium is at the top of the reactivity series and reacts violently with water.",
+                "Telugu": "పొటాషియం చర్యాశీలత శ్రేణిలో పైన ఉండి నీటితో తీవ్రంగా చర్య జరుపుతుంది.",
+                "Hindi": "पोटैशियम सक्रियता श्रेणी में सबसे ऊपर है और पानी से तेज़ क्रिया करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which metal does NOT react with dilute hydrochloric acid?",
+                "Telugu": "పలుచని హైడ్రోక్లోరిక్ ఆమ్లంతో చర్య జరపని లోహం ఏది?",
+                "Hindi": "कौन सी धातु तनु हाइड्रोक्लोरिक अम्ल से क्रिया नहीं करती?"
+              },
+              "options": {
+                "English": [
+                  "Magnesium",
+                  "Copper",
+                  "Zinc",
+                  "Iron"
+                ],
+                "Telugu": [
+                  "మెగ్నీషియం",
+                  "రాగి",
+                  "జింక్",
+                  "ఇనుము"
+                ],
+                "Hindi": [
+                  "मैग्नीशियम",
+                  "ताँबा",
+                  "जस्ता",
+                  "लोहा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Copper is below hydrogen in the reactivity series, so it cannot displace it.",
+                "Telugu": "రాగి చర్యాశీలత శ్రేణిలో హైడ్రోజన్ కంటే కింద ఉంది, కాబట్టి దానిని స్థానభ్రంశం చేయలేదు.",
+                "Hindi": "ताँबा सक्रियता श्रेणी में हाइड्रोजन से नीचे है, इसलिए उसे विस्थापित नहीं कर सकता।"
+              }
+            },
+            {
+              "question": {
+                "English": "Ionic compounds conduct electricity when...",
+                "Telugu": "అయానిక సమ్మేళనాలు ఎప్పుడు విద్యుత్తును ప్రసరిస్తాయి?",
+                "Hindi": "आयनिक यौगिक बिजली कब चलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Solid",
+                  "Cold",
+                  "Molten or dissolved in water",
+                  "Never"
+                ],
+                "Telugu": [
+                  "ఘన స్థితిలో",
+                  "చల్లగా ఉన్నప్పుడు",
+                  "కరిగిన లేదా నీటిలో కరిగిన స్థితిలో",
+                  "ఎప్పుడూ కాదు"
+                ],
+                "Hindi": [
+                  "ठोस अवस्था में",
+                  "ठंडे होने पर",
+                  "पिघलने या पानी में घुलने पर",
+                  "कभी नहीं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Ions can move only in the molten or dissolved state.",
+                "Telugu": "కరిగిన లేదా ద్రావణ స్థితిలో మాత్రమే అయాన్లు కదలగలవు.",
+                "Hindi": "आयन सिर्फ़ पिघली या घुली अवस्था में चल सकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Sodium and aluminium are extracted from their compounds by...",
+                "Telugu": "సోడియం, అల్యూమినియంను వాటి సమ్మేళనాల నుంచి దేని ద్వారా నిష్కర్షిస్తారు?",
+                "Hindi": "सोडियम और एल्युमिनियम उनके यौगिकों से किससे निकाले जाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Heating alone",
+                  "Reduction with carbon",
+                  "Handpicking",
+                  "Electrolytic reduction"
+                ],
+                "Telugu": [
+                  "వేడి చేయడం మాత్రమే",
+                  "కార్బన్‌తో క్షయకరణం",
+                  "చేతితో ఏరడం",
+                  "విద్యుద్విశ్లేషణ క్షయకరణం"
+                ],
+                "Hindi": [
+                  "सिर्फ़ गर्म करके",
+                  "कार्बन से अपचयन",
+                  "हाथ से चुनकर",
+                  "विद्युत अपघटनी अपचयन"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "They are so reactive that carbon cannot reduce their oxides.",
+                "Telugu": "అవి చాలా చర్యాశీలమైనవి కాబట్టి కార్బన్ వాటి ఆక్సైడ్లను క్షయకరించలేదు.",
+                "Hindi": "ये इतनी सक्रिय हैं कि कार्बन इनके ऑक्साइड का अपचयन नहीं कर सकता।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Brass is an alloy of copper and zinc.",
+                "Telugu": "నిజమా అబద్ధమా: ఇత్తడి రాగి, జింక్ మిశ్రలోహం.",
+                "Hindi": "सही या गलत: पीतल ताँबे और जस्ते की मिश्रधातु है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Bronze is copper and tin; steel is iron with a little carbon.",
+                "Telugu": "కంచు రాగి, తగరం; ఉక్కు కొద్దిగా కార్బన్ కలిసిన ఇనుము.",
+                "Hindi": "काँसा ताँबा और टिन है; स्टील थोड़े कार्बन वाला लोहा है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Heating a sulphide ore strongly in excess air is called...",
+                "Telugu": "సల్ఫైడ్ ఖనిజాన్ని అధిక గాలిలో బాగా వేడి చేయడాన్ని ఏమంటారు?",
+                "Hindi": "सल्फ़ाइड अयस्क को अधिक हवा में तेज़ गर्म करना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Roasting",
+                  "Calcination",
+                  "Electrolysis",
+                  "Galvanising"
+                ],
+                "Telugu": [
+                  "భర్జనం",
+                  "భస్మీకరణం",
+                  "విద్యుద్విశ్లేషణ",
+                  "గాల్వనైజేషన్"
+                ],
+                "Hindi": [
+                  "भर्जन",
+                  "निस्तापन",
+                  "विद्युत अपघटन",
+                  "जस्तीकरण"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Calcination is heating carbonate ores in limited air.",
+                "Telugu": "భస్మీకరణం అంటే కార్బొనేట్ ఖనిజాలను పరిమిత గాలిలో వేడి చేయడం.",
+                "Hindi": "निस्तापन में कार्बोनेट अयस्कों को सीमित हवा में गर्म करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Pure gold is 24 carat. Ornaments are usually made of 22 carat gold because pure gold is...",
+                "Telugu": "స్వచ్ఛమైన బంగారం 24 క్యారెట్. ఆభరణాలు సాధారణంగా 22 క్యారెట్ బంగారంతో చేస్తారు ఎందుకంటే స్వచ్ఛమైన బంగారం...",
+                "Hindi": "शुद्ध सोना 24 कैरेट है। गहने आमतौर पर 22 कैरेट के क्यों बनते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Too hard",
+                  "Too soft",
+                  "Magnetic",
+                  "Black in colour"
+                ],
+                "Telugu": [
+                  "చాలా గట్టిది",
+                  "చాలా మెత్తనిది",
+                  "అయస్కాంత గుణం గలది",
+                  "నల్లని రంగులో"
+                ],
+                "Hindi": [
+                  "बहुत कठोर है",
+                  "बहुत नरम है",
+                  "चुंबकीय है",
+                  "काले रंग का है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Adding copper or silver makes gold harder and more durable.",
+                "Telugu": "రాగి లేదా వెండి కలపడం బంగారాన్ని గట్టిగా, మన్నికగా చేస్తుంది.",
+                "Hindi": "ताँबा या चाँदी मिलाने से सोना कठोर और टिकाऊ बनता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which non-metal is liquid at room temperature?",
+                "Telugu": "గది ఉష్ణోగ్రత వద్ద ద్రవంగా ఉండే అలోహం ఏది?",
+                "Hindi": "कमरे के तापमान पर कौन सी अधातु द्रव है?"
+              },
+              "options": {
+                "English": [
+                  "Iodine",
+                  "Sulphur",
+                  "Bromine",
+                  "Carbon"
+                ],
+                "Telugu": [
+                  "అయోడిన్",
+                  "సల్ఫర్",
+                  "బ్రోమిన్",
+                  "కార్బన్"
+                ],
+                "Hindi": [
+                  "आयोडीन",
+                  "सल्फ़र",
+                  "ब्रोमीन",
+                  "कार्बन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Bromine is a liquid non-metal; mercury is the liquid metal.",
+                "Telugu": "బ్రోమిన్ ద్రవ అలోహం; పాదరసం ద్రవ లోహం.",
+                "Hindi": "ब्रोमीन द्रव अधातु है; पारा द्रव धातु है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Aluminium oxide is an amphoteric oxide that reacts with both acids and bases.",
+                "Telugu": "నిజమా అబద్ధమా: అల్యూమినియం ఆక్సైడ్ ఆమ్లాలు, క్షారాలు రెండింటితో చర్య జరిపే ద్విస్వభావ ఆక్సైడ్.",
+                "Hindi": "सही या गलत: एल्युमिनियम ऑक्साइड उभयधर्मी ऑक्साइड है जो अम्ल और क्षारक दोनों से क्रिया करता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Zinc oxide is also amphoteric.",
+                "Telugu": "జింక్ ఆక్సైడ్ కూడా ద్విస్వభావ ఆక్సైడ్.",
+                "Hindi": "जिंक ऑक्साइड भी उभयधर्मी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The thermit reaction between iron oxide and aluminium is used to...",
+                "Telugu": "ఐరన్ ఆక్సైడ్, అల్యూమినియం మధ్య థెర్మైట్ చర్యను దేనికి వాడతారు?",
+                "Hindi": "आयरन ऑक्साइड और एल्युमिनियम के बीच थर्माइट अभिक्रिया किसलिए उपयोग होती है?"
+              },
+              "options": {
+                "English": [
+                  "Make glass",
+                  "Bleach clothes",
+                  "Make soap",
+                  "Join broken railway tracks"
+                ],
+                "Telugu": [
+                  "గాజు తయారీకి",
+                  "బట్టలు తెల్లబరచడానికి",
+                  "సబ్బు తయారీకి",
+                  "విరిగిన రైలు పట్టాలను అతకడానికి"
+                ],
+                "Hindi": [
+                  "काँच बनाने",
+                  "कपड़े विरंजित करने",
+                  "साबुन बनाने",
+                  "टूटी रेल पटरियाँ जोड़ने"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The reaction is so exothermic that iron is produced in the molten state.",
+                "Telugu": "ఈ చర్య ఎంత ఉష్ణమోచకమంటే ఇనుము కరిగిన స్థితిలో ఏర్పడుతుంది.",
+                "Hindi": "यह अभिक्रिया इतनी ऊष्माक्षेपी है कि लोहा पिघली अवस्था में बनता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carbon-and-its-compounds",
+      "icon": "💎",
+      "title": {
+        "English": "Carbon and Its Compounds",
+        "Telugu": "కార్బన్, దాని సమ్మేళనాలు",
+        "Hindi": "कार्बन एवं उसके यौगिक"
+      },
+      "description": {
+        "English": "Covalent bonds, hydrocarbons, functional groups, soaps and detergents.",
+        "Telugu": "సమయోజనీయ బంధాలు, హైడ్రోకార్బన్లు, ప్రమేయ సమూహాలు, సబ్బులు, డిటర్జెంట్లు.",
+        "Hindi": "सहसंयोजी आबंध, हाइड्रोकार्बन, प्रकार्यात्मक समूह, साबुन और अपमार्जक।"
+      },
+      "lessons": [
+        {
+          "id": "carbon-and-its-compounds-lesson",
+          "visual": "🧼",
+          "title": {
+            "English": "The Versatile Element",
+            "Telugu": "బహుముఖ మూలకం",
+            "Hindi": "बहुमुखी तत्व"
+          },
+          "image": "./images/lessons/new-substances-from-reactions.svg",
+          "explanation": {
+            "English": "Carbon has four valence electrons and forms covalent bonds by sharing electrons. It can link with other carbon atoms to form long chains, branches and rings (catenation), so it forms millions of compounds. Diamond and graphite are allotropes of carbon. Compounds of only carbon and hydrogen are hydrocarbons: alkanes (single bonds, saturated), alkenes (double bonds) and alkynes (triple bonds). Functional groups like -OH (alcohol), -COOH (carboxylic acid) and -CHO (aldehyde) give compounds their properties. Ethanol and ethanoic acid (vinegar) are important. Soaps clean by forming micelles, but detergents work better in hard water.",
+            "Telugu": "కార్బన్‌కు నాలుగు సంయోజక ఎలక్ట్రాన్లు ఉండి ఎలక్ట్రాన్లను పంచుకొని సమయోజనీయ బంధాలు ఏర్పరుస్తుంది. అది ఇతర కార్బన్ పరమాణువులతో కలిసి పొడవైన గొలుసులు, శాఖలు, వలయాలు ఏర్పరచగలదు (శృంఖలనం), అందుకే లక్షలాది సమ్మేళనాలు ఏర్పరుస్తుంది. వజ్రం, గ్రాఫైట్ కార్బన్ రూపాంతరాలు. కార్బన్, హైడ్రోజన్ మాత్రమే ఉన్న సమ్మేళనాలు హైడ్రోకార్బన్లు: ఆల్కేన్లు (ఏక బంధాలు, సంతృప్తం), ఆల్కీన్లు (ద్విబంధాలు), ఆల్కైన్లు (త్రిబంధాలు). -OH (ఆల్కహాల్), -COOH (కార్బాక్సిలిక్ ఆమ్లం), -CHO (ఆల్డిహైడ్) వంటి ప్రమేయ సమూహాలు సమ్మేళనాలకు గుణాలు ఇస్తాయి. ఇథనాల్, ఇథనోయిక్ ఆమ్లం (వెనిగర్) ముఖ్యమైనవి. సబ్బులు మిసెల్లు ఏర్పరచి శుభ్రం చేస్తాయి, కానీ కఠిన జలంలో డిటర్జెంట్లు బాగా పనిచేస్తాయి.",
+            "Hindi": "कार्बन के चार संयोजी इलेक्ट्रॉन होते हैं और यह इलेक्ट्रॉन साझा कर सहसंयोजी आबंध बनाता है। यह दूसरे कार्बन परमाणुओं से जुड़कर लंबी शृंखलाएँ, शाखाएँ और वलय बना सकता है (शृंखलन), इसलिए लाखों यौगिक बनाता है। हीरा और ग्रेफ़ाइट कार्बन के अपररूप हैं। सिर्फ़ कार्बन और हाइड्रोजन वाले यौगिक हाइड्रोकार्बन हैं: ऐल्केन (एकल आबंध, संतृप्त), ऐल्कीन (द्विआबंध) और ऐल्काइन (त्रिआबंध)। -OH (ऐल्कोहॉल), -COOH (कार्बोक्सिलिक अम्ल) और -CHO (ऐल्डिहाइड) जैसे प्रकार्यात्मक समूह यौगिकों को गुण देते हैं। एथेनॉल और एथेनॉइक अम्ल (सिरका) महत्वपूर्ण हैं। साबुन मिसेल बनाकर साफ़ करते हैं, पर कठोर जल में अपमार्जक बेहतर काम करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Carbon forms covalent bonds by sharing electrons.",
+              "Catenation lets carbon form chains and rings.",
+              "Alkanes: single bonds; alkenes: double; alkynes: triple.",
+              "Functional groups decide properties.",
+              "Detergents work in hard water; soaps do not."
+            ],
+            "Telugu": [
+              "కార్బన్ ఎలక్ట్రాన్లు పంచుకొని సమయోజనీయ బంధాలు ఏర్పరుస్తుంది.",
+              "శృంఖలనం వల్ల కార్బన్ గొలుసులు, వలయాలు ఏర్పరుస్తుంది.",
+              "ఆల్కేన్లు: ఏక బంధాలు; ఆల్కీన్లు: ద్విబంధాలు; ఆల్కైన్లు: త్రిబంధాలు.",
+              "ప్రమేయ సమూహాలు గుణాలను నిర్ణయిస్తాయి.",
+              "కఠిన జలంలో డిటర్జెంట్లు పనిచేస్తాయి; సబ్బులు పనిచేయవు."
+            ],
+            "Hindi": [
+              "कार्बन इलेक्ट्रॉन साझा कर सहसंयोजी आबंध बनाता है।",
+              "शृंखलन से कार्बन शृंखलाएँ और वलय बनाता है।",
+              "ऐल्केन: एकल; ऐल्कीन: द्वि; ऐल्काइन: त्रि आबंध।",
+              "प्रकार्यात्मक समूह गुण तय करते हैं।",
+              "कठोर जल में अपमार्जक काम करते हैं; साबुन नहीं।"
+            ]
+          },
+          "activity": {
+            "English": "Shake soap solution in two test tubes, one with distilled water and one with hard water. Compare the foam.",
+            "Telugu": "రెండు పరీక్ష నాళికల్లో, ఒకదాంట్లో స్వేదన జలం, మరోదాంట్లో కఠిన జలంతో సబ్బు ద్రావణం కుదపండి. నురుగును పోల్చండి.",
+            "Hindi": "दो परखनलियों में, एक में आसुत जल और दूसरी में कठोर जल के साथ साबुन का घोल हिलाइए। झाग की तुलना कीजिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Carbon forms bonds mainly by...",
+                "Telugu": "కార్బన్ ప్రధానంగా దేని ద్వారా బంధాలు ఏర్పరుస్తుంది?",
+                "Hindi": "कार्बन मुख्य रूप से कैसे आबंध बनाता है?"
+              },
+              "options": {
+                "English": [
+                  "Sharing electrons (covalent bonds)",
+                  "Losing four electrons",
+                  "Gaining four electrons",
+                  "Magnetism"
+                ],
+                "Telugu": [
+                  "ఎలక్ట్రాన్లు పంచుకోవడం (సమయోజనీయ బంధాలు)",
+                  "నాలుగు ఎలక్ట్రాన్లు కోల్పోవడం",
+                  "నాలుగు ఎలక్ట్రాన్లు పొందడం",
+                  "అయస్కాంతత్వం"
+                ],
+                "Hindi": [
+                  "इलेक्ट्रॉन साझा करके (सहसंयोजी आबंध)",
+                  "चार इलेक्ट्रॉन खोकर",
+                  "चार इलेक्ट्रॉन लेकर",
+                  "चुंबकत्व से"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Losing or gaining four electrons needs too much energy, so carbon shares them.",
+                "Telugu": "నాలుగు ఎలక్ట్రాన్లు కోల్పోవడం లేదా పొందడానికి చాలా శక్తి కావాలి, అందుకే కార్బన్ వాటిని పంచుకుంటుంది.",
+                "Hindi": "चार इलेक्ट्रॉन खोने या लेने में बहुत ऊर्जा लगती है, इसलिए कार्बन उन्हें साझा करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The property of carbon to form long chains with itself is...",
+                "Telugu": "తనతోనే పొడవైన గొలుసులు ఏర్పరచే కార్బన్ గుణం...",
+                "Hindi": "अपने साथ लंबी शृंखलाएँ बनाने का कार्बन का गुण क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Allotropy",
+                  "Catenation",
+                  "Sublimation",
+                  "Corrosion"
+                ],
+                "Telugu": [
+                  "రూపాంతరత",
+                  "శృంఖలనం",
+                  "ఉత్పతనం",
+                  "క్షయం"
+                ],
+                "Hindi": [
+                  "अपररूपता",
+                  "शृंखलन",
+                  "ऊर्ध्वपातन",
+                  "संक्षारण"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Catenation and tetravalency together let carbon form millions of compounds.",
+                "Telugu": "శృంఖలనం, చతుస్సంయోజకత కలిసి కార్బన్ లక్షలాది సమ్మేళనాలు ఏర్పరచేలా చేస్తాయి.",
+                "Hindi": "शृंखलन और चतुःसंयोजकता मिलकर कार्बन को लाखों यौगिक बनाने देते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The general formula of alkanes is...",
+                "Telugu": "ఆల్కేన్ల సాధారణ ఫార్ములా...",
+                "Hindi": "ऐल्केन का सामान्य सूत्र क्या है?"
+              },
+              "options": {
+                "English": [
+                  "CₙH₂ₙ",
+                  "CₙH₂ₙ₋₂",
+                  "CₙH₂ₙ₊₂",
+                  "CₙHₙ"
+                ],
+                "Telugu": [
+                  "CₙH₂ₙ",
+                  "CₙH₂ₙ₋₂",
+                  "CₙH₂ₙ₊₂",
+                  "CₙHₙ"
+                ],
+                "Hindi": [
+                  "CₙH₂ₙ",
+                  "CₙH₂ₙ₋₂",
+                  "CₙH₂ₙ₊₂",
+                  "CₙHₙ"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Methane CH₄ and ethane C₂H₆ are alkanes; alkenes are CₙH₂ₙ.",
+                "Telugu": "మీథేన్ CH₄, ఈథేన్ C₂H₆ ఆల్కేన్లు; ఆల్కీన్లు CₙH₂ₙ.",
+                "Hindi": "मेथेन CH₄ और एथेन C₂H₆ ऐल्केन हैं; ऐल्कीन CₙH₂ₙ हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which functional group is present in ethanoic acid?",
+                "Telugu": "ఇథనోయిక్ ఆమ్లంలో ఉండే ప్రమేయ సమూహం ఏది?",
+                "Hindi": "एथेनॉइक अम्ल में कौन सा प्रकार्यात्मक समूह है?"
+              },
+              "options": {
+                "English": [
+                  "-OH",
+                  "-CHO",
+                  "-CO-",
+                  "-COOH"
+                ],
+                "Telugu": [
+                  "-OH",
+                  "-CHO",
+                  "-CO-",
+                  "-COOH"
+                ],
+                "Hindi": [
+                  "-OH",
+                  "-CHO",
+                  "-CO-",
+                  "-COOH"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "-COOH is the carboxylic acid group; 5-8% ethanoic acid in water is vinegar.",
+                "Telugu": "-COOH కార్బాక్సిలిక్ ఆమ్ల సమూహం; నీటిలో 5-8% ఇథనోయిక్ ఆమ్లమే వెనిగర్.",
+                "Hindi": "-COOH कार्बोक्सिलिक अम्ल समूह है; पानी में 5-8% एथेनॉइक अम्ल सिरका है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Diamond and graphite are both made only of carbon atoms.",
+                "Telugu": "నిజమా అబద్ధమా: వజ్రం, గ్రాఫైట్ రెండూ కార్బన్ పరమాణువులతోనే తయారవుతాయి.",
+                "Hindi": "सही या गलत: हीरा और ग्रेफ़ाइट दोनों सिर्फ़ कार्बन परमाणुओं से बने हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "They are allotropes with different arrangements: diamond is very hard, graphite is soft and conducts electricity.",
+                "Telugu": "అవి వేర్వేరు అమరికలు గల రూపాంతరాలు: వజ్రం చాలా గట్టిది, గ్రాఫైట్ మెత్తనిది, విద్యుత్తును ప్రసరిస్తుంది.",
+                "Hindi": "ये अलग व्यवस्था वाले अपररूप हैं: हीरा बहुत कठोर, ग्रेफ़ाइट नरम और बिजली का चालक है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Saturated hydrocarbons have only...",
+                "Telugu": "సంతృప్త హైడ్రోకార్బన్లలో ఉండేవి...",
+                "Hindi": "संतृप्त हाइड्रोकार्बन में सिर्फ़ क्या होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Single bonds",
+                  "Double bonds",
+                  "Triple bonds",
+                  "Ionic bonds"
+                ],
+                "Telugu": [
+                  "ఏక బంధాలు మాత్రమే",
+                  "ద్విబంధాలు",
+                  "త్రిబంధాలు",
+                  "అయానిక బంధాలు"
+                ],
+                "Hindi": [
+                  "एकल आबंध",
+                  "द्विआबंध",
+                  "त्रिआबंध",
+                  "आयनिक आबंध"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Saturated compounds burn with a clean blue flame; unsaturated ones give a sooty flame.",
+                "Telugu": "సంతృప్త సమ్మేళనాలు శుభ్రమైన నీలి మంటతో మండుతాయి; అసంతృప్తాలు మసితో కూడిన మంట ఇస్తాయి.",
+                "Hindi": "संतृप्त यौगिक साफ़ नीली लौ से जलते हैं; असंतृप्त कालिख वाली लौ देते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Adding hydrogen to vegetable oils using a nickel catalyst produces...",
+                "Telugu": "నికెల్ ఉత్ప్రేరకంతో కూరగాయల నూనెలకు హైడ్రోజన్ చేర్చితే ఏర్పడేది...",
+                "Hindi": "निकेल उत्प्रेरक से वनस्पति तेलों में हाइड्रोजन मिलाने पर क्या बनता है?"
+              },
+              "options": {
+                "English": [
+                  "Vinegar",
+                  "Vegetable ghee (vanaspati)",
+                  "Soap",
+                  "Alcohol"
+                ],
+                "Telugu": [
+                  "వెనిగర్",
+                  "వనస్పతి నెయ్యి",
+                  "సబ్బు",
+                  "ఆల్కహాల్"
+                ],
+                "Hindi": [
+                  "सिरका",
+                  "वनस्पति घी",
+                  "साबुन",
+                  "ऐल्कोहॉल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "This is a hydrogenation (addition) reaction that turns unsaturated oils into saturated fats.",
+                "Telugu": "ఇది హైడ్రోజనీకరణ (సంకలన) చర్య, అసంతృప్త నూనెలను సంతృప్త కొవ్వులుగా మారుస్తుంది.",
+                "Hindi": "यह हाइड्रोजनीकरण (योगात्मक) अभिक्रिया है जो असंतृप्त तेलों को संतृप्त वसा बनाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Ethanol reacts with ethanoic acid in the presence of an acid to form...",
+                "Telugu": "ఆమ్ల సమక్షంలో ఇథనాల్ ఇథనోయిక్ ఆమ్లంతో చర్య జరిపి ఏర్పరిచేది...",
+                "Hindi": "अम्ल की उपस्थिति में एथेनॉल एथेनॉइक अम्ल से क्रिया करके क्या बनाता है?"
+              },
+              "options": {
+                "English": [
+                  "A salt only",
+                  "Methane",
+                  "An ester with a sweet smell",
+                  "Carbon monoxide"
+                ],
+                "Telugu": [
+                  "లవణం మాత్రమే",
+                  "మీథేన్",
+                  "తియ్యని వాసన గల ఎస్టర్",
+                  "కార్బన్ మోనాక్సైడ్"
+                ],
+                "Hindi": [
+                  "सिर्फ़ लवण",
+                  "मेथेन",
+                  "मीठी गंध वाला एस्टर",
+                  "कार्बन मोनोऑक्साइड"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "This esterification gives sweet-smelling esters used in perfumes and flavours.",
+                "Telugu": "ఈ ఎస్టరీకరణ సుగంధ ద్రవ్యాలు, రుచుల్లో వాడే తియ్యని వాసన గల ఎస్టర్లను ఇస్తుంది.",
+                "Hindi": "यह एस्टरीकरण इत्र और स्वाद में काम आने वाले मीठी गंध वाले एस्टर देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Soaps do not lather well in hard water because they form scum.",
+                "Telugu": "నిజమా అబద్ధమా: కఠిన జలంలో సబ్బులు మడ్డి (స్కమ్) ఏర్పరుస్తాయి కాబట్టి బాగా నురుగు రాదు.",
+                "Hindi": "सही या गलत: कठोर जल में साबुन मैल (स्कम) बनाता है, इसलिए अच्छा झाग नहीं देता।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Calcium and magnesium salts in hard water react with soap to form an insoluble scum.",
+                "Telugu": "కఠిన జలంలోని కాల్షియం, మెగ్నీషియం లవణాలు సబ్బుతో చర్య జరిపి కరగని మడ్డిని ఏర్పరుస్తాయి.",
+                "Hindi": "कठोर जल के कैल्शियम और मैग्नीशियम लवण साबुन से क्रिया कर अघुलनशील मैल बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The IUPAC name of CH₃CH₂OH is...",
+                "Telugu": "CH₃CH₂OH యొక్క IUPAC పేరు...",
+                "Hindi": "CH₃CH₂OH का IUPAC नाम क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Methanol",
+                  "Ethanal",
+                  "Ethane",
+                  "Ethanol"
+                ],
+                "Telugu": [
+                  "మిథనాల్",
+                  "ఇథనాల్ (ఆల్డిహైడ్)",
+                  "ఈథేన్",
+                  "ఇథనాల్"
+                ],
+                "Hindi": [
+                  "मेथेनॉल",
+                  "एथेनैल",
+                  "एथेन",
+                  "एथेनॉल"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Two carbons give 'eth', single bonds give 'an', and -OH gives the ending '-ol'.",
+                "Telugu": "రెండు కార్బన్లు 'ఇథ్', ఏక బంధాలు 'ఏన్', -OH చివర '-ఆల్' ఇస్తాయి.",
+                "Hindi": "दो कार्बन से 'एथ', एकल आबंध से 'एन', और -OH से अंत '-ऑल' बनता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "light-reflection-refraction",
+      "icon": "🔍",
+      "title": {
+        "English": "Light: Reflection and Refraction",
+        "Telugu": "కాంతి: పరావర్తనం, వక్రీభవనం",
+        "Hindi": "प्रकाश: परावर्तन और अपवर्तन"
+      },
+      "description": {
+        "English": "Spherical mirrors, refraction, lenses and power of a lens.",
+        "Telugu": "గోళాకార దర్పణాలు, వక్రీభవనం, కటకాలు, కటక సామర్థ్యం.",
+        "Hindi": "गोलीय दर्पण, अपवर्तन, लेंस और लेंस की क्षमता।"
+      },
+      "lessons": [
+        {
+          "id": "light-reflection-refraction-lesson",
+          "visual": "👓",
+          "title": {
+            "English": "Mirrors, Lenses and Formulas",
+            "Telugu": "దర్పణాలు, కటకాలు, సూత్రాలు",
+            "Hindi": "दर्पण, लेंस और सूत्र"
+          },
+          "image": "./images/lessons/light-and-shadows.svg",
+          "explanation": {
+            "English": "In reflection, the angle of incidence equals the angle of reflection. For spherical mirrors, the focal length f is half the radius of curvature R, and the mirror formula is 1/v + 1/u = 1/f. Concave mirrors are used in torches and by dentists; convex mirrors as rear-view mirrors. Refraction is the bending of light when it passes from one medium to another because its speed changes; refractive index n = c/v. Light bends towards the normal when entering a denser medium. For lenses, 1/v - 1/u = 1/f. The power of a lens P = 1/f (f in metres), measured in dioptres; a convex lens has positive power and a concave lens negative power.",
+            "Telugu": "పరావర్తనంలో పతన కోణం పరావర్తన కోణానికి సమానం. గోళాకార దర్పణాలకు నాభ్యాంతరం f వక్రతా వ్యాసార్ధం Rలో సగం, దర్పణ సూత్రం 1/v + 1/u = 1/f. పుటాకార దర్పణాలను టార్చ్‌లలో, దంత వైద్యులు వాడతారు; కుంభాకార దర్పణాలను వెనుక చూపు దర్పణాలుగా. కాంతి ఒక యానకం నుంచి మరో యానకంలోకి వెళ్లినప్పుడు వేగం మారడం వల్ల వంగడమే వక్రీభవనం; వక్రీభవన గుణకం n = c/v. సాంద్రతర యానకంలోకి ప్రవేశించినప్పుడు కాంతి లంబం వైపు వంగుతుంది. కటకాలకు 1/v - 1/u = 1/f. కటక సామర్థ్యం P = 1/f (f మీటర్లలో), డయాప్టర్లలో కొలుస్తారు; కుంభాకార కటకానికి ధన, పుటాకార కటకానికి ఋణ సామర్థ్యం.",
+            "Hindi": "परावर्तन में आपतन कोण परावर्तन कोण के बराबर होता है। गोलीय दर्पणों में फ़ोकस दूरी f वक्रता त्रिज्या R की आधी होती है, और दर्पण सूत्र 1/v + 1/u = 1/f है। अवतल दर्पण टॉर्च और दंत चिकित्सक उपयोग करते हैं; उत्तल दर्पण पीछे देखने के लिए। एक माध्यम से दूसरे में जाते समय चाल बदलने से प्रकाश का मुड़ना अपवर्तन है; अपवर्तनांक n = c/v। सघन माध्यम में जाने पर प्रकाश अभिलंब की ओर मुड़ता है। लेंस के लिए 1/v - 1/u = 1/f। लेंस की क्षमता P = 1/f (f मीटर में), डाइऑप्टर में; उत्तल लेंस की क्षमता धनात्मक और अवतल की ऋणात्मक होती है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Angle of incidence = angle of reflection.",
+              "f = R/2; mirror formula 1/v + 1/u = 1/f.",
+              "Refractive index n = c/v.",
+              "Lens formula 1/v - 1/u = 1/f.",
+              "Power P = 1/f in dioptres."
+            ],
+            "Telugu": [
+              "పతన కోణం = పరావర్తన కోణం.",
+              "f = R/2; దర్పణ సూత్రం 1/v + 1/u = 1/f.",
+              "వక్రీభవన గుణకం n = c/v.",
+              "కటక సూత్రం 1/v - 1/u = 1/f.",
+              "సామర్థ్యం P = 1/f డయాప్టర్లలో."
+            ],
+            "Hindi": [
+              "आपतन कोण = परावर्तन कोण।",
+              "f = R/2; दर्पण सूत्र 1/v + 1/u = 1/f।",
+              "अपवर्तनांक n = c/v।",
+              "लेंस सूत्र 1/v - 1/u = 1/f।",
+              "क्षमता P = 1/f डाइऑप्टर में।"
+            ]
+          },
+          "activity": {
+            "English": "Put a pencil partly in a glass of water and look from the side. Explain why it looks bent.",
+            "Telugu": "నీటి గ్లాసులో పెన్సిల్‌ను సగం ముంచి పక్క నుంచి చూడండి. అది వంగినట్లు ఎందుకు కనిపిస్తుందో వివరించండి.",
+            "Hindi": "पानी के गिलास में पेंसिल आधी डुबोकर बगल से देखिए। वह मुड़ी हुई क्यों दिखती है, समझाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The focal length of a spherical mirror of radius of curvature 20 cm is...",
+                "Telugu": "వక్రతా వ్యాసార్ధం 20 సెం.మీ. గల గోళాకార దర్పణ నాభ్యాంతరం...",
+                "Hindi": "20 सेमी वक्रता त्रिज्या वाले गोलीय दर्पण की फ़ोकस दूरी कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "10 cm",
+                  "20 cm",
+                  "40 cm",
+                  "5 cm"
+                ],
+                "Telugu": [
+                  "10 సెం.మీ",
+                  "20 సెం.మీ",
+                  "40 సెం.మీ",
+                  "5 సెం.మీ"
+                ],
+                "Hindi": [
+                  "10 सेमी",
+                  "20 सेमी",
+                  "40 सेमी",
+                  "5 सेमी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "f = R/2 = 20/2 = 10 cm.",
+                "Telugu": "f = R/2 = 20/2 = 10 సెం.మీ.",
+                "Hindi": "f = R/2 = 20/2 = 10 सेमी।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which mirror is used in vehicle headlights to give a strong parallel beam?",
+                "Telugu": "బలమైన సమాంతర కాంతి పుంజం కోసం వాహనాల హెడ్‌లైట్లలో వాడే దర్పణం ఏది?",
+                "Hindi": "तेज़ समांतर किरण पुंज के लिए वाहन की हेडलाइट में कौन सा दर्पण लगता है?"
+              },
+              "options": {
+                "English": [
+                  "Convex mirror",
+                  "Concave mirror",
+                  "Plane mirror",
+                  "No mirror"
+                ],
+                "Telugu": [
+                  "కుంభాకార దర్పణం",
+                  "పుటాకార దర్పణం",
+                  "సమతల దర్పణం",
+                  "దర్పణం లేదు"
+                ],
+                "Hindi": [
+                  "उत्तल दर्पण",
+                  "अवतल दर्पण",
+                  "समतल दर्पण",
+                  "कोई दर्पण नहीं"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A bulb at the focus of a concave mirror gives a parallel beam.",
+                "Telugu": "పుటాకార దర్పణ నాభి వద్ద ఉంచిన బల్బు సమాంతర కాంతి పుంజం ఇస్తుంది.",
+                "Hindi": "अवतल दर्पण के फ़ोकस पर रखा बल्ब समांतर किरण पुंज देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "When light goes from air into glass, it bends...",
+                "Telugu": "కాంతి గాలి నుంచి గాజులోకి వెళ్లినప్పుడు అది...",
+                "Hindi": "प्रकाश हवा से काँच में जाने पर कैसे मुड़ता है?"
+              },
+              "options": {
+                "English": [
+                  "Away from the normal",
+                  "Not at all",
+                  "Towards the normal",
+                  "Back into the air always"
+                ],
+                "Telugu": [
+                  "లంబం నుంచి దూరంగా వంగుతుంది",
+                  "అసలు వంగదు",
+                  "లంబం వైపు వంగుతుంది",
+                  "ఎప్పుడూ తిరిగి గాలిలోకి"
+                ],
+                "Hindi": [
+                  "अभिलंब से दूर",
+                  "बिल्कुल नहीं",
+                  "अभिलंब की ओर",
+                  "हमेशा वापस हवा में"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Light slows down in the optically denser glass and bends towards the normal.",
+                "Telugu": "దృశ్యపరంగా సాంద్రతర గాజులో కాంతి వేగం తగ్గి లంబం వైపు వంగుతుంది.",
+                "Hindi": "प्रकाशतः सघन काँच में प्रकाश धीमा होकर अभिलंब की ओर मुड़ता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The refractive index of a medium is defined as...",
+                "Telugu": "యానకం వక్రీభవన గుణకాన్ని ఎలా నిర్వచిస్తారు?",
+                "Hindi": "किसी माध्यम का अपवर्तनांक कैसे परिभाषित है?"
+              },
+              "options": {
+                "English": [
+                  "Speed in medium / speed in vacuum",
+                  "Focal length / radius",
+                  "Angle of incidence × angle of refraction",
+                  "Speed of light in vacuum / speed in the medium"
+                ],
+                "Telugu": [
+                  "యానకంలో వేగం / శూన్యంలో వేగం",
+                  "నాభ్యాంతరం / వ్యాసార్ధం",
+                  "పతన కోణం × వక్రీభవన కోణం",
+                  "శూన్యంలో కాంతి వేగం / యానకంలో వేగం"
+                ],
+                "Hindi": [
+                  "माध्यम में चाल / निर्वात में चाल",
+                  "फ़ोकस दूरी / त्रिज्या",
+                  "आपतन कोण × अपवर्तन कोण",
+                  "निर्वात में प्रकाश की चाल / माध्यम में चाल"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "n = c/v; for glass it is about 1.5, and for diamond about 2.42.",
+                "Telugu": "n = c/v; గాజుకు సుమారు 1.5, వజ్రానికి సుమారు 2.42.",
+                "Hindi": "n = c/v; काँच के लिए लगभग 1.5 और हीरे के लिए लगभग 2.42।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A convex lens has positive power.",
+                "Telugu": "నిజమా అబద్ధమా: కుంభాకార కటకానికి ధన సామర్థ్యం ఉంటుంది.",
+                "Hindi": "सही या गलत: उत्तल लेंस की क्षमता धनात्मक होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Its focal length is positive by sign convention; a concave lens has negative power.",
+                "Telugu": "సంజ్ఞా సంప్రదాయం ప్రకారం దాని నాభ్యాంతరం ధనాత్మకం; పుటాకార కటకానికి ఋణ సామర్థ్యం.",
+                "Hindi": "चिह्न परिपाटी के अनुसार इसकी फ़ोकस दूरी धनात्मक है; अवतल लेंस की क्षमता ऋणात्मक है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The power of a lens of focal length 50 cm is...",
+                "Telugu": "50 సెం.మీ. నాభ్యాంతరం గల కటక సామర్థ్యం...",
+                "Hindi": "50 सेमी फ़ोकस दूरी वाले लेंस की क्षमता कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "+2 D",
+                  "+0.5 D",
+                  "+50 D",
+                  "-2 D"
+                ],
+                "Telugu": [
+                  "+2 D",
+                  "+0.5 D",
+                  "+50 D",
+                  "-2 D"
+                ],
+                "Hindi": [
+                  "+2 D",
+                  "+0.5 D",
+                  "+50 D",
+                  "-2 D"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "P = 1/f = 1/0.5 m = +2 dioptres.",
+                "Telugu": "P = 1/f = 1/0.5 మీ = +2 డయాప్టర్లు.",
+                "Hindi": "P = 1/f = 1/0.5 मी = +2 डाइऑप्टर।"
+              }
+            },
+            {
+              "question": {
+                "English": "A convex mirror always forms an image that is...",
+                "Telugu": "కుంభాకార దర్పణం ఎప్పుడూ ఏర్పరిచే ప్రతిబింబం...",
+                "Hindi": "उत्तल दर्पण हमेशा कैसा प्रतिबिंब बनाता है?"
+              },
+              "options": {
+                "English": [
+                  "Real and inverted",
+                  "Virtual, erect and diminished",
+                  "Real and enlarged",
+                  "Virtual and enlarged"
+                ],
+                "Telugu": [
+                  "నిజమైనది, తలకిందులు",
+                  "మిథ్యా, నిటారు, చిన్నది",
+                  "నిజమైనది, పెద్దది",
+                  "మిథ్యా, పెద్దది"
+                ],
+                "Hindi": [
+                  "वास्तविक और उल्टा",
+                  "आभासी, सीधा और छोटा",
+                  "वास्तविक और बड़ा",
+                  "आभासी और बड़ा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "That small upright image covers a wide field of view, useful for rear-view mirrors.",
+                "Telugu": "ఆ చిన్న నిటారు ప్రతిబింబం విశాల దృశ్యాన్ని చూపిస్తుంది, వెనుక చూపు దర్పణాలకు ఉపయోగం.",
+                "Hindi": "यह छोटा सीधा प्रतिबिंब चौड़ा दृश्य क्षेत्र दिखाता है, जो पीछे देखने के दर्पण में उपयोगी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "An object is placed at 2F in front of a convex lens. The image is formed...",
+                "Telugu": "కుంభాకార కటకం ముందు 2F వద్ద వస్తువును ఉంచారు. ప్రతిబింబం ఎక్కడ ఏర్పడుతుంది?",
+                "Hindi": "उत्तल लेंस के सामने 2F पर वस्तु रखी है। प्रतिबिंब कहाँ बनता है?"
+              },
+              "options": {
+                "English": [
+                  "At F, very small",
+                  "At infinity",
+                  "At 2F on the other side, same size and inverted",
+                  "On the same side, enlarged"
+                ],
+                "Telugu": [
+                  "F వద్ద, చాలా చిన్నగా",
+                  "అనంతంలో",
+                  "అవతలి వైపు 2F వద్ద, అదే పరిమాణం, తలకిందులు",
+                  "అదే వైపు, పెద్దగా"
+                ],
+                "Hindi": [
+                  "F पर, बहुत छोटा",
+                  "अनंत पर",
+                  "दूसरी ओर 2F पर, समान आकार और उल्टा",
+                  "उसी ओर, बड़ा"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "At 2F the image is real, inverted and the same size as the object.",
+                "Telugu": "2F వద్ద ప్రతిబింబం నిజమైనది, తలకిందులు, వస్తువు పరిమాణంలోనే ఉంటుంది.",
+                "Hindi": "2F पर प्रतिबिंब वास्तविक, उल्टा और वस्तु के बराबर आकार का होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A pool of water looks shallower than it really is because of refraction.",
+                "Telugu": "నిజమా అబద్ధమా: వక్రీభవనం వల్ల నీటి కొలను నిజంగా ఉన్నదానికంటే లోతు తక్కువగా కనిపిస్తుంది.",
+                "Hindi": "सही या गलत: अपवर्तन के कारण पानी का तालाब असल से कम गहरा दिखता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Light from the bottom bends away from the normal as it leaves water, raising the apparent depth.",
+                "Telugu": "అడుగు నుంచి వచ్చే కాంతి నీటి నుంచి బయటకు వచ్చేటప్పుడు లంబం నుంచి దూరంగా వంగి, లోతు తక్కువగా కనిపిస్తుంది.",
+                "Hindi": "तल से आता प्रकाश पानी से निकलते समय अभिलंब से दूर मुड़ता है, जिससे गहराई कम दिखती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The magnification produced by a plane mirror is...",
+                "Telugu": "సమతల దర్పణం ఇచ్చే ఆవర్ధనం...",
+                "Hindi": "समतल दर्पण का आवर्धन कितना होता है?"
+              },
+              "options": {
+                "English": [
+                  "2",
+                  "0",
+                  "-1",
+                  "+1"
+                ],
+                "Telugu": [
+                  "2",
+                  "0",
+                  "-1",
+                  "+1"
+                ],
+                "Hindi": [
+                  "2",
+                  "0",
+                  "-1",
+                  "+1"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "m = +1 means the image is the same size and erect.",
+                "Telugu": "m = +1 అంటే ప్రతిబింబం అదే పరిమాణంలో, నిటారుగా ఉంటుంది.",
+                "Hindi": "m = +1 का अर्थ है प्रतिबिंब समान आकार और सीधा है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "icon": "🔋",
+      "title": {
+        "English": "Electricity",
+        "Telugu": "విద్యుత్",
+        "Hindi": "विद्युत"
+      },
+      "description": {
+        "English": "Current, potential difference, Ohm's law, resistance and electric power.",
+        "Telugu": "విద్యుత్ ప్రవాహం, పొటెన్షియల్ భేదం, ఓమ్ నియమం, నిరోధం, విద్యుత్ సామర్థ్యం.",
+        "Hindi": "विद्युत धारा, विभवांतर, ओम का नियम, प्रतिरोध और विद्युत शक्ति।"
+      },
+      "lessons": [
+        {
+          "id": "electricity-lesson",
+          "visual": "⚡",
+          "title": {
+            "English": "Ohm's Law and Circuits",
+            "Telugu": "ఓమ్ నియమం, సర్క్యూట్లు",
+            "Hindi": "ओम का नियम और परिपथ"
+          },
+          "image": "./images/lessons/electricity-and-circuits.svg",
+          "explanation": {
+            "English": "Electric current is the rate of flow of charge, I = Q/t, measured in amperes with an ammeter connected in series. Potential difference V is the work done to move unit charge, measured in volts with a voltmeter connected in parallel. Ohm's law: V = IR at constant temperature, where R is resistance in ohms (Ω). Resistance depends on length, area of cross-section and material (R = ρl/A). In series, resistances add: R = R₁ + R₂; in parallel, 1/R = 1/R₁ + 1/R₂. Heating effect H = I²Rt is used in heaters and fuses. Electric power P = VI = I²R, and energy used is measured in kWh.",
+            "Telugu": "విద్యుత్ ప్రవాహం ఆవేశ ప్రవాహ రేటు, I = Q/t, శ్రేణిలో కలిపిన అమ్మీటర్‌తో ఆంపియర్లలో కొలుస్తారు. ప్రమాణ ఆవేశాన్ని కదిలించడానికి చేసిన పని పొటెన్షియల్ భేదం V, సమాంతరంగా కలిపిన వోల్టుమీటర్‌తో వోల్టులలో కొలుస్తారు. ఓమ్ నియమం: స్థిర ఉష్ణోగ్రత వద్ద V = IR, ఇక్కడ R ఓమ్‌లలో (Ω) నిరోధం. నిరోధం పొడవు, అడ్డుకోత వైశాల్యం, పదార్థంపై ఆధారపడుతుంది (R = ρl/A). శ్రేణిలో నిరోధాలు కలుస్తాయి: R = R₁ + R₂; సమాంతరంలో 1/R = 1/R₁ + 1/R₂. ఉష్ణ ఫలితం H = I²Rtను హీటర్లు, ఫ్యూజుల్లో వాడతారు. విద్యుత్ సామర్థ్యం P = VI = I²R, వాడిన శక్తిని kWhలో కొలుస్తారు.",
+            "Hindi": "विद्युत धारा आवेश प्रवाह की दर है, I = Q/t, जो श्रेणी में जुड़े ऐमीटर से ऐम्पियर में मापी जाती है। इकाई आवेश को ले जाने में किया कार्य विभवांतर V है, जो समांतर में जुड़े वोल्टमीटर से वोल्ट में मापा जाता है। ओम का नियम: स्थिर ताप पर V = IR, जहाँ R ओम (Ω) में प्रतिरोध है। प्रतिरोध लंबाई, अनुप्रस्थ काट के क्षेत्रफल और पदार्थ पर निर्भर करता है (R = ρl/A)। श्रेणी में प्रतिरोध जुड़ते हैं: R = R₁ + R₂; समांतर में 1/R = 1/R₁ + 1/R₂। ऊष्मीय प्रभाव H = I²Rt हीटर और फ़्यूज़ में काम आता है। विद्युत शक्ति P = VI = I²R है और खर्च ऊर्जा kWh में मापी जाती है।"
+          },
+          "keyPoints": {
+            "English": [
+              "I = Q/t; ammeter in series.",
+              "Voltmeter in parallel measures V.",
+              "Ohm's law: V = IR.",
+              "Series: R = R₁ + R₂; parallel: 1/R = 1/R₁ + 1/R₂.",
+              "P = VI; heating H = I²Rt."
+            ],
+            "Telugu": [
+              "I = Q/t; అమ్మీటర్ శ్రేణిలో.",
+              "సమాంతరంగా వోల్టుమీటర్ Vను కొలుస్తుంది.",
+              "ఓమ్ నియమం: V = IR.",
+              "శ్రేణి: R = R₁ + R₂; సమాంతరం: 1/R = 1/R₁ + 1/R₂.",
+              "P = VI; ఉష్ణం H = I²Rt."
+            ],
+            "Hindi": [
+              "I = Q/t; ऐमीटर श्रेणी में।",
+              "समांतर में वोल्टमीटर V मापता है।",
+              "ओम का नियम: V = IR।",
+              "श्रेणी: R = R₁ + R₂; समांतर: 1/R = 1/R₁ + 1/R₂।",
+              "P = VI; ऊष्मा H = I²Rt।"
+            ]
+          },
+          "activity": {
+            "English": "Note the wattage of five appliances at home and calculate the units used if each runs for 2 hours a day for 30 days.",
+            "Telugu": "ఇంట్లోని ఐదు పరికరాల వాటేజీ రాసి, ప్రతిదీ 30 రోజులు రోజుకు 2 గంటలు నడిస్తే ఎన్ని యూనిట్లు వాడతాయో లెక్కించండి.",
+            "Hindi": "घर के पाँच उपकरणों की वाट क्षमता लिखिए और हर एक 30 दिन रोज़ 2 घंटे चले तो कितनी यूनिट खर्च होंगी, गणना कीजिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The SI unit of electric current is...",
+                "Telugu": "విద్యుత్ ప్రవాహ SI ప్రమాణం...",
+                "Hindi": "विद्युत धारा की SI इकाई क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Ampere",
+                  "Volt",
+                  "Ohm",
+                  "Watt"
+                ],
+                "Telugu": [
+                  "ఆంపియర్",
+                  "వోల్టు",
+                  "ఓమ్",
+                  "వాట్"
+                ],
+                "Hindi": [
+                  "ऐम्पियर",
+                  "वोल्ट",
+                  "ओम",
+                  "वाट"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "1 ampere is 1 coulomb of charge flowing per second.",
+                "Telugu": "1 ఆంపియర్ అంటే సెకనుకు 1 కూలుంబ్ ఆవేశం ప్రవాహం.",
+                "Hindi": "1 ऐम्पियर यानी प्रति सेकंड 1 कूलॉम आवेश का प्रवाह।"
+              }
+            },
+            {
+              "question": {
+                "English": "A voltmeter is connected in a circuit...",
+                "Telugu": "సర్క్యూట్‌లో వోల్టుమీటర్‌ను ఎలా కలుపుతారు?",
+                "Hindi": "परिपथ में वोल्टमीटर कैसे जोड़ा जाता है?"
+              },
+              "options": {
+                "English": [
+                  "In series",
+                  "In parallel across the component",
+                  "Anywhere without wires",
+                  "Only with the battery removed"
+                ],
+                "Telugu": [
+                  "శ్రేణిలో",
+                  "భాగానికి ఇరువైపులా సమాంతరంగా",
+                  "తీగలు లేకుండా ఎక్కడైనా",
+                  "బ్యాటరీ తీసేసిన తర్వాతే"
+                ],
+                "Hindi": [
+                  "श्रेणी में",
+                  "अवयव के सिरों पर समांतर में",
+                  "बिना तार कहीं भी",
+                  "सिर्फ़ बैटरी हटाकर"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "It measures the potential difference across two points; an ammeter goes in series.",
+                "Telugu": "అది రెండు బిందువుల మధ్య పొటెన్షియల్ భేదాన్ని కొలుస్తుంది; అమ్మీటర్ శ్రేణిలో ఉంటుంది.",
+                "Hindi": "यह दो बिंदुओं के बीच विभवांतर मापता है; ऐमीटर श्रेणी में लगता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A current of 2 A flows through a 5 Ω resistor. The potential difference across it is...",
+                "Telugu": "5 Ω నిరోధం గుండా 2 A విద్యుత్ ప్రవహిస్తుంది. దాని ఇరువైపులా పొటెన్షియల్ భేదం...",
+                "Hindi": "5 Ω प्रतिरोधक से 2 A धारा बहती है। उसके सिरों पर विभवांतर कितना है?"
+              },
+              "options": {
+                "English": [
+                  "2.5 V",
+                  "7 V",
+                  "10 V",
+                  "3 V"
+                ],
+                "Telugu": [
+                  "2.5 V",
+                  "7 V",
+                  "10 V",
+                  "3 V"
+                ],
+                "Hindi": [
+                  "2.5 V",
+                  "7 V",
+                  "10 V",
+                  "3 V"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "V = IR = 2 × 5 = 10 V.",
+                "Telugu": "V = IR = 2 × 5 = 10 V.",
+                "Hindi": "V = IR = 2 × 5 = 10 V।"
+              }
+            },
+            {
+              "question": {
+                "English": "Two resistors of 4 Ω and 6 Ω are joined in series. The total resistance is...",
+                "Telugu": "4 Ω, 6 Ω నిరోధాలను శ్రేణిలో కలిపారు. మొత్తం నిరోధం...",
+                "Hindi": "4 Ω और 6 Ω के दो प्रतिरोधक श्रेणी में जुड़े हैं। कुल प्रतिरोध कितना है?"
+              },
+              "options": {
+                "English": [
+                  "2.4 Ω",
+                  "2 Ω",
+                  "24 Ω",
+                  "10 Ω"
+                ],
+                "Telugu": [
+                  "2.4 Ω",
+                  "2 Ω",
+                  "24 Ω",
+                  "10 Ω"
+                ],
+                "Hindi": [
+                  "2.4 Ω",
+                  "2 Ω",
+                  "24 Ω",
+                  "10 Ω"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "In series, R = 4 + 6 = 10 Ω. In parallel the same two would give 2.4 Ω.",
+                "Telugu": "శ్రేణిలో R = 4 + 6 = 10 Ω. సమాంతరంలో ఇవే 2.4 Ω ఇస్తాయి.",
+                "Hindi": "श्रेणी में R = 4 + 6 = 10 Ω। समांतर में यही दोनों 2.4 Ω देंगे।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Household appliances are connected in parallel.",
+                "Telugu": "నిజమా అబద్ధమా: ఇంటి పరికరాలను సమాంతరంగా కలుపుతారు.",
+                "Hindi": "सही या गलत: घरेलू उपकरण समांतर क्रम में जोड़े जाते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Each gets the full voltage and can be switched on or off independently.",
+                "Telugu": "ప్రతిదానికీ పూర్తి వోల్టేజీ అందుతుంది, విడివిడిగా ఆన్, ఆఫ్ చేయవచ్చు.",
+                "Hindi": "हर एक को पूरा वोल्टेज मिलता है और उसे अलग से चालू-बंद किया जा सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "If the length of a wire is doubled, its resistance becomes...",
+                "Telugu": "తీగ పొడవు రెట్టింపైతే దాని నిరోధం...",
+                "Hindi": "तार की लंबाई दोगुनी करने पर उसका प्रतिरोध कितना हो जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Double",
+                  "Half",
+                  "Four times",
+                  "Unchanged"
+                ],
+                "Telugu": [
+                  "రెట్టింపు",
+                  "సగం",
+                  "నాలుగు రెట్లు",
+                  "మారదు"
+                ],
+                "Hindi": [
+                  "दोगुना",
+                  "आधा",
+                  "चार गुना",
+                  "अपरिवर्तित"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "R = ρl/A, so resistance is directly proportional to length.",
+                "Telugu": "R = ρl/A, కాబట్టి నిరోధం పొడవుకు అనులోమానుపాతం.",
+                "Hindi": "R = ρl/A, इसलिए प्रतिरोध लंबाई के समानुपाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The filament of an electric bulb is made of tungsten because it...",
+                "Telugu": "విద్యుత్ బల్బు ఫిలమెంట్‌ను టంగ్‌స్టన్‌తో ఎందుకు చేస్తారు?",
+                "Hindi": "बल्ब का तंतु टंगस्टन से क्यों बनता है?"
+              },
+              "options": {
+                "English": [
+                  "Is a poor conductor",
+                  "Has a very high melting point",
+                  "Is cheap and soft",
+                  "Is magnetic"
+                ],
+                "Telugu": [
+                  "అది బలహీన వాహకం",
+                  "దాని ద్రవీభవన స్థానం చాలా ఎక్కువ",
+                  "అది చౌక, మెత్తనిది",
+                  "అయస్కాంత గుణం గలది"
+                ],
+                "Hindi": [
+                  "खराब चालक है",
+                  "इसका गलनांक बहुत ऊँचा है",
+                  "सस्ता और नरम है",
+                  "चुंबकीय है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Tungsten (melting point 3380°C) can glow white-hot without melting.",
+                "Telugu": "టంగ్‌స్టన్ (ద్రవీభవన స్థానం 3380°C) కరగకుండా తెల్లగా వెలగగలదు.",
+                "Hindi": "टंगस्टन (गलनांक 3380°C) बिना पिघले सफ़ेद-गर्म होकर चमक सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "An appliance rated 220 V, 1100 W draws a current of...",
+                "Telugu": "220 V, 1100 W రేటింగ్ గల పరికరం తీసుకునే విద్యుత్...",
+                "Hindi": "220 V, 1100 W वाला उपकरण कितनी धारा लेता है?"
+              },
+              "options": {
+                "English": [
+                  "0.2 A",
+                  "50 A",
+                  "5 A",
+                  "2420 A"
+                ],
+                "Telugu": [
+                  "0.2 A",
+                  "50 A",
+                  "5 A",
+                  "2420 A"
+                ],
+                "Hindi": [
+                  "0.2 A",
+                  "50 A",
+                  "5 A",
+                  "2420 A"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "I = P/V = 1100/220 = 5 A.",
+                "Telugu": "I = P/V = 1100/220 = 5 A.",
+                "Hindi": "I = P/V = 1100/220 = 5 A।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The heat produced in a conductor is directly proportional to the square of the current.",
+                "Telugu": "నిజమా అబద్ధమా: వాహకంలో ఉత్పత్తయ్యే వేడి విద్యుత్ ప్రవాహ వర్గానికి అనులోమానుపాతం.",
+                "Hindi": "सही या गलत: चालक में उत्पन्न ऊष्मा धारा के वर्ग के समानुपाती होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "This is Joule's law of heating, H = I²Rt.",
+                "Telugu": "ఇదే జౌల్ ఉష్ణ నియమం, H = I²Rt.",
+                "Hindi": "यह जूल का तापन नियम है, H = I²Rt।"
+              }
+            },
+            {
+              "question": {
+                "English": "A 100 W bulb runs for 10 hours. The energy used is...",
+                "Telugu": "100 W బల్బు 10 గంటలు వెలుగుతుంది. వాడిన శక్తి...",
+                "Hindi": "100 W का बल्ब 10 घंटे जलता है। कितनी ऊर्जा खर्च हुई?"
+              },
+              "options": {
+                "English": [
+                  "10 kWh",
+                  "1000 kWh",
+                  "0.1 kWh",
+                  "1 kWh"
+                ],
+                "Telugu": [
+                  "10 kWh",
+                  "1000 kWh",
+                  "0.1 kWh",
+                  "1 kWh"
+                ],
+                "Hindi": [
+                  "10 kWh",
+                  "1000 kWh",
+                  "0.1 kWh",
+                  "1 kWh"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Energy = 0.1 kW × 10 h = 1 kWh, which is one unit.",
+                "Telugu": "శక్తి = 0.1 kW × 10 గం = 1 kWh, అంటే ఒక యూనిట్.",
+                "Hindi": "ऊर्जा = 0.1 kW × 10 घंटे = 1 kWh, यानी एक यूनिट।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnetic-effects-of-current",
+      "icon": "🧲",
+      "title": {
+        "English": "Magnetic Effects of Electric Current",
+        "Telugu": "విద్యుత్ ప్రవాహ అయస్కాంత ఫలితాలు",
+        "Hindi": "विद्युत धारा के चुंबकीय प्रभाव"
+      },
+      "description": {
+        "English": "Magnetic field lines, the right-hand rule, motors, induction and domestic circuits.",
+        "Telugu": "అయస్కాంత బల రేఖలు, కుడిచేతి నియమం, మోటార్లు, ప్రేరణ, ఇంటి సర్క్యూట్లు.",
+        "Hindi": "चुंबकीय क्षेत्र रेखाएँ, दक्षिण-हस्त नियम, मोटर, प्रेरण और घरेलू परिपथ।"
+      },
+      "lessons": [
+        {
+          "id": "magnetic-effects-of-current-lesson",
+          "visual": "🌀",
+          "title": {
+            "English": "Current, Fields and Motors",
+            "Telugu": "విద్యుత్తు, క్షేత్రాలు, మోటార్లు",
+            "Hindi": "धारा, क्षेत्र और मोटर"
+          },
+          "image": "./images/lessons/magnetic-materials.svg",
+          "explanation": {
+            "English": "A magnet has a magnetic field shown by field lines that go from north to south outside the magnet and never cross. A current-carrying wire produces a magnetic field in circles around it; the right-hand thumb rule gives its direction. A coil (solenoid) with current acts like a bar magnet. A current-carrying conductor in a magnetic field feels a force, given by Fleming's left-hand rule; this is how an electric motor works. A changing magnetic field near a coil produces current (electromagnetic induction), which is the principle of the generator. Homes get AC at 220 V and 50 Hz, with live, neutral and earth wires, and fuses or MCBs for safety.",
+            "Telugu": "అయస్కాంతానికి బల రేఖలతో చూపే అయస్కాంత క్షేత్రం ఉంటుంది, అవి అయస్కాంతం బయట ఉత్తరం నుంచి దక్షిణం వైపు వెళ్తాయి, ఎప్పుడూ ఖండించుకోవు. విద్యుత్ ప్రవహించే తీగ చుట్టూ వృత్తాలుగా అయస్కాంత క్షేత్రం ఏర్పడుతుంది; కుడిచేతి బొటనవేలు నియమం దాని దిశను ఇస్తుంది. విద్యుత్ ప్రవహించే చుట్ట (సోలినాయిడ్) దండ అయస్కాంతంలా పనిచేస్తుంది. అయస్కాంత క్షేత్రంలోని విద్యుత్ ప్రవహించే వాహకంపై బలం పనిచేస్తుంది, ఫ్లెమింగ్ ఎడమచేతి నియమం దానిని ఇస్తుంది; విద్యుత్ మోటారు ఇలాగే పనిచేస్తుంది. చుట్ట దగ్గర మారే అయస్కాంత క్షేత్రం విద్యుత్తును ఉత్పత్తి చేస్తుంది (విద్యుదయస్కాంత ప్రేరణ), ఇదే జనరేటర్ సూత్రం. ఇళ్లకు 220 V, 50 Hz AC విద్యుత్ లైవ్, న్యూట్రల్, ఎర్త్ తీగలతో, భద్రతకు ఫ్యూజులు లేదా MCBలతో అందుతుంది.",
+            "Hindi": "चुंबक का चुंबकीय क्षेत्र क्षेत्र रेखाओं से दिखाया जाता है, जो चुंबक के बाहर उत्तर से दक्षिण की ओर जाती हैं और कभी एक-दूसरे को नहीं काटतीं। धारावाही तार के चारों ओर वृत्तों में चुंबकीय क्षेत्र बनता है; दक्षिण-हस्त अंगुष्ठ नियम उसकी दिशा बताता है। धारावाही कुंडली (परिनालिका) छड़ चुंबक की तरह काम करती है। चुंबकीय क्षेत्र में धारावाही चालक पर बल लगता है, जो फ़्लेमिंग के वामहस्त नियम से मिलता है; विद्युत मोटर इसी पर चलती है। कुंडली के पास बदलता चुंबकीय क्षेत्र धारा पैदा करता है (विद्युतचुंबकीय प्रेरण), जो जनित्र का सिद्धांत है। घरों को 220 V, 50 Hz की AC बिजली लाइव, न्यूट्रल और अर्थ तारों से, सुरक्षा के लिए फ़्यूज़ या MCB के साथ मिलती है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Field lines go from N to S outside a magnet and never cross.",
+              "Right-hand thumb rule gives the field around a wire.",
+              "Fleming's left-hand rule gives the force on a conductor (motor).",
+              "Electromagnetic induction is the principle of a generator.",
+              "Earth wire and fuses protect against shocks and fires."
+            ],
+            "Telugu": [
+              "బల రేఖలు అయస్కాంతం బయట N నుంచి S వైపు వెళ్తాయి, ఖండించుకోవు.",
+              "కుడిచేతి బొటనవేలు నియమం తీగ చుట్టూ క్షేత్రాన్ని ఇస్తుంది.",
+              "ఫ్లెమింగ్ ఎడమచేతి నియమం వాహకంపై బలాన్ని ఇస్తుంది (మోటారు).",
+              "విద్యుదయస్కాంత ప్రేరణ జనరేటర్ సూత్రం.",
+              "ఎర్త్ తీగ, ఫ్యూజులు షాక్, మంటల నుంచి కాపాడతాయి."
+            ],
+            "Hindi": [
+              "क्षेत्र रेखाएँ चुंबक के बाहर N से S जाती हैं और नहीं कटतीं।",
+              "दक्षिण-हस्त अंगुष्ठ नियम तार के चारों ओर क्षेत्र बताता है।",
+              "फ़्लेमिंग का वामहस्त नियम चालक पर बल बताता है (मोटर)।",
+              "विद्युतचुंबकीय प्रेरण जनित्र का सिद्धांत है।",
+              "अर्थ तार और फ़्यूज़ झटके और आग से बचाते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Sprinkle iron filings on paper over a bar magnet and tap gently to see the field lines.",
+            "Telugu": "దండ అయస్కాంతంపై ఉంచిన కాగితంపై ఇనుప రజను చల్లి మెల్లగా తట్టి బల రేఖలను చూడండి.",
+            "Hindi": "छड़ चुंबक के ऊपर कागज़ पर लोहे का बुरादा छिड़ककर धीरे से थपथपाइए और क्षेत्र रेखाएँ देखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Outside a bar magnet, magnetic field lines go from...",
+                "Telugu": "దండ అయస్కాంతం బయట బల రేఖలు ఎటు నుంచి ఎటు వెళ్తాయి?",
+                "Hindi": "छड़ चुंबक के बाहर चुंबकीय क्षेत्र रेखाएँ कहाँ से कहाँ जाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "North pole to south pole",
+                  "South pole to north pole",
+                  "Middle to the ends",
+                  "They do not exist outside"
+                ],
+                "Telugu": [
+                  "ఉత్తర ధ్రువం నుంచి దక్షిణ ధ్రువం",
+                  "దక్షిణ ధ్రువం నుంచి ఉత్తర ధ్రువం",
+                  "మధ్య నుంచి చివర్లకు",
+                  "బయట ఉండవు"
+                ],
+                "Hindi": [
+                  "उत्तरी ध्रुव से दक्षिणी ध्रुव",
+                  "दक्षिणी ध्रुव से उत्तरी ध्रुव",
+                  "बीच से सिरों तक",
+                  "बाहर होती ही नहीं"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Inside the magnet they go from south to north, forming closed loops.",
+                "Telugu": "అయస్కాంతం లోపల అవి దక్షిణం నుంచి ఉత్తరం వైపు వెళ్లి మూసిన వలయాలు ఏర్పరుస్తాయి.",
+                "Hindi": "चुंबक के अंदर वे दक्षिण से उत्तर जाती हैं और बंद लूप बनाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why do two magnetic field lines never cross?",
+                "Telugu": "రెండు అయస్కాంత బల రేఖలు ఎందుకు ఖండించుకోవు?",
+                "Hindi": "दो चुंबकीय क्षेत्र रेखाएँ कभी क्यों नहीं कटतीं?"
+              },
+              "options": {
+                "English": [
+                  "They are too far apart",
+                  "A compass would point in two directions at that point, which is impossible",
+                  "They are made of iron",
+                  "They move too fast"
+                ],
+                "Telugu": [
+                  "అవి చాలా దూరంగా ఉంటాయి",
+                  "ఆ బిందువు వద్ద దిక్సూచి రెండు దిశలు చూపాల్సి వస్తుంది, అది అసాధ్యం",
+                  "అవి ఇనుముతో చేసినవి",
+                  "అవి చాలా వేగంగా కదులుతాయి"
+                ],
+                "Hindi": [
+                  "वे बहुत दूर हैं",
+                  "उस बिंदु पर कंपास दो दिशाएँ दिखाता, जो असंभव है",
+                  "वे लोहे की बनी हैं",
+                  "वे बहुत तेज़ चलती हैं"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The field has only one direction at any point.",
+                "Telugu": "ఏ బిందువు వద్దనైనా క్షేత్రానికి ఒకే దిశ ఉంటుంది.",
+                "Hindi": "किसी भी बिंदु पर क्षेत्र की सिर्फ़ एक दिशा होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The rule used to find the direction of force on a current-carrying conductor in a magnetic field is...",
+                "Telugu": "అయస్కాంత క్షేత్రంలో విద్యుత్ ప్రవహించే వాహకంపై బల దిశను కనుగొనే నియమం...",
+                "Hindi": "चुंबकीय क्षेत्र में धारावाही चालक पर बल की दिशा जानने का नियम कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Right-hand thumb rule",
+                  "Ohm's law",
+                  "Fleming's left-hand rule",
+                  "Snell's law"
+                ],
+                "Telugu": [
+                  "కుడిచేతి బొటనవేలు నియమం",
+                  "ఓమ్ నియమం",
+                  "ఫ్లెమింగ్ ఎడమచేతి నియమం",
+                  "స్నెల్ నియమం"
+                ],
+                "Hindi": [
+                  "दक्षिण-हस्त अंगुष्ठ नियम",
+                  "ओम का नियम",
+                  "फ़्लेमिंग का वामहस्त नियम",
+                  "स्नेल का नियम"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Forefinger = field, middle finger = current, thumb = force (motion).",
+                "Telugu": "చూపుడువేలు = క్షేత్రం, మధ్యవేలు = విద్యుత్, బొటనవేలు = బలం (చలనం).",
+                "Hindi": "तर्जनी = क्षेत्र, मध्यमा = धारा, अँगूठा = बल (गति)।"
+              }
+            },
+            {
+              "question": {
+                "English": "An electric motor converts...",
+                "Telugu": "విద్యుత్ మోటారు దేనిని దేనిగా మారుస్తుంది?",
+                "Hindi": "विद्युत मोटर किसे किसमें बदलती है?"
+              },
+              "options": {
+                "English": [
+                  "Mechanical energy into electrical energy",
+                  "Heat into light",
+                  "Chemical energy into heat",
+                  "Electrical energy into mechanical energy"
+                ],
+                "Telugu": [
+                  "యాంత్రిక శక్తిని విద్యుత్ శక్తిగా",
+                  "వేడిని కాంతిగా",
+                  "రసాయన శక్తిని వేడిగా",
+                  "విద్యుత్ శక్తిని యాంత్రిక శక్తిగా"
+                ],
+                "Hindi": [
+                  "यांत्रिक ऊर्जा को विद्युत ऊर्जा में",
+                  "ऊष्मा को प्रकाश में",
+                  "रासायनिक ऊर्जा को ऊष्मा में",
+                  "विद्युत ऊर्जा को यांत्रिक ऊर्जा में"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Fans, mixers and washing machines use motors; a generator does the reverse.",
+                "Telugu": "పంకాలు, మిక్సర్లు, వాషింగ్ మెషీన్లు మోటార్లు వాడతాయి; జనరేటర్ దీనికి వ్యతిరేకం చేస్తుంది.",
+                "Hindi": "पंखे, मिक्सर और वॉशिंग मशीन मोटर से चलते हैं; जनित्र इसका उलटा करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Moving a magnet into a coil connected to a galvanometer produces a current.",
+                "Telugu": "నిజమా అబద్ధమా: గాల్వనోమీటర్‌కు కలిపిన చుట్టలోకి అయస్కాంతాన్ని కదిలిస్తే విద్యుత్ ఉత్పత్తి అవుతుంది.",
+                "Hindi": "सही या गलत: गैल्वेनोमीटर से जुड़ी कुंडली में चुंबक ले जाने पर धारा उत्पन्न होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "This is electromagnetic induction, discovered by Michael Faraday.",
+                "Telugu": "ఇదే మైకేల్ ఫారడే కనుగొన్న విద్యుదయస్కాంత ప్రేరణ.",
+                "Hindi": "यह माइकल फ़ैराडे द्वारा खोजा गया विद्युतचुंबकीय प्रेरण है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The frequency of AC supply in India is...",
+                "Telugu": "భారతదేశంలో AC సరఫరా పౌనఃపున్యం...",
+                "Hindi": "भारत में AC आपूर्ति की आवृत्ति कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "50 Hz",
+                  "60 Hz",
+                  "220 Hz",
+                  "5 Hz"
+                ],
+                "Telugu": [
+                  "50 Hz",
+                  "60 Hz",
+                  "220 Hz",
+                  "5 Hz"
+                ],
+                "Hindi": [
+                  "50 Hz",
+                  "60 Hz",
+                  "220 Hz",
+                  "5 Hz"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Domestic supply in India is 220 V at 50 Hz.",
+                "Telugu": "భారతదేశంలో ఇంటి సరఫరా 220 V, 50 Hz.",
+                "Hindi": "भारत में घरेलू आपूर्ति 220 V और 50 Hz है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The earth wire in home wiring is usually...",
+                "Telugu": "ఇంటి వైరింగ్‌లో ఎర్త్ తీగ సాధారణంగా ఏ రంగులో ఉంటుంది?",
+                "Hindi": "घरेलू वायरिंग में अर्थ तार आमतौर पर किस रंग का होता है?"
+              },
+              "options": {
+                "English": [
+                  "Red",
+                  "Green",
+                  "Black",
+                  "Blue only"
+                ],
+                "Telugu": [
+                  "ఎరుపు",
+                  "ఆకుపచ్చ",
+                  "నలుపు",
+                  "నీలం మాత్రమే"
+                ],
+                "Hindi": [
+                  "लाल",
+                  "हरा",
+                  "काला",
+                  "सिर्फ़ नीला"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The live wire is red (or brown) and neutral is black (or blue). Earthing protects from shocks from metal bodies.",
+                "Telugu": "లైవ్ తీగ ఎరుపు (లేదా గోధుమ), న్యూట్రల్ నలుపు (లేదా నీలం). ఎర్తింగ్ లోహ భాగాల నుంచి షాక్ రాకుండా కాపాడుతుంది.",
+                "Hindi": "लाइव तार लाल (या भूरा) और न्यूट्रल काला (या नीला) होता है। अर्थिंग धातु के ढाँचे से झटके से बचाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A current-carrying solenoid with a soft iron core forms a...",
+                "Telugu": "మెత్తని ఇనుప కోర్ గల విద్యుత్ ప్రవహించే సోలినాయిడ్ ఏర్పరిచేది...",
+                "Hindi": "नरम लोहे की कोर वाली धारावाही परिनालिका क्या बनाती है?"
+              },
+              "options": {
+                "English": [
+                  "Permanent magnet",
+                  "Fuse",
+                  "Electromagnet",
+                  "Battery"
+                ],
+                "Telugu": [
+                  "శాశ్వత అయస్కాంతం",
+                  "ఫ్యూజు",
+                  "విద్యుదయస్కాంతం",
+                  "బ్యాటరీ"
+                ],
+                "Hindi": [
+                  "स्थायी चुंबक",
+                  "फ़्यूज़",
+                  "विद्युत चुंबक",
+                  "बैटरी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Its magnetism can be switched on and off with the current.",
+                "Telugu": "దాని అయస్కాంతత్వాన్ని విద్యుత్తుతో ఆన్, ఆఫ్ చేయవచ్చు.",
+                "Hindi": "इसका चुंबकत्व धारा से चालू और बंद किया जा सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A short circuit happens when the live and neutral wires touch directly.",
+                "Telugu": "నిజమా అబద్ధమా: లైవ్, న్యూట్రల్ తీగలు నేరుగా తగిలినప్పుడు షార్ట్ సర్క్యూట్ జరుగుతుంది.",
+                "Hindi": "सही या गलत: लाइव और न्यूट्रल तार सीधे छू जाएँ तो शॉर्ट सर्किट होता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Resistance becomes almost zero, current rises sharply, and the fuse melts to protect the circuit.",
+                "Telugu": "నిరోధం దాదాపు శూన్యమై విద్యుత్ ఒక్కసారిగా పెరుగుతుంది, సర్క్యూట్‌ను కాపాడడానికి ఫ్యూజు కరుగుతుంది.",
+                "Hindi": "प्रतिरोध लगभग शून्य हो जाता है, धारा अचानक बढ़ती है और परिपथ बचाने के लिए फ़्यूज़ पिघलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The magnetic field around a straight current-carrying wire is...",
+                "Telugu": "తిన్నని విద్యుత్ ప్రవహించే తీగ చుట్టూ అయస్కాంత క్షేత్రం...",
+                "Hindi": "सीधे धारावाही तार के चारों ओर चुंबकीय क्षेत्र कैसा होता है?"
+              },
+              "options": {
+                "English": [
+                  "Straight lines parallel to the wire",
+                  "Absent",
+                  "Only at its ends",
+                  "Concentric circles around the wire"
+                ],
+                "Telugu": [
+                  "తీగకు సమాంతర సరళ రేఖలు",
+                  "ఉండదు",
+                  "దాని చివర్లలో మాత్రమే",
+                  "తీగ చుట్టూ ఏకకేంద్ర వృత్తాలు"
+                ],
+                "Hindi": [
+                  "तार के समांतर सीधी रेखाएँ",
+                  "अनुपस्थित",
+                  "सिर्फ़ सिरों पर",
+                  "तार के चारों ओर संकेंद्री वृत्त"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The field is stronger closer to the wire and with more current.",
+                "Telugu": "తీగకు దగ్గరగా, ఎక్కువ విద్యుత్తుతో క్షేత్రం బలంగా ఉంటుంది.",
+                "Hindi": "तार के पास और ज़्यादा धारा से क्षेत्र प्रबल होता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heredity",
+      "icon": "🧬",
+      "title": {
+        "English": "Heredity",
+        "Telugu": "అనువంశికత",
+        "Hindi": "आनुवंशिकता"
+      },
+      "description": {
+        "English": "Variation, Mendel's experiments, genes and sex determination.",
+        "Telugu": "వైవిధ్యం, మెండెల్ ప్రయోగాలు, జన్యువులు, లింగ నిర్ధారణ.",
+        "Hindi": "विविधता, मेंडल के प्रयोग, जीन और लिंग निर्धारण।"
+      },
+      "lessons": [
+        {
+          "id": "heredity-lesson",
+          "visual": "👨‍👩‍👧",
+          "title": {
+            "English": "How Traits Pass to Children",
+            "Telugu": "లక్షణాలు పిల్లలకు ఎలా సంక్రమిస్తాయి",
+            "Hindi": "गुण बच्चों तक कैसे पहुँचते हैं"
+          },
+          "image": "./images/lessons/living-things.png",
+          "explanation": {
+            "English": "Heredity is the passing of traits from parents to offspring. Variation, small differences between individuals, arises during reproduction and helps species survive. Gregor Mendel studied pea plants and found that traits are controlled by pairs of factors, now called genes, one from each parent. A dominant trait (like tall, T) shows up even if only one copy is present; a recessive trait (short, t) shows only when both copies are recessive. A cross of TT with tt gives all tall plants in F1, and F1 self-crossed gives tall and short in a 3:1 ratio in F2. Genes are parts of DNA on chromosomes. In humans, females have XX and males have XY chromosomes; the father's sperm decides the sex of the child.",
+            "Telugu": "తల్లిదండ్రుల నుంచి సంతానానికి లక్షణాలు సంక్రమించడమే అనువంశికత. వ్యక్తుల మధ్య చిన్న తేడాలైన వైవిధ్యం ప్రత్యుత్పత్తి సమయంలో ఏర్పడి జాతులు మనుగడ సాగించడానికి సహాయపడుతుంది. గ్రెగర్ మెండెల్ బఠాణి మొక్కలను అధ్యయనం చేసి లక్షణాలను జతల కారకాలు, అంటే నేటి జన్యువులు నియంత్రిస్తాయని, ఒక్కొక్కటి ఒక్కో తల్లిదండ్రి నుంచి వస్తాయని కనుగొన్నారు. బహిర్గత లక్షణం (పొడవు, T) ఒక్క ప్రతి ఉన్నా కనిపిస్తుంది; అంతర్గత లక్షణం (పొట్టి, t) రెండు ప్రతులూ అంతర్గతమైనప్పుడే కనిపిస్తుంది. TT, tt సంకరంతో F1లో అన్నీ పొడవు మొక్కలు, F1 స్వపరాగసంపర్కంతో F2లో పొడవు, పొట్టి 3:1 నిష్పత్తిలో వస్తాయి. జన్యువులు క్రోమోజోములపై DNA భాగాలు. మానవుల్లో స్త్రీలకు XX, పురుషులకు XY క్రోమోజోములు; తండ్రి శుక్రకణం శిశువు లింగాన్ని నిర్ణయిస్తుంది.",
+            "Hindi": "माता-पिता से संतान में गुणों का जाना आनुवंशिकता है। व्यक्तियों के बीच छोटे अंतर यानी विविधता जनन के दौरान आती है और प्रजातियों को जीवित रहने में मदद करती है। ग्रेगर मेंडल ने मटर के पौधों पर प्रयोग कर पाया कि गुण कारकों की जोड़ियों से नियंत्रित होते हैं, जिन्हें आज जीन कहते हैं, और हर एक माता-पिता में से एक से आता है। प्रभावी गुण (लंबा, T) एक प्रति होने पर भी दिखता है; अप्रभावी गुण (बौना, t) तभी दिखता है जब दोनों प्रतियाँ अप्रभावी हों। TT और tt के संकर से F1 में सभी लंबे पौधे, और F1 के स्वपरागण से F2 में लंबे और बौने 3:1 अनुपात में आते हैं। जीन गुणसूत्रों पर DNA के भाग हैं। मनुष्यों में स्त्रियों में XX और पुरुषों में XY गुणसूत्र होते हैं; पिता का शुक्राणु बच्चे का लिंग तय करता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Heredity: traits pass from parents to offspring.",
+              "Variation helps species survive.",
+              "Mendel's pea plants: dominant and recessive traits.",
+              "Monohybrid cross gives a 3:1 ratio in F2.",
+              "XX is female, XY is male; the father's chromosome decides sex."
+            ],
+            "Telugu": [
+              "అనువంశికత: తల్లిదండ్రుల నుంచి సంతానానికి లక్షణాలు.",
+              "వైవిధ్యం జాతుల మనుగడకు సహాయపడుతుంది.",
+              "మెండెల్ బఠాణి మొక్కలు: బహిర్గత, అంతర్గత లక్షణాలు.",
+              "ఏక సంకరణం F2లో 3:1 నిష్పత్తి ఇస్తుంది.",
+              "XX స్త్రీ, XY పురుషుడు; తండ్రి క్రోమోజోము లింగాన్ని నిర్ణయిస్తుంది."
+            ],
+            "Hindi": [
+              "आनुवंशिकता: माता-पिता से संतान में गुण।",
+              "विविधता प्रजातियों को जीवित रखने में मदद करती है।",
+              "मेंडल के मटर: प्रभावी और अप्रभावी गुण।",
+              "एकसंकर संकरण से F2 में 3:1 अनुपात।",
+              "XX स्त्री, XY पुरुष; पिता का गुणसूत्र लिंग तय करता है।"
+            ]
+          },
+          "activity": {
+            "English": "List five traits like earlobe type and tongue rolling in your family members and see which are shared.",
+            "Telugu": "మీ కుటుంబ సభ్యుల్లో చెవి తమ్మె రకం, నాలుక మడవడం వంటి ఐదు లక్షణాలు రాసి ఏవి ఉమ్మడిగా ఉన్నాయో చూడండి.",
+            "Hindi": "अपने परिवार के लोगों में कान की लौ का प्रकार और जीभ मोड़ना जैसे पाँच गुण लिखिए और देखिए कौन से साझा हैं।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Who is known as the father of genetics?",
+                "Telugu": "జన్యుశాస్త్ర పితామహుడు ఎవరు?",
+                "Hindi": "आनुवंशिकी के जनक कौन कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Gregor Mendel",
+                  "Charles Darwin",
+                  "Robert Hooke",
+                  "Louis Pasteur"
+                ],
+                "Telugu": [
+                  "గ్రెగర్ మెండెల్",
+                  "చార్లెస్ డార్విన్",
+                  "రాబర్ట్ హుక్",
+                  "లూయీ పాశ్చర్"
+                ],
+                "Hindi": [
+                  "ग्रेगर मेंडल",
+                  "चार्ल्स डार्विन",
+                  "रॉबर्ट हुक",
+                  "लुई पाश्चर"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Mendel's experiments with garden peas laid the foundation of genetics.",
+                "Telugu": "తోట బఠాణిలతో మెండెల్ చేసిన ప్రయోగాలు జన్యుశాస్త్రానికి పునాది వేశాయి.",
+                "Hindi": "बगीचे के मटर पर मेंडल के प्रयोगों ने आनुवंशिकी की नींव रखी।"
+              }
+            },
+            {
+              "question": {
+                "English": "In a cross between pure tall (TT) and pure short (tt) pea plants, the F1 plants are...",
+                "Telugu": "స్వచ్ఛ పొడవు (TT), స్వచ్ఛ పొట్టి (tt) బఠాణి మొక్కల సంకరంలో F1 మొక్కలు...",
+                "Hindi": "शुद्ध लंबे (TT) और शुद्ध बौने (tt) मटर के संकरण में F1 पौधे कैसे होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "All short",
+                  "All tall",
+                  "Half tall, half short",
+                  "Medium height"
+                ],
+                "Telugu": [
+                  "అన్నీ పొట్టి",
+                  "అన్నీ పొడవు",
+                  "సగం పొడవు, సగం పొట్టి",
+                  "మధ్యస్థ ఎత్తు"
+                ],
+                "Hindi": [
+                  "सभी बौने",
+                  "सभी लंबे",
+                  "आधे लंबे, आधे बौने",
+                  "मध्यम ऊँचाई"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "All F1 plants are Tt, and tallness is dominant.",
+                "Telugu": "F1 మొక్కలన్నీ Tt, పొడవు బహిర్గతం.",
+                "Hindi": "सभी F1 पौधे Tt हैं, और लंबाई प्रभावी है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The ratio of tall to short plants in the F2 generation of a monohybrid cross is...",
+                "Telugu": "ఏక సంకరణం F2 తరంలో పొడవు, పొట్టి మొక్కల నిష్పత్తి...",
+                "Hindi": "एकसंकर संकरण की F2 पीढ़ी में लंबे और बौने पौधों का अनुपात कितना है?"
+              },
+              "options": {
+                "English": [
+                  "1:1",
+                  "1:3",
+                  "3:1",
+                  "9:3:3:1"
+                ],
+                "Telugu": [
+                  "1:1",
+                  "1:3",
+                  "3:1",
+                  "9:3:3:1"
+                ],
+                "Hindi": [
+                  "1:1",
+                  "1:3",
+                  "3:1",
+                  "9:3:3:1"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "TT : Tt : tt = 1:2:1, so tall : short = 3:1; 9:3:3:1 is for a dihybrid cross.",
+                "Telugu": "TT : Tt : tt = 1:2:1, కాబట్టి పొడవు : పొట్టి = 3:1; 9:3:3:1 ద్వి సంకరణానికి.",
+                "Hindi": "TT : Tt : tt = 1:2:1, इसलिए लंबे : बौने = 3:1; 9:3:3:1 द्विसंकर संकरण का है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Genes are located on...",
+                "Telugu": "జన్యువులు ఎక్కడ ఉంటాయి?",
+                "Hindi": "जीन कहाँ स्थित होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Cell wall",
+                  "Ribosomes only",
+                  "Vacuoles",
+                  "Chromosomes"
+                ],
+                "Telugu": [
+                  "కణకవచం",
+                  "రైబోజోములపై మాత్రమే",
+                  "రిక్తికలు",
+                  "క్రోమోజోములు"
+                ],
+                "Hindi": [
+                  "कोशिका भित्ति",
+                  "सिर्फ़ राइबोसोम",
+                  "रिक्तिकाएँ",
+                  "गुणसूत्र"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A gene is a section of DNA on a chromosome that codes for a protein.",
+                "Telugu": "జన్యువు క్రోమోజోముపై ప్రోటీన్‌కు సంకేతం ఇచ్చే DNA భాగం.",
+                "Hindi": "जीन गुणसूत्र पर DNA का वह भाग है जो किसी प्रोटीन का कोड देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: In humans, the sex of the child is decided by the father.",
+                "Telugu": "నిజమా అబద్ధమా: మానవుల్లో శిశువు లింగాన్ని తండ్రి నిర్ణయిస్తాడు.",
+                "Hindi": "सही या गलत: मनुष्यों में बच्चे का लिंग पिता तय करता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Mothers give only X; a sperm with X gives a girl (XX) and with Y gives a boy (XY).",
+                "Telugu": "తల్లులు X మాత్రమే ఇస్తారు; X గల శుక్రకణం ఆడపిల్ల (XX), Y గలది మగపిల్లవాడు (XY).",
+                "Hindi": "माँ सिर्फ़ X देती हैं; X वाला शुक्राणु लड़की (XX) और Y वाला लड़का (XY) बनाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A trait that shows up even when only one copy of the gene is present is...",
+                "Telugu": "జన్యువు ఒక్క ప్రతి ఉన్నా కనిపించే లక్షణం...",
+                "Hindi": "जीन की सिर्फ़ एक प्रति होने पर भी दिखने वाला गुण क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Dominant",
+                  "Recessive",
+                  "Acquired",
+                  "Hidden"
+                ],
+                "Telugu": [
+                  "బహిర్గతం",
+                  "అంతర్గతం",
+                  "ఆర్జితం",
+                  "దాగినది"
+                ],
+                "Hindi": [
+                  "प्रभावी",
+                  "अप्रभावी",
+                  "उपार्जित",
+                  "छिपा हुआ"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Recessive traits show only when both copies are recessive (tt).",
+                "Telugu": "రెండు ప్రతులూ అంతర్గతమైనప్పుడే (tt) అంతర్గత లక్షణాలు కనిపిస్తాయి.",
+                "Hindi": "अप्रभावी गुण तभी दिखते हैं जब दोनों प्रतियाँ अप्रभावी हों (tt)।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why is variation useful for a species?",
+                "Telugu": "వైవిధ్యం జాతికి ఎందుకు ఉపయోగకరం?",
+                "Hindi": "विविधता प्रजाति के लिए क्यों उपयोगी है?"
+              },
+              "options": {
+                "English": [
+                  "It makes all individuals identical",
+                  "It helps some individuals survive changes in the environment",
+                  "It stops reproduction",
+                  "It removes all genes"
+                ],
+                "Telugu": [
+                  "అన్ని వ్యక్తులను ఒకేలా చేస్తుంది",
+                  "పర్యావరణ మార్పుల్లో కొందరు బతకడానికి సహాయపడుతుంది",
+                  "ప్రత్యుత్పత్తిని ఆపుతుంది",
+                  "అన్ని జన్యువులను తొలగిస్తుంది"
+                ],
+                "Hindi": [
+                  "सब व्यक्तियों को एक जैसा बनाती है",
+                  "पर्यावरण बदलने पर कुछ व्यक्तियों को जीवित रहने में मदद करती है",
+                  "जनन रोकती है",
+                  "सारे जीन हटाती है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "For example, bacteria that can tolerate heat survive a heat wave.",
+                "Telugu": "ఉదాహరణకు వేడిని తట్టుకోగల బ్యాక్టీరియా వడగాలిలో బతుకుతుంది.",
+                "Hindi": "उदाहरण के लिए, गर्मी सह सकने वाले जीवाणु लू में बच जाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Traits learned during a lifetime, like a skill, are...",
+                "Telugu": "జీవితకాలంలో నేర్చుకున్న నైపుణ్యం వంటి లక్షణాలు...",
+                "Hindi": "जीवन में सीखे गुण, जैसे कोई कौशल, कैसे होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Inherited",
+                  "Dominant",
+                  "Acquired and not passed to offspring",
+                  "Always recessive"
+                ],
+                "Telugu": [
+                  "అనువంశికం",
+                  "బహిర్గతం",
+                  "ఆర్జితం, సంతానానికి సంక్రమించవు",
+                  "ఎప్పుడూ అంతర్గతం"
+                ],
+                "Hindi": [
+                  "वंशानुगत",
+                  "प्रभावी",
+                  "उपार्जित और संतान में नहीं जाते",
+                  "हमेशा अप्रभावी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Acquired traits do not change the DNA of reproductive cells.",
+                "Telugu": "ఆర్జిత లక్షణాలు ప్రత్యుత్పత్తి కణాల DNAను మార్చవు.",
+                "Hindi": "उपार्जित गुण जनन कोशिकाओं का DNA नहीं बदलते।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Each human cell (except gametes) has 23 pairs of chromosomes.",
+                "Telugu": "నిజమా అబద్ధమా: ప్రతి మానవ కణంలో (సంయోగబీజాలు తప్ప) 23 జతల క్రోమోజోములు ఉంటాయి.",
+                "Hindi": "सही या गलत: हर मानव कोशिका (युग्मकों को छोड़कर) में 23 जोड़ी गुणसूत्र होते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "22 pairs are autosomes and one pair is the sex chromosomes; gametes have 23 single chromosomes.",
+                "Telugu": "22 జతలు శారీరక క్రోమోజోములు, ఒక జత లింగ క్రోమోజోములు; సంయోగబీజాల్లో 23 ఒంటరి క్రోమోజోములు.",
+                "Hindi": "22 जोड़ी अलिंगसूत्र और एक जोड़ी लिंग गुणसूत्र हैं; युग्मकों में 23 अकेले गुणसूत्र होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Mendel chose garden pea plants because they...",
+                "Telugu": "మెండెల్ తోట బఠాణి మొక్కలను ఎందుకు ఎంచుకున్నారు?",
+                "Hindi": "मेंडल ने बगीचे के मटर क्यों चुने?"
+              },
+              "options": {
+                "English": [
+                  "Grow very slowly",
+                  "Have only one trait",
+                  "Cannot self-pollinate",
+                  "Have clear contrasting traits and grow quickly"
+                ],
+                "Telugu": [
+                  "చాలా నెమ్మదిగా పెరుగుతాయి",
+                  "ఒకే లక్షణం ఉంటుంది",
+                  "స్వపరాగసంపర్కం జరగదు",
+                  "స్పష్టమైన విరుద్ధ లక్షణాలు ఉండి త్వరగా పెరుగుతాయి"
+                ],
+                "Hindi": [
+                  "बहुत धीरे बढ़ते हैं",
+                  "सिर्फ़ एक गुण है",
+                  "स्वपरागण नहीं होता",
+                  "स्पष्ट विपरीत गुण हैं और जल्दी बढ़ते हैं"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Peas have clear pairs like tall/short and round/wrinkled seeds and many generations a year.",
+                "Telugu": "బఠాణిలకు పొడవు/పొట్టి, గుండ్రని/ముడతల విత్తనాల వంటి స్పష్టమైన జతలు ఉండి ఏడాదికి ఎన్నో తరాలు వస్తాయి.",
+                "Hindi": "मटर में लंबे/बौने और गोल/झुर्रीदार बीज जैसी स्पष्ट जोड़ियाँ होती हैं और साल में कई पीढ़ियाँ होती हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-environment",
+      "icon": "🌏",
+      "title": {
+        "English": "Our Environment",
+        "Telugu": "మన పర్యావరణం",
+        "Hindi": "हमारा पर्यावरण"
+      },
+      "description": {
+        "English": "Ecosystems, food chains, the 10% law, ozone layer and waste.",
+        "Telugu": "పర్యావరణ వ్యవస్థలు, ఆహార గొలుసులు, 10% నియమం, ఓజోన్ పొర, వ్యర్థాలు.",
+        "Hindi": "पारितंत्र, आहार श्रृंखला, 10% नियम, ओज़ोन परत और अपशिष्ट।"
+      },
+      "lessons": [
+        {
+          "id": "our-environment-lesson",
+          "visual": "🦅",
+          "title": {
+            "English": "Ecosystems and Energy Flow",
+            "Telugu": "పర్యావరణ వ్యవస్థలు, శక్తి ప్రవాహం",
+            "Hindi": "पारितंत्र और ऊर्जा प्रवाह"
+          },
+          "image": "./images/lessons/environment.png",
+          "explanation": {
+            "English": "An ecosystem is made of living (biotic) and non-living (abiotic) parts that interact. Producers (green plants) make food, consumers (herbivores, carnivores) eat it, and decomposers (bacteria, fungi) break down dead matter. A food chain shows who eats whom, like grass → deer → tiger; linked food chains form a food web. Only about 10% of energy passes from one trophic level to the next, so food chains are short. Harmful chemicals like pesticides build up at higher levels (biological magnification). The ozone layer protects us from UV rays and is damaged by CFCs. Biodegradable waste breaks down naturally; non-biodegradable waste like plastic does not.",
+            "Telugu": "పర్యావరణ వ్యవస్థ పరస్పర చర్య జరిపే జీవ (జీవ సంబంధ), నిర్జీవ అంశాలతో ఏర్పడుతుంది. ఉత్పాదకాలు (ఆకుపచ్చ మొక్కలు) ఆహారం తయారు చేస్తాయి, వినియోగదారులు (శాకాహారులు, మాంసాహారులు) దానిని తింటాయి, విచ్ఛిన్నకారులు (బ్యాక్టీరియా, శిలీంధ్రాలు) మృత పదార్థాన్ని విడగొడతాయి. ఆహార గొలుసు ఎవరు ఎవరిని తింటారో చూపిస్తుంది, గడ్డి → జింక → పులి లాగా; కలిసిన ఆహార గొలుసులు ఆహార జాలం ఏర్పరుస్తాయి. ఒక పోషక స్థాయి నుంచి తర్వాతి స్థాయికి సుమారు 10% శక్తి మాత్రమే చేరుతుంది, అందుకే ఆహార గొలుసులు చిన్నవి. పురుగుమందుల వంటి హానికర రసాయనాలు పై స్థాయిల్లో పేరుకుంటాయి (జైవిక వ్యావర్ధనం). ఓజోన్ పొర UV కిరణాల నుంచి కాపాడుతుంది, CFCల వల్ల దెబ్బతింటుంది. జీవ విచ్ఛిన్న వ్యర్థాలు సహజంగా విడిపోతాయి; ప్లాస్టిక్ వంటి జీవ విచ్ఛిన్నం కాని వ్యర్థాలు విడిపోవు.",
+            "Hindi": "पारितंत्र जैविक और अजैविक घटकों से बनता है जो आपस में क्रिया करते हैं। उत्पादक (हरे पौधे) भोजन बनाते हैं, उपभोक्ता (शाकाहारी, मांसाहारी) उसे खाते हैं, और अपघटक (जीवाणु, कवक) मृत पदार्थ तोड़ते हैं। आहार श्रृंखला दिखाती है कौन किसे खाता है, जैसे घास → हिरण → बाघ; जुड़ी श्रृंखलाएँ आहार जाल बनाती हैं। एक पोषी स्तर से अगले तक लगभग 10% ऊर्जा ही जाती है, इसलिए आहार श्रृंखलाएँ छोटी होती हैं। कीटनाशक जैसे हानिकारक रसायन ऊँचे स्तरों पर जमा होते हैं (जैव आवर्धन)। ओज़ोन परत हमें UV किरणों से बचाती है और CFC से नष्ट होती है। जैव निम्नीकरणीय अपशिष्ट प्राकृतिक रूप से टूटता है; प्लास्टिक जैसा जैव अनिम्नीकरणीय अपशिष्ट नहीं।"
+          },
+          "keyPoints": {
+            "English": [
+              "An ecosystem has biotic and abiotic components.",
+              "Producers, consumers and decomposers.",
+              "Only about 10% of energy passes to the next level.",
+              "Pesticides build up along food chains.",
+              "The ozone layer blocks UV rays; CFCs damage it."
+            ],
+            "Telugu": [
+              "పర్యావరణ వ్యవస్థలో జీవ, నిర్జీవ అంశాలు ఉంటాయి.",
+              "ఉత్పాదకాలు, వినియోగదారులు, విచ్ఛిన్నకారులు.",
+              "తర్వాతి స్థాయికి సుమారు 10% శక్తి మాత్రమే చేరుతుంది.",
+              "పురుగుమందులు ఆహార గొలుసుల వెంట పేరుకుంటాయి.",
+              "ఓజోన్ పొర UV కిరణాలను అడ్డుకుంటుంది; CFCలు దానిని దెబ్బతీస్తాయి."
+            ],
+            "Hindi": [
+              "पारितंत्र में जैविक और अजैविक घटक होते हैं।",
+              "उत्पादक, उपभोक्ता और अपघटक।",
+              "अगले स्तर तक लगभग 10% ऊर्जा ही जाती है।",
+              "कीटनाशक आहार श्रृंखला में जमा होते हैं।",
+              "ओज़ोन परत UV किरणें रोकती है; CFC उसे नष्ट करते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Observe a garden or pond and draw a food chain with at least four organisms you see.",
+            "Telugu": "తోట లేదా చెరువును గమనించి మీరు చూసిన కనీసం నాలుగు జీవులతో ఆహార గొలుసు గీయండి.",
+            "Hindi": "किसी बगीचे या तालाब को देखकर कम से कम चार जीवों वाली आहार श्रृंखला बनाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Green plants in an ecosystem are called...",
+                "Telugu": "పర్యావరణ వ్యవస్థలో ఆకుపచ్చ మొక్కలను ఏమంటారు?",
+                "Hindi": "पारितंत्र में हरे पौधे क्या कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Producers",
+                  "Consumers",
+                  "Decomposers",
+                  "Carnivores"
+                ],
+                "Telugu": [
+                  "ఉత్పాదకాలు",
+                  "వినియోగదారులు",
+                  "విచ్ఛిన్నకారులు",
+                  "మాంసాహారులు"
+                ],
+                "Hindi": [
+                  "उत्पादक",
+                  "उपभोक्ता",
+                  "अपघटक",
+                  "मांसाहारी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "They make food by photosynthesis and form the first trophic level.",
+                "Telugu": "అవి కిరణజన్య సంయోగక్రియతో ఆహారం తయారు చేసి మొదటి పోషక స్థాయిగా ఉంటాయి.",
+                "Hindi": "वे प्रकाश संश्लेषण से भोजन बनाते हैं और पहला पोषी स्तर बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "If a plant has 10,000 J of energy, how much reaches the herbivore that eats it?",
+                "Telugu": "ఒక మొక్కలో 10,000 J శక్తి ఉంటే, దానిని తినే శాకాహారికి ఎంత చేరుతుంది?",
+                "Hindi": "किसी पौधे में 10,000 J ऊर्जा हो तो उसे खाने वाले शाकाहारी तक कितनी पहुँचती है?"
+              },
+              "options": {
+                "English": [
+                  "10,000 J",
+                  "1,000 J",
+                  "100 J",
+                  "5,000 J"
+                ],
+                "Telugu": [
+                  "10,000 J",
+                  "1,000 J",
+                  "100 J",
+                  "5,000 J"
+                ],
+                "Hindi": [
+                  "10,000 J",
+                  "1,000 J",
+                  "100 J",
+                  "5,000 J"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "By the 10% law, about 1,000 J passes on; the rest is lost mainly as heat.",
+                "Telugu": "10% నియమం ప్రకారం సుమారు 1,000 J చేరుతుంది; మిగిలినది ఎక్కువగా వేడిగా పోతుంది.",
+                "Hindi": "10% नियम से लगभग 1,000 J आगे जाती है; बाकी ज़्यादातर ऊष्मा के रूप में नष्ट होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is a decomposer?",
+                "Telugu": "వీటిలో విచ్ఛిన్నకారి ఏది?",
+                "Hindi": "इनमें से अपघटक कौन है?"
+              },
+              "options": {
+                "English": [
+                  "Grass",
+                  "Deer",
+                  "Fungus",
+                  "Lion"
+                ],
+                "Telugu": [
+                  "గడ్డి",
+                  "జింక",
+                  "శిలీంధ్రం",
+                  "సింహం"
+                ],
+                "Hindi": [
+                  "घास",
+                  "हिरण",
+                  "कवक",
+                  "शेर"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Bacteria and fungi break down dead remains and return nutrients to the soil.",
+                "Telugu": "బ్యాక్టీరియా, శిలీంధ్రాలు మృత అవశేషాలను విడగొట్టి పోషకాలను నేలకు తిరిగి ఇస్తాయి.",
+                "Hindi": "जीवाणु और कवक मृत अवशेष तोड़कर पोषक तत्व मिट्टी में लौटाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The increase in concentration of harmful chemicals at higher trophic levels is called...",
+                "Telugu": "పై పోషక స్థాయిల్లో హానికర రసాయనాల గాఢత పెరగడాన్ని ఏమంటారు?",
+                "Hindi": "ऊँचे पोषी स्तरों पर हानिकारक रसायनों की सांद्रता बढ़ना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Photosynthesis",
+                  "Decomposition",
+                  "Ozone depletion",
+                  "Biological magnification"
+                ],
+                "Telugu": [
+                  "కిరణజన్య సంయోగక్రియ",
+                  "విచ్ఛిన్నం",
+                  "ఓజోన్ క్షీణత",
+                  "జైవిక వ్యావర్ధనం"
+                ],
+                "Hindi": [
+                  "प्रकाश संश्लेषण",
+                  "अपघटन",
+                  "ओज़ोन क्षरण",
+                  "जैव आवर्धन"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Humans at the top of many food chains get the highest amounts of such chemicals.",
+                "Telugu": "ఎన్నో ఆహార గొలుసుల్లో పైన ఉండే మనుషులకు ఇలాంటి రసాయనాలు అత్యధికంగా చేరతాయి.",
+                "Hindi": "कई आहार श्रृंखलाओं में सबसे ऊपर होने से मनुष्यों में ऐसे रसायन सबसे ज़्यादा पहुँचते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The ozone layer protects the Earth from harmful ultraviolet rays.",
+                "Telugu": "నిజమా అబద్ధమా: ఓజోన్ పొర భూమిని హానికర అతినీలలోహిత కిరణాల నుంచి కాపాడుతుంది.",
+                "Hindi": "सही या गलत: ओज़ोन परत पृथ्वी को हानिकारक पराबैंगनी किरणों से बचाती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "UV rays can cause skin cancer; ozone (O₃) in the upper atmosphere absorbs them.",
+                "Telugu": "UV కిరణాలు చర్మ క్యాన్సర్ కలిగించవచ్చు; పై వాతావరణంలోని ఓజోన్ (O₃) వాటిని గ్రహిస్తుంది.",
+                "Hindi": "UV किरणें त्वचा कैंसर कर सकती हैं; ऊपरी वायुमंडल की ओज़ोन (O₃) उन्हें सोखती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which chemicals mainly damage the ozone layer?",
+                "Telugu": "ఓజోన్ పొరను ప్రధానంగా దెబ్బతీసే రసాయనాలు ఏవి?",
+                "Hindi": "ओज़ोन परत को मुख्य रूप से कौन से रसायन नष्ट करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "CFCs (chlorofluorocarbons)",
+                  "Oxygen",
+                  "Water vapour",
+                  "Nitrogen"
+                ],
+                "Telugu": [
+                  "CFCలు (క్లోరోఫ్లోరోకార్బన్లు)",
+                  "ఆక్సిజన్",
+                  "నీటి ఆవిరి",
+                  "నైట్రోజన్"
+                ],
+                "Hindi": [
+                  "CFC (क्लोरोफ़्लोरोकार्बन)",
+                  "ऑक्सीजन",
+                  "जलवाष्प",
+                  "नाइट्रोजन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "CFCs were used in fridges and sprays; their use was cut by the Montreal Protocol.",
+                "Telugu": "CFCలను ఫ్రిజ్‌లు, స్ప్రేలలో వాడేవారు; మాంట్రియల్ ఒప్పందం వాటి వాడకాన్ని తగ్గించింది.",
+                "Hindi": "CFC फ्रिज और स्प्रे में उपयोग होते थे; मॉन्ट्रियल प्रोटोकॉल ने इनका उपयोग घटाया।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a correct food chain?",
+                "Telugu": "సరైన ఆహార గొలుసు ఏది?",
+                "Hindi": "सही आहार श्रृंखला कौन सी है?"
+              },
+              "options": {
+                "English": [
+                  "Tiger → deer → grass",
+                  "Grass → grasshopper → frog → snake",
+                  "Frog → grass → snake",
+                  "Snake → frog → grasshopper → grass"
+                ],
+                "Telugu": [
+                  "పులి → జింక → గడ్డి",
+                  "గడ్డి → మిడత → కప్ప → పాము",
+                  "కప్ప → గడ్డి → పాము",
+                  "పాము → కప్ప → మిడత → గడ్డి"
+                ],
+                "Hindi": [
+                  "बाघ → हिरण → घास",
+                  "घास → टिड्डा → मेंढक → साँप",
+                  "मेंढक → घास → साँप",
+                  "साँप → मेंढक → टिड्डा → घास"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Arrows show the flow of energy, from the producer to the top consumer.",
+                "Telugu": "బాణాలు ఉత్పాదకం నుంచి పై వినియోగదారుని వరకు శక్తి ప్రవాహాన్ని చూపిస్తాయి.",
+                "Hindi": "तीर उत्पादक से शीर्ष उपभोक्ता तक ऊर्जा का प्रवाह दिखाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which waste is biodegradable?",
+                "Telugu": "జీవ విచ్ఛిన్నం చెందే వ్యర్థం ఏది?",
+                "Hindi": "कौन सा अपशिष्ट जैव निम्नीकरणीय है?"
+              },
+              "options": {
+                "English": [
+                  "Plastic bottle",
+                  "Glass",
+                  "Fruit peels",
+                  "Aluminium foil"
+                ],
+                "Telugu": [
+                  "ప్లాస్టిక్ సీసా",
+                  "గాజు",
+                  "పండ్ల తొక్కలు",
+                  "అల్యూమినియం రేకు"
+                ],
+                "Hindi": [
+                  "प्लास्टिक की बोतल",
+                  "काँच",
+                  "फलों के छिलके",
+                  "एल्युमिनियम पन्नी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Microbes can break down fruit peels; plastic and glass remain for very long times.",
+                "Telugu": "సూక్ష్మజీవులు పండ్ల తొక్కలను విడగొట్టగలవు; ప్లాస్టిక్, గాజు చాలా కాలం ఉంటాయి.",
+                "Hindi": "सूक्ष्मजीव फलों के छिलके तोड़ सकते हैं; प्लास्टिक और काँच बहुत लंबे समय तक रहते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Energy flow in an ecosystem is unidirectional.",
+                "Telugu": "నిజమా అబద్ధమా: పర్యావరణ వ్యవస్థలో శక్తి ప్రవాహం ఏకదిశాత్మకం.",
+                "Hindi": "सही या गलत: पारितंत्र में ऊर्जा प्रवाह एकदिशीय होता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Energy flows from the Sun to producers to consumers and does not come back.",
+                "Telugu": "శక్తి సూర్యుని నుంచి ఉత్పాదకాలకు, వినియోగదారులకు ప్రవహిస్తుంది, తిరిగి రాదు.",
+                "Hindi": "ऊर्जा सूरज से उत्पादकों और फिर उपभोक्ताओं तक जाती है और लौटती नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why are food chains usually limited to three or four steps?",
+                "Telugu": "ఆహార గొలుసులు సాధారణంగా మూడు నాలుగు దశలకే ఎందుకు పరిమితం?",
+                "Hindi": "आहार श्रृंखलाएँ आमतौर पर तीन-चार चरणों तक ही क्यों सीमित होती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Animals stop eating",
+                  "Plants grow too fast",
+                  "Decomposers eat everything",
+                  "Too little energy is left at higher levels"
+                ],
+                "Telugu": [
+                  "జంతువులు తినడం ఆపేస్తాయి",
+                  "మొక్కలు చాలా వేగంగా పెరుగుతాయి",
+                  "విచ్ఛిన్నకారులు అన్నీ తినేస్తాయి",
+                  "పై స్థాయిల్లో చాలా తక్కువ శక్తి మిగులుతుంది"
+                ],
+                "Hindi": [
+                  "जानवर खाना बंद कर देते हैं",
+                  "पौधे बहुत तेज़ बढ़ते हैं",
+                  "अपघटक सब खा लेते हैं",
+                  "ऊँचे स्तरों पर बहुत कम ऊर्जा बचती है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "With only 10% passed on at each step, little energy remains after four levels.",
+                "Telugu": "ప్రతి దశలో 10% మాత్రమే చేరడం వల్ల నాలుగు స్థాయిల తర్వాత చాలా తక్కువ శక్తి మిగులుతుంది.",
+                "Hindi": "हर चरण में सिर्फ़ 10% जाने से चार स्तरों के बाद बहुत कम ऊर्जा बचती है।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+/* =====================================================
+   EMPTY STATE
+===================================================== */
+
+.empty-state {
+
+  padding:
+    40px 25px;
+
+  text-align: center;
+
+  border-radius: 26px;
+
+  background: white;
+
+  box-shadow:
+    var(--shadow);
+
+}
+
+
+.empty-state h2 {
+
+  margin-top: 12px;
+
+}
+
+
+.empty-state p {
+
+  max-width: 550px;
+
+  margin:
+    10px auto 0;
+
+  color:
+    var(--muted);
+
+  line-height: 1.6;
+
+}
+
+
+.large-emoji {
+
+  font-size: 3rem;
+
+}

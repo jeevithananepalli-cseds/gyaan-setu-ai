@@ -1,0 +1,90 @@
+.practice-button {
+
+  min-width: 190px;
+
+}
+
+
+.practice-button:disabled {
+
+  cursor: default;
+
+  opacity: .6;
+
+}
+
+
+.practice-list {
+
+  display: grid;
+
+  gap: 16px;
+
+}
+
+
+.practice-card {
+
+  padding: 22px;
+
+  border-radius: 22px;
+
+  background: white;
+
+  box-shadow: var(--shadow);
+
+}
+
+
+.practice-topic {
+
+  color: var(--primary-dark);
+
+  font-size: .76rem;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+}
+
+
+.practice-card h3 {
+
+  margin-top: 8px;
+
+  line-height: 1.45;
+
+}
+
+
+.practice-options {
+
+  margin-top: 12px;
+
+}
+
+
+.practice-correct {
+
+  border-color: #36a866 !important;
+
+  background: #dff8e9 !important;
+
+}
+
+
+.practice-wrong {
+
+  border-color: #df6868 !important;
+
+  background: #ffe6e6 !important;
+
+}
+
+
+.practice-complete {
+
+  opacity: .72;
+
+}

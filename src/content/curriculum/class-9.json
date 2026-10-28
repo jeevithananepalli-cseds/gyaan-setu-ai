@@ -1,0 +1,3793 @@
+{
+  "subject": {
+    "English": "Physical Science + Biological Science",
+    "Telugu": "భౌతిక శాస్త్రం + జీవశాస్త్రం",
+    "Hindi": "भौतिक विज्ञान + जैव विज्ञान"
+  },
+  "chapters": [
+    {
+      "id": "motion",
+      "icon": "🏃",
+      "title": {
+        "English": "Motion",
+        "Telugu": "చలనం",
+        "Hindi": "गति"
+      },
+      "description": {
+        "English": "Understand speed, distance and motion in daily life.",
+        "Telugu": "రోజువారీ జీవితంలో వేగం, దూరం మరియు చలనాన్ని అర్థం చేసుకోండి.",
+        "Hindi": "दैनिक जीवन में गति, दूरी और गति को समझें।"
+      },
+      "lessons": [
+        {
+          "id": "motion-basics",
+          "visual": "📈",
+          "title": {
+            "English": "Speed and Motion",
+            "Telugu": "వేగం మరియు చలనం",
+            "Hindi": "गति और चाल"
+          },
+          "image": "./images/lessons/speed-and-motion.svg",
+          "explanation": {
+            "English": "Motion is the change in position with time. Speed tells how fast an object moves. A distance-time graph helps us study motion.",
+            "Telugu": "చలనం అంటే సమయం పెరిగినప్పుడు స్థానంలో మార్పు. వేగం వస్తువు ఎంత త్వరగా కదులుతుందో చెబుతుంది. దూరం-సమయం గ్రాఫ్ చలనాన్ని అర్థం చేసుకోవడానికి సహాయం చేస్తుంది.",
+            "Hindi": "गति समय के साथ स्थिति में परिवर्तन है। चाल बताती है कोई वस्तु कितनी जल्दी चलती है। दूरी-समय ग्राफ गति का अध्ययन करने में मदद करता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Motion is change in position.",
+              "Speed = distance / time.",
+              "Graphs show patterns of motion.",
+              "Different motions have different speeds."
+            ],
+            "Telugu": [
+              "చలనం అంటే స్థానంలో మార్పు.",
+              "వేగం = దూరం / సమయం.",
+              "గ్రాఫ్లు చలనపు నమూనాలను చూపిస్తాయి.",
+              "వివిధ చలనాలకు వేర్వేరు వేగాలు ఉంటాయి."
+            ],
+            "Hindi": [
+              "गति स्थिति में परिवर्तन है।",
+              "चाल = दूरी / समय।",
+              "ग्राफ गति के पैटर्न दिखाते हैं।",
+              "अलग-अलग गतियाँ अलग-अलग चाल दिखाती हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Measure the time taken to walk a known distance and calculate speed.",
+            "Telugu": "తెలిసిన దూరం నడిచేందుకు తీసుకున్న సమయాన్ని కొలిచి వేగాన్ని లెక్కించండి.",
+            "Hindi": "अज्ञात दूरी को चलने में लगा समय मापकर चाल निकालें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The shortest distance between the initial and final positions of an object is its...",
+                "Telugu": "ఒక వస్తువు ప్రారంభ, చివరి స్థానాల మధ్య కనిష్ఠ దూరం దాని...",
+                "Hindi": "किसी वस्तु की प्रारंभिक और अंतिम स्थिति के बीच की न्यूनतम दूरी क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Displacement",
+                  "Distance",
+                  "Speed",
+                  "Acceleration"
+                ],
+                "Telugu": [
+                  "స్థానభ్రంశం",
+                  "దూరం",
+                  "వడి",
+                  "త్వరణం"
+                ],
+                "Hindi": [
+                  "विस्थापन",
+                  "दूरी",
+                  "चाल",
+                  "त्वरण"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Displacement has both size and direction; it can be zero even if distance is not.",
+                "Telugu": "స్థానభ్రంశానికి పరిమాణం, దిశ రెండూ ఉంటాయి; దూరం సున్నా కాకపోయినా అది సున్నా కావచ్చు.",
+                "Hindi": "विस्थापन में परिमाण और दिशा दोनों होते हैं; दूरी शून्य न हो तब भी यह शून्य हो सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A runner completes one full round of a circular track. Her displacement is...",
+                "Telugu": "ఒక పరుగుదారు వృత్తాకార మార్గంలో ఒక పూర్తి చుట్టు పూర్తి చేస్తుంది. ఆమె స్థానభ్రంశం...",
+                "Hindi": "एक धाविका वृत्ताकार पथ का एक पूरा चक्कर लगाती है। उसका विस्थापन कितना है?"
+              },
+              "options": {
+                "English": [
+                  "Equal to the circumference",
+                  "Zero",
+                  "Twice the radius",
+                  "Equal to the radius"
+                ],
+                "Telugu": [
+                  "పరిధికి సమానం",
+                  "శూన్యం",
+                  "వ్యాసార్ధానికి రెట్టింపు",
+                  "వ్యాసార్ధానికి సమానం"
+                ],
+                "Hindi": [
+                  "परिधि के बराबर",
+                  "शून्य",
+                  "त्रिज्या का दोगुना",
+                  "त्रिज्या के बराबर"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "She ends where she started, so displacement is zero though distance is the full circumference.",
+                "Telugu": "ఆమె ప్రారంభించిన చోటే ముగిస్తుంది, కాబట్టి దూరం పూర్తి పరిధి అయినా స్థానభ్రంశం శూన్యం.",
+                "Hindi": "वह वहीं रुकती है जहाँ से चली, इसलिए दूरी पूरी परिधि होने पर भी विस्थापन शून्य है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Velocity is...",
+                "Telugu": "వేగం (వెలాసిటీ) అంటే...",
+                "Hindi": "वेग क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Speed without direction",
+                  "Distance per unit time",
+                  "Speed in a given direction",
+                  "Mass per unit volume"
+                ],
+                "Telugu": [
+                  "దిశ లేని వడి",
+                  "ప్రమాణ కాలంలో దూరం",
+                  "నిర్దిష్ట దిశలో వడి",
+                  "ప్రమాణ ఘనపరిమాణంలో ద్రవ్యరాశి"
+                ],
+                "Hindi": [
+                  "दिशा रहित चाल",
+                  "प्रति इकाई समय दूरी",
+                  "निश्चित दिशा में चाल",
+                  "प्रति इकाई आयतन द्रव्यमान"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Velocity = displacement / time; it is a vector quantity.",
+                "Telugu": "వేగం = స్థానభ్రంశం / కాలం; ఇది సదిశ రాశి.",
+                "Hindi": "वेग = विस्थापन / समय; यह सदिश राशि है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Acceleration is the rate of change of...",
+                "Telugu": "త్వరణం దేని మార్పు రేటు?",
+                "Hindi": "त्वरण किसके परिवर्तन की दर है?"
+              },
+              "options": {
+                "English": [
+                  "Distance",
+                  "Mass",
+                  "Time",
+                  "Velocity"
+                ],
+                "Telugu": [
+                  "దూరం",
+                  "ద్రవ్యరాశి",
+                  "కాలం",
+                  "వేగం"
+                ],
+                "Hindi": [
+                  "दूरी",
+                  "द्रव्यमान",
+                  "समय",
+                  "वेग"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "a = (v - u) / t; its SI unit is m/s².",
+                "Telugu": "a = (v - u) / t; దాని SI ప్రమాణం m/s².",
+                "Hindi": "a = (v - u) / t; इसकी SI इकाई m/s² है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: An object moving in a circle at constant speed is accelerating.",
+                "Telugu": "నిజమా అబద్ధమా: స్థిర వడితో వృత్తంలో కదిలే వస్తువుకు త్వరణం ఉంటుంది.",
+                "Hindi": "सही या गलत: स्थिर चाल से वृत्त में चलती वस्तु त्वरित होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Its direction keeps changing, so its velocity changes; this is uniform circular motion.",
+                "Telugu": "దాని దిశ మారుతూ ఉంటుంది, కాబట్టి వేగం మారుతుంది; ఇది సమ వృత్తాకార చలనం.",
+                "Hindi": "उसकी दिशा बदलती रहती है, इसलिए वेग बदलता है; यह एकसमान वृत्तीय गति है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A car starts from rest and reaches 20 m/s in 5 s. Its acceleration is...",
+                "Telugu": "ఒక కారు నిశ్చల స్థితి నుంచి బయలుదేరి 5 సెకన్లలో 20 m/s చేరుతుంది. దాని త్వరణం...",
+                "Hindi": "एक कार विराम से चलकर 5 सेकंड में 20 m/s पहुँचती है। उसका त्वरण कितना है?"
+              },
+              "options": {
+                "English": [
+                  "4 m/s²",
+                  "100 m/s²",
+                  "25 m/s²",
+                  "0.25 m/s²"
+                ],
+                "Telugu": [
+                  "4 m/s²",
+                  "100 m/s²",
+                  "25 m/s²",
+                  "0.25 m/s²"
+                ],
+                "Hindi": [
+                  "4 m/s²",
+                  "100 m/s²",
+                  "25 m/s²",
+                  "0.25 m/s²"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "a = (20 - 0) / 5 = 4 m/s².",
+                "Telugu": "a = (20 - 0) / 5 = 4 m/s².",
+                "Hindi": "a = (20 - 0) / 5 = 4 m/s²।"
+              }
+            },
+            {
+              "question": {
+                "English": "The slope of a velocity-time graph gives...",
+                "Telugu": "వేగ-కాల గ్రాఫు వాలు ఏమి ఇస్తుంది?",
+                "Hindi": "वेग-समय ग्राफ़ का ढाल क्या देता है?"
+              },
+              "options": {
+                "English": [
+                  "Distance",
+                  "Acceleration",
+                  "Mass",
+                  "Force"
+                ],
+                "Telugu": [
+                  "దూరం",
+                  "త్వరణం",
+                  "ద్రవ్యరాశి",
+                  "బలం"
+                ],
+                "Hindi": [
+                  "दूरी",
+                  "त्वरण",
+                  "द्रव्यमान",
+                  "बल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The area under a velocity-time graph gives the displacement.",
+                "Telugu": "వేగ-కాల గ్రాఫు కింది వైశాల్యం స్థానభ్రంశాన్ని ఇస్తుంది.",
+                "Hindi": "वेग-समय ग्राफ़ के नीचे का क्षेत्रफल विस्थापन देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which equation of motion is correct?",
+                "Telugu": "సరైన చలన సమీకరణం ఏది?",
+                "Hindi": "गति का कौन सा समीकरण सही है?"
+              },
+              "options": {
+                "English": [
+                  "v = u - at²",
+                  "s = ut - v",
+                  "v = u + at",
+                  "a = v × t"
+                ],
+                "Telugu": [
+                  "v = u - at²",
+                  "s = ut - v",
+                  "v = u + at",
+                  "a = v × t"
+                ],
+                "Hindi": [
+                  "v = u - at²",
+                  "s = ut - v",
+                  "v = u + at",
+                  "a = v × t"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "The three equations are v = u + at, s = ut + ½at², and v² = u² + 2as.",
+                "Telugu": "మూడు సమీకరణాలు v = u + at, s = ut + ½at², v² = u² + 2as.",
+                "Hindi": "तीन समीकरण हैं v = u + at, s = ut + ½at² और v² = u² + 2as।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Negative acceleration means the object is slowing down.",
+                "Telugu": "నిజమా అబద్ధమా: ఋణ త్వరణం అంటే వస్తువు వేగం తగ్గుతోంది.",
+                "Hindi": "सही या गलत: ऋणात्मक त्वरण का मतलब वस्तु धीमी हो रही है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Acceleration opposite to velocity is called retardation or deceleration.",
+                "Telugu": "వేగానికి వ్యతిరేక దిశలో త్వరణాన్ని మందనం (రిటార్డేషన్) అంటారు.",
+                "Hindi": "वेग के विपरीत त्वरण को मंदन कहते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "A straight line parallel to the time axis on a velocity-time graph means...",
+                "Telugu": "వేగ-కాల గ్రాఫుపై కాల అక్షానికి సమాంతర సరళ రేఖ అంటే...",
+                "Hindi": "वेग-समय ग्राफ़ पर समय अक्ष के समांतर सीधी रेखा का मतलब क्या है?"
+              },
+              "options": {
+                "English": [
+                  "The object is at rest",
+                  "The object is speeding up",
+                  "The object is slowing down",
+                  "Uniform velocity (zero acceleration)"
+                ],
+                "Telugu": [
+                  "వస్తువు నిశ్చలం",
+                  "వేగం పెరుగుతోంది",
+                  "వేగం తగ్గుతోంది",
+                  "సమ వేగం (త్వరణం శూన్యం)"
+                ],
+                "Hindi": [
+                  "वस्तु रुकी है",
+                  "वस्तु तेज़ हो रही है",
+                  "वस्तु धीमी हो रही है",
+                  "एकसमान वेग (त्वरण शून्य)"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Velocity does not change with time, so acceleration is zero.",
+                "Telugu": "కాలంతో వేగం మారదు, కాబట్టి త్వరణం శూన్యం.",
+                "Hindi": "समय के साथ वेग नहीं बदलता, इसलिए त्वरण शून्य है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fundamental-unit-of-life",
+      "icon": "🧬",
+      "title": {
+        "English": "The Fundamental Unit of Life",
+        "Telugu": "జీవం యొక్క ప్రాధమిక యూనిట్",
+        "Hindi": "जीवन की मूल इकाई"
+      },
+      "description": {
+        "English": "Study the cell and its roles in living organisms.",
+        "Telugu": "కణం మరియు దాని విధులను జీవులలో తెలుసుకోండి.",
+        "Hindi": "कोशिका और उसके कार्यों को जीवों में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "cell-study",
+          "visual": "🔬",
+          "title": {
+            "English": "Cells in Living Things",
+            "Telugu": "జీవులలో కణాలు",
+            "Hindi": "जीवों में कोशिकाएँ"
+          },
+          "image": "./images/lessons/cells-and-cell-structure.svg",
+          "explanation": {
+            "English": "All living organisms are made of cells. Cells are capable of growth, respiration and reproduction. Different organisms have different kinds of cells that perform different tasks.",
+            "Telugu": "అన్ని జీవులు కణాలతో నిర్మించబడ్డాయి. కణాలు పెరుగుదల, శ్వాస మరియు ప్రత్యుత్పత్తి చేయగలవు. వివిధ జీవులకు వివిధ కణాలు ఉంటాయి.",
+            "Hindi": "सभी जीव कोशिकाओं से बने होते हैं। कोशिकाएँ वृद्धि, श्वसन और प्रजनन कर सकती हैं। अलग-अलग जीवों में अलग-अलग कोशिकाएँ होती हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "All life starts from cells.",
+              "Cells perform specific functions.",
+              "Nucleus stores genetic information.",
+              "Cells form tissues and organs."
+            ],
+            "Telugu": [
+              "అన్ని జీవాలు కణాల నుండి ప్రారంభమవుతాయి.",
+              "కణాలు నిర్దిష్ట విధులను నిర్వహిస్తాయి.",
+              "కేంద్రకం జన్యు సమాచారాన్ని నిల్వ చేస్తుంది.",
+              "కణాలు కణజాలాలు మరియు అవయవాలను ఏర్పరుస్తాయి."
+            ],
+            "Hindi": [
+              "सभी जीव कोशिकाओं से बनते हैं।",
+              "कोशिकाएँ विशिष्ट कार्य करती हैं।",
+              "नाभिक जीनसूचना संग्रहीत करता है।",
+              "कोशिकाएँ ऊतकों और अंगों का निर्माण करती हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Make a labelled sketch of a generalised cell.",
+            "Telugu": "సాధారణ కణం యొక్క లేబుల్ స్కెచ్ గీయండి.",
+            "Hindi": "साधारण कोशिका का नामांकित चित्र बनाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Who discovered the nucleus in a cell?",
+                "Telugu": "కణంలో కేంద్రకాన్ని ఎవరు కనుగొన్నారు?",
+                "Hindi": "कोशिका में केंद्रक की खोज किसने की?"
+              },
+              "options": {
+                "English": [
+                  "Robert Brown",
+                  "Robert Hooke",
+                  "Leeuwenhoek",
+                  "Purkinje"
+                ],
+                "Telugu": [
+                  "రాబర్ట్ బ్రౌన్",
+                  "రాబర్ట్ హుక్",
+                  "లీవెన్‌హుక్",
+                  "పర్కింజే"
+                ],
+                "Hindi": [
+                  "रॉबर्ट ब्राउन",
+                  "रॉबर्ट हुक",
+                  "ल्यूवेनहॉक",
+                  "पुरकिंजे"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Robert Brown discovered the nucleus in 1831.",
+                "Telugu": "రాబర్ట్ బ్రౌన్ 1831లో కేంద్రకాన్ని కనుగొన్నారు.",
+                "Hindi": "रॉबर्ट ब्राउन ने 1831 में केंद्रक खोजा।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which organelle is called the powerhouse of the cell?",
+                "Telugu": "కణం యొక్క శక్తి కేంద్రం అని పిలిచే కణాంగం ఏది?",
+                "Hindi": "किस कोशिकांग को कोशिका का बिजलीघर कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Ribosome",
+                  "Mitochondrion",
+                  "Golgi body",
+                  "Lysosome"
+                ],
+                "Telugu": [
+                  "రైబోజోము",
+                  "మైటోకాండ్రియా",
+                  "గాల్జీ సంక్లిష్టం",
+                  "లైసోజోము"
+                ],
+                "Hindi": [
+                  "राइबोसोम",
+                  "माइटोकॉन्ड्रिया",
+                  "गॉल्जी काय",
+                  "लाइसोसोम"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Mitochondria release energy as ATP during cellular respiration.",
+                "Telugu": "మైటోకాండ్రియా కణ శ్వాసక్రియలో శక్తిని ATP రూపంలో విడుదల చేస్తాయి.",
+                "Hindi": "माइटोकॉन्ड्रिया कोशिकीय श्वसन में ATP के रूप में ऊर्जा देते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Lysosomes are known as 'suicide bags' because they...",
+                "Telugu": "లైసోజోములను 'ఆత్మహత్య సంచులు' అని ఎందుకు అంటారు?",
+                "Hindi": "लाइसोसोम को 'आत्मघाती थैली' क्यों कहते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Store food",
+                  "Make proteins",
+                  "Can digest their own cell when it is damaged",
+                  "Make energy"
+                ],
+                "Telugu": [
+                  "ఆహారం నిల్వ చేస్తాయి",
+                  "ప్రోటీన్లు తయారు చేస్తాయి",
+                  "దెబ్బతిన్న తమ కణాన్నే జీర్ణం చేయగలవు",
+                  "శక్తి తయారు చేస్తాయి"
+                ],
+                "Hindi": [
+                  "भोजन जमा करते हैं",
+                  "प्रोटीन बनाते हैं",
+                  "क्षतिग्रस्त होने पर अपनी ही कोशिका पचा सकते हैं",
+                  "ऊर्जा बनाते हैं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "They contain digestive enzymes that break down waste and worn-out parts.",
+                "Telugu": "వాటిలో వ్యర్థాలను, పాడైన భాగాలను విడగొట్టే జీర్ణ ఎంజైములు ఉంటాయి.",
+                "Hindi": "इनमें पाचक एंजाइम होते हैं जो अपशिष्ट और पुराने भागों को तोड़ते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Movement of water across a semi-permeable membrane is called...",
+                "Telugu": "అర్ధపారగమ్య త్వచం గుండా నీటి కదలికను ఏమంటారు?",
+                "Hindi": "अर्धपारगम्य झिल्ली से पानी की गति क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Diffusion of gases",
+                  "Respiration",
+                  "Photosynthesis",
+                  "Osmosis"
+                ],
+                "Telugu": [
+                  "వాయు వ్యాపనం",
+                  "శ్వాసక్రియ",
+                  "కిరణజన్య సంయోగక్రియ",
+                  "ద్రవాభిసరణం"
+                ],
+                "Hindi": [
+                  "गैसों का विसरण",
+                  "श्वसन",
+                  "प्रकाश संश्लेषण",
+                  "परासरण"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Water moves from a region of higher water concentration to lower through the membrane.",
+                "Telugu": "నీరు ఎక్కువ నీటి గాఢత నుంచి తక్కువ గాఢత వైపు త్వచం గుండా కదులుతుంది.",
+                "Hindi": "पानी झिल्ली से होकर अधिक जल सांद्रता से कम की ओर जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A cell placed in a hypertonic solution loses water and shrinks.",
+                "Telugu": "నిజమా అబద్ధమా: అతిపరాసరణ ద్రావణంలో ఉంచిన కణం నీటిని కోల్పోయి కుంచించుకుపోతుంది.",
+                "Hindi": "सही या गलत: अतिपरासारी घोल में रखी कोशिका पानी खोकर सिकुड़ती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "In a plant cell this shrinking of cytoplasm is called plasmolysis.",
+                "Telugu": "మొక్క కణంలో కణద్రవ్యం ఇలా కుంచించుకుపోవడాన్ని జీవద్రవ్య సంకోచం అంటారు.",
+                "Hindi": "पादप कोशिका में कोशिका द्रव्य का ऐसे सिकुड़ना जीवद्रव्य कुंचन कहलाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Ribosomes are the site of...",
+                "Telugu": "రైబోజోములు దేని స్థానం?",
+                "Hindi": "राइबोसोम किसका स्थान हैं?"
+              },
+              "options": {
+                "English": [
+                  "Protein synthesis",
+                  "Photosynthesis",
+                  "Fat storage",
+                  "Cell division only"
+                ],
+                "Telugu": [
+                  "ప్రోటీన్ సంశ్లేషణ",
+                  "కిరణజన్య సంయోగక్రియ",
+                  "కొవ్వు నిల్వ",
+                  "కణ విభజన మాత్రమే"
+                ],
+                "Hindi": [
+                  "प्रोटीन संश्लेषण",
+                  "प्रकाश संश्लेषण",
+                  "वसा भंडारण",
+                  "सिर्फ़ कोशिका विभाजन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Ribosomes attached to rough ER make proteins.",
+                "Telugu": "గరుకు అంతర్జీవద్రవ్య జాలకానికి అంటుకున్న రైబోజోములు ప్రోటీన్లు తయారు చేస్తాయి.",
+                "Hindi": "खुरदरे अंतःप्रद्रव्यी जालिका से जुड़े राइबोसोम प्रोटीन बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which organelle packages and sends materials out of the cell?",
+                "Telugu": "పదార్థాలను ప్యాక్ చేసి కణం బయటకు పంపే కణాంగం ఏది?",
+                "Hindi": "कौन सा कोशिकांग पदार्थों को पैक करके कोशिका से बाहर भेजता है?"
+              },
+              "options": {
+                "English": [
+                  "Nucleus",
+                  "Golgi apparatus",
+                  "Vacuole",
+                  "Chloroplast"
+                ],
+                "Telugu": [
+                  "కేంద్రకం",
+                  "గాల్జీ సంక్లిష్టం",
+                  "రిక్తిక",
+                  "హరితరేణువు"
+                ],
+                "Hindi": [
+                  "केंद्रक",
+                  "गॉल्जी उपकरण",
+                  "रिक्तिका",
+                  "हरितलवक"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The Golgi apparatus stores, modifies and packages products made in the ER.",
+                "Telugu": "గాల్జీ సంక్లిష్టం ERలో తయారైన పదార్థాలను నిల్వ చేసి, మార్చి, ప్యాక్ చేస్తుంది.",
+                "Hindi": "गॉल्जी उपकरण ER में बने पदार्थों को जमा, परिवर्तित और पैक करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Plastids and mitochondria are special because they have their own...",
+                "Telugu": "ప్లాస్టిడ్లు, మైటోకాండ్రియాకు ప్రత్యేకత ఏమిటంటే వాటికి సొంతంగా...",
+                "Hindi": "लवक और माइटोकॉन्ड्रिया खास हैं क्योंकि उनके अपने..."
+              },
+              "options": {
+                "English": [
+                  "Cell wall",
+                  "Nucleus",
+                  "DNA and ribosomes",
+                  "Vacuoles"
+                ],
+                "Telugu": [
+                  "కణకవచం",
+                  "కేంద్రకం",
+                  "DNA, రైబోజోములు",
+                  "రిక్తికలు"
+                ],
+                "Hindi": [
+                  "कोशिका भित्ति",
+                  "केंद्रक",
+                  "DNA और राइबोसोम",
+                  "रिक्तिकाएँ"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "This lets them make some of their own proteins.",
+                "Telugu": "దీనివల్ల అవి తమ ప్రోటీన్లలో కొన్నింటిని స్వయంగా తయారు చేసుకుంటాయి.",
+                "Hindi": "इससे वे अपने कुछ प्रोटीन खुद बना पाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The cell membrane is selectively permeable.",
+                "Telugu": "నిజమా అబద్ధమా: కణత్వచం వరణాత్మక పారగమ్యత కలిగి ఉంటుంది.",
+                "Hindi": "सही या गलत: कोशिका झिल्ली वरणात्मक पारगम्य होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "It allows some substances to pass while blocking others.",
+                "Telugu": "అది కొన్ని పదార్థాలను దాటనిచ్చి మరికొన్నింటిని అడ్డుకుంటుంది.",
+                "Hindi": "यह कुछ पदार्थों को जाने देती है और दूसरों को रोकती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The large central vacuole in a plant cell helps...",
+                "Telugu": "మొక్క కణంలోని పెద్ద కేంద్ర రిక్తిక దేనికి సహాయపడుతుంది?",
+                "Hindi": "पादप कोशिका की बड़ी केंद्रीय रिक्तिका किसमें मदद करती है?"
+              },
+              "options": {
+                "English": [
+                  "Make proteins",
+                  "Release energy",
+                  "Control heredity",
+                  "Keep the cell firm (turgid) by storing cell sap"
+                ],
+                "Telugu": [
+                  "ప్రోటీన్లు తయారీకి",
+                  "శక్తి విడుదలకు",
+                  "అనువంశికత నియంత్రణకు",
+                  "కణ రసాన్ని నిల్వ చేసి కణాన్ని దృఢంగా ఉంచడానికి"
+                ],
+                "Hindi": [
+                  "प्रोटीन बनाने में",
+                  "ऊर्जा देने में",
+                  "आनुवंशिकता नियंत्रण में",
+                  "कोशिका रस जमा करके कोशिका को स्फीत रखने में"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Vacuoles store water, sugars and wastes and give rigidity to the plant cell.",
+                "Telugu": "రిక్తికలు నీరు, చక్కెరలు, వ్యర్థాలను నిల్వ చేసి మొక్క కణానికి దృఢత్వం ఇస్తాయి.",
+                "Hindi": "रिक्तिकाएँ पानी, शर्करा और अपशिष्ट जमा करती और पादप कोशिका को कठोरता देती हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "force-and-laws-of-motion",
+      "icon": "🏏",
+      "title": {
+        "English": "Force and Laws of Motion",
+        "Telugu": "బలం, గమన నియమాలు",
+        "Hindi": "बल तथा गति के नियम"
+      },
+      "description": {
+        "English": "Newton's three laws, inertia and momentum.",
+        "Telugu": "న్యూటన్ మూడు నియమాలు, జడత్వం, ద్రవ్యవేగం.",
+        "Hindi": "न्यूटन के तीन नियम, जड़त्व और संवेग।"
+      },
+      "lessons": [
+        {
+          "id": "force-and-laws-of-motion-lesson",
+          "visual": "🚀",
+          "title": {
+            "English": "Newton's Laws of Motion",
+            "Telugu": "న్యూటన్ గమన నియమాలు",
+            "Hindi": "न्यूटन के गति नियम"
+          },
+          "image": "./images/lessons/force-and-motion.svg",
+          "explanation": {
+            "English": "Newton's first law: an object stays at rest or in uniform motion unless an unbalanced force acts on it; this tendency is inertia, and more mass means more inertia. Momentum p = mv. Newton's second law: force equals rate of change of momentum, so F = ma, measured in newtons. Newton's third law: every action has an equal and opposite reaction, acting on different bodies, as in a rocket or a gun's recoil. In a closed system, total momentum is conserved.",
+            "Telugu": "న్యూటన్ మొదటి నియమం: అసమతుల్య బలం పనిచేయనంత వరకు వస్తువు నిశ్చల స్థితిలో లేదా సమ చలనంలో ఉంటుంది; ఈ స్వభావమే జడత్వం, ఎక్కువ ద్రవ్యరాశి అంటే ఎక్కువ జడత్వం. ద్రవ్యవేగం p = mv. న్యూటన్ రెండవ నియమం: బలం ద్రవ్యవేగ మార్పు రేటుకు సమానం, కాబట్టి F = ma, న్యూటన్‌లలో కొలుస్తారు. న్యూటన్ మూడవ నియమం: ప్రతి చర్యకు సమానమైన, వ్యతిరేక ప్రతిచర్య ఉంటుంది, అవి వేర్వేరు వస్తువులపై పనిచేస్తాయి, రాకెట్ లేదా తుపాకీ వెనుకకు తన్నడంలోలా. మూసిన వ్యవస్థలో మొత్తం ద్రవ్యవేగం నిత్యత్వం పాటిస్తుంది.",
+            "Hindi": "न्यूटन का पहला नियम: असंतुलित बल न लगे तो वस्तु विराम या एकसमान गति में रहती है; यह प्रवृत्ति जड़त्व है, और ज़्यादा द्रव्यमान से ज़्यादा जड़त्व। संवेग p = mv। न्यूटन का दूसरा नियम: बल संवेग परिवर्तन की दर के बराबर है, इसलिए F = ma, न्यूटन में। न्यूटन का तीसरा नियम: हर क्रिया की बराबर और विपरीत प्रतिक्रिया होती है, जो अलग वस्तुओं पर लगती है, जैसे रॉकेट या बंदूक का पीछे धक्का। बंद तंत्र में कुल संवेग संरक्षित रहता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "First law: inertia; more mass, more inertia.",
+              "Momentum p = mv (kg m/s).",
+              "Second law: F = ma.",
+              "Third law: action and reaction are equal and opposite.",
+              "Total momentum is conserved."
+            ],
+            "Telugu": [
+              "మొదటి నియమం: జడత్వం; ఎక్కువ ద్రవ్యరాశి, ఎక్కువ జడత్వం.",
+              "ద్రవ్యవేగం p = mv (kg m/s).",
+              "రెండవ నియమం: F = ma.",
+              "మూడవ నియమం: చర్య, ప్రతిచర్య సమానం, వ్యతిరేకం.",
+              "మొత్తం ద్రవ్యవేగం నిత్యత్వం పాటిస్తుంది."
+            ],
+            "Hindi": [
+              "पहला नियम: जड़त्व; ज़्यादा द्रव्यमान, ज़्यादा जड़त्व।",
+              "संवेग p = mv (kg m/s)।",
+              "दूसरा नियम: F = ma।",
+              "तीसरा नियम: क्रिया और प्रतिक्रिया बराबर और विपरीत।",
+              "कुल संवेग संरक्षित रहता है।"
+            ]
+          },
+          "activity": {
+            "English": "Place a coin on a card over a glass and flick the card quickly. Explain why the coin drops into the glass.",
+            "Telugu": "గ్లాసుపై కార్డు, దానిపై నాణెం ఉంచి కార్డును వేగంగా తట్టండి. నాణెం గ్లాసులో ఎందుకు పడిందో వివరించండి.",
+            "Hindi": "गिलास पर कार्ड और उस पर सिक्का रखकर कार्ड को तेज़ी से झटकिए। सिक्का गिलास में क्यों गिरा, समझाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The tendency of an object to resist a change in its state of motion is...",
+                "Telugu": "తన చలన స్థితిలో మార్పును వ్యతిరేకించే వస్తువు స్వభావం...",
+                "Hindi": "वस्तु की अपनी गति अवस्था में बदलाव का विरोध करने की प्रवृत्ति क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Inertia",
+                  "Momentum",
+                  "Friction",
+                  "Acceleration"
+                ],
+                "Telugu": [
+                  "జడత్వం",
+                  "ద్రవ్యవేగం",
+                  "ఘర్షణ",
+                  "త్వరణం"
+                ],
+                "Hindi": [
+                  "जड़त्व",
+                  "संवेग",
+                  "घर्षण",
+                  "त्वरण"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Passengers jerk forward when a bus brakes suddenly because of inertia.",
+                "Telugu": "బస్సు ఆకస్మికంగా ఆగినప్పుడు ప్రయాణికులు జడత్వం వల్ల ముందుకు తూలుతారు.",
+                "Hindi": "बस अचानक रुकने पर यात्री जड़त्व के कारण आगे झुकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which has more inertia?",
+                "Telugu": "దేనికి ఎక్కువ జడత్వం ఉంటుంది?",
+                "Hindi": "किसमें ज़्यादा जड़त्व है?"
+              },
+              "options": {
+                "English": [
+                  "A bicycle",
+                  "A loaded truck",
+                  "A football",
+                  "A pencil"
+                ],
+                "Telugu": [
+                  "సైకిల్",
+                  "బరువు నింపిన ట్రక్కు",
+                  "ఫుట్‌బాల్",
+                  "పెన్సిల్"
+                ],
+                "Hindi": [
+                  "साइकिल",
+                  "भरा ट्रक",
+                  "फ़ुटबॉल",
+                  "पेंसिल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Inertia depends on mass; the heavier truck has more.",
+                "Telugu": "జడత్వం ద్రవ్యరాశిపై ఆధారపడుతుంది; బరువైన ట్రక్కుకు ఎక్కువ.",
+                "Hindi": "जड़त्व द्रव्यमान पर निर्भर है; भारी ट्रक में ज़्यादा होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Newton's second law is expressed as...",
+                "Telugu": "న్యూటన్ రెండవ నియమాన్ని ఎలా రాస్తారు?",
+                "Hindi": "न्यूटन का दूसरा नियम कैसे लिखा जाता है?"
+              },
+              "options": {
+                "English": [
+                  "F = m/a",
+                  "F = m + a",
+                  "F = ma",
+                  "F = a/m"
+                ],
+                "Telugu": [
+                  "F = m/a",
+                  "F = m + a",
+                  "F = ma",
+                  "F = a/m"
+                ],
+                "Hindi": [
+                  "F = m/a",
+                  "F = m + a",
+                  "F = ma",
+                  "F = a/m"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Force equals mass times acceleration; 1 N = 1 kg m/s².",
+                "Telugu": "బలం = ద్రవ్యరాశి × త్వరణం; 1 N = 1 kg m/s².",
+                "Hindi": "बल = द्रव्यमान × त्वरण; 1 N = 1 kg m/s²।"
+              }
+            },
+            {
+              "question": {
+                "English": "A force of 10 N acts on a 2 kg mass. The acceleration is...",
+                "Telugu": "2 కిలోల ద్రవ్యరాశిపై 10 N బలం పనిచేస్తుంది. త్వరణం...",
+                "Hindi": "2 kg द्रव्यमान पर 10 N बल लगता है। त्वरण कितना है?"
+              },
+              "options": {
+                "English": [
+                  "20 m/s²",
+                  "0.2 m/s²",
+                  "12 m/s²",
+                  "5 m/s²"
+                ],
+                "Telugu": [
+                  "20 m/s²",
+                  "0.2 m/s²",
+                  "12 m/s²",
+                  "5 m/s²"
+                ],
+                "Hindi": [
+                  "20 m/s²",
+                  "0.2 m/s²",
+                  "12 m/s²",
+                  "5 m/s²"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "a = F/m = 10/2 = 5 m/s².",
+                "Telugu": "a = F/m = 10/2 = 5 m/s².",
+                "Hindi": "a = F/m = 10/2 = 5 m/s²।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Action and reaction forces act on the same body.",
+                "Telugu": "నిజమా అబద్ధమా: చర్య, ప్రతిచర్య బలాలు ఒకే వస్తువుపై పనిచేస్తాయి.",
+                "Hindi": "सही या गलत: क्रिया और प्रतिक्रिया बल एक ही वस्तु पर लगते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "They act on two different bodies, so they do not cancel each other.",
+                "Telugu": "అవి రెండు వేర్వేరు వస్తువులపై పనిచేస్తాయి, కాబట్టి ఒకదాన్నొకటి రద్దు చేయవు.",
+                "Hindi": "वे दो अलग वस्तुओं पर लगते हैं, इसलिए एक-दूसरे को निरस्त नहीं करते।"
+              }
+            },
+            {
+              "question": {
+                "English": "The momentum of a 50 kg boy running at 4 m/s is...",
+                "Telugu": "4 m/s వేగంతో పరుగెత్తే 50 కిలోల బాలుడి ద్రవ్యవేగం...",
+                "Hindi": "4 m/s से दौड़ते 50 kg लड़के का संवेग कितना है?"
+              },
+              "options": {
+                "English": [
+                  "200 kg m/s",
+                  "54 kg m/s",
+                  "12.5 kg m/s",
+                  "46 kg m/s"
+                ],
+                "Telugu": [
+                  "200 kg m/s",
+                  "54 kg m/s",
+                  "12.5 kg m/s",
+                  "46 kg m/s"
+                ],
+                "Hindi": [
+                  "200 kg m/s",
+                  "54 kg m/s",
+                  "12.5 kg m/s",
+                  "46 kg m/s"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "p = mv = 50 × 4 = 200 kg m/s.",
+                "Telugu": "p = mv = 50 × 4 = 200 kg m/s.",
+                "Hindi": "p = mv = 50 × 4 = 200 kg m/s।"
+              }
+            },
+            {
+              "question": {
+                "English": "A gun recoils when fired. This is explained by...",
+                "Telugu": "తుపాకీ పేల్చినప్పుడు వెనుకకు తన్నుతుంది. దీనిని వివరించేది...",
+                "Hindi": "गोली चलाने पर बंदूक पीछे धक्का देती है। यह किससे समझाया जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Newton's first law only",
+                  "Newton's third law and conservation of momentum",
+                  "Law of gravitation",
+                  "Archimedes' principle"
+                ],
+                "Telugu": [
+                  "న్యూటన్ మొదటి నియమం మాత్రమే",
+                  "న్యూటన్ మూడవ నియమం, ద్రవ్యవేగ నిత్యత్వం",
+                  "గురుత్వాకర్షణ నియమం",
+                  "ఆర్కిమెడిస్ సూత్రం"
+                ],
+                "Hindi": [
+                  "सिर्फ़ न्यूटन का पहला नियम",
+                  "न्यूटन का तीसरा नियम और संवेग संरक्षण",
+                  "गुरुत्वाकर्षण नियम",
+                  "आर्किमिडीज़ सिद्धांत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The bullet gains forward momentum and the gun gains equal backward momentum.",
+                "Telugu": "తూటాకు ముందుకు ద్రవ్యవేగం, తుపాకీకి సమానమైన వెనుకకు ద్రవ్యవేగం వస్తుంది.",
+                "Hindi": "गोली को आगे और बंदूक को बराबर पीछे का संवेग मिलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A fielder pulls his hands back while catching a fast ball to...",
+                "Telugu": "వేగంగా వచ్చే బంతిని పట్టేటప్పుడు ఫీల్డర్ చేతులను వెనక్కు లాగడానికి కారణం...",
+                "Hindi": "तेज़ गेंद पकड़ते समय फ़ील्डर हाथ पीछे क्यों खींचता है?"
+              },
+              "options": {
+                "English": [
+                  "Increase the force on hands",
+                  "Stop the ball instantly",
+                  "Increase the time of catch and reduce force",
+                  "Throw it back faster"
+                ],
+                "Telugu": [
+                  "చేతులపై బలం పెంచడానికి",
+                  "బంతిని తక్షణం ఆపడానికి",
+                  "పట్టే సమయం పెంచి బలాన్ని తగ్గించడానికి",
+                  "వేగంగా తిరిగి విసరడానికి"
+                ],
+                "Hindi": [
+                  "हाथों पर बल बढ़ाने",
+                  "गेंद तुरंत रोकने",
+                  "पकड़ने का समय बढ़ाकर बल घटाने",
+                  "तेज़ी से वापस फेंकने"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Force = change in momentum / time; a longer time means a smaller force.",
+                "Telugu": "బలం = ద్రవ్యవేగ మార్పు / కాలం; ఎక్కువ కాలం అంటే తక్కువ బలం.",
+                "Hindi": "बल = संवेग परिवर्तन / समय; ज़्यादा समय से बल कम होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Balanced forces can change the speed of an object.",
+                "Telugu": "నిజమా అబద్ధమా: సమతుల్య బలాలు వస్తువు వడిని మార్చగలవు.",
+                "Hindi": "सही या गलत: संतुलित बल वस्तु की चाल बदल सकते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Balanced forces give zero net force, so motion does not change; they may change shape.",
+                "Telugu": "సమతుల్య బలాల ఫలితం శూన్యం, కాబట్టి చలనం మారదు; ఆకారం మార్చవచ్చు.",
+                "Hindi": "संतुलित बलों का कुल बल शून्य होता है, इसलिए गति नहीं बदलती; आकार बदल सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Seat belts in cars protect passengers by...",
+                "Telugu": "కార్లలో సీట్ బెల్టులు ప్రయాణికులను ఎలా కాపాడతాయి?",
+                "Hindi": "कार में सीट बेल्ट यात्रियों की रक्षा कैसे करती है?"
+              },
+              "options": {
+                "English": [
+                  "Increasing their speed",
+                  "Removing friction",
+                  "Making them heavier",
+                  "Stopping their forward motion due to inertia more slowly"
+                ],
+                "Telugu": [
+                  "వారి వడిని పెంచి",
+                  "ఘర్షణను తొలగించి",
+                  "వారిని బరువు చేసి",
+                  "జడత్వం వల్ల ముందుకు కదలికను నెమ్మదిగా ఆపి"
+                ],
+                "Hindi": [
+                  "उनकी चाल बढ़ाकर",
+                  "घर्षण हटाकर",
+                  "उन्हें भारी बनाकर",
+                  "जड़त्व से आगे की गति को धीरे रोककर"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The belt stretches a little, so the stopping time is longer and the force on the body is smaller.",
+                "Telugu": "బెల్టు కొంచెం సాగుతుంది, ఆపే సమయం పెరిగి శరీరంపై బలం తగ్గుతుంది.",
+                "Hindi": "बेल्ट थोड़ी खिंचती है, जिससे रुकने का समय बढ़ता और शरीर पर बल घटता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gravitation",
+      "icon": "🍎",
+      "title": {
+        "English": "Gravitation",
+        "Telugu": "గురుత్వాకర్షణ",
+        "Hindi": "गुरुत्वाकर्षण"
+      },
+      "description": {
+        "English": "The universal law of gravitation, free fall, mass and weight, buoyancy.",
+        "Telugu": "విశ్వ గురుత్వాకర్షణ నియమం, స్వేచ్ఛా పతనం, ద్రవ్యరాశి, భారం, ప్లవనం.",
+        "Hindi": "सार्वत्रिक गुरुत्वाकर्षण नियम, मुक्त पतन, द्रव्यमान और भार, उत्प्लावन।"
+      },
+      "lessons": [
+        {
+          "id": "gravitation-lesson",
+          "visual": "🌍",
+          "title": {
+            "English": "Why Things Fall",
+            "Telugu": "వస్తువులు ఎందుకు పడతాయి",
+            "Hindi": "चीज़ें क्यों गिरती हैं"
+          },
+          "image": "./images/lessons/placeholder-education.svg",
+          "explanation": {
+            "English": "Every object in the universe attracts every other object. The force is F = G m₁m₂ / d², where G = 6.67 × 10⁻¹¹ N m²/kg². Objects falling only under gravity are in free fall, with acceleration g = 9.8 m/s² near the Earth. Mass is the amount of matter and stays the same everywhere; weight W = mg is the force of gravity and changes from place to place. On the Moon, weight is about one-sixth of that on Earth. Liquids push up on objects (buoyancy); by Archimedes' principle, this upward force equals the weight of liquid displaced. Objects with density less than water float.",
+            "Telugu": "విశ్వంలోని ప్రతి వస్తువు మరో ప్రతి వస్తువును ఆకర్షిస్తుంది. ఆ బలం F = G m₁m₂ / d², ఇక్కడ G = 6.67 × 10⁻¹¹ N m²/kg². గురుత్వం వల్ల మాత్రమే పడే వస్తువులు స్వేచ్ఛా పతనంలో ఉంటాయి, భూమి దగ్గర త్వరణం g = 9.8 m/s². ద్రవ్యరాశి పదార్థ పరిమాణం, ఎక్కడైనా ఒకేలా ఉంటుంది; భారం W = mg గురుత్వ బలం, ప్రదేశాన్ని బట్టి మారుతుంది. చంద్రునిపై భారం భూమిపై భారంలో సుమారు ఆరవ వంతు. ద్రవాలు వస్తువులను పైకి నెడతాయి (ప్లవనం); ఆర్కిమెడిస్ సూత్రం ప్రకారం ఈ పైకి బలం స్థానభ్రంశం చెందిన ద్రవ భారానికి సమానం. నీటి కంటే తక్కువ సాంద్రత గల వస్తువులు తేలుతాయి.",
+            "Hindi": "ब्रह्मांड की हर वस्तु हर दूसरी वस्तु को आकर्षित करती है। बल F = G m₁m₂ / d² है, जहाँ G = 6.67 × 10⁻¹¹ N m²/kg²। सिर्फ़ गुरुत्व से गिरती वस्तुएँ मुक्त पतन में हैं, पृथ्वी के पास त्वरण g = 9.8 m/s²। द्रव्यमान पदार्थ की मात्रा है और हर जगह समान रहता है; भार W = mg गुरुत्व बल है और जगह के साथ बदलता है। चाँद पर भार पृथ्वी का लगभग छठा भाग है। द्रव वस्तुओं को ऊपर धकेलते हैं (उत्प्लावन); आर्किमिडीज़ के सिद्धांत से यह ऊपरी बल हटाए गए द्रव के भार के बराबर है। पानी से कम घनत्व वाली वस्तुएँ तैरती हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "F = G m₁m₂ / d².",
+              "g = 9.8 m/s² on Earth.",
+              "Mass is constant; weight W = mg changes.",
+              "Weight on the Moon is about 1/6 of that on Earth.",
+              "Archimedes: buoyant force = weight of liquid displaced."
+            ],
+            "Telugu": [
+              "F = G m₁m₂ / d².",
+              "భూమిపై g = 9.8 m/s².",
+              "ద్రవ్యరాశి స్థిరం; భారం W = mg మారుతుంది.",
+              "చంద్రునిపై భారం భూమిపై భారంలో సుమారు 1/6.",
+              "ఆర్కిమెడిస్: ప్లవన బలం = స్థానభ్రంశ ద్రవ భారం."
+            ],
+            "Hindi": [
+              "F = G m₁m₂ / d²।",
+              "पृथ्वी पर g = 9.8 m/s²।",
+              "द्रव्यमान स्थिर; भार W = mg बदलता है।",
+              "चाँद पर भार पृथ्वी का लगभग 1/6।",
+              "आर्किमिडीज़: उत्प्लावन बल = हटाए गए द्रव का भार।"
+            ]
+          },
+          "activity": {
+            "English": "Weigh a stone hanging from a spring balance in air and then in water. Note the loss in weight.",
+            "Telugu": "స్ప్రింగ్ త్రాసుకు వేలాడదీసిన రాయిని గాలిలో, తర్వాత నీటిలో తూచండి. భారంలో తగ్గుదల రాయండి.",
+            "Hindi": "कमानीदार तुला से लटके पत्थर को हवा में और फिर पानी में तौलिए। भार में कमी लिखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The value of g near the Earth's surface is about...",
+                "Telugu": "భూ ఉపరితలం దగ్గర g విలువ సుమారు...",
+                "Hindi": "पृथ्वी की सतह के पास g का मान लगभग कितना है?"
+              },
+              "options": {
+                "English": [
+                  "9.8 m/s²",
+                  "98 m/s²",
+                  "1.6 m/s²",
+                  "0.98 m/s²"
+                ],
+                "Telugu": [
+                  "9.8 m/s²",
+                  "98 m/s²",
+                  "1.6 m/s²",
+                  "0.98 m/s²"
+                ],
+                "Hindi": [
+                  "9.8 m/s²",
+                  "98 m/s²",
+                  "1.6 m/s²",
+                  "0.98 m/s²"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "On the Moon, g is about 1.6 m/s², roughly one-sixth of Earth's.",
+                "Telugu": "చంద్రునిపై g సుమారు 1.6 m/s², భూమిలో ఆరవ వంతు.",
+                "Hindi": "चाँद पर g लगभग 1.6 m/s² है, पृथ्वी का करीब छठा भाग।"
+              }
+            },
+            {
+              "question": {
+                "English": "If the distance between two objects is doubled, the gravitational force becomes...",
+                "Telugu": "రెండు వస్తువుల మధ్య దూరం రెట్టింపైతే గురుత్వాకర్షణ బలం...",
+                "Hindi": "दो वस्तुओं की दूरी दोगुनी करने पर गुरुत्वाकर्षण बल कितना हो जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Double",
+                  "One-fourth",
+                  "Half",
+                  "Four times"
+                ],
+                "Telugu": [
+                  "రెట్టింపు",
+                  "నాల్గవ వంతు",
+                  "సగం",
+                  "నాలుగు రెట్లు"
+                ],
+                "Hindi": [
+                  "दोगुना",
+                  "एक-चौथाई",
+                  "आधा",
+                  "चार गुना"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Force varies as 1/d², so doubling d makes it 1/4.",
+                "Telugu": "బలం 1/d² ప్రకారం మారుతుంది, d రెట్టింపైతే 1/4 అవుతుంది.",
+                "Hindi": "बल 1/d² के अनुसार बदलता है, इसलिए d दोगुना करने पर 1/4 हो जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The weight of a 10 kg object on Earth is about...",
+                "Telugu": "భూమిపై 10 కిలోల వస్తువు భారం సుమారు...",
+                "Hindi": "पृथ्वी पर 10 kg वस्तु का भार लगभग कितना है?"
+              },
+              "options": {
+                "English": [
+                  "10 N",
+                  "1 N",
+                  "98 N",
+                  "980 N"
+                ],
+                "Telugu": [
+                  "10 N",
+                  "1 N",
+                  "98 N",
+                  "980 N"
+                ],
+                "Hindi": [
+                  "10 N",
+                  "1 N",
+                  "98 N",
+                  "980 N"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "W = mg = 10 × 9.8 = 98 N.",
+                "Telugu": "W = mg = 10 × 9.8 = 98 N.",
+                "Hindi": "W = mg = 10 × 9.8 = 98 N।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Mass of an object changes when taken to the Moon.",
+                "Telugu": "నిజమా అబద్ధమా: చంద్రునిపైకి తీసుకెళ్తే వస్తువు ద్రవ్యరాశి మారుతుంది.",
+                "Hindi": "सही या गलत: चाँद पर ले जाने पर वस्तु का द्रव्यमान बदलता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Mass stays the same; only weight changes because g is different.",
+                "Telugu": "ద్రవ్యరాశి అలాగే ఉంటుంది; g వేరు కాబట్టి భారం మాత్రమే మారుతుంది.",
+                "Hindi": "द्रव्यमान वही रहता है; g अलग होने से सिर्फ़ भार बदलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "In a vacuum, a feather and a stone dropped together...",
+                "Telugu": "శూన్యంలో ఈక, రాయిని ఒకేసారి వదిలితే...",
+                "Hindi": "निर्वात में पंख और पत्थर एक साथ गिराने पर..."
+              },
+              "options": {
+                "English": [
+                  "The stone lands first",
+                  "The feather lands first",
+                  "The feather floats up",
+                  "Both land together"
+                ],
+                "Telugu": [
+                  "రాయి ముందు పడుతుంది",
+                  "ఈక ముందు పడుతుంది",
+                  "ఈక పైకి తేలుతుంది",
+                  "రెండూ ఒకేసారి పడతాయి"
+                ],
+                "Hindi": [
+                  "पत्थर पहले गिरता है",
+                  "पंख पहले गिरता है",
+                  "पंख ऊपर तैरता है",
+                  "दोनों साथ गिरते हैं"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Without air resistance, all objects fall with the same acceleration g.",
+                "Telugu": "గాలి నిరోధం లేకుంటే అన్ని వస్తువులు ఒకే త్వరణం gతో పడతాయి.",
+                "Hindi": "हवा के प्रतिरोध के बिना सभी वस्तुएँ समान त्वरण g से गिरती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The upward force exerted by a liquid on an object is called...",
+                "Telugu": "ద్రవం వస్తువుపై కలిగించే పైకి బలాన్ని ఏమంటారు?",
+                "Hindi": "द्रव द्वारा वस्तु पर लगने वाला ऊपरी बल क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Buoyant force (upthrust)",
+                  "Friction",
+                  "Gravitation",
+                  "Tension"
+                ],
+                "Telugu": [
+                  "ప్లవన బలం (ఊర్ధ్వ పీడనం)",
+                  "ఘర్షణ",
+                  "గురుత్వాకర్షణ",
+                  "తన్యత"
+                ],
+                "Hindi": [
+                  "उत्प्लावन बल",
+                  "घर्षण",
+                  "गुरुत्वाकर्षण",
+                  "तनाव"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Buoyancy makes objects feel lighter in water.",
+                "Telugu": "ప్లవనం వల్ల నీటిలో వస్తువులు తేలికగా అనిపిస్తాయి.",
+                "Hindi": "उत्प्लावन के कारण पानी में वस्तुएँ हल्की लगती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "An object will float in water if its density is...",
+                "Telugu": "ఒక వస్తువు సాంద్రత ఎలా ఉంటే అది నీటిలో తేలుతుంది?",
+                "Hindi": "वस्तु पानी में तैरेगी अगर उसका घनत्व..."
+              },
+              "options": {
+                "English": [
+                  "More than water",
+                  "Less than water",
+                  "Equal to iron",
+                  "Zero only"
+                ],
+                "Telugu": [
+                  "నీటి కంటే ఎక్కువ",
+                  "నీటి కంటే తక్కువ",
+                  "ఇనుముకు సమానం",
+                  "శూన్యం మాత్రమే"
+                ],
+                "Hindi": [
+                  "पानी से ज़्यादा",
+                  "पानी से कम",
+                  "लोहे के बराबर",
+                  "सिर्फ़ शून्य"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Cork floats because it is less dense than water; an iron nail sinks.",
+                "Telugu": "కార్క్ నీటి కంటే తక్కువ సాంద్రత గలది కాబట్టి తేలుతుంది; ఇనుప మేకు మునుగుతుంది.",
+                "Hindi": "कॉर्क पानी से कम घना है इसलिए तैरता है; लोहे की कील डूबती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The Moon goes round the Earth because of...",
+                "Telugu": "చంద్రుడు భూమి చుట్టూ ఎందుకు తిరుగుతాడు?",
+                "Hindi": "चाँद पृथ्वी के चक्कर क्यों लगाता है?"
+              },
+              "options": {
+                "English": [
+                  "Magnetic force",
+                  "Friction",
+                  "Gravitational force of the Earth",
+                  "Wind"
+                ],
+                "Telugu": [
+                  "అయస్కాంత బలం",
+                  "ఘర్షణ",
+                  "భూమి గురుత్వాకర్షణ బలం",
+                  "గాలి"
+                ],
+                "Hindi": [
+                  "चुंबकीय बल",
+                  "घर्षण",
+                  "पृथ्वी का गुरुत्वाकर्षण बल",
+                  "हवा"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Earth's gravity provides the centripetal force that keeps the Moon in orbit.",
+                "Telugu": "భూమి గురుత్వం చంద్రుని కక్ష్యలో ఉంచే అభికేంద్ర బలాన్ని అందిస్తుంది.",
+                "Hindi": "पृथ्वी का गुरुत्व चाँद को कक्षा में रखने वाला अभिकेंद्र बल देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: g is slightly greater at the poles than at the equator.",
+                "Telugu": "నిజమా అబద్ధమా: భూమధ్యరేఖ కంటే ధ్రువాల వద్ద g కొంచెం ఎక్కువ.",
+                "Hindi": "सही या गलत: भूमध्य रेखा से ध्रुवों पर g थोड़ा ज़्यादा है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The Earth's radius is smaller at the poles, so objects are closer to its centre.",
+                "Telugu": "ధ్రువాల వద్ద భూ వ్యాసార్ధం తక్కువ, కాబట్టి వస్తువులు కేంద్రానికి దగ్గరగా ఉంటాయి.",
+                "Hindi": "ध्रुवों पर पृथ्वी की त्रिज्या कम है, इसलिए वस्तुएँ केंद्र के पास होती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "A ship made of iron floats because...",
+                "Telugu": "ఇనుముతో చేసిన ఓడ ఎందుకు తేలుతుంది?",
+                "Hindi": "लोहे का बना जहाज़ क्यों तैरता है?"
+              },
+              "options": {
+                "English": [
+                  "Iron is lighter than water",
+                  "Ships have engines",
+                  "Sea water is magnetic",
+                  "Its shape displaces water equal to its weight"
+                ],
+                "Telugu": [
+                  "ఇనుము నీటి కంటే తేలిక",
+                  "ఓడలకు ఇంజిన్లు ఉంటాయి",
+                  "సముద్రపు నీరు అయస్కాంతం",
+                  "దాని ఆకారం దాని భారానికి సమానమైన నీటిని స్థానభ్రంశం చేస్తుంది"
+                ],
+                "Hindi": [
+                  "लोहा पानी से हल्का है",
+                  "जहाज़ में इंजन हैं",
+                  "समुद्री पानी चुंबकीय है",
+                  "उसका आकार अपने भार के बराबर पानी हटाता है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The hollow shape makes its average density less than water.",
+                "Telugu": "బోలు ఆకారం దాని సగటు సాంద్రతను నీటి కంటే తక్కువ చేస్తుంది.",
+                "Hindi": "खोखला आकार उसका औसत घनत्व पानी से कम कर देता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-and-energy",
+      "icon": "🏋️",
+      "title": {
+        "English": "Work and Energy",
+        "Telugu": "పని, శక్తి",
+        "Hindi": "कार्य और ऊर्जा"
+      },
+      "description": {
+        "English": "Work, kinetic and potential energy, conservation of energy and power.",
+        "Telugu": "పని, గతిజ, స్థితిజ శక్తి, శక్తి నిత్యత్వం, సామర్థ్యం.",
+        "Hindi": "कार्य, गतिज और स्थितिज ऊर्जा, ऊर्जा संरक्षण और शक्ति।"
+      },
+      "lessons": [
+        {
+          "id": "work-and-energy-lesson",
+          "visual": "⚡",
+          "title": {
+            "English": "Doing Work, Using Energy",
+            "Telugu": "పని చేయడం, శక్తి వాడటం",
+            "Hindi": "कार्य करना, ऊर्जा लगाना"
+          },
+          "image": "./images/lessons/force-and-motion.svg",
+          "explanation": {
+            "English": "Work is done when a force moves an object in the direction of the force: W = F × s, measured in joules (J). Energy is the ability to do work. Kinetic energy is energy of motion, KE = ½mv². Potential energy is stored energy due to position, PE = mgh. Energy can change from one form to another but the total stays constant: this is the law of conservation of energy. Power is the rate of doing work, P = W/t, measured in watts (W). The commercial unit of energy is the kilowatt-hour (kWh), or one 'unit' of electricity.",
+            "Telugu": "బలం దిశలో వస్తువును కదిలించినప్పుడు పని జరుగుతుంది: W = F × s, జౌల్‌లలో (J) కొలుస్తారు. పని చేయగల సామర్థ్యమే శక్తి. గతిజ శక్తి చలన శక్తి, KE = ½mv². స్థితిజ శక్తి స్థానం వల్ల నిల్వ ఉన్న శక్తి, PE = mgh. శక్తి ఒక రూపం నుంచి మరో రూపానికి మారగలదు కానీ మొత్తం స్థిరంగా ఉంటుంది: ఇదే శక్తి నిత్యత్వ నియమం. పని చేసే రేటు సామర్థ్యం, P = W/t, వాట్‌లలో (W) కొలుస్తారు. శక్తి వాణిజ్య ప్రమాణం కిలోవాట్-గంట (kWh), అంటే విద్యుత్తు ఒక 'యూనిట్'.",
+            "Hindi": "जब बल वस्तु को अपनी दिशा में खिसकाता है तो कार्य होता है: W = F × s, जूल (J) में। कार्य करने की क्षमता ऊर्जा है। गतिज ऊर्जा गति की ऊर्जा है, KE = ½mv²। स्थितिज ऊर्जा स्थिति के कारण संचित ऊर्जा है, PE = mgh। ऊर्जा एक रूप से दूसरे में बदल सकती है पर कुल मात्रा स्थिर रहती है: यह ऊर्जा संरक्षण का नियम है। कार्य करने की दर शक्ति है, P = W/t, वाट (W) में। ऊर्जा की व्यावसायिक इकाई किलोवाट-घंटा (kWh) यानी बिजली की एक 'यूनिट' है।"
+          },
+          "keyPoints": {
+            "English": [
+              "W = F × s; unit joule.",
+              "KE = ½mv².",
+              "PE = mgh.",
+              "Energy is conserved; it only changes form.",
+              "Power P = W/t; unit watt; 1 kWh = 3.6 × 10⁶ J."
+            ],
+            "Telugu": [
+              "W = F × s; ప్రమాణం జౌల్.",
+              "KE = ½mv².",
+              "PE = mgh.",
+              "శక్తి నిత్యత్వం పాటిస్తుంది; రూపం మాత్రమే మారుతుంది.",
+              "సామర్థ్యం P = W/t; ప్రమాణం వాట్; 1 kWh = 3.6 × 10⁶ J."
+            ],
+            "Hindi": [
+              "W = F × s; इकाई जूल।",
+              "KE = ½mv²।",
+              "PE = mgh।",
+              "ऊर्जा संरक्षित है; सिर्फ़ रूप बदलता है।",
+              "शक्ति P = W/t; इकाई वाट; 1 kWh = 3.6 × 10⁶ J।"
+            ]
+          },
+          "activity": {
+            "English": "Read your home electricity bill and find how many units (kWh) were used last month.",
+            "Telugu": "మీ ఇంటి విద్యుత్ బిల్లు చూసి గత నెల ఎన్ని యూనిట్లు (kWh) వాడారో కనుగొనండి.",
+            "Hindi": "घर का बिजली बिल पढ़कर पता कीजिए पिछले महीने कितनी यूनिट (kWh) खर्च हुईं।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Work done is zero when...",
+                "Telugu": "పని శూన్యం ఎప్పుడు?",
+                "Hindi": "कार्य शून्य कब होता है?"
+              },
+              "options": {
+                "English": [
+                  "The object does not move",
+                  "The object moves fast",
+                  "A large force is applied",
+                  "The object is heavy"
+                ],
+                "Telugu": [
+                  "వస్తువు కదలనప్పుడు",
+                  "వస్తువు వేగంగా కదిలినప్పుడు",
+                  "పెద్ద బలం ప్రయోగించినప్పుడు",
+                  "వస్తువు బరువైనప్పుడు"
+                ],
+                "Hindi": [
+                  "वस्तु न खिसके",
+                  "वस्तु तेज़ चले",
+                  "बड़ा बल लगे",
+                  "वस्तु भारी हो"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Pushing a wall that does not move does no work in physics, since displacement is zero.",
+                "Telugu": "కదలని గోడను నెట్టితే స్థానభ్రంశం శూన్యం కాబట్టి భౌతికశాస్త్రంలో పని జరగదు.",
+                "Hindi": "न हिलने वाली दीवार को धकेलने से विस्थापन शून्य होता है, इसलिए भौतिकी में कार्य नहीं होता।"
+              }
+            },
+            {
+              "question": {
+                "English": "A force of 5 N moves an object 4 m in its direction. Work done is...",
+                "Telugu": "5 N బలం వస్తువును తన దిశలో 4 మీ. కదిలిస్తుంది. జరిగిన పని...",
+                "Hindi": "5 N बल वस्तु को अपनी दिशा में 4 मी खिसकाता है। कार्य कितना हुआ?"
+              },
+              "options": {
+                "English": [
+                  "1.25 J",
+                  "20 J",
+                  "9 J",
+                  "1 J"
+                ],
+                "Telugu": [
+                  "1.25 J",
+                  "20 J",
+                  "9 J",
+                  "1 J"
+                ],
+                "Hindi": [
+                  "1.25 J",
+                  "20 J",
+                  "9 J",
+                  "1 J"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "W = F × s = 5 × 4 = 20 J.",
+                "Telugu": "W = F × s = 5 × 4 = 20 J.",
+                "Hindi": "W = F × s = 5 × 4 = 20 J।"
+              }
+            },
+            {
+              "question": {
+                "English": "The energy possessed by a moving object is...",
+                "Telugu": "కదిలే వస్తువుకు ఉండే శక్తి...",
+                "Hindi": "चलती वस्तु में कौन सी ऊर्जा होती है?"
+              },
+              "options": {
+                "English": [
+                  "Potential energy",
+                  "Chemical energy",
+                  "Kinetic energy",
+                  "Nuclear energy"
+                ],
+                "Telugu": [
+                  "స్థితిజ శక్తి",
+                  "రసాయన శక్తి",
+                  "గతిజ శక్తి",
+                  "కేంద్రక శక్తి"
+                ],
+                "Hindi": [
+                  "स्थितिज ऊर्जा",
+                  "रासायनिक ऊर्जा",
+                  "गतिज ऊर्जा",
+                  "नाभिकीय ऊर्जा"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "KE = ½mv²; doubling speed makes kinetic energy four times.",
+                "Telugu": "KE = ½mv²; వడి రెట్టింపైతే గతిజ శక్తి నాలుగు రెట్లు అవుతుంది.",
+                "Hindi": "KE = ½mv²; चाल दोगुनी करने पर गतिज ऊर्जा चार गुना होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Water stored in a dam has...",
+                "Telugu": "ఆనకట్టలో నిల్వ ఉన్న నీటికి ఉండే శక్తి...",
+                "Hindi": "बाँध में जमा पानी में कौन सी ऊर्जा होती है?"
+              },
+              "options": {
+                "English": [
+                  "Only kinetic energy",
+                  "Sound energy",
+                  "Light energy",
+                  "Potential energy"
+                ],
+                "Telugu": [
+                  "గతిజ శక్తి మాత్రమే",
+                  "ధ్వని శక్తి",
+                  "కాంతి శక్తి",
+                  "స్థితిజ శక్తి"
+                ],
+                "Hindi": [
+                  "सिर्फ़ गतिज ऊर्जा",
+                  "ध्वनि ऊर्जा",
+                  "प्रकाश ऊर्जा",
+                  "स्थितिज ऊर्जा"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Because of its height, the water has PE = mgh, which turns into kinetic energy as it falls.",
+                "Telugu": "ఎత్తు వల్ల నీటికి PE = mgh ఉంటుంది, పడేటప్పుడు అది గతిజ శక్తిగా మారుతుంది.",
+                "Hindi": "ऊँचाई के कारण पानी में PE = mgh होती है, जो गिरते समय गतिज ऊर्जा बनती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Energy can be created and destroyed.",
+                "Telugu": "నిజమా అబద్ధమా: శక్తిని సృష్టించవచ్చు, నాశనం చేయవచ్చు.",
+                "Hindi": "सही या गलत: ऊर्जा बनाई और नष्ट की जा सकती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Energy can only change from one form to another; the total remains constant.",
+                "Telugu": "శక్తి ఒక రూపం నుంచి మరో రూపానికి మాత్రమే మారుతుంది; మొత్తం స్థిరంగా ఉంటుంది.",
+                "Hindi": "ऊर्जा सिर्फ़ एक रूप से दूसरे में बदलती है; कुल मात्रा स्थिर रहती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The SI unit of power is...",
+                "Telugu": "సామర్థ్యం యొక్క SI ప్రమాణం...",
+                "Hindi": "शक्ति की SI इकाई क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Watt",
+                  "Joule",
+                  "Newton",
+                  "Pascal"
+                ],
+                "Telugu": [
+                  "వాట్",
+                  "జౌల్",
+                  "న్యూటన్",
+                  "పాస్కల్"
+                ],
+                "Hindi": [
+                  "वाट",
+                  "जूल",
+                  "न्यूटन",
+                  "पास्कल"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "1 watt = 1 joule per second.",
+                "Telugu": "1 వాట్ = సెకనుకు 1 జౌల్.",
+                "Hindi": "1 वाट = 1 जूल प्रति सेकंड।"
+              }
+            },
+            {
+              "question": {
+                "English": "A 2 kg ball is lifted to a height of 5 m (g = 10 m/s²). Its potential energy is...",
+                "Telugu": "2 కిలోల బంతిని 5 మీ. ఎత్తుకు ఎత్తారు (g = 10 m/s²). దాని స్థితిజ శక్తి...",
+                "Hindi": "2 kg गेंद को 5 मी ऊँचाई तक उठाया (g = 10 m/s²)। उसकी स्थितिज ऊर्जा कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "10 J",
+                  "100 J",
+                  "17 J",
+                  "1000 J"
+                ],
+                "Telugu": [
+                  "10 J",
+                  "100 J",
+                  "17 J",
+                  "1000 J"
+                ],
+                "Hindi": [
+                  "10 J",
+                  "100 J",
+                  "17 J",
+                  "1000 J"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "PE = mgh = 2 × 10 × 5 = 100 J.",
+                "Telugu": "PE = mgh = 2 × 10 × 5 = 100 J.",
+                "Hindi": "PE = mgh = 2 × 10 × 5 = 100 J।"
+              }
+            },
+            {
+              "question": {
+                "English": "One unit of electricity on a bill is...",
+                "Telugu": "బిల్లులో విద్యుత్తు ఒక యూనిట్ అంటే...",
+                "Hindi": "बिल में बिजली की एक यूनिट क्या है?"
+              },
+              "options": {
+                "English": [
+                  "1 joule",
+                  "1 watt",
+                  "1 kilowatt-hour",
+                  "1 newton"
+                ],
+                "Telugu": [
+                  "1 జౌల్",
+                  "1 వాట్",
+                  "1 కిలోవాట్-గంట",
+                  "1 న్యూటన్"
+                ],
+                "Hindi": [
+                  "1 जूल",
+                  "1 वाट",
+                  "1 किलोवाट-घंटा",
+                  "1 न्यूटन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "1 kWh is the energy used by a 1000 W device in one hour, equal to 3.6 × 10⁶ J.",
+                "Telugu": "1 kWh అంటే 1000 W పరికరం ఒక గంటలో వాడే శక్తి, 3.6 × 10⁶ Jకి సమానం.",
+                "Hindi": "1 kWh यानी 1000 W उपकरण द्वारा एक घंटे में ली गई ऊर्जा, जो 3.6 × 10⁶ J के बराबर है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: When a ball falls, its potential energy changes into kinetic energy.",
+                "Telugu": "నిజమా అబద్ధమా: బంతి పడేటప్పుడు దాని స్థితిజ శక్తి గతిజ శక్తిగా మారుతుంది.",
+                "Hindi": "सही या गलत: गेंद गिरते समय उसकी स्थितिज ऊर्जा गतिज ऊर्जा में बदलती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "At every point the sum of PE and KE stays the same (ignoring air resistance).",
+                "Telugu": "ప్రతి బిందువు వద్ద PE, KE మొత్తం ఒకేలా ఉంటుంది (గాలి నిరోధం విస్మరిస్తే).",
+                "Hindi": "हर बिंदु पर PE और KE का योग समान रहता है (हवा के प्रतिरोध को छोड़कर)।"
+              }
+            },
+            {
+              "question": {
+                "English": "A machine does 600 J of work in 10 s. Its power is...",
+                "Telugu": "ఒక యంత్రం 10 సెకన్లలో 600 J పని చేస్తుంది. దాని సామర్థ్యం...",
+                "Hindi": "एक मशीन 10 सेकंड में 600 J कार्य करती है। उसकी शक्ति कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "6000 W",
+                  "610 W",
+                  "6 W",
+                  "60 W"
+                ],
+                "Telugu": [
+                  "6000 W",
+                  "610 W",
+                  "6 W",
+                  "60 W"
+                ],
+                "Hindi": [
+                  "6000 W",
+                  "610 W",
+                  "6 W",
+                  "60 W"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "P = W/t = 600/10 = 60 W.",
+                "Telugu": "P = W/t = 600/10 = 60 W.",
+                "Hindi": "P = W/t = 600/10 = 60 W।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sound-waves",
+      "icon": "🎵",
+      "title": {
+        "English": "Sound Waves",
+        "Telugu": "ధ్వని తరంగాలు",
+        "Hindi": "ध्वनि तरंगें"
+      },
+      "description": {
+        "English": "Longitudinal waves, speed of sound, echo and ultrasound.",
+        "Telugu": "అనుదైర్ఘ్య తరంగాలు, ధ్వని వడి, ప్రతిధ్వని, అతిధ్వనులు.",
+        "Hindi": "अनुदैर्ध्य तरंगें, ध्वनि की चाल, प्रतिध्वनि और पराश्रव्य।"
+      },
+      "lessons": [
+        {
+          "id": "sound-waves-lesson",
+          "visual": "📢",
+          "title": {
+            "English": "How Sound Travels",
+            "Telugu": "ధ్వని ఎలా ప్రయాణిస్తుంది",
+            "Hindi": "ध्वनि कैसे चलती है"
+          },
+          "image": "./images/lessons/placeholder-education.svg",
+          "explanation": {
+            "English": "Sound travels as a longitudinal wave of compressions (high pressure) and rarefactions (low pressure). The distance between two compressions is the wavelength λ. Speed v = frequency × wavelength. Sound travels at about 344 m/s in air at 22°C, faster in water and fastest in solids. Sound reflects from hard surfaces; a reflected sound heard separately is an echo, which needs the obstacle to be at least about 17.2 m away. Repeated reflections cause reverberation, reduced in halls with soft boards and curtains. Ultrasound (above 20 kHz) is used in SONAR and medical scans.",
+            "Telugu": "ధ్వని సంపీడనాలు (ఎక్కువ పీడనం), విరళీకరణాలు (తక్కువ పీడనం) గల అనుదైర్ఘ్య తరంగంగా ప్రయాణిస్తుంది. రెండు సంపీడనాల మధ్య దూరం తరంగదైర్ఘ్యం λ. వడి v = పౌనఃపున్యం × తరంగదైర్ఘ్యం. 22°C గాలిలో ధ్వని సుమారు 344 m/s వడితో, నీటిలో వేగంగా, ఘనపదార్థాల్లో అత్యంత వేగంగా ప్రయాణిస్తుంది. గట్టి ఉపరితలాల నుంచి ధ్వని పరావర్తనం చెందుతుంది; విడిగా వినిపించే పరావర్తన ధ్వని ప్రతిధ్వని, దానికి అడ్డంకి కనీసం సుమారు 17.2 మీ. దూరంలో ఉండాలి. పదే పదే పరావర్తనాలు అనునాదం (రివర్బరేషన్) కలిగిస్తాయి, మెత్తని బోర్డులు, తెరలతో హాళ్లలో తగ్గిస్తారు. అతిధ్వనులను (20 kHz పైన) సోనార్, వైద్య స్కానింగ్‌లో వాడతారు.",
+            "Hindi": "ध्वनि संपीडन (उच्च दाब) और विरलन (निम्न दाब) वाली अनुदैर्ध्य तरंग के रूप में चलती है। दो संपीडनों के बीच की दूरी तरंगदैर्ध्य λ है। चाल v = आवृत्ति × तरंगदैर्ध्य। 22°C पर हवा में ध्वनि लगभग 344 m/s से, पानी में तेज़ और ठोसों में सबसे तेज़ चलती है। कठोर सतहों से ध्वनि परावर्तित होती है; अलग सुनाई देने वाली परावर्तित ध्वनि प्रतिध्वनि है, जिसके लिए बाधा कम से कम लगभग 17.2 मी दूर होनी चाहिए। बार-बार परावर्तन से अनुरणन होता है, जिसे हॉल में नरम बोर्ड और परदों से घटाते हैं। पराश्रव्य (20 kHz से ऊपर) सोनार और चिकित्सा स्कैन में काम आता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Sound is a longitudinal wave.",
+              "v = f × λ.",
+              "Speed in air is about 344 m/s; faster in solids.",
+              "Echo needs a distance of at least about 17.2 m.",
+              "Ultrasound is used in SONAR and scans."
+            ],
+            "Telugu": [
+              "ధ్వని అనుదైర్ఘ్య తరంగం.",
+              "v = f × λ.",
+              "గాలిలో వడి సుమారు 344 m/s; ఘనపదార్థాల్లో వేగంగా.",
+              "ప్రతిధ్వనికి కనీసం సుమారు 17.2 మీ. దూరం కావాలి.",
+              "అతిధ్వనులను సోనార్, స్కానింగ్‌లో వాడతారు."
+            ],
+            "Hindi": [
+              "ध्वनि अनुदैर्ध्य तरंग है।",
+              "v = f × λ।",
+              "हवा में चाल लगभग 344 m/s; ठोसों में तेज़।",
+              "प्रतिध्वनि के लिए कम से कम लगभग 17.2 मी दूरी चाहिए।",
+              "पराश्रव्य सोनार और स्कैन में काम आता है।"
+            ]
+          },
+          "activity": {
+            "English": "Stand about 25 m from a tall wall and clap once. Listen for the echo.",
+            "Telugu": "ఎత్తైన గోడకు సుమారు 25 మీ. దూరంలో నిలబడి ఒకసారి చప్పట్లు కొట్టండి. ప్రతిధ్వని వినండి.",
+            "Hindi": "ऊँची दीवार से लगभग 25 मी दूर खड़े होकर एक बार ताली बजाइए। प्रतिध्वनि सुनिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Sound waves in air are...",
+                "Telugu": "గాలిలో ధ్వని తరంగాలు...",
+                "Hindi": "हवा में ध्वनि तरंगें कैसी होती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Longitudinal",
+                  "Transverse",
+                  "Electromagnetic",
+                  "Not waves"
+                ],
+                "Telugu": [
+                  "అనుదైర్ఘ్య తరంగాలు",
+                  "తిర్యక్ తరంగాలు",
+                  "విద్యుదయస్కాంత తరంగాలు",
+                  "తరంగాలే కావు"
+                ],
+                "Hindi": [
+                  "अनुदैर्ध्य",
+                  "अनुप्रस्थ",
+                  "विद्युतचुंबकीय",
+                  "तरंग ही नहीं"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Particles vibrate back and forth along the direction the wave travels.",
+                "Telugu": "కణాలు తరంగం ప్రయాణించే దిశలోనే ముందుకు వెనక్కు కంపిస్తాయి.",
+                "Hindi": "कण तरंग की दिशा में ही आगे-पीछे कंपन करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "A sound has frequency 500 Hz and wavelength 0.7 m. Its speed is...",
+                "Telugu": "ఒక ధ్వని పౌనఃపున్యం 500 Hz, తరంగదైర్ఘ్యం 0.7 మీ. దాని వడి...",
+                "Hindi": "एक ध्वनि की आवृत्ति 500 Hz और तरंगदैर्ध्य 0.7 मी है। उसकी चाल कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "714 m/s",
+                  "350 m/s",
+                  "500.7 m/s",
+                  "70 m/s"
+                ],
+                "Telugu": [
+                  "714 m/s",
+                  "350 m/s",
+                  "500.7 m/s",
+                  "70 m/s"
+                ],
+                "Hindi": [
+                  "714 m/s",
+                  "350 m/s",
+                  "500.7 m/s",
+                  "70 m/s"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "v = f × λ = 500 × 0.7 = 350 m/s.",
+                "Telugu": "v = f × λ = 500 × 0.7 = 350 m/s.",
+                "Hindi": "v = f × λ = 500 × 0.7 = 350 m/s।"
+              }
+            },
+            {
+              "question": {
+                "English": "The region of high pressure in a sound wave is called a...",
+                "Telugu": "ధ్వని తరంగంలో ఎక్కువ పీడన ప్రాంతాన్ని ఏమంటారు?",
+                "Hindi": "ध्वनि तरंग में उच्च दाब का क्षेत्र क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Rarefaction",
+                  "Trough",
+                  "Compression",
+                  "Crest"
+                ],
+                "Telugu": [
+                  "విరళీకరణం",
+                  "ద్రోణి",
+                  "సంపీడనం",
+                  "శృంగం"
+                ],
+                "Hindi": [
+                  "विरलन",
+                  "गर्त",
+                  "संपीडन",
+                  "शृंग"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Compressions are crowded particles; rarefactions are spread-out particles.",
+                "Telugu": "సంపీడనాల్లో కణాలు దగ్గరగా, విరళీకరణాల్లో దూరంగా ఉంటాయి.",
+                "Hindi": "संपीडन में कण पास-पास और विरलन में दूर-दूर होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "We see lightning before hearing thunder because...",
+                "Telugu": "ఉరుము వినే ముందే మెరుపు ఎందుకు కనిపిస్తుంది?",
+                "Hindi": "गरज सुनने से पहले बिजली क्यों दिखती है?"
+              },
+              "options": {
+                "English": [
+                  "Lightning happens first",
+                  "Our eyes are faster than ears",
+                  "Thunder is far away only",
+                  "Light travels much faster than sound"
+                ],
+                "Telugu": [
+                  "మెరుపు ముందుగా జరుగుతుంది",
+                  "కళ్లు చెవుల కంటే వేగం",
+                  "ఉరుము మాత్రమే దూరంగా ఉంది",
+                  "కాంతి ధ్వని కంటే చాలా వేగంగా ప్రయాణిస్తుంది"
+                ],
+                "Hindi": [
+                  "बिजली पहले होती है",
+                  "आँखें कानों से तेज़ हैं",
+                  "सिर्फ़ गरज दूर है",
+                  "प्रकाश ध्वनि से बहुत तेज़ चलता है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Light travels at 3 × 10⁸ m/s, nearly a million times faster than sound.",
+                "Telugu": "కాంతి 3 × 10⁸ m/s వడితో, ధ్వని కంటే దాదాపు పది లక్షల రెట్లు వేగంగా ప్రయాణిస్తుంది.",
+                "Hindi": "प्रकाश 3 × 10⁸ m/s से चलता है, ध्वनि से लगभग दस लाख गुना तेज़।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Sound travels faster in steel than in air.",
+                "Telugu": "నిజమా అబద్ధమా: ధ్వని గాలి కంటే ఉక్కులో వేగంగా ప్రయాణిస్తుంది.",
+                "Hindi": "सही या गलत: ध्वनि हवा से तेज़ स्टील में चलती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Sound travels at about 5960 m/s in steel compared with about 344 m/s in air.",
+                "Telugu": "ధ్వని ఉక్కులో సుమారు 5960 m/s, గాలిలో సుమారు 344 m/s వడితో ప్రయాణిస్తుంది.",
+                "Hindi": "ध्वनि स्टील में लगभग 5960 m/s और हवा में लगभग 344 m/s से चलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The persistence of sound due to repeated reflections in a big hall is...",
+                "Telugu": "పెద్ద హాలులో పదే పదే పరావర్తనాల వల్ల ధ్వని కొనసాగడాన్ని ఏమంటారు?",
+                "Hindi": "बड़े हॉल में बार-बार परावर्तन से ध्वनि का बने रहना क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Reverberation",
+                  "Echo only once",
+                  "Refraction",
+                  "Ultrasound"
+                ],
+                "Telugu": [
+                  "అనునాదం (రివర్బరేషన్)",
+                  "ఒకేసారి ప్రతిధ్వని",
+                  "వక్రీభవనం",
+                  "అతిధ్వని"
+                ],
+                "Hindi": [
+                  "अनुरणन",
+                  "एक बार प्रतिध्वनि",
+                  "अपवर्तन",
+                  "पराश्रव्य"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Halls use sound-absorbing materials like fibre boards and curtains to reduce it.",
+                "Telugu": "దీనిని తగ్గించడానికి హాళ్లలో ఫైబర్ బోర్డులు, తెరల వంటి ధ్వని శోషక పదార్థాలు వాడతారు.",
+                "Hindi": "इसे घटाने के लिए हॉल में फ़ाइबर बोर्ड और परदे जैसे ध्वनि-शोषक पदार्थ लगते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "SONAR is used to...",
+                "Telugu": "సోనార్‌ను దేనికి వాడతారు?",
+                "Hindi": "सोनार किसलिए उपयोग होता है?"
+              },
+              "options": {
+                "English": [
+                  "Measure temperature",
+                  "Find the depth of the sea and locate underwater objects",
+                  "Make music",
+                  "Cook food"
+                ],
+                "Telugu": [
+                  "ఉష్ణోగ్రత కొలవడానికి",
+                  "సముద్ర లోతు కనుగొనడానికి, నీటి అడుగు వస్తువులను గుర్తించడానికి",
+                  "సంగీతం చేయడానికి",
+                  "వంటకు"
+                ],
+                "Hindi": [
+                  "तापमान मापने",
+                  "समुद्र की गहराई और पानी के नीचे वस्तुएँ खोजने",
+                  "संगीत बनाने",
+                  "खाना पकाने"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "It sends ultrasound pulses and times their echo: distance = speed × time / 2.",
+                "Telugu": "అది అతిధ్వని తరంగాలు పంపి ప్రతిధ్వని సమయం కొలుస్తుంది: దూరం = వడి × కాలం / 2.",
+                "Hindi": "यह पराश्रव्य स्पंद भेजकर प्रतिध्वनि का समय नापता है: दूरी = चाल × समय / 2।"
+              }
+            },
+            {
+              "question": {
+                "English": "The minimum distance from a reflecting surface to hear a distinct echo in air is about...",
+                "Telugu": "గాలిలో స్పష్టమైన ప్రతిధ్వని వినడానికి పరావర్తన ఉపరితలం నుంచి కనిష్ఠ దూరం సుమారు...",
+                "Hindi": "हवा में स्पष्ट प्रतिध्वनि सुनने के लिए परावर्तक सतह से न्यूनतम दूरी लगभग कितनी है?"
+              },
+              "options": {
+                "English": [
+                  "1 m",
+                  "5 m",
+                  "17.2 m",
+                  "100 m"
+                ],
+                "Telugu": [
+                  "1 మీ",
+                  "5 మీ",
+                  "17.2 మీ",
+                  "100 మీ"
+                ],
+                "Hindi": [
+                  "1 मी",
+                  "5 मी",
+                  "17.2 मी",
+                  "100 मी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Our ear needs 0.1 s between sounds; 344 × 0.1 / 2 ≈ 17.2 m.",
+                "Telugu": "మన చెవికి ధ్వనుల మధ్య 0.1 సె. కావాలి; 344 × 0.1 / 2 ≈ 17.2 మీ.",
+                "Hindi": "हमारे कान को ध्वनियों के बीच 0.1 से चाहिए; 344 × 0.1 / 2 ≈ 17.2 मी।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Bats use ultrasound to find their way in the dark.",
+                "Telugu": "నిజమా అబద్ధమా: గబ్బిలాలు చీకటిలో దారి కనుగొనడానికి అతిధ్వనులు వాడతాయి.",
+                "Hindi": "सही या गलत: चमगादड़ अँधेरे में रास्ता खोजने के लिए पराश्रव्य का उपयोग करते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "They emit ultrasonic squeaks and detect the echoes from obstacles and prey.",
+                "Telugu": "అవి అతిధ్వని కీచు శబ్దాలు చేసి అడ్డంకులు, ఎరల నుంచి వచ్చే ప్రతిధ్వనులను గుర్తిస్తాయి.",
+                "Hindi": "वे पराश्रव्य चीं-चीं करते हैं और बाधाओं व शिकार से लौटी प्रतिध्वनि पहचानते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which quality of sound helps us recognise a friend's voice?",
+                "Telugu": "స్నేహితుని స్వరాన్ని గుర్తించడానికి సహాయపడే ధ్వని గుణం ఏది?",
+                "Hindi": "किसी दोस्त की आवाज़ पहचानने में ध्वनि का कौन सा गुण मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Speed",
+                  "Loudness only",
+                  "Wavelength only",
+                  "Timbre (quality)"
+                ],
+                "Telugu": [
+                  "వడి",
+                  "తీవ్రత మాత్రమే",
+                  "తరంగదైర్ఘ్యం మాత్రమే",
+                  "గుణం (టింబర్)"
+                ],
+                "Hindi": [
+                  "चाल",
+                  "सिर्फ़ प्रबलता",
+                  "सिर्फ़ तरंगदैर्ध्य",
+                  "गुणता (टिंबर)"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Timbre lets us tell apart sounds of the same pitch and loudness.",
+                "Telugu": "ఒకే కీచుదనం, తీవ్రత గల ధ్వనులను వేరు చేయడానికి గుణం సహాయపడుతుంది.",
+                "Hindi": "गुणता से समान तारत्व और प्रबलता वाली ध्वनियों में अंतर पहचानते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matter-in-our-surroundings",
+      "icon": "🧊",
+      "title": {
+        "English": "Matter in Our Surroundings",
+        "Telugu": "మన పరిసరాల్లో పదార్థం",
+        "Hindi": "हमारे आस-पास के पदार्थ"
+      },
+      "description": {
+        "English": "States of matter, change of state and evaporation.",
+        "Telugu": "పదార్థ స్థితులు, స్థితి మార్పు, బాష్పీభవనం.",
+        "Hindi": "पदार्थ की अवस्थाएँ, अवस्था परिवर्तन और वाष्पीकरण।"
+      },
+      "lessons": [
+        {
+          "id": "matter-in-our-surroundings-lesson",
+          "visual": "💧",
+          "title": {
+            "English": "Solids, Liquids and Gases",
+            "Telugu": "ఘనాలు, ద్రవాలు, వాయువులు",
+            "Hindi": "ठोस, द्रव और गैस"
+          },
+          "image": "./images/lessons/changes-around-us.svg",
+          "explanation": {
+            "English": "Matter is made of tiny particles that have space between them, keep moving and attract each other. Solids have a fixed shape and volume; liquids have a fixed volume but take the shape of the container; gases have neither and can be compressed. Heating makes particles move faster: a solid melts at its melting point (ice at 0°C or 273 K) and a liquid boils at its boiling point (water at 100°C). Changing directly from solid to gas is sublimation, as in camphor. Evaporation happens at any temperature from the surface and causes cooling; it increases with temperature, surface area and wind, and decreases with humidity.",
+            "Telugu": "పదార్థం చిన్న కణాలతో తయారవుతుంది, వాటి మధ్య ఖాళీ ఉంటుంది, అవి కదులుతూ ఉంటాయి, ఒకదాన్నొకటి ఆకర్షిస్తాయి. ఘనాలకు నిర్దిష్ట ఆకారం, ఘనపరిమాణం ఉంటాయి; ద్రవాలకు నిర్దిష్ట ఘనపరిమాణం ఉండి పాత్ర ఆకారం తీసుకుంటాయి; వాయువులకు రెండూ ఉండవు, సంపీడనం చేయవచ్చు. వేడి చేస్తే కణాలు వేగంగా కదులుతాయి: ఘనం ద్రవీభవన స్థానం వద్ద కరుగుతుంది (మంచు 0°C లేదా 273 K), ద్రవం మరిగే స్థానం వద్ద మరుగుతుంది (నీరు 100°C). ఘనం నేరుగా వాయువుగా మారడం ఉత్పతనం, కర్పూరంలోలా. బాష్పీభవనం ఏ ఉష్ణోగ్రతలోనైనా ఉపరితలం నుంచి జరిగి చల్లదనం కలిగిస్తుంది; ఉష్ణోగ్రత, ఉపరితల వైశాల్యం, గాలితో పెరుగుతుంది, తేమతో తగ్గుతుంది.",
+            "Hindi": "पदार्थ छोटे कणों से बना है जिनके बीच जगह होती है, जो लगातार गति करते हैं और एक-दूसरे को आकर्षित करते हैं। ठोस का निश्चित आकार और आयतन होता है; द्रव का आयतन निश्चित पर आकार बर्तन जैसा; गैस का दोनों निश्चित नहीं और उसे संपीडित कर सकते हैं। गर्म करने पर कण तेज़ चलते हैं: ठोस गलनांक पर पिघलता है (बर्फ़ 0°C या 273 K) और द्रव क्वथनांक पर उबलता है (पानी 100°C)। ठोस का सीधे गैस बनना ऊर्ध्वपातन है, जैसे कपूर में। वाष्पीकरण किसी भी तापमान पर सतह से होता है और ठंडक देता है; यह तापमान, सतह क्षेत्रफल और हवा से बढ़ता और आर्द्रता से घटता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Particles of matter have space, motion and attraction.",
+              "Solids: fixed shape; liquids: fixed volume; gases: neither.",
+              "Ice melts at 273 K; water boils at 373 K.",
+              "Sublimation: solid to gas directly.",
+              "Evaporation causes cooling."
+            ],
+            "Telugu": [
+              "పదార్థ కణాల మధ్య ఖాళీ, చలనం, ఆకర్షణ ఉంటాయి.",
+              "ఘనాలు: నిర్దిష్ట ఆకారం; ద్రవాలు: నిర్దిష్ట ఘనపరిమాణం; వాయువులు: రెండూ లేవు.",
+              "మంచు 273 K వద్ద కరుగుతుంది; నీరు 373 K వద్ద మరుగుతుంది.",
+              "ఉత్పతనం: ఘనం నేరుగా వాయువుగా.",
+              "బాష్పీభవనం చల్లదనం కలిగిస్తుంది."
+            ],
+            "Hindi": [
+              "पदार्थ के कणों में जगह, गति और आकर्षण होता है।",
+              "ठोस: निश्चित आकार; द्रव: निश्चित आयतन; गैस: दोनों नहीं।",
+              "बर्फ़ 273 K पर पिघलती; पानी 373 K पर उबलता है।",
+              "ऊर्ध्वपातन: ठोस से सीधे गैस।",
+              "वाष्पीकरण से ठंडक होती है।"
+            ]
+          },
+          "activity": {
+            "English": "Put a drop of perfume on your palm and notice how it feels cool as it evaporates.",
+            "Telugu": "అరచేతిపై ఒక చుక్క సుగంధ ద్రవ్యం వేసి, అది ఆవిరవుతుంటే చల్లగా అనిపించడం గమనించండి.",
+            "Hindi": "हथेली पर इत्र की एक बूँद डालकर देखिए कि उड़ते समय वह ठंडक कैसे देती है।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which state of matter can be compressed easily?",
+                "Telugu": "సులభంగా సంపీడనం చేయగల పదార్థ స్థితి ఏది?",
+                "Hindi": "पदार्थ की कौन सी अवस्था आसानी से संपीडित होती है?"
+              },
+              "options": {
+                "English": [
+                  "Gas",
+                  "Solid",
+                  "Liquid",
+                  "None"
+                ],
+                "Telugu": [
+                  "వాయువు",
+                  "ఘనం",
+                  "ద్రవం",
+                  "ఏదీ కాదు"
+                ],
+                "Hindi": [
+                  "गैस",
+                  "ठोस",
+                  "द्रव",
+                  "कोई नहीं"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Gas particles are far apart, so they can be pushed closer, as in LPG cylinders.",
+                "Telugu": "వాయు కణాలు దూరంగా ఉంటాయి, కాబట్టి దగ్గరకు నెట్టవచ్చు, LPG సిలిండర్లలోలా.",
+                "Hindi": "गैस के कण दूर-दूर होते हैं, इसलिए पास किए जा सकते हैं, जैसे एलपीजी सिलेंडर में।"
+              }
+            },
+            {
+              "question": {
+                "English": "The melting point of ice in kelvin is...",
+                "Telugu": "కెల్విన్‌లో మంచు ద్రవీభవన స్థానం...",
+                "Hindi": "केल्विन में बर्फ़ का गलनांक कितना है?"
+              },
+              "options": {
+                "English": [
+                  "0 K",
+                  "273 K",
+                  "100 K",
+                  "373 K"
+                ],
+                "Telugu": [
+                  "0 K",
+                  "273 K",
+                  "100 K",
+                  "373 K"
+                ],
+                "Hindi": [
+                  "0 K",
+                  "273 K",
+                  "100 K",
+                  "373 K"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Kelvin = °C + 273, so 0°C = 273 K.",
+                "Telugu": "కెల్విన్ = °C + 273, కాబట్టి 0°C = 273 K.",
+                "Hindi": "केल्विन = °C + 273, इसलिए 0°C = 273 K।"
+              }
+            },
+            {
+              "question": {
+                "English": "Camphor changing directly from solid to vapour is called...",
+                "Telugu": "కర్పూరం ఘనం నుంచి నేరుగా ఆవిరిగా మారడాన్ని ఏమంటారు?",
+                "Hindi": "कपूर का ठोस से सीधे वाष्प बनना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Melting",
+                  "Boiling",
+                  "Sublimation",
+                  "Condensation"
+                ],
+                "Telugu": [
+                  "కరగడం",
+                  "మరగడం",
+                  "ఉత్పతనం",
+                  "సాంద్రీకరణ"
+                ],
+                "Hindi": [
+                  "पिघलना",
+                  "उबलना",
+                  "ऊर्ध्वपातन",
+                  "संघनन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Naphthalene balls and dry ice also sublime.",
+                "Telugu": "నాఫ్తలీన్ గోళీలు, డ్రై ఐస్ కూడా ఉత్పతనం చెందుతాయి.",
+                "Hindi": "नेफ़्थलीन की गोलियाँ और शुष्क बर्फ़ भी ऊर्ध्वपातित होती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Evaporation increases when...",
+                "Telugu": "బాష్పీభవనం ఎప్పుడు పెరుగుతుంది?",
+                "Hindi": "वाष्पीकरण कब बढ़ता है?"
+              },
+              "options": {
+                "English": [
+                  "Humidity is high",
+                  "Surface area is small",
+                  "Temperature is low",
+                  "Wind speed increases"
+                ],
+                "Telugu": [
+                  "తేమ ఎక్కువగా ఉన్నప్పుడు",
+                  "ఉపరితల వైశాల్యం తక్కువగా ఉన్నప్పుడు",
+                  "ఉష్ణోగ్రత తక్కువగా ఉన్నప్పుడు",
+                  "గాలి వేగం పెరిగినప్పుడు"
+                ],
+                "Hindi": [
+                  "आर्द्रता ज़्यादा हो",
+                  "सतह क्षेत्रफल छोटा हो",
+                  "तापमान कम हो",
+                  "हवा की गति बढ़े"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Wind carries vapour away, so more liquid can evaporate.",
+                "Telugu": "గాలి ఆవిరిని తీసుకెళ్తుంది, దాంతో ఎక్కువ ద్రవం ఆవిరవుతుంది.",
+                "Hindi": "हवा वाष्प ले जाती है, जिससे और द्रव वाष्पित हो पाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Evaporation causes cooling.",
+                "Telugu": "నిజమా అబద్ధమా: బాష్పీభవనం చల్లదనం కలిగిస్తుంది.",
+                "Hindi": "सही या गलत: वाष्पीकरण से ठंडक होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Evaporating particles take heat from the surroundings; water in a clay pot stays cool.",
+                "Telugu": "ఆవిరయ్యే కణాలు పరిసరాల నుంచి వేడిని తీసుకుంటాయి; మట్టి కుండలో నీరు చల్లగా ఉంటుంది.",
+                "Hindi": "वाष्पित होते कण आसपास से गर्मी लेते हैं; मिट्टी के घड़े का पानी ठंडा रहता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The smell of hot food reaches us quickly because of...",
+                "Telugu": "వేడి ఆహారం వాసన మనకు త్వరగా ఎందుకు చేరుతుంది?",
+                "Hindi": "गर्म खाने की खुशबू हम तक जल्दी क्यों पहुँचती है?"
+              },
+              "options": {
+                "English": [
+                  "Faster diffusion of particles at high temperature",
+                  "Gravity",
+                  "Magnetism",
+                  "Reflection"
+                ],
+                "Telugu": [
+                  "అధిక ఉష్ణోగ్రత వద్ద కణాల వేగమైన వ్యాపనం",
+                  "గురుత్వం",
+                  "అయస్కాంతత్వం",
+                  "పరావర్తనం"
+                ],
+                "Hindi": [
+                  "ऊँचे तापमान पर कणों का तेज़ विसरण",
+                  "गुरुत्व",
+                  "चुंबकत्व",
+                  "परावर्तन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Hot particles have more kinetic energy and spread through air faster.",
+                "Telugu": "వేడి కణాలకు ఎక్కువ గతిజ శక్తి ఉండి గాలిలో వేగంగా వ్యాపిస్తాయి.",
+                "Hindi": "गर्म कणों में ज़्यादा गतिज ऊर्जा होती है और वे हवा में तेज़ी से फैलते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which has the strongest force of attraction between particles?",
+                "Telugu": "కణాల మధ్య అత్యంత బలమైన ఆకర్షణ బలం దేనిలో ఉంటుంది?",
+                "Hindi": "किसमें कणों के बीच सबसे प्रबल आकर्षण बल होता है?"
+              },
+              "options": {
+                "English": [
+                  "Air",
+                  "Iron",
+                  "Water",
+                  "Steam"
+                ],
+                "Telugu": [
+                  "గాలి",
+                  "ఇనుము",
+                  "నీరు",
+                  "ఆవిరి"
+                ],
+                "Hindi": [
+                  "हवा",
+                  "लोहा",
+                  "पानी",
+                  "भाप"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Solids like iron have particles tightly held together.",
+                "Telugu": "ఇనుము వంటి ఘనాల్లో కణాలు గట్టిగా పట్టుకొని ఉంటాయి.",
+                "Hindi": "लोहे जैसे ठोसों में कण कसकर बँधे होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The heat needed to change 1 kg of solid into liquid at its melting point is...",
+                "Telugu": "ద్రవీభవన స్థానం వద్ద 1 కిలో ఘనాన్ని ద్రవంగా మార్చడానికి కావలసిన వేడి...",
+                "Hindi": "गलनांक पर 1 kg ठोस को द्रव बनाने के लिए चाहिए ऊष्मा क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Specific heat",
+                  "Latent heat of vaporisation",
+                  "Latent heat of fusion",
+                  "Calorific value"
+                ],
+                "Telugu": [
+                  "విశిష్టోష్ణం",
+                  "బాష్పీభవన గుప్తోష్ణం",
+                  "ద్రవీభవన గుప్తోష్ణం",
+                  "కెలోరిఫిక్ విలువ"
+                ],
+                "Hindi": [
+                  "विशिष्ट ऊष्मा",
+                  "वाष्पन की गुप्त ऊष्मा",
+                  "गलन की गुप्त ऊष्मा",
+                  "ऊष्मीय मान"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "This hidden heat breaks attraction between particles; the temperature does not rise while melting.",
+                "Telugu": "ఈ గుప్త వేడి కణాల మధ్య ఆకర్షణను విడదీస్తుంది; కరిగేటప్పుడు ఉష్ణోగ్రత పెరగదు.",
+                "Hindi": "यह छिपी ऊष्मा कणों का आकर्षण तोड़ती है; पिघलते समय तापमान नहीं बढ़ता।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Steam at 100°C causes worse burns than water at 100°C.",
+                "Telugu": "నిజమా అబద్ధమా: 100°C నీటి కంటే 100°C ఆవిరి తీవ్రమైన కాలిన గాయాలు కలిగిస్తుంది.",
+                "Hindi": "सही या गलत: 100°C के पानी से 100°C की भाप ज़्यादा जलाती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Steam carries extra latent heat of vaporisation, which it releases on the skin.",
+                "Telugu": "ఆవిరిలో అదనపు బాష్పీభవన గుప్తోష్ణం ఉండి చర్మంపై విడుదలవుతుంది.",
+                "Hindi": "भाप में वाष्पन की अतिरिक्त गुप्त ऊष्मा होती है जो वह त्वचा पर छोड़ती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "We wear cotton clothes in summer because cotton...",
+                "Telugu": "వేసవిలో నూలు బట్టలు ఎందుకు వేసుకుంటాం?",
+                "Hindi": "गर्मी में सूती कपड़े क्यों पहनते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Is heavy",
+                  "Stops sweating",
+                  "Is shiny",
+                  "Absorbs sweat, which evaporates and cools us"
+                ],
+                "Telugu": [
+                  "అది బరువైనది",
+                  "చెమటను ఆపుతుంది",
+                  "మెరుస్తుంది",
+                  "చెమటను పీల్చి, అది ఆవిరై మనల్ని చల్లబరుస్తుంది"
+                ],
+                "Hindi": [
+                  "यह भारी है",
+                  "पसीना रोकता है",
+                  "चमकीला है",
+                  "पसीना सोखता है जो उड़कर हमें ठंडा करता है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Cotton is a good absorber of water, exposing sweat to air for evaporation.",
+                "Telugu": "నూలు నీటిని బాగా పీల్చి, చెమటను బాష్పీభవనానికి గాలికి అందిస్తుంది.",
+                "Hindi": "सूती कपड़ा पानी अच्छी तरह सोखता है और पसीने को वाष्पीकरण के लिए हवा तक पहुँचाता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atoms-and-molecules",
+      "icon": "⚛️",
+      "title": {
+        "English": "Atoms and Molecules",
+        "Telugu": "పరమాణువులు, అణువులు",
+        "Hindi": "परमाणु एवं अणु"
+      },
+      "description": {
+        "English": "Laws of chemical combination, atoms, molecules, valency and formulae.",
+        "Telugu": "రసాయన సంయోగ నియమాలు, పరమాణువులు, అణువులు, సంయోజకత, ఫార్ములాలు.",
+        "Hindi": "रासायनिक संयोजन के नियम, परमाणु, अणु, संयोजकता और सूत्र।"
+      },
+      "lessons": [
+        {
+          "id": "atoms-and-molecules-lesson",
+          "visual": "🧬",
+          "title": {
+            "English": "Building Blocks of Matter",
+            "Telugu": "పదార్థ నిర్మాణ ఖండాలు",
+            "Hindi": "पदार्थ के निर्माण खंड"
+          },
+          "image": "./images/lessons/new-substances-from-reactions.svg",
+          "explanation": {
+            "English": "Mass is neither created nor destroyed in a chemical reaction (law of conservation of mass). A compound always contains the same elements in the same proportion by mass (law of constant proportions); water always has hydrogen and oxygen in the ratio 1:8. Dalton said matter is made of tiny indivisible atoms. An atom is the smallest particle of an element; a molecule is the smallest particle that can exist independently, like O₂ or H₂O. Atomic mass is measured in atomic mass units (u). Valency is the combining capacity of an atom and is used to write formulae, such as NaCl and H₂O. One mole contains 6.022 × 10²³ particles (Avogadro's number).",
+            "Telugu": "రసాయన చర్యలో ద్రవ్యరాశి సృష్టించబడదు, నాశనం కాదు (ద్రవ్యరాశి నిత్యత్వ నియమం). ఒక సమ్మేళనంలో ఎప్పుడూ అవే మూలకాలు ద్రవ్యరాశి పరంగా అదే నిష్పత్తిలో ఉంటాయి (స్థిర అనుపాత నియమం); నీటిలో హైడ్రోజన్, ఆక్సిజన్ ఎప్పుడూ 1:8 నిష్పత్తిలో ఉంటాయి. పదార్థం విభజించలేని చిన్న పరమాణువులతో తయారైందని డాల్టన్ చెప్పారు. పరమాణువు మూలకం యొక్క అతి చిన్న కణం; స్వతంత్రంగా ఉండగల అతి చిన్న కణం అణువు, O₂ లేదా H₂O లాగా. పరమాణు ద్రవ్యరాశిని పరమాణు ద్రవ్యరాశి ప్రమాణాల్లో (u) కొలుస్తారు. సంయోజకత పరమాణువు సంయోగ సామర్థ్యం, NaCl, H₂O వంటి ఫార్ములాలు రాయడానికి వాడతారు. ఒక మోల్‌లో 6.022 × 10²³ కణాలు ఉంటాయి (అవగాడ్రో సంఖ్య).",
+            "Hindi": "रासायनिक अभिक्रिया में द्रव्यमान न बनता है न नष्ट होता है (द्रव्यमान संरक्षण का नियम)। किसी यौगिक में हमेशा वही तत्व द्रव्यमान के एक ही अनुपात में होते हैं (स्थिर अनुपात का नियम); पानी में हाइड्रोजन और ऑक्सीजन हमेशा 1:8 के अनुपात में होते हैं। डाल्टन ने कहा कि पदार्थ छोटे अविभाज्य परमाणुओं से बना है। परमाणु तत्व का सबसे छोटा कण है; अणु वह सबसे छोटा कण है जो स्वतंत्र रूप से रह सके, जैसे O₂ या H₂O। परमाणु द्रव्यमान परमाणु द्रव्यमान इकाई (u) में मापा जाता है। संयोजकता परमाणु की संयोजन क्षमता है और इससे NaCl और H₂O जैसे सूत्र लिखे जाते हैं। एक मोल में 6.022 × 10²³ कण होते हैं (आवोगाद्रो संख्या)।"
+          },
+          "keyPoints": {
+            "English": [
+              "Mass is conserved in chemical reactions.",
+              "A compound has a fixed proportion of elements.",
+              "An atom is the smallest particle of an element.",
+              "Valency decides the chemical formula.",
+              "1 mole = 6.022 × 10²³ particles."
+            ],
+            "Telugu": [
+              "రసాయన చర్యల్లో ద్రవ్యరాశి నిత్యత్వం పాటిస్తుంది.",
+              "సమ్మేళనంలో మూలకాల నిష్పత్తి స్థిరం.",
+              "పరమాణువు మూలకం యొక్క అతి చిన్న కణం.",
+              "సంయోజకత రసాయన ఫార్ములాను నిర్ణయిస్తుంది.",
+              "1 మోల్ = 6.022 × 10²³ కణాలు."
+            ],
+            "Hindi": [
+              "रासायनिक अभिक्रिया में द्रव्यमान संरक्षित रहता है।",
+              "यौगिक में तत्वों का अनुपात स्थिर होता है।",
+              "परमाणु तत्व का सबसे छोटा कण है।",
+              "संयोजकता रासायनिक सूत्र तय करती है।",
+              "1 मोल = 6.022 × 10²³ कण।"
+            ]
+          },
+          "activity": {
+            "English": "Use the valencies of Na (1), Ca (2), Cl (1) and O (2) to write formulae for sodium chloride, calcium chloride and calcium oxide.",
+            "Telugu": "Na (1), Ca (2), Cl (1), O (2) సంయోజకతలతో సోడియం క్లోరైడ్, కాల్షియం క్లోరైడ్, కాల్షియం ఆక్సైడ్ ఫార్ములాలు రాయండి.",
+            "Hindi": "Na (1), Ca (2), Cl (1) और O (2) की संयोजकताओं से सोडियम क्लोराइड, कैल्शियम क्लोराइड और कैल्शियम ऑक्साइड के सूत्र लिखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Who proposed that matter is made of tiny indivisible atoms?",
+                "Telugu": "పదార్థం విభజించలేని చిన్న పరమాణువులతో తయారైందని ప్రతిపాదించింది ఎవరు?",
+                "Hindi": "किसने बताया कि पदार्थ छोटे अविभाज्य परमाणुओं से बना है?"
+              },
+              "options": {
+                "English": [
+                  "John Dalton",
+                  "Isaac Newton",
+                  "Charles Darwin",
+                  "Robert Hooke"
+                ],
+                "Telugu": [
+                  "జాన్ డాల్టన్",
+                  "ఐజాక్ న్యూటన్",
+                  "చార్లెస్ డార్విన్",
+                  "రాబర్ట్ హుక్"
+                ],
+                "Hindi": [
+                  "जॉन डाल्टन",
+                  "आइज़क न्यूटन",
+                  "चार्ल्स डार्विन",
+                  "रॉबर्ट हुक"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Dalton's atomic theory explained the laws of chemical combination.",
+                "Telugu": "డాల్టన్ పరమాణు సిద్ధాంతం రసాయన సంయోగ నియమాలను వివరించింది.",
+                "Hindi": "डाल्टन के परमाणु सिद्धांत ने रासायनिक संयोजन के नियम समझाए।"
+              }
+            },
+            {
+              "question": {
+                "English": "In water, the ratio by mass of hydrogen to oxygen is always...",
+                "Telugu": "నీటిలో హైడ్రోజన్, ఆక్సిజన్ ద్రవ్యరాశి నిష్పత్తి ఎప్పుడూ...",
+                "Hindi": "पानी में हाइड्रोजन और ऑक्सीजन का द्रव्यमान अनुपात हमेशा कितना है?"
+              },
+              "options": {
+                "English": [
+                  "2:1",
+                  "1:8",
+                  "1:1",
+                  "8:1"
+                ],
+                "Telugu": [
+                  "2:1",
+                  "1:8",
+                  "1:1",
+                  "8:1"
+                ],
+                "Hindi": [
+                  "2:1",
+                  "1:8",
+                  "1:1",
+                  "8:1"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "This shows the law of constant proportions.",
+                "Telugu": "ఇది స్థిర అనుపాత నియమాన్ని చూపిస్తుంది.",
+                "Hindi": "यह स्थिर अनुपात का नियम दिखाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The formula of a molecule of oxygen gas is...",
+                "Telugu": "ఆక్సిజన్ వాయు అణువు ఫార్ములా...",
+                "Hindi": "ऑक्सीजन गैस के अणु का सूत्र क्या है?"
+              },
+              "options": {
+                "English": [
+                  "O",
+                  "O₃ only",
+                  "O₂",
+                  "2O"
+                ],
+                "Telugu": [
+                  "O",
+                  "O₃ మాత్రమే",
+                  "O₂",
+                  "2O"
+                ],
+                "Hindi": [
+                  "O",
+                  "सिर्फ़ O₃",
+                  "O₂",
+                  "2O"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Oxygen exists as a diatomic molecule with two atoms; its atomicity is 2.",
+                "Telugu": "ఆక్సిజన్ రెండు పరమాణువులున్న ద్విపరమాణుక అణువుగా ఉంటుంది; దాని పరమాణుకత 2.",
+                "Hindi": "ऑक्सीजन दो परमाणुओं वाले द्विपरमाणुक अणु के रूप में रहती है; इसकी परमाणुकता 2 है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The combining capacity of an atom is called its...",
+                "Telugu": "పరమాణువు సంయోగ సామర్థ్యాన్ని ఏమంటారు?",
+                "Hindi": "परमाणु की संयोजन क्षमता क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Atomic mass",
+                  "Density",
+                  "Mole",
+                  "Valency"
+                ],
+                "Telugu": [
+                  "పరమాణు ద్రవ్యరాశి",
+                  "సాంద్రత",
+                  "మోల్",
+                  "సంయోజకత"
+                ],
+                "Hindi": [
+                  "परमाणु द्रव्यमान",
+                  "घनत्व",
+                  "मोल",
+                  "संयोजकता"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "For example, hydrogen has valency 1 and oxygen has valency 2, giving H₂O.",
+                "Telugu": "ఉదాహరణకు హైడ్రోజన్ సంయోజకత 1, ఆక్సిజన్ సంయోజకత 2, అందుకే H₂O.",
+                "Hindi": "जैसे हाइड्रोजन की संयोजकता 1 और ऑक्सीजन की 2 है, इसलिए H₂O बनता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Mass is conserved in a chemical reaction.",
+                "Telugu": "నిజమా అబద్ధమా: రసాయన చర్యలో ద్రవ్యరాశి నిత్యత్వం పాటిస్తుంది.",
+                "Hindi": "सही या गलत: रासायनिक अभिक्रिया में द्रव्यमान संरक्षित रहता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The total mass of products equals the total mass of reactants.",
+                "Telugu": "ఉత్పన్నాల మొత్తం ద్రవ్యరాశి క్రియాజనకాల మొత్తం ద్రవ్యరాశికి సమానం.",
+                "Hindi": "उत्पादों का कुल द्रव्यमान अभिकारकों के कुल द्रव्यमान के बराबर होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The value of Avogadro's number is...",
+                "Telugu": "అవగాడ్రో సంఖ్య విలువ...",
+                "Hindi": "आवोगाद्रो संख्या का मान क्या है?"
+              },
+              "options": {
+                "English": [
+                  "6.022 × 10²³",
+                  "3 × 10⁸",
+                  "9.8",
+                  "1.6 × 10⁻¹⁹"
+                ],
+                "Telugu": [
+                  "6.022 × 10²³",
+                  "3 × 10⁸",
+                  "9.8",
+                  "1.6 × 10⁻¹⁹"
+                ],
+                "Hindi": [
+                  "6.022 × 10²³",
+                  "3 × 10⁸",
+                  "9.8",
+                  "1.6 × 10⁻¹⁹"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "One mole of any substance contains 6.022 × 10²³ particles.",
+                "Telugu": "ఏ పదార్థం ఒక మోల్‌లోనైనా 6.022 × 10²³ కణాలు ఉంటాయి.",
+                "Hindi": "किसी भी पदार्थ के एक मोल में 6.022 × 10²³ कण होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The molecular mass of water (H = 1 u, O = 16 u) is...",
+                "Telugu": "నీటి అణు ద్రవ్యరాశి (H = 1 u, O = 16 u)...",
+                "Hindi": "पानी का आणविक द्रव्यमान (H = 1 u, O = 16 u) कितना है?"
+              },
+              "options": {
+                "English": [
+                  "17 u",
+                  "18 u",
+                  "32 u",
+                  "16 u"
+                ],
+                "Telugu": [
+                  "17 u",
+                  "18 u",
+                  "32 u",
+                  "16 u"
+                ],
+                "Hindi": [
+                  "17 u",
+                  "18 u",
+                  "32 u",
+                  "16 u"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "H₂O = 2 × 1 + 16 = 18 u.",
+                "Telugu": "H₂O = 2 × 1 + 16 = 18 u.",
+                "Hindi": "H₂O = 2 × 1 + 16 = 18 u।"
+              }
+            },
+            {
+              "question": {
+                "English": "The symbol of sodium is Na. It comes from its Latin name...",
+                "Telugu": "సోడియం గుర్తు Na. ఇది దాని లాటిన్ పేరు నుంచి వచ్చింది...",
+                "Hindi": "सोडियम का प्रतीक Na है। यह किस लैटिन नाम से आया है?"
+              },
+              "options": {
+                "English": [
+                  "Ferrum",
+                  "Kalium",
+                  "Natrium",
+                  "Cuprum"
+                ],
+                "Telugu": [
+                  "ఫెర్రమ్",
+                  "కాలియం",
+                  "నాట్రియం",
+                  "క్యూప్రమ్"
+                ],
+                "Hindi": [
+                  "फ़ेरम",
+                  "कैलियम",
+                  "नैट्रियम",
+                  "क्यूप्रम"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Fe (ferrum) is iron, K (kalium) is potassium and Cu (cuprum) is copper.",
+                "Telugu": "Fe (ఫెర్రమ్) ఇనుము, K (కాలియం) పొటాషియం, Cu (క్యూప్రమ్) రాగి.",
+                "Hindi": "Fe (फ़ेरम) लोहा, K (कैलियम) पोटैशियम और Cu (क्यूप्रम) ताँबा है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Ions are charged particles.",
+                "Telugu": "నిజమా అబద్ధమా: అయాన్లు ఆవేశిత కణాలు.",
+                "Hindi": "सही या गलत: आयन आवेशित कण होते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Positive ions are cations (Na⁺) and negative ions are anions (Cl⁻).",
+                "Telugu": "ధన అయాన్లు కాటయాన్లు (Na⁺), ఋణ అయాన్లు ఆనయాన్లు (Cl⁻).",
+                "Hindi": "धन आयन धनायन (Na⁺) और ऋण आयन ऋणायन (Cl⁻) कहलाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The formula of calcium chloride (Ca valency 2, Cl valency 1) is...",
+                "Telugu": "కాల్షియం క్లోరైడ్ ఫార్ములా (Ca సంయోజకత 2, Cl సంయోజకత 1)...",
+                "Hindi": "कैल्शियम क्लोराइड का सूत्र (Ca संयोजकता 2, Cl संयोजकता 1) क्या है?"
+              },
+              "options": {
+                "English": [
+                  "CaCl",
+                  "Ca₂Cl",
+                  "Ca₂Cl₂",
+                  "CaCl₂"
+                ],
+                "Telugu": [
+                  "CaCl",
+                  "Ca₂Cl",
+                  "Ca₂Cl₂",
+                  "CaCl₂"
+                ],
+                "Hindi": [
+                  "CaCl",
+                  "Ca₂Cl",
+                  "Ca₂Cl₂",
+                  "CaCl₂"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Criss-cross the valencies: Ca gets 1 and Cl gets 2, giving CaCl₂.",
+                "Telugu": "సంయోజకతలను అడ్డంగా మార్చితే Caకు 1, Clకు 2 వచ్చి CaCl₂ అవుతుంది.",
+                "Hindi": "संयोजकताएँ क्रॉस करने पर Ca को 1 और Cl को 2 मिलता है, इसलिए CaCl₂।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tissues",
+      "icon": "🔬",
+      "title": {
+        "English": "Tissues",
+        "Telugu": "కణజాలాలు",
+        "Hindi": "ऊतक"
+      },
+      "description": {
+        "English": "Plant tissues and animal tissues and their functions.",
+        "Telugu": "మొక్కల కణజాలాలు, జంతు కణజాలాలు, వాటి విధులు.",
+        "Hindi": "पादप ऊतक, जंतु ऊतक और उनके कार्य।"
+      },
+      "lessons": [
+        {
+          "id": "tissues-lesson",
+          "visual": "🌿",
+          "title": {
+            "English": "Groups of Cells at Work",
+            "Telugu": "పని చేసే కణ సమూహాలు",
+            "Hindi": "काम करते कोशिका समूह"
+          },
+          "image": "./images/lessons/cells-and-cell-structure.svg",
+          "explanation": {
+            "English": "A tissue is a group of similar cells doing a particular job. In plants, meristematic tissue at root and shoot tips keeps dividing and helps growth. Permanent tissues include parenchyma (storage), collenchyma (flexibility), sclerenchyma (hardness, as in husk of coconut), and the conducting tissues xylem (carries water) and phloem (carries food). In animals, epithelial tissue covers and protects, muscular tissue helps movement (striated, smooth and cardiac), connective tissue like blood, bone and cartilage joins and supports, and nervous tissue made of neurons carries messages.",
+            "Telugu": "ఒక నిర్దిష్ట పని చేసే సారూప్య కణాల సమూహమే కణజాలం. మొక్కల్లో వేరు, కాండం కొనల్లోని విభాజ్య కణజాలం విభజన చెందుతూ పెరుగుదలకు సహాయపడుతుంది. శాశ్వత కణజాలాల్లో మృదుకణజాలం (నిల్వ), స్థూలకోణ కణజాలం (వశ్యత), దృఢ కణజాలం (కాఠిన్యం, కొబ్బరి పీచులోలా), నీటిని తీసుకెళ్లే దారువు, ఆహారాన్ని తీసుకెళ్లే పోషక కణజాలం ఉంటాయి. జంతువుల్లో ఉపకళా కణజాలం కప్పి రక్షిస్తుంది, కండర కణజాలం (రేఖిత, అరేఖిత, హృదయ) కదలికకు సహాయపడుతుంది, రక్తం, ఎముక, మృదులాస్థి వంటి సంయోజక కణజాలం కలిపి ఆధారమిస్తుంది, న్యూరాన్లతో కూడిన నాడీ కణజాలం సందేశాలను తీసుకెళ్తుంది.",
+            "Hindi": "ऊतक किसी विशेष काम करने वाली समान कोशिकाओं का समूह है। पौधों में जड़ और तने के सिरों पर विभज्योतक ऊतक लगातार विभाजित होकर वृद्धि करता है। स्थायी ऊतकों में मृदूतक (भंडारण), स्थूलकोण ऊतक (लचीलापन), दृढ़ ऊतक (कठोरता, जैसे नारियल का छिलका) और संवहन ऊतक जाइलम (पानी ले जाता है) व फ़्लोएम (भोजन ले जाता है) हैं। जंतुओं में उपकला ऊतक ढकता और रक्षा करता है, पेशी ऊतक (रेखित, अरेखित और हृदय) गति में मदद करता है, रक्त, हड्डी और उपास्थि जैसे संयोजी ऊतक जोड़ते और सहारा देते हैं, और न्यूरॉन से बना तंत्रिका ऊतक संदेश ले जाता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "A tissue is a group of similar cells with one job.",
+              "Meristematic tissue helps plants grow.",
+              "Xylem carries water; phloem carries food.",
+              "Animal tissues: epithelial, muscular, connective, nervous.",
+              "Blood is a fluid connective tissue."
+            ],
+            "Telugu": [
+              "కణజాలం ఒకే పని చేసే సారూప్య కణాల సమూహం.",
+              "విభాజ్య కణజాలం మొక్కలు పెరగడానికి సహాయపడుతుంది.",
+              "దారువు నీటిని, పోషక కణజాలం ఆహారాన్ని తీసుకెళ్తాయి.",
+              "జంతు కణజాలాలు: ఉపకళా, కండర, సంయోజక, నాడీ.",
+              "రక్తం ద్రవ సంయోజక కణజాలం."
+            ],
+            "Hindi": [
+              "ऊतक एक काम करने वाली समान कोशिकाओं का समूह है।",
+              "विभज्योतक पौधों की वृद्धि में मदद करता है।",
+              "जाइलम पानी और फ़्लोएम भोजन ले जाता है।",
+              "जंतु ऊतक: उपकला, पेशी, संयोजी, तंत्रिका।",
+              "रक्त तरल संयोजी ऊतक है।"
+            ]
+          },
+          "activity": {
+            "English": "Put a white flower stem in coloured water for a day and see the coloured lines that show xylem.",
+            "Telugu": "తెల్లని పువ్వు కాడను రంగు నీటిలో ఒక రోజు ఉంచి దారువును చూపే రంగు గీతలు చూడండి.",
+            "Hindi": "सफ़ेद फूल की डंडी को एक दिन रंगीन पानी में रखकर जाइलम दिखाने वाली रंगीन धारियाँ देखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "A group of similar cells performing a specific function is a...",
+                "Telugu": "ఒక నిర్దిష్ట పని చేసే సారూప్య కణాల సమూహం...",
+                "Hindi": "एक विशेष कार्य करने वाली समान कोशिकाओं का समूह क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Tissue",
+                  "Organ",
+                  "Organism",
+                  "Molecule"
+                ],
+                "Telugu": [
+                  "కణజాలం",
+                  "అవయవం",
+                  "జీవి",
+                  "అణువు"
+                ],
+                "Hindi": [
+                  "ऊतक",
+                  "अंग",
+                  "जीव",
+                  "अणु"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Tissues group together to form organs.",
+                "Telugu": "కణజాలాలు కలిసి అవయవాలను ఏర్పరుస్తాయి.",
+                "Hindi": "ऊतक मिलकर अंग बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which plant tissue carries water from roots to leaves?",
+                "Telugu": "వేర్ల నుంచి ఆకులకు నీటిని తీసుకెళ్లే మొక్క కణజాలం ఏది?",
+                "Hindi": "कौन सा पादप ऊतक जड़ों से पत्तियों तक पानी ले जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Phloem",
+                  "Xylem",
+                  "Parenchyma",
+                  "Epidermis"
+                ],
+                "Telugu": [
+                  "పోషక కణజాలం",
+                  "దారువు",
+                  "మృదుకణజాలం",
+                  "బాహ్యచర్మం"
+                ],
+                "Hindi": [
+                  "फ़्लोएम",
+                  "जाइलम",
+                  "मृदूतक",
+                  "बाह्यत्वचा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Xylem vessels and tracheids carry water and minerals upward.",
+                "Telugu": "దారువు నాళాలు, ట్రాకీడ్లు నీటిని, ఖనిజాలను పైకి తీసుకెళ్తాయి.",
+                "Hindi": "जाइलम वाहिकाएँ और वाहिनिकाएँ पानी और खनिज ऊपर ले जाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Growth in length of a plant happens due to...",
+                "Telugu": "మొక్క పొడవు పెరగడానికి కారణం...",
+                "Hindi": "पौधे की लंबाई में वृद्धि किससे होती है?"
+              },
+              "options": {
+                "English": [
+                  "Xylem",
+                  "Sclerenchyma",
+                  "Apical meristem",
+                  "Phloem"
+                ],
+                "Telugu": [
+                  "దారువు",
+                  "దృఢ కణజాలం",
+                  "అగ్ర విభాజ్య కణజాలం",
+                  "పోషక కణజాలం"
+                ],
+                "Hindi": [
+                  "जाइलम",
+                  "दृढ़ ऊतक",
+                  "शीर्षस्थ विभज्योतक",
+                  "फ़्लोएम"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Apical meristem at root and shoot tips divides and increases length.",
+                "Telugu": "వేరు, కాండం కొనల్లోని అగ్ర విభాజ్య కణజాలం విభజన చెంది పొడవు పెంచుతుంది.",
+                "Hindi": "जड़ और तने के सिरों पर शीर्षस्थ विभज्योतक विभाजित होकर लंबाई बढ़ाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The husk of a coconut is made of...",
+                "Telugu": "కొబ్బరి పీచు దేనితో తయారవుతుంది?",
+                "Hindi": "नारियल का रेशेदार छिलका किससे बना है?"
+              },
+              "options": {
+                "English": [
+                  "Parenchyma",
+                  "Collenchyma",
+                  "Meristem",
+                  "Sclerenchyma"
+                ],
+                "Telugu": [
+                  "మృదుకణజాలం",
+                  "స్థూలకోణ కణజాలం",
+                  "విభాజ్య కణజాలం",
+                  "దృఢ కణజాలం"
+                ],
+                "Hindi": [
+                  "मृदूतक",
+                  "स्थूलकोण ऊतक",
+                  "विभज्योतक",
+                  "दृढ़ ऊतक"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Sclerenchyma cells are dead, thick-walled and make plant parts hard.",
+                "Telugu": "దృఢ కణజాల కణాలు మృతమైనవి, మందపాటి గోడలు గలవి, మొక్క భాగాలను గట్టిగా చేస్తాయి.",
+                "Hindi": "दृढ़ ऊतक की कोशिकाएँ मृत और मोटी भित्ति वाली होती हैं जो पौधों के भागों को कठोर बनाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Phloem carries food from leaves to other parts of the plant.",
+                "Telugu": "నిజమా అబద్ధమా: పోషక కణజాలం ఆకుల నుంచి మొక్క ఇతర భాగాలకు ఆహారాన్ని తీసుకెళ్తుంది.",
+                "Hindi": "सही या गलत: फ़्लोएम पत्तियों से पौधे के दूसरे भागों तक भोजन ले जाता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Phloem moves food in both directions, unlike xylem which moves water up.",
+                "Telugu": "నీటిని పైకి తీసుకెళ్లే దారువులా కాకుండా పోషక కణజాలం ఆహారాన్ని రెండు దిశల్లో తీసుకెళ్తుంది.",
+                "Hindi": "जाइलम पानी ऊपर ले जाता है, जबकि फ़्लोएम भोजन दोनों दिशाओं में ले जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which muscle works without tiring throughout life?",
+                "Telugu": "జీవితాంతం అలసట లేకుండా పనిచేసే కండరం ఏది?",
+                "Hindi": "कौन सी पेशी जीवन भर बिना थके काम करती है?"
+              },
+              "options": {
+                "English": [
+                  "Cardiac muscle",
+                  "Biceps",
+                  "Smooth muscle of the arm",
+                  "Skeletal muscle of the leg"
+                ],
+                "Telugu": [
+                  "హృదయ కండరం",
+                  "ద్విశిరస్కం",
+                  "చేతి అరేఖిత కండరం",
+                  "కాలి అస్థి కండరం"
+                ],
+                "Hindi": [
+                  "हृदय पेशी",
+                  "बाइसेप्स",
+                  "बाँह की अरेखित पेशी",
+                  "पैर की कंकाल पेशी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Cardiac muscle in the heart contracts and relaxes rhythmically all through life.",
+                "Telugu": "గుండెలోని హృదయ కండరం జీవితాంతం లయబద్ధంగా సంకోచ-సడలింపు చెందుతుంది.",
+                "Hindi": "दिल की हृदय पेशी जीवन भर लयबद्ध रूप से सिकुड़ती और फैलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Blood is a type of...",
+                "Telugu": "రక్తం ఏ రకమైన కణజాలం?",
+                "Hindi": "रक्त किस प्रकार का ऊतक है?"
+              },
+              "options": {
+                "English": [
+                  "Epithelial tissue",
+                  "Fluid connective tissue",
+                  "Nervous tissue",
+                  "Muscular tissue"
+                ],
+                "Telugu": [
+                  "ఉపకళా కణజాలం",
+                  "ద్రవ సంయోజక కణజాలం",
+                  "నాడీ కణజాలం",
+                  "కండర కణజాలం"
+                ],
+                "Hindi": [
+                  "उपकला ऊतक",
+                  "तरल संयोजी ऊतक",
+                  "तंत्रिका ऊतक",
+                  "पेशी ऊतक"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Blood has plasma with red cells, white cells and platelets floating in it.",
+                "Telugu": "రక్తంలో ప్లాస్మా, అందులో తేలే ఎర్ర కణాలు, తెల్ల కణాలు, ఫలకికలు ఉంటాయి.",
+                "Hindi": "रक्त में प्लाज़्मा और उसमें तैरती लाल कोशिकाएँ, श्वेत कोशिकाएँ और प्लेटलेट होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The tissue that connects muscles to bones is called...",
+                "Telugu": "కండరాలను ఎముకలకు కలిపే కణజాలాన్ని ఏమంటారు?",
+                "Hindi": "मांसपेशियों को हड्डियों से जोड़ने वाला ऊतक क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Ligament",
+                  "Cartilage",
+                  "Tendon",
+                  "Neuron"
+                ],
+                "Telugu": [
+                  "స్నాయువు (లిగమెంట్)",
+                  "మృదులాస్థి",
+                  "స్నాయుబంధనం (టెండన్)",
+                  "న్యూరాన్"
+                ],
+                "Hindi": [
+                  "स्नायु (लिगामेंट)",
+                  "उपास्थि",
+                  "कंडरा (टेंडन)",
+                  "न्यूरॉन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Tendons connect muscle to bone; ligaments connect bone to bone.",
+                "Telugu": "టెండన్లు కండరాన్ని ఎముకకు, లిగమెంట్లు ఎముకను ఎముకకు కలుపుతాయి.",
+                "Hindi": "कंडरा पेशी को हड्डी से और स्नायु हड्डी को हड्डी से जोड़ते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Neurons are the cells of nervous tissue.",
+                "Telugu": "నిజమా అబద్ధమా: న్యూరాన్లు నాడీ కణజాల కణాలు.",
+                "Hindi": "सही या गलत: न्यूरॉन तंत्रिका ऊतक की कोशिकाएँ हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A neuron has a cell body, dendrites and a long axon to pass messages quickly.",
+                "Telugu": "న్యూరాన్‌కు కణ దేహం, డెండ్రైట్లు, సందేశాలను వేగంగా పంపే పొడవైన ఆక్సాన్ ఉంటాయి.",
+                "Hindi": "न्यूरॉन में कोशिका काय, द्रुमिकाएँ और संदेश तेज़ी से भेजने वाला लंबा तंत्रिकाक्ष होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The skin and the lining of the mouth are made of...",
+                "Telugu": "చర్మం, నోటి లోపలి పొర దేనితో తయారవుతాయి?",
+                "Hindi": "त्वचा और मुँह की भीतरी परत किससे बनी है?"
+              },
+              "options": {
+                "English": [
+                  "Bone",
+                  "Nervous tissue",
+                  "Muscle",
+                  "Epithelial tissue"
+                ],
+                "Telugu": [
+                  "ఎముక",
+                  "నాడీ కణజాలం",
+                  "కండరం",
+                  "ఉపకళా కణజాలం"
+                ],
+                "Hindi": [
+                  "हड्डी",
+                  "तंत्रिका ऊतक",
+                  "पेशी",
+                  "उपकला ऊतक"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Epithelium forms a protective covering and lines body cavities.",
+                "Telugu": "ఉపకళా కణజాలం రక్షణ పొరగా ఉండి శరీర కుహరాలకు లోపలి పొర ఏర్పరుస్తుంది.",
+                "Hindi": "उपकला सुरक्षा आवरण बनाती है और शरीर की गुहाओं को ढकती है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "improvement-in-food-resources",
+      "icon": "🌾",
+      "title": {
+        "English": "Improvement in Food Resources",
+        "Telugu": "ఆహార వనరుల అభివృద్ధి",
+        "Hindi": "खाद्य संसाधनों में सुधार"
+      },
+      "description": {
+        "English": "Better crops, nutrient and pest management, and animal husbandry.",
+        "Telugu": "మెరుగైన పంటలు, పోషక, తెగుళ్ల నిర్వహణ, పశుపోషణ.",
+        "Hindi": "बेहतर फसलें, पोषक और कीट प्रबंधन, और पशुपालन।"
+      },
+      "lessons": [
+        {
+          "id": "improvement-in-food-resources-lesson",
+          "visual": "🐄",
+          "title": {
+            "English": "Growing More, Wasting Less",
+            "Telugu": "ఎక్కువ పండించడం, తక్కువ వృథా",
+            "Hindi": "ज़्यादा उगाना, कम बर्बाद करना"
+          },
+          "image": "./images/lessons/agriculture.png",
+          "explanation": {
+            "English": "To feed a growing population, India improved crop yields through the Green Revolution (grains) and milk through the White Revolution. Crop yields improve by better varieties made through hybridisation, proper nutrient supply from manure and fertilisers, irrigation, and cropping patterns like mixed cropping, intercropping and crop rotation. Weeds, insect pests and diseases are controlled to protect crops, and grains are stored dry and clean. Animal husbandry covers cattle farming, poultry for eggs and meat, fish production (capture fishing and culture), and bee-keeping for honey.",
+            "Telugu": "పెరుగుతున్న జనాభాకు ఆహారం అందించడానికి భారతదేశం హరిత విప్లవం (ధాన్యాలు) ద్వారా పంట దిగుబడిని, శ్వేత విప్లవం ద్వారా పాల ఉత్పత్తిని పెంచింది. సంకరీకరణతో మెరుగైన రకాలు, ఎరువులు, రసాయన ఎరువుల నుంచి సరైన పోషకాలు, నీటిపారుదల, మిశ్రమ పంట, అంతర పంట, పంట మార్పిడి వంటి పంట విధానాలతో దిగుబడి పెరుగుతుంది. పంటలను కాపాడడానికి కలుపు, కీటకాలు, వ్యాధులను నియంత్రిస్తారు, ధాన్యాలను పొడిగా, శుభ్రంగా నిల్వ చేస్తారు. పశుపోషణలో పశువుల పెంపకం, గుడ్లు, మాంసం కోసం కోళ్ల పెంపకం, చేపల ఉత్పత్తి (సముద్ర వేట, చేపల పెంపకం), తేనె కోసం తేనెటీగల పెంపకం ఉంటాయి.",
+            "Hindi": "बढ़ती आबादी को भोजन देने के लिए भारत ने हरित क्रांति से अनाज और श्वेत क्रांति से दूध का उत्पादन बढ़ाया। संकरण से बनी बेहतर किस्में, खाद और उर्वरक से सही पोषण, सिंचाई, और मिश्रित फसल, अंतराफसल व फसल चक्र जैसी पद्धतियों से उपज बढ़ती है। फसलों की रक्षा के लिए खरपतवार, कीट और रोग नियंत्रित किए जाते हैं, और अनाज सूखा व साफ़ रखा जाता है। पशुपालन में मवेशी पालन, अंडे और मांस के लिए मुर्गी पालन, मछली उत्पादन (पकड़ना और पालना) और शहद के लिए मधुमक्खी पालन शामिल हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Green Revolution raised grain production; White Revolution raised milk.",
+              "Hybridisation gives better crop varieties.",
+              "Intercropping and crop rotation use land well.",
+              "Control weeds, pests and storage losses.",
+              "Animal husbandry includes cattle, poultry, fish and bees."
+            ],
+            "Telugu": [
+              "హరిత విప్లవం ధాన్యాల ఉత్పత్తిని, శ్వేత విప్లవం పాల ఉత్పత్తిని పెంచింది.",
+              "సంకరీకరణ మెరుగైన పంట రకాలను ఇస్తుంది.",
+              "అంతర పంట, పంట మార్పిడి భూమిని బాగా వాడతాయి.",
+              "కలుపు, తెగుళ్లు, నిల్వ నష్టాలను నియంత్రించండి.",
+              "పశుపోషణలో పశువులు, కోళ్లు, చేపలు, తేనెటీగలు ఉంటాయి."
+            ],
+            "Hindi": [
+              "हरित क्रांति से अनाज और श्वेत क्रांति से दूध बढ़ा।",
+              "संकरण से फसलों की बेहतर किस्में मिलती हैं।",
+              "अंतराफसल और फसल चक्र ज़मीन का अच्छा उपयोग करते हैं।",
+              "खरपतवार, कीट और भंडारण हानि नियंत्रित करें।",
+              "पशुपालन में मवेशी, मुर्गी, मछली और मधुमक्खी शामिल हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Visit a nearby farm or dairy and list how the farmer protects crops or animals from disease.",
+            "Telugu": "దగ్గరి పొలం లేదా డెయిరీని సందర్శించి రైతు పంటలను లేదా పశువులను వ్యాధుల నుంచి ఎలా కాపాడుతారో రాయండి.",
+            "Hindi": "पास के खेत या डेयरी जाकर लिखिए कि किसान फसलों या पशुओं को रोगों से कैसे बचाते हैं।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The Green Revolution in India increased the production of...",
+                "Telugu": "భారతదేశంలో హరిత విప్లవం దేని ఉత్పత్తిని పెంచింది?",
+                "Hindi": "भारत में हरित क्रांति ने किसका उत्पादन बढ़ाया?"
+              },
+              "options": {
+                "English": [
+                  "Food grains",
+                  "Milk",
+                  "Fish",
+                  "Honey"
+                ],
+                "Telugu": [
+                  "ఆహార ధాన్యాలు",
+                  "పాలు",
+                  "చేపలు",
+                  "తేనె"
+                ],
+                "Hindi": [
+                  "खाद्यान्न",
+                  "दूध",
+                  "मछली",
+                  "शहद"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "High-yielding wheat and rice varieties greatly increased grain output.",
+                "Telugu": "అధిక దిగుబడి గోధుమ, వరి రకాలు ధాన్యాల ఉత్పత్తిని బాగా పెంచాయి.",
+                "Hindi": "अधिक उपज वाली गेहूँ और धान की किस्मों ने अनाज उत्पादन बहुत बढ़ाया।"
+              }
+            },
+            {
+              "question": {
+                "English": "Growing two or more crops in definite rows on the same field is...",
+                "Telugu": "ఒకే పొలంలో నిర్దిష్ట వరుసల్లో రెండు లేదా ఎక్కువ పంటలు పండించడం...",
+                "Hindi": "एक ही खेत में निश्चित पंक्तियों में दो या अधिक फसलें उगाना क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Crop rotation",
+                  "Intercropping",
+                  "Hybridisation",
+                  "Mono-cropping"
+                ],
+                "Telugu": [
+                  "పంట మార్పిడి",
+                  "అంతర పంట",
+                  "సంకరీకరణ",
+                  "ఏక పంట"
+                ],
+                "Hindi": [
+                  "फसल चक्र",
+                  "अंतराफसल",
+                  "संकरण",
+                  "एकल फसल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Intercropping uses nutrients better and reduces the spread of pests.",
+                "Telugu": "అంతర పంట పోషకాలను బాగా వాడి తెగుళ్ల వ్యాప్తిని తగ్గిస్తుంది.",
+                "Hindi": "अंतराफसल पोषक तत्वों का बेहतर उपयोग करती और कीटों का फैलाव घटाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Crossing two different varieties to get a plant with good features of both is...",
+                "Telugu": "రెండింటి మంచి లక్షణాలున్న మొక్క కోసం రెండు రకాలను సంకరం చేయడం...",
+                "Hindi": "दोनों के अच्छे गुणों वाला पौधा पाने के लिए दो किस्मों का संकर कराना क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Irrigation",
+                  "Weeding",
+                  "Hybridisation",
+                  "Fumigation"
+                ],
+                "Telugu": [
+                  "నీటిపారుదల",
+                  "కలుపు తీయడం",
+                  "సంకరీకరణ",
+                  "ధూమీకరణ"
+                ],
+                "Hindi": [
+                  "सिंचाई",
+                  "निराई",
+                  "संकरण",
+                  "धूमन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Hybrid varieties can give higher yield, disease resistance and better quality.",
+                "Telugu": "సంకర రకాలు ఎక్కువ దిగుబడి, వ్యాధి నిరోధకత, మెరుగైన నాణ్యత ఇస్తాయి.",
+                "Hindi": "संकर किस्में ज़्यादा उपज, रोग प्रतिरोध और बेहतर गुणवत्ता दे सकती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Nitrogen, phosphorus and potassium needed in large amounts by plants are called...",
+                "Telugu": "మొక్కలకు ఎక్కువ పరిమాణంలో కావలసిన నైట్రోజన్, భాస్వరం, పొటాషియంను ఏమంటారు?",
+                "Hindi": "पौधों को ज़्यादा मात्रा में चाहिए नाइट्रोजन, फ़ॉस्फ़ोरस और पोटैशियम क्या कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Micronutrients",
+                  "Vitamins",
+                  "Hormones",
+                  "Macronutrients"
+                ],
+                "Telugu": [
+                  "సూక్ష్మ పోషకాలు",
+                  "విటమిన్లు",
+                  "హార్మోన్లు",
+                  "స్థూల పోషకాలు"
+                ],
+                "Hindi": [
+                  "सूक्ष्म पोषक",
+                  "विटामिन",
+                  "हार्मोन",
+                  "स्थूल पोषक"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Micronutrients like iron and zinc are needed only in small amounts.",
+                "Telugu": "ఇనుము, జింక్ వంటి సూక్ష్మ పోషకాలు తక్కువ పరిమాణంలో మాత్రమే కావాలి.",
+                "Hindi": "आयरन और जिंक जैसे सूक्ष्म पोषक तत्व थोड़ी मात्रा में ही चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Compost and vermicompost are types of organic manure.",
+                "Telugu": "నిజమా అబద్ధమా: కంపోస్ట్, వర్మీకంపోస్ట్ సేంద్రియ ఎరువుల రకాలు.",
+                "Hindi": "सही या गलत: कंपोस्ट और वर्मीकंपोस्ट जैविक खाद के प्रकार हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Organic manure adds nutrients and improves soil structure and water holding.",
+                "Telugu": "సేంద్రియ ఎరువు పోషకాలను చేర్చి నేల నిర్మాణాన్ని, నీటి నిలుపుదలను మెరుగుపరుస్తుంది.",
+                "Hindi": "जैविक खाद पोषक तत्व देती और मिट्टी की संरचना व जल धारण क्षमता सुधारती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Rearing chickens for eggs and meat is called...",
+                "Telugu": "గుడ్లు, మాంసం కోసం కోళ్లను పెంచడాన్ని ఏమంటారు?",
+                "Hindi": "अंडे और मांस के लिए मुर्गियाँ पालना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Poultry farming",
+                  "Apiculture",
+                  "Pisciculture",
+                  "Sericulture"
+                ],
+                "Telugu": [
+                  "కోళ్ల పెంపకం",
+                  "తేనెటీగల పెంపకం",
+                  "చేపల పెంపకం",
+                  "పట్టుపురుగుల పెంపకం"
+                ],
+                "Hindi": [
+                  "मुर्गी पालन",
+                  "मधुमक्खी पालन",
+                  "मत्स्य पालन",
+                  "रेशम कीट पालन"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Layers are raised for eggs and broilers for meat.",
+                "Telugu": "గుడ్ల కోసం లేయర్లను, మాంసం కోసం బ్రాయిలర్లను పెంచుతారు.",
+                "Hindi": "अंडों के लिए लेयर और मांस के लिए ब्रॉयलर पाले जाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Bee-keeping for honey is called...",
+                "Telugu": "తేనె కోసం తేనెటీగల పెంపకాన్ని ఏమంటారు?",
+                "Hindi": "शहद के लिए मधुमक्खी पालन क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Pisciculture",
+                  "Apiculture",
+                  "Horticulture",
+                  "Floriculture"
+                ],
+                "Telugu": [
+                  "చేపల పెంపకం",
+                  "తేనెటీగల పెంపకం (ఏపికల్చర్)",
+                  "ఉద్యాన వ్యవసాయం",
+                  "పుష్ప సాగు"
+                ],
+                "Hindi": [
+                  "मत्स्य पालन",
+                  "मधुमक्खी पालन (एपिकल्चर)",
+                  "बागवानी",
+                  "पुष्प कृषि"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The quality of honey depends on the flowers the bees visit (pasturage).",
+                "Telugu": "తేనె నాణ్యత తేనెటీగలు సందర్శించే పువ్వులపై (పచ్చిక) ఆధారపడుతుంది.",
+                "Hindi": "शहद की गुणवत्ता मधुमक्खियों द्वारा देखे गए फूलों (चारागाह) पर निर्भर करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Composite fish culture means...",
+                "Telugu": "సమ్మిళిత చేపల పెంపకం అంటే...",
+                "Hindi": "मिश्रित मछली पालन का मतलब क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Catching fish from the sea",
+                  "Rearing only one fish species",
+                  "Rearing five or six species together in one pond",
+                  "Drying fish"
+                ],
+                "Telugu": [
+                  "సముద్రం నుంచి చేపలు పట్టడం",
+                  "ఒకే జాతి చేపలను పెంచడం",
+                  "ఒకే చెరువులో ఐదారు జాతులను కలిపి పెంచడం",
+                  "చేపలను ఎండబెట్టడం"
+                ],
+                "Hindi": [
+                  "समुद्र से मछली पकड़ना",
+                  "सिर्फ़ एक प्रजाति पालना",
+                  "एक तालाब में पाँच-छह प्रजातियाँ साथ पालना",
+                  "मछली सुखाना"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Different species feed at different levels of the pond, so food is used fully.",
+                "Telugu": "వేర్వేరు జాతులు చెరువు వేర్వేరు స్థాయిల్లో తింటాయి, దాంతో ఆహారం పూర్తిగా వినియోగమవుతుంది.",
+                "Hindi": "अलग प्रजातियाँ तालाब के अलग स्तरों पर खाती हैं, जिससे भोजन पूरा उपयोग होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Grains should be dried before storage to prevent damage by microbes.",
+                "Telugu": "నిజమా అబద్ధమా: సూక్ష్మజీవుల నష్టాన్ని నివారించడానికి ధాన్యాలను నిల్వకు ముందు ఆరబెట్టాలి.",
+                "Hindi": "सही या गलत: सूक्ष्मजीवों से नुकसान रोकने के लिए भंडारण से पहले अनाज सुखाना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Moisture lets fungi and bacteria grow; dry, clean, fumigated storage prevents loss.",
+                "Telugu": "తేమలో శిలీంధ్రాలు, బ్యాక్టీరియా పెరుగుతాయి; పొడి, శుభ్రమైన, ధూమీకరించిన నిల్వ నష్టాన్ని నివారిస్తుంది.",
+                "Hindi": "नमी में कवक और जीवाणु पनपते हैं; सूखा, साफ़ और धूमित भंडारण हानि रोकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The White Revolution (Operation Flood) increased the production of...",
+                "Telugu": "శ్వేత విప్లవం (ఆపరేషన్ ఫ్లడ్) దేని ఉత్పత్తిని పెంచింది?",
+                "Hindi": "श्वेत क्रांति (ऑपरेशन फ़्लड) ने किसका उत्पादन बढ़ाया?"
+              },
+              "options": {
+                "English": [
+                  "Cotton",
+                  "Rice",
+                  "Eggs",
+                  "Milk"
+                ],
+                "Telugu": [
+                  "ప్రత్తి",
+                  "వరి",
+                  "గుడ్లు",
+                  "పాలు"
+                ],
+                "Hindi": [
+                  "कपास",
+                  "धान",
+                  "अंडे",
+                  "दूध"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Led by Dr Verghese Kurien, it made India the world's largest milk producer.",
+                "Telugu": "డా. వర్గీస్ కురియన్ నాయకత్వంలో ఇది భారతదేశాన్ని ప్రపంచంలో అతిపెద్ద పాల ఉత్పత్తిదారుగా చేసింది.",
+                "Hindi": "डॉ. वर्गीज़ कुरियन के नेतृत्व में इसने भारत को दुनिया का सबसे बड़ा दूध उत्पादक बनाया।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

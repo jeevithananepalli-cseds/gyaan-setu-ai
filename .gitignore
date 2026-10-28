@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Test output
+playwright-report/
+test-results/
+coverage/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# Local environment
+.env
+.env.*
+
+# AI models (about 1.2 GB) are hosted outside the repository; see
+# docs/PRODUCTION_DEPLOYMENT.md. Keep them locally for development.
+public/models/**/*.onnx
+public/models/**/*.onnx.data
+public/models/**/*.part-*
+public/models/**/*.json
+public/models/**/*.txt
+!public/models/**/README.md

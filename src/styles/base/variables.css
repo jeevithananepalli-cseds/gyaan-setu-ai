@@ -1,0 +1,58 @@
+/* =====================================================
+    GYAAN SETU
+    DESIGN TOKENS
+===================================================== */
+
+@import "@fontsource-variable/nunito/index.css";
+@import "@fontsource/caveat/latin-600.css";
+
+:root {
+  /* Surfaces */
+  --background: #faf5ec;
+  --surface: #fffdf9;
+  --card: #ffffff;
+  --border: #ece3d3;
+
+  /* Ink */
+  --text: #1c2540;
+  --muted: #6b7289;
+
+  /* Brand */
+  --navy: #16213f;
+  --navy-soft: #24325c;
+  --primary: #3d4fb5;
+  --primary-dark: #2a3888;
+  --primary-soft: #e9ebfa;
+
+  /* Accents kept from the first design; older rules still read them */
+  --secondary: #2f9e6b;
+  --purple: #6c5dd3;
+  --orange: #e8763a;
+  --pink: #e2607f;
+  --success: #2f9e6b;
+  --danger: #d9534f;
+
+  /* Pastel tile tones: background / foreground */
+  --lavender: #ecebfb;
+  --lavender-ink: #5a4bc4;
+  --mint: #e1f3e8;
+  --mint-ink: #25805a;
+  --sky: #e2eefb;
+  --sky-ink: #2f6fc4;
+  --peach: #fde9dc;
+  --peach-ink: #c75f25;
+  --butter: #fdf2cf;
+  --butter-ink: #9a7407;
+
+  --shadow: 0 6px 20px rgba(41, 37, 28, 0.07);
+  --large-shadow: 0 18px 44px rgba(22, 33, 63, 0.16);
+
+  --radius: 20px;
+  --radius-small: 12px;
+
+  --font-body: "Nunito Variable", "Nirmala UI", "Noto Sans Telugu", "Noto Sans Devanagari",
+    system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-accent: "Caveat", "Nunito Variable", cursive;
+
+  --sidebar-width: 244px;
+}

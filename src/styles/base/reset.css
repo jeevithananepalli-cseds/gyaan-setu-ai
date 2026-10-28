@@ -1,0 +1,74 @@
+/* =====================================================
+   RESET
+===================================================== */
+
+* {
+
+  box-sizing: border-box;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+
+body {
+
+  min-height: 100vh;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+
+  color: var(--text);
+
+  background:
+
+    radial-gradient(
+      circle at 10% 0%,
+      rgba(23,107,255,.14),
+      transparent 30%
+    ),
+
+    radial-gradient(
+      circle at 95% 15%,
+      rgba(0,169,157,.12),
+      transparent 28%
+    ),
+
+    linear-gradient(
+      180deg,
+      #f9fbff,
+      #eef5ff
+    );
+
+  padding-bottom: 110px;
+
+}
+
+
+button,
+input {
+
+  font: inherit;
+
+}
+
+
+button {
+
+  cursor: pointer;
+
+}

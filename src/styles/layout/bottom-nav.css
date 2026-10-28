@@ -1,0 +1,48 @@
+/* =====================================================
+    BOTTOM NAVIGATION (small screens)
+===================================================== */
+
+.bottom-nav {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .bottom-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--border);
+    background: rgba(255, 253, 249, 0.96);
+    backdrop-filter: blur(10px);
+  }
+
+  .bottom-nav .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 7px 4px;
+    border: 0;
+    border-radius: var(--radius-small);
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .bottom-nav .nav-item small {
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .bottom-nav .nav-item.active {
+    background: var(--primary-soft);
+    color: var(--primary-dark);
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Gyaan Setu",
+  "short_name": "Gyaan Setu",
+
+  "description": "Offline multilingual learning platform for primary students.",
+
+  "start_url": "./",
+  "scope": "./",
+
+  "display": "standalone",
+
+  "background_color": "#f3f7ff",
+  "theme_color": "#176bff",
+
+  "orientation": "portrait-primary",
+
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

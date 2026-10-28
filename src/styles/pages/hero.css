@@ -1,0 +1,162 @@
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+
+  min-height: 350px;
+
+  padding:
+    42px 35px;
+
+  display: flex;
+
+  align-items: center;
+
+  position: relative;
+
+  overflow: hidden;
+
+  color: white;
+
+  border-radius: 32px;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      #176bff,
+      #177fe4 45%,
+      #00a99d
+    );
+
+  box-shadow:
+    0 24px 60px
+    rgba(20,95,180,.24);
+
+  animation:
+    fadeUp .45s ease;
+
+}
+
+
+.hero::before {
+
+  content: "";
+
+  position: absolute;
+
+  width: 300px;
+
+  height: 300px;
+
+  border-radius: 50%;
+
+  right: -90px;
+
+  top: -130px;
+
+  background:
+    rgba(255,255,255,.11);
+
+}
+
+
+.hero::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 190px;
+
+  height: 190px;
+
+  border-radius: 50%;
+
+  right: 130px;
+
+  bottom: -120px;
+
+  background:
+    rgba(255,255,255,.08);
+
+}
+
+
+.hero-content {
+
+  position: relative;
+
+  z-index: 2;
+
+  max-width: 720px;
+
+}
+
+
+.hero-badge {
+
+  display: inline-block;
+
+  padding:
+    8px 14px;
+
+  border-radius: 30px;
+
+  background:
+    rgba(255,255,255,.17);
+
+  border:
+    1px solid
+    rgba(255,255,255,.2);
+
+  font-size: .8rem;
+
+}
+
+
+.hero h2 {
+
+  margin-top: 17px;
+
+  font-size:
+    clamp(
+      2.1rem,
+      5vw,
+      3.7rem
+    );
+
+  line-height: 1.05;
+
+  letter-spacing: -1.2px;
+
+}
+
+
+.hero p {
+
+  margin-top: 16px;
+
+  max-width: 650px;
+
+  line-height: 1.65;
+
+  font-size: 1rem;
+
+  opacity: .94;
+
+}
+
+
+.hero-actions {
+
+  margin-top: 24px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+}

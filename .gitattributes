@@ -1,0 +1,16 @@
+# Normalise line endings so Windows and macOS checkouts match.
+* text=auto eol=lf
+
+# Binary assets: never convert or diff.
+*.png binary
+*.jpg binary
+*.wasm binary
+*.onnx binary
+*.onnx.part-* binary
+
+# The vendored runtime is generated code; keep it out of diffs and language stats.
+public/vendor/** linguist-vendored -diff
+
+# Git LFS is deliberately not used for the model: GitHub Pages cannot serve
+# LFS files, and CI checkouts would exhaust the free LFS bandwidth quota.
+# See docs/DEPLOYMENT.md.

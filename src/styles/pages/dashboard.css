@@ -1,0 +1,348 @@
+/* =====================================================
+   STUDENT DASHBOARD
+===================================================== */
+
+.dashboard-section {
+
+  margin-top: 40px;
+
+}
+
+
+.dashboard-progress {
+
+  padding: 25px;
+
+  border-radius: 27px;
+
+  color: white;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      #176bff,
+      #00a99d
+    );
+
+  box-shadow:
+    0 18px 45px
+    rgba(23,107,255,.20);
+
+}
+
+
+.progress-top {
+
+  display: flex;
+
+  justify-content:
+    space-between;
+
+  align-items: center;
+
+}
+
+
+.progress-label {
+
+  font-size: .8rem;
+
+  opacity: .9;
+
+}
+
+
+.progress-top h2 {
+
+  margin-top: 4px;
+
+  font-size: 2.1rem;
+
+}
+
+
+.progress-emoji {
+
+  font-size: 2.7rem;
+
+}
+
+
+.dashboard-progress-bar {
+
+  height: 11px;
+
+  margin-top: 18px;
+
+  overflow: hidden;
+
+  border-radius: 30px;
+
+  background:
+    rgba(255,255,255,.25);
+
+}
+
+
+.dashboard-progress-fill {
+
+  height: 100%;
+
+  border-radius: 30px;
+
+  background: white;
+
+  transition:
+    width .5s ease;
+
+}
+
+
+/* =====================================================
+   DASHBOARD STAT CARDS
+===================================================== */
+
+.stats-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0,1fr)
+    );
+
+  gap: 15px;
+
+  margin-top: 18px;
+
+}
+
+
+.stat-card {
+
+  padding: 21px;
+
+  text-align: center;
+
+  border-radius: 22px;
+
+  background: white;
+
+  box-shadow:
+    var(--shadow);
+
+}
+
+
+.stat-icon {
+
+  font-size: 1.8rem;
+
+}
+
+
+.stat-card h2 {
+
+  margin-top: 8px;
+
+  font-size: 1.7rem;
+
+}
+
+
+.stat-card p {
+
+  margin-top: 4px;
+
+  color:
+    var(--muted);
+
+  font-size: .82rem;
+
+}
+
+
+.small-stat {
+
+  font-size:
+    1.1rem !important;
+
+}
+
+
+/* =====================================================
+   CONTINUE LEARNING
+===================================================== */
+
+.continue-card {
+
+  width: 100%;
+
+  margin-top: 18px;
+
+  padding:
+    20px 22px;
+
+  display: flex;
+
+  justify-content:
+    space-between;
+
+  align-items: center;
+
+  gap: 15px;
+
+  text-align: left;
+
+  border: none;
+
+  border-radius: 23px;
+
+  color: white;
+
+  background:
+
+    linear-gradient(
+      135deg,
+      #7658dd,
+      #9c72eb
+    );
+
+  box-shadow:
+    0 14px 35px
+    rgba(105,80,210,.20);
+
+  transition:
+    .25s ease;
+
+}
+
+
+.continue-card:hover {
+
+  transform:
+    translateY(-3px);
+
+}
+
+
+.continue-small {
+
+  font-size: .7rem;
+
+  letter-spacing: 1px;
+
+  opacity: .85;
+
+}
+
+
+.continue-card h3 {
+
+  margin-top: 5px;
+
+  font-size: 1.05rem;
+
+}
+
+
+.continue-description {
+
+  margin-top: 5px;
+
+  font-size: .78rem;
+
+  opacity: .85;
+
+}
+
+
+.continue-arrow {
+
+  flex-shrink: 0;
+
+  font-size: 1.7rem;
+
+}
+
+
+/* =====================================================
+   ACHIEVEMENTS
+===================================================== */
+
+.achievements-heading {
+
+  margin-top: 30px;
+
+}
+
+
+.achievements-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(220px,1fr)
+    );
+
+  gap: 14px;
+
+}
+
+
+.achievement-card {
+
+  padding: 18px;
+
+  display: flex;
+
+  gap: 13px;
+
+  align-items: center;
+
+  border-radius: 21px;
+
+  background: white;
+
+  box-shadow:
+    var(--shadow);
+
+}
+
+
+.achievement-card > span {
+
+  width: 47px;
+
+  height: 47px;
+
+  flex-shrink: 0;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 15px;
+
+  font-size: 1.5rem;
+
+  background:
+    #fff5df;
+
+}
+
+
+.achievement-card p {
+
+  margin-top: 4px;
+
+  color:
+    var(--muted);
+
+  font-size: .8rem;
+
+}

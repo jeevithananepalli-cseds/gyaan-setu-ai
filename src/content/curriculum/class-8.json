@@ -1,0 +1,3784 @@
+{
+  "subject": {
+    "English": "Physical Science + Biological Science",
+    "Telugu": "భౌతిక శాస్త్రం + జీవశాస్త్రం",
+    "Hindi": "भौतिक विज्ञान + जैव विज्ञान"
+  },
+  "chapters": [
+    {
+      "id": "force-and-pressure",
+      "icon": "🧲",
+      "title": {
+        "English": "Force and Pressure",
+        "Telugu": "బలం మరియు పీడనం",
+        "Hindi": "बल और दाब"
+      },
+      "description": {
+        "English": "Understand how force changes motion and how pressure acts on surfaces.",
+        "Telugu": "బలం ఎలా చలనాన్ని మారుస్తుందో మరియు పీడనం ఉపరితలంపై ఎలా పని చేస్తుందో తెలుసుకోండి.",
+        "Hindi": "जानें कि बल गति को कैसे बदलता है और दाब सतहों पर कैसे कार्य करता है।"
+      },
+      "lessons": [
+        {
+          "id": "force-pressure",
+          "visual": "🧭",
+          "title": {
+            "English": "Motion and Force",
+            "Telugu": "చలనం మరియు బలం",
+            "Hindi": "गति और बल"
+          },
+          "image": "./images/lessons/force-and-motion.svg",
+          "explanation": {
+            "English": "A force is a push or pull applied on an object. It can start, stop or change the direction of motion. Pressure is the force acting on a unit area.",
+            "Telugu": "బలం అంటే వస్తువు మీద ప్రయోగించే పుష్ లేదా పుల్. ఇది కదలికను ప్రారంభించవచ్చు, ఆపివేయవచ్చు లేదా దిశను మార్చవచ్చు. పీడనం అనేది ఒక యూనిట్ ప్రాంతంపై పనిచేసే బలం.",
+            "Hindi": "बल किसी वस्तु पर लगाया गया धक्का या खिंचाव है। यह गति शुरू, बंद या दिशा बदल सकता है। दाब एक इकाई क्षेत्र पर लगने वाला बल है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Force can push or pull.",
+              "A force can change speed and direction.",
+              "Pressure depends on force and area.",
+              "Sharp objects exert more pressure."
+            ],
+            "Telugu": [
+              "బలం పుష్ లేదా పుల్ కావచ్చు.",
+              "బలం వేగం మరియు దిశను మార్చవచ్చు.",
+              "పీడనం బలం మరియు ప్రాంతంపై ఆధారపడి ఉంటుంది.",
+              "చిన్న మరియు పదునైన వస్తువులు ఎక్కువ పీడనాన్ని ఇస్తాయి."
+            ],
+            "Hindi": [
+              "बल धक्का या खिंचाव हो सकता है।",
+              "बल गति और दिशा बदल सकता है।",
+              "दाब बल और क्षेत्र पर निर्भर करता है।",
+              "तेज़ वस्तुएँ अधिक दाब डालती हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Push a toy car and compare motion before and after pushing.",
+            "Telugu": "ఒక బొమ్మ కారును నెట్టండి మరియు నెట్టక ముందు మరియు తర్వాత కదలికను పోల్చండి.",
+            "Hindi": "एक खिलौना कार को धक्का देकर गति की तुलना करें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "A force is a...",
+                "Telugu": "బలం అంటే...",
+                "Hindi": "बल क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Push or pull",
+                  "Kind of energy only",
+                  "Type of matter",
+                  "Colour"
+                ],
+                "Telugu": [
+                  "తోపు లేదా లాగు",
+                  "ఒక రకమైన శక్తి మాత్రమే",
+                  "ఒక రకమైన పదార్థం",
+                  "రంగు"
+                ],
+                "Hindi": [
+                  "धक्का या खिंचाव",
+                  "सिर्फ़ ऊर्जा का प्रकार",
+                  "पदार्थ का प्रकार",
+                  "रंग"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Every push or pull on an object is a force; it arises from interaction between objects.",
+                "Telugu": "వస్తువుపై ప్రతి తోపు లేదా లాగు బలమే; అది వస్తువుల మధ్య పరస్పర చర్య వల్ల వస్తుంది.",
+                "Hindi": "किसी वस्तु पर हर धक्का या खिंचाव बल है; यह वस्तुओं की पारस्परिक क्रिया से होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Pressure is defined as...",
+                "Telugu": "పీడనాన్ని ఎలా నిర్వచిస్తారు?",
+                "Hindi": "दाब की परिभाषा क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Force × area",
+                  "Force per unit area",
+                  "Area per unit force",
+                  "Mass × speed"
+                ],
+                "Telugu": [
+                  "బలం × వైశాల్యం",
+                  "ప్రమాణ వైశాల్యంపై బలం",
+                  "ప్రమాణ బలంపై వైశాల్యం",
+                  "ద్రవ్యరాశి × వడి"
+                ],
+                "Hindi": [
+                  "बल × क्षेत्रफल",
+                  "प्रति इकाई क्षेत्रफल पर बल",
+                  "प्रति इकाई बल पर क्षेत्रफल",
+                  "द्रव्यमान × चाल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Pressure = force / area. The same force on a smaller area gives more pressure.",
+                "Telugu": "పీడనం = బలం / వైశాల్యం. అదే బలం చిన్న వైశాల్యంపై ఎక్కువ పీడనం కలిగిస్తుంది.",
+                "Hindi": "दाब = बल / क्षेत्रफल। वही बल छोटे क्षेत्र पर ज़्यादा दाब देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why is it easier to cut with a sharp knife than a blunt one?",
+                "Telugu": "మొద్దు కత్తి కంటే పదునైన కత్తితో కోయడం ఎందుకు సులభం?",
+                "Hindi": "धारदार चाकू से काटना भोथरे से आसान क्यों है?"
+              },
+              "options": {
+                "English": [
+                  "It is heavier",
+                  "It is longer",
+                  "Its thin edge has small area, so pressure is higher",
+                  "It is cold"
+                ],
+                "Telugu": [
+                  "అది బరువైనది",
+                  "అది పొడవైనది",
+                  "దాని సన్నని అంచుకు వైశాల్యం తక్కువ, కాబట్టి పీడనం ఎక్కువ",
+                  "అది చల్లగా ఉంటుంది"
+                ],
+                "Hindi": [
+                  "वह भारी है",
+                  "वह लंबा है",
+                  "पतली धार का क्षेत्रफल कम है, इसलिए दाब ज़्यादा है",
+                  "वह ठंडा है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "The same force on a tiny area produces large pressure that cuts easily.",
+                "Telugu": "అదే బలం చిన్న వైశాల్యంపై పెద్ద పీడనం కలిగించి సులభంగా కోస్తుంది.",
+                "Hindi": "वही बल बहुत छोटे क्षेत्र पर बड़ा दाब बनाकर आसानी से काटता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a non-contact force?",
+                "Telugu": "స్పర్శరహిత బలం ఏది?",
+                "Hindi": "इनमें से असंपर्क बल कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Muscular force",
+                  "Friction",
+                  "Pushing a cart",
+                  "Magnetic force"
+                ],
+                "Telugu": [
+                  "కండర బలం",
+                  "ఘర్షణ",
+                  "బండి నెట్టడం",
+                  "అయస్కాంత బలం"
+                ],
+                "Hindi": [
+                  "पेशीय बल",
+                  "घर्षण",
+                  "गाड़ी धकेलना",
+                  "चुंबकीय बल"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Magnetic, electrostatic and gravitational forces act without touching.",
+                "Telugu": "అయస్కాంత, స్థిర విద్యుత్, గురుత్వాకర్షణ బలాలు తాకకుండానే పనిచేస్తాయి.",
+                "Hindi": "चुंबकीय, स्थिरवैद्युत और गुरुत्वीय बल बिना छुए काम करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A force can change the shape of an object.",
+                "Telugu": "నిజమా అబద్ధమా: బలం వస్తువు ఆకారాన్ని మార్చగలదు.",
+                "Hindi": "सही या गलत: बल वस्तु का आकार बदल सकता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Pressing dough or squeezing a sponge changes their shape.",
+                "Telugu": "పిండిని ఒత్తడం, స్పాంజిని పిండటం వాటి ఆకారాన్ని మారుస్తాయి.",
+                "Hindi": "आटा दबाने या स्पंज निचोड़ने से उनका आकार बदलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The SI unit of force is...",
+                "Telugu": "బలం యొక్క SI ప్రమాణం...",
+                "Hindi": "बल की SI इकाई क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Newton",
+                  "Pascal",
+                  "Joule",
+                  "Metre"
+                ],
+                "Telugu": [
+                  "న్యూటన్",
+                  "పాస్కల్",
+                  "జౌల్",
+                  "మీటరు"
+                ],
+                "Hindi": [
+                  "न्यूटन",
+                  "पास्कल",
+                  "जूल",
+                  "मीटर"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Force is measured in newtons (N); pressure in pascals (Pa = N/m²).",
+                "Telugu": "బలాన్ని న్యూటన్లలో (N), పీడనాన్ని పాస్కల్‌లలో (Pa = N/m²) కొలుస్తారు.",
+                "Hindi": "बल न्यूटन (N) में और दाब पास्कल (Pa = N/m²) में मापा जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why do school bags have wide straps?",
+                "Telugu": "బడి సంచులకు వెడల్పాటి పట్టీలు ఎందుకు ఉంటాయి?",
+                "Hindi": "स्कूल बैग की पट्टियाँ चौड़ी क्यों होती हैं?"
+              },
+              "options": {
+                "English": [
+                  "To look nice",
+                  "Wide area reduces pressure on the shoulders",
+                  "To increase weight",
+                  "To hold more books"
+                ],
+                "Telugu": [
+                  "అందంగా కనిపించడానికి",
+                  "వెడల్పు వైశాల్యం భుజాలపై పీడనాన్ని తగ్గిస్తుంది",
+                  "బరువు పెంచడానికి",
+                  "ఎక్కువ పుస్తకాలు పట్టడానికి"
+                ],
+                "Hindi": [
+                  "सुंदर दिखने के लिए",
+                  "चौड़ा क्षेत्र कंधों पर दाब घटाता है",
+                  "वज़न बढ़ाने के लिए",
+                  "ज़्यादा किताबें रखने के लिए"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Spreading the weight over a bigger area makes the bag less painful to carry.",
+                "Telugu": "బరువును పెద్ద వైశాల్యంపై పంచితే సంచి మోయడం తక్కువ బాధాకరం.",
+                "Hindi": "वज़न बड़े क्षेत्र पर फैलने से बैग उठाना कम दर्द देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Liquid pressure at the bottom of a tank...",
+                "Telugu": "ట్యాంక్ అడుగున ద్రవ పీడనం...",
+                "Hindi": "टंकी के तल पर द्रव दाब..."
+              },
+              "options": {
+                "English": [
+                  "Is zero",
+                  "Is less than at the top",
+                  "Is more than at the top because of depth",
+                  "Does not depend on depth"
+                ],
+                "Telugu": [
+                  "శూన్యం",
+                  "పైన కంటే తక్కువ",
+                  "లోతు వల్ల పైన కంటే ఎక్కువ",
+                  "లోతుపై ఆధారపడదు"
+                ],
+                "Hindi": [
+                  "शून्य है",
+                  "ऊपर से कम है",
+                  "गहराई के कारण ऊपर से ज़्यादा है",
+                  "गहराई पर निर्भर नहीं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Pressure increases with depth; that is why dams are thicker at the bottom.",
+                "Telugu": "లోతుతో పీడనం పెరుగుతుంది; అందుకే ఆనకట్టలు అడుగున మందంగా ఉంటాయి.",
+                "Hindi": "गहराई के साथ दाब बढ़ता है; इसीलिए बाँध नीचे मोटे होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The atmosphere exerts pressure on us.",
+                "Telugu": "నిజమా అబద్ధమా: వాతావరణం మనపై పీడనం కలిగిస్తుంది.",
+                "Hindi": "सही या गलत: वायुमंडल हम पर दाब डालता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Atmospheric pressure holds a rubber sucker on a wall; we are not crushed because our body pressure balances it.",
+                "Telugu": "వాతావరణ పీడనం గోడపై రబ్బరు సక్కర్‌ను పట్టి ఉంచుతుంది; మన శరీర పీడనం దానిని సమతుల్యం చేయడం వల్ల మనం నలిగిపోం.",
+                "Hindi": "वायुमंडलीय दाब रबर सकर को दीवार पर चिपकाए रखता है; शरीर का दाब इसे संतुलित करता है इसलिए हम दबते नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "When two forces act in opposite directions on an object, the net force is...",
+                "Telugu": "ఒక వస్తువుపై రెండు బలాలు వ్యతిరేక దిశల్లో పనిచేస్తే ఫలిత బలం...",
+                "Hindi": "किसी वस्तु पर दो बल विपरीत दिशाओं में लगें तो कुल बल..."
+              },
+              "options": {
+                "English": [
+                  "Their sum",
+                  "Always zero",
+                  "Their product",
+                  "Their difference"
+                ],
+                "Telugu": [
+                  "వాటి మొత్తం",
+                  "ఎప్పుడూ శూన్యం",
+                  "వాటి లబ్ధం",
+                  "వాటి భేదం"
+                ],
+                "Hindi": [
+                  "उनका योग",
+                  "हमेशा शून्य",
+                  "उनका गुणनफल",
+                  "उनका अंतर"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "In a tug of war, the side with the larger force wins; equal forces give zero net force.",
+                "Telugu": "తాడు లాగుడు ఆటలో ఎక్కువ బలం ఉన్న వైపు గెలుస్తుంది; సమాన బలాలైతే ఫలిత బలం శూన్యం.",
+                "Hindi": "रस्साकशी में ज़्यादा बल वाला पक्ष जीतता है; बराबर बलों पर कुल बल शून्य होता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friction",
+      "icon": "🪵",
+      "title": {
+        "English": "Friction",
+        "Telugu": "ఘర్షణ",
+        "Hindi": "घर्षण"
+      },
+      "description": {
+        "English": "Learn about friction and why it slows or stops motion.",
+        "Telugu": "ఘర్షణని మరియు అది కదలికను ఎలా నెమ్మదిస్తుంది లేదా ఆపివేస్తుందో తెలుసుకోండి.",
+        "Hindi": "जानें कि घर्षण गति को कैसे धीमा या रुकाता है।"
+      },
+      "lessons": [
+        {
+          "id": "friction-lesson",
+          "visual": "🛷",
+          "title": {
+            "English": "Why Things Slow Down",
+            "Telugu": "వస్తువులు ఎందుకు నెమ్మదిస్తాయి",
+            "Hindi": "चीजें धीमी क्यों होती हैं"
+          },
+          "image": "./images/lessons/friction.svg",
+          "explanation": {
+            "English": "Friction is a force that opposes motion between two surfaces in contact. It can be useful for gripping or harmful because it causes wear and heat.",
+            "Telugu": "ఘర్షణ అనేది రెండు ఉపరితలాల మధ్య కదలికను ఎదుర్కొనే బలం. ఇది పట్టుకోవడంలో ఉపయోగపడుతుంది, కానీ మరమ్మత్తు మరియు వేడి ఏర్పడడంలో también సమస్యగా ఉంటుంది.",
+            "Hindi": "घर्षण वह बल है जो संपर्क में आने वाली दो सतहों की गति का विरोध करता है। यह Grip में उपयोगी है, लेकिन वस्तुओं के घिसाव और गर्मी का कारण भी बन सकता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Friction resists motion.",
+              "It helps us walk and write.",
+              "It can create heat and wear.",
+              "Lubricants reduce friction."
+            ],
+            "Telugu": [
+              "ఘర్షణ కదలికను అడ్డుకుంటుంది.",
+              "ఇది నడవడానికి మరియు వ్రాయడానికి సహాయపడుతుంది.",
+              "ఇది వేడి మరియు వాడిపోవడానికి కారణమవుతుంది.",
+              "స్ఫటికలవుతాయి/లూబ్రికెంట్లు ఘర్షణను తగ్గిస్తాయి."
+            ],
+            "Hindi": [
+              "घर्षण गति का विरोध करता है।",
+              "यह चलने और लिखने में मदद करता है।",
+              "यह गर्मी और घिसाव का कारण बनता है।",
+              "स्नेहक घर्षण कम करते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Slide a book over a table and then over a rough surface to compare friction.",
+            "Telugu": "బుక్‌ను టేబుల్ పైకి మరియు కఠిన ఉపరితలంపై జారబడదీసి ఘర్షణను పోల్చండి.",
+            "Hindi": "किताब को टेबल और रफ़ सतह पर घुमाकर घर्षण की तुलना करें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Friction always acts...",
+                "Telugu": "ఘర్షణ ఎప్పుడూ ఎలా పనిచేస్తుంది?",
+                "Hindi": "घर्षण हमेशा कैसे कार्य करता है?"
+              },
+              "options": {
+                "English": [
+                  "Opposite to the direction of motion",
+                  "In the direction of motion",
+                  "Upwards only",
+                  "Only in water"
+                ],
+                "Telugu": [
+                  "చలన దిశకు వ్యతిరేకంగా",
+                  "చలన దిశలోనే",
+                  "పైకి మాత్రమే",
+                  "నీటిలో మాత్రమే"
+                ],
+                "Hindi": [
+                  "गति की दिशा के विपरीत",
+                  "गति की दिशा में",
+                  "सिर्फ़ ऊपर",
+                  "सिर्फ़ पानी में"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Friction opposes the relative motion between two surfaces in contact.",
+                "Telugu": "ఘర్షణ తాకి ఉన్న రెండు ఉపరితలాల మధ్య సాపేక్ష చలనాన్ని వ్యతిరేకిస్తుంది.",
+                "Hindi": "घर्षण संपर्क में दो सतहों की सापेक्ष गति का विरोध करता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Friction is caused by...",
+                "Telugu": "ఘర్షణకు కారణం...",
+                "Hindi": "घर्षण का कारण क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Colour of surfaces",
+                  "Irregularities on the surfaces interlocking",
+                  "Light falling on objects",
+                  "Magnetism only"
+                ],
+                "Telugu": [
+                  "ఉపరితలాల రంగు",
+                  "ఉపరితలాలపై ఎగుడుదిగుడులు ఒకదానిలో ఒకటి చిక్కుకోవడం",
+                  "వస్తువులపై పడే కాంతి",
+                  "అయస్కాంతత్వం మాత్రమే"
+                ],
+                "Hindi": [
+                  "सतहों का रंग",
+                  "सतहों की असमानताओं का आपस में फँसना",
+                  "वस्तुओं पर पड़ता प्रकाश",
+                  "सिर्फ़ चुंबकत्व"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Even smooth-looking surfaces have tiny bumps that catch on each other.",
+                "Telugu": "నునుపుగా కనిపించే ఉపరితలాలపై కూడా ఒకదానికొకటి తగులుకునే చిన్న ఎగుడుదిగుడులు ఉంటాయి.",
+                "Hindi": "चिकनी दिखने वाली सतहों पर भी छोटे उभार होते हैं जो आपस में अटकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which surface gives the most friction?",
+                "Telugu": "ఏ ఉపరితలం ఎక్కువ ఘర్షణ ఇస్తుంది?",
+                "Hindi": "कौन सी सतह सबसे ज़्यादा घर्षण देती है?"
+              },
+              "options": {
+                "English": [
+                  "Glass",
+                  "Polished marble",
+                  "Rough gravel road",
+                  "Ice"
+                ],
+                "Telugu": [
+                  "గాజు",
+                  "పాలిష్ చేసిన పాలరాయి",
+                  "గరుకు కంకర రోడ్డు",
+                  "మంచు"
+                ],
+                "Hindi": [
+                  "काँच",
+                  "चमकाया संगमरमर",
+                  "खुरदरी बजरी वाली सड़क",
+                  "बर्फ़"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Rougher surfaces have more friction; ice and glass have little.",
+                "Telugu": "గరుకు ఉపరితలాలకు ఎక్కువ ఘర్షణ; మంచు, గాజుకు తక్కువ.",
+                "Hindi": "खुरदरी सतहों पर ज़्यादा घर्षण होता है; बर्फ़ और काँच पर कम।"
+              }
+            },
+            {
+              "question": {
+                "English": "Oil is put on machine parts to...",
+                "Telugu": "యంత్ర భాగాలకు నూనె ఎందుకు రాస్తారు?",
+                "Hindi": "मशीन के पुर्ज़ों में तेल क्यों डालते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Increase friction",
+                  "Make them rust",
+                  "Make them heavier",
+                  "Reduce friction"
+                ],
+                "Telugu": [
+                  "ఘర్షణ పెంచడానికి",
+                  "తుప్పు పట్టించడానికి",
+                  "బరువు పెంచడానికి",
+                  "ఘర్షణ తగ్గించడానికి"
+                ],
+                "Hindi": [
+                  "घर्षण बढ़ाने",
+                  "जंग लगाने",
+                  "भारी करने",
+                  "घर्षण घटाने"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Lubricants form a thin layer between surfaces, reducing wear and heat.",
+                "Telugu": "కందెనలు ఉపరితలాల మధ్య పలుచని పొర ఏర్పరచి అరుగుదల, వేడిని తగ్గిస్తాయి.",
+                "Hindi": "स्नेहक सतहों के बीच पतली परत बनाकर घिसाव और गर्मी घटाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Without friction we could not walk.",
+                "Telugu": "నిజమా అబద్ధమా: ఘర్షణ లేకుంటే మనం నడవలేం.",
+                "Hindi": "सही या गलत: घर्षण के बिना हम चल नहीं सकते।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Friction between shoes and the ground gives grip; that is why we slip on wet, soapy floors.",
+                "Telugu": "బూట్లు, నేల మధ్య ఘర్షణ పట్టు ఇస్తుంది; అందుకే తడి, సబ్బు నేలపై జారిపోతాం.",
+                "Hindi": "जूतों और ज़मीन के बीच घर्षण पकड़ देता है; इसीलिए गीले, साबुन वाले फ़र्श पर फिसलते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Ball bearings reduce friction because...",
+                "Telugu": "బాల్ బేరింగులు ఘర్షణను ఎందుకు తగ్గిస్తాయి?",
+                "Hindi": "बॉल बेयरिंग घर्षण क्यों घटाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Rolling friction is less than sliding friction",
+                  "They are sticky",
+                  "They add more surfaces",
+                  "They are hot"
+                ],
+                "Telugu": [
+                  "దొర్లుడు ఘర్షణ జారుడు ఘర్షణ కంటే తక్కువ",
+                  "అవి జిగటగా ఉంటాయి",
+                  "ఎక్కువ ఉపరితలాలు చేర్చుతాయి",
+                  "అవి వేడిగా ఉంటాయి"
+                ],
+                "Hindi": [
+                  "लोटनिक घर्षण सर्पी घर्षण से कम है",
+                  "वे चिपचिपे हैं",
+                  "ज़्यादा सतहें जोड़ते हैं",
+                  "वे गर्म हैं"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Rolling is easier than sliding, so wheels and bearings save effort.",
+                "Telugu": "జారడం కంటే దొర్లడం సులభం, అందుకే చక్రాలు, బేరింగులు శ్రమను ఆదా చేస్తాయి.",
+                "Hindi": "सरकने से लुढ़कना आसान है, इसलिए पहिये और बेयरिंग मेहनत बचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why do tyres have treads?",
+                "Telugu": "టైర్లకు గాట్లు (ట్రెడ్స్) ఎందుకు ఉంటాయి?",
+                "Hindi": "टायरों पर खाँचे (ट्रेड) क्यों होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "To look nice",
+                  "To increase grip (friction) on the road",
+                  "To reduce weight",
+                  "To make noise"
+                ],
+                "Telugu": [
+                  "అందంగా కనిపించడానికి",
+                  "రోడ్డుపై పట్టు (ఘర్షణ) పెంచడానికి",
+                  "బరువు తగ్గించడానికి",
+                  "శబ్దం చేయడానికి"
+                ],
+                "Hindi": [
+                  "सुंदर दिखने के लिए",
+                  "सड़क पर पकड़ (घर्षण) बढ़ाने के लिए",
+                  "वज़न घटाने के लिए",
+                  "आवाज़ करने के लिए"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Treads grip the road and push water away, preventing skidding.",
+                "Telugu": "గాట్లు రోడ్డును పట్టుకొని నీటిని పక్కకు నెట్టి జారకుండా చేస్తాయి.",
+                "Hindi": "खाँचे सड़क पकड़ते हैं और पानी हटाकर फिसलने से बचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The friction exerted by fluids (liquids and gases) is called...",
+                "Telugu": "ద్రవాలు, వాయువులు కలిగించే ఘర్షణను ఏమంటారు?",
+                "Hindi": "द्रवों (तरल और गैस) द्वारा लगने वाला घर्षण क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Static friction",
+                  "Rolling friction",
+                  "Drag",
+                  "Magnetism"
+                ],
+                "Telugu": [
+                  "స్థిర ఘర్షణ",
+                  "దొర్లుడు ఘర్షణ",
+                  "డ్రాగ్ (ద్రవ ఘర్షణ)",
+                  "అయస్కాంతత్వం"
+                ],
+                "Hindi": [
+                  "स्थैतिक घर्षण",
+                  "लोटनिक घर्षण",
+                  "कर्षण (ड्रैग)",
+                  "चुंबकत्व"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Streamlined shapes of fish, birds and aeroplanes reduce drag.",
+                "Telugu": "చేపలు, పక్షులు, విమానాల ధారాకార ఆకారాలు డ్రాగ్‌ను తగ్గిస్తాయి.",
+                "Hindi": "मछली, पक्षी और विमानों के धारारेखीय आकार कर्षण घटाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Friction produces heat.",
+                "Telugu": "నిజమా అబద్ధమా: ఘర్షణ వేడిని ఉత్పత్తి చేస్తుంది.",
+                "Hindi": "सही या गलत: घर्षण से गर्मी पैदा होती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Rubbing your palms together warms them; a matchstick lights by friction.",
+                "Telugu": "అరచేతులు రుద్దితే వెచ్చగా అవుతాయి; అగ్గిపుల్ల ఘర్షణతో వెలుగుతుంది.",
+                "Hindi": "हथेलियाँ रगड़ने से गर्म होती हैं; माचिस घर्षण से जलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which needs the most force to overcome?",
+                "Telugu": "అధిగమించడానికి ఎక్కువ బలం అవసరమయ్యేది ఏది?",
+                "Hindi": "किसे पार करने के लिए सबसे ज़्यादा बल चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Rolling friction",
+                  "Sliding friction",
+                  "Fluid friction in air",
+                  "Static friction"
+                ],
+                "Telugu": [
+                  "దొర్లుడు ఘర్షణ",
+                  "జారుడు ఘర్షణ",
+                  "గాలిలో ద్రవ ఘర్షణ",
+                  "స్థిర ఘర్షణ"
+                ],
+                "Hindi": [
+                  "लोटनिक घर्षण",
+                  "सर्पी घर्षण",
+                  "हवा में तरल घर्षण",
+                  "स्थैतिक घर्षण"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Starting to move a resting object is hardest; static > sliding > rolling.",
+                "Telugu": "నిశ్చల వస్తువును కదిలించడం అత్యంత కష్టం; స్థిర > జారుడు > దొర్లుడు.",
+                "Hindi": "रुकी वस्तु को चलाना सबसे कठिन है; स्थैतिक > सर्पी > लोटनिक।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cell-structure-functions",
+      "icon": "🔬",
+      "title": {
+        "English": "Cell: Structure and Functions",
+        "Telugu": "కణం: నిర్మాణం మరియు విధులు",
+        "Hindi": "कोशिका: संरचना और कार्य"
+      },
+      "description": {
+        "English": "Explore the basic unit of life in plants and animals.",
+        "Telugu": "మొక్కలు మరియు జంతువులలో జీవం యొక్క ప్రాథమిక యూనిట్ అయిన కణం గురించి తెలుసుకోండి.",
+        "Hindi": "पौधों और जानवरों में जीवन की मूल इकाई कोशिका को समझें।"
+      },
+      "lessons": [
+        {
+          "id": "cell-basics",
+          "visual": "🧬",
+          "title": {
+            "English": "The Fundamental Unit of Life",
+            "Telugu": "జీవం యొక్క ప్రాథమిక యూనిట్",
+            "Hindi": "जीवन की मौलिक इकाई"
+          },
+          "image": "./images/lessons/cells-and-cell-structure.svg",
+          "explanation": {
+            "English": "Cells are the basic structural and functional units of life. Plant cells have a cell wall and chloroplasts, while animal cells lack a cell wall.",
+            "Telugu": "కణాలు జీవితం యొక్క ప్రాధమిక నిర్మాణ మరియు విధి యూనిట్‌లు. మొక్క కణాలకు కణపు గోడ మరియు క్లోరోప్లాస్ట్లు ఉంటాయి, జంతు కణాలకు గోడ ఉండదు.",
+            "Hindi": "कोशिकाएँ जीवन की मूल संरचनात्मक और कार्यात्मक इकाइयाँ हैं। पौधों की कोशिकाओं में कोशिका भित्ति और क्लोरोप्लास्ट होते हैं, जबकि जंतुओं की कोशिकाओं में नहीं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Cells are the smallest units of life.",
+              "Nucleus controls cell activities.",
+              "Cell membrane controls entry and exit.",
+              "Plant cells have chloroplasts and cell walls."
+            ],
+            "Telugu": [
+              "కణాలు జీవం యొక్క అతి చిన్న యూన్‌ట్లు.",
+              "కేంద్రకం కణ కార్యకలాపాలను నియంత్రిస్తుంది.",
+              "కణ పొర ప్రవేశాన్ని మరియు నిష్క్రమణను నియంత్రిస్తుంది.",
+              "మొక్క కణాలకు క్లోరోప్లాస్ట్లు మరియు కణ గోడలు ఉంటాయి."
+            ],
+            "Hindi": [
+              "कोशिकाएँ जीवन की सबसे छोटी इकाइयाँ हैं।",
+              "नाभिक कोशिका की गतिविधियों को नियंत्रित करता है।",
+              "कोशिका झिल्ली प्रवेश और निकास को नियंत्रित करती है।",
+              "पौधों की कोशिकाओं में क्लोरोप्लास्ट और कोशिका भित्ति होती है।"
+            ]
+          },
+          "activity": {
+            "English": "Draw a simple plant cell and label nucleus, membrane and chloroplast.",
+            "Telugu": "సాధారణ మొక్క కణాన్ని గీసి కేంద్రకం, పొర మరియు క్లోరోప్లాస్ట్‌లను గుర్తించండి.",
+            "Hindi": "सरल पौधों की कोशिका बनाकर नाभिक, झिल्ली और क्लोरोप्लास्ट नामांकित करें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The basic structural and functional unit of life is the...",
+                "Telugu": "జీవం యొక్క ప్రాథమిక నిర్మాణాత్మక, క్రియాత్మక ప్రమాణం...",
+                "Hindi": "जीवन की मूल संरचनात्मक और क्रियात्मक इकाई क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Cell",
+                  "Tissue",
+                  "Organ",
+                  "Atom"
+                ],
+                "Telugu": [
+                  "కణం",
+                  "కణజాలం",
+                  "అవయవం",
+                  "పరమాణువు"
+                ],
+                "Hindi": [
+                  "कोशिका",
+                  "ऊतक",
+                  "अंग",
+                  "परमाणु"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "All living things are made of one or more cells.",
+                "Telugu": "అన్ని జీవులు ఒకటి లేదా ఎక్కువ కణాలతో తయారవుతాయి.",
+                "Hindi": "सभी जीव एक या अधिक कोशिकाओं से बने हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Who first observed cells in a slice of cork?",
+                "Telugu": "కార్క్ ముక్కలో మొదట కణాలను ఎవరు గమనించారు?",
+                "Hindi": "कॉर्क के टुकड़े में कोशिकाएँ पहली बार किसने देखीं?"
+              },
+              "options": {
+                "English": [
+                  "Isaac Newton",
+                  "Robert Hooke",
+                  "Charles Darwin",
+                  "Albert Einstein"
+                ],
+                "Telugu": [
+                  "ఐజాక్ న్యూటన్",
+                  "రాబర్ట్ హుక్",
+                  "చార్లెస్ డార్విన్",
+                  "ఆల్బర్ట్ ఐన్‌స్టీన్"
+                ],
+                "Hindi": [
+                  "आइज़क न्यूटन",
+                  "रॉबर्ट हुक",
+                  "चार्ल्स डार्विन",
+                  "अल्बर्ट आइंस्टीन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "In 1665 Robert Hooke saw small boxes in cork and called them cells.",
+                "Telugu": "1665లో రాబర్ట్ హుక్ కార్క్‌లో చిన్న గదులను చూసి వాటిని కణాలు అన్నారు.",
+                "Hindi": "1665 में रॉबर्ट हुक ने कॉर्क में छोटे खाने देखे और उन्हें कोशिका कहा।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which part is found in plant cells but not in animal cells?",
+                "Telugu": "మొక్క కణాల్లో ఉండి జంతు కణాల్లో ఉండనిది ఏది?",
+                "Hindi": "कौन सा भाग पादप कोशिका में होता है पर जंतु कोशिका में नहीं?"
+              },
+              "options": {
+                "English": [
+                  "Nucleus",
+                  "Cell membrane",
+                  "Cell wall",
+                  "Cytoplasm"
+                ],
+                "Telugu": [
+                  "కేంద్రకం",
+                  "కణత్వచం",
+                  "కణకవచం",
+                  "కణద్రవ్యం"
+                ],
+                "Hindi": [
+                  "केंद्रक",
+                  "कोशिका झिल्ली",
+                  "कोशिका भित्ति",
+                  "कोशिका द्रव्य"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "The rigid cell wall gives plant cells extra protection and shape; chloroplasts are also only in plants.",
+                "Telugu": "దృఢమైన కణకవచం మొక్క కణాలకు అదనపు రక్షణ, ఆకారం ఇస్తుంది; హరితరేణువులు కూడా మొక్కల్లోనే.",
+                "Hindi": "कठोर कोशिका भित्ति पादप कोशिकाओं को सुरक्षा और आकार देती है; हरितलवक भी सिर्फ़ पौधों में होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which part controls all activities of the cell?",
+                "Telugu": "కణం యొక్క అన్ని చర్యలను నియంత్రించేది ఏది?",
+                "Hindi": "कोशिका की सभी क्रियाओं को कौन नियंत्रित करता है?"
+              },
+              "options": {
+                "English": [
+                  "Vacuole",
+                  "Cell wall",
+                  "Cytoplasm",
+                  "Nucleus"
+                ],
+                "Telugu": [
+                  "రిక్తిక",
+                  "కణకవచం",
+                  "కణద్రవ్యం",
+                  "కేంద్రకం"
+                ],
+                "Hindi": [
+                  "रिक्तिका",
+                  "कोशिका भित्ति",
+                  "कोशिका द्रव्य",
+                  "केंद्रक"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The nucleus contains chromosomes with genes that carry hereditary information.",
+                "Telugu": "కేంద్రకంలో అనువంశిక సమాచారాన్ని మోసే జన్యువులున్న క్రోమోజోములు ఉంటాయి.",
+                "Hindi": "केंद्रक में वंशानुगत जानकारी वाले जीन युक्त गुणसूत्र होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Amoeba is a unicellular organism.",
+                "Telugu": "నిజమా అబద్ధమా: అమీబా ఏకకణ జీవి.",
+                "Hindi": "सही या गलत: अमीबा एककोशिकीय जीव है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A single cell of amoeba does everything: eating, breathing and reproducing.",
+                "Telugu": "అమీబా ఒకే కణం తినడం, శ్వాసించడం, పునరుత్పత్తి అన్నీ చేస్తుంది.",
+                "Hindi": "अमीबा की एक कोशिका खाना, साँस लेना और प्रजनन सब करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The green bodies in leaf cells that contain chlorophyll are...",
+                "Telugu": "పత్రహరితం ఉండే ఆకు కణాల్లోని ఆకుపచ్చ భాగాలు...",
+                "Hindi": "पत्ती की कोशिकाओं के पर्णहरित वाले हरे भाग क्या हैं?"
+              },
+              "options": {
+                "English": [
+                  "Chloroplasts",
+                  "Mitochondria",
+                  "Vacuoles",
+                  "Nuclei"
+                ],
+                "Telugu": [
+                  "హరితరేణువులు",
+                  "మైటోకాండ్రియా",
+                  "రిక్తికలు",
+                  "కేంద్రకాలు"
+                ],
+                "Hindi": [
+                  "हरितलवक",
+                  "माइटोकॉन्ड्रिया",
+                  "रिक्तिकाएँ",
+                  "केंद्रक"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Chloroplasts are plastids where photosynthesis takes place.",
+                "Telugu": "హరితరేణువులు కిరణజన్య సంయోగక్రియ జరిగే ప్లాస్టిడ్లు.",
+                "Hindi": "हरितलवक वे लवक हैं जहाँ प्रकाश संश्लेषण होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The jelly-like substance between the cell membrane and nucleus is...",
+                "Telugu": "కణత్వచం, కేంద్రకం మధ్య ఉండే జెల్లీ లాంటి పదార్థం...",
+                "Hindi": "कोशिका झिल्ली और केंद्रक के बीच जेली जैसा पदार्थ क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Cell wall",
+                  "Cytoplasm",
+                  "Chromosome",
+                  "Gene"
+                ],
+                "Telugu": [
+                  "కణకవచం",
+                  "కణద్రవ్యం",
+                  "క్రోమోజోము",
+                  "జన్యువు"
+                ],
+                "Hindi": [
+                  "कोशिका भित्ति",
+                  "कोशिका द्रव्य",
+                  "गुणसूत्र",
+                  "जीन"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Cytoplasm holds cell organelles like mitochondria and ribosomes.",
+                "Telugu": "కణద్రవ్యంలో మైటోకాండ్రియా, రైబోజోముల వంటి కణాంగాలు ఉంటాయి.",
+                "Hindi": "कोशिका द्रव्य में माइटोकॉन्ड्रिया और राइबोसोम जैसे कोशिकांग होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Cells whose nucleus has no nuclear membrane, like bacteria, are called...",
+                "Telugu": "బ్యాక్టీరియా వంటి కేంద్రక త్వచం లేని కణాలను ఏమంటారు?",
+                "Hindi": "जीवाणु जैसी जिन कोशिकाओं में केंद्रक झिल्ली नहीं होती, वे क्या कहलाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Eukaryotic",
+                  "Multicellular",
+                  "Prokaryotic",
+                  "Plant cells"
+                ],
+                "Telugu": [
+                  "నిజకేంద్రక",
+                  "బహుకణ",
+                  "కేంద్రకపూర్వ (ప్రోకారియోటిక్)",
+                  "మొక్క కణాలు"
+                ],
+                "Hindi": [
+                  "यूकैरियोटिक",
+                  "बहुकोशिकीय",
+                  "प्रोकैरियोटिक",
+                  "पादप कोशिकाएँ"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Prokaryotes have nuclear material but no membrane around it.",
+                "Telugu": "కేంద్రకపూర్వ జీవుల్లో కేంద్రక పదార్థం ఉంటుంది కానీ దాని చుట్టూ త్వచం ఉండదు.",
+                "Hindi": "प्रोकैरियोट में केंद्रकीय पदार्थ होता है पर उसके चारों ओर झिल्ली नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Nerve cells are long and branched to carry messages.",
+                "Telugu": "నిజమా అబద్ధమా: సందేశాలను మోయడానికి నాడీ కణాలు పొడవుగా, శాఖలుగా ఉంటాయి.",
+                "Hindi": "सही या गलत: तंत्रिका कोशिकाएँ संदेश ले जाने के लिए लंबी और शाखित होती हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Cell shape suits its job: nerve cells are long, red blood cells are round discs.",
+                "Telugu": "కణ ఆకారం దాని పనికి తగినట్లు ఉంటుంది: నాడీ కణాలు పొడవు, ఎర్ర రక్త కణాలు గుండ్రని పళ్లేలు.",
+                "Hindi": "कोशिका का आकार उसके काम के अनुसार होता है: तंत्रिका कोशिका लंबी, लाल रक्त कोशिका गोल तश्तरी जैसी।"
+              }
+            },
+            {
+              "question": {
+                "English": "A group of similar cells doing the same job forms a...",
+                "Telugu": "ఒకే పని చేసే సారూప్య కణాల సమూహం ఏర్పరిచేది...",
+                "Hindi": "एक ही काम करने वाली समान कोशिकाओं का समूह क्या बनाता है?"
+              },
+              "options": {
+                "English": [
+                  "Organ system",
+                  "Organism",
+                  "Cell wall",
+                  "Tissue"
+                ],
+                "Telugu": [
+                  "అవయవ వ్యవస్థ",
+                  "జీవి",
+                  "కణకవచం",
+                  "కణజాలం"
+                ],
+                "Hindi": [
+                  "अंग तंत्र",
+                  "जीव",
+                  "कोशिका भित्ति",
+                  "ऊतक"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Cells form tissues, tissues form organs, and organs form organ systems.",
+                "Telugu": "కణాలు కణజాలాలను, కణజాలాలు అవయవాలను, అవయవాలు అవయవ వ్యవస్థలను ఏర్పరుస్తాయి.",
+                "Hindi": "कोशिकाएँ ऊतक, ऊतक अंग और अंग, अंग तंत्र बनाते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "microorganisms",
+      "icon": "🦠",
+      "title": {
+        "English": "Microorganisms: Friends and Foes",
+        "Telugu": "సూక్ష్మజీవులు: మిత్రులు మరియు శత్రువులు",
+        "Hindi": "सूक्ष्मजीव: मित्र और शत्रु"
+      },
+      "description": {
+        "English": "Learn how tiny organisms affect our world and health.",
+        "Telugu": "చిన్నా జీవులు మన ప్రపంచం మరియు ఆరోగ్యంపై ఎలా ప్రభావం చూపుతాయో తెలుసుకోండి.",
+        "Hindi": "सीखें कि छोटे जीव हमारी दुनिया और स्वास्थ्य को कैसे प्रभावित करते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "microbes-life",
+          "visual": "🧫",
+          "title": {
+            "English": "The World of Microbes",
+            "Telugu": "సూక్ష్మజీవుల ప్రపంచం",
+            "Hindi": "सूक्ष्मजीवों की दुनिया"
+          },
+          "image": "./images/lessons/microorganisms.svg",
+          "explanation": {
+            "English": "Microorganisms are tiny living things that are invisible to the naked eye. Some help in making curd, compost and medicines, while others can cause diseases.",
+            "Telugu": "సూక్ష్మజీవులు కంటికి కనిపించని చిన్న జీవులు. కొన్ని కస్తూరీ పాలు, కంపోస్ట్ మరియు మందుల తయారీకి సహాయపడతాయి, మరికొన్ని వ్యాధులకు కారణం కావచ్చు.",
+            "Hindi": "सूक्ष्मजीव ऐसे छोटे जीव हैं जो आँखों से दिखाई नहीं देते। कुछ दही, खाद और medicines बनाने में सहायक हैं, जबकि कुछ बीमारियाँ भी पैदा करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Microorganisms are very small.",
+              "Some help make food.",
+              "Some cause disease.",
+              "Good hygiene controls harmful microbes."
+            ],
+            "Telugu": [
+              "సూక్ష్మజీవులు చాలా చిన్నవి.",
+              "కొన్ని ఆహారాన్ని తయారీ చేయడంలో సహాయపడతాయి.",
+              "కొన్ని వ్యాధులకు కారణమవుతాయి.",
+              "సురక్షిత పరిశుభ్రత హానికర సూక్ష్మజీవులను నియంత్రిస్తుంది."
+            ],
+            "Hindi": [
+              "सूक्ष्मजीव बहुत छोटे होते हैं।",
+              "कुछ भोजन बनाने में मदद करते हैं।",
+              "कुछ बीमारियाँ पैदा करते हैं।",
+              "साफ़-सफाई से हानिकारक जीवों को रोका जा सकता है।"
+            ]
+          },
+          "activity": {
+            "English": "List two useful microbes and two harmful microbes around us.",
+            "Telugu": "మన చుట్టూ రెండు ఉపయోగకరమైన మరియు రెండు హానికరమైన సూక్ష్మజీవులను రాయండి.",
+            "Hindi": "अपने आस-पास दो उपयोगी और दो हानिकारक सूक्ष्मजीव लिखें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which microorganism helps turn milk into curd?",
+                "Telugu": "పాలను పెరుగుగా మార్చే సూక్ష్మజీవి ఏది?",
+                "Hindi": "दूध को दही में कौन सा सूक्ष्मजीव बदलता है?"
+              },
+              "options": {
+                "English": [
+                  "Lactobacillus (bacteria)",
+                  "Plasmodium",
+                  "Virus",
+                  "Yeast only"
+                ],
+                "Telugu": [
+                  "లాక్టోబాసిల్లస్ (బ్యాక్టీరియా)",
+                  "ప్లాస్మోడియం",
+                  "వైరస్",
+                  "ఈస్ట్ మాత్రమే"
+                ],
+                "Hindi": [
+                  "लैक्टोबैसिलस (जीवाणु)",
+                  "प्लाज़्मोडियम",
+                  "विषाणु",
+                  "सिर्फ़ यीस्ट"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Lactobacillus multiplies in milk and turns it into curd.",
+                "Telugu": "లాక్టోబాసిల్లస్ పాలలో వృద్ధి చెంది దానిని పెరుగుగా మారుస్తుంది.",
+                "Hindi": "लैक्टोबैसिलस दूध में बढ़कर उसे दही बनाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Yeast is used in making bread because it...",
+                "Telugu": "బ్రెడ్ తయారీలో ఈస్ట్‌ను ఎందుకు వాడతారు?",
+                "Hindi": "ब्रेड बनाने में यीस्ट क्यों डालते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Adds colour",
+                  "Produces carbon dioxide that makes dough rise",
+                  "Makes it salty",
+                  "Kills germs"
+                ],
+                "Telugu": [
+                  "రంగు కోసం",
+                  "పిండిని ఉబ్బించే కార్బన్ డయాక్సైడ్ ఉత్పత్తి చేస్తుంది",
+                  "ఉప్పగా చేస్తుంది",
+                  "క్రిములను చంపుతుంది"
+                ],
+                "Hindi": [
+                  "रंग देता है",
+                  "कार्बन डाइऑक्साइड बनाकर आटा फुलाता है",
+                  "नमकीन बनाता है",
+                  "कीटाणु मारता है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Gas bubbles from yeast respiration make the dough soft and spongy.",
+                "Telugu": "ఈస్ట్ శ్వాసక్రియ వల్ల వచ్చే వాయు బుడగలు పిండిని మెత్తగా, స్పాంజిలా చేస్తాయి.",
+                "Hindi": "यीस्ट के श्वसन से बने गैस के बुलबुले आटे को नरम और स्पंजी बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Malaria is caused by...",
+                "Telugu": "మలేరియాకు కారణం...",
+                "Hindi": "मलेरिया किससे होता है?"
+              },
+              "options": {
+                "English": [
+                  "A virus",
+                  "A bacterium",
+                  "Plasmodium, a protozoan",
+                  "A fungus"
+                ],
+                "Telugu": [
+                  "వైరస్",
+                  "బ్యాక్టీరియా",
+                  "ప్లాస్మోడియం అనే ప్రోటోజోవా",
+                  "శిలీంధ్రం"
+                ],
+                "Hindi": [
+                  "विषाणु",
+                  "जीवाणु",
+                  "प्लाज़्मोडियम, एक प्रोटोज़ोआ",
+                  "कवक"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Plasmodium is carried by the female Anopheles mosquito.",
+                "Telugu": "ప్లాస్మోడియంను ఆడ అనాఫిలిస్ దోమ వ్యాపింపజేస్తుంది.",
+                "Hindi": "प्लाज़्मोडियम मादा एनोफ़िलीज़ मच्छर से फैलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Medicines that kill or stop the growth of bacteria are called...",
+                "Telugu": "బ్యాక్టీరియాను చంపే లేదా పెరుగుదలను ఆపే మందులను ఏమంటారు?",
+                "Hindi": "जीवाणुओं को मारने या उनकी बढ़त रोकने वाली दवाएँ क्या कहलाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Vaccines",
+                  "Vitamins",
+                  "Fertilisers",
+                  "Antibiotics"
+                ],
+                "Telugu": [
+                  "టీకాలు",
+                  "విటమిన్లు",
+                  "ఎరువులు",
+                  "యాంటీబయాటిక్స్"
+                ],
+                "Hindi": [
+                  "टीके",
+                  "विटामिन",
+                  "उर्वरक",
+                  "प्रतिजैविक (एंटीबायोटिक)"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Alexander Fleming discovered penicillin from a mould in 1929. Antibiotics do not work on viruses like the cold.",
+                "Telugu": "అలెగ్జాండర్ ఫ్లెమింగ్ 1929లో బూజు నుంచి పెన్సిలిన్‌ను కనుగొన్నారు. జలుబు వంటి వైరస్‌లపై యాంటీబయాటిక్స్ పనిచేయవు.",
+                "Hindi": "अलेक्ज़ेंडर फ़्लेमिंग ने 1929 में फफूँद से पेनिसिलिन खोजी। एंटीबायोटिक सर्दी जैसे विषाणुओं पर काम नहीं करते।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Viruses reproduce only inside the cells of a host.",
+                "Telugu": "నిజమా అబద్ధమా: వైరస్‌లు ఆతిథేయి కణాల్లోనే పునరుత్పత్తి చేస్తాయి.",
+                "Hindi": "सही या गलत: विषाणु सिर्फ़ पोषक की कोशिकाओं के अंदर प्रजनन करते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Outside a host, viruses do not show signs of life.",
+                "Telugu": "ఆతిథేయి బయట వైరస్‌లు జీవ లక్షణాలు చూపవు.",
+                "Hindi": "पोषक के बाहर विषाणु जीवन के लक्षण नहीं दिखाते।"
+              }
+            },
+            {
+              "question": {
+                "English": "A vaccine protects us by...",
+                "Telugu": "టీకా మనల్ని ఎలా కాపాడుతుంది?",
+                "Hindi": "टीका हमारी रक्षा कैसे करता है?"
+              },
+              "options": {
+                "English": [
+                  "Training the body to make antibodies against a disease",
+                  "Killing all bacteria in the body",
+                  "Giving extra vitamins",
+                  "Cleaning the blood"
+                ],
+                "Telugu": [
+                  "వ్యాధికి వ్యతిరేకంగా ప్రతిరక్షకాలు తయారు చేసేలా శరీరానికి శిక్షణ ఇచ్చి",
+                  "శరీరంలోని బ్యాక్టీరియా అంతటినీ చంపి",
+                  "అదనపు విటమిన్లు ఇచ్చి",
+                  "రక్తాన్ని శుభ్రం చేసి"
+                ],
+                "Hindi": [
+                  "शरीर को रोग के विरुद्ध प्रतिरक्षी बनाना सिखाकर",
+                  "शरीर के सारे जीवाणु मारकर",
+                  "अतिरिक्त विटामिन देकर",
+                  "खून साफ़ करके"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Edward Jenner developed the first vaccine, for smallpox, in 1798.",
+                "Telugu": "ఎడ్వర్డ్ జెన్నర్ 1798లో మశూచికి మొదటి టీకాను అభివృద్ధి చేశారు.",
+                "Hindi": "एडवर्ड जेनर ने 1798 में चेचक का पहला टीका बनाया।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which bacterium in pulse roots fixes nitrogen?",
+                "Telugu": "పప్పుధాన్యాల వేర్లలో నైట్రోజన్‌ను స్థాపించే బ్యాక్టీరియా ఏది?",
+                "Hindi": "दलहन की जड़ों में कौन सा जीवाणु नाइट्रोजन स्थिर करता है?"
+              },
+              "options": {
+                "English": [
+                  "Lactobacillus",
+                  "Rhizobium",
+                  "Plasmodium",
+                  "Salmonella"
+                ],
+                "Telugu": [
+                  "లాక్టోబాసిల్లస్",
+                  "రైజోబియం",
+                  "ప్లాస్మోడియం",
+                  "సాల్మొనెల్లా"
+                ],
+                "Hindi": [
+                  "लैक्टोबैसिलस",
+                  "राइज़ोबियम",
+                  "प्लाज़्मोडियम",
+                  "साल्मोनेला"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Rhizobium lives in root nodules and adds nitrogen to the soil.",
+                "Telugu": "రైజోబియం వేరు బుడిపెల్లో నివసించి నేలకు నైట్రోజన్ చేరుస్తుంది.",
+                "Hindi": "राइज़ोबियम जड़ ग्रंथिकाओं में रहकर मिट्टी में नाइट्रोजन जोड़ता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Cholera and typhoid spread mainly through...",
+                "Telugu": "కలరా, టైఫాయిడ్ ప్రధానంగా దేని ద్వారా వ్యాపిస్తాయి?",
+                "Hindi": "हैजा और टाइफ़ाइड मुख्य रूप से किससे फैलते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Sunlight",
+                  "Shaking hands only",
+                  "Contaminated water and food",
+                  "Wearing woollen clothes"
+                ],
+                "Telugu": [
+                  "సూర్యకాంతి",
+                  "కరచాలనం మాత్రమే",
+                  "కలుషిత నీరు, ఆహారం",
+                  "ఉన్ని బట్టలు"
+                ],
+                "Hindi": [
+                  "धूप",
+                  "सिर्फ़ हाथ मिलाना",
+                  "दूषित पानी और भोजन",
+                  "ऊनी कपड़े"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Drinking boiled water and eating clean food prevents these bacterial diseases.",
+                "Telugu": "మరిగించిన నీరు తాగి, శుభ్రమైన ఆహారం తింటే ఈ బ్యాక్టీరియా వ్యాధులు రావు.",
+                "Hindi": "उबला पानी पीने और साफ़ भोजन खाने से ये जीवाणु रोग नहीं होते।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Microorganisms help decompose dead plants and animals.",
+                "Telugu": "నిజమా అబద్ధమా: సూక్ష్మజీవులు చనిపోయిన మొక్కలు, జంతువులను విచ్ఛిన్నం చేయడంలో సహాయపడతాయి.",
+                "Hindi": "सही या गलत: सूक्ष्मजीव मृत पौधों और जानवरों को विघटित करने में मदद करते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Decomposers return nutrients to the soil and clean the environment.",
+                "Telugu": "విచ్ఛిన్నకారులు పోషకాలను నేలకు తిరిగి ఇచ్చి పర్యావరణాన్ని శుభ్రం చేస్తాయి.",
+                "Hindi": "अपघटक पोषक तत्व मिट्टी में लौटाते और पर्यावरण साफ़ करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Pasteurisation of milk means...",
+                "Telugu": "పాల పాశ్చరీకరణ అంటే...",
+                "Hindi": "दूध के पाश्चुरीकरण का मतलब क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Adding sugar",
+                  "Freezing it for a year",
+                  "Adding salt",
+                  "Heating to about 70°C and cooling suddenly"
+                ],
+                "Telugu": [
+                  "చక్కెర కలపడం",
+                  "ఒక సంవత్సరం గడ్డకట్టించడం",
+                  "ఉప్పు కలపడం",
+                  "సుమారు 70°C వరకు వేడి చేసి వెంటనే చల్లబరచడం"
+                ],
+                "Hindi": [
+                  "चीनी मिलाना",
+                  "साल भर जमाना",
+                  "नमक मिलाना",
+                  "लगभग 70°C तक गर्म करके तुरंत ठंडा करना"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "This kills harmful microbes; Louis Pasteur discovered the method.",
+                "Telugu": "ఇది హానికర సూక్ష్మజీవులను చంపుతుంది; లూయీ పాశ్చర్ ఈ పద్ధతిని కనుగొన్నారు.",
+                "Hindi": "इससे हानिकारक सूक्ष्मजीव मरते हैं; लुई पाश्चर ने यह विधि खोजी।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crop-production-management",
+      "icon": "🌾",
+      "title": {
+        "English": "Crop Production and Management",
+        "Telugu": "పంట ఉత్పత్తి మరియు నిర్వహణ",
+        "Hindi": "फसल उत्पादन और प्रबंधन"
+      },
+      "description": {
+        "English": "Understand how crops are grown, protected and harvested.",
+        "Telugu": "పంటలు ఎలా పెరుగుతాయో, రక్షిస్తారో మరియు కోస్తారో తెలుసుకోండి.",
+        "Hindi": "जानें कि फसलें कैसे उगाई जाती हैं, सुरक्षित रखी जाती हैं और कटाई होती है।"
+      },
+      "lessons": [
+        {
+          "id": "farming-practices",
+          "visual": "🚜",
+          "title": {
+            "English": "From Seed to Harvest",
+            "Telugu": "విత్తనం నుండి కోత వరకు",
+            "Hindi": "बीज से कटाई तक"
+          },
+          "image": "./images/lessons/agriculture.png",
+          "explanation": {
+            "English": "Crop production involves preparing the soil, sowing seeds, watering, protecting the crop and harvesting at the right time. Proper storage prevents loss of food grains.",
+            "Telugu": "పంట ఉత్పత్తిలో నేలను సిద్ధం చేయడం, విత్తనాలను విత్తడం, నీరు ఇవ్వడం, పంటను రక్షించడం మరియు సరైన సమయంలో కోత జరపడం ఉంటాయి. మంచివి నిల్వ చేయడం ఆహార నష్టాన్ని తగ్గిస్తుంది.",
+            "Hindi": "फसल उत्पादन में मिट्टी तैयार करना, बीज बोना, सिंचाई, फसल की सुरक्षा और सही समय पर कटाई शामिल होती है। सही भंडारण से अनाज की हानि कम होती है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Crops need good soil and water.",
+              "Seeds are sown in prepared fields.",
+              "Weeds and pests are controlled.",
+              "Harvesting at the correct time is important."
+            ],
+            "Telugu": [
+              "పంటలకు మంచి నేల మరియు నీరు కావాలి.",
+              "విత్తనాలను సిద్ధం చేసిన పొలంలో విత్తిస్తారు.",
+              "మొక్కలు మరియు కీటకాలు నియంత్రించబడతాయి.",
+              "సరైన సమయంలో కోత ముఖ్యమైనది."
+            ],
+            "Hindi": [
+              "फसलों के लिए अच्छी मिट्टी और पानी चाहिए।",
+              "बीज तैयार खेतों में बोए जाते हैं।",
+              "खरपतवार और कीटों से रक्षा की जाती है।",
+              "सही समय पर कटाई महत्वपूर्ण है।"
+            ]
+          },
+          "activity": {
+            "English": "Design a brief crop calendar for a season in your region.",
+            "Telugu": "మీ ప్రాంతంలో ఒక సీజన్‌కు పంట కాలెండర్ తయారు చేయండి.",
+            "Hindi": "अपने क्षेत्र के लिए एक फसल कैलेंडर बनाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Crops sown in the rainy season (June-July) are called...",
+                "Telugu": "వర్షాకాలంలో (జూన్-జూలై) విత్తే పంటలను ఏమంటారు?",
+                "Hindi": "बरसात (जून-जुलाई) में बोई जाने वाली फसलें क्या कहलाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Kharif crops",
+                  "Rabi crops",
+                  "Zaid crops only",
+                  "Winter crops"
+                ],
+                "Telugu": [
+                  "ఖరీఫ్ పంటలు",
+                  "రబీ పంటలు",
+                  "జాయిద్ పంటలు మాత్రమే",
+                  "శీతాకాల పంటలు"
+                ],
+                "Hindi": [
+                  "खरीफ़ फसलें",
+                  "रबी फसलें",
+                  "सिर्फ़ ज़ायद फसलें",
+                  "सर्दी की फसलें"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Paddy, maize, soybean and cotton are kharif crops.",
+                "Telugu": "వరి, మొక్కజొన్న, సోయాబీన్, ప్రత్తి ఖరీఫ్ పంటలు.",
+                "Hindi": "धान, मक्का, सोयाबीन और कपास खरीफ़ फसलें हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Wheat, gram and mustard are...",
+                "Telugu": "గోధుమ, శనగ, ఆవాలు...",
+                "Hindi": "गेहूँ, चना और सरसों क्या हैं?"
+              },
+              "options": {
+                "English": [
+                  "Kharif crops",
+                  "Rabi crops",
+                  "Weeds",
+                  "Fibre crops only"
+                ],
+                "Telugu": [
+                  "ఖరీఫ్ పంటలు",
+                  "రబీ పంటలు",
+                  "కలుపు మొక్కలు",
+                  "పీచు పంటలు మాత్రమే"
+                ],
+                "Hindi": [
+                  "खरीफ़ फसलें",
+                  "रबी फसलें",
+                  "खरपतवार",
+                  "सिर्फ़ रेशा फसलें"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Rabi crops are sown in winter (October-November) and harvested in March-April.",
+                "Telugu": "రబీ పంటలను శీతాకాలంలో (అక్టోబర్-నవంబర్) విత్తి మార్చి-ఏప్రిల్‌లో కోస్తారు.",
+                "Hindi": "रबी फसलें सर्दी (अक्टूबर-नवंबर) में बोई और मार्च-अप्रैल में काटी जाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Loosening and turning the soil is called...",
+                "Telugu": "నేలను వదులు చేసి తిరగవేయడాన్ని ఏమంటారు?",
+                "Hindi": "मिट्टी को ढीला करके पलटना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Harvesting",
+                  "Threshing",
+                  "Ploughing (tilling)",
+                  "Winnowing"
+                ],
+                "Telugu": [
+                  "కోత",
+                  "నూర్పిడి",
+                  "దున్నడం",
+                  "తూర్పారబట్టడం"
+                ],
+                "Hindi": [
+                  "कटाई",
+                  "गहाई",
+                  "जुताई",
+                  "ओसाई"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Ploughing lets roots breathe and go deep and helps earthworms and microbes.",
+                "Telugu": "దున్నడం వేర్లు శ్వాసించడానికి, లోతుగా వెళ్లడానికి వీలిస్తుంది, వానపాములు, సూక్ష్మజీవులకు సహాయపడుతుంది.",
+                "Hindi": "जुताई से जड़ें साँस लेती और गहराई तक जाती हैं और केंचुओं व सूक्ष्मजीवों को मदद मिलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a modern method of irrigation that saves water?",
+                "Telugu": "నీటిని ఆదా చేసే ఆధునిక నీటిపారుదల పద్ధతి ఏది?",
+                "Hindi": "पानी बचाने वाली आधुनिक सिंचाई विधि कौन सी है?"
+              },
+              "options": {
+                "English": [
+                  "Moat (pulley system)",
+                  "Chain pump",
+                  "Dhekli",
+                  "Sprinkler system"
+                ],
+                "Telugu": [
+                  "మోట (కప్పీ వ్యవస్థ)",
+                  "గొలుసు పంపు",
+                  "ఏతాం",
+                  "స్ప్రింక్లర్ వ్యవస్థ"
+                ],
+                "Hindi": [
+                  "मोट (घिरनी)",
+                  "रहट",
+                  "ढेकली",
+                  "छिड़काव (स्प्रिंकलर) तंत्र"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Sprinklers and drip systems deliver water evenly with less waste.",
+                "Telugu": "స్ప్రింక్లర్లు, బిందు వ్యవస్థలు తక్కువ వృథాతో నీటిని సమంగా అందిస్తాయి.",
+                "Hindi": "स्प्रिंकलर और टपक तंत्र कम बर्बादी के साथ पानी बराबर पहुँचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Growing different crops one after another on the same land (crop rotation) keeps soil fertile.",
+                "Telugu": "నిజమా అబద్ధమా: ఒకే భూమిలో ఒకదాని తర్వాత మరో పంట (పంట మార్పిడి) వేస్తే నేల సారవంతంగా ఉంటుంది.",
+                "Hindi": "सही या गलत: एक ही ज़मीन पर बारी-बारी अलग फसलें (फसल चक्र) उगाने से मिट्टी उपजाऊ रहती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Growing pulses between cereal crops adds nitrogen back to the soil.",
+                "Telugu": "ధాన్యపు పంటల మధ్య పప్పుధాన్యాలు వేస్తే నేలకు నైట్రోజన్ తిరిగి చేరుతుంది.",
+                "Hindi": "अनाज की फसलों के बीच दलहन उगाने से मिट्टी में नाइट्रोजन लौटती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Chemicals used to kill weeds are called...",
+                "Telugu": "కలుపు మొక్కలను చంపే రసాయనాలను ఏమంటారు?",
+                "Hindi": "खरपतवार मारने वाले रसायन क्या कहलाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Weedicides",
+                  "Fertilisers",
+                  "Manures",
+                  "Antibiotics"
+                ],
+                "Telugu": [
+                  "కలుపు నాశనులు",
+                  "రసాయన ఎరువులు",
+                  "సేంద్రియ ఎరువులు",
+                  "యాంటీబయాటిక్స్"
+                ],
+                "Hindi": [
+                  "खरपतवारनाशी",
+                  "उर्वरक",
+                  "खाद",
+                  "प्रतिजैविक"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Farmers must cover their nose and mouth while spraying weedicides.",
+                "Telugu": "కలుపు నాశనులు చల్లేటప్పుడు రైతులు ముక్కు, నోరు కప్పుకోవాలి.",
+                "Hindi": "खरपतवारनाशी छिड़कते समय किसानों को नाक और मुँह ढकना चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "How does manure differ from fertiliser?",
+                "Telugu": "సేంద్రియ ఎరువు రసాయన ఎరువు నుంచి ఎలా భిన్నం?",
+                "Hindi": "खाद उर्वरक से कैसे अलग है?"
+              },
+              "options": {
+                "English": [
+                  "Manure is made in factories",
+                  "Manure is natural and adds humus to the soil",
+                  "Manure has no nutrients",
+                  "Manure kills soil microbes"
+                ],
+                "Telugu": [
+                  "సేంద్రియ ఎరువును కర్మాగారాల్లో తయారు చేస్తారు",
+                  "సేంద్రియ ఎరువు సహజమైనది, నేలకు హ్యూమస్ చేరుస్తుంది",
+                  "దానిలో పోషకాలు ఉండవు",
+                  "అది నేల సూక్ష్మజీవులను చంపుతుంది"
+                ],
+                "Hindi": [
+                  "खाद कारखाने में बनती है",
+                  "खाद प्राकृतिक है और मिट्टी में ह्यूमस मिलाती है",
+                  "खाद में पोषक तत्व नहीं",
+                  "खाद मिट्टी के सूक्ष्मजीव मारती है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Manure from plant and animal waste improves soil texture; fertilisers are chemical salts.",
+                "Telugu": "మొక్కలు, జంతు వ్యర్థాల నుంచి వచ్చే సేంద్రియ ఎరువు నేల నిర్మాణాన్ని మెరుగుపరుస్తుంది; రసాయన ఎరువులు రసాయన లవణాలు.",
+                "Hindi": "पौधों और पशुओं के कचरे से बनी खाद मिट्टी की बनावट सुधारती है; उर्वरक रासायनिक लवण हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Separating grain from chaff after harvest is done by...",
+                "Telugu": "కోత తర్వాత ధాన్యాన్ని పొట్టు నుంచి వేరు చేయడానికి ఏమి చేస్తారు?",
+                "Hindi": "कटाई के बाद अनाज को भूसे से कैसे अलग करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Sowing",
+                  "Irrigation",
+                  "Threshing",
+                  "Weeding"
+                ],
+                "Telugu": [
+                  "విత్తడం",
+                  "నీటిపారుదల",
+                  "నూర్పిడి",
+                  "కలుపు తీయడం"
+                ],
+                "Hindi": [
+                  "बुवाई",
+                  "सिंचाई",
+                  "गहाई",
+                  "निराई"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A combine machine harvests and threshes in one step.",
+                "Telugu": "కంబైన్ యంత్రం కోత, నూర్పిడి ఒకేసారి చేస్తుంది.",
+                "Hindi": "कंबाइन मशीन कटाई और गहाई एक साथ करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Dried neem leaves help protect stored grains from pests.",
+                "Telugu": "నిజమా అబద్ధమా: ఎండిన వేప ఆకులు నిల్వ ధాన్యాలను పురుగుల నుంచి కాపాడతాయి.",
+                "Hindi": "सही या गलत: सूखी नीम की पत्तियाँ भंडारित अनाज को कीड़ों से बचाती हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Neem is a natural pest repellent used in homes; large silos use chemical treatment.",
+                "Telugu": "వేప ఇళ్లలో వాడే సహజ కీటక నివారిణి; పెద్ద గోదాముల్లో రసాయన చికిత్స వాడతారు.",
+                "Hindi": "नीम घरों में उपयोग होने वाला प्राकृतिक कीट-रोधी है; बड़े भंडारों में रासायनिक उपचार होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Rearing animals for food like milk and eggs on a large scale is called...",
+                "Telugu": "పాలు, గుడ్ల వంటి ఆహారం కోసం పెద్ద ఎత్తున జంతువులను పెంచడాన్ని ఏమంటారు?",
+                "Hindi": "दूध और अंडे जैसे भोजन के लिए बड़े पैमाने पर पशु पालना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Weeding",
+                  "Irrigation",
+                  "Crop rotation",
+                  "Animal husbandry"
+                ],
+                "Telugu": [
+                  "కలుపు తీయడం",
+                  "నీటిపారుదల",
+                  "పంట మార్పిడి",
+                  "పశుపోషణ"
+                ],
+                "Hindi": [
+                  "निराई",
+                  "सिंचाई",
+                  "फसल चक्र",
+                  "पशुपालन"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Animal husbandry includes proper food, shelter and care for farm animals.",
+                "Telugu": "పశుపోషణలో పెంపుడు జంతువులకు సరైన ఆహారం, ఆశ్రయం, సంరక్షణ ఉంటాయి.",
+                "Hindi": "पशुपालन में पशुओं को सही भोजन, आश्रय और देखभाल देना शामिल है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sound",
+      "icon": "🔊",
+      "title": {
+        "English": "Sound",
+        "Telugu": "ధ్వని",
+        "Hindi": "ध्वनि"
+      },
+      "description": {
+        "English": "How sound is made, how it travels and how we hear it.",
+        "Telugu": "ధ్వని ఎలా పుడుతుంది, ఎలా ప్రయాణిస్తుంది, మనం ఎలా వింటాం.",
+        "Hindi": "ध्वनि कैसे बनती है, कैसे चलती है और हम कैसे सुनते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "sound-lesson",
+          "visual": "🥁",
+          "title": {
+            "English": "Vibrations and Hearing",
+            "Telugu": "కంపనాలు, వినికిడి",
+            "Hindi": "कंपन और सुनना"
+          },
+          "image": "./images/lessons/placeholder-education.svg",
+          "explanation": {
+            "English": "Sound is produced by vibrating objects, like a drum skin or our vocal cords. Sound needs a medium (solid, liquid or gas) to travel and cannot travel through a vacuum. The number of vibrations per second is the frequency, measured in hertz (Hz); higher frequency gives higher pitch. The size of vibration (amplitude) decides loudness, measured in decibels (dB). Humans hear 20 Hz to 20,000 Hz. Unpleasant loud sound is noise; noise pollution can damage hearing.",
+            "Telugu": "కంపించే వస్తువులు, డప్పు చర్మం లేదా మన స్వరపేటికలలా, ధ్వనిని ఉత్పత్తి చేస్తాయి. ధ్వని ప్రయాణానికి యానకం (ఘన, ద్రవ, వాయువు) అవసరం, శూన్యంలో ప్రయాణించదు. సెకనుకు కంపనాల సంఖ్య పౌనఃపున్యం, హెర్ట్జ్ (Hz)లో కొలుస్తారు; ఎక్కువ పౌనఃపున్యం ఎక్కువ కీచుదనం ఇస్తుంది. కంపన పరిమాణం (కంపన పరిమితి) శబ్ద తీవ్రతను నిర్ణయిస్తుంది, డెసిబెల్‌లలో (dB) కొలుస్తారు. మనుషులు 20 Hz నుంచి 20,000 Hz వరకు వింటారు. అసహ్యకరమైన పెద్ద శబ్దం రొద; ధ్వని కాలుష్యం వినికిడిని దెబ్బతీస్తుంది.",
+            "Hindi": "ध्वनि कंपन करती वस्तुओं से बनती है, जैसे ढोल की खाल या हमारे स्वर रज्जु। ध्वनि को चलने के लिए माध्यम (ठोस, तरल या गैस) चाहिए; यह निर्वात में नहीं चलती। प्रति सेकंड कंपनों की संख्या आवृत्ति है, जो हर्ट्ज़ (Hz) में मापी जाती है; ज़्यादा आवृत्ति से ऊँचा तारत्व होता है। कंपन का आकार (आयाम) प्रबलता तय करता है, जो डेसिबल (dB) में मापी जाती है। मनुष्य 20 Hz से 20,000 Hz तक सुनते हैं। अप्रिय तेज़ ध्वनि शोर है; ध्वनि प्रदूषण सुनने की शक्ति को नुकसान पहुँचा सकता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Sound is made by vibrations.",
+              "Sound needs a medium; it cannot travel in a vacuum.",
+              "Frequency (Hz) decides pitch.",
+              "Amplitude decides loudness (dB).",
+              "Humans hear 20 Hz to 20,000 Hz."
+            ],
+            "Telugu": [
+              "ధ్వని కంపనాల వల్ల పుడుతుంది.",
+              "ధ్వనికి యానకం కావాలి; శూన్యంలో ప్రయాణించదు.",
+              "పౌనఃపున్యం (Hz) కీచుదనాన్ని నిర్ణయిస్తుంది.",
+              "కంపన పరిమితి శబ్ద తీవ్రతను (dB) నిర్ణయిస్తుంది.",
+              "మనుషులు 20 Hz నుంచి 20,000 Hz వరకు వింటారు."
+            ],
+            "Hindi": [
+              "ध्वनि कंपन से बनती है।",
+              "ध्वनि को माध्यम चाहिए; यह निर्वात में नहीं चलती।",
+              "आवृत्ति (Hz) तारत्व तय करती है।",
+              "आयाम प्रबलता (dB) तय करता है।",
+              "मनुष्य 20 Hz से 20,000 Hz तक सुनते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Make a string telephone with two paper cups and a long thread. Talk to a friend through it.",
+            "Telugu": "రెండు కాగితపు కప్పులు, పొడవైన దారంతో దారపు టెలిఫోన్ చేసి స్నేహితుడితో మాట్లాడండి.",
+            "Hindi": "दो कागज़ के कप और लंबे धागे से धागा-टेलीफ़ोन बनाकर दोस्त से बात कीजिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Sound is produced by...",
+                "Telugu": "ధ్వని దేని వల్ల పుడుతుంది?",
+                "Hindi": "ध्वनि किससे बनती है?"
+              },
+              "options": {
+                "English": [
+                  "Vibrating objects",
+                  "Light",
+                  "Magnets only",
+                  "Cold air"
+                ],
+                "Telugu": [
+                  "కంపించే వస్తువులు",
+                  "కాంతి",
+                  "అయస్కాంతాలు మాత్రమే",
+                  "చల్లని గాలి"
+                ],
+                "Hindi": [
+                  "कंपन करती वस्तुएँ",
+                  "प्रकाश",
+                  "सिर्फ़ चुंबक",
+                  "ठंडी हवा"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A to-and-fro motion (vibration) of an object produces sound.",
+                "Telugu": "వస్తువు ముందుకు వెనక్కు కదలిక (కంపనం) ధ్వనిని ఉత్పత్తి చేస్తుంది.",
+                "Hindi": "वस्तु की आगे-पीछे की गति (कंपन) ध्वनि बनाती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Sound cannot travel through...",
+                "Telugu": "ధ్వని దేని ద్వారా ప్రయాణించలేదు?",
+                "Hindi": "ध्वनि किसमें नहीं चल सकती?"
+              },
+              "options": {
+                "English": [
+                  "Water",
+                  "A vacuum",
+                  "Iron",
+                  "Air"
+                ],
+                "Telugu": [
+                  "నీరు",
+                  "శూన్యం",
+                  "ఇనుము",
+                  "గాలి"
+                ],
+                "Hindi": [
+                  "पानी",
+                  "निर्वात",
+                  "लोहा",
+                  "हवा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Sound needs particles to pass on vibrations; space is silent.",
+                "Telugu": "కంపనాలను అందించడానికి ధ్వనికి కణాలు కావాలి; అంతరిక్షం నిశ్శబ్దం.",
+                "Hindi": "कंपन आगे बढ़ाने के लिए ध्वनि को कण चाहिए; अंतरिक्ष शांत है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The unit of frequency is...",
+                "Telugu": "పౌనఃపున్యం యొక్క ప్రమాణం...",
+                "Hindi": "आवृत्ति की इकाई क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Decibel",
+                  "Newton",
+                  "Hertz",
+                  "Metre"
+                ],
+                "Telugu": [
+                  "డెసిబెల్",
+                  "న్యూటన్",
+                  "హెర్ట్జ్",
+                  "మీటరు"
+                ],
+                "Hindi": [
+                  "डेसिबल",
+                  "न्यूटन",
+                  "हर्ट्ज़",
+                  "मीटर"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "One hertz is one vibration per second.",
+                "Telugu": "ఒక హెర్ట్జ్ అంటే సెకనుకు ఒక కంపనం.",
+                "Hindi": "एक हर्ट्ज़ यानी प्रति सेकंड एक कंपन।"
+              }
+            },
+            {
+              "question": {
+                "English": "Loudness of sound depends on its...",
+                "Telugu": "ధ్వని తీవ్రత దేనిపై ఆధారపడుతుంది?",
+                "Hindi": "ध्वनि की प्रबलता किस पर निर्भर करती है?"
+              },
+              "options": {
+                "English": [
+                  "Frequency",
+                  "Colour",
+                  "Speed only",
+                  "Amplitude"
+                ],
+                "Telugu": [
+                  "పౌనఃపున్యం",
+                  "రంగు",
+                  "వడి మాత్రమే",
+                  "కంపన పరిమితి"
+                ],
+                "Hindi": [
+                  "आवृत्ति",
+                  "रंग",
+                  "सिर्फ़ चाल",
+                  "आयाम"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A bigger amplitude (stronger vibration) gives a louder sound.",
+                "Telugu": "పెద్ద కంపన పరిమితి (బలమైన కంపనం) పెద్ద శబ్దం ఇస్తుంది.",
+                "Hindi": "बड़ा आयाम (ज़्यादा कंपन) तेज़ ध्वनि देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A woman's voice usually has a higher pitch than a man's.",
+                "Telugu": "నిజమా అబద్ధమా: స్త్రీ స్వరం సాధారణంగా పురుషుని స్వరం కంటే ఎక్కువ కీచుదనం కలిగి ఉంటుంది.",
+                "Hindi": "सही या गलत: महिला की आवाज़ का तारत्व आमतौर पर पुरुष से ऊँचा होता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Shorter vocal cords vibrate faster, giving a higher frequency and pitch.",
+                "Telugu": "పొట్టి స్వరతంతువులు వేగంగా కంపించి ఎక్కువ పౌనఃపున్యం, కీచుదనం ఇస్తాయి.",
+                "Hindi": "छोटे स्वर रज्जु तेज़ कंपन करते हैं, जिससे आवृत्ति और तारत्व ऊँचा होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "In humans, sound is produced by the...",
+                "Telugu": "మనుషుల్లో ధ్వనిని ఉత్పత్తి చేసేది...",
+                "Hindi": "मनुष्य में ध्वनि कौन बनाता है?"
+              },
+              "options": {
+                "English": [
+                  "Voice box (larynx)",
+                  "Lungs only",
+                  "Teeth",
+                  "Nose"
+                ],
+                "Telugu": [
+                  "స్వరపేటిక (లారింక్స్)",
+                  "ఊపిరితిత్తులు మాత్రమే",
+                  "దంతాలు",
+                  "ముక్కు"
+                ],
+                "Hindi": [
+                  "स्वर यंत्र (कंठ)",
+                  "सिर्फ़ फेफड़े",
+                  "दाँत",
+                  "नाक"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Two vocal cords in the larynx vibrate as air from the lungs passes between them.",
+                "Telugu": "ఊపిరితిత్తుల నుంచి గాలి వెళ్లేటప్పుడు స్వరపేటికలోని రెండు స్వరతంతువులు కంపిస్తాయి.",
+                "Hindi": "फेफड़ों की हवा गुज़रने पर कंठ के दो स्वर रज्जु कंपन करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Sounds above 20,000 Hz that humans cannot hear are called...",
+                "Telugu": "మనుషులు వినలేని 20,000 Hz కంటే ఎక్కువ ధ్వనులను ఏమంటారు?",
+                "Hindi": "20,000 Hz से ऊपर की ध्वनियाँ जो मनुष्य नहीं सुन सकते, क्या कहलाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Infrasonic",
+                  "Ultrasonic",
+                  "Noise",
+                  "Echo"
+                ],
+                "Telugu": [
+                  "అవశ్రావ్య ధ్వనులు",
+                  "అతిధ్వనులు (అల్ట్రాసోనిక్)",
+                  "రొద",
+                  "ప్రతిధ్వని"
+                ],
+                "Hindi": [
+                  "अवश्रव्य",
+                  "पराश्रव्य (अल्ट्रासोनिक)",
+                  "शोर",
+                  "प्रतिध्वनि"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Bats and dogs can hear ultrasound; doctors use it for scans.",
+                "Telugu": "గబ్బిలాలు, కుక్కలు అతిధ్వనులు వినగలవు; వైద్యులు స్కానింగ్‌కు వాడతారు.",
+                "Hindi": "चमगादड़ और कुत्ते पराश्रव्य सुन सकते हैं; डॉक्टर इसे स्कैन में इस्तेमाल करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a way to reduce noise pollution?",
+                "Telugu": "ధ్వని కాలుష్యాన్ని తగ్గించే మార్గం ఏది?",
+                "Hindi": "ध्वनि प्रदूषण कम करने का तरीका कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Honk often",
+                  "Play music very loud",
+                  "Plant trees along roads and use silencers",
+                  "Remove all windows"
+                ],
+                "Telugu": [
+                  "తరచుగా హారన్ కొట్టడం",
+                  "సంగీతం చాలా పెద్దగా పెట్టడం",
+                  "రోడ్ల వెంట చెట్లు నాటి, సైలెన్సర్లు వాడటం",
+                  "అన్ని కిటికీలు తీసేయడం"
+                ],
+                "Hindi": [
+                  "बार-बार हॉर्न बजाना",
+                  "बहुत तेज़ संगीत बजाना",
+                  "सड़कों के किनारे पेड़ लगाना और साइलेंसर लगाना",
+                  "सारी खिड़कियाँ हटाना"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Trees absorb sound and silencers reduce engine noise.",
+                "Telugu": "చెట్లు శబ్దాన్ని గ్రహిస్తాయి, సైలెన్సర్లు ఇంజిన్ శబ్దాన్ని తగ్గిస్తాయి.",
+                "Hindi": "पेड़ ध्वनि सोखते हैं और साइलेंसर इंजन का शोर घटाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Sound travels faster in solids than in air.",
+                "Telugu": "నిజమా అబద్ధమా: ధ్వని గాలి కంటే ఘనపదార్థాల్లో వేగంగా ప్రయాణిస్తుంది.",
+                "Hindi": "सही या गलत: ध्वनि हवा से ज़्यादा तेज़ ठोसों में चलती है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Particles in solids are close together, so vibrations pass faster.",
+                "Telugu": "ఘనపదార్థాల్లో కణాలు దగ్గరగా ఉంటాయి, కాబట్టి కంపనాలు వేగంగా వెళ్తాయి.",
+                "Hindi": "ठोसों में कण पास-पास होते हैं, इसलिए कंपन तेज़ी से आगे बढ़ते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The part of the ear that vibrates when sound hits it is the...",
+                "Telugu": "ధ్వని తగిలినప్పుడు కంపించే చెవి భాగం...",
+                "Hindi": "ध्वनि टकराने पर कान का कौन सा भाग कंपन करता है?"
+              },
+              "options": {
+                "English": [
+                  "Ear lobe",
+                  "Nose",
+                  "Cochlea's hair only",
+                  "Eardrum"
+                ],
+                "Telugu": [
+                  "చెవి తమ్మె",
+                  "ముక్కు",
+                  "కర్ణావర్తంలో వెంట్రుకలు మాత్రమే",
+                  "కర్ణభేరి"
+                ],
+                "Hindi": [
+                  "कान की लौ",
+                  "नाक",
+                  "सिर्फ़ कर्णावर्त के बाल",
+                  "कान का पर्दा"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The eardrum passes vibrations to the inner ear, which sends signals to the brain.",
+                "Telugu": "కర్ణభేరి కంపనాలను లోపలి చెవికి అందిస్తుంది, అది మెదడుకు సంకేతాలు పంపుతుంది.",
+                "Hindi": "कान का पर्दा कंपन भीतरी कान तक पहुँचाता है, जो दिमाग को संकेत भेजता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemical-effects-of-current",
+      "icon": "⚗️",
+      "title": {
+        "English": "Chemical Effects of Electric Current",
+        "Telugu": "విద్యుత్ ప్రవాహ రసాయన ఫలితాలు",
+        "Hindi": "विद्युत धारा के रासायनिक प्रभाव"
+      },
+      "description": {
+        "English": "Liquids that conduct electricity and electroplating.",
+        "Telugu": "విద్యుత్తును ప్రసరించే ద్రవాలు, విద్యుత్ లేపనం.",
+        "Hindi": "बिजली चलाने वाले द्रव और विद्युत लेपन।"
+      },
+      "lessons": [
+        {
+          "id": "chemical-effects-of-current-lesson",
+          "visual": "🔋",
+          "title": {
+            "English": "Current Through Liquids",
+            "Telugu": "ద్రవాల ద్వారా విద్యుత్తు",
+            "Hindi": "द्रवों में धारा"
+          },
+          "image": "./images/lessons/electricity-and-circuits.svg",
+          "explanation": {
+            "English": "Some liquids conduct electricity: tap water, salt water and lemon juice do, but distilled water does not. A tester with an LED can show weak currents. When current passes through a conducting solution, chemical changes happen: gas bubbles form on the electrodes, metal may be deposited or the colour may change. Depositing a thin layer of one metal on another using electricity is electroplating. Chromium plating makes taps shiny and tin plating protects food cans.",
+            "Telugu": "కొన్ని ద్రవాలు విద్యుత్తును ప్రసరిస్తాయి: కుళాయి నీరు, ఉప్పు నీరు, నిమ్మరసం ప్రసరిస్తాయి, కానీ స్వేదన జలం ప్రసరించదు. LED ఉన్న టెస్టర్ బలహీన విద్యుత్తును చూపిస్తుంది. వాహక ద్రావణం గుండా విద్యుత్ ప్రవహిస్తే రసాయన మార్పులు జరుగుతాయి: ఎలక్ట్రోడ్లపై వాయు బుడగలు, లోహ నిక్షేపం లేదా రంగు మార్పు. విద్యుత్తుతో ఒక లోహంపై మరో లోహపు పలుచని పొర వేయడమే విద్యుత్ లేపనం. క్రోమియం లేపనం కుళాయిలను మెరిపిస్తుంది, తగరం లేపనం ఆహార డబ్బాలను కాపాడుతుంది.",
+            "Hindi": "कुछ द्रव बिजली चलाते हैं: नल का पानी, नमक का पानी और नींबू का रस चलाते हैं, पर आसुत जल नहीं। एलईडी वाला टेस्टर कमज़ोर धारा भी दिखाता है। चालक घोल से धारा गुज़रने पर रासायनिक परिवर्तन होते हैं: इलेक्ट्रोड पर गैस के बुलबुले, धातु का जमना या रंग बदलना। बिजली से एक धातु पर दूसरी धातु की पतली परत चढ़ाना विद्युत लेपन है। क्रोमियम लेपन से नल चमकते हैं और टिन लेपन खाने के डिब्बों की रक्षा करता है।"
+          },
+          "keyPoints": {
+            "English": [
+              "Salt water and lemon juice conduct electricity.",
+              "Distilled water is a poor conductor.",
+              "Current causes chemical changes in solutions.",
+              "Electroplating coats one metal with another.",
+              "Chromium and tin plating protect and shine."
+            ],
+            "Telugu": [
+              "ఉప్పు నీరు, నిమ్మరసం విద్యుత్తును ప్రసరిస్తాయి.",
+              "స్వేదన జలం బలహీన వాహకం.",
+              "విద్యుత్తు ద్రావణాల్లో రసాయన మార్పులు కలిగిస్తుంది.",
+              "విద్యుత్ లేపనం ఒక లోహంపై మరో లోహం పూత వేస్తుంది.",
+              "క్రోమియం, తగరం లేపనం రక్షణ, మెరుపు ఇస్తాయి."
+            ],
+            "Hindi": [
+              "नमक का पानी और नींबू का रस बिजली चलाते हैं।",
+              "आसुत जल खराब चालक है।",
+              "धारा घोलों में रासायनिक परिवर्तन करती है।",
+              "विद्युत लेपन एक धातु पर दूसरी धातु चढ़ाता है।",
+              "क्रोमियम और टिन लेपन रक्षा और चमक देते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Make a tester with a cell, wires and an LED. Test lemon juice, sugar water and salt water.",
+            "Telugu": "సెల్, తీగలు, LEDతో టెస్టర్ తయారు చేసి నిమ్మరసం, చక్కెర నీరు, ఉప్పు నీటిని పరీక్షించండి.",
+            "Hindi": "सेल, तार और एलईडी से टेस्टर बनाइए और नींबू रस, चीनी का पानी और नमक का पानी जाँचिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which liquid conducts electricity well?",
+                "Telugu": "ఏ ద్రవం విద్యుత్తును బాగా ప్రసరిస్తుంది?",
+                "Hindi": "कौन सा द्रव बिजली अच्छी तरह चलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Salt water",
+                  "Distilled water",
+                  "Vegetable oil",
+                  "Honey"
+                ],
+                "Telugu": [
+                  "ఉప్పు నీరు",
+                  "స్వేదన జలం",
+                  "వంట నూనె",
+                  "తేనె"
+                ],
+                "Hindi": [
+                  "नमक का पानी",
+                  "आसुत जल",
+                  "वनस्पति तेल",
+                  "शहद"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Dissolved salts make water a good conductor.",
+                "Telugu": "కరిగిన లవణాలు నీటిని మంచి వాహకంగా చేస్తాయి.",
+                "Hindi": "घुले लवण पानी को अच्छा चालक बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Distilled water is a poor conductor because it...",
+                "Telugu": "స్వేదన జలం బలహీన వాహకం ఎందుకంటే అది...",
+                "Hindi": "आसुत जल खराब चालक क्यों है?"
+              },
+              "options": {
+                "English": [
+                  "Is too cold",
+                  "Has no dissolved salts",
+                  "Is coloured",
+                  "Is heavy"
+                ],
+                "Telugu": [
+                  "చాలా చల్లగా ఉంటుంది",
+                  "దానిలో కరిగిన లవణాలు ఉండవు",
+                  "రంగు ఉంటుంది",
+                  "బరువుగా ఉంటుంది"
+                ],
+                "Hindi": [
+                  "बहुत ठंडा है",
+                  "इसमें घुले लवण नहीं",
+                  "रंगीन है",
+                  "भारी है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Tap water conducts because it contains small amounts of salts.",
+                "Telugu": "కుళాయి నీటిలో కొద్దిగా లవణాలు ఉండటం వల్ల అది ప్రసరిస్తుంది.",
+                "Hindi": "नल का पानी थोड़े लवण होने से बिजली चलाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why is an LED used in a tester instead of a bulb?",
+                "Telugu": "టెస్టర్‌లో బల్బుకు బదులు LED ఎందుకు వాడతారు?",
+                "Hindi": "टेस्टर में बल्ब की जगह एलईडी क्यों लगाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "It is bigger",
+                  "It needs more current",
+                  "It glows even with a weak current",
+                  "It makes sound"
+                ],
+                "Telugu": [
+                  "అది పెద్దది",
+                  "దానికి ఎక్కువ విద్యుత్తు కావాలి",
+                  "బలహీన విద్యుత్తుకు కూడా వెలుగుతుంది",
+                  "శబ్దం చేస్తుంది"
+                ],
+                "Hindi": [
+                  "बड़ा है",
+                  "ज़्यादा धारा चाहिए",
+                  "कमज़ोर धारा में भी जलता है",
+                  "आवाज़ करता है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Weakly conducting liquids may not light a bulb but will light an LED.",
+                "Telugu": "బలహీనంగా ప్రసరించే ద్రవాలు బల్బును వెలిగించకపోవచ్చు కానీ LEDని వెలిగిస్తాయి.",
+                "Hindi": "कमज़ोर चालक द्रव बल्ब नहीं जला पाते पर एलईडी जला देते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Depositing a layer of a metal on another using electricity is called...",
+                "Telugu": "విద్యుత్తుతో ఒక లోహంపై మరో లోహపు పొర వేయడాన్ని ఏమంటారు?",
+                "Hindi": "बिजली से एक धातु पर दूसरी धातु की परत चढ़ाना क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Galvanisation by dipping",
+                  "Rusting",
+                  "Melting",
+                  "Electroplating"
+                ],
+                "Telugu": [
+                  "ముంచి గాల్వనైజేషన్",
+                  "తుప్పు",
+                  "కరగడం",
+                  "విద్యుత్ లేపనం"
+                ],
+                "Hindi": [
+                  "डुबोकर जस्तीकरण",
+                  "जंग",
+                  "पिघलना",
+                  "विद्युत लेपन"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Electroplating is used for shiny taps, jewellery and car parts.",
+                "Telugu": "విద్యుత్ లేపనాన్ని మెరిసే కుళాయిలు, ఆభరణాలు, కార్ భాగాలకు వాడతారు.",
+                "Hindi": "विद्युत लेपन चमकीले नल, आभूषण और कार के पुर्ज़ों में होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Gas bubbles form on the electrodes when current passes through water.",
+                "Telugu": "నిజమా అబద్ధమా: నీటి గుండా విద్యుత్ ప్రవహించినప్పుడు ఎలక్ట్రోడ్లపై వాయు బుడగలు ఏర్పడతాయి.",
+                "Hindi": "सही या गलत: पानी से धारा गुज़रने पर इलेक्ट्रोड पर गैस के बुलबुले बनते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Oxygen forms at the positive electrode and hydrogen at the negative one.",
+                "Telugu": "ధన ఎలక్ట్రోడ్‌పై ఆక్సిజన్, ఋణ ఎలక్ట్రోడ్‌పై హైడ్రోజన్ ఏర్పడతాయి.",
+                "Hindi": "धन इलेक्ट्रोड पर ऑक्सीजन और ऋण पर हाइड्रोजन बनती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Tin is plated on iron food cans because tin...",
+                "Telugu": "ఇనుప ఆహార డబ్బాలకు తగరం లేపనం ఎందుకు చేస్తారు?",
+                "Hindi": "लोहे के खाने के डिब्बों पर टिन क्यों चढ़ाते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Is less reactive than iron and safe with food",
+                  "Is magnetic",
+                  "Makes food sweet",
+                  "Is heavier than iron"
+                ],
+                "Telugu": [
+                  "ఇనుము కంటే తక్కువ చర్యాశీలత గలది, ఆహారంతో సురక్షితం",
+                  "అయస్కాంత గుణం ఉంది",
+                  "ఆహారాన్ని తియ్యగా చేస్తుంది",
+                  "ఇనుము కంటే బరువు"
+                ],
+                "Hindi": [
+                  "लोहे से कम क्रियाशील और भोजन के साथ सुरक्षित है",
+                  "चुंबकीय है",
+                  "खाना मीठा करता है",
+                  "लोहे से भारी है"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Tin does not react with food, while iron could rust and spoil it.",
+                "Telugu": "తగరం ఆహారంతో చర్య జరపదు, ఇనుము తుప్పు పట్టి పాడుచేయవచ్చు.",
+                "Hindi": "टिन भोजन से क्रिया नहीं करता, जबकि लोहे में जंग लगकर भोजन खराब हो सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why should you never touch electrical appliances with wet hands?",
+                "Telugu": "తడి చేతులతో విద్యుత్ పరికరాలను ఎందుకు తాకకూడదు?",
+                "Hindi": "गीले हाथों से बिजली के उपकरण क्यों नहीं छूने चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Water is an insulator",
+                  "Impure water conducts electricity and can give a shock",
+                  "Hands get cold",
+                  "The appliance will rust"
+                ],
+                "Telugu": [
+                  "నీరు అవాహకం",
+                  "అశుద్ధ నీరు విద్యుత్తును ప్రసరించి షాక్ ఇస్తుంది",
+                  "చేతులు చల్లబడతాయి",
+                  "పరికరం తుప్పు పడుతుంది"
+                ],
+                "Hindi": [
+                  "पानी कुचालक है",
+                  "अशुद्ध पानी बिजली चलाकर झटका दे सकता है",
+                  "हाथ ठंडे होंगे",
+                  "उपकरण में जंग लगेगी"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The water on our skin has salts, so it conducts current into the body.",
+                "Telugu": "మన చర్మంపై నీటిలో లవణాలు ఉండి శరీరంలోకి విద్యుత్తును ప్రసరిస్తాయి.",
+                "Hindi": "त्वचा पर पानी में लवण होते हैं, इसलिए वह धारा शरीर में ले जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "In copper plating, the object to be plated is connected to the...",
+                "Telugu": "రాగి లేపనంలో లేపనం చేయాల్సిన వస్తువును దేనికి కలుపుతారు?",
+                "Hindi": "ताँबे के लेपन में जिस वस्तु पर लेप करना है, उसे किससे जोड़ते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Positive terminal",
+                  "A magnet",
+                  "Negative terminal",
+                  "Nothing"
+                ],
+                "Telugu": [
+                  "ధన ధ్రువం",
+                  "అయస్కాంతం",
+                  "ఋణ ధ్రువం",
+                  "దేనికీ కాదు"
+                ],
+                "Hindi": [
+                  "धन सिरा",
+                  "चुंबक",
+                  "ऋण सिरा",
+                  "किसी से नहीं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Copper from the solution deposits on the electrode connected to the negative terminal.",
+                "Telugu": "ద్రావణంలోని రాగి ఋణ ధ్రువానికి కలిపిన ఎలక్ట్రోడ్‌పై నిక్షేపిస్తుంది.",
+                "Hindi": "घोल का ताँबा ऋण सिरे से जुड़े इलेक्ट्रोड पर जमता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Lemon juice is a poor conductor of electricity.",
+                "Telugu": "నిజమా అబద్ధమా: నిమ్మరసం విద్యుత్తుకు బలహీన వాహకం.",
+                "Hindi": "सही या गलत: नींबू का रस बिजली का खराब चालक है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Acids like lemon juice and vinegar conduct electricity.",
+                "Telugu": "నిమ్మరసం, వెనిగర్ వంటి ఆమ్లాలు విద్యుత్తును ప్రసరిస్తాయి.",
+                "Hindi": "नींबू रस और सिरके जैसे अम्ल बिजली चलाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Chromium plating is done on taps and bicycle bells because chromium...",
+                "Telugu": "కుళాయిలు, సైకిల్ గంటలకు క్రోమియం లేపనం ఎందుకు చేస్తారు?",
+                "Hindi": "नल और साइकिल की घंटी पर क्रोमियम लेपन क्यों होता है?"
+              },
+              "options": {
+                "English": [
+                  "Is soft and dull",
+                  "Rusts easily",
+                  "Is cheap and soft",
+                  "Is shiny and does not corrode easily"
+                ],
+                "Telugu": [
+                  "మెత్తగా, మసకగా ఉంటుంది",
+                  "సులభంగా తుప్పు పడుతుంది",
+                  "చౌక, మెత్తనిది",
+                  "మెరుస్తుంది, సులభంగా క్షయం చెందదు"
+                ],
+                "Hindi": [
+                  "नरम और फीका है",
+                  "आसानी से जंग खाता है",
+                  "सस्ता और नरम है",
+                  "चमकीला है और आसानी से संक्षारित नहीं होता"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Chromium is costly, so only a thin layer is plated on cheaper metal.",
+                "Telugu": "క్రోమియం ఖరీదైనది, కాబట్టి చౌకైన లోహంపై పలుచని పొర మాత్రమే వేస్తారు.",
+                "Hindi": "क्रोमियम महँगा है, इसलिए सस्ती धातु पर उसकी पतली परत ही चढ़ाते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combustion-and-flame",
+      "icon": "🔥",
+      "title": {
+        "English": "Combustion and Flame",
+        "Telugu": "దహనం, జ్వాల",
+        "Hindi": "दहन और ज्वाला"
+      },
+      "description": {
+        "English": "What burning needs, fuels, flames and fire safety.",
+        "Telugu": "మండటానికి ఏమి కావాలి, ఇంధనాలు, జ్వాలలు, అగ్ని భద్రత.",
+        "Hindi": "जलने के लिए क्या चाहिए, ईंधन, ज्वाला और अग्नि सुरक्षा।"
+      },
+      "lessons": [
+        {
+          "id": "combustion-and-flame-lesson",
+          "visual": "🕯️",
+          "title": {
+            "English": "Burning, Fuels and Fire Safety",
+            "Telugu": "దహనం, ఇంధనాలు, అగ్ని భద్రత",
+            "Hindi": "जलना, ईंधन और अग्नि सुरक्षा"
+          },
+          "image": "./images/lessons/new-substances-from-reactions.svg",
+          "explanation": {
+            "English": "Combustion is a chemical reaction in which a substance reacts with oxygen to give heat and often light. It needs a fuel, oxygen (air) and heat to reach the ignition temperature, the lowest temperature at which a substance catches fire. Fires are controlled by removing any one of these; water cools burning wood, and carbon dioxide or foam cuts off air from oil and electrical fires. A candle flame has a blue outer zone (hottest), a yellow middle zone and a dark inner zone. A good fuel is cheap, easily available, burns steadily and leaves little smoke; LPG and CNG are cleaner than wood and coal.",
+            "Telugu": "దహనం ఒక రసాయన చర్య, దీనిలో పదార్థం ఆక్సిజన్‌తో చర్య జరిపి వేడి, తరచుగా కాంతి ఇస్తుంది. దీనికి ఇంధనం, ఆక్సిజన్ (గాలి), జ్వలన ఉష్ణోగ్రత వరకు వేడి అవసరం; జ్వలన ఉష్ణోగ్రత అంటే పదార్థం మంటలంటుకునే కనిష్ఠ ఉష్ణోగ్రత. వీటిలో ఏదో ఒకటి తొలగించి మంటలను అదుపు చేస్తారు; నీరు మండే చెక్కను చల్లబరుస్తుంది, కార్బన్ డయాక్సైడ్ లేదా నురుగు నూనె, విద్యుత్ మంటలకు గాలిని అడ్డుకుంటాయి. కొవ్వొత్తి జ్వాలలో నీలి వెలుపలి మండలం (అత్యంత వేడి), పసుపు మధ్య మండలం, చీకటి లోపలి మండలం ఉంటాయి. మంచి ఇంధనం చౌకగా, సులభంగా దొరికి, స్థిరంగా మండి, తక్కువ పొగ ఇస్తుంది; కట్టెలు, బొగ్గు కంటే LPG, CNG శుభ్రమైనవి.",
+            "Hindi": "दहन एक रासायनिक अभिक्रिया है जिसमें पदार्थ ऑक्सीजन से क्रिया करके गर्मी और अक्सर प्रकाश देता है। इसके लिए ईंधन, ऑक्सीजन (हवा) और ज्वलन ताप तक गर्मी चाहिए; ज्वलन ताप वह न्यूनतम तापमान है जिस पर पदार्थ आग पकड़ता है। इनमें से कोई एक हटाकर आग पर काबू पाते हैं; पानी जलती लकड़ी ठंडी करता है, और कार्बन डाइऑक्साइड या फ़ोम तेल व बिजली की आग से हवा काटते हैं। मोमबत्ती की ज्वाला में नीला बाहरी क्षेत्र (सबसे गर्म), पीला मध्य क्षेत्र और काला भीतरी क्षेत्र होता है। अच्छा ईंधन सस्ता, आसानी से मिलने वाला, स्थिर जलने वाला और कम धुआँ देने वाला होता है; एलपीजी और सीएनजी लकड़ी व कोयले से साफ़ हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Combustion needs fuel, oxygen and heat.",
+              "Ignition temperature: lowest temperature to catch fire.",
+              "Water cannot be used on oil or electrical fires.",
+              "Outer blue zone of a flame is the hottest.",
+              "LPG and CNG are cleaner fuels."
+            ],
+            "Telugu": [
+              "దహనానికి ఇంధనం, ఆక్సిజన్, వేడి కావాలి.",
+              "జ్వలన ఉష్ణోగ్రత: మంటలంటుకునే కనిష్ఠ ఉష్ణోగ్రత.",
+              "నూనె, విద్యుత్ మంటలపై నీరు వాడకూడదు.",
+              "జ్వాల వెలుపలి నీలి మండలం అత్యంత వేడి.",
+              "LPG, CNG శుభ్రమైన ఇంధనాలు."
+            ],
+            "Hindi": [
+              "दहन के लिए ईंधन, ऑक्सीजन और गर्मी चाहिए।",
+              "ज्वलन ताप: आग पकड़ने का न्यूनतम तापमान।",
+              "तेल या बिजली की आग पर पानी नहीं डालना चाहिए।",
+              "ज्वाला का बाहरी नीला क्षेत्र सबसे गर्म है।",
+              "एलपीजी और सीएनजी साफ़ ईंधन हैं।"
+            ]
+          },
+          "activity": {
+            "English": "With an adult, hold a glass slide over the yellow zone of a candle flame for a few seconds and look at the black soot.",
+            "Telugu": "పెద్దల సహాయంతో కొవ్వొత్తి జ్వాల పసుపు మండలంపై గాజు పలకను కొన్ని సెకన్లు పట్టి నల్లని మసిని చూడండి.",
+            "Hindi": "बड़ों के साथ मोमबत्ती की पीली ज्वाला के ऊपर काँच की पट्टी कुछ सेकंड रखकर काली कालिख देखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which gas is needed for combustion?",
+                "Telugu": "దహనానికి ఏ వాయువు అవసరం?",
+                "Hindi": "दहन के लिए कौन सी गैस ज़रूरी है?"
+              },
+              "options": {
+                "English": [
+                  "Oxygen",
+                  "Nitrogen",
+                  "Carbon dioxide",
+                  "Helium"
+                ],
+                "Telugu": [
+                  "ఆక్సిజన్",
+                  "నైట్రోజన్",
+                  "కార్బన్ డయాక్సైడ్",
+                  "హీలియం"
+                ],
+                "Hindi": [
+                  "ऑक्सीजन",
+                  "नाइट्रोजन",
+                  "कार्बन डाइऑक्साइड",
+                  "हीलियम"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Oxygen supports burning; a candle in a closed jar goes out when oxygen is used up.",
+                "Telugu": "ఆక్సిజన్ మండటానికి తోడ్పడుతుంది; మూసిన జాడీలోని కొవ్వొత్తి ఆక్సిజన్ అయిపోగానే ఆరిపోతుంది.",
+                "Hindi": "ऑक्सीजन जलने में सहायक है; बंद जार में मोमबत्ती ऑक्सीजन खत्म होते ही बुझती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "The lowest temperature at which a substance catches fire is its...",
+                "Telugu": "ఒక పదార్థం మంటలంటుకునే కనిష్ఠ ఉష్ణోగ్రత దాని...",
+                "Hindi": "जिस न्यूनतम तापमान पर पदार्थ आग पकड़ता है, वह क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Boiling point",
+                  "Ignition temperature",
+                  "Melting point",
+                  "Room temperature"
+                ],
+                "Telugu": [
+                  "మరిగే స్థానం",
+                  "జ్వలన ఉష్ణోగ్రత",
+                  "ద్రవీభవన స్థానం",
+                  "గది ఉష్ణోగ్రత"
+                ],
+                "Hindi": [
+                  "क्वथनांक",
+                  "ज्वलन ताप",
+                  "गलनांक",
+                  "कमरे का तापमान"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Petrol has a low ignition temperature, so it catches fire easily (inflammable).",
+                "Telugu": "పెట్రోలుకు జ్వలన ఉష్ణోగ్రత తక్కువ, అందుకే సులభంగా మంటలంటుకుంటుంది (మండే స్వభావం).",
+                "Hindi": "पेट्रोल का ज्वलन ताप कम है, इसलिए वह आसानी से आग पकड़ता है (ज्वलनशील)।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which zone of a candle flame is the hottest?",
+                "Telugu": "కొవ్వొత్తి జ్వాలలో అత్యంత వేడి మండలం ఏది?",
+                "Hindi": "मोमबत्ती की ज्वाला का कौन सा क्षेत्र सबसे गर्म है?"
+              },
+              "options": {
+                "English": [
+                  "Dark inner zone",
+                  "Yellow middle zone",
+                  "Outer blue zone",
+                  "The wick"
+                ],
+                "Telugu": [
+                  "చీకటి లోపలి మండలం",
+                  "పసుపు మధ్య మండలం",
+                  "వెలుపలి నీలి మండలం",
+                  "వత్తి"
+                ],
+                "Hindi": [
+                  "काला भीतरी क्षेत्र",
+                  "पीला मध्य क्षेत्र",
+                  "बाहरी नीला क्षेत्र",
+                  "बत्ती"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Complete combustion happens in the outer zone; goldsmiths use it to melt gold.",
+                "Telugu": "వెలుపలి మండలంలో పూర్తి దహనం జరుగుతుంది; స్వర్ణకారులు బంగారం కరిగించడానికి దానిని వాడతారు.",
+                "Hindi": "बाहरी क्षेत्र में पूर्ण दहन होता है; सुनार सोना पिघलाने में इसका उपयोग करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Water should NOT be used to put out a fire caused by...",
+                "Telugu": "దేని వల్ల కలిగే మంటలను ఆర్పడానికి నీరు వాడకూడదు?",
+                "Hindi": "किस आग को बुझाने में पानी नहीं डालना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Wood",
+                  "Paper",
+                  "Cloth",
+                  "Electricity or oil"
+                ],
+                "Telugu": [
+                  "కట్టెలు",
+                  "కాగితం",
+                  "బట్ట",
+                  "విద్యుత్ లేదా నూనె"
+                ],
+                "Hindi": [
+                  "लकड़ी",
+                  "कागज़",
+                  "कपड़ा",
+                  "बिजली या तेल"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Water conducts electricity and oil floats on water, spreading the fire. Use CO₂ or sand.",
+                "Telugu": "నీరు విద్యుత్తును ప్రసరిస్తుంది, నూనె నీటిపై తేలి మంటను వ్యాపింపజేస్తుంది. CO₂ లేదా ఇసుక వాడండి.",
+                "Hindi": "पानी बिजली चलाता है और तेल पानी पर तैरकर आग फैलाता है। CO₂ या रेत इस्तेमाल करें।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Burning of wood and coal causes air pollution.",
+                "Telugu": "నిజమా అబద్ధమా: కట్టెలు, బొగ్గు మండటం వాయు కాలుష్యానికి కారణమవుతుంది.",
+                "Hindi": "सही या गलत: लकड़ी और कोयला जलाने से वायु प्रदूषण होता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "They release smoke, soot and gases like carbon monoxide and sulphur dioxide.",
+                "Telugu": "అవి పొగ, మసి, కార్బన్ మోనాక్సైడ్, సల్ఫర్ డయాక్సైడ్ వంటి వాయువులను విడుదల చేస్తాయి.",
+                "Hindi": "इनसे धुआँ, कालिख और कार्बन मोनोऑक्साइड व सल्फ़र डाइऑक्साइड जैसी गैसें निकलती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The amount of heat produced by burning 1 kg of fuel is its...",
+                "Telugu": "1 కిలో ఇంధనం మండి ఇచ్చే వేడి పరిమాణాన్ని ఏమంటారు?",
+                "Hindi": "1 किलो ईंधन जलने से निकली ऊष्मा की मात्रा क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Calorific value",
+                  "Ignition point",
+                  "Melting point",
+                  "Density"
+                ],
+                "Telugu": [
+                  "కెలోరిఫిక్ విలువ",
+                  "జ్వలన స్థానం",
+                  "ద్రవీభవన స్థానం",
+                  "సాంద్రత"
+                ],
+                "Hindi": [
+                  "ऊष्मीय (कैलोरी) मान",
+                  "ज्वलन बिंदु",
+                  "गलनांक",
+                  "घनत्व"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "It is measured in kJ/kg; hydrogen has a very high calorific value.",
+                "Telugu": "దానిని kJ/kgలో కొలుస్తారు; హైడ్రోజన్‌కు చాలా ఎక్కువ కెలోరిఫిక్ విలువ ఉంది.",
+                "Hindi": "यह kJ/kg में मापा जाता है; हाइड्रोजन का ऊष्मीय मान बहुत ऊँचा है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why is it dangerous to burn coal in a closed room?",
+                "Telugu": "మూసిన గదిలో బొగ్గు మండించడం ఎందుకు ప్రమాదకరం?",
+                "Hindi": "बंद कमरे में कोयला जलाना खतरनाक क्यों है?"
+              },
+              "options": {
+                "English": [
+                  "It makes the room cold",
+                  "It produces poisonous carbon monoxide",
+                  "It makes too much light",
+                  "It turns into water"
+                ],
+                "Telugu": [
+                  "గదిని చల్లబరుస్తుంది",
+                  "విషపూరిత కార్బన్ మోనాక్సైడ్ ఉత్పత్తి చేస్తుంది",
+                  "అతిగా వెలుగు ఇస్తుంది",
+                  "నీరుగా మారుతుంది"
+                ],
+                "Hindi": [
+                  "कमरा ठंडा करता है",
+                  "ज़हरीली कार्बन मोनोऑक्साइड बनाता है",
+                  "बहुत रोशनी करता है",
+                  "पानी बन जाता है"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "With little air, burning is incomplete and carbon monoxide can kill people who are asleep.",
+                "Telugu": "గాలి తక్కువగా ఉంటే దహనం అసంపూర్ణం, కార్బన్ మోనాక్సైడ్ నిద్రిస్తున్న వారిని చంపవచ్చు.",
+                "Hindi": "कम हवा में दहन अधूरा होता है और कार्बन मोनोऑक्साइड सोते लोगों की जान ले सकती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "When a match is struck, it lights because...",
+                "Telugu": "అగ్గిపుల్లను గీసినప్పుడు అది ఎందుకు వెలుగుతుంది?",
+                "Hindi": "माचिस रगड़ने पर वह क्यों जलती है?"
+              },
+              "options": {
+                "English": [
+                  "It is wet",
+                  "It is cold",
+                  "Friction heats the tip to its ignition temperature",
+                  "Light falls on it"
+                ],
+                "Telugu": [
+                  "అది తడిగా ఉంటుంది",
+                  "అది చల్లగా ఉంటుంది",
+                  "ఘర్షణ కొనను జ్వలన ఉష్ణోగ్రతకు వేడి చేస్తుంది",
+                  "దానిపై కాంతి పడుతుంది"
+                ],
+                "Hindi": [
+                  "वह गीली है",
+                  "वह ठंडी है",
+                  "घर्षण सिरे को ज्वलन ताप तक गर्म करता है",
+                  "उस पर रोशनी पड़ती है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Rubbing produces heat, and chemicals on the match head catch fire.",
+                "Telugu": "రుద్దడం వేడిని ఇస్తుంది, అగ్గిపుల్ల తలపై రసాయనాలు మంటలంటుకుంటాయి.",
+                "Hindi": "रगड़ से गर्मी बनती है और माचिस के सिरे के रसायन आग पकड़ते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Rapid combustion like burning LPG gives heat and light quickly.",
+                "Telugu": "నిజమా అబద్ధమా: LPG మండటం వంటి వేగవంతమైన దహనం వేడి, కాంతిని త్వరగా ఇస్తుంది.",
+                "Hindi": "सही या गलत: एलपीजी जलने जैसा तीव्र दहन जल्दी गर्मी और प्रकाश देता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Rapid combustion is fast; spontaneous combustion starts without external heat, as in phosphorus.",
+                "Telugu": "వేగవంతమైన దహనం త్వరగా జరుగుతుంది; భాస్వరంలోలా స్వయం దహనం బయటి వేడి లేకుండానే మొదలవుతుంది.",
+                "Hindi": "तीव्र दहन जल्दी होता है; स्वतः दहन बिना बाहरी गर्मी शुरू होता है, जैसे फ़ॉस्फ़ोरस में।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is the cleanest fuel among these?",
+                "Telugu": "వీటిలో అత్యంత శుభ్రమైన ఇంధనం ఏది?",
+                "Hindi": "इनमें सबसे साफ़ ईंधन कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Wood",
+                  "Cow dung cakes",
+                  "Coal",
+                  "CNG"
+                ],
+                "Telugu": [
+                  "కట్టెలు",
+                  "పిడకలు",
+                  "బొగ్గు",
+                  "CNG"
+                ],
+                "Hindi": [
+                  "लकड़ी",
+                  "उपले",
+                  "कोयला",
+                  "सीएनजी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Compressed natural gas burns with very little smoke; many cities use it for buses and autos.",
+                "Telugu": "సంపీడిత సహజ వాయువు చాలా తక్కువ పొగతో మండుతుంది; చాలా నగరాల్లో బస్సులు, ఆటోలకు వాడతారు.",
+                "Hindi": "संपीडित प्राकृतिक गैस बहुत कम धुएँ के साथ जलती है; कई शहरों में बसें और ऑटो इससे चलते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metals-and-non-metals",
+      "icon": "🔩",
+      "title": {
+        "English": "Metals and Non-metals",
+        "Telugu": "లోహాలు, అలోహాలు",
+        "Hindi": "धातु और अधातु"
+      },
+      "description": {
+        "English": "Physical and chemical properties of metals and non-metals.",
+        "Telugu": "లోహాలు, అలోహాల భౌతిక, రసాయన గుణాలు.",
+        "Hindi": "धातुओं और अधातुओं के भौतिक और रासायनिक गुण।"
+      },
+      "lessons": [
+        {
+          "id": "metals-and-non-metals-lesson",
+          "visual": "⚙️",
+          "title": {
+            "English": "Properties and Uses",
+            "Telugu": "గుణాలు, ఉపయోగాలు",
+            "Hindi": "गुण और उपयोग"
+          },
+          "image": "./images/lessons/sorting-materials.svg",
+          "explanation": {
+            "English": "Metals like iron, copper and aluminium are lustrous, hard, malleable (can be beaten into sheets), ductile (can be drawn into wires), sonorous (ring when struck) and good conductors of heat and electricity. Non-metals like sulphur, carbon and oxygen are usually dull, brittle and poor conductors. Metals react with oxygen to form basic oxides; non-metals form acidic oxides. A more reactive metal displaces a less reactive one from its salt solution, as iron displaces copper. Sodium is so reactive that it is kept under kerosene.",
+            "Telugu": "ఇనుము, రాగి, అల్యూమినియం వంటి లోహాలు మెరుస్తాయి, గట్టిగా ఉంటాయి, స్తరణీయాలు (రేకులుగా సాగుతాయి), తాంతవాలు (తీగలుగా సాగుతాయి), ధ్వనిగుణం గలవి (కొడితే మోగుతాయి), వేడి, విద్యుత్తుకు మంచి వాహకాలు. సల్ఫర్, కార్బన్, ఆక్సిజన్ వంటి అలోహాలు సాధారణంగా మసకగా, పెళుసుగా, బలహీన వాహకాలుగా ఉంటాయి. లోహాలు ఆక్సిజన్‌తో క్షార ఆక్సైడ్లు, అలోహాలు ఆమ్ల ఆక్సైడ్లు ఏర్పరుస్తాయి. ఎక్కువ చర్యాశీలత గల లోహం తక్కువ చర్యాశీల లోహాన్ని దాని లవణ ద్రావణం నుంచి స్థానభ్రంశం చేస్తుంది, ఇనుము రాగిని చేసినట్లు. సోడియం చాలా చర్యాశీలమైనది కాబట్టి కిరోసిన్‌లో ఉంచుతారు.",
+            "Hindi": "लोहा, ताँबा और एल्युमिनियम जैसी धातुएँ चमकीली, कठोर, आघातवर्धनीय (पीटकर चादर बनती हैं), तन्य (तार खींचे जा सकते हैं), ध्वानिक (बजती हैं) और ऊष्मा व बिजली की अच्छी चालक हैं। सल्फ़र, कार्बन और ऑक्सीजन जैसी अधातुएँ आमतौर पर फीकी, भंगुर और खराब चालक हैं। धातुएँ ऑक्सीजन से क्षारीय ऑक्साइड और अधातुएँ अम्लीय ऑक्साइड बनाती हैं। ज़्यादा क्रियाशील धातु कम क्रियाशील धातु को उसके लवण के घोल से विस्थापित करती है, जैसे लोहा ताँबे को। सोडियम इतना क्रियाशील है कि उसे मिट्टी के तेल में रखते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Metals are lustrous, malleable, ductile and sonorous.",
+              "Metals conduct heat and electricity well.",
+              "Non-metals are usually dull and brittle.",
+              "Metal oxides are basic; non-metal oxides are acidic.",
+              "A more reactive metal displaces a less reactive one."
+            ],
+            "Telugu": [
+              "లోహాలు మెరిసేవి, స్తరణీయాలు, తాంతవాలు, ధ్వనిగుణం గలవి.",
+              "లోహాలు వేడి, విద్యుత్తును బాగా ప్రసరిస్తాయి.",
+              "అలోహాలు సాధారణంగా మసకగా, పెళుసుగా ఉంటాయి.",
+              "లోహ ఆక్సైడ్లు క్షారాలు; అలోహ ఆక్సైడ్లు ఆమ్లాలు.",
+              "ఎక్కువ చర్యాశీల లోహం తక్కువ చర్యాశీల లోహాన్ని స్థానభ్రంశం చేస్తుంది."
+            ],
+            "Hindi": [
+              "धातुएँ चमकीली, आघातवर्धनीय, तन्य और ध्वानिक हैं।",
+              "धातुएँ ऊष्मा और बिजली अच्छी चलाती हैं।",
+              "अधातुएँ आमतौर पर फीकी और भंगुर हैं।",
+              "धातु ऑक्साइड क्षारीय; अधातु ऑक्साइड अम्लीय।",
+              "ज़्यादा क्रियाशील धातु कम क्रियाशील को विस्थापित करती है।"
+            ]
+          },
+          "activity": {
+            "English": "Put an iron nail in copper sulphate solution for a day. Note the colour change of the solution and the nail.",
+            "Telugu": "ఇనుప మేకును ఒక రోజు కాపర్ సల్ఫేట్ ద్రావణంలో ఉంచండి. ద్రావణం, మేకు రంగు మార్పును రాయండి.",
+            "Hindi": "लोहे की कील को एक दिन कॉपर सल्फ़ेट घोल में रखिए। घोल और कील के रंग का बदलाव लिखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The property of metals to be beaten into thin sheets is...",
+                "Telugu": "లోహాలను పలుచని రేకులుగా సాగదీయగల గుణం...",
+                "Hindi": "धातुओं को पीटकर पतली चादर बनाने का गुण क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Malleability",
+                  "Ductility",
+                  "Brittleness",
+                  "Sonority"
+                ],
+                "Telugu": [
+                  "స్తరణీయత",
+                  "తాంతవత",
+                  "పెళుసుదనం",
+                  "ధ్వనిగుణం"
+                ],
+                "Hindi": [
+                  "आघातवर्धनीयता",
+                  "तन्यता",
+                  "भंगुरता",
+                  "ध्वानिकता"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Aluminium foil and silver foil on sweets show malleability.",
+                "Telugu": "అల్యూమినియం రేకు, మిఠాయిలపై వెండి రేకు స్తరణీయతను చూపిస్తాయి.",
+                "Hindi": "एल्युमिनियम पन्नी और मिठाई पर चाँदी का वर्क आघातवर्धनीयता दिखाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "The property of being drawn into wires is...",
+                "Telugu": "తీగలుగా సాగదీయగల గుణం...",
+                "Hindi": "तार खींचे जा सकने का गुण क्या है?"
+              },
+              "options": {
+                "English": [
+                  "Malleability",
+                  "Ductility",
+                  "Lustre",
+                  "Hardness"
+                ],
+                "Telugu": [
+                  "స్తరణీయత",
+                  "తాంతవత",
+                  "మెరుపు",
+                  "కాఠిన్యం"
+                ],
+                "Hindi": [
+                  "आघातवर्धनीयता",
+                  "तन्यता",
+                  "चमक",
+                  "कठोरता"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Copper and aluminium are drawn into electric wires.",
+                "Telugu": "రాగి, అల్యూమినియంను విద్యుత్ తీగలుగా సాగదీస్తారు.",
+                "Hindi": "ताँबे और एल्युमिनियम से बिजली के तार खींचे जाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which non-metal conducts electricity?",
+                "Telugu": "విద్యుత్తును ప్రసరించే అలోహం ఏది?",
+                "Hindi": "कौन सी अधातु बिजली चलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Sulphur",
+                  "Oxygen",
+                  "Graphite (carbon)",
+                  "Phosphorus"
+                ],
+                "Telugu": [
+                  "సల్ఫర్",
+                  "ఆక్సిజన్",
+                  "గ్రాఫైట్ (కార్బన్)",
+                  "భాస్వరం"
+                ],
+                "Hindi": [
+                  "सल्फ़र",
+                  "ऑक्सीजन",
+                  "ग्रेफ़ाइट (कार्बन)",
+                  "फ़ॉस्फ़ोरस"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Graphite is an exception and is used in pencil leads and battery electrodes.",
+                "Telugu": "గ్రాఫైట్ మినహాయింపు, పెన్సిల్ ముల్లు, బ్యాటరీ ఎలక్ట్రోడ్లలో వాడతారు.",
+                "Hindi": "ग्रेफ़ाइट अपवाद है और पेंसिल व बैटरी के इलेक्ट्रोड में उपयोग होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which metal is liquid at room temperature?",
+                "Telugu": "గది ఉష్ణోగ్రత వద్ద ద్రవంగా ఉండే లోహం ఏది?",
+                "Hindi": "कमरे के तापमान पर कौन सी धातु द्रव है?"
+              },
+              "options": {
+                "English": [
+                  "Iron",
+                  "Copper",
+                  "Gold",
+                  "Mercury"
+                ],
+                "Telugu": [
+                  "ఇనుము",
+                  "రాగి",
+                  "బంగారం",
+                  "పాదరసం"
+                ],
+                "Hindi": [
+                  "लोहा",
+                  "ताँबा",
+                  "सोना",
+                  "पारा"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Mercury is a liquid metal once used in thermometers.",
+                "Telugu": "పాదరసం ద్రవ లోహం, ఒకప్పుడు థర్మామీటర్లలో వాడేవారు.",
+                "Hindi": "पारा द्रव धातु है जो पहले थर्मामीटर में इस्तेमाल होती थी।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Sodium is stored under kerosene because it reacts strongly with air and water.",
+                "Telugu": "నిజమా అబద్ధమా: సోడియం గాలి, నీటితో తీవ్రంగా చర్య జరుపుతుంది కాబట్టి కిరోసిన్‌లో నిల్వ చేస్తారు.",
+                "Hindi": "सही या गलत: सोडियम हवा और पानी से तेज़ क्रिया करता है, इसलिए मिट्टी के तेल में रखते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Sodium can catch fire in air; kerosene keeps air and moisture away.",
+                "Telugu": "సోడియం గాలిలో మంటలంటుకోవచ్చు; కిరోసిన్ గాలి, తేమను దూరంగా ఉంచుతుంది.",
+                "Hindi": "सोडियम हवा में आग पकड़ सकता है; मिट्टी का तेल हवा और नमी दूर रखता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "When an iron nail is placed in blue copper sulphate solution, the solution turns...",
+                "Telugu": "నీలి కాపర్ సల్ఫేట్ ద్రావణంలో ఇనుప మేకు ఉంచితే ద్రావణం ఏ రంగుకు మారుతుంది?",
+                "Hindi": "नीले कॉपर सल्फ़ेट घोल में लोहे की कील रखने पर घोल किस रंग का हो जाता है?"
+              },
+              "options": {
+                "English": [
+                  "Light green",
+                  "Red",
+                  "Colourless at once",
+                  "Purple"
+                ],
+                "Telugu": [
+                  "లేత ఆకుపచ్చ",
+                  "ఎరుపు",
+                  "వెంటనే రంగులేనిది",
+                  "ఊదా"
+                ],
+                "Hindi": [
+                  "हल्का हरा",
+                  "लाल",
+                  "तुरंत रंगहीन",
+                  "बैंगनी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Iron displaces copper, forming green iron sulphate; brown copper coats the nail.",
+                "Telugu": "ఇనుము రాగిని స్థానభ్రంశం చేసి ఆకుపచ్చ ఐరన్ సల్ఫేట్ ఏర్పరుస్తుంది; మేకుపై గోధుమ రాగి పూత ఏర్పడుతుంది.",
+                "Hindi": "लोहा ताँबे को विस्थापित कर हरा आयरन सल्फ़ेट बनाता है; कील पर भूरा ताँबा जमता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Oxides of non-metals dissolved in water are...",
+                "Telugu": "నీటిలో కరిగిన అలోహ ఆక్సైడ్లు...",
+                "Hindi": "पानी में घुले अधातु ऑक्साइड कैसे होते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Basic",
+                  "Acidic",
+                  "Neutral always",
+                  "Metallic"
+                ],
+                "Telugu": [
+                  "క్షారాలు",
+                  "ఆమ్లాలు",
+                  "ఎప్పుడూ తటస్థం",
+                  "లోహ గుణం గలవి"
+                ],
+                "Hindi": [
+                  "क्षारीय",
+                  "अम्लीय",
+                  "हमेशा उदासीन",
+                  "धात्विक"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Sulphur dioxide in water forms sulphurous acid, which turns blue litmus red.",
+                "Telugu": "సల్ఫర్ డయాక్సైడ్ నీటిలో సల్ఫ్యూరస్ ఆమ్లంగా మారి నీలి లిట్మస్‌ను ఎరుపు చేస్తుంది.",
+                "Hindi": "सल्फ़र डाइऑक्साइड पानी में सल्फ़्यूरस अम्ल बनाकर नीले लिटमस को लाल करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why are bells made of metal?",
+                "Telugu": "గంటలను లోహంతో ఎందుకు చేస్తారు?",
+                "Hindi": "घंटियाँ धातु की क्यों बनती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Metals are soft",
+                  "Metals are brittle",
+                  "Metals are sonorous",
+                  "Metals are dull"
+                ],
+                "Telugu": [
+                  "లోహాలు మెత్తనివి",
+                  "లోహాలు పెళుసు",
+                  "లోహాలకు ధ్వనిగుణం ఉంది",
+                  "లోహాలు మసకవి"
+                ],
+                "Hindi": [
+                  "धातुएँ नरम हैं",
+                  "धातुएँ भंगुर हैं",
+                  "धातुएँ ध्वानिक हैं",
+                  "धातुएँ फीकी हैं"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Sonorous materials make a ringing sound when struck.",
+                "Telugu": "ధ్వనిగుణం గల పదార్థాలు కొడితే మోగుతాయి.",
+                "Hindi": "ध्वानिक पदार्थ टकराने पर बजते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Copper can displace zinc from zinc sulphate solution.",
+                "Telugu": "నిజమా అబద్ధమా: రాగి జింక్ సల్ఫేట్ ద్రావణం నుంచి జింక్‌ను స్థానభ్రంశం చేయగలదు.",
+                "Hindi": "सही या गलत: ताँबा जिंक सल्फ़ेट घोल से जस्ते को विस्थापित कर सकता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Copper is less reactive than zinc, so no displacement happens.",
+                "Telugu": "రాగి జింక్ కంటే తక్కువ చర్యాశీలమైనది, కాబట్టి స్థానభ్రంశం జరగదు.",
+                "Hindi": "ताँबा जस्ते से कम क्रियाशील है, इसलिए विस्थापन नहीं होता।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which metal is used to wrap food because it is malleable and safe?",
+                "Telugu": "స్తరణీయమైనది, సురక్షితమైనది కాబట్టి ఆహారం చుట్టడానికి వాడే లోహం ఏది?",
+                "Hindi": "आघातवर्धनीय और सुरक्षित होने के कारण भोजन लपेटने में कौन सी धातु काम आती है?"
+              },
+              "options": {
+                "English": [
+                  "Sodium",
+                  "Mercury",
+                  "Lead",
+                  "Aluminium"
+                ],
+                "Telugu": [
+                  "సోడియం",
+                  "పాదరసం",
+                  "సీసం",
+                  "అల్యూమినియం"
+                ],
+                "Hindi": [
+                  "सोडियम",
+                  "पारा",
+                  "सीसा",
+                  "एल्युमिनियम"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Aluminium foil is thin, light and does not react easily with food.",
+                "Telugu": "అల్యూమినియం రేకు పలుచగా, తేలికగా ఉండి ఆహారంతో సులభంగా చర్య జరపదు.",
+                "Hindi": "एल्युमिनियम पन्नी पतली, हल्की होती है और भोजन से आसानी से क्रिया नहीं करती।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conservation-of-plants-animals",
+      "icon": "🐅",
+      "title": {
+        "English": "Conservation of Plants and Animals",
+        "Telugu": "మొక్కలు, జంతువుల సంరక్షణ",
+        "Hindi": "पौधों और जंतुओं का संरक्षण"
+      },
+      "description": {
+        "English": "Deforestation, protected areas, endangered species and the Red Data Book.",
+        "Telugu": "అటవీ నిర్మూలన, రక్షిత ప్రాంతాలు, అంతరించే జాతులు, రెడ్ డేటా బుక్.",
+        "Hindi": "वनोन्मूलन, संरक्षित क्षेत्र, संकटग्रस्त प्रजातियाँ और रेड डाटा पुस्तक।"
+      },
+      "lessons": [
+        {
+          "id": "conservation-of-plants-animals-lesson",
+          "visual": "🌳",
+          "title": {
+            "English": "Protecting Biodiversity",
+            "Telugu": "జీవ వైవిధ్య సంరక్షణ",
+            "Hindi": "जैव विविधता की रक्षा"
+          },
+          "image": "./images/lessons/forest.png",
+          "explanation": {
+            "English": "Biodiversity is the variety of plants, animals and microorganisms in an area. Cutting forests for farms, homes and industries (deforestation) causes soil erosion, floods, droughts, less rain and global warming. Wildlife sanctuaries, national parks and biosphere reserves protect plants and animals in their natural homes. Species found only in one area are endemic, like the sal tree and the giant squirrel in Pachmarhi. Endangered species are close to extinction and are listed in the Red Data Book. Planting trees (reforestation) and recycling paper help conservation.",
+            "Telugu": "ఒక ప్రాంతంలోని మొక్కలు, జంతువులు, సూక్ష్మజీవుల వైవిధ్యమే జీవ వైవిధ్యం. వ్యవసాయం, ఇళ్లు, పరిశ్రమల కోసం అడవులు నరకడం (అటవీ నిర్మూలన) నేల క్రమక్షయం, వరదలు, కరువులు, తక్కువ వర్షం, భూతాపానికి దారితీస్తుంది. వన్యప్రాణి అభయారణ్యాలు, జాతీయ ఉద్యానవనాలు, జీవావరణ కేంద్రాలు మొక్కలు, జంతువులను వాటి సహజ నివాసాల్లో కాపాడతాయి. ఒకే ప్రాంతంలో మాత్రమే ఉండే జాతులు స్థానీయ జాతులు, పచ్‌మఢీలోని సాల్ చెట్టు, పెద్ద ఉడుత వంటివి. అంతరించే దశలో ఉన్న జాతులను రెడ్ డేటా బుక్‌లో నమోదు చేస్తారు. చెట్లు నాటడం (పునరటవీకరణ), కాగితం రీసైక్లింగ్ సంరక్షణకు సహాయపడతాయి.",
+            "Hindi": "किसी क्षेत्र में पौधों, जंतुओं और सूक्ष्मजीवों की विविधता जैव विविधता है। खेती, घर और उद्योगों के लिए जंगल काटना (वनोन्मूलन) मिट्टी का कटाव, बाढ़, सूखा, कम बारिश और ग्लोबल वार्मिंग लाता है। वन्यजीव अभयारण्य, राष्ट्रीय उद्यान और जैवमंडल आरक्षित क्षेत्र पौधों और जंतुओं की उनके प्राकृतिक घर में रक्षा करते हैं। सिर्फ़ एक क्षेत्र में मिलने वाली प्रजातियाँ स्थानिक हैं, जैसे पचमढ़ी का साल वृक्ष और विशाल गिलहरी। विलुप्ति के करीब प्रजातियाँ संकटग्रस्त हैं और रेड डाटा पुस्तक में दर्ज होती हैं। पेड़ लगाना (पुनर्वनरोपण) और कागज़ का पुनर्चक्रण संरक्षण में मदद करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Biodiversity is the variety of life in an area.",
+              "Deforestation causes erosion, floods and global warming.",
+              "Sanctuaries, national parks and biosphere reserves protect wildlife.",
+              "Endemic species are found only in one area.",
+              "The Red Data Book lists endangered species."
+            ],
+            "Telugu": [
+              "ఒక ప్రాంతంలోని జీవ వైవిధ్యమే జీవ వైవిధ్యం.",
+              "అటవీ నిర్మూలన క్రమక్షయం, వరదలు, భూతాపానికి కారణం.",
+              "అభయారణ్యాలు, జాతీయ ఉద్యానవనాలు, జీవావరణ కేంద్రాలు వన్యప్రాణులను కాపాడతాయి.",
+              "స్థానీయ జాతులు ఒకే ప్రాంతంలో ఉంటాయి.",
+              "రెడ్ డేటా బుక్ అంతరించే జాతులను నమోదు చేస్తుంది."
+            ],
+            "Hindi": [
+              "जैव विविधता किसी क्षेत्र में जीवन की विविधता है।",
+              "वनोन्मूलन से कटाव, बाढ़ और ग्लोबल वार्मिंग होती है।",
+              "अभयारण्य, राष्ट्रीय उद्यान और जैवमंडल आरक्षित क्षेत्र वन्यजीवों की रक्षा करते हैं।",
+              "स्थानिक प्रजातियाँ केवल एक क्षेत्र में मिलती हैं।",
+              "रेड डाटा पुस्तक संकटग्रस्त प्रजातियाँ दर्ज करती है।"
+            ]
+          },
+          "activity": {
+            "English": "Find the nearest wildlife sanctuary or national park to your town and list three animals protected there.",
+            "Telugu": "మీ ఊరికి దగ్గరి అభయారణ్యం లేదా జాతీయ ఉద్యానవనాన్ని కనుగొని అక్కడ రక్షించే మూడు జంతువులను రాయండి.",
+            "Hindi": "अपने शहर के पास का वन्यजीव अभयारण्य या राष्ट्रीय उद्यान खोजिए और वहाँ संरक्षित तीन जानवर लिखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "The variety of living organisms in an area is called...",
+                "Telugu": "ఒక ప్రాంతంలోని జీవుల వైవిధ్యాన్ని ఏమంటారు?",
+                "Hindi": "किसी क्षेत्र में जीवों की विविधता क्या कहलाती है?"
+              },
+              "options": {
+                "English": [
+                  "Biodiversity",
+                  "Deforestation",
+                  "Migration",
+                  "Pollution"
+                ],
+                "Telugu": [
+                  "జీవ వైవిధ్యం",
+                  "అటవీ నిర్మూలన",
+                  "వలస",
+                  "కాలుష్యం"
+                ],
+                "Hindi": [
+                  "जैव विविधता",
+                  "वनोन्मूलन",
+                  "प्रवास",
+                  "प्रदूषण"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "High biodiversity makes an ecosystem stable and healthy.",
+                "Telugu": "ఎక్కువ జీవ వైవిధ్యం పర్యావరణ వ్యవస్థను స్థిరంగా, ఆరోగ్యంగా ఉంచుతుంది.",
+                "Hindi": "अधिक जैव विविधता पारिस्थितिकी तंत्र को स्थिर और स्वस्थ रखती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is a result of deforestation?",
+                "Telugu": "అటవీ నిర్మూలన ఫలితం ఏది?",
+                "Hindi": "वनोन्मूलन का परिणाम क्या है?"
+              },
+              "options": {
+                "English": [
+                  "More rainfall",
+                  "Soil erosion and floods",
+                  "Cleaner air",
+                  "More wildlife"
+                ],
+                "Telugu": [
+                  "ఎక్కువ వర్షం",
+                  "నేల క్రమక్షయం, వరదలు",
+                  "శుభ్రమైన గాలి",
+                  "ఎక్కువ వన్యప్రాణులు"
+                ],
+                "Hindi": [
+                  "ज़्यादा बारिश",
+                  "मिट्टी का कटाव और बाढ़",
+                  "साफ़ हवा",
+                  "ज़्यादा वन्यजीव"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Without roots to hold soil, rain washes it away and rivers flood.",
+                "Telugu": "నేలను పట్టి ఉంచే వేర్లు లేకుంటే వర్షం దానిని కొట్టుకుపోతుంది, నదులు పొంగుతాయి.",
+                "Hindi": "मिट्टी पकड़ने वाली जड़ें न हों तो बारिश उसे बहा देती है और नदियों में बाढ़ आती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Species found only in a particular area are called...",
+                "Telugu": "ఒక నిర్దిష్ట ప్రాంతంలో మాత్రమే కనిపించే జాతులను ఏమంటారు?",
+                "Hindi": "सिर्फ़ किसी विशेष क्षेत्र में मिलने वाली प्रजातियाँ क्या कहलाती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Extinct",
+                  "Migratory",
+                  "Endemic",
+                  "Exotic"
+                ],
+                "Telugu": [
+                  "అంతరించినవి",
+                  "వలస జాతులు",
+                  "స్థానీయ జాతులు",
+                  "విదేశీ జాతులు"
+                ],
+                "Hindi": [
+                  "विलुप्त",
+                  "प्रवासी",
+                  "स्थानिक",
+                  "विदेशी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Endemic species, like the Indian giant squirrel of Pachmarhi, need their special habitat.",
+                "Telugu": "పచ్‌మఢీ భారతీయ పెద్ద ఉడుత వంటి స్థానీయ జాతులకు ప్రత్యేక ఆవాసం అవసరం.",
+                "Hindi": "पचमढ़ी की भारतीय विशाल गिलहरी जैसी स्थानिक प्रजातियों को विशेष आवास चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "The book that records endangered species is the...",
+                "Telugu": "అంతరించే జాతులను నమోదు చేసే పుస్తకం...",
+                "Hindi": "संकटग्रस्त प्रजातियों को दर्ज करने वाली पुस्तक कौन सी है?"
+              },
+              "options": {
+                "English": [
+                  "Blue Book",
+                  "Green Diary",
+                  "Yellow Pages",
+                  "Red Data Book"
+                ],
+                "Telugu": [
+                  "బ్లూ బుక్",
+                  "గ్రీన్ డైరీ",
+                  "యెల్లో పేజెస్",
+                  "రెడ్ డేటా బుక్"
+                ],
+                "Hindi": [
+                  "ब्लू बुक",
+                  "ग्रीन डायरी",
+                  "येलो पेजेस",
+                  "रेड डाटा पुस्तक"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The Red Data Book is maintained by the IUCN worldwide; India also keeps one.",
+                "Telugu": "రెడ్ డేటా బుక్‌ను ప్రపంచవ్యాప్తంగా IUCN నిర్వహిస్తుంది; భారతదేశం కూడా ఒకటి నిర్వహిస్తుంది.",
+                "Hindi": "रेड डाटा पुस्तक विश्व स्तर पर IUCN रखता है; भारत भी अपनी रखता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Hunting is not allowed in national parks.",
+                "Telugu": "నిజమా అబద్ధమా: జాతీయ ఉద్యానవనాల్లో వేట అనుమతి లేదు.",
+                "Hindi": "सही या गलत: राष्ट्रीय उद्यानों में शिकार की अनुमति नहीं है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "National parks protect the whole ecosystem; Satpura National Park is one example.",
+                "Telugu": "జాతీయ ఉద్యానవనాలు పూర్తి పర్యావరణ వ్యవస్థను కాపాడతాయి; సాత్పురా జాతీయ ఉద్యానవనం ఒక ఉదాహరణ.",
+                "Hindi": "राष्ट्रीय उद्यान पूरे पारिस्थितिकी तंत्र की रक्षा करते हैं; सतपुड़ा राष्ट्रीय उद्यान एक उदाहरण है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Animals that no longer exist anywhere on Earth are...",
+                "Telugu": "భూమిపై ఎక్కడా ఇక లేని జంతువులు...",
+                "Hindi": "जो जंतु अब पृथ्वी पर कहीं नहीं हैं, वे क्या हैं?"
+              },
+              "options": {
+                "English": [
+                  "Extinct",
+                  "Endemic",
+                  "Endangered",
+                  "Migratory"
+                ],
+                "Telugu": [
+                  "అంతరించినవి",
+                  "స్థానీయమైనవి",
+                  "అంతరించే దశలోనివి",
+                  "వలస జాతులు"
+                ],
+                "Hindi": [
+                  "विलुप्त",
+                  "स्थानिक",
+                  "संकटग्रस्त",
+                  "प्रवासी"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The dinosaurs and the dodo are extinct.",
+                "Telugu": "డైనోసార్లు, డోడో పక్షి అంతరించాయి.",
+                "Hindi": "डायनासोर और डोडो विलुप्त हो चुके हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Project Tiger was launched to...",
+                "Telugu": "ప్రాజెక్ట్ టైగర్ దేని కోసం ప్రారంభించారు?",
+                "Hindi": "प्रोजेक्ट टाइगर किसलिए शुरू किया गया?"
+              },
+              "options": {
+                "English": [
+                  "Train tigers for circuses",
+                  "Protect and increase the tiger population",
+                  "Move tigers to zoos",
+                  "Hunt tigers"
+                ],
+                "Telugu": [
+                  "సర్కస్ కోసం పులులకు శిక్షణ",
+                  "పులుల సంఖ్యను కాపాడి పెంచడానికి",
+                  "పులులను జూలకు తరలించడానికి",
+                  "పులులను వేటాడడానికి"
+                ],
+                "Hindi": [
+                  "सर्कस के लिए बाघों को सिखाना",
+                  "बाघों की संख्या बचाना और बढ़ाना",
+                  "बाघों को चिड़ियाघर ले जाना",
+                  "बाघों का शिकार"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Started in 1973, it set up tiger reserves across India.",
+                "Telugu": "1973లో ప్రారంభమై భారతదేశమంతటా పులుల సంరక్షణ కేంద్రాలను ఏర్పాటు చేసింది.",
+                "Hindi": "1973 में शुरू होकर इसने पूरे भारत में बाघ अभयारण्य बनाए।"
+              }
+            },
+            {
+              "question": {
+                "English": "Saving and recycling paper helps conservation because...",
+                "Telugu": "కాగితాన్ని ఆదా చేయడం, రీసైకిల్ చేయడం సంరక్షణకు ఎలా సహాయపడుతుంది?",
+                "Hindi": "कागज़ बचाना और पुनर्चक्रण संरक्षण में कैसे मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Paper is made from plastic",
+                  "It makes more waste",
+                  "Fewer trees need to be cut",
+                  "Paper grows on trees directly"
+                ],
+                "Telugu": [
+                  "కాగితం ప్లాస్టిక్‌తో తయారవుతుంది",
+                  "ఎక్కువ వ్యర్థాలు చేస్తుంది",
+                  "తక్కువ చెట్లు నరకాల్సి వస్తుంది",
+                  "కాగితం నేరుగా చెట్లకు కాస్తుంది"
+                ],
+                "Hindi": [
+                  "कागज़ प्लास्टिक से बनता है",
+                  "ज़्यादा कचरा बनता है",
+                  "कम पेड़ काटने पड़ते हैं",
+                  "कागज़ सीधे पेड़ों पर उगता है"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "About 17 full-grown trees are needed to make one tonne of paper.",
+                "Telugu": "ఒక టన్ను కాగితం తయారీకి సుమారు 17 పెరిగిన చెట్లు అవసరం.",
+                "Hindi": "एक टन कागज़ बनाने के लिए लगभग 17 पूरे बढ़े पेड़ लगते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Migratory birds travel long distances due to climate change in their home every year.",
+                "Telugu": "నిజమా అబద్ధమా: వలస పక్షులు ప్రతి సంవత్సరం తమ ప్రాంతంలో వాతావరణ మార్పుల వల్ల సుదూరం ప్రయాణిస్తాయి.",
+                "Hindi": "सही या गलत: प्रवासी पक्षी हर साल अपने क्षेत्र में मौसम बदलने के कारण लंबी दूरी तय करते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "They fly to warmer places for food and breeding, then return.",
+                "Telugu": "అవి ఆహారం, సంతానోత్పత్తి కోసం వెచ్చని ప్రాంతాలకు ఎగిరి తిరిగి వస్తాయి.",
+                "Hindi": "वे भोजन और प्रजनन के लिए गर्म स्थानों पर उड़कर फिर लौटती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "A large protected area where wildlife and local people's traditional ways of life are both conserved is a...",
+                "Telugu": "వన్యప్రాణులు, స్థానిక ప్రజల సాంప్రదాయ జీవనం రెండూ సంరక్షించే పెద్ద రక్షిత ప్రాంతం...",
+                "Hindi": "बड़ा संरक्षित क्षेत्र जहाँ वन्यजीव और स्थानीय लोगों का पारंपरिक जीवन दोनों संरक्षित हों, क्या कहलाता है?"
+              },
+              "options": {
+                "English": [
+                  "Zoo",
+                  "Botanical garden",
+                  "Farm",
+                  "Biosphere reserve"
+                ],
+                "Telugu": [
+                  "జంతు ప్రదర్శనశాల",
+                  "వృక్షశాస్త్ర ఉద్యానవనం",
+                  "పొలం",
+                  "జీవావరణ కేంద్రం"
+                ],
+                "Hindi": [
+                  "चिड़ियाघर",
+                  "वनस्पति उद्यान",
+                  "खेत",
+                  "जैवमंडल आरक्षित क्षेत्र"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Pachmarhi Biosphere Reserve includes Satpura National Park and two sanctuaries.",
+                "Telugu": "పచ్‌మఢీ జీవావరణ కేంద్రంలో సాత్పురా జాతీయ ఉద్యానవనం, రెండు అభయారణ్యాలు ఉన్నాయి.",
+                "Hindi": "पचमढ़ी जैवमंडल आरक्षित क्षेत्र में सतपुड़ा राष्ट्रीय उद्यान और दो अभयारण्य हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+/* =====================================================
+   CLASS PROGRESS
+===================================================== */
+
+.class-progress-card {
+
+  padding: 18px;
+
+  border-radius: 20px;
+
+  background: white;
+
+  box-shadow:
+    0 10px 30px
+    rgba(30,70,120,.10);
+
+}
+
+
+.class-progress-top {
+
+  display: flex;
+
+  justify-content:
+    space-between;
+
+  gap: 15px;
+
+  margin-bottom: 9px;
+
+  font-weight: 700;
+
+}
+
+
+.class-progress-bar {
+
+  height: 10px;
+
+  overflow: hidden;
+
+  border-radius: 20px;
+
+  background:
+    #e8eff8;
+
+}
+
+
+.class-progress-fill {
+
+  height: 100%;
+
+  border-radius: 20px;
+
+  background:
+
+    linear-gradient(
+      90deg,
+      #176bff,
+      #00a99d
+    );
+
+  transition:
+    width .5s ease;
+
+}

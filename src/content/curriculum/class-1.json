@@ -1,0 +1,3781 @@
+{
+  "subject": {
+    "English": "Science & Environment Learning",
+    "Telugu": "విజ్ఞానం మరియు పర్యావరణ అభ్యాసం",
+    "Hindi": "विज्ञान और पर्यावरण अध्ययन"
+  },
+  "chapters": [
+    {
+      "id": "my-body",
+      "icon": "🧒",
+      "title": {
+        "English": "My Body",
+        "Telugu": "నా శరీరం",
+        "Hindi": "मेरा शरीर"
+      },
+      "description": {
+        "English": "Learn about important parts of our body and what they help us do.",
+        "Telugu": "మన శరీరంలోని ముఖ్యమైన భాగాలు మరియు వాటి ఉపయోగాలను తెలుసుకుందాం.",
+        "Hindi": "हमारे शरीर के महत्वपूर्ण अंगों और उनके उपयोग के बारे में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "body-parts",
+          "visual": "👀",
+          "title": {
+            "English": "Our Body Parts",
+            "Telugu": "మన శరీర భాగాలు",
+            "Hindi": "हमारे शरीर के अंग"
+          },
+          "image": "./images/lessons/body-parts.png",
+          "explanation": {
+            "English": "Our body has many parts. We use our eyes to see, ears to hear, nose to smell, tongue to taste and hands to hold things. Our legs help us walk and run.",
+            "Telugu": "మన శరీరంలో అనేక భాగాలు ఉన్నాయి. కళ్లతో చూస్తాము, చెవులతో వింటాము, ముక్కుతో వాసన చూస్తాము, నాలుకతో రుచి చూస్తాము. చేతులతో వస్తువులను పట్టుకుంటాము. కాళ్లు నడవడానికి మరియు పరుగెత్తడానికి సహాయపడతాయి.",
+            "Hindi": "हमारे शरीर के कई अंग होते हैं। आँखों से हम देखते हैं, कानों से सुनते हैं, नाक से सूँघते हैं और जीभ से स्वाद लेते हैं। हाथ चीजें पकड़ने और पैर चलने में मदद करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Eyes help us see.",
+              "Ears help us hear.",
+              "The nose helps us smell.",
+              "Hands help us hold things.",
+              "Legs help us walk and run."
+            ],
+            "Telugu": [
+              "కళ్లు చూడటానికి సహాయపడతాయి.",
+              "చెవులు వినటానికి సహాయపడతాయి.",
+              "ముక్కు వాసన తెలుసుకోవడానికి సహాయపడుతుంది.",
+              "చేతులు వస్తువులను పట్టుకోవడానికి సహాయపడతాయి.",
+              "కాళ్లు నడవడానికి మరియు పరుగెత్తడానికి సహాయపడతాయి."
+            ],
+            "Hindi": [
+              "आँखें देखने में मदद करती हैं।",
+              "कान सुनने में मदद करते हैं।",
+              "नाक सूँघने में मदद करती है।",
+              "हाथ चीजें पकड़ने में मदद करते हैं।",
+              "पैर चलने और दौड़ने में मदद करते हैं।"
+            ]
+          },
+          "activity": {
+            "English": "Stand in front of a mirror and identify your eyes, ears, nose, hands and legs.",
+            "Telugu": "అద్దం ముందు నిలబడి మీ కళ్లు, చెవులు, ముక్కు, చేతులు మరియు కాళ్లను గుర్తించండి.",
+            "Hindi": "आईने के सामने खड़े होकर अपनी आँखें, कान, नाक, हाथ और पैर पहचानें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which body part helps us see?",
+                "Telugu": "మనకు చూడటానికి ఏ శరీర భాగం సహాయపడుతుంది?",
+                "Hindi": "देखने में कौन सा अंग मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Ears",
+                  "Eyes",
+                  "Hands",
+                  "Feet"
+                ],
+                "Telugu": [
+                  "చెవులు",
+                  "కళ్లు",
+                  "చేతులు",
+                  "పాదాలు"
+                ],
+                "Hindi": [
+                  "कान",
+                  "आँखें",
+                  "हाथ",
+                  "पैर"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "We see with our eyes. They let us see colours, shapes and the things around us.",
+                "Telugu": "మనం కళ్లతో చూస్తాం. కళ్లు రంగులు, ఆకారాలు, మన చుట్టూ ఉన్నవాటిని చూపిస్తాయి.",
+                "Hindi": "हम आँखों से देखते हैं। आँखें हमें रंग, आकार और आसपास की चीज़ें दिखाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which body part helps us hear?",
+                "Telugu": "మనకు వినడానికి ఏ శరీర భాగం సహాయపడుతుంది?",
+                "Hindi": "सुनने में कौन सा अंग मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Nose",
+                  "Tongue",
+                  "Ears",
+                  "Knees"
+                ],
+                "Telugu": [
+                  "ముక్కు",
+                  "నాలుక",
+                  "చెవులు",
+                  "మోకాళ్లు"
+                ],
+                "Hindi": [
+                  "नाक",
+                  "जीभ",
+                  "कान",
+                  "घुटने"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Our ears catch sounds, so we can hear music, voices and the bell.",
+                "Telugu": "చెవులు శబ్దాలను పట్టుకుంటాయి, కాబట్టి మనం పాటలు, మాటలు, గంట శబ్దం వినగలం.",
+                "Hindi": "कान आवाज़ें पकड़ते हैं, इसलिए हम संगीत, बातें और घंटी सुन पाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "We smell a flower with our...",
+                "Telugu": "మనం పువ్వు వాసనను దేనితో చూస్తాం?",
+                "Hindi": "हम फूल की खुशबू किससे सूँघते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Nose",
+                  "Eyes",
+                  "Elbow",
+                  "Hair"
+                ],
+                "Telugu": [
+                  "ముక్కు",
+                  "కళ్లు",
+                  "మోచేయి",
+                  "జుట్టు"
+                ],
+                "Hindi": [
+                  "नाक",
+                  "आँखें",
+                  "कोहनी",
+                  "बाल"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The nose helps us smell things like flowers and food.",
+                "Telugu": "ముక్కు పువ్వులు, ఆహారం వంటి వాటి వాసన తెలుసుకోవడానికి సహాయపడుతుంది.",
+                "Hindi": "नाक फूल और खाने जैसी चीज़ों को सूँघने में मदद करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which body part helps us taste sweet and sour food?",
+                "Telugu": "తీపి, పులుపు రుచి తెలుసుకోవడానికి ఏ భాగం సహాయపడుతుంది?",
+                "Hindi": "मीठा और खट्टा स्वाद पहचानने में कौन सा अंग मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Teeth",
+                  "Lips",
+                  "Cheeks",
+                  "Tongue"
+                ],
+                "Telugu": [
+                  "పళ్లు",
+                  "పెదవులు",
+                  "బుగ్గలు",
+                  "నాలుక"
+                ],
+                "Hindi": [
+                  "दाँत",
+                  "होंठ",
+                  "गाल",
+                  "जीभ"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The tongue tells us the taste of food: sweet, sour, salty or bitter.",
+                "Telugu": "నాలుక ఆహారం రుచిని చెబుతుంది: తీపి, పులుపు, ఉప్పు లేదా చేదు.",
+                "Hindi": "जीभ हमें खाने का स्वाद बताती है: मीठा, खट्टा, नमकीन या कड़वा।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We walk and run with our legs.",
+                "Telugu": "నిజమా అబద్ధమా: మనం కాళ్లతో నడుస్తాం, పరుగెత్తుతాం.",
+                "Hindi": "सही या गलत: हम पैरों से चलते और दौड़ते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Our legs carry our body and help us walk, run and jump.",
+                "Telugu": "కాళ్లు మన శరీరాన్ని మోసి, నడవడానికి, పరుగెత్తడానికి, దూకడానికి సహాయపడతాయి.",
+                "Hindi": "पैर हमारे शरीर को उठाते हैं और चलने, दौड़ने और कूदने में मदद करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "We hold a pencil with our...",
+                "Telugu": "మనం పెన్సిల్‌ను దేనితో పట్టుకుంటాం?",
+                "Hindi": "हम पेंसिल किससे पकड़ते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Toes",
+                  "Ears",
+                  "Fingers",
+                  "Nose"
+                ],
+                "Telugu": [
+                  "కాలి వేళ్లు",
+                  "చెవులు",
+                  "చేతి వేళ్లు",
+                  "ముక్కు"
+                ],
+                "Hindi": [
+                  "पैर की उँगलियाँ",
+                  "कान",
+                  "हाथ की उँगलियाँ",
+                  "नाक"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Our fingers can bend and hold small things like a pencil or a spoon.",
+                "Telugu": "చేతి వేళ్లు వంగి పెన్సిల్, చెంచా వంటి చిన్న వస్తువులను పట్టుకోగలవు.",
+                "Hindi": "हाथ की उँगलियाँ मुड़कर पेंसिल या चम्मच जैसी छोटी चीज़ें पकड़ सकती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which body part feels hot and cold?",
+                "Telugu": "వేడి, చల్లదనాన్ని ఏ భాగం తెలుసుకుంటుంది?",
+                "Hindi": "गर्म और ठंडा कौन सा अंग महसूस करता है?"
+              },
+              "options": {
+                "English": [
+                  "Skin",
+                  "Hair",
+                  "Nails",
+                  "Teeth"
+                ],
+                "Telugu": [
+                  "చర్మం",
+                  "జుట్టు",
+                  "గోళ్లు",
+                  "పళ్లు"
+                ],
+                "Hindi": [
+                  "त्वचा",
+                  "बाल",
+                  "नाखून",
+                  "दाँत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Our skin covers the body and lets us feel touch, heat and cold.",
+                "Telugu": "చర్మం శరీరాన్ని కప్పి ఉంచి, స్పర్శ, వేడి, చల్లదనాన్ని తెలియజేస్తుంది.",
+                "Hindi": "त्वचा शरीर को ढकती है और हमें छूना, गर्मी और ठंड महसूस कराती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "How many eyes do we have?",
+                "Telugu": "మనకు ఎన్ని కళ్లు ఉన్నాయి?",
+                "Hindi": "हमारी कितनी आँखें हैं?"
+              },
+              "options": {
+                "English": [
+                  "One",
+                  "Three",
+                  "Four",
+                  "Two"
+                ],
+                "Telugu": [
+                  "ఒకటి",
+                  "మూడు",
+                  "నాలుగు",
+                  "రెండు"
+                ],
+                "Hindi": [
+                  "एक",
+                  "तीन",
+                  "चार",
+                  "दो"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "We have two eyes, two ears, two hands and two legs, but only one nose.",
+                "Telugu": "మనకు రెండు కళ్లు, రెండు చెవులు, రెండు చేతులు, రెండు కాళ్లు ఉన్నాయి, కానీ ముక్కు ఒక్కటే.",
+                "Hindi": "हमारी दो आँखें, दो कान, दो हाथ और दो पैर हैं, लेकिन नाक एक ही है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What helps us chew food?",
+                "Telugu": "ఆహారాన్ని నమలడానికి ఏవి సహాయపడతాయి?",
+                "Hindi": "खाना चबाने में क्या मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Hair",
+                  "Teeth",
+                  "Eyebrows",
+                  "Knees"
+                ],
+                "Telugu": [
+                  "జుట్టు",
+                  "పళ్లు",
+                  "కనుబొమ్మలు",
+                  "మోకాళ్లు"
+                ],
+                "Hindi": [
+                  "बाल",
+                  "दाँत",
+                  "भौंहें",
+                  "घुटने"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Teeth cut and grind food into small pieces so we can swallow it.",
+                "Telugu": "పళ్లు ఆహారాన్ని కొరికి, నలిపి చిన్న ముక్కలుగా చేస్తాయి, అప్పుడు మింగగలం.",
+                "Hindi": "दाँत खाने को काटकर और पीसकर छोटे टुकड़े करते हैं ताकि हम निगल सकें।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should wash our hands before eating.",
+                "Telugu": "నిజమా అబద్ధమా: తినే ముందు చేతులు కడుక్కోవాలి.",
+                "Hindi": "सही या गलत: खाने से पहले हाथ धोने चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Washing hands with soap removes germs, so we do not fall ill.",
+                "Telugu": "సబ్బుతో చేతులు కడుక్కుంటే క్రిములు పోతాయి, మనకు జబ్బు రాదు.",
+                "Hindi": "साबुन से हाथ धोने से कीटाणु हट जाते हैं, इसलिए हम बीमार नहीं पड़ते।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plants-around-me",
+      "icon": "🌱",
+      "title": {
+        "English": "Plants Around Me",
+        "Telugu": "నా చుట్టూ మొక్కలు",
+        "Hindi": "मेरे आसपास पौधे"
+      },
+      "description": {
+        "English": "Discover simple things about the plants around us.",
+        "Telugu": "మన చుట్టూ ఉన్న మొక్కల గురించి సరళంగా తెలుసుకుందాం.",
+        "Hindi": "हमारे आसपास के पौधों के बारे में सरल बातें जानें।"
+      },
+      "lessons": [
+        {
+          "id": "plant-basics",
+          "visual": "🌻",
+          "title": {
+            "English": "Meet a Plant",
+            "Telugu": "మొక్కను తెలుసుకుందాం",
+            "Hindi": "पौधे को जानें"
+          },
+          "image": "./images/lessons/plants.png",
+          "explanation": {
+            "English": "Plants are living things. Plants usually have roots, stems and leaves. Many plants also have flowers and fruits. Plants need water and sunlight to grow.",
+            "Telugu": "మొక్కలు జీవులు. మొక్కలకు సాధారణంగా వేర్లు, కాండం మరియు ఆకులు ఉంటాయి. అనేక మొక్కలకు పువ్వులు మరియు పండ్లు కూడా ఉంటాయి. మొక్కలు పెరగడానికి నీరు మరియు సూర్యకాంతి అవసరం.",
+            "Hindi": "पौधे जीवित होते हैं। पौधों में जड़, तना और पत्तियाँ होती हैं। कई पौधों में फूल और फल भी होते हैं। उन्हें पानी और धूप चाहिए।"
+          },
+          "keyPoints": {
+            "English": [
+              "Plants are living things.",
+              "Plants have roots.",
+              "Plants have stems and leaves.",
+              "Some plants have flowers and fruits.",
+              "Plants need water and sunlight."
+            ],
+            "Telugu": [
+              "మొక్కలు జీవులు.",
+              "మొక్కలకు వేర్లు ఉంటాయి.",
+              "మొక్కలకు కాండం మరియు ఆకులు ఉంటాయి.",
+              "కొన్ని మొక్కలకు పువ్వులు మరియు పండ్లు ఉంటాయి.",
+              "మొక్కలకు నీరు మరియు సూర్యకాంతి అవసరం."
+            ],
+            "Hindi": [
+              "पौधे जीवित होते हैं।",
+              "पौधों में जड़ होती है।",
+              "पौधों में तना और पत्तियाँ होती हैं।",
+              "कुछ पौधों में फूल और फल होते हैं।",
+              "पौधों को पानी और धूप चाहिए।"
+            ]
+          },
+          "activity": {
+            "English": "Look at a plant near you and count how many leaves you can see.",
+            "Telugu": "మీ దగ్గర ఉన్న ఒక మొక్కను గమనించి కనిపించే ఆకులను లెక్కించండి.",
+            "Hindi": "अपने पास किसी पौधे को देखें और दिखाई देने वाली पत्तियाँ गिनें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which part of a plant is usually under the soil?",
+                "Telugu": "మొక్కలోని ఏ భాగం సాధారణంగా మట్టి కింద ఉంటుంది?",
+                "Hindi": "पौधे का कौन सा भाग आमतौर पर मिट्टी के नीचे होता है?"
+              },
+              "options": {
+                "English": [
+                  "Flower",
+                  "Leaf",
+                  "Root",
+                  "Fruit"
+                ],
+                "Telugu": [
+                  "పువ్వు",
+                  "ఆకు",
+                  "వేరు",
+                  "పండు"
+                ],
+                "Hindi": [
+                  "फूल",
+                  "पत्ती",
+                  "जड़",
+                  "फल"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Roots grow under the soil. They hold the plant and drink water.",
+                "Telugu": "వేర్లు మట్టి కింద పెరుగుతాయి. అవి మొక్కను పట్టి ఉంచి నీటిని తాగుతాయి.",
+                "Hindi": "जड़ें मिट्टी के नीचे बढ़ती हैं। वे पौधे को पकड़े रखती हैं और पानी पीती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which part of a plant is green and flat?",
+                "Telugu": "మొక్కలోని ఏ భాగం ఆకుపచ్చగా, బల్లపరుపుగా ఉంటుంది?",
+                "Hindi": "पौधे का कौन सा भाग हरा और चपटा होता है?"
+              },
+              "options": {
+                "English": [
+                  "Leaf",
+                  "Root",
+                  "Seed",
+                  "Bark"
+                ],
+                "Telugu": [
+                  "ఆకు",
+                  "వేరు",
+                  "విత్తనం",
+                  "బెరడు"
+                ],
+                "Hindi": [
+                  "पत्ती",
+                  "जड़",
+                  "बीज",
+                  "छाल"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Leaves are usually green and flat. They make food for the plant using sunlight.",
+                "Telugu": "ఆకులు సాధారణంగా ఆకుపచ్చగా, బల్లపరుపుగా ఉంటాయి. సూర్యరశ్మితో మొక్కకు ఆహారం తయారుచేస్తాయి.",
+                "Hindi": "पत्तियाँ आमतौर पर हरी और चपटी होती हैं। वे धूप से पौधे का भोजन बनाती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What do plants need to grow?",
+                "Telugu": "మొక్కలు పెరగడానికి ఏమి కావాలి?",
+                "Hindi": "पौधों को बढ़ने के लिए क्या चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Only toys",
+                  "Water, air and sunlight",
+                  "Only sweets",
+                  "Only darkness"
+                ],
+                "Telugu": [
+                  "బొమ్మలు మాత్రమే",
+                  "నీరు, గాలి, సూర్యరశ్మి",
+                  "మిఠాయిలు మాత్రమే",
+                  "చీకటి మాత్రమే"
+                ],
+                "Hindi": [
+                  "सिर्फ़ खिलौने",
+                  "पानी, हवा और धूप",
+                  "सिर्फ़ मिठाई",
+                  "सिर्फ़ अँधेरा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Plants need water, air and sunlight, and good soil, to grow well.",
+                "Telugu": "మొక్కలు బాగా పెరగడానికి నీరు, గాలి, సూర్యరశ్మి, మంచి మట్టి కావాలి.",
+                "Hindi": "पौधों को अच्छे से बढ़ने के लिए पानी, हवा, धूप और अच्छी मिट्टी चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which part of a plant holds it up straight?",
+                "Telugu": "మొక్కను నిటారుగా నిలబెట్టేది ఏ భాగం?",
+                "Hindi": "पौधे को सीधा खड़ा कौन रखता है?"
+              },
+              "options": {
+                "English": [
+                  "Petal",
+                  "Fruit",
+                  "Thorn",
+                  "Stem"
+                ],
+                "Telugu": [
+                  "రేక",
+                  "పండు",
+                  "ముల్లు",
+                  "కాండం"
+                ],
+                "Hindi": [
+                  "पंखुड़ी",
+                  "फल",
+                  "काँटा",
+                  "तना"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The stem holds the plant up and carries water from the roots to the leaves.",
+                "Telugu": "కాండం మొక్కను నిలబెట్టి, వేర్ల నుంచి ఆకులకు నీటిని తీసుకెళ్తుంది.",
+                "Hindi": "तना पौधे को खड़ा रखता है और जड़ों से पत्तियों तक पानी ले जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A plant is a living thing.",
+                "Telugu": "నిజమా అబద్ధమా: మొక్క ఒక జీవి.",
+                "Hindi": "सही या गलत: पौधा एक जीवित चीज़ है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Plants are living things. They grow, need food and water, and make new plants.",
+                "Telugu": "మొక్కలు జీవులు. అవి పెరుగుతాయి, ఆహారం, నీరు కావాలి, కొత్త మొక్కలను ఇస్తాయి.",
+                "Hindi": "पौधे जीवित हैं। वे बढ़ते हैं, उन्हें भोजन और पानी चाहिए और वे नए पौधे बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "A new plant grows from a...",
+                "Telugu": "కొత్త మొక్క దేని నుంచి పెరుగుతుంది?",
+                "Hindi": "नया पौधा किससे उगता है?"
+              },
+              "options": {
+                "English": [
+                  "Stone",
+                  "Seed",
+                  "Spoon",
+                  "Feather"
+                ],
+                "Telugu": [
+                  "రాయి",
+                  "విత్తనం",
+                  "చెంచా",
+                  "ఈక"
+                ],
+                "Hindi": [
+                  "पत्थर",
+                  "बीज",
+                  "चम्मच",
+                  "पंख"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "When a seed gets soil, water and warmth, it sprouts into a new plant.",
+                "Telugu": "విత్తనానికి మట్టి, నీరు, వెచ్చదనం దొరికితే అది మొలకెత్తి కొత్త మొక్కగా మారుతుంది.",
+                "Hindi": "बीज को मिट्टी, पानी और गर्मी मिले तो वह अंकुरित होकर नया पौधा बनता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is a big plant?",
+                "Telugu": "వీటిలో పెద్ద మొక్క ఏది?",
+                "Hindi": "इनमें से बड़ा पौधा कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Grass",
+                  "Mint",
+                  "Mango tree",
+                  "Tulsi"
+                ],
+                "Telugu": [
+                  "గడ్డి",
+                  "పుదీనా",
+                  "మామిడి చెట్టు",
+                  "తులసి"
+                ],
+                "Hindi": [
+                  "घास",
+                  "पुदीना",
+                  "आम का पेड़",
+                  "तुलसी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A mango tree is big and has a thick, hard trunk. Grass, mint and tulsi are small plants.",
+                "Telugu": "మామిడి చెట్టు పెద్దది, దానికి లావుగా గట్టిగా ఉండే మాను ఉంటుంది. గడ్డి, పుదీనా, తులసి చిన్న మొక్కలు.",
+                "Hindi": "आम का पेड़ बड़ा होता है और उसका तना मोटा और सख्त होता है। घास, पुदीना और तुलसी छोटे पौधे हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which part of a plant can become a fruit?",
+                "Telugu": "మొక్కలోని ఏ భాగం పండుగా మారుతుంది?",
+                "Hindi": "पौधे का कौन सा भाग फल बनता है?"
+              },
+              "options": {
+                "English": [
+                  "Root",
+                  "Leaf",
+                  "Stem",
+                  "Flower"
+                ],
+                "Telugu": [
+                  "వేరు",
+                  "ఆకు",
+                  "కాండం",
+                  "పువ్వు"
+                ],
+                "Hindi": [
+                  "जड़",
+                  "पत्ती",
+                  "तना",
+                  "फूल"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Many flowers turn into fruits, and the fruits carry seeds inside.",
+                "Telugu": "చాలా పువ్వులు పండ్లుగా మారుతాయి, ఆ పండ్ల లోపల విత్తనాలు ఉంటాయి.",
+                "Hindi": "कई फूल फल बन जाते हैं, और फलों के अंदर बीज होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should pluck leaves for fun.",
+                "Telugu": "నిజమా అబద్ధమా: సరదాగా ఆకులు తెంపాలి.",
+                "Hindi": "सही या गलत: हमें मज़े के लिए पत्तियाँ तोड़नी चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Plants are living things. Plucking leaves hurts them, so we should care for plants.",
+                "Telugu": "మొక్కలు జీవులు. ఆకులు తెంపితే వాటికి హాని కలుగుతుంది, కాబట్టి మొక్కలను కాపాడాలి.",
+                "Hindi": "पौधे जीवित हैं। पत्तियाँ तोड़ने से उन्हें नुकसान होता है, इसलिए पौधों की देखभाल करनी चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "What do plants give us?",
+                "Telugu": "మొక్కలు మనకు ఏమి ఇస్తాయి?",
+                "Hindi": "पौधे हमें क्या देते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Fruits, vegetables and fresh air",
+                  "Plastic bags",
+                  "Smoke",
+                  "Noise"
+                ],
+                "Telugu": [
+                  "పండ్లు, కూరగాయలు, తాజా గాలి",
+                  "ప్లాస్టిక్ సంచులు",
+                  "పొగ",
+                  "శబ్దం"
+                ],
+                "Hindi": [
+                  "फल, सब्ज़ियाँ और ताज़ी हवा",
+                  "प्लास्टिक की थैलियाँ",
+                  "धुआँ",
+                  "शोर"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Plants give us food, shade, wood and the fresh air we breathe.",
+                "Telugu": "మొక్కలు మనకు ఆహారం, నీడ, కలప, మనం పీల్చే తాజా గాలిని ఇస్తాయి.",
+                "Hindi": "पौधे हमें भोजन, छाया, लकड़ी और साँस लेने के लिए ताज़ी हवा देते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "animals-around-me",
+      "icon": "🐶",
+      "title": {
+        "English": "Animals Around Me",
+        "Telugu": "నా చుట్టూ జంతువులు",
+        "Hindi": "मेरे आसपास जानवर"
+      },
+      "description": {
+        "English": "Learn about some common animals around us.",
+        "Telugu": "మన చుట్టూ కనిపించే కొన్ని సాధారణ జంతువుల గురించి తెలుసుకుందాం.",
+        "Hindi": "हमारे आसपास दिखाई देने वाले कुछ सामान्य जानवरों के बारे में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "common-animals",
+          "visual": "🐾",
+          "title": {
+            "English": "Meet the Animals",
+            "Telugu": "జంతువులను తెలుసుకుందాం",
+            "Hindi": "जानवरों को जानें"
+          },
+          "image": "./images/lessons/animals.png",
+          "explanation": {
+            "English": "Animals are living things. Dogs, cats, cows and birds are some animals we may see around us. Different animals eat different foods and live in different places.",
+            "Telugu": "జంతువులు జీవులు. కుక్కలు, పిల్లులు, ఆవులు మరియు పక్షులు మన చుట్టూ కనిపించే కొన్ని జంతువులు. వేర్వేరు జంతువులు వేర్వేరు ఆహారం తింటాయి.",
+            "Hindi": "जानवर जीवित होते हैं। कुत्ते, बिल्ली, गाय और पक्षी हमारे आसपास दिखाई दे सकते हैं। अलग-अलग जानवर अलग भोजन खाते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Animals are living things.",
+              "Dogs and cats may live near people.",
+              "Birds have wings.",
+              "Animals need food.",
+              "Animals need water."
+            ],
+            "Telugu": [
+              "జంతువులు జీవులు.",
+              "కుక్కలు మరియు పిల్లులు మనుషుల దగ్గర ఉండవచ్చు.",
+              "పక్షులకు రెక్కలు ఉంటాయి.",
+              "జంతువులకు ఆహారం అవసరం.",
+              "జంతువులకు నీరు అవసరం."
+            ],
+            "Hindi": [
+              "जानवर जीवित होते हैं।",
+              "कुत्ते और बिल्ली लोगों के पास रह सकते हैं।",
+              "पक्षियों के पंख होते हैं।",
+              "जानवरों को भोजन चाहिए।",
+              "जानवरों को पानी चाहिए।"
+            ]
+          },
+          "activity": {
+            "English": "Observe two animals or birds around your home from a safe distance.",
+            "Telugu": "సురక్షిత దూరం నుండి మీ ఇంటి చుట్టూ రెండు జంతువులు లేదా పక్షులను గమనించండి.",
+            "Hindi": "सुरक्षित दूरी से अपने घर के आसपास दो जानवर या पक्षी देखें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Which animal gives us milk?",
+                "Telugu": "మనకు పాలు ఇచ్చే జంతువు ఏది?",
+                "Hindi": "हमें दूध कौन सा जानवर देता है?"
+              },
+              "options": {
+                "English": [
+                  "Lion",
+                  "Cow",
+                  "Snake",
+                  "Crow"
+                ],
+                "Telugu": [
+                  "సింహం",
+                  "ఆవు",
+                  "పాము",
+                  "కాకి"
+                ],
+                "Hindi": [
+                  "शेर",
+                  "गाय",
+                  "साँप",
+                  "कौआ"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Cows, buffaloes and goats give us milk.",
+                "Telugu": "ఆవులు, గేదెలు, మేకలు మనకు పాలు ఇస్తాయి.",
+                "Hindi": "गाय, भैंस और बकरी हमें दूध देती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which animal lives in water?",
+                "Telugu": "నీటిలో నివసించే జంతువు ఏది?",
+                "Hindi": "पानी में कौन सा जानवर रहता है?"
+              },
+              "options": {
+                "English": [
+                  "Fish",
+                  "Dog",
+                  "Horse",
+                  "Parrot"
+                ],
+                "Telugu": [
+                  "చేప",
+                  "కుక్క",
+                  "గుర్రం",
+                  "చిలుక"
+                ],
+                "Hindi": [
+                  "मछली",
+                  "कुत्ता",
+                  "घोड़ा",
+                  "तोता"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Fish live in water. They swim with their fins.",
+                "Telugu": "చేపలు నీటిలో నివసిస్తాయి. అవి రెక్కల వంటి ఈదే భాగాలతో ఈదుతాయి.",
+                "Hindi": "मछलियाँ पानी में रहती हैं। वे पंखों जैसे मीनपंखों से तैरती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which animal can fly?",
+                "Telugu": "ఎగరగలిగే జంతువు ఏది?",
+                "Hindi": "कौन सा जानवर उड़ सकता है?"
+              },
+              "options": {
+                "English": [
+                  "Cat",
+                  "Elephant",
+                  "Goat",
+                  "Sparrow"
+                ],
+                "Telugu": [
+                  "పిల్లి",
+                  "ఏనుగు",
+                  "మేక",
+                  "పిచ్చుక"
+                ],
+                "Hindi": [
+                  "बिल्ली",
+                  "हाथी",
+                  "बकरी",
+                  "गौरैया"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Birds like the sparrow have wings and feathers, so they can fly.",
+                "Telugu": "పిచ్చుక వంటి పక్షులకు రెక్కలు, ఈకలు ఉంటాయి, కాబట్టి అవి ఎగరగలవు.",
+                "Hindi": "गौरैया जैसे पक्षियों के पंख होते हैं, इसलिए वे उड़ सकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which animal is the biggest on land?",
+                "Telugu": "నేలపై అతి పెద్ద జంతువు ఏది?",
+                "Hindi": "ज़मीन पर सबसे बड़ा जानवर कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Rabbit",
+                  "Elephant",
+                  "Hen",
+                  "Monkey"
+                ],
+                "Telugu": [
+                  "కుందేలు",
+                  "ఏనుగు",
+                  "కోడి",
+                  "కోతి"
+                ],
+                "Hindi": [
+                  "खरगोश",
+                  "हाथी",
+                  "मुर्गी",
+                  "बंदर"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The elephant is the biggest animal on land. It has a long trunk.",
+                "Telugu": "ఏనుగు నేలపై అతి పెద్ద జంతువు. దానికి పొడవైన తొండం ఉంటుంది.",
+                "Hindi": "हाथी ज़मीन का सबसे बड़ा जानवर है। उसकी लंबी सूँड होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: A dog is a pet animal.",
+                "Telugu": "నిజమా అబద్ధమా: కుక్క పెంపుడు జంతువు.",
+                "Hindi": "सही या गलत: कुत्ता एक पालतू जानवर है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Dogs live with people at home. They are friendly pets and guard our homes.",
+                "Telugu": "కుక్కలు మనుషులతో ఇంట్లో ఉంటాయి. అవి స్నేహపూర్వక పెంపుడు జంతువులు, ఇంటిని కాపలా కాస్తాయి.",
+                "Hindi": "कुत्ते लोगों के साथ घर में रहते हैं। वे दोस्ताना पालतू जानवर हैं और घर की रखवाली करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which animal lives in a forest?",
+                "Telugu": "అడవిలో నివసించే జంతువు ఏది?",
+                "Hindi": "जंगल में कौन सा जानवर रहता है?"
+              },
+              "options": {
+                "English": [
+                  "Cow",
+                  "Cat",
+                  "Tiger",
+                  "Hen"
+                ],
+                "Telugu": [
+                  "ఆవు",
+                  "పిల్లి",
+                  "పులి",
+                  "కోడి"
+                ],
+                "Hindi": [
+                  "गाय",
+                  "बिल्ली",
+                  "बाघ",
+                  "मुर्गी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Tigers are wild animals. They live in forests, not in our homes.",
+                "Telugu": "పులులు అడవి జంతువులు. అవి అడవుల్లో ఉంటాయి, మన ఇళ్లలో కాదు.",
+                "Hindi": "बाघ जंगली जानवर हैं। वे जंगल में रहते हैं, हमारे घरों में नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which animal gives us eggs?",
+                "Telugu": "మనకు గుడ్లు ఇచ్చేది ఏది?",
+                "Hindi": "हमें अंडे कौन देता है?"
+              },
+              "options": {
+                "English": [
+                  "Goat",
+                  "Buffalo",
+                  "Dog",
+                  "Hen"
+                ],
+                "Telugu": [
+                  "మేక",
+                  "గేదె",
+                  "కుక్క",
+                  "కోడి"
+                ],
+                "Hindi": [
+                  "बकरी",
+                  "भैंस",
+                  "कुत्ता",
+                  "मुर्गी"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Hens lay eggs. Ducks also lay eggs.",
+                "Telugu": "కోళ్లు గుడ్లు పెడతాయి. బాతులు కూడా గుడ్లు పెడతాయి.",
+                "Hindi": "मुर्गियाँ अंडे देती हैं। बत्तख भी अंडे देती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "How does a snake move?",
+                "Telugu": "పాము ఎలా కదులుతుంది?",
+                "Hindi": "साँप कैसे चलता है?"
+              },
+              "options": {
+                "English": [
+                  "It crawls",
+                  "It flies",
+                  "It hops on two legs",
+                  "It swims only"
+                ],
+                "Telugu": [
+                  "పాకుతుంది",
+                  "ఎగురుతుంది",
+                  "రెండు కాళ్లపై గెంతుతుంది",
+                  "ఈదుతుంది మాత్రమే"
+                ],
+                "Hindi": [
+                  "रेंगता है",
+                  "उड़ता है",
+                  "दो पैरों पर कूदता है",
+                  "सिर्फ़ तैरता है"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A snake has no legs. It moves by crawling on the ground.",
+                "Telugu": "పాముకు కాళ్లు ఉండవు. అది నేలపై పాకుతూ కదులుతుంది.",
+                "Hindi": "साँप के पैर नहीं होते। वह ज़मीन पर रेंगकर चलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What does a cow eat?",
+                "Telugu": "ఆవు ఏమి తింటుంది?",
+                "Hindi": "गाय क्या खाती है?"
+              },
+              "options": {
+                "English": [
+                  "Meat",
+                  "Grass",
+                  "Stones",
+                  "Plastic"
+                ],
+                "Telugu": [
+                  "మాంసం",
+                  "గడ్డి",
+                  "రాళ్లు",
+                  "ప్లాస్టిక్"
+                ],
+                "Hindi": [
+                  "मांस",
+                  "घास",
+                  "पत्थर",
+                  "प्लास्टिक"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Cows eat grass and other plants. Plastic can make them very sick.",
+                "Telugu": "ఆవులు గడ్డి, ఇతర మొక్కలు తింటాయి. ప్లాస్టిక్ తింటే అవి చాలా అనారోగ్యానికి గురవుతాయి.",
+                "Hindi": "गाय घास और दूसरे पौधे खाती है। प्लास्टिक खाने से वह बहुत बीमार हो सकती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should be kind to animals.",
+                "Telugu": "నిజమా అబద్ధమా: జంతువుల పట్ల దయగా ఉండాలి.",
+                "Hindi": "सही या गलत: हमें जानवरों के प्रति दयालु होना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Animals feel pain and fear. We should give them food and water and never hurt them.",
+                "Telugu": "జంతువులకు నొప్పి, భయం ఉంటాయి. వాటికి ఆహారం, నీరు ఇవ్వాలి, ఎప్పుడూ బాధపెట్టకూడదు.",
+                "Hindi": "जानवरों को भी दर्द और डर होता है। हमें उन्हें खाना-पानी देना चाहिए और कभी चोट नहीं पहुँचानी चाहिए।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water-around-me",
+      "icon": "💧",
+      "title": {
+        "English": "Water Around Me",
+        "Telugu": "నా చుట్టూ నీరు",
+        "Hindi": "मेरे आसपास पानी"
+      },
+      "description": {
+        "English": "Learn why we need water every day.",
+        "Telugu": "మనకు ప్రతిరోజూ నీరు ఎందుకు అవసరమో తెలుసుకుందాం.",
+        "Hindi": "जानें कि हमें हर दिन पानी क्यों चाहिए।"
+      },
+      "lessons": [
+        {
+          "id": "water-needs",
+          "visual": "🚰",
+          "title": {
+            "English": "We Need Water",
+            "Telugu": "మనకు నీరు అవసరం",
+            "Hindi": "हमें पानी चाहिए"
+          },
+          "image": "./images/lessons/water.png",
+          "explanation": {
+            "English": "We need water every day. We drink water and use it for cooking, washing and cleaning. Plants and animals also need water. We should close taps after using them.",
+            "Telugu": "మనకు ప్రతిరోజూ నీరు అవసరం. నీటిని తాగడం, వంట, కడగడం మరియు శుభ్రపరచడం కోసం ఉపయోగిస్తాము. మొక్కలు మరియు జంతువులకు కూడా నీరు అవసరం.",
+            "Hindi": "हमें हर दिन पानी चाहिए। हम पानी पीते हैं और खाना बनाने, धोने तथा सफाई में उपयोग करते हैं। पौधों और जानवरों को भी पानी चाहिए।"
+          },
+          "keyPoints": {
+            "English": [
+              "We drink water.",
+              "Water is used for cooking.",
+              "Water is used for washing.",
+              "Plants and animals need water.",
+              "Do not waste water."
+            ],
+            "Telugu": [
+              "మనం నీరు తాగుతాము.",
+              "వంటకు నీటిని ఉపయోగిస్తాము.",
+              "కడగడానికి నీటిని ఉపయోగిస్తాము.",
+              "మొక్కలు మరియు జంతువులకు నీరు అవసరం.",
+              "నీటిని వృథా చేయకూడదు."
+            ],
+            "Hindi": [
+              "हम पानी पीते हैं।",
+              "खाना बनाने में पानी उपयोग होता है।",
+              "धोने में पानी उपयोग होता है।",
+              "पौधों और जानवरों को पानी चाहिए।",
+              "पानी बर्बाद नहीं करना चाहिए।"
+            ]
+          },
+          "activity": {
+            "English": "Count how many times you use water during one morning.",
+            "Telugu": "ఒక ఉదయం మీరు నీటిని ఎన్ని సార్లు ఉపయోగించారో లెక్కించండి.",
+            "Hindi": "एक सुबह में आपने कितनी बार पानी उपयोग किया, गिनें।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Why do we drink water?",
+                "Telugu": "మనం నీరు ఎందుకు తాగుతాం?",
+                "Hindi": "हम पानी क्यों पीते हैं?"
+              },
+              "options": {
+                "English": [
+                  "To stay healthy",
+                  "To feel sleepy",
+                  "To grow hair only",
+                  "To make noise"
+                ],
+                "Telugu": [
+                  "ఆరోగ్యంగా ఉండటానికి",
+                  "నిద్ర రావడానికి",
+                  "జుట్టు పెరగడానికి మాత్రమే",
+                  "శబ్దం చేయడానికి"
+                ],
+                "Hindi": [
+                  "स्वस्थ रहने के लिए",
+                  "नींद आने के लिए",
+                  "सिर्फ़ बाल बढ़ाने के लिए",
+                  "शोर करने के लिए"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Our body needs water to stay healthy and active, especially on hot days.",
+                "Telugu": "మన శరీరం ఆరోగ్యంగా, చురుకుగా ఉండటానికి నీరు కావాలి, ముఖ్యంగా వేడి రోజుల్లో.",
+                "Hindi": "हमारे शरीर को स्वस्थ और फुर्तीला रहने के लिए पानी चाहिए, ख़ासकर गर्मी के दिनों में।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these needs water?",
+                "Telugu": "వీటిలో దేనికి నీరు కావాలి?",
+                "Hindi": "इनमें से किसे पानी चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "A stone",
+                  "A chair",
+                  "A plant",
+                  "A pencil"
+                ],
+                "Telugu": [
+                  "రాయి",
+                  "కుర్చీ",
+                  "మొక్క",
+                  "పెన్సిల్"
+                ],
+                "Hindi": [
+                  "पत्थर",
+                  "कुर्सी",
+                  "पौधा",
+                  "पेंसिल"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "All living things, like plants, animals and people, need water. A stone does not.",
+                "Telugu": "మొక్కలు, జంతువులు, మనుషుల వంటి అన్ని జీవులకు నీరు కావాలి. రాయికి అవసరం లేదు.",
+                "Hindi": "पौधे, जानवर और इंसान जैसी सभी जीवित चीज़ों को पानी चाहिए। पत्थर को नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where does rain water come from?",
+                "Telugu": "వర్షపు నీరు ఎక్కడ నుంచి వస్తుంది?",
+                "Hindi": "बारिश का पानी कहाँ से आता है?"
+              },
+              "options": {
+                "English": [
+                  "The ground",
+                  "Clouds",
+                  "Trees",
+                  "The moon"
+                ],
+                "Telugu": [
+                  "నేల",
+                  "మేఘాలు",
+                  "చెట్లు",
+                  "చంద్రుడు"
+                ],
+                "Hindi": [
+                  "ज़मीन",
+                  "बादल",
+                  "पेड़",
+                  "चाँद"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Rain falls from clouds. Clouds are made of tiny drops of water.",
+                "Telugu": "వర్షం మేఘాల నుంచి పడుతుంది. మేఘాలు చిన్న చిన్న నీటి బిందువులతో తయారవుతాయి.",
+                "Hindi": "बारिश बादलों से गिरती है। बादल पानी की छोटी-छोटी बूँदों से बने होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should leave the tap running.",
+                "Telugu": "నిజమా అబద్ధమా: కుళాయిని తెరిచే ఉంచాలి.",
+                "Hindi": "सही या गलत: हमें नल खुला छोड़ देना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A running tap wastes water. We should close the tap after use.",
+                "Telugu": "తెరిచిన కుళాయి నీటిని వృథా చేస్తుంది. వాడిన తర్వాత కుళాయి మూసేయాలి.",
+                "Hindi": "खुला नल पानी बर्बाद करता है। इस्तेमाल के बाद नल बंद करना चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which water is safe to drink?",
+                "Telugu": "తాగడానికి సురక్షితమైన నీరు ఏది?",
+                "Hindi": "पीने के लिए सुरक्षित पानी कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Muddy pond water",
+                  "Clean, boiled or filtered water",
+                  "Water from a drain",
+                  "Soapy water"
+                ],
+                "Telugu": [
+                  "బురద చెరువు నీరు",
+                  "శుభ్రమైన, కాచిన లేదా వడపోసిన నీరు",
+                  "మురుగు కాలువ నీరు",
+                  "సబ్బు నీరు"
+                ],
+                "Hindi": [
+                  "कीचड़ वाले तालाब का पानी",
+                  "साफ़, उबला या छाना हुआ पानी",
+                  "नाली का पानी",
+                  "साबुन वाला पानी"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Dirty water has germs. Boiling or filtering makes water safe to drink.",
+                "Telugu": "మురికి నీటిలో క్రిములు ఉంటాయి. కాచడం లేదా వడపోయడం వల్ల నీరు తాగడానికి సురక్షితం అవుతుంది.",
+                "Hindi": "गंदे पानी में कीटाणु होते हैं। उबालने या छानने से पानी पीने लायक बनता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "We use water to...",
+                "Telugu": "మనం నీటిని దేనికి ఉపయోగిస్తాం?",
+                "Hindi": "हम पानी का उपयोग किसलिए करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Bathe and cook",
+                  "Write in a book",
+                  "Fly a kite",
+                  "Switch on a fan"
+                ],
+                "Telugu": [
+                  "స్నానం చేయడానికి, వంట చేయడానికి",
+                  "పుస్తకంలో రాయడానికి",
+                  "గాలిపటం ఎగరేయడానికి",
+                  "ఫ్యాన్ వేయడానికి"
+                ],
+                "Hindi": [
+                  "नहाने और खाना बनाने के लिए",
+                  "किताब में लिखने के लिए",
+                  "पतंग उड़ाने के लिए",
+                  "पंखा चलाने के लिए"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "We use water to drink, bathe, cook, wash clothes and clean our homes.",
+                "Telugu": "నీటిని తాగడానికి, స్నానానికి, వంటకు, బట్టలు ఉతకడానికి, ఇల్లు శుభ్రం చేయడానికి వాడతాం.",
+                "Hindi": "हम पानी पीने, नहाने, खाना बनाने, कपड़े धोने और घर साफ़ करने में इस्तेमाल करते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is a place where water is found?",
+                "Telugu": "వీటిలో నీరు దొరికే చోటు ఏది?",
+                "Hindi": "इनमें से पानी कहाँ मिलता है?"
+              },
+              "options": {
+                "English": [
+                  "A desert of sand",
+                  "A cupboard",
+                  "A river",
+                  "A brick wall"
+                ],
+                "Telugu": [
+                  "ఇసుక ఎడారి",
+                  "అలమర",
+                  "నది",
+                  "ఇటుక గోడ"
+                ],
+                "Hindi": [
+                  "रेत का रेगिस्तान",
+                  "अलमारी",
+                  "नदी",
+                  "ईंट की दीवार"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Rivers, lakes, ponds, wells and the sea all hold water.",
+                "Telugu": "నదులు, సరస్సులు, చెరువులు, బావులు, సముద్రం అన్నింటిలో నీరు ఉంటుంది.",
+                "Hindi": "नदी, झील, तालाब, कुएँ और समुद्र सभी में पानी होता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What happens to a plant with no water?",
+                "Telugu": "నీరు లేని మొక్కకు ఏమవుతుంది?",
+                "Hindi": "बिना पानी के पौधे का क्या होता है?"
+              },
+              "options": {
+                "English": [
+                  "It grows faster",
+                  "It turns blue",
+                  "It sings",
+                  "It dries up"
+                ],
+                "Telugu": [
+                  "వేగంగా పెరుగుతుంది",
+                  "నీలం రంగుకు మారుతుంది",
+                  "పాట పాడుతుంది",
+                  "ఎండిపోతుంది"
+                ],
+                "Hindi": [
+                  "तेज़ी से बढ़ता है",
+                  "नीला हो जाता है",
+                  "गाना गाता है",
+                  "सूख जाता है"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Without water a plant wilts and dries up. Plants need water every day.",
+                "Telugu": "నీరు లేకపోతే మొక్క వాడిపోయి ఎండిపోతుంది. మొక్కలకు రోజూ నీరు కావాలి.",
+                "Hindi": "पानी के बिना पौधा मुरझाकर सूख जाता है। पौधों को रोज़ पानी चाहिए।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Fish need water to live.",
+                "Telugu": "నిజమా అబద్ధమా: చేపలు బతకడానికి నీరు కావాలి.",
+                "Hindi": "सही या गलत: मछलियों को जीने के लिए पानी चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Fish live in water and breathe in water. They cannot live outside it.",
+                "Telugu": "చేపలు నీటిలోనే ఉంటాయి, నీటిలోనే శ్వాస తీసుకుంటాయి. బయట బతకలేవు.",
+                "Hindi": "मछलियाँ पानी में रहती और साँस लेती हैं। वे पानी के बाहर नहीं जी सकतीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "How can we save water while brushing our teeth?",
+                "Telugu": "పళ్లు తోముకునేటప్పుడు నీటిని ఎలా ఆదా చేయాలి?",
+                "Hindi": "दाँत ब्रश करते समय पानी कैसे बचाएँ?"
+              },
+              "options": {
+                "English": [
+                  "Keep the tap open",
+                  "Use a mug of water",
+                  "Use a bucket of water",
+                  "Brush under a shower"
+                ],
+                "Telugu": [
+                  "కుళాయి తెరిచే ఉంచాలి",
+                  "ఒక మగ్గు నీటిని వాడాలి",
+                  "ఒక బకెట్ నీటిని వాడాలి",
+                  "షవర్ కింద తోముకోవాలి"
+                ],
+                "Hindi": [
+                  "नल खुला रखें",
+                  "एक मग पानी इस्तेमाल करें",
+                  "एक बाल्टी पानी इस्तेमाल करें",
+                  "शावर के नीचे ब्रश करें"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Using a mug of water instead of a running tap saves many litres every day.",
+                "Telugu": "కుళాయి తెరిచి ఉంచడం బదులు ఒక మగ్గు నీటిని వాడితే రోజూ ఎన్నో లీటర్లు ఆదా అవుతాయి.",
+                "Hindi": "खुले नल की जगह एक मग पानी इस्तेमाल करने से रोज़ कई लीटर पानी बचता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-we-eat",
+      "icon": "🍎",
+      "title": {
+        "English": "Food We Eat",
+        "Telugu": "మనం తినే ఆహారం",
+        "Hindi": "हमारा भोजन"
+      },
+      "description": {
+        "English": "Learn about fruits, vegetables and healthy meals.",
+        "Telugu": "పండ్లు, కూరగాయలు, ఆరోగ్యకరమైన భోజనం గురించి తెలుసుకోండి.",
+        "Hindi": "फल, सब्ज़ियाँ और सेहतमंद भोजन के बारे में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "food-we-eat-lesson",
+          "visual": "🥕",
+          "title": {
+            "English": "Healthy Food Makes Us Strong",
+            "Telugu": "ఆరోగ్యకరమైన ఆహారం మనల్ని బలంగా చేస్తుంది",
+            "Hindi": "सेहतमंद भोजन हमें मज़बूत बनाता है"
+          },
+          "image": "./images/lessons/healthy-food.png",
+          "explanation": {
+            "English": "We eat food to grow, play and stay healthy. Fruits, vegetables, rice, dal, milk and eggs are good for us. Too many sweets and chips are not good for our teeth and body.",
+            "Telugu": "మనం పెరగడానికి, ఆడుకోవడానికి, ఆరోగ్యంగా ఉండటానికి ఆహారం తింటాం. పండ్లు, కూరగాయలు, అన్నం, పప్పు, పాలు, గుడ్లు మనకు మంచివి. ఎక్కువ మిఠాయిలు, చిప్స్ మన పళ్లకు, శరీరానికి మంచివి కావు.",
+            "Hindi": "हम बढ़ने, खेलने और स्वस्थ रहने के लिए भोजन करते हैं। फल, सब्ज़ियाँ, चावल, दाल, दूध और अंडे हमारे लिए अच्छे हैं। ज़्यादा मिठाई और चिप्स हमारे दाँतों और शरीर के लिए अच्छे नहीं हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Food gives us energy to work and play.",
+              "Fruits and vegetables keep us healthy.",
+              "Milk helps our bones and teeth grow strong.",
+              "We should wash fruits before eating them."
+            ],
+            "Telugu": [
+              "ఆహారం పని చేయడానికి, ఆడుకోవడానికి శక్తినిస్తుంది.",
+              "పండ్లు, కూరగాయలు మనల్ని ఆరోగ్యంగా ఉంచుతాయి.",
+              "పాలు ఎముకలు, పళ్లు బలంగా పెరగడానికి సహాయపడతాయి.",
+              "పండ్లను తినే ముందు కడగాలి."
+            ],
+            "Hindi": [
+              "भोजन हमें काम और खेल के लिए ऊर्जा देता है।",
+              "फल और सब्ज़ियाँ हमें स्वस्थ रखते हैं।",
+              "दूध हड्डियों और दाँतों को मज़बूत बनाता है।",
+              "फल खाने से पहले धोने चाहिए।"
+            ]
+          },
+          "activity": {
+            "English": "Draw your plate for lunch today and colour the fruits and vegetables in it.",
+            "Telugu": "ఈ రోజు మధ్యాహ్న భోజనం పళ్లెం బొమ్మ గీసి, అందులోని పండ్లు, కూరగాయలకు రంగులు వేయండి.",
+            "Hindi": "आज के दोपहर के भोजन की थाली बनाइए और उसमें फल-सब्ज़ियों में रंग भरिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Why do we eat food?",
+                "Telugu": "మనం ఆహారం ఎందుకు తింటాం?",
+                "Hindi": "हम भोजन क्यों करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "To grow and get energy",
+                  "To feel tired",
+                  "To get dirty",
+                  "To sleep all day"
+                ],
+                "Telugu": [
+                  "పెరగడానికి, శక్తి పొందడానికి",
+                  "అలసిపోవడానికి",
+                  "మురికి అవ్వడానికి",
+                  "రోజంతా నిద్రపోవడానికి"
+                ],
+                "Hindi": [
+                  "बढ़ने और ऊर्जा पाने के लिए",
+                  "थकने के लिए",
+                  "गंदा होने के लिए",
+                  "दिन भर सोने के लिए"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Food helps our body grow and gives us energy to work and play.",
+                "Telugu": "ఆహారం శరీరం పెరగడానికి సహాయపడి, పని, ఆటలకు శక్తినిస్తుంది.",
+                "Hindi": "भोजन शरीर को बढ़ने में मदद करता है और काम व खेल के लिए ऊर्जा देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is a fruit?",
+                "Telugu": "వీటిలో పండు ఏది?",
+                "Hindi": "इनमें से फल कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Potato",
+                  "Banana",
+                  "Onion",
+                  "Spinach"
+                ],
+                "Telugu": [
+                  "బంగాళాదుంప",
+                  "అరటిపండు",
+                  "ఉల్లిపాయ",
+                  "పాలకూర"
+                ],
+                "Hindi": [
+                  "आलू",
+                  "केला",
+                  "प्याज़",
+                  "पालक"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A banana is a fruit. Potato, onion and spinach are vegetables.",
+                "Telugu": "అరటిపండు ఒక పండు. బంగాళాదుంప, ఉల్లిపాయ, పాలకూర కూరగాయలు.",
+                "Hindi": "केला एक फल है। आलू, प्याज़ और पालक सब्ज़ियाँ हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is a vegetable?",
+                "Telugu": "వీటిలో కూరగాయ ఏది?",
+                "Hindi": "इनमें से सब्ज़ी कौन सी है?"
+              },
+              "options": {
+                "English": [
+                  "Mango",
+                  "Grapes",
+                  "Carrot",
+                  "Apple"
+                ],
+                "Telugu": [
+                  "మామిడి",
+                  "ద్రాక్ష",
+                  "క్యారెట్",
+                  "ఆపిల్"
+                ],
+                "Hindi": [
+                  "आम",
+                  "अंगूर",
+                  "गाजर",
+                  "सेब"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A carrot is a vegetable that grows under the soil. Mango, grapes and apple are fruits.",
+                "Telugu": "క్యారెట్ మట్టి కింద పెరిగే కూరగాయ. మామిడి, ద్రాక్ష, ఆపిల్ పండ్లు.",
+                "Hindi": "गाजर मिट्टी के नीचे उगने वाली सब्ज़ी है। आम, अंगूर और सेब फल हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which food helps our bones and teeth grow strong?",
+                "Telugu": "ఎముకలు, పళ్లు బలంగా పెరగడానికి ఏ ఆహారం సహాయపడుతుంది?",
+                "Hindi": "कौन सा भोजन हड्डियों और दाँतों को मज़बूत बनाता है?"
+              },
+              "options": {
+                "English": [
+                  "Chips",
+                  "Cold drinks",
+                  "Toffee",
+                  "Milk"
+                ],
+                "Telugu": [
+                  "చిప్స్",
+                  "కూల్ డ్రింక్స్",
+                  "టోఫీ",
+                  "పాలు"
+                ],
+                "Hindi": [
+                  "चिप्स",
+                  "कोल्ड ड्रिंक",
+                  "टॉफ़ी",
+                  "दूध"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Milk, curd and cheese help our bones and teeth grow strong.",
+                "Telugu": "పాలు, పెరుగు, జున్ను ఎముకలు, పళ్లు బలంగా పెరగడానికి సహాయపడతాయి.",
+                "Hindi": "दूध, दही और पनीर हड्डियों और दाँतों को मज़बूत बनाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should wash fruits before eating them.",
+                "Telugu": "నిజమా అబద్ధమా: పండ్లను తినే ముందు కడగాలి.",
+                "Hindi": "सही या गलत: फल खाने से पहले धोने चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Washing removes dust and germs from fruits, so they are safe to eat.",
+                "Telugu": "కడగడం వల్ల పండ్ల మీద ఉన్న దుమ్ము, క్రిములు పోతాయి, తినడానికి సురక్షితం అవుతాయి.",
+                "Hindi": "धोने से फलों की धूल और कीटाणु हट जाते हैं, और वे खाने लायक बनते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which is the healthiest snack?",
+                "Telugu": "వీటిలో అత్యంత ఆరోగ్యకరమైన చిరుతిండి ఏది?",
+                "Hindi": "सबसे सेहतमंद नाश्ता कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "A packet of chips",
+                  "A guava",
+                  "A bar of chocolate",
+                  "A bottle of soda"
+                ],
+                "Telugu": [
+                  "చిప్స్ ప్యాకెట్",
+                  "జామపండు",
+                  "చాక్లెట్ బార్",
+                  "సోడా బాటిల్"
+                ],
+                "Hindi": [
+                  "चिप्स का पैकेट",
+                  "अमरूद",
+                  "चॉकलेट बार",
+                  "सोडा की बोतल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A guava is a fresh fruit full of goodness. Chips, chocolate and soda have too much salt or sugar.",
+                "Telugu": "జామపండు మంచి పోషకాలున్న తాజా పండు. చిప్స్, చాక్లెట్, సోడాలో ఉప్పు లేదా చక్కెర ఎక్కువ.",
+                "Hindi": "अमरूद पौष्टिक ताज़ा फल है। चिप्स, चॉकलेट और सोडा में नमक या चीनी बहुत ज़्यादा होती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where do we get eggs from?",
+                "Telugu": "గుడ్లు మనకు ఎక్కడ నుంచి వస్తాయి?",
+                "Hindi": "अंडे हमें कहाँ से मिलते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Trees",
+                  "Cows",
+                  "Hens",
+                  "Rivers"
+                ],
+                "Telugu": [
+                  "చెట్లు",
+                  "ఆవులు",
+                  "కోళ్లు",
+                  "నదులు"
+                ],
+                "Hindi": [
+                  "पेड़",
+                  "गाय",
+                  "मुर्गियाँ",
+                  "नदियाँ"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Hens lay the eggs we eat. Some food comes from plants and some from animals.",
+                "Telugu": "మనం తినే గుడ్లను కోళ్లు పెడతాయి. కొంత ఆహారం మొక్కల నుంచి, కొంత జంతువుల నుంచి వస్తుంది.",
+                "Hindi": "हम जो अंडे खाते हैं वे मुर्गियाँ देती हैं। कुछ भोजन पौधों से और कुछ जानवरों से मिलता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Eating many sweets is good for our teeth.",
+                "Telugu": "నిజమా అబద్ధమా: ఎక్కువ మిఠాయిలు తింటే పళ్లకు మంచిది.",
+                "Hindi": "सही या गलत: बहुत मिठाई खाना दाँतों के लिए अच्छा है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Too many sweets cause holes in our teeth. Brush your teeth after eating sweets.",
+                "Telugu": "ఎక్కువ మిఠాయిలు తింటే పళ్లలో పుచ్చులు వస్తాయి. మిఠాయి తిన్నాక పళ్లు తోముకోవాలి.",
+                "Hindi": "ज़्यादा मिठाई से दाँतों में कीड़े लगते हैं। मिठाई खाने के बाद ब्रश करें।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which food comes from a plant?",
+                "Telugu": "మొక్క నుంచి వచ్చే ఆహారం ఏది?",
+                "Hindi": "कौन सा भोजन पौधे से मिलता है?"
+              },
+              "options": {
+                "English": [
+                  "Rice",
+                  "Milk",
+                  "Egg",
+                  "Honey"
+                ],
+                "Telugu": [
+                  "బియ్యం",
+                  "పాలు",
+                  "గుడ్డు",
+                  "తేనె"
+                ],
+                "Hindi": [
+                  "चावल",
+                  "दूध",
+                  "अंडा",
+                  "शहद"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Rice grows on a paddy plant. Milk, eggs and honey come from animals.",
+                "Telugu": "బియ్యం వరి మొక్కపై పండుతుంది. పాలు, గుడ్లు, తేనె జంతువుల నుంచి వస్తాయి.",
+                "Hindi": "चावल धान के पौधे पर उगता है। दूध, अंडा और शहद जानवरों से मिलते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What should we do before eating?",
+                "Telugu": "తినే ముందు ఏమి చేయాలి?",
+                "Hindi": "खाने से पहले क्या करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Play in mud",
+                  "Touch the dog",
+                  "Run outside",
+                  "Wash our hands"
+                ],
+                "Telugu": [
+                  "బురదలో ఆడాలి",
+                  "కుక్కను తాకాలి",
+                  "బయటకు పరుగెత్తాలి",
+                  "చేతులు కడుక్కోవాలి"
+                ],
+                "Hindi": [
+                  "कीचड़ में खेलें",
+                  "कुत्ते को छुएँ",
+                  "बाहर दौड़ें",
+                  "हाथ धोएँ"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Clean hands keep germs out of our food and our body.",
+                "Telugu": "శుభ్రమైన చేతులు మన ఆహారంలోకి, శరీరంలోకి క్రిములు రాకుండా చేస్తాయి.",
+                "Hindi": "साफ़ हाथ हमारे खाने और शरीर में कीटाणु नहीं जाने देते।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-family",
+      "icon": "👨‍👩‍👧",
+      "title": {
+        "English": "My Family",
+        "Telugu": "నా కుటుంబం",
+        "Hindi": "मेरा परिवार"
+      },
+      "description": {
+        "English": "Learn about family members and how we help each other.",
+        "Telugu": "కుటుంబ సభ్యులు, మనం ఒకరికొకరు ఎలా సహాయం చేసుకుంటామో తెలుసుకోండి.",
+        "Hindi": "परिवार के सदस्यों और एक-दूसरे की मदद के बारे में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "my-family-lesson",
+          "visual": "🏠",
+          "title": {
+            "English": "People in My Family",
+            "Telugu": "నా కుటుంబంలోని వారు",
+            "Hindi": "मेरे परिवार के लोग"
+          },
+          "image": "./images/lessons/clean-home.png",
+          "explanation": {
+            "English": "A family is a group of people who live together and care for each other. Our family may have a mother, father, brothers, sisters and grandparents. Everyone in the family helps with work at home.",
+            "Telugu": "కలిసి ఉంటూ ఒకరినొకరు చూసుకునే వారే కుటుంబం. మన కుటుంబంలో అమ్మ, నాన్న, అన్నలు, అక్కలు, తాత, అమ్మమ్మ ఉండవచ్చు. కుటుంబంలో అందరూ ఇంటి పనుల్లో సహాయం చేస్తారు.",
+            "Hindi": "परिवार उन लोगों का समूह है जो साथ रहते हैं और एक-दूसरे का ध्यान रखते हैं। हमारे परिवार में माँ, पिता, भाई, बहन और दादा-दादी हो सकते हैं। परिवार में सब घर के काम में मदद करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "A family lives together and cares for each other.",
+              "Grandparents are our parents' parents.",
+              "We should help at home in small ways.",
+              "We should respect and love our elders."
+            ],
+            "Telugu": [
+              "కుటుంబం కలిసి ఉంటూ ఒకరినొకరు చూసుకుంటుంది.",
+              "తాత, నానమ్మ, అమ్మమ్మలు మన అమ్మానాన్నల తల్లిదండ్రులు.",
+              "ఇంట్లో చిన్న పనుల్లో సహాయం చేయాలి.",
+              "పెద్దలను గౌరవించాలి, ప్రేమించాలి."
+            ],
+            "Hindi": [
+              "परिवार साथ रहता है और एक-दूसरे का ध्यान रखता है।",
+              "दादा-दादी और नाना-नानी हमारे माता-पिता के माता-पिता हैं।",
+              "हमें घर पर छोटे कामों में मदद करनी चाहिए।",
+              "हमें बड़ों का आदर और प्यार करना चाहिए।"
+            ]
+          },
+          "activity": {
+            "English": "Draw your family and write one way you help each person.",
+            "Telugu": "మీ కుటుంబం బొమ్మ గీసి, ప్రతి ఒక్కరికీ మీరు చేసే ఒక సహాయం రాయండి.",
+            "Hindi": "अपने परिवार का चित्र बनाइए और हर सदस्य की आप कैसे मदद करते हैं, लिखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "What is a family?",
+                "Telugu": "కుటుంబం అంటే ఏమిటి?",
+                "Hindi": "परिवार क्या है?"
+              },
+              "options": {
+                "English": [
+                  "People who live together and care for each other",
+                  "A group of trees",
+                  "A class of students only",
+                  "A bus full of strangers"
+                ],
+                "Telugu": [
+                  "కలిసి ఉంటూ ఒకరినొకరు చూసుకునేవారు",
+                  "చెట్ల గుంపు",
+                  "విద్యార్థుల తరగతి మాత్రమే",
+                  "అపరిచితులున్న బస్సు"
+                ],
+                "Hindi": [
+                  "साथ रहने और एक-दूसरे का ध्यान रखने वाले लोग",
+                  "पेड़ों का समूह",
+                  "सिर्फ़ छात्रों की कक्षा",
+                  "अजनबियों से भरी बस"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A family is the people who live with us, love us and look after us.",
+                "Telugu": "మనతో కలిసి ఉంటూ, మనల్ని ప్రేమిస్తూ, చూసుకునే వారే కుటుంబం.",
+                "Hindi": "परिवार वे लोग हैं जो हमारे साथ रहते हैं, हमसे प्यार करते हैं और हमारा ध्यान रखते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Who is your father's mother?",
+                "Telugu": "మీ నాన్న తల్లి మీకు ఏమవుతారు?",
+                "Hindi": "आपके पिता की माँ आपकी क्या लगती हैं?"
+              },
+              "options": {
+                "English": [
+                  "Aunt",
+                  "Sister",
+                  "Grandmother",
+                  "Cousin"
+                ],
+                "Telugu": [
+                  "అత్త",
+                  "అక్క",
+                  "నానమ్మ",
+                  "బంధువు పిల్ల"
+                ],
+                "Hindi": [
+                  "चाची",
+                  "बहन",
+                  "दादी",
+                  "चचेरी बहन"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Your father's mother is your grandmother. In Telugu she is called nanamma and in Hindi dadi.",
+                "Telugu": "మీ నాన్న తల్లి మీ నానమ్మ.",
+                "Hindi": "आपके पिता की माँ आपकी दादी हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "How can you help at home?",
+                "Telugu": "ఇంట్లో మీరు ఎలా సహాయం చేయవచ్చు?",
+                "Hindi": "आप घर पर कैसे मदद कर सकते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Throw toys around",
+                  "Fold your clothes",
+                  "Shout loudly",
+                  "Waste water"
+                ],
+                "Telugu": [
+                  "బొమ్మలు చెల్లాచెదురుగా వేయడం",
+                  "మీ బట్టలు మడతపెట్టడం",
+                  "గట్టిగా అరవడం",
+                  "నీరు వృథా చేయడం"
+                ],
+                "Hindi": [
+                  "खिलौने इधर-उधर फेंकना",
+                  "अपने कपड़े तह करना",
+                  "ज़ोर से चिल्लाना",
+                  "पानी बर्बाद करना"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Small jobs like folding clothes, keeping toys away and watering plants help the family.",
+                "Telugu": "బట్టలు మడతపెట్టడం, బొమ్మలు సర్దడం, మొక్కలకు నీళ్లు పోయడం వంటి చిన్న పనులు కుటుంబానికి సహాయం.",
+                "Hindi": "कपड़े तह करना, खिलौने सँभालना और पौधों में पानी देना जैसे छोटे काम परिवार की मदद हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should respect our elders.",
+                "Telugu": "నిజమా అబద్ధమా: పెద్దలను గౌరవించాలి.",
+                "Hindi": "सही या गलत: हमें बड़ों का आदर करना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Our elders care for us and know a lot. We listen to them and speak to them kindly.",
+                "Telugu": "పెద్దలు మనల్ని చూసుకుంటారు, వారికి ఎంతో తెలుసు. వారి మాట వినాలి, మర్యాదగా మాట్లాడాలి.",
+                "Hindi": "बड़े हमारा ध्यान रखते हैं और बहुत कुछ जानते हैं। हम उनकी बात सुनते हैं और प्यार से बोलते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Your mother's brother is your...",
+                "Telugu": "మీ అమ్మ సోదరుడు మీకు ఏమవుతారు?",
+                "Hindi": "आपकी माँ का भाई आपका क्या लगता है?"
+              },
+              "options": {
+                "English": [
+                  "Uncle",
+                  "Grandfather",
+                  "Brother",
+                  "Friend"
+                ],
+                "Telugu": [
+                  "మామయ్య",
+                  "తాత",
+                  "అన్న",
+                  "స్నేహితుడు"
+                ],
+                "Hindi": [
+                  "मामा",
+                  "दादा",
+                  "भाई",
+                  "दोस्त"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Your mother's brother is your uncle: mamayya in Telugu and mama in Hindi.",
+                "Telugu": "మీ అమ్మ సోదరుడు మీ మామయ్య.",
+                "Hindi": "आपकी माँ के भाई आपके मामा हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is a small family?",
+                "Telugu": "వీటిలో చిన్న కుటుంబం ఏది?",
+                "Hindi": "इनमें से छोटा परिवार कौन सा है?"
+              },
+              "options": {
+                "English": [
+                  "Parents, children, grandparents, uncles and aunts",
+                  "Only parents and their children",
+                  "A whole village",
+                  "All the people in a city"
+                ],
+                "Telugu": [
+                  "అమ్మానాన్నలు, పిల్లలు, తాతలు, మామయ్యలు, అత్తలు",
+                  "అమ్మానాన్నలు, వారి పిల్లలు మాత్రమే",
+                  "ఒక ఊరంతా",
+                  "నగరంలోని అందరూ"
+                ],
+                "Hindi": [
+                  "माता-पिता, बच्चे, दादा-दादी, चाचा-चाची",
+                  "सिर्फ़ माता-पिता और उनके बच्चे",
+                  "पूरा गाँव",
+                  "शहर के सारे लोग"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A small family has only parents and their children. A big family also has grandparents, uncles and aunts.",
+                "Telugu": "చిన్న కుటుంబంలో అమ్మానాన్నలు, పిల్లలు మాత్రమే ఉంటారు. పెద్ద కుటుంబంలో తాతలు, మామయ్యలు, అత్తలు కూడా ఉంటారు.",
+                "Hindi": "छोटे परिवार में सिर्फ़ माता-पिता और बच्चे होते हैं। बड़े परिवार में दादा-दादी, चाचा-चाची भी होते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Who looks after us when we are ill?",
+                "Telugu": "మనకు జబ్బు చేసినప్పుడు ఎవరు చూసుకుంటారు?",
+                "Hindi": "बीमार होने पर हमारी देखभाल कौन करता है?"
+              },
+              "options": {
+                "English": [
+                  "Nobody",
+                  "A shopkeeper",
+                  "Our family",
+                  "A bus driver"
+                ],
+                "Telugu": [
+                  "ఎవరూ కాదు",
+                  "దుకాణదారుడు",
+                  "మన కుటుంబం",
+                  "బస్ డ్రైవర్"
+                ],
+                "Hindi": [
+                  "कोई नहीं",
+                  "दुकानदार",
+                  "हमारा परिवार",
+                  "बस चालक"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "When we are ill, our family takes care of us and takes us to the doctor.",
+                "Telugu": "మనకు జబ్బు చేసినప్పుడు కుటుంబం మనల్ని చూసుకుని వైద్యుని దగ్గరికి తీసుకెళ్తుంది.",
+                "Hindi": "बीमार होने पर परिवार हमारा ध्यान रखता है और डॉक्टर के पास ले जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: Only mothers should do housework.",
+                "Telugu": "నిజమా అబద్ధమా: ఇంటి పనులు అమ్మ మాత్రమే చేయాలి.",
+                "Hindi": "सही या गलत: घर का काम सिर्फ़ माँ को करना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Housework is everyone's job. When we all help, work finishes fast and everyone is happy.",
+                "Telugu": "ఇంటి పని అందరిదీ. అందరూ సహాయం చేస్తే పని త్వరగా అయిపోతుంది, అందరూ సంతోషంగా ఉంటారు.",
+                "Hindi": "घर का काम सबका है। सब मदद करें तो काम जल्दी होता है और सब खुश रहते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What should we say when someone helps us?",
+                "Telugu": "ఎవరైనా సహాయం చేసినప్పుడు ఏమనాలి?",
+                "Hindi": "कोई मदद करे तो हमें क्या कहना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Go away",
+                  "Nothing",
+                  "Hurry up",
+                  "Thank you"
+                ],
+                "Telugu": [
+                  "వెళ్లిపో",
+                  "ఏమీ అనవద్దు",
+                  "త్వరగా",
+                  "ధన్యవాదాలు"
+                ],
+                "Hindi": [
+                  "चले जाओ",
+                  "कुछ नहीं",
+                  "जल्दी करो",
+                  "धन्यवाद"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Saying thank you shows we are grateful. Good manners make our family happy.",
+                "Telugu": "ధన్యవాదాలు చెప్పడం మన కృతజ్ఞతను చూపిస్తుంది. మంచి మర్యాద కుటుంబాన్ని సంతోషపెడుతుంది.",
+                "Hindi": "धन्यवाद कहना हमारा आभार दिखाता है। अच्छी आदतें परिवार को खुश रखती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where does a family usually live together?",
+                "Telugu": "కుటుంబం సాధారణంగా కలిసి ఎక్కడ ఉంటుంది?",
+                "Hindi": "परिवार आमतौर पर साथ कहाँ रहता है?"
+              },
+              "options": {
+                "English": [
+                  "In a house",
+                  "In a school bag",
+                  "In a river",
+                  "In a tree hole"
+                ],
+                "Telugu": [
+                  "ఇంట్లో",
+                  "స్కూల్ బ్యాగ్‌లో",
+                  "నదిలో",
+                  "చెట్టు తొర్రలో"
+                ],
+                "Hindi": [
+                  "घर में",
+                  "स्कूल बैग में",
+                  "नदी में",
+                  "पेड़ के खोखले में"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A family lives together in a home. A home keeps us safe from rain, sun and cold.",
+                "Telugu": "కుటుంబం ఇంట్లో కలిసి ఉంటుంది. ఇల్లు వాన, ఎండ, చలి నుంచి కాపాడుతుంది.",
+                "Hindi": "परिवार घर में साथ रहता है। घर हमें बारिश, धूप और ठंड से बचाता है।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clean-habits",
+      "icon": "🧼",
+      "title": {
+        "English": "Clean and Healthy Habits",
+        "Telugu": "శుభ్రమైన, ఆరోగ్యకరమైన అలవాట్లు",
+        "Hindi": "साफ़ और स्वस्थ आदतें"
+      },
+      "description": {
+        "English": "Learn simple habits that keep us clean and healthy.",
+        "Telugu": "మనల్ని శుభ్రంగా, ఆరోగ్యంగా ఉంచే అలవాట్లు నేర్చుకోండి.",
+        "Hindi": "हमें साफ़ और स्वस्थ रखने वाली आसान आदतें सीखें।"
+      },
+      "lessons": [
+        {
+          "id": "clean-habits-lesson",
+          "visual": "🪥",
+          "title": {
+            "English": "Good Habits Every Day",
+            "Telugu": "ప్రతిరోజూ మంచి అలవాట్లు",
+            "Hindi": "हर दिन अच्छी आदतें"
+          },
+          "image": "./images/lessons/health.png",
+          "explanation": {
+            "English": "Good habits keep germs away and help us stay healthy. We brush our teeth twice a day, take a bath, wash our hands with soap and cut our nails. We also sleep on time and play outside.",
+            "Telugu": "మంచి అలవాట్లు క్రిములను దూరంగా ఉంచి మనల్ని ఆరోగ్యంగా ఉంచుతాయి. రోజుకు రెండుసార్లు పళ్లు తోముకోవాలి, స్నానం చేయాలి, సబ్బుతో చేతులు కడుక్కోవాలి, గోళ్లు కత్తిరించుకోవాలి. సమయానికి నిద్రపోవాలి, బయట ఆడుకోవాలి.",
+            "Hindi": "अच्छी आदतें कीटाणुओं को दूर रखती हैं और हमें स्वस्थ रखती हैं। दिन में दो बार ब्रश करें, नहाएँ, साबुन से हाथ धोएँ और नाखून काटें। समय पर सोएँ और बाहर खेलें।"
+          },
+          "keyPoints": {
+            "English": [
+              "Brush your teeth in the morning and at night.",
+              "Wash hands with soap before eating and after using the toilet.",
+              "Take a bath every day and wear clean clothes.",
+              "Cover your mouth when you cough or sneeze."
+            ],
+            "Telugu": [
+              "ఉదయం, రాత్రి పళ్లు తోముకోండి.",
+              "తినే ముందు, మరుగుదొడ్డి వాడిన తర్వాత సబ్బుతో చేతులు కడుక్కోండి.",
+              "రోజూ స్నానం చేసి శుభ్రమైన బట్టలు వేసుకోండి.",
+              "దగ్గినప్పుడు, తుమ్మినప్పుడు నోటికి అడ్డు పెట్టుకోండి."
+            ],
+            "Hindi": [
+              "सुबह और रात को ब्रश करें।",
+              "खाने से पहले और शौचालय के बाद साबुन से हाथ धोएँ।",
+              "रोज़ नहाएँ और साफ़ कपड़े पहनें।",
+              "खाँसते या छींकते समय मुँह ढकें।"
+            ]
+          },
+          "activity": {
+            "English": "Make a chart of your daily habits and tick each one you do today.",
+            "Telugu": "మీ రోజువారీ అలవాట్ల చార్ట్ తయారుచేసి, ఈ రోజు చేసిన వాటికి టిక్ పెట్టండి.",
+            "Hindi": "अपनी रोज़ की आदतों का चार्ट बनाइए और आज जो किया उस पर सही का निशान लगाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "How many times a day should we brush our teeth?",
+                "Telugu": "రోజుకు ఎన్నిసార్లు పళ్లు తోముకోవాలి?",
+                "Hindi": "दिन में कितनी बार ब्रश करना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Never",
+                  "Once a week",
+                  "Twice",
+                  "Ten times"
+                ],
+                "Telugu": [
+                  "ఎప్పుడూ కాదు",
+                  "వారానికి ఒకసారి",
+                  "రెండుసార్లు",
+                  "పదిసార్లు"
+                ],
+                "Hindi": [
+                  "कभी नहीं",
+                  "हफ़्ते में एक बार",
+                  "दो बार",
+                  "दस बार"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Brush in the morning and at night before bed to keep teeth clean and strong.",
+                "Telugu": "పళ్లు శుభ్రంగా, బలంగా ఉండాలంటే ఉదయం, రాత్రి పడుకునే ముందు తోముకోవాలి.",
+                "Hindi": "दाँत साफ़ और मज़बूत रखने के लिए सुबह और रात सोने से पहले ब्रश करें।"
+              }
+            },
+            {
+              "question": {
+                "English": "What should we use to wash our hands?",
+                "Telugu": "చేతులు కడుక్కోవడానికి ఏమి వాడాలి?",
+                "Hindi": "हाथ धोने के लिए क्या इस्तेमाल करें?"
+              },
+              "options": {
+                "English": [
+                  "Soap and water",
+                  "Only mud",
+                  "Oil",
+                  "Sand"
+                ],
+                "Telugu": [
+                  "సబ్బు, నీరు",
+                  "బురద మాత్రమే",
+                  "నూనె",
+                  "ఇసుక"
+                ],
+                "Hindi": [
+                  "साबुन और पानी",
+                  "सिर्फ़ मिट्टी",
+                  "तेल",
+                  "रेत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Soap and water wash away germs that we cannot see.",
+                "Telugu": "సబ్బు, నీరు మనకు కనిపించని క్రిములను కడిగేస్తాయి.",
+                "Hindi": "साबुन और पानी उन कीटाणुओं को धो देते हैं जो हमें दिखते नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should cover our mouth when we sneeze.",
+                "Telugu": "నిజమా అబద్ధమా: తుమ్మినప్పుడు నోటికి అడ్డు పెట్టుకోవాలి.",
+                "Hindi": "सही या गलत: छींकते समय मुँह ढकना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Covering the mouth stops germs from spreading to other people.",
+                "Telugu": "నోటికి అడ్డు పెట్టుకుంటే క్రిములు ఇతరులకు వ్యాపించవు.",
+                "Hindi": "मुँह ढकने से कीटाणु दूसरों तक नहीं फैलते।"
+              }
+            },
+            {
+              "question": {
+                "English": "Why should we cut our nails?",
+                "Telugu": "గోళ్లు ఎందుకు కత్తిరించుకోవాలి?",
+                "Hindi": "नाखून क्यों काटने चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "To look taller",
+                  "Dirt and germs collect under long nails",
+                  "To run faster",
+                  "To sing better"
+                ],
+                "Telugu": [
+                  "పొడవుగా కనిపించడానికి",
+                  "పొడవాటి గోళ్ల కింద మురికి, క్రిములు చేరతాయి",
+                  "వేగంగా పరుగెత్తడానికి",
+                  "బాగా పాడటానికి"
+                ],
+                "Hindi": [
+                  "लंबा दिखने के लिए",
+                  "लंबे नाखूनों में गंदगी और कीटाणु जमते हैं",
+                  "तेज़ दौड़ने के लिए",
+                  "अच्छा गाने के लिए"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Dirt hides under long nails and can go into our mouth with food.",
+                "Telugu": "పొడవాటి గోళ్ల కింద మురికి దాగి, ఆహారంతో పాటు నోట్లోకి వెళ్తుంది.",
+                "Hindi": "लंबे नाखूनों में गंदगी छिप जाती है और खाने के साथ मुँह में जा सकती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "When should we wash our hands?",
+                "Telugu": "చేతులు ఎప్పుడు కడుక్కోవాలి?",
+                "Hindi": "हाथ कब धोने चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Only on Sundays",
+                  "Never",
+                  "Only after sleeping",
+                  "Before eating and after using the toilet"
+                ],
+                "Telugu": [
+                  "ఆదివారాలు మాత్రమే",
+                  "ఎప్పుడూ కాదు",
+                  "నిద్ర తర్వాత మాత్రమే",
+                  "తినే ముందు, మరుగుదొడ్డి వాడిన తర్వాత"
+                ],
+                "Hindi": [
+                  "सिर्फ़ रविवार को",
+                  "कभी नहीं",
+                  "सिर्फ़ सोने के बाद",
+                  "खाने से पहले और शौचालय के बाद"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "These are the times germs most easily reach our hands and mouth.",
+                "Telugu": "ఈ సమయాల్లోనే క్రిములు మన చేతులకు, నోటికి సులభంగా చేరతాయి.",
+                "Hindi": "इन्हीं समय पर कीटाणु सबसे आसानी से हाथों और मुँह तक पहुँचते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What helps our body rest and grow?",
+                "Telugu": "శరీరం విశ్రాంతి తీసుకుని పెరగడానికి ఏది సహాయపడుతుంది?",
+                "Hindi": "शरीर को आराम और बढ़ने में क्या मदद करता है?"
+              },
+              "options": {
+                "English": [
+                  "Watching TV all night",
+                  "Good sleep at night",
+                  "Skipping meals",
+                  "Eating only chips"
+                ],
+                "Telugu": [
+                  "రాత్రంతా టీవీ చూడటం",
+                  "రాత్రి మంచి నిద్ర",
+                  "భోజనం మానేయడం",
+                  "చిప్స్ మాత్రమే తినడం"
+                ],
+                "Hindi": [
+                  "रात भर टीवी देखना",
+                  "रात को अच्छी नींद",
+                  "खाना छोड़ना",
+                  "सिर्फ़ चिप्स खाना"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Children need about ten hours of sleep. Sleep helps the body rest and grow.",
+                "Telugu": "పిల్లలకు సుమారు పది గంటల నిద్ర కావాలి. నిద్ర శరీరానికి విశ్రాంతినిచ్చి పెరగడానికి సహాయపడుతుంది.",
+                "Hindi": "बच्चों को लगभग दस घंटे की नींद चाहिए। नींद शरीर को आराम देती है और बढ़ने में मदद करती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We can drink water from any puddle.",
+                "Telugu": "నిజమా అబద్ధమా: ఏ నీటి గుంటలోని నీరైనా తాగవచ్చు.",
+                "Hindi": "सही या गलत: किसी भी गड्ढे का पानी पी सकते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Puddle water is dirty and has germs. Drink only clean, boiled or filtered water.",
+                "Telugu": "గుంటల నీరు మురికిగా ఉండి క్రిములు ఉంటాయి. శుభ్రమైన, కాచిన లేదా వడపోసిన నీరే తాగాలి.",
+                "Hindi": "गड्ढे का पानी गंदा होता है और उसमें कीटाणु होते हैं। सिर्फ़ साफ़, उबला या छना पानी पिएँ।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which habit keeps our body clean?",
+                "Telugu": "ఏ అలవాటు శరీరాన్ని శుభ్రంగా ఉంచుతుంది?",
+                "Hindi": "कौन सी आदत शरीर को साफ़ रखती है?"
+              },
+              "options": {
+                "English": [
+                  "Bathing every day",
+                  "Wearing dirty clothes",
+                  "Not combing hair",
+                  "Biting nails"
+                ],
+                "Telugu": [
+                  "రోజూ స్నానం చేయడం",
+                  "మురికి బట్టలు వేసుకోవడం",
+                  "జుట్టు దువ్వుకోకపోవడం",
+                  "గోళ్లు కొరకడం"
+                ],
+                "Hindi": [
+                  "रोज़ नहाना",
+                  "गंदे कपड़े पहनना",
+                  "बाल न सँवारना",
+                  "नाखून चबाना"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A daily bath washes away sweat, dust and germs from our body.",
+                "Telugu": "రోజూ స్నానం చేస్తే శరీరం మీద ఉన్న చెమట, దుమ్ము, క్రిములు పోతాయి.",
+                "Hindi": "रोज़ नहाने से शरीर का पसीना, धूल और कीटाणु धुल जाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where should we throw rubbish?",
+                "Telugu": "చెత్తను ఎక్కడ వేయాలి?",
+                "Hindi": "कचरा कहाँ फेंकना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "On the road",
+                  "In the classroom corner",
+                  "In a dustbin",
+                  "In the river"
+                ],
+                "Telugu": [
+                  "రోడ్డు మీద",
+                  "తరగతి గది మూలలో",
+                  "చెత్తబుట్టలో",
+                  "నదిలో"
+                ],
+                "Hindi": [
+                  "सड़क पर",
+                  "कक्षा के कोने में",
+                  "कूड़ेदान में",
+                  "नदी में"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Rubbish belongs in a dustbin. Clean surroundings keep flies and illness away.",
+                "Telugu": "చెత్త చెత్తబుట్టలోనే వేయాలి. పరిసరాలు శుభ్రంగా ఉంటే ఈగలు, రోగాలు దూరంగా ఉంటాయి.",
+                "Hindi": "कचरा कूड़ेदान में ही डालें। साफ़ आसपास से मक्खियाँ और बीमारियाँ दूर रहती हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Playing outside every day makes us...",
+                "Telugu": "రోజూ బయట ఆడుకోవడం వల్ల మనం ఎలా అవుతాం?",
+                "Hindi": "रोज़ बाहर खेलने से हम कैसे बनते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Weak",
+                  "Sleepy all day",
+                  "Unhappy",
+                  "Strong and active"
+                ],
+                "Telugu": [
+                  "బలహీనంగా",
+                  "రోజంతా నిద్రమత్తుగా",
+                  "విచారంగా",
+                  "బలంగా, చురుకుగా"
+                ],
+                "Hindi": [
+                  "कमज़ोर",
+                  "दिन भर सुस्त",
+                  "दुखी",
+                  "मज़बूत और फुर्तीले"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Running, jumping and playing make our muscles and heart strong.",
+                "Telugu": "పరుగెత్తడం, దూకడం, ఆడుకోవడం మన కండరాలను, గుండెను బలంగా చేస్తాయి.",
+                "Hindi": "दौड़ने, कूदने और खेलने से हमारी मांसपेशियाँ और दिल मज़बूत होते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clothes-we-wear",
+      "icon": "👕",
+      "title": {
+        "English": "Clothes We Wear",
+        "Telugu": "మనం వేసుకునే బట్టలు",
+        "Hindi": "हमारे कपड़े"
+      },
+      "description": {
+        "English": "Learn why we wear different clothes in different weather.",
+        "Telugu": "వేర్వేరు వాతావరణాల్లో వేర్వేరు బట్టలు ఎందుకు వేసుకుంటామో తెలుసుకోండి.",
+        "Hindi": "जानें कि अलग मौसम में अलग कपड़े क्यों पहनते हैं।"
+      },
+      "lessons": [
+        {
+          "id": "clothes-we-wear-lesson",
+          "visual": "🧥",
+          "title": {
+            "English": "Clothes for Every Season",
+            "Telugu": "ప్రతి కాలానికి తగిన బట్టలు",
+            "Hindi": "हर मौसम के कपड़े"
+          },
+          "image": "./images/lessons/fibre-to-fabric.svg",
+          "explanation": {
+            "English": "Clothes cover and protect our body. In summer we wear light cotton clothes to stay cool. In winter we wear woollen sweaters to stay warm. In the rainy season we use a raincoat and an umbrella.",
+            "Telugu": "బట్టలు మన శరీరాన్ని కప్పి కాపాడతాయి. వేసవిలో చల్లగా ఉండటానికి తేలికైన నూలు బట్టలు వేసుకుంటాం. చలికాలంలో వెచ్చగా ఉండటానికి ఉన్ని స్వెటర్లు వేసుకుంటాం. వర్షాకాలంలో రెయిన్‌కోట్, గొడుగు వాడతాం.",
+            "Hindi": "कपड़े हमारे शरीर को ढकते और बचाते हैं। गर्मी में ठंडक के लिए हल्के सूती कपड़े पहनते हैं। सर्दी में गर्म रहने के लिए ऊनी स्वेटर पहनते हैं। बारिश में रेनकोट और छाता इस्तेमाल करते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "Clothes protect us from heat, cold and rain.",
+              "Cotton clothes keep us cool in summer.",
+              "Woollen clothes keep us warm in winter.",
+              "We should wear clean clothes every day."
+            ],
+            "Telugu": [
+              "బట్టలు వేడి, చలి, వర్షం నుంచి మనల్ని కాపాడతాయి.",
+              "నూలు బట్టలు వేసవిలో చల్లగా ఉంచుతాయి.",
+              "ఉన్ని బట్టలు చలికాలంలో వెచ్చగా ఉంచుతాయి.",
+              "రోజూ శుభ్రమైన బట్టలు వేసుకోవాలి."
+            ],
+            "Hindi": [
+              "कपड़े हमें गर्मी, ठंड और बारिश से बचाते हैं।",
+              "सूती कपड़े गर्मी में ठंडक देते हैं।",
+              "ऊनी कपड़े सर्दी में गर्म रखते हैं।",
+              "हमें रोज़ साफ़ कपड़े पहनने चाहिए।"
+            ]
+          },
+          "activity": {
+            "English": "Make three groups of clothes at home: summer, winter and rainy season.",
+            "Telugu": "ఇంట్లోని బట్టలను వేసవి, చలికాలం, వర్షాకాలం అని మూడు గుంపులుగా విభజించండి.",
+            "Hindi": "घर के कपड़ों को गर्मी, सर्दी और बारिश के तीन समूहों में बाँटिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "Why do we wear clothes?",
+                "Telugu": "మనం బట్టలు ఎందుకు వేసుకుంటాం?",
+                "Hindi": "हम कपड़े क्यों पहनते हैं?"
+              },
+              "options": {
+                "English": [
+                  "To protect our body",
+                  "To make noise",
+                  "To fly",
+                  "To grow taller"
+                ],
+                "Telugu": [
+                  "శరీరాన్ని కాపాడుకోవడానికి",
+                  "శబ్దం చేయడానికి",
+                  "ఎగరడానికి",
+                  "పొడవుగా పెరగడానికి"
+                ],
+                "Hindi": [
+                  "शरीर को बचाने के लिए",
+                  "शोर करने के लिए",
+                  "उड़ने के लिए",
+                  "लंबा होने के लिए"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Clothes protect our body from heat, cold, rain, dust and insects.",
+                "Telugu": "బట్టలు వేడి, చలి, వర్షం, దుమ్ము, కీటకాల నుంచి శరీరాన్ని కాపాడతాయి.",
+                "Hindi": "कपड़े शरीर को गर्मी, ठंड, बारिश, धूल और कीड़ों से बचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What do we wear in winter?",
+                "Telugu": "చలికాలంలో ఏమి వేసుకుంటాం?",
+                "Hindi": "सर्दी में हम क्या पहनते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Thin cotton shirt",
+                  "Swimming suit",
+                  "Woollen sweater",
+                  "Raincoat only"
+                ],
+                "Telugu": [
+                  "పలుచని నూలు చొక్కా",
+                  "ఈత దుస్తులు",
+                  "ఉన్ని స్వెటర్",
+                  "రెయిన్‌కోట్ మాత్రమే"
+                ],
+                "Hindi": [
+                  "पतली सूती कमीज़",
+                  "तैराकी की पोशाक",
+                  "ऊनी स्वेटर",
+                  "सिर्फ़ रेनकोट"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Wool keeps the warmth of our body in, so we feel warm in winter.",
+                "Telugu": "ఉన్ని మన శరీర వేడిని బయటకు పోనీయదు, అందుకే చలికాలంలో వెచ్చగా ఉంటాం.",
+                "Hindi": "ऊन हमारे शरीर की गर्मी को रोकता है, इसलिए सर्दी में गर्माहट मिलती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which clothes are best for a hot summer day?",
+                "Telugu": "వేడి వేసవి రోజుకు ఏ బట్టలు ఉత్తమం?",
+                "Hindi": "गर्मी के दिन कौन से कपड़े सबसे अच्छे हैं?"
+              },
+              "options": {
+                "English": [
+                  "Thick woollen coat",
+                  "Light cotton clothes",
+                  "Leather jacket",
+                  "Many layers of clothes"
+                ],
+                "Telugu": [
+                  "మందపాటి ఉన్ని కోటు",
+                  "తేలికైన నూలు బట్టలు",
+                  "తోలు జాకెట్",
+                  "చాలా పొరల బట్టలు"
+                ],
+                "Hindi": [
+                  "मोटा ऊनी कोट",
+                  "हल्के सूती कपड़े",
+                  "चमड़े की जैकेट",
+                  "कई परत कपड़े"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Cotton lets air pass and soaks up sweat, so we feel cool.",
+                "Telugu": "నూలు గాలి ఆడనిస్తుంది, చెమటను పీల్చుకుంటుంది, అందుకే చల్లగా ఉంటుంది.",
+                "Hindi": "सूती कपड़ा हवा आने देता है और पसीना सोखता है, इसलिए ठंडक लगती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What keeps us dry in the rain?",
+                "Telugu": "వర్షంలో మనల్ని తడవకుండా ఉంచేది ఏది?",
+                "Hindi": "बारिश में हमें सूखा क्या रखता है?"
+              },
+              "options": {
+                "English": [
+                  "A woollen cap",
+                  "A paper bag",
+                  "A cotton towel",
+                  "A raincoat"
+                ],
+                "Telugu": [
+                  "ఉన్ని టోపీ",
+                  "కాగితపు సంచి",
+                  "నూలు తువ్వాలు",
+                  "రెయిన్‌కోట్"
+                ],
+                "Hindi": [
+                  "ऊनी टोपी",
+                  "कागज़ का थैला",
+                  "सूती तौलिया",
+                  "रेनकोट"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "A raincoat does not let water pass through, so it keeps us dry.",
+                "Telugu": "రెయిన్‌కోట్ నీటిని లోపలికి రానివ్వదు, కాబట్టి మనం తడవం.",
+                "Hindi": "रेनकोट पानी को अंदर नहीं आने देता, इसलिए हम सूखे रहते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should wear clean clothes every day.",
+                "Telugu": "నిజమా అబద్ధమా: రోజూ శుభ్రమైన బట్టలు వేసుకోవాలి.",
+                "Hindi": "सही या गलत: हमें रोज़ साफ़ कपड़े पहनने चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Dirty clothes collect sweat and germs. Clean clothes keep us fresh and healthy.",
+                "Telugu": "మురికి బట్టల్లో చెమట, క్రిములు చేరతాయి. శుభ్రమైన బట్టలు మనల్ని తాజాగా, ఆరోగ్యంగా ఉంచుతాయి.",
+                "Hindi": "गंदे कपड़ों में पसीना और कीटाणु जमते हैं। साफ़ कपड़े हमें ताज़ा और स्वस्थ रखते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Wool comes from which animal?",
+                "Telugu": "ఉన్ని ఏ జంతువు నుంచి వస్తుంది?",
+                "Hindi": "ऊन किस जानवर से मिलता है?"
+              },
+              "options": {
+                "English": [
+                  "Sheep",
+                  "Hen",
+                  "Fish",
+                  "Cat"
+                ],
+                "Telugu": [
+                  "గొర్రె",
+                  "కోడి",
+                  "చేప",
+                  "పిల్లి"
+                ],
+                "Hindi": [
+                  "भेड़",
+                  "मुर्गी",
+                  "मछली",
+                  "बिल्ली"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Wool is the soft hair of sheep. It is cut, cleaned and made into yarn.",
+                "Telugu": "ఉన్ని గొర్రెల మెత్తని వెంట్రుకలు. దాన్ని కత్తిరించి, శుభ్రం చేసి దారంగా చేస్తారు.",
+                "Hindi": "ऊन भेड़ के मुलायम बाल हैं। इन्हें काटकर, साफ़ करके धागा बनाया जाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Cotton comes from a...",
+                "Telugu": "నూలు దేని నుంచి వస్తుంది?",
+                "Hindi": "सूती धागा किससे मिलता है?"
+              },
+              "options": {
+                "English": [
+                  "Goat",
+                  "Rock",
+                  "Plant",
+                  "River"
+                ],
+                "Telugu": [
+                  "మేక",
+                  "రాయి",
+                  "మొక్క",
+                  "నది"
+                ],
+                "Hindi": [
+                  "बकरी",
+                  "चट्टान",
+                  "पौधा",
+                  "नदी"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Cotton grows on the cotton plant as soft white balls.",
+                "Telugu": "నూలు ప్రత్తి మొక్కపై మెత్తని తెల్లని బంతుల్లా పెరుగుతుంది.",
+                "Hindi": "रुई कपास के पौधे पर मुलायम सफ़ेद गोलों के रूप में उगती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these do we wear on our feet?",
+                "Telugu": "వీటిలో పాదాలకు వేసుకునేవి ఏవి?",
+                "Hindi": "इनमें से पैरों में क्या पहनते हैं?"
+              },
+              "options": {
+                "English": [
+                  "Cap",
+                  "Shoes",
+                  "Gloves",
+                  "Scarf"
+                ],
+                "Telugu": [
+                  "టోపీ",
+                  "బూట్లు",
+                  "చేతి తొడుగులు",
+                  "కండువా"
+                ],
+                "Hindi": [
+                  "टोपी",
+                  "जूते",
+                  "दस्ताने",
+                  "दुपट्टा"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Shoes and slippers protect our feet from stones, thorns and hot ground.",
+                "Telugu": "బూట్లు, చెప్పులు రాళ్లు, ముళ్లు, వేడి నేల నుంచి పాదాలను కాపాడతాయి.",
+                "Hindi": "जूते और चप्पल पैरों को पत्थर, काँटों और गर्म ज़मीन से बचाते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We wear a woollen coat on a very hot day.",
+                "Telugu": "నిజమా అబద్ధమా: చాలా వేడిగా ఉన్న రోజు ఉన్ని కోటు వేసుకుంటాం.",
+                "Hindi": "सही या गलत: बहुत गर्म दिन में हम ऊनी कोट पहनते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A woollen coat would make us feel very hot. Light cotton is better in summer.",
+                "Telugu": "ఉన్ని కోటుతో చాలా వేడిగా అనిపిస్తుంది. వేసవిలో తేలికైన నూలు మేలు.",
+                "Hindi": "ऊनी कोट से बहुत गर्मी लगेगी। गर्मी में हल्के सूती कपड़े बेहतर हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "What keeps our hands warm in cold weather?",
+                "Telugu": "చలిలో చేతులను వెచ్చగా ఉంచేవి ఏవి?",
+                "Hindi": "ठंड में हाथों को गर्म क्या रखता है?"
+              },
+              "options": {
+                "English": [
+                  "Sandals",
+                  "Sunglasses",
+                  "A cotton vest",
+                  "Woollen gloves"
+                ],
+                "Telugu": [
+                  "చెప్పులు",
+                  "చలువ కళ్లద్దాలు",
+                  "నూలు బనియన్",
+                  "ఉన్ని చేతి తొడుగులు"
+                ],
+                "Hindi": [
+                  "सैंडल",
+                  "धूप का चश्मा",
+                  "सूती बनियान",
+                  "ऊनी दस्ताने"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Woollen gloves cover our hands and keep them warm.",
+                "Telugu": "ఉన్ని చేతి తొడుగులు చేతులను కప్పి వెచ్చగా ఉంచుతాయి.",
+                "Hindi": "ऊनी दस्ताने हाथों को ढककर गर्म रखते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-and-night",
+      "icon": "🌙",
+      "title": {
+        "English": "Day and Night",
+        "Telugu": "పగలు, రాత్రి",
+        "Hindi": "दिन और रात"
+      },
+      "description": {
+        "English": "Learn about the Sun, the Moon and the stars.",
+        "Telugu": "సూర్యుడు, చంద్రుడు, నక్షత్రాల గురించి తెలుసుకోండి.",
+        "Hindi": "सूरज, चाँद और तारों के बारे में जानें।"
+      },
+      "lessons": [
+        {
+          "id": "day-and-night-lesson",
+          "visual": "☀️",
+          "title": {
+            "English": "The Sky in the Day and at Night",
+            "Telugu": "పగటి, రాత్రి ఆకాశం",
+            "Hindi": "दिन और रात का आसमान"
+          },
+          "image": "./images/lessons/weather.png",
+          "explanation": {
+            "English": "In the day the Sun shines and gives us light and heat. At night it is dark, and we can see the Moon and the stars. We work and play in the day and sleep at night.",
+            "Telugu": "పగలు సూర్యుడు ప్రకాశిస్తూ వెలుగు, వేడి ఇస్తాడు. రాత్రి చీకటిగా ఉంటుంది, అప్పుడు చంద్రుడు, నక్షత్రాలు కనిపిస్తాయి. పగలు పని చేస్తాం, ఆడుకుంటాం, రాత్రి నిద్రపోతాం.",
+            "Hindi": "दिन में सूरज चमकता है और हमें रोशनी और गर्मी देता है। रात को अँधेरा होता है और चाँद-तारे दिखते हैं। हम दिन में काम करते और खेलते हैं और रात को सोते हैं।"
+          },
+          "keyPoints": {
+            "English": [
+              "The Sun gives us light and heat.",
+              "We see the Moon and the stars at night.",
+              "The Sun rises in the morning and sets in the evening.",
+              "We should never look straight at the Sun."
+            ],
+            "Telugu": [
+              "సూర్యుడు వెలుగు, వేడి ఇస్తాడు.",
+              "రాత్రి చంద్రుడు, నక్షత్రాలు కనిపిస్తాయి.",
+              "సూర్యుడు ఉదయం ఉదయిస్తాడు, సాయంత్రం అస్తమిస్తాడు.",
+              "సూర్యుడిని నేరుగా ఎప్పుడూ చూడకూడదు."
+            ],
+            "Hindi": [
+              "सूरज हमें रोशनी और गर्मी देता है।",
+              "रात को चाँद और तारे दिखते हैं।",
+              "सूरज सुबह उगता है और शाम को डूबता है।",
+              "सूरज को कभी सीधे नहीं देखना चाहिए।"
+            ]
+          },
+          "activity": {
+            "English": "Look at the Moon for one week and draw its shape each night.",
+            "Telugu": "ఒక వారం పాటు చంద్రుడిని చూసి ప్రతి రాత్రి దాని ఆకారం బొమ్మ గీయండి.",
+            "Hindi": "एक हफ़्ते तक चाँद देखिए और हर रात उसका आकार बनाइए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "What gives us light and heat in the day?",
+                "Telugu": "పగలు మనకు వెలుగు, వేడి ఇచ్చేది ఏది?",
+                "Hindi": "दिन में हमें रोशनी और गर्मी कौन देता है?"
+              },
+              "options": {
+                "English": [
+                  "The Moon",
+                  "The Sun",
+                  "A star",
+                  "A cloud"
+                ],
+                "Telugu": [
+                  "చంద్రుడు",
+                  "సూర్యుడు",
+                  "నక్షత్రం",
+                  "మేఘం"
+                ],
+                "Hindi": [
+                  "चाँद",
+                  "सूरज",
+                  "तारा",
+                  "बादल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The Sun is a huge, hot ball of fire that gives Earth light and heat.",
+                "Telugu": "సూర్యుడు భూమికి వెలుగు, వేడి ఇచ్చే పెద్ద వేడి అగ్నిగోళం.",
+                "Hindi": "सूरज आग का बहुत बड़ा, गर्म गोला है जो धरती को रोशनी और गर्मी देता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What can we see in the sky at night?",
+                "Telugu": "రాత్రి ఆకాశంలో ఏమి కనిపిస్తాయి?",
+                "Hindi": "रात को आसमान में क्या दिखता है?"
+              },
+              "options": {
+                "English": [
+                  "Rainbows only",
+                  "The Sun",
+                  "The Moon and stars",
+                  "Butterflies"
+                ],
+                "Telugu": [
+                  "హరివిల్లులు మాత్రమే",
+                  "సూర్యుడు",
+                  "చంద్రుడు, నక్షత్రాలు",
+                  "సీతాకోకచిలుకలు"
+                ],
+                "Hindi": [
+                  "सिर्फ़ इंद्रधनुष",
+                  "सूरज",
+                  "चाँद और तारे",
+                  "तितलियाँ"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "At night the sky is dark, so we can see the Moon and the twinkling stars.",
+                "Telugu": "రాత్రి ఆకాశం చీకటిగా ఉంటుంది, అందుకే చంద్రుడు, మెరిసే నక్షత్రాలు కనిపిస్తాయి.",
+                "Hindi": "रात को आसमान अँधेरा होता है, इसलिए चाँद और टिमटिमाते तारे दिखते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "When does the Sun rise?",
+                "Telugu": "సూర్యుడు ఎప్పుడు ఉదయిస్తాడు?",
+                "Hindi": "सूरज कब उगता है?"
+              },
+              "options": {
+                "English": [
+                  "In the morning",
+                  "At midnight",
+                  "In the evening",
+                  "Never"
+                ],
+                "Telugu": [
+                  "ఉదయం",
+                  "అర్ధరాత్రి",
+                  "సాయంత్రం",
+                  "ఎప్పుడూ కాదు"
+                ],
+                "Hindi": [
+                  "सुबह",
+                  "आधी रात",
+                  "शाम",
+                  "कभी नहीं"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "The Sun rises in the morning in the east and sets in the evening in the west.",
+                "Telugu": "సూర్యుడు ఉదయం తూర్పున ఉదయించి, సాయంత్రం పడమరన అస్తమిస్తాడు.",
+                "Hindi": "सूरज सुबह पूर्व में उगता है और शाम को पश्चिम में डूबता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should look straight at the Sun.",
+                "Telugu": "నిజమా అబద్ధమా: సూర్యుడిని నేరుగా చూడాలి.",
+                "Hindi": "सही या गलत: सूरज को सीधे देखना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "The Sun is so bright that looking at it can hurt our eyes.",
+                "Telugu": "సూర్యుడు చాలా ప్రకాశవంతంగా ఉంటాడు, నేరుగా చూస్తే కళ్లు దెబ్బతింటాయి.",
+                "Hindi": "सूरज इतना चमकीला है कि उसे सीधे देखने से आँखों को नुकसान हो सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "When do we usually sleep?",
+                "Telugu": "మనం సాధారణంగా ఎప్పుడు నిద్రపోతాం?",
+                "Hindi": "हम आमतौर पर कब सोते हैं?"
+              },
+              "options": {
+                "English": [
+                  "At noon",
+                  "At night",
+                  "In the morning at school",
+                  "While eating"
+                ],
+                "Telugu": [
+                  "మధ్యాహ్నం",
+                  "రాత్రి",
+                  "ఉదయం బడిలో",
+                  "తింటున్నప్పుడు"
+                ],
+                "Hindi": [
+                  "दोपहर में",
+                  "रात को",
+                  "सुबह स्कूल में",
+                  "खाते समय"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "We sleep at night when it is dark and quiet, so we are fresh in the day.",
+                "Telugu": "చీకటిగా, నిశ్శబ్దంగా ఉండే రాత్రి నిద్రపోతాం, అప్పుడు పగలు చురుకుగా ఉంటాం.",
+                "Hindi": "रात को अँधेरा और शांति होती है, तब हम सोते हैं ताकि दिन में तरोताज़ा रहें।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these makes its own light?",
+                "Telugu": "వీటిలో సొంతంగా వెలుగునిచ్చేది ఏది?",
+                "Hindi": "इनमें से कौन अपनी रोशनी खुद देता है?"
+              },
+              "options": {
+                "English": [
+                  "The Moon",
+                  "A mirror",
+                  "A cloud",
+                  "The Sun"
+                ],
+                "Telugu": [
+                  "చంద్రుడు",
+                  "అద్దం",
+                  "మేఘం",
+                  "సూర్యుడు"
+                ],
+                "Hindi": [
+                  "चाँद",
+                  "दर्पण",
+                  "बादल",
+                  "सूरज"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "The Sun makes its own light. The Moon only shines because sunlight falls on it.",
+                "Telugu": "సూర్యుడు సొంతంగా వెలుగునిస్తాడు. చంద్రుడిపై సూర్యకాంతి పడటం వల్లే చంద్రుడు మెరుస్తాడు.",
+                "Hindi": "सूरज अपनी रोशनी खुद देता है। चाँद इसलिए चमकता है क्योंकि उस पर सूरज की रोशनी पड़ती है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which animal is awake at night?",
+                "Telugu": "రాత్రి మేల్కొని ఉండే జంతువు ఏది?",
+                "Hindi": "कौन सा जानवर रात को जागता है?"
+              },
+              "options": {
+                "English": [
+                  "Owl",
+                  "Butterfly",
+                  "Cow",
+                  "Sparrow"
+                ],
+                "Telugu": [
+                  "గుడ్లగూబ",
+                  "సీతాకోకచిలుక",
+                  "ఆవు",
+                  "పిచ్చుక"
+                ],
+                "Hindi": [
+                  "उल्लू",
+                  "तितली",
+                  "गाय",
+                  "गौरैया"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Owls and bats rest in the day and look for food at night.",
+                "Telugu": "గుడ్లగూబలు, గబ్బిలాలు పగలు విశ్రాంతి తీసుకుని రాత్రి ఆహారం వెతుక్కుంటాయి.",
+                "Hindi": "उल्लू और चमगादड़ दिन में आराम करते हैं और रात को खाना ढूँढते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: The Moon looks different on different nights.",
+                "Telugu": "నిజమా అబద్ధమా: చంద్రుడు వేర్వేరు రాత్రుల్లో వేర్వేరుగా కనిపిస్తాడు.",
+                "Hindi": "सही या गलत: चाँद अलग-अलग रातों में अलग दिखता है।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Sometimes we see a full Moon and sometimes only a thin curve. These are the Moon's phases.",
+                "Telugu": "ఒక్కోసారి పూర్ణచంద్రుడు, ఒక్కోసారి సన్నని వంపు మాత్రమే కనిపిస్తుంది. ఇవి చంద్రుని కళలు.",
+                "Hindi": "कभी पूरा चाँद दिखता है और कभी सिर्फ़ पतली फाँक। ये चाँद की कलाएँ हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where does the Sun set?",
+                "Telugu": "సూర్యుడు ఎక్కడ అస్తమిస్తాడు?",
+                "Hindi": "सूरज कहाँ डूबता है?"
+              },
+              "options": {
+                "English": [
+                  "In the east",
+                  "In the north",
+                  "In the west",
+                  "Under our bed"
+                ],
+                "Telugu": [
+                  "తూర్పున",
+                  "ఉత్తరాన",
+                  "పడమరన",
+                  "మన మంచం కింద"
+                ],
+                "Hindi": [
+                  "पूर्व में",
+                  "उत्तर में",
+                  "पश्चिम में",
+                  "हमारे बिस्तर के नीचे"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "The Sun rises in the east and sets in the west.",
+                "Telugu": "సూర్యుడు తూర్పున ఉదయించి పడమరన అస్తమిస్తాడు.",
+                "Hindi": "सूरज पूर्व में उगता है और पश्चिम में डूबता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "What do we use for light at night at home?",
+                "Telugu": "రాత్రి ఇంట్లో వెలుగు కోసం ఏమి వాడతాం?",
+                "Hindi": "रात को घर में रोशनी के लिए क्या इस्तेमाल करते हैं?"
+              },
+              "options": {
+                "English": [
+                  "A fan",
+                  "A bulb or a lamp",
+                  "A spoon",
+                  "A blanket"
+                ],
+                "Telugu": [
+                  "ఫ్యాన్",
+                  "బల్బు లేదా దీపం",
+                  "చెంచా",
+                  "దుప్పటి"
+                ],
+                "Hindi": [
+                  "पंखा",
+                  "बल्ब या दीया",
+                  "चम्मच",
+                  "कंबल"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "At night there is no sunlight, so we use bulbs, lamps or candles for light.",
+                "Telugu": "రాత్రి సూర్యకాంతి ఉండదు, కాబట్టి బల్బులు, దీపాలు, కొవ్వొత్తులు వాడతాం.",
+                "Hindi": "रात को सूरज की रोशनी नहीं होती, इसलिए बल्ब, दीये या मोमबत्ती जलाते हैं।"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "staying-safe",
+      "icon": "🚦",
+      "title": {
+        "English": "Staying Safe",
+        "Telugu": "సురక్షితంగా ఉండటం",
+        "Hindi": "सुरक्षित रहना"
+      },
+      "description": {
+        "English": "Learn simple rules to stay safe at home and on the road.",
+        "Telugu": "ఇంట్లో, రోడ్డుపై సురక్షితంగా ఉండే సులభమైన నియమాలు నేర్చుకోండి.",
+        "Hindi": "घर और सड़क पर सुरक्षित रहने के आसान नियम सीखें।"
+      },
+      "lessons": [
+        {
+          "id": "staying-safe-lesson",
+          "visual": "🦺",
+          "title": {
+            "English": "Safety Rules for Children",
+            "Telugu": "పిల్లలకు భద్రతా నియమాలు",
+            "Hindi": "बच्चों के लिए सुरक्षा नियम"
+          },
+          "image": "./images/lessons/safe-travel-road-safety.jpg",
+          "explanation": {
+            "English": "Safety rules protect us from getting hurt. We cross the road at a zebra crossing with an elder. We do not touch fire, electric switches with wet hands or sharp knives. We never go with strangers.",
+            "Telugu": "భద్రతా నియమాలు మనకు దెబ్బలు తగలకుండా కాపాడతాయి. పెద్దవాళ్లతో కలిసి జీబ్రా క్రాసింగ్ దగ్గర రోడ్డు దాటాలి. నిప్పును, తడి చేతులతో కరెంటు స్విచ్‌లను, పదునైన కత్తులను తాకకూడదు. అపరిచితులతో ఎప్పుడూ వెళ్లకూడదు.",
+            "Hindi": "सुरक्षा के नियम हमें चोट से बचाते हैं। बड़ों के साथ ज़ेबरा क्रॉसिंग पर सड़क पार करें। आग, गीले हाथों से बिजली के स्विच और तेज़ चाकू न छुएँ। कभी अजनबियों के साथ न जाएँ।"
+          },
+          "keyPoints": {
+            "English": [
+              "Cross the road at a zebra crossing, holding an elder's hand.",
+              "Red light means stop, green light means go.",
+              "Never touch fire or electric switches with wet hands.",
+              "Do not go anywhere with a stranger."
+            ],
+            "Telugu": [
+              "పెద్దవాళ్ల చేయి పట్టుకుని జీబ్రా క్రాసింగ్ దగ్గర రోడ్డు దాటాలి.",
+              "ఎరుపు లైటు అంటే ఆగు, పచ్చ లైటు అంటే వెళ్లు.",
+              "నిప్పును, తడి చేతులతో కరెంటు స్విచ్‌లను ఎప్పుడూ తాకకూడదు.",
+              "అపరిచితులతో ఎక్కడికీ వెళ్లకూడదు."
+            ],
+            "Hindi": [
+              "बड़ों का हाथ पकड़कर ज़ेबरा क्रॉसिंग पर सड़क पार करें।",
+              "लाल बत्ती का मतलब रुको, हरी बत्ती का मतलब चलो।",
+              "आग या गीले हाथों से बिजली का स्विच कभी न छुएँ।",
+              "किसी अजनबी के साथ कहीं न जाएँ।"
+            ]
+          },
+          "activity": {
+            "English": "Draw a traffic light and colour red, yellow and green. Write what each colour means.",
+            "Telugu": "ట్రాఫిక్ లైటు బొమ్మ గీసి ఎరుపు, పసుపు, పచ్చ రంగులు వేయండి. ఒక్కో రంగుకు అర్థం రాయండి.",
+            "Hindi": "ट्रैफ़िक लाइट बनाकर लाल, पीला और हरा रंग भरिए। हर रंग का मतलब लिखिए।"
+          },
+          "quiz": [
+            {
+              "question": {
+                "English": "What does a red traffic light mean?",
+                "Telugu": "ఎరుపు ట్రాఫిక్ లైటు అర్థం ఏమిటి?",
+                "Hindi": "लाल ट्रैफ़िक बत्ती का क्या मतलब है?"
+              },
+              "options": {
+                "English": [
+                  "Go fast",
+                  "Stop",
+                  "Dance",
+                  "Turn around"
+                ],
+                "Telugu": [
+                  "వేగంగా వెళ్లు",
+                  "ఆగు",
+                  "నాట్యం చేయి",
+                  "వెనక్కి తిరుగు"
+                ],
+                "Hindi": [
+                  "तेज़ चलो",
+                  "रुको",
+                  "नाचो",
+                  "मुड़ जाओ"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Red means stop. Yellow means get ready. Green means go.",
+                "Telugu": "ఎరుపు అంటే ఆగు. పసుపు అంటే సిద్ధంగా ఉండు. పచ్చ అంటే వెళ్లు.",
+                "Hindi": "लाल का मतलब रुको। पीला का मतलब तैयार रहो। हरा का मतलब चलो।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where should we cross the road?",
+                "Telugu": "రోడ్డు ఎక్కడ దాటాలి?",
+                "Hindi": "सड़क कहाँ पार करनी चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Anywhere we like",
+                  "Between parked cars",
+                  "At a zebra crossing",
+                  "On a bend in the road"
+                ],
+                "Telugu": [
+                  "మనకు నచ్చిన చోట",
+                  "ఆగి ఉన్న కార్ల మధ్య",
+                  "జీబ్రా క్రాసింగ్ దగ్గర",
+                  "రోడ్డు మలుపు దగ్గర"
+                ],
+                "Hindi": [
+                  "जहाँ मन करे",
+                  "खड़ी गाड़ियों के बीच से",
+                  "ज़ेबरा क्रॉसिंग पर",
+                  "सड़क के मोड़ पर"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "A zebra crossing has white stripes. Drivers know to stop there for people.",
+                "Telugu": "జీబ్రా క్రాసింగ్‌పై తెల్లని చారలు ఉంటాయి. అక్కడ మనుషుల కోసం వాహనాలు ఆగుతాయి.",
+                "Hindi": "ज़ेबरा क्रॉसिंग पर सफ़ेद धारियाँ होती हैं। वहाँ चालक लोगों के लिए रुकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We can touch a switch with wet hands.",
+                "Telugu": "నిజమా అబద్ధమా: తడి చేతులతో స్విచ్‌ను తాకవచ్చు.",
+                "Hindi": "सही या गलत: गीले हाथों से स्विच छू सकते हैं।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Water lets electricity pass, so touching a switch with wet hands can give a shock.",
+                "Telugu": "నీటి ద్వారా కరెంటు ప్రవహిస్తుంది, కాబట్టి తడి చేతులతో స్విచ్ తాకితే షాక్ కొట్టవచ్చు.",
+                "Hindi": "पानी से बिजली बहती है, इसलिए गीले हाथों से स्विच छूने पर करंट लग सकता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "A stranger offers you sweets and asks you to come along. What should you do?",
+                "Telugu": "ఒక అపరిచితుడు మిఠాయిలు ఇచ్చి తనతో రమ్మంటే ఏమి చేయాలి?",
+                "Hindi": "कोई अजनबी मिठाई देकर साथ चलने को कहे तो क्या करें?"
+              },
+              "options": {
+                "English": [
+                  "Say no and tell a trusted elder",
+                  "Go with them",
+                  "Take the sweets and follow",
+                  "Keep it a secret"
+                ],
+                "Telugu": [
+                  "వద్దు అని చెప్పి నమ్మకమైన పెద్దవాళ్లకు చెప్పాలి",
+                  "వారితో వెళ్లాలి",
+                  "మిఠాయిలు తీసుకుని వెంట వెళ్లాలి",
+                  "రహస్యంగా ఉంచాలి"
+                ],
+                "Hindi": [
+                  "मना करें और भरोसेमंद बड़े को बताएँ",
+                  "उसके साथ चले जाएँ",
+                  "मिठाई लेकर पीछे चलें",
+                  "बात छिपाएँ"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "Never go with strangers. Say no, move away and tell your parents or teacher.",
+                "Telugu": "అపరిచితులతో ఎప్పుడూ వెళ్లకూడదు. వద్దని చెప్పి, దూరంగా వెళ్లి, అమ్మానాన్నలకు లేదా టీచర్‌కు చెప్పాలి.",
+                "Hindi": "अजनबियों के साथ कभी न जाएँ। मना करें, दूर हटें और माता-पिता या शिक्षक को बताएँ।"
+              }
+            },
+            {
+              "question": {
+                "English": "What should we wear when riding a bicycle?",
+                "Telugu": "సైకిల్ తొక్కేటప్పుడు ఏమి ధరించాలి?",
+                "Hindi": "साइकिल चलाते समय क्या पहनना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Sunglasses only",
+                  "A helmet",
+                  "Slippers only",
+                  "Nothing special"
+                ],
+                "Telugu": [
+                  "చలువ కళ్లద్దాలు మాత్రమే",
+                  "హెల్మెట్",
+                  "చెప్పులు మాత్రమే",
+                  "ప్రత్యేకంగా ఏమీ అక్కర్లేదు"
+                ],
+                "Hindi": [
+                  "सिर्फ़ धूप का चश्मा",
+                  "हेलमेट",
+                  "सिर्फ़ चप्पल",
+                  "कुछ ख़ास नहीं"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "A helmet protects our head if we fall from the bicycle.",
+                "Telugu": "సైకిల్ నుంచి పడితే హెల్మెట్ మన తలను కాపాడుతుంది.",
+                "Hindi": "साइकिल से गिरने पर हेलमेट हमारे सिर को बचाता है।"
+              }
+            },
+            {
+              "question": {
+                "English": "Which of these is dangerous to play with?",
+                "Telugu": "వీటిలో దేనితో ఆడటం ప్రమాదకరం?",
+                "Hindi": "इनमें से किससे खेलना ख़तरनाक है?"
+              },
+              "options": {
+                "English": [
+                  "A ball",
+                  "Building blocks",
+                  "Matchsticks",
+                  "A soft toy"
+                ],
+                "Telugu": [
+                  "బంతి",
+                  "కట్టడాల బొమ్మలు",
+                  "అగ్గిపుల్లలు",
+                  "మెత్తని బొమ్మ"
+                ],
+                "Hindi": [
+                  "गेंद",
+                  "बिल्डिंग ब्लॉक",
+                  "माचिस की तीली",
+                  "मुलायम खिलौना"
+                ]
+              },
+              "answer": 2,
+              "explanation": {
+                "English": "Matches can start a fire and burn us. Only adults should use them.",
+                "Telugu": "అగ్గిపుల్లలు మంటలు రేపి కాలిన గాయాలు చేస్తాయి. పెద్దలు మాత్రమే వాడాలి.",
+                "Hindi": "माचिस से आग लग सकती है और हम जल सकते हैं। इसे सिर्फ़ बड़े इस्तेमाल करें।"
+              }
+            },
+            {
+              "question": {
+                "English": "Before crossing the road we should look...",
+                "Telugu": "రోడ్డు దాటే ముందు ఎటు చూడాలి?",
+                "Hindi": "सड़क पार करने से पहले कहाँ देखना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "Only at the sky",
+                  "Only at our shoes",
+                  "At our phone",
+                  "Right, left and right again"
+                ],
+                "Telugu": [
+                  "ఆకాశం వైపు మాత్రమే",
+                  "మన బూట్ల వైపు మాత్రమే",
+                  "ఫోన్ వైపు",
+                  "కుడి, ఎడమ, మళ్లీ కుడి"
+                ],
+                "Hindi": [
+                  "सिर्फ़ आसमान में",
+                  "सिर्फ़ अपने जूतों को",
+                  "फ़ोन में",
+                  "दाएँ, बाएँ और फिर दाएँ"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Looking both ways helps us see if any vehicle is coming.",
+                "Telugu": "రెండు వైపులా చూడటం వల్ల ఏదైనా వాహనం వస్తోందేమో తెలుస్తుంది.",
+                "Hindi": "दोनों तरफ़ देखने से पता चलता है कि कोई गाड़ी आ रही है या नहीं।"
+              }
+            },
+            {
+              "question": {
+                "English": "True or False: We should play on the road.",
+                "Telugu": "నిజమా అబద్ధమా: రోడ్డు మీద ఆడుకోవాలి.",
+                "Hindi": "सही या गलत: हमें सड़क पर खेलना चाहिए।"
+              },
+              "options": {
+                "English": [
+                  "True",
+                  "False"
+                ],
+                "Telugu": [
+                  "నిజం",
+                  "అబద్ధం"
+                ],
+                "Hindi": [
+                  "सही",
+                  "गलत"
+                ]
+              },
+              "answer": 1,
+              "explanation": {
+                "English": "Roads are for vehicles. Play in a park or playground instead.",
+                "Telugu": "రోడ్లు వాహనాల కోసం. పార్కులో లేదా ఆటస్థలంలో ఆడుకోవాలి.",
+                "Hindi": "सड़कें गाड़ियों के लिए हैं। पार्क या खेल के मैदान में खेलें।"
+              }
+            },
+            {
+              "question": {
+                "English": "If you get hurt, who should you tell?",
+                "Telugu": "మీకు దెబ్బ తగిలితే ఎవరికి చెప్పాలి?",
+                "Hindi": "चोट लगने पर किसे बताना चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "A parent or teacher",
+                  "Nobody",
+                  "A street dog",
+                  "Your toys"
+                ],
+                "Telugu": [
+                  "అమ్మానాన్నలు లేదా టీచర్",
+                  "ఎవరికీ వద్దు",
+                  "వీధి కుక్కకు",
+                  "మీ బొమ్మలకు"
+                ],
+                "Hindi": [
+                  "माता-पिता या शिक्षक को",
+                  "किसी को नहीं",
+                  "गली के कुत्ते को",
+                  "अपने खिलौनों को"
+                ]
+              },
+              "answer": 0,
+              "explanation": {
+                "English": "A parent or teacher can clean the wound and help you get better.",
+                "Telugu": "అమ్మానాన్నలు లేదా టీచర్ గాయాన్ని శుభ్రం చేసి కోలుకోవడానికి సహాయం చేస్తారు.",
+                "Hindi": "माता-पिता या शिक्षक घाव साफ़ करके ठीक होने में मदद कर सकते हैं।"
+              }
+            },
+            {
+              "question": {
+                "English": "Where should medicines be kept?",
+                "Telugu": "మందులను ఎక్కడ ఉంచాలి?",
+                "Hindi": "दवाइयाँ कहाँ रखनी चाहिए?"
+              },
+              "options": {
+                "English": [
+                  "On the floor",
+                  "In a toy box",
+                  "In the kitchen sink",
+                  "Out of children's reach"
+                ],
+                "Telugu": [
+                  "నేల మీద",
+                  "బొమ్మల పెట్టెలో",
+                  "వంటింటి సింకులో",
+                  "పిల్లలకు అందని చోట"
+                ],
+                "Hindi": [
+                  "ज़मीन पर",
+                  "खिलौनों के डिब्बे में",
+                  "रसोई के सिंक में",
+                  "बच्चों की पहुँच से दूर"
+                ]
+              },
+              "answer": 3,
+              "explanation": {
+                "English": "Medicines can make children very ill if taken by mistake. Only take them from an adult.",
+                "Telugu": "పొరపాటున వేసుకుంటే మందులు పిల్లలను చాలా అనారోగ్యానికి గురిచేస్తాయి. పెద్దలు ఇచ్చినవే వేసుకోవాలి.",
+                "Hindi": "ग़लती से खाई गई दवाई बच्चों को बहुत बीमार कर सकती है। दवाई सिर्फ़ बड़ों से लें।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

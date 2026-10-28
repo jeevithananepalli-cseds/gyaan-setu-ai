@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#16213f">
+
+  <title>Gyaan Setu</title>
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.png">
+  <!-- Apply the saved theme before anything is drawn (see src/core/theme.js). -->
+  <script>
+    try {
+      var savedTheme = localStorage.getItem("gyaanTheme");
+      var theme = savedTheme === "dark" || savedTheme === "light"
+        ? savedTheme
+        : (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      document.documentElement.dataset.theme = theme;
+    } catch (error) {
+      document.documentElement.dataset.theme = "light";
+    }
+  </script>
+  <link rel="stylesheet" href="./src/styles/main.css">
+</head>
+
+<body>
+
+  <div class="shell">
+
+    <!-- =========================
+         SIDEBAR (desktop)
+    ========================== -->
+
+    <aside class="sidebar" aria-label="Main">
+
+      <div class="sidebar-brand">
+        <img src="./images/brand/logo.png" alt="" class="brand-logo">
+        <div>
+          <strong>Gyaan Setu</strong>
+          <small id="brandTagline">Learning Beyond Internet Barriers</small>
+        </div>
+      </div>
+
+      <nav class="side-nav">
+        <button class="nav-item active" data-nav="home" data-action="showHome()">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>
+          <span data-i18n="home">Home</span>
+        </button>
+        <button class="nav-item" data-nav="learn" data-action="showLearn()">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M9 7h6"/></svg>
+          <span data-i18n="learn">Learn</span>
+        </button>
+        <button class="nav-item" data-nav="practice" data-action="showWrongAnswerPractice()">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+          <span data-i18n="navPractice">Practice</span>
+        </button>
+        <button class="nav-item" data-nav="ask" data-action="openChat()">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h.01M12 10h.01M15 10h.01"/></svg>
+          <span data-i18n="askGyaan">Ask Gyaan</span>
+        </button>
+        <button class="nav-item" data-nav="progress" data-action="showProfileScreen()">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>
+          <span data-i18n="navProgress">Progress</span>
+        </button>
+      </nav>
+
+      <nav class="side-nav side-nav-secondary">
+        <button class="nav-item" data-nav="language" data-action="showLanguageScreen()">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>
+          <span data-i18n="language">Language</span>
+        </button>
+      </nav>
+
+      <div class="offline-pill">
+        <span id="networkDot"></span>
+        <div>
+          <strong id="networkText">Checking...</strong>
+          <small data-i18n="learnAnywhere">Learn anytime, anywhere</small>
+        </div>
+      </div>
+
+    </aside>
+
+    <div class="shell-main">
+
+      <!-- =========================
+           TOP BAR
+      ========================== -->
+
+      <header class="topbar">
+        <div class="topbar-brand">
+          <img src="./images/brand/logo.png" alt="" class="brand-logo">
+          <strong>Gyaan Setu</strong>
+        </div>
+
+        <div class="topbar-tools">
+          <button
+            id="themeToggle"
+            class="theme-toggle"
+            type="button"
+            aria-pressed="false"
+            data-action="toggleTheme()"
+            data-i18n-label="darkMode"
+          >
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg>
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+          <button class="language-switch" data-action="showLanguageScreen()" aria-label="Change language">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>
+            <span id="currentLanguageLabel">English</span>
+          </button>
+          <div id="accountArea" class="account-area"></div>
+        </div>
+      </header>
+
+      <!-- =========================
+           MAIN APP
+      ========================== -->
+
+      <main id="app"></main>
+
+    </div>
+
+  </div>
+
+  <div
+    id="offlineAiStatusCard"
+    class="offline-ai-status-card hidden"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+  <!-- =========================
+       FLOATING CHAT BUTTON
+  ========================== -->
+
+  <button id="chatFab" class="chat-fab" aria-label="Open Gyaan Assistant">
+    <span class="chat-fab-mascot" aria-hidden="true">🤖</span>
+    <span class="chat-fab-label" data-i18n="askGyaan">Ask Gyaan</span>
+  </button>
+
+  <!-- =========================
+       CHAT WINDOW
+  ========================== -->
+
+  <div id="chatOverlay" class="chat-overlay hidden">
+
+    <div class="chat-box" role="dialog" aria-labelledby="assistantTitle">
+
+      <div class="chat-header">
+        <button id="closeChat" class="close-chat" aria-label="Close chat">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+        </button>
+
+        <div class="assistant-title">
+          <div class="assistant-avatar" aria-hidden="true">🤖</div>
+          <div>
+            <h3 id="assistantTitle">Gyaan Assistant</h3>
+            <p id="assistantSubtitle">Smart Offline Assistant</p>
+          </div>
+        </div>
+
+        <button
+          id="autoSpeakToggle"
+          class="auto-speak-toggle"
+          type="button"
+          aria-pressed="false"
+          data-action="toggleAutoSpeak()"
+        >
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path class="wave" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>
+          <span id="autoSpeakLabel">Read aloud</span>
+        </button>
+      </div>
+
+      <div class="chat-languages" role="group" aria-label="Chat language">
+        <button type="button" data-chat-language="English" data-action="setChatLanguage('English')">English</button>
+        <button type="button" data-chat-language="Telugu" data-action="setChatLanguage('Telugu')">తెలుగు</button>
+        <button type="button" data-chat-language="Hindi" data-action="setChatLanguage('Hindi')">हिंदी</button>
+      </div>
+
+      <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+
+      <div class="suggestions"></div>
+
+      <div class="assistant-actions">
+        <button data-action="askAssistantAction('simple')">✨ <span id="simpleExplainLabel">Explain Simply</span></button>
+        <button data-action="askAssistantAction('example')">💡 <span id="exampleLabel">Give an Example</span></button>
+        <button data-action="focusAssistantInput()">↩ <span id="anotherQuestionLabel">Ask Another Question</span></button>
+        <button id="voiceStopButton" class="voice-stop-button hidden" type="button">⏹ Stop ✓</button>
+        <button id="stopSpeaking" class="stop-speaking hidden" type="button">⏹ <span id="stopSpeakingLabel">Stop Speaking</span></button>
+      </div>
+
+      <div class="chat-input-area">
+        <div class="chat-input-field">
+          <input id="chatInput" type="text" placeholder="Ask your question..." autocomplete="off">
+          <button
+            id="voiceLanguageButton"
+            class="voice-language-button hidden"
+            type="button"
+            aria-label="Speaking language"
+          >EN</button>
+          <button
+            id="voiceInputButton"
+            class="voice-input-button"
+            type="button"
+            aria-label="Tap to speak"
+            title="Tap to speak"
+          >
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+          </button>
+        </div>
+        <button id="sendChat" type="button" aria-label="Send message">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+
+      <div id="voiceInputStatus" class="voice-input-status" role="status" aria-live="polite"></div>
+      <div id="voiceInputNote" class="voice-input-note"></div>
+
+    </div>
+
+  </div>
+
+  <!-- =========================
+       BOTTOM NAVIGATION (mobile)
+  ========================== -->
+
+  <nav class="bottom-nav" aria-label="Main">
+    <button class="nav-item active" data-nav="home" data-action="showHome()">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>
+      <small data-i18n="home">Home</small>
+    </button>
+    <button class="nav-item" data-nav="learn" data-action="showLearn()">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M9 7h6"/></svg>
+      <small data-i18n="learn">Learn</small>
+    </button>
+    <button class="nav-item" data-nav="ask" data-action="openChat()">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/><path d="M9 10h.01M12 10h.01M15 10h.01"/></svg>
+      <small data-i18n="ask">Ask</small>
+    </button>
+    <button class="nav-item" data-nav="progress" data-action="showProfileScreen()">
+      <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>
+      <small data-i18n="navProgress">Progress</small>
+    </button>
+  </nav>
+
+  <script type="module" src="./src/main.js"></script>
+
+</body>
+
+</html>

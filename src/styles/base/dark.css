@@ -1,0 +1,358 @@
+/* =====================================================
+    DARK THEME
+    Applied when <html data-theme="dark">. Imported last.
+    The older per-screen styles hard-code light colours,
+    so the main surfaces are restated here.
+===================================================== */
+
+/* ---------- Theme switch (both themes) ---------- */
+
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.theme-toggle .icon-sun,
+.theme-toggle[data-theme="dark"] .icon-moon {
+  display: none;
+}
+
+.theme-toggle[data-theme="dark"] .icon-sun {
+  display: block;
+}
+
+
+/* ---------- Tokens ---------- */
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --background: #0e0f23;
+  --surface: #15163a;
+  --card: #1b1c45;
+  --border: #2e3070;
+
+  --text: #ecebff;
+  --muted: #a9a8d4;
+
+  --navy: #ecebff;
+  --primary: #8b84ff;
+  --primary-dark: #c9c6ff;
+  --primary-soft: #2a2a66;
+
+  --success: #34d399;
+  --danger: #f87171;
+  --sun: #fbbf24;
+
+  --lavender: #2a2560;
+  --lavender-ink: #c4b8ff;
+  --mint: #123d33;
+  --mint-ink: #6ee7b7;
+  --sky: #13315a;
+  --sky-ink: #93c5fd;
+  --peach: #4a2618;
+  --peach-ink: #fdba8c;
+  --butter: #3d3212;
+  --butter-ink: #fcd34d;
+
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --large-shadow: 0 22px 48px rgba(0, 0, 0, 0.5);
+  --glow: 0 12px 28px rgba(124, 116, 255, 0.35);
+}
+
+[data-theme="dark"] body {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(255, 138, 76, 0.1) 0, transparent 34rem),
+    radial-gradient(circle at 100% 0%, rgba(124, 58, 237, 0.18) 0, transparent 38rem),
+    var(--background);
+  background-attachment: fixed;
+  color: var(--text);
+}
+
+
+/* ---------- Shell ---------- */
+
+[data-theme="dark"] .sidebar {
+  background:
+    radial-gradient(circle at 20% 105%, rgba(255, 138, 76, 0.2), transparent 14rem),
+    linear-gradient(180deg, #090a1c 0%, #15134a 100%);
+}
+
+[data-theme="dark"] .side-nav .nav-item.active {
+  background: var(--primary-soft);
+  color: #fff;
+  box-shadow: none;
+}
+
+[data-theme="dark"] .theme-toggle,
+[data-theme="dark"] .language-switch,
+[data-theme="dark"] .account-button,
+[data-theme="dark"] .account-chip,
+[data-theme="dark"] .back-btn {
+  border-color: var(--border);
+  background: var(--card);
+  color: var(--text);
+}
+
+[data-theme="dark"] .account-name {
+  color: var(--text);
+}
+
+[data-theme="dark"] .bottom-nav {
+  background: rgba(27, 28, 69, 0.97);
+}
+
+[data-theme="dark"] .topbar-brand {
+  color: var(--text);
+}
+
+
+/* ---------- Text the older styles colour dark ---------- */
+
+[data-theme="dark"] #app h1,
+[data-theme="dark"] #app h2,
+[data-theme="dark"] #app h3,
+[data-theme="dark"] #app h4,
+[data-theme="dark"] .lesson-title,
+[data-theme="dark"] .lesson-description,
+[data-theme="dark"] .info-box,
+[data-theme="dark"] .info-box li,
+[data-theme="dark"] .milestone-copy strong,
+[data-theme="dark"] .stat-tile strong,
+[data-theme="dark"] .continue-copy strong,
+[data-theme="dark"] .profile-identity h2,
+[data-theme="dark"] .profile-stats strong,
+[data-theme="dark"] .badge-item strong,
+[data-theme="dark"] .auth-card label,
+[data-theme="dark"] .class-tile strong {
+  color: var(--text);
+}
+
+[data-theme="dark"] .section-heading p,
+[data-theme="dark"] .journey-page-heading p,
+[data-theme="dark"] .milestone-copy small,
+[data-theme="dark"] .stat-tile small,
+[data-theme="dark"] .continue-copy small,
+[data-theme="dark"] .continue-copy em,
+[data-theme="dark"] .explore-tile small,
+[data-theme="dark"] .class-tile small,
+[data-theme="dark"] .profile-identity p,
+[data-theme="dark"] .profile-stats span,
+[data-theme="dark"] .badge-item small,
+[data-theme="dark"] .auth-intro,
+[data-theme="dark"] .auth-note,
+[data-theme="dark"] .language-card p,
+[data-theme="dark"] .chapter-card p,
+[data-theme="dark"] .class-card p {
+  color: var(--muted);
+}
+
+[data-theme="dark"] .text-link,
+[data-theme="dark"] .journey-kicker,
+[data-theme="dark"] .quiz-progress,
+[data-theme="dark"] .chapter-number {
+  color: var(--primary);
+}
+
+
+/* ---------- Cards and surfaces ---------- */
+
+[data-theme="dark"] .language-card,
+[data-theme="dark"] .class-card,
+[data-theme="dark"] .chapter-card,
+[data-theme="dark"] .lesson-container,
+[data-theme="dark"] .quiz-card,
+[data-theme="dark"] .quiz-result,
+[data-theme="dark"] .auth-card,
+[data-theme="dark"] .profile-panel,
+[data-theme="dark"] .practice-card,
+[data-theme="dark"] .picture-activity,
+[data-theme="dark"] .empty-state,
+[data-theme="dark"] .offline-ai-settings,
+[data-theme="dark"] .badge-item,
+[data-theme="dark"] .stat-tile,
+[data-theme="dark"] .path-milestone,
+[data-theme="dark"] .weak-level-card,
+[data-theme="dark"] .quiz-level-tab,
+[data-theme="dark"] .quiz-submit-bar,
+[data-theme="dark"] .profile-stats div {
+  border-color: var(--border);
+  background: var(--card);
+  color: var(--text);
+}
+
+[data-theme="dark"] .path-milestone.active {
+  background: var(--card);
+  box-shadow: 0 0 0 2px var(--primary), var(--large-shadow);
+}
+
+[data-theme="dark"] .milestone-dot {
+  border-color: var(--card);
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+}
+
+[data-theme="dark"] .milestone-status {
+  background: var(--surface);
+  color: var(--muted);
+}
+
+[data-theme="dark"] .learning-path::before {
+  border-left-color: var(--border);
+}
+
+[data-theme="dark"] .home-banner .continue-card {
+  background: rgba(21, 22, 58, 0.94);
+  color: var(--text);
+}
+
+[data-theme="dark"] .progress-track {
+  background: var(--primary-soft);
+}
+
+[data-theme="dark"] .lesson-image,
+[data-theme="dark"] .lesson-fallback-visual {
+  background: #fff;
+}
+
+[data-theme="dark"] .info-box {
+  background: linear-gradient(135deg, #24215a, #1d1b4d);
+}
+
+[data-theme="dark"] .info-box.activity-box {
+  background: linear-gradient(135deg, #3a2f12, #2c240f);
+}
+
+[data-theme="dark"] .picture-option,
+[data-theme="dark"] .quiz-option {
+  border-color: var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+[data-theme="dark"] .quiz-option.selected {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+[data-theme="dark"] .quiz-option.correct {
+  border-color: var(--success);
+  background: rgba(52, 211, 153, 0.14);
+}
+
+[data-theme="dark"] .quiz-option.wrong {
+  border-color: var(--danger);
+  background: rgba(248, 113, 113, 0.14);
+}
+
+
+/* ---------- Tiles: deeper versions of the pastels ---------- */
+
+[data-theme="dark"] .tone-lavender { background: linear-gradient(145deg, #2b2566, #211c52); }
+[data-theme="dark"] .tone-mint { background: linear-gradient(145deg, #11453a, #0d342c); }
+[data-theme="dark"] .tone-sky { background: linear-gradient(145deg, #143866, #0f2b4f); }
+[data-theme="dark"] .tone-peach { background: linear-gradient(145deg, #552c1b, #3f2014); }
+
+[data-theme="dark"] .tone-lavender strong { color: #c9bfff; }
+[data-theme="dark"] .tone-mint strong { color: #7ff0c3; }
+[data-theme="dark"] .tone-sky strong { color: #a5ccff; }
+[data-theme="dark"] .tone-peach strong { color: #ffc29e; }
+
+[data-theme="dark"] .explore-icon {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .explore-tile::after,
+[data-theme="dark"] .class-tile::before {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+[data-theme="dark"] .class-tile.tone-0 { background: linear-gradient(160deg, #4a3d12, #382d0c); }
+[data-theme="dark"] .class-tile.tone-1 { background: linear-gradient(160deg, #11453a, #0d342c); }
+[data-theme="dark"] .class-tile.tone-2 { background: linear-gradient(160deg, #143866, #0f2b4f); }
+[data-theme="dark"] .class-tile.tone-3 { background: linear-gradient(160deg, #2b2566, #211c52); }
+[data-theme="dark"] .class-tile.tone-4 { background: linear-gradient(160deg, #552c1b, #3f2014); }
+
+[data-theme="dark"] .class-tile.selected {
+  background: var(--gradient-primary);
+}
+
+[data-theme="dark"] .home-stats .stat-tile > span {
+  filter: saturate(0.9) brightness(0.85);
+}
+
+[data-theme="dark"] .offline-stamp {
+  background: rgba(52, 211, 153, 0.16);
+  color: var(--mint-ink);
+}
+
+
+/* ---------- Forms ---------- */
+
+[data-theme="dark"] input,
+[data-theme="dark"] .auth-card input {
+  border-color: var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+[data-theme="dark"] input::placeholder {
+  color: var(--muted);
+}
+
+
+/* ---------- Ask Gyaan ---------- */
+
+[data-theme="dark"] .chat-box {
+  background: var(--background);
+}
+
+[data-theme="dark"] .chat-languages {
+  background: var(--surface);
+}
+
+[data-theme="dark"] .chat-languages button {
+  color: var(--muted);
+}
+
+[data-theme="dark"] .chat-languages button[aria-pressed="true"] {
+  color: #fff;
+}
+
+[data-theme="dark"] .bot-message .message-content,
+[data-theme="dark"] .bot-message::before,
+[data-theme="dark"] .chat-input-field {
+  background: var(--card);
+  color: var(--text);
+}
+
+[data-theme="dark"] #chatInput {
+  color: var(--text);
+}
+
+[data-theme="dark"] .message.thinking .message-content {
+  background: var(--surface);
+}
+
+[data-theme="dark"] .suggestions button {
+  filter: brightness(0.82) saturate(0.9);
+}
+
+[data-theme="dark"] .assistant-actions button {
+  border-color: var(--border);
+  color: var(--primary-dark);
+}
+
+[data-theme="dark"] .offline-ai-status-card {
+  border-color: var(--border);
+  background: var(--card);
+  color: var(--muted);
+}

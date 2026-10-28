@@ -1,0 +1,382 @@
+/* =====================================================
+    THEME
+    Imported last. Restyles the shared pieces every screen
+    uses (page, headings, buttons, cards) in the cream-and-
+    navy look, on top of the older per-screen layouts.
+===================================================== */
+
+body {
+  padding-bottom: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  width: min(1080px, 100%);
+  margin: 0 auto;
+  padding: 10px 36px 96px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
+button:hover {
+  transform: none;
+}
+
+
+/* ---------- Headings ---------- */
+
+.section-heading {
+  margin-bottom: 20px;
+}
+
+.section-heading h2 {
+  color: var(--navy);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.section-heading p {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+
+/* ---------- Buttons ---------- */
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+  padding: 8px 14px 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card);
+  box-shadow: none;
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.back-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary-dark);
+}
+
+.action-btn,
+.primary-btn {
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--navy);
+  box-shadow: 0 8px 18px rgba(22, 33, 63, 0.22);
+  color: #fff;
+  font-weight: 800;
+  transition: background 0.15s, transform 0.15s;
+}
+
+.action-btn:hover,
+.primary-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+}
+
+.action-btn.green-btn {
+  background: var(--primary);
+  box-shadow: 0 8px 18px rgba(61, 79, 181, 0.28);
+}
+
+.action-btn:disabled {
+  background: #d9d6cf;
+  box-shadow: none;
+  color: #8b8a86;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+/* ---------- Cards ---------- */
+
+.language-card,
+.class-card,
+.chapter-card,
+.lesson-container,
+.quiz-card,
+.quiz-result,
+.auth-card,
+.profile-panel,
+.practice-card,
+.picture-activity,
+.empty-state,
+.badge-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+.language-card,
+.class-card,
+.chapter-card {
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.language-card:hover,
+.class-card:hover,
+.chapter-card:hover {
+  border-color: var(--primary);
+  box-shadow: var(--large-shadow);
+  transform: translateY(-3px);
+}
+
+.language-card h3,
+.class-card h3,
+.chapter-card h3 {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.language-card p,
+.class-card p,
+.chapter-card p {
+  color: var(--muted);
+}
+
+.language-symbol,
+.class-icon {
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+}
+
+.language-grid .language-card:nth-child(2) .language-symbol {
+  background: var(--mint);
+  color: var(--mint-ink);
+}
+
+.language-grid .language-card:nth-child(3) .language-symbol {
+  background: var(--peach);
+  color: var(--peach-ink);
+}
+
+.class-grid .class-card:nth-child(5n + 1) .class-icon { background: var(--butter); }
+.class-grid .class-card:nth-child(5n + 2) .class-icon { background: var(--mint); }
+.class-grid .class-card:nth-child(5n + 3) .class-icon { background: var(--sky); }
+.class-grid .class-card:nth-child(5n + 4) .class-icon { background: var(--lavender); }
+.class-grid .class-card:nth-child(5n + 5) .class-icon { background: var(--peach); }
+
+.chapter-number,
+.class-card-count {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.completed-badge {
+  border-radius: 999px;
+  background: var(--mint);
+  color: var(--mint-ink);
+  font-weight: 800;
+}
+
+
+/* ---------- Lesson ---------- */
+
+.lesson-title {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.lesson-description {
+  color: var(--text);
+  line-height: 1.7;
+}
+
+.lesson-image {
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.info-box {
+  border: 1px solid #d9d5f5;
+  border-radius: 16px;
+  background: var(--lavender);
+  color: var(--text);
+}
+
+.info-box.activity-box {
+  border-color: #f4dfa0;
+  background: var(--butter);
+}
+
+.picture-option {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.picture-option:hover:not(:disabled) {
+  border-color: var(--primary);
+}
+
+
+/* ---------- Quiz ---------- */
+
+.quiz-progress {
+  color: var(--primary);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.quiz-option {
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 700;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.quiz-option:hover:not(:disabled) {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.quiz-option.correct,
+.quiz-option.practice-correct,
+.picture-option.correct {
+  border-color: var(--success);
+  background: var(--mint);
+  color: var(--mint-ink);
+}
+
+.quiz-option.wrong,
+.quiz-option.practice-wrong,
+.picture-option.wrong {
+  border-color: var(--danger);
+  background: #fde3e1;
+  color: #a5302c;
+}
+
+.quiz-feedback {
+  font-weight: 700;
+}
+
+
+/* ---------- Sign in ---------- */
+
+.auth-card input {
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.auth-card input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-soft);
+  outline: 0;
+}
+
+.auth-icon {
+  background: var(--primary-soft);
+}
+
+.auth-badge,
+.hero-badge {
+  border-radius: 999px;
+  background: var(--mint);
+  color: var(--mint-ink);
+}
+
+.auth-switch button {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+
+/* ---------- Profile ---------- */
+
+.profile-avatar {
+  background: var(--primary);
+  color: #fff;
+}
+
+.profile-stats div {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+}
+
+.profile-stats strong {
+  color: var(--navy);
+}
+
+.badge-item.locked {
+  background: var(--surface);
+  box-shadow: none;
+  opacity: 0.65;
+}
+
+.practice-topic {
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+}
+
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 900px) {
+  #app {
+    padding: 6px 16px calc(150px + env(safe-area-inset-bottom));
+  }
+}
+
+
+/* ---------- On-device AI row (profile) ---------- */
+
+.offline-ai-settings {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.offline-ai-settings-icon {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  flex: none;
+  border-radius: 14px;
+  background: var(--lavender);
+  font-size: 1.4rem;
+}
+
+.offline-ai-settings > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.offline-ai-settings strong {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.offline-ai-settings p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
