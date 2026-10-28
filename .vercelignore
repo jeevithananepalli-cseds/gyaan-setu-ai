@@ -1,0 +1,11 @@
+# Not uploaded by `vercel deploy`. The AI models (1.2 GB) are hosted
+# separately and set with VITE_MODELS_URL; see docs/PRODUCTION_DEPLOYMENT.md.
+public/models/**
+!public/models/**/README.md
+node_modules
+dist
+test-results
+playwright-report
+coverage
+gyaan setu
+zz-*

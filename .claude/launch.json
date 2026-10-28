@@ -1,31 +1,8 @@
 {
   "version": "0.0.1",
   "configurations": [
-    {
-      "name": "preview",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": [
-        "run",
-        "preview",
-        "--",
-        "--port",
-        "4173",
-        "--strictPort"
-      ],
-      "port": 4173
-    },
-    {
-      "name": "dev",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": [
-        "run",
-        "dev",
-        "--",
-        "--port",
-        "5173",
-        "--strictPort"
-      ],
-      "port": 5173
-    }
+    { "name": "preview", "runtimeExecutable": "npm", "runtimeArgs": ["run", "preview", "--", "--port", "4173", "--strictPort"], "port": 4173 },
+    { "name": "dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev", "--", "--port", "5173", "--strictPort"], "port": 5173 },
+    { "name": "models-host", "runtimeExecutable": "node", "runtimeArgs": ["C:/Users/jeevi/AppData/Local/Temp/claude/C--Users-jeevi-OneDrive-Desktop-Team5-GyaanSetu-SAFE-BACKUP/349ae74e-3db0-43b3-88c4-0d80ce8251aa/scratchpad/tools/models-host.cjs", "public/models", "4180"], "port": 4180 }
   ]
 }
