@@ -283,13 +283,15 @@ so about ₹8,000 for 1,000 new learners.
 If you cannot buy a domain yet:
 
 - The app can run on `https://gyaan-setu.pages.dev` (free, Phases 5 and 7).
-- Host the models on **Hugging Face** instead of R2: create a free account,
-  make a public model repository (for example `gyaan-setu/models`), and
-  upload `public/models/` with the `huggingface-cli upload` command. Then set
-  `VITE_MODELS_URL` to
-  `https://huggingface.co/<user>/<repo>/resolve/main/`.
-  Hugging Face is free, sends the right CORS headers, and has no download
-  fees.
+- Host the models on **Hugging Face** instead of R2:
+  Your model repository is uploaded and live at:
+  `https://huggingface.co/nanepallijeevitha050607/gyaan-setu-models`
+
+  Set the environment variable in your deployment platform (Vercel or Cloudflare Pages):
+  ```
+  VITE_MODELS_URL=https://huggingface.co/nanepallijeevitha050607/gyaan-setu-models/resolve/main/
+  ```
+  Hugging Face is free, provides fast CDN bandwidth, sends the required CORS headers, and has zero download fees.
 
 You can move the models to R2 later by uploading them and changing
 `VITE_MODELS_URL`; no code changes are needed.
