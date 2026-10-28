@@ -28,7 +28,8 @@ export const MATCH_OPTIONS = { ignoreVary: true };
 // apart from the app (see docs/PRODUCTION_DEPLOYMENT.md) and the build sets
 // VITE_MODELS_URL, ending with "/". Without it they come from the app's own
 // models/ folder (public/models/ during development).
-const MODELS_URL = import.meta.env?.VITE_MODELS_URL || "";
+// Trimmed: a value pasted into a hosting dashboard often carries a newline.
+const MODELS_URL = String(import.meta.env?.VITE_MODELS_URL || "").trim();
 
 export function modelsBaseUrl(appBaseUrl) {
   if (!MODELS_URL) return `${appBaseUrl}models/`;

@@ -1,4 +1,4 @@
-import { modelsBaseUrl } from "../config/constants.js";
+import { AI_CACHE_NAME, MATCH_OPTIONS, modelsBaseUrl } from "../config/constants.js";
 import { SYSTEM_PROMPT, trimToSentence } from "./prompts.js";
 
 let pipeline = null;
@@ -42,6 +42,66 @@ function status(state) {
   self.postMessage({ type: "status", state });
 }
 
+// The model file is stored as parts (see SPLIT_FILES in the service worker),
+// which joins them from the AI cache when the runtime asks for the file.
+const MODEL_PARTS = ["aa", "ab", "ac"];
+
+// Downloads the parts that are not on the device yet into the AI cache,
+// reporting progress. Done here rather than left to the service worker, which
+// would download all 270 MB before answering the runtime: no progress could
+// be shown, and on a slow connection the browser stopped the service worker
+// before it finished.
+async function downloadModelParts(baseUrl) {
+  let cache;
+  try {
+    cache = await caches.open(AI_CACHE_NAME);
+  }
+  catch {
+    return; // No storage: the service worker downloads the file itself.
+  }
+
+  const folder = `${modelsBaseUrl(baseUrl)}${MODEL_PATH}/onnx/`;
+  const urls = MODEL_PARTS.map(suffix => `${folder}model_q4f16.onnx.part-${suffix}`);
+  const missing = [];
+  for (const url of urls) {
+    if (!(await cache.match(url, MATCH_OPTIONS))) missing.push(url);
+  }
+  if (!missing.length) return;
+
+  const received = missing.map(() => 0);
+  const sizes = missing.map(() => 0);
+  let lastPercent = -1;
+  const report = () => {
+    // Wait until every part has reported its size, or the total is a guess.
+    if (sizes.some(size => !size)) return;
+    const total = sizes.reduce((sum, size) => sum + size, 0);
+    const percent = Math.min(99, Math.floor((received.reduce((sum, bytes) => sum + bytes, 0) / total) * 100));
+    if (percent === lastPercent) return;
+    lastPercent = percent;
+    self.postMessage({ type: "status", state: "preparing", progress: percent });
+  };
+
+  await Promise.all(missing.map(async (url, index) => {
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) throw new Error(`model file missing (${response.status})`);
+    sizes[index] = Number(response.headers.get("Content-Length")) || 1;
+
+    const reader = response.body.getReader();
+    const chunks = [];
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      received[index] += value.byteLength;
+      report();
+    }
+
+    await cache.put(url, new Response(new Blob(chunks), {
+      headers: { "Content-Type": "application/octet-stream" }
+    }));
+  }));
+}
+
 async function loadQuestionAnswerer(device) {
   // The runtime reports every chunk it reads; the page only needs to hear
   // when the percentage changes.
@@ -65,6 +125,7 @@ self.onmessage = async event => {
     try {
       status("preparing");
       await loadRuntime(message.baseUrl);
+      await downloadModelParts(message.baseUrl);
       const useWebGpu = message.device ? message.device === "webgpu" : Boolean(navigator.gpu);
       backend = useWebGpu ? "webgpu" : "wasm";
       try {

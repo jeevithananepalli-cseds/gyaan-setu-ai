@@ -186,12 +186,11 @@ export async function preloadOfflineAi() {
   if (state.offlineAiEngine || state.aiReadyPromise || state.aiState === "error") return;
   if (navigator.deviceMemory && navigator.deviceMemory <= 2) return;
   try {
-    // The marker is written by the background download; a model saved while
-    // answering has its parts stored without it.
+    // Only when all the model's parts are stored: the background download
+    // (AI_READY_MARKER) saves the runtime but not the model itself.
     const parts = ["aa", "ab", "ac"].map(suffix =>
       `${modelsBaseUrl(new URL("./", document.baseURI).href)}${OFFLINE_AI_MODEL}/onnx/model_q4f16.onnx.part-${suffix}`);
-    const stored = (await caches.match(AI_READY_MARKER, MATCH_OPTIONS)) ||
-      (await Promise.all(parts.map(part => caches.match(part, MATCH_OPTIONS)))).every(Boolean);
+    const stored = (await Promise.all(parts.map(part => caches.match(part, MATCH_OPTIONS)))).every(Boolean);
     if (stored) prepareOfflineAi();
   }
   catch {

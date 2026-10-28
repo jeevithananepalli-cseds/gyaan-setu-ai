@@ -60,10 +60,9 @@ const AI_FILES = [
     "tokenizer_config.json",
     "special_tokens_map.json",
     "vocab.json",
-    "merges.txt",
-    "onnx/model_q4f16.onnx.part-aa",
-    "onnx/model_q4f16.onnx.part-ab",
-    "onnx/model_q4f16.onnx.part-ac"
+    "merges.txt"
+    // The model itself (270 MB) is downloaded by the model worker when a
+    // question first needs it, never in the background.
   ].map(file => `${MODELS_URL}SmolLM2-360M-Instruct/${file}`)
 ];
 
@@ -200,7 +199,9 @@ self.addEventListener("fetch", event => {
 
   // Voice, translation and speech files are stored by their workers in their
   // own caches; storing them here as well would keep two copies of each model.
-  if (model !== null && /^(tts|indictrans2|whisper)\//.test(model)) {
+  // The tutor model's parts are downloaded by the model worker, which shows
+  // the progress, and stored by it in the AI cache.
+  if (model !== null && (/^(tts|indictrans2|whisper)\//.test(model) || /\.part-[a-z]+$/.test(model.split("?")[0]))) {
     event.respondWith(fetch(event.request).then(withIsolationHeaders));
     return;
   }
@@ -222,7 +223,9 @@ self.addEventListener("fetch", event => {
         const cached = await cache.match(event.request, MATCH_OPTIONS);
         if (cached) return withIsolationHeaders(cached);
         const response = await fetch(event.request);
-        if (response.ok) await cache.put(event.request, response.clone());
+        // Stored in the background, so the file reaches the page as it
+        // downloads instead of after the whole of it has arrived.
+        if (response.ok) event.waitUntil(cache.put(event.request, response.clone()).catch(() => {}));
         return withIsolationHeaders(response);
       })
     );
